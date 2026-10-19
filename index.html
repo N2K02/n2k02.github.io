@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Android apps by N2K02: downloads, project information, source repositories and releases.">
+  <meta name="theme-color" content="#101827">
+  <title>N2K02 — Android Apps</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2e; --panel2:#152238; --text:#edf3ff; --muted:#a7b7d0; --line:#263750; --accent:#8ab4ff; --green:#a5e6bc; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(ellipse at top left,#1a2b48 0,transparent 45%),var(--bg); color:var(--text); }
+    a { color:var(--accent); }
+    .wrap { width:min(1120px,calc(100% - 32px)); margin:auto; }
+    header { padding:64px 0 36px; }
+    .eyebrow { color:var(--green); font-size:.82rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { font-size:clamp(2.3rem,6vw,4.4rem); line-height:1.05; letter-spacing:-.04em; margin:.5rem 0 1rem; }
+    .intro { max-width:700px; color:var(--muted); font-size:1.1rem; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:24px; }
+    .button { display:inline-block; padding:10px 15px; border:1px solid var(--line); border-radius:10px; text-decoration:none; font-weight:650; }
+    .button.primary { color:#071225; background:var(--accent); border-color:var(--accent); }
+    h2 { margin:32px 0 16px; font-size:1.45rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:16px; padding-bottom:28px; }
+    .card { display:flex; flex-direction:column; gap:10px; padding:20px; border:1px solid var(--line); background:linear-gradient(160deg,var(--panel2),var(--panel)); border-radius:16px; min-height:230px; }
+    .card h3 { margin:0; font-size:1.18rem; }
+    .card p { margin:0; color:var(--muted); flex:1; }
+    .status { font-size:.78rem; font-weight:700; color:var(--green); }
+    .status.planned { color:#f1ce8b; }
+    .links { display:flex; gap:14px; flex-wrap:wrap; padding-top:8px; border-top:1px solid var(--line); }
+    .links a { font-weight:650; font-size:.92rem; }
+    .note { border-left:3px solid var(--accent); padding:10px 16px; color:var(--muted); background:#101a2a; border-radius:0 10px 10px 0; margin:12px 0 32px; }
+    footer { border-top:1px solid var(--line); padding:24px 0 40px; color:var(--muted); font-size:.9rem; }
+    footer a { margin-right:14px; }
+    @media (prefers-reduced-motion:no-preference) { .card { transition:transform .15s ease,border-color .15s ease; } .card:hover { transform:translateY(-2px); border-color:#4c6890; } }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">Independent Android projects</div>
+    <h1>Apps by N2K02</h1>
+    <p class="intro">Android utilities and experiments, built with a focus on practical features. Find each project's details, source code, releases and APK downloads through its official GitHub repository.</p>
+    <div class="actions">
+      <a class="button primary" href="https://github.com/N2K02">View GitHub profile</a>
+      <a class="button" href="https://github.com/N2K02?tab=repositories">All repositories</a>
+    </div>
+  </header>
+  <main class="wrap">
+    <h2>Apps and tools</h2>
+    <section class="grid" aria-label="Android applications">
+      <article class="card">
+        <div class="status">Android utility</div><h3>PCL — Bluetooth Call Companion</h3>
+        <p>Use a second Android phone as a Bluetooth companion for a SIM-equipped gateway phone, with supported call status, notifications and commands.</p>
+        <div class="links"><a href="https://github.com/N2K02/PCL">Project</a><a href="https://github.com/N2K02/PCL/releases/latest">Latest release</a><a href="https://github.com/N2K02/PCL/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Camera utility</div><h3>BCam</h3>
+        <p>Background video recorder for Android, with front and back camera options and recording controls through its notification.</p>
+        <div class="links"><a href="https://github.com/N2K02/BCam">Project</a><a href="https://github.com/N2K02/BCam/releases/latest">Latest release</a><a href="https://github.com/N2K02/BCam/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Media casting</div><h3>PixelCast</h3>
+        <p>Cast local videos and music from Android to compatible Samsung TVs through DLNA/UPnP, with playback controls in a notification.</p>
+        <div class="links"><a href="https://github.com/N2K02/PixelCast">Project</a><a href="https://github.com/N2K02/PixelCast/releases/latest">Latest release</a><a href="https://github.com/N2K02/PixelCast/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Network utility</div><h3>NetSpeed</h3>
+        <p>Shows current phone-wide download and upload activity in the Android status bar.</p>
+        <div class="links"><a href="https://github.com/N2K02/NetSpeed">Project</a><a href="https://github.com/N2K02/NetSpeed/releases/latest">Latest release</a><a href="https://github.com/N2K02/NetSpeed/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Radio and Android Auto</div><h3>MRadio</h3>
+        <p>Listen to Mauritian and international online radio stations on Android, including Android Auto support.</p>
+        <div class="links"><a href="https://github.com/N2K02/MRadio">Project</a><a href="https://github.com/N2K02/MRadio/releases/latest">Latest release</a><a href="https://github.com/N2K02/MRadio/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Earbud utility</div><h3>HFreebuds</h3>
+        <p>Control Huawei FreeBuds settings and features from Android without relying on Huawei AI Life.</p>
+        <div class="links"><a href="https://github.com/N2K02/HFreebuds">Project</a><a href="https://github.com/N2K02/HFreebuds/releases/latest">Latest release</a><a href="https://github.com/N2K02/HFreebuds/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Network diagnostics</div><h3>SpeedTester</h3>
+        <p>Run download/upload speed tests and inspect latency, jitter, Wi-Fi details and saved test results.</p>
+        <div class="links"><a href="https://github.com/N2K02/SpeedTester">Project</a><a href="https://github.com/N2K02/SpeedTester/releases/latest">Latest release</a><a href="https://github.com/N2K02/SpeedTester/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Call-recording research</div><h3>ShizuCallRecorder</h3>
+        <p>A fork of ShizuCallRecorder. See its repository for the current implementation, setup notes and release availability.</p>
+        <div class="links"><a href="https://github.com/N2K02/ShizuCallRecorder">Project</a><a href="https://github.com/N2K02/ShizuCallRecorder/releases/latest">Latest release</a><a href="https://github.com/N2K02/ShizuCallRecorder/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">YouTube and Android Auto</div><h3>AAYoutube</h3>
+        <p>YouTube WebView player for Android with media features and audio playback integration for Android Auto.</p>
+        <div class="links"><a href="https://github.com/N2K02/AAYoutube">Project</a><a href="https://github.com/N2K02/AAYoutube/releases/latest">Latest release</a><a href="https://github.com/N2K02/AAYoutube/releases">All releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status">Android project</div><h3>Call Recorder for Android</h3>
+        <p>Project placeholder. Check the repository for updates; no source code or APK was published there when this page was created.</p>
+        <div class="links"><a href="https://github.com/N2K02/Call-recorder-for-android">Project</a><a href="https://github.com/N2K02/Call-recorder-for-android/releases">Releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status planned">Project placeholder</div><h3>ChargeWatt</h3>
+        <p>Repository placeholder. Project details and a downloadable build will be added when available.</p>
+        <div class="links"><a href="https://github.com/N2K02/ChargeWatt">Project</a><a href="https://github.com/N2K02/ChargeWatt/releases">Releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status planned">Project placeholder</div><h3>MovieTogether</h3>
+        <p>Repository placeholder. Project details and a downloadable build will be added when available.</p>
+        <div class="links"><a href="https://github.com/N2K02/MovieTogether">Project</a><a href="https://github.com/N2K02/MovieTogether/releases">Releases</a></div>
+      </article>
+      <article class="card">
+        <div class="status planned">Project placeholder</div><h3>CallerIndentifier</h3>
+        <p>Repository placeholder. Project details and a downloadable build will be added when available.</p>
+        <div class="links"><a href="https://github.com/N2K02/CallerIndentifier">Project</a><a href="https://github.com/N2K02/CallerIndentifier/releases">Releases</a></div>
+      </article>
+    </section>
+    <div class="note">APK availability depends on whether a release has been published for each project. For source code, changelogs, installation instructions and issue reporting, use the corresponding repository.</div>
+  </main>
+  <footer><div class="wrap">Maintained by <a href="https://github.com/N2K02">N2K02 on GitHub</a> · <a href="https://github.com/N2K02?tab=repositories">Browse projects</a></div></footer>
+</body>
+</html>
