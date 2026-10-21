@@ -3,50 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Android apps by N2K02: downloads, project information, source repositories and releases.">
-  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Discover modern Android apps, utilities and developer projects by N2K02.">
+  <meta name="theme-color" content="#080d18">
   <title>N2K02 — Android Apps</title>
   <style>
-    :root { color-scheme: dark; --bg:#0b1220; --panel:#111c2e; --panel2:#152238; --text:#edf3ff; --muted:#a7b7d0; --line:#263750; --accent:#8ab4ff; --green:#a5e6bc; }
-    * { box-sizing:border-box; }
-    body { margin:0; font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(ellipse at top left,#1a2b48 0,transparent 45%),var(--bg); color:var(--text); }
-    a { color:var(--accent); }
-    .wrap { width:min(1120px,calc(100% - 32px)); margin:auto; }
-    header { padding:64px 0 36px; }
-    .eyebrow { color:var(--green); font-size:.82rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; }
-    h1 { font-size:clamp(2.3rem,6vw,4.4rem); line-height:1.05; letter-spacing:-.04em; margin:.5rem 0 1rem; }
-    .intro { max-width:700px; color:var(--muted); font-size:1.1rem; }
-    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:24px; }
-    .button { display:inline-block; padding:10px 15px; border:1px solid var(--line); border-radius:10px; text-decoration:none; font-weight:650; }
-    .button.primary { color:#071225; background:var(--accent); border-color:var(--accent); }
-    h2 { margin:32px 0 16px; font-size:1.45rem; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:16px; padding-bottom:28px; }
-    .card { display:flex; flex-direction:column; gap:10px; padding:20px; border:1px solid var(--line); background:linear-gradient(160deg,var(--panel2),var(--panel)); border-radius:16px; min-height:230px; }
-    .card h3 { margin:0; font-size:1.18rem; }
-    .card p { margin:0; color:var(--muted); flex:1; }
-    .status { font-size:.78rem; font-weight:700; color:var(--green); }
-    .status.planned { color:#f1ce8b; }
-    .links { display:flex; gap:14px; flex-wrap:wrap; padding-top:8px; border-top:1px solid var(--line); }
-    .links a { font-weight:650; font-size:.92rem; }
-    .note { border-left:3px solid var(--accent); padding:10px 16px; color:var(--muted); background:#101a2a; border-radius:0 10px 10px 0; margin:12px 0 32px; }
-    footer { border-top:1px solid var(--line); padding:24px 0 40px; color:var(--muted); font-size:.9rem; }
-    footer a { margin-right:14px; }
-    @media (prefers-reduced-motion:no-preference) { .card { transition:transform .15s ease,border-color .15s ease; } .card:hover { transform:translateY(-2px); border-color:#4c6890; } }
+    :root{color-scheme:dark;--bg:#080d18;--surface:#111a2a;--line:#27354b;--text:#f3f6ff;--muted:#a6b5cb;--accent:#91b8ff;--mint:#74e2c0}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse 75% 35% at 50% -8%,#263c67 0%,transparent 75%),var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--mint);outline-offset:3px}.wrap{width:min(1160px,calc(100% - 40px));margin-inline:auto}
+    .topbar{display:flex;justify-content:space-between;align-items:center;padding:24px 0;gap:16px}.brand{font-size:1.1rem;font-weight:850;letter-spacing:-.04em;text-decoration:none}.brand span{color:var(--mint)}.navlink{color:var(--muted);text-decoration:none;font-size:.9rem}.navlink:hover{color:var(--text)}
+    header.hero{padding:80px 0 72px;text-align:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #36526a;border-radius:99px;padding:6px 14px;background:#17253b;color:var(--mint);font-size:.78rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase}.eyebrow:before{content:"";height:7px;width:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 12px var(--mint)}
+    h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:1.07;letter-spacing:-.065em;margin:24px 0 20px}h1 em{font-style:normal;background:linear-gradient(90deg,#96b9ff,#82ead0);background-clip:text;-webkit-background-clip:text;color:transparent}.intro{max-width:690px;margin:0 auto;color:var(--muted);font-size:clamp(1rem,2vw,1.17rem)}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}.button{padding:12px 19px;border:1px solid #3b4b63;border-radius:12px;text-decoration:none;font-weight:700;background:#152138}.button.primary{background:var(--accent);border-color:var(--accent);color:#0b1730}.button:hover{filter:brightness(1.12)}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;flex-wrap:wrap;margin-bottom:24px}.section-head h2{font-size:1.7rem;letter-spacing:-.04em;margin:0}.section-head p{margin:4px 0 0;color:var(--muted);font-size:.94rem}.search{background:#111b2b;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 15px;font:inherit;width:min(100%,300px)}.search::placeholder{color:#8c9bb2}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-bottom:35px}.card[hidden]{display:none!important}.card{display:flex;flex-direction:column;gap:13px;min-height:245px;padding:25px;background:linear-gradient(150deg,#17243a,#101a2b 80%);border:1px solid var(--line);border-radius:20px;position:relative;overflow:hidden}.card:before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent);opacity:.65}.card h3{font-size:1.2rem;letter-spacing:-.025em;line-height:1.35;margin:0}.card p{color:var(--muted);font-size:.94rem;margin:0;flex:1}.status{font-size:.73rem;font-weight:800;letter-spacing:.065em;text-transform:uppercase;color:var(--mint)}.links{display:flex;flex-wrap:wrap;gap:14px;padding-top:15px;border-top:1px solid var(--line)}.links a{font-size:.87rem;font-weight:700;text-decoration:none;color:var(--accent)}.links a:hover{text-decoration:underline}.note{padding:18px 20px;margin:0 0 52px;border:1px solid var(--line);border-radius:14px;color:var(--muted);background:#111b2a;font-size:.9rem}footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}footer a{text-decoration:none;color:var(--accent)}.empty{display:none;color:var(--muted);padding:20px 0}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}header.hero{padding:55px 0}}@media(max-width:600px){.wrap{width:min(100% - 28px,1160px)}.grid{grid-template-columns:1fr}.card{min-height:0;padding:22px}.section-head{align-items:stretch}.search{width:100%}header.hero{padding:42px 0 50px}.topbar{padding:18px 0}}@media(prefers-reduced-motion:no-preference){.card{transition:transform .2s,border-color .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);border-color:#4b6c95;box-shadow:0 18px 45px #0003}.button{transition:filter .2s}}
   </style>
 </head>
 <body>
-  <header class="wrap">
-    <div class="eyebrow">Independent Android projects</div>
-    <h1>Apps by N2K02</h1>
-    <p class="intro">Android utilities and experiments, built with a focus on practical features. Find each project's details, source code, releases and APK downloads through its official GitHub repository.</p>
-    <div class="actions">
-      <a class="button primary" href="https://github.com/N2K02">View GitHub profile</a>
-      <a class="button" href="https://github.com/N2K02?tab=repositories">All repositories</a>
-    </div>
+  <nav class="topbar wrap" aria-label="Main navigation"><a class="brand" href="/">N2K<span>02.</span></a><a class="navlink" href="https://github.com/N2K02" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+  <header class="hero wrap">
+    <div class="eyebrow">Independent software projects</div>
+    <h1>Useful apps.<br><em>Built with purpose.</em></h1>
+    <p class="intro">Explore Android apps, developer tools and experiments by N2K02. Discover projects, browse source code and find releases — all in one place.</p>
+    <div class="actions"><a class="button primary" href="#projects">Explore projects ↓</a><a class="button" href="https://github.com/N2K02">View GitHub ↗</a></div>
   </header>
   <main class="wrap">
-    <h2>Apps and tools</h2>
-    <section class="grid" aria-label="Projects">
+    <div class="section-head"><div><h2>Projects & tools</h2><p>Explore the collection of public projects.</p></div><input id="project-search" class="search" type="search" placeholder="Search projects…" aria-label="Search projects" autocomplete="off"></div>
+    <section id="projects" class="grid" aria-label="Projects">
       <article class="card">
         <div class="status">Android utility</div><h3>PCL — Bluetooth Call Companion</h3>
         <p>Use a second Android phone as a Bluetooth companion for a SIM-equipped gateway phone. Manage calls, notifications and contacts from the remote phone.</p>
@@ -88,11 +70,6 @@
         <div class="links"><a href="https://github.com/N2K02/SpeedTester">Project</a><a href="https://github.com/N2K02/SpeedTester/releases/latest">Latest APK</a><a href="https://github.com/N2K02/SpeedTester/releases">All releases</a></div>
       </article>
       <article class="card">
-        <div class="status">Android call recorder</div><h3>VREC</h3>
-        <p>Personal call recorder for Android with automatic recording, an on-device recordings library, caller details, search and filters, favorites, notes, playback controls, and M4A audio with JSON metadata. Call-audio capture depends on the phone, Android version and audio route; recording the other party is not guaranteed on every device.</p>
-        <div class="links"><a href="https://github.com/N2K02/VREC">Project</a><a href="https://github.com/N2K02/VREC/releases/latest">Latest APK</a><a href="https://github.com/N2K02/VREC/releases">All releases</a></div>
-      </article>
-      <article class="card">
         <div class="status">Experimental call recording</div><h3>CallRecorder</h3>
         <p>Experimental Android call-recording project exploring local USB ADB and scrcpy-based capture, with a fallback approach under investigation. Check the repository for setup instructions and current build availability.</p>
         <div class="links"><a href="https://github.com/N2K02/CallRecorder">Project</a><a href="https://github.com/N2K02/CallRecorder/releases/latest">Latest release</a><a href="https://github.com/N2K02/CallRecorder/releases">All releases</a></div>
@@ -118,8 +95,24 @@
         <div class="links"><a href="https://github.com/N2K02/F15Key">Project</a></div>
       </article>
     </section>
+    <p id="empty" class="empty" role="status">No projects match your search.</p>
     <div class="note">APK availability depends on whether a release has been published for each project. For source code, changelogs, installation instructions and issue reporting, use the corresponding repository.</div>
   </main>
   <footer><div class="wrap">Maintained by <a href="https://github.com/N2K02">N2K02 on GitHub</a> · <a href="https://github.com/N2K02?tab=repositories">Browse projects</a></div></footer>
+<script>
+    const search = document.getElementById('project-search');
+    const cards = [...document.querySelectorAll('.card')];
+    const empty = document.getElementById('empty');
+    search.addEventListener('input', () => {
+      const query = search.value.trim().toLocaleLowerCase();
+      let visible = 0;
+      for (const card of cards) {
+        const match = card.textContent.toLocaleLowerCase().includes(query);
+        card.hidden = !match;
+        if (match) visible++;
+      }
+      empty.style.display = visible ? 'none' : 'block';
+    });
+  </script>
 </body>
 </html>
