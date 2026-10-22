@@ -1,0 +1,15 @@
+{
+  "channel": "experimental",
+  "tag": "bcam-experimental-pr-6-run-40",
+  "versionName": "3.0",
+  "versionCode": 100040,
+  "apkName": "BCam-3.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-6-run-40/BCam-3.0.apk",
+  "apkSize": 83709,
+  "sha256": "00ce14310a4a489b9dc7bd2f33739d0eabda5b5f1717b7c0b79ebdb733bccaf4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-6-run-40",
+  "notes": [
+    "Add configurable session auto-stop timer",
+    "Add configurable session auto-stop timer"
+  ]
+}
