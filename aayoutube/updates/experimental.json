@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-10-run-63",
+  "tag": "aayoutube-experimental-pr-11-run-64",
   "versionName": "5.4",
-  "versionCode": 100063,
+  "versionCode": 100064,
   "apkName": "AAYoutube-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-10-run-63/AAYoutube-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-11-run-64/AAYoutube-5.4.apk",
   "apkSize": 1700384,
-  "sha256": "a2b5501d8f1f8be55c14a15e8a6a4a7315e40373a59e18db55f581dbe8112904",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-10-run-63",
+  "sha256": "59ce6336e0c1df1f2bf084b245d8bdd86a90f1dc8cc4447dc45a8df50bdc8742",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-11-run-64",
   "notes": [
-    "Normalize YouTube text zoom only on car display",
-    "Map car surface taps to presentation bounds and log viewport dimensions"
+    "Keep direct car WebView at normal text scale while preserving phone preferences",
+    "Let car activity use its real window viewport rather than phone edge-to-edge insets",
+    "Render car WebView directly without Scaffold padding or gesture interception"
   ]
 }
