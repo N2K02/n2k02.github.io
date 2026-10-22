@@ -1,16 +1,17 @@
 {
   "channel": "stable",
-  "tag": "pbar-v3.6",
-  "versionName": "3.6",
-  "versionCode": 100047,
-  "apkName": "PBar-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.6/PBar-3.6.apk",
+  "tag": "pbar-v3.7",
+  "versionName": "3.7",
+  "versionCode": 100050,
+  "apkName": "PBar-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.7/PBar-3.7.apk",
   "apkSize": 13260722,
-  "sha256": "ccfed57da7ce781e6cb691e25059f6cdbcac0e5d7ac360ad81b1242ddd901454",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.6",
+  "sha256": "7103d4760212ed8bb7793d58f415a90c9dd74bc881b52267ca220542405e41bf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.7",
   "notes": [
-    "Fix Apps tab if/else braces and hoist installed app list into shared scope",
-    "Fix Compose ElevatedCard arguments and apps tab brace structure",
-    "Use shared UpdatesPage to expose experimental channel toggle"
+    "Resume interrupted distribution publishing only for identical signed APKs",
+    "Cancel superseded runs in validate-pr.yml",
+    "Cancel superseded runs in ci.yml",
+    "Cancel superseded runs in build.yml"
   ]
 }
