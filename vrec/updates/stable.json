@@ -1,17 +1,16 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.0",
-  "versionName": "3.0",
-  "versionCode": 100031,
-  "apkName": "VREC-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.0/VREC-3.0.apk",
+  "tag": "vrec-v3.1",
+  "versionName": "3.1",
+  "versionCode": 100033,
+  "apkName": "VREC-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.1/VREC-3.1.apk",
   "apkSize": 16561859,
-  "sha256": "1fca53dbaa7f239581d80cb699771261ab7a0be155259a0d64ad1c7ad14128f6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.0",
+  "sha256": "4862402a81314d2d71ac1e65829125f5c6f6a9715de7ad39603ead505e29365d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.1",
   "notes": [
-    "fix(ci): restore working workflow and preserve historical release versions",
-    "fix(ci): restore valid legacy and public release version lookup",
-    "fix(ci): restore complete version lookup shell command",
-    "Preserve legacy APK version baseline for existing installations (#18)"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
