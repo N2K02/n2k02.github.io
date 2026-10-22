@@ -1,0 +1,14 @@
+{
+  "channel": "stable",
+  "tag": "bcam-v2.8",
+  "versionName": "2.8",
+  "versionCode": 100032,
+  "apkName": "BCam-2.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v2.8/BCam-2.8.apk",
+  "apkSize": 83709,
+  "sha256": "14867ff06501dbae0e19ea2cd6df2559080848934046593cb6dac8802c44696c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v2.8",
+  "notes": [
+    "chore(ci): trigger APK rebuild with Android distribution credential"
+  ]
+}
