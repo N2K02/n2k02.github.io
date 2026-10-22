@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v3.6",
-  "versionName": "3.6",
-  "versionCode": 100047,
-  "apkName": "HFreebuds-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v3.6/HFreebuds-3.6.apk",
+  "tag": "hfreebuds-v3.7",
+  "versionName": "3.7",
+  "versionCode": 100049,
+  "apkName": "HFreebuds-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v3.7/HFreebuds-3.7.apk",
   "apkSize": 2313814,
-  "sha256": "b7598d5cf8545cc3e7e53acadd76365e5c1988b7e42084eec2635cde9baa7a63",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v3.6",
+  "sha256": "08347cadd6ed8e145054e01e5ff8460b9b71e94246dd0e69ada70a2230f2897e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v3.7",
   "notes": [
-    "Rebuild, no code changes"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
