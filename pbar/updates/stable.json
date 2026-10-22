@@ -1,15 +1,18 @@
 {
   "channel": "stable",
-  "tag": "pbar-v3.4",
-  "versionName": "3.4",
-  "versionCode": 100034,
-  "apkName": "PBar-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.4/PBar-3.4.apk",
-  "apkSize": 13244338,
-  "sha256": "7f0a195809e74551c789d2cc0ff80780f9c628eb4e36b89b6aa4c1731b02e6fa",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.4",
+  "tag": "pbar-v3.5",
+  "versionName": "3.5",
+  "versionCode": 100046,
+  "apkName": "PBar-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.5/PBar-3.5.apk",
+  "apkSize": 13260722,
+  "sha256": "ec9196fe121ec164a5676e87fef1e0a4f815b4d0b057e2ea3a231cdc4f979f6c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.5",
   "notes": [
-    "ci: publish PBar APK with newly configured distribution secret",
-    "ci: rebuild PBar after Android distribution token setup"
+    "Fix Apps screen Kotlin scope and clickable card compilation",
+    "Separate app selection from dedicated customization screen",
+    "Add detected filter and multi-app bulk selection controls",
+    "Actually redesign app cards and correct switch callback syntax",
+    "Redesign Apps selection with installed apps, search, filters and bulk controls (#23)"
   ]
 }
