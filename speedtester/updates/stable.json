@@ -1,17 +1,15 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v6.6",
-  "versionName": "6.6",
-  "versionCode": 100116,
-  "apkName": "SpeedTester-6.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v6.6/SpeedTester-6.6.apk",
+  "tag": "speedtester-v6.7",
+  "versionName": "6.7",
+  "versionCode": 100118,
+  "apkName": "SpeedTester-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v6.7/SpeedTester-6.7.apk",
   "apkSize": 2511415,
-  "sha256": "f4a947d78ffabd8dd88ce436bd2087e12003fa8fabd195f7c6adfaab1ab3590f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v6.6",
+  "sha256": "b091d5e8db74b0ab654c85c73cdee65851f39c6a11575d37c951d545ac78036a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v6.7",
   "notes": [
-    "fix(ci): restore working workflow and preserve historical release versions",
-    "fix(ci): restore valid legacy and public release version lookup",
-    "fix(ci): restore complete version lookup shell command",
-    "Preserve legacy APK version baseline for existing installations (#14)"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
