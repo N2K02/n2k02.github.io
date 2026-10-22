@@ -1,0 +1,14 @@
+{
+  "channel": "stable",
+  "tag": "pixelcast-v2.8",
+  "versionName": "2.8",
+  "versionCode": 100033,
+  "apkName": "PixelCast-2.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v2.8/PixelCast-2.8.apk",
+  "apkSize": 2133820,
+  "sha256": "e6840b800fbb6443b22951a19138d67a0c246839052c887e7ae1607ca7198f7b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v2.8",
+  "notes": [
+    "chore(ci): trigger APK rebuild with Android distribution credential"
+  ]
+}
