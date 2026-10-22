@@ -90,12 +90,22 @@
       download.removeAttribute('tabindex');
       note.textContent = 'You can still get the APK from the latest GitHub release. No ZIP is needed.';
     };
+    const noStableRelease = () => {
+      version.textContent = 'No stable release published yet';
+      details.textContent = 'The first public APK will appear here automatically';
+      download.textContent = 'Download not available yet';
+      download.setAttribute('aria-disabled', 'true');
+      download.setAttribute('tabindex', '-1');
+      note.textContent = 'Experimental test builds are kept separate from public stable releases.';
+    };
     fetch(endpoint, { headers: { 'Accept': 'application/vnd.github+json' } })
       .then(response => {
+        if (response.status === 404) { noStableRelease(); return null; }
         if (!response.ok) throw new Error('Latest release unavailable');
         return response.json();
       })
       .then(release => {
+        if (!release) return;
         const assets = Array.isArray(release.assets) ? release.assets : [];
         const apk = assets.find(asset => typeof asset.name === 'string' && asset.name.toLowerCase().endsWith('.apk') && typeof asset.browser_download_url === 'string');
         if (!apk) { fallback(); return; }
