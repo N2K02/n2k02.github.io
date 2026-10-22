@@ -1,0 +1,15 @@
+{
+  "channel": "stable",
+  "tag": "pcl-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100181,
+  "apkName": "PCL-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.4/PCL-4.4.apk",
+  "apkSize": 16609406,
+  "sha256": "e84ec958a3ee710c96e8cd3cd4fd895225d112ff2dda98d7e1c9f0b13bd678b8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.4",
+  "notes": [
+    "ci: run stable APK build after distribution token setup",
+    "chore(ci): trigger APK rebuild with Android distribution credential"
+  ]
+}
