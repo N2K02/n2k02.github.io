@@ -75,50 +75,46 @@
   <script>
   (() => {
     'use strict';
-    const endpoint = 'https://api.github.com/repos/N2K02/MRadio/releases/latest';
-    const releases = 'https://github.com/N2K02/MRadio/releases/latest';
+    // The public website reads stable metadata only. Experimental builds stay in-app.
+    const endpoint = '/mradio/updates/stable.json';
     const version = document.getElementById('version');
     const details = document.getElementById('details');
     const download = document.getElementById('download');
     const note = document.getElementById('note');
-    const fallback = () => {
-      version.textContent = 'Latest stable mRadio';
-      details.textContent = 'Could not check the version right now';
-      download.textContent = 'View latest APK release ↗';
-      download.href = releases;
-      download.removeAttribute('aria-disabled');
-      download.removeAttribute('tabindex');
-      note.textContent = 'You can still get the APK from the latest GitHub release. No ZIP is needed.';
-    };
-    const noStableRelease = () => {
-      version.textContent = 'No stable release published yet';
-      details.textContent = 'The first public APK will appear here automatically';
+    const unavailable = (message) => {
+      version.textContent = 'mRadio stable download';
+      details.textContent = message;
       download.textContent = 'Download not available yet';
+      download.removeAttribute('href');
       download.setAttribute('aria-disabled', 'true');
       download.setAttribute('tabindex', '-1');
-      note.textContent = 'Experimental test builds are kept separate from public stable releases.';
+      note.textContent = 'Only stable signed APKs appear here. Experimental builds are available only through the app update settings.';
     };
-    fetch(endpoint, { headers: { 'Accept': 'application/vnd.github+json' } })
+    fetch(endpoint, {cache:'no-store'})
       .then(response => {
-        if (response.status === 404) { noStableRelease(); return null; }
-        if (!response.ok) throw new Error('Latest release unavailable');
+        if (response.status === 404) { unavailable('No stable APK has been published yet'); return null; }
+        if (!response.ok) throw new Error('Update information unavailable');
         return response.json();
       })
       .then(release => {
         if (!release) return;
-        const assets = Array.isArray(release.assets) ? release.assets : [];
-        const apk = assets.find(asset => typeof asset.name === 'string' && asset.name.toLowerCase().endsWith('.apk') && typeof asset.browser_download_url === 'string');
-        if (!apk) { fallback(); return; }
-        const label = typeof release.tag_name === 'string' ? release.tag_name : '';
-        version.textContent = label ? 'mRadio ' + label : 'Latest mRadio';
-        const mb = (apk.size / (1024 * 1024)).toFixed(1);
-        details.textContent = 'Android 8.0+ · APK · ' + mb + ' MB';
+        const apkUrl = typeof release.apkUrl === 'string' ? release.apkUrl : '';
+        const parsedUrl = (() => { try { return new URL(apkUrl); } catch { return null; } })();
+        if (release.channel !== 'stable' || !parsedUrl || parsedUrl.protocol !== 'https:' ||
+            parsedUrl.hostname !== 'github.com' || !parsedUrl.pathname.endsWith('.apk') ||
+            !Number.isInteger(release.versionCode) || release.versionCode < 1) {
+          unavailable('Stable APK information is temporarily unavailable');
+          return;
+        }
+        version.textContent = 'mRadio ' + (release.versionName || 'latest');
+        const mb = Number.isFinite(release.apkSize) ? (release.apkSize / (1024 * 1024)).toFixed(1) : '';
+        details.textContent = 'Android 8.0+ · APK' + (mb ? ' · ' + mb + ' MB' : '');
         download.textContent = '↓ Download APK';
-        download.href = apk.browser_download_url;
+        download.href = apkUrl;
         download.removeAttribute('aria-disabled');
         download.removeAttribute('tabindex');
       })
-      .catch(fallback);
+      .catch(() => unavailable('Could not check the latest stable release'));
   })();
   </script>
 </body>
