@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.0",
-  "versionName": "3.0",
-  "versionCode": 100041,
-  "apkName": "BCam-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.0/BCam-3.0.apk",
+  "tag": "bcam-v3.1",
+  "versionName": "3.1",
+  "versionCode": 100043,
+  "apkName": "BCam-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.1/BCam-3.1.apk",
   "apkSize": 83709,
-  "sha256": "9a10c66f99ff801ac4c95692b785b9343f231a02ef1f740639a6d0e93966b5e1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.0",
+  "sha256": "dbe32cb73e03ab0c80e8e13b280687ada631f41ce48f05cffa1d0acbfa09d061",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.1",
   "notes": [
-    "Add recording auto-stop settings (#6)"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
