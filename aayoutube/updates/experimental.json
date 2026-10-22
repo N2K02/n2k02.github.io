@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-7-run-57",
-  "versionName": "5.1",
-  "versionCode": 100057,
-  "apkName": "AAYoutube-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-7-run-57/AAYoutube-5.1.apk",
+  "tag": "aayoutube-experimental-pr-8-run-59",
+  "versionName": "5.2",
+  "versionCode": 100059,
+  "apkName": "AAYoutube-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-8-run-59/AAYoutube-5.2.apk",
   "apkSize": 1700384,
-  "sha256": "4eea2875bdea84189230f5d7a59d0d6ee5d916033a5606f015eafcd2dba9acb2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-7-run-57",
+  "sha256": "368c6327d4578429a587559669de919b9ac39833241c9ea60a250f252226ad2d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-8-run-59",
   "notes": [
-    "Fix background video in the car: back to singleTask; remove audio-only media player mode"
+    "Car screen touch: back to singleTop; a second screen no longer pauses or hides the page"
   ]
 }
