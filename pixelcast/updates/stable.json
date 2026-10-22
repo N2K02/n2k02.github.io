@@ -1,14 +1,17 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v2.8",
-  "versionName": "2.8",
-  "versionCode": 100033,
-  "apkName": "PixelCast-2.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v2.8/PixelCast-2.8.apk",
+  "tag": "pixelcast-v2.9",
+  "versionName": "2.9",
+  "versionCode": 100040,
+  "apkName": "PixelCast-2.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v2.9/PixelCast-2.9.apk",
   "apkSize": 2133820,
-  "sha256": "e6840b800fbb6443b22951a19138d67a0c246839052c887e7ae1607ca7198f7b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v2.8",
+  "sha256": "cc49a76683a7567499f412b6e73a6bab4474602c31204d7644afc87c8c514626",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v2.9",
   "notes": [
-    "chore(ci): trigger APK rebuild with Android distribution credential"
+    "fix(ci): restore working workflow and preserve historical release versions",
+    "fix(ci): restore valid legacy and public release version lookup",
+    "fix(ci): restore complete version lookup shell command",
+    "Preserve legacy APK version baseline for existing installations (#5)"
   ]
 }
