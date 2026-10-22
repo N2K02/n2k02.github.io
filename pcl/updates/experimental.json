@@ -1,16 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-47-run-189",
-  "versionName": "4.6",
-  "versionCode": 100189,
-  "apkName": "PCL-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-47-run-189/PCL-4.6.apk",
-  "apkSize": 16609434,
-  "sha256": "c75dce5cad80e1cf3ef717e8ae73c3daeefd56b22139edac788ec4338248b699",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-47-run-189",
+  "tag": "pcl-experimental-pr-48-run-191",
+  "versionName": "4.7",
+  "versionCode": 100191,
+  "apkName": "PCL-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-48-run-191/PCL-4.7.apk",
+  "apkSize": 16609430,
+  "sha256": "9add561e2d79f7614d4734d85eff9603d5630ebc0960d66faff2ec3a30f49407",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-48-run-191",
   "notes": [
-    "Keep caller display fix scoped to Remote",
-    "Prefer incoming caller number over unknown-name placeholder on Remote",
-    "Do not treat unknown caller placeholders as contact names"
+    "Improve SIM caller number recovery and reject placeholder names",
+    "Improve SIM caller number recovery and reject placeholder names"
   ]
 }
