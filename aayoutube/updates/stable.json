@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v5.2",
-  "versionName": "5.2",
-  "versionCode": 100060,
-  "apkName": "AAYoutube-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.2/AAYoutube-5.2.apk",
+  "tag": "aayoutube-v5.3",
+  "versionName": "5.3",
+  "versionCode": 100062,
+  "apkName": "AAYoutube-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.3/AAYoutube-5.3.apk",
   "apkSize": 1700384,
-  "sha256": "7948d3e791b80203ee0bac7a757a571de1fd2667bb9cfd202fa85ed3ba902c4d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.2",
+  "sha256": "843863536f1093e6c472f3d844afa84fe573637fcb40c31836ff57162c122bcc",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.3",
   "notes": [
-    "Car screen touch: back to singleTop; a second screen no longer pauses or hides the page"
+    "Fix stale fullscreen collectors when car surface reconnects"
   ]
 }
