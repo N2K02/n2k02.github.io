@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "tag": "mradio-v1.1-build-193",
-  "versionName": "1.1",
-  "versionCode": 100193,
-  "apkName": "MRadio-1.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v1.1-build-193/MRadio-1.1.apk",
+  "tag": "mradio-v3.8-build-1",
+  "versionName": "3.8",
+  "versionCode": 100202,
+  "apkName": "MRadio-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v3.8-build-1/MRadio-3.8.apk",
   "apkSize": 2781995,
-  "sha256": "ecfc6ea565b153536f893e0f7523d50c2410a720d75040006b7c0be21b4da5b1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v1.1-build-193",
+  "sha256": "39f8230b44d7b8e3469f1e4ddf74b9048d82749ee78c75527e81e390192ad873",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v3.8-build-1",
   "notes": [
+    "fix(ci): restore working MRadio build and legacy 3.7 version baseline",
+    "fix(ci): repair MRadio version lookup for 3.8 upgrade",
+    "fix(ci): restore complete MRadio migration version lookup command",
+    "Preserve legacy MRadio v3.7 baseline for incremental releases (#7)",
+    "Use ANDROID_DISTRIBUTION_TOKEN for shared APK publishing (#6)",
     "ci: automatically publish private main and experimental APK releases; derive stable versions from public distribution",
     "fix(ci): always preserve signed APK and warn when public distribution token is missing",
     "fix(ci): never publish public updates to private source repo; require website distribution for stable releases",
     "ci: publish direct APKs to website repository with opt-in credential and legacy compatibility",
-    "feat(distribution): publish signed APK releases and channel manifests to public website repository",
-    "feat(updater): resolve stable and experimental APKs from public manifests with legacy fallback",
-    "docs: point public README to automatic direct-APK download page",
-    "docs: link public mRadio website prominently in simplified README",
-    "docs: simplify public README to match redesigned mRadio experience",
-    "test(updates): verify update badges only show for pending install states"
+    "feat(distribution): publish signed APK releases and channel manifests to public website repository"
   ]
 }
