@@ -1,14 +1,17 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v4.9",
-  "versionName": "4.9",
-  "versionCode": 100049,
-  "apkName": "AAYoutube-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v4.9/AAYoutube-4.9.apk",
+  "tag": "aayoutube-v5.0",
+  "versionName": "5.0",
+  "versionCode": 100056,
+  "apkName": "AAYoutube-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.0/AAYoutube-5.0.apk",
   "apkSize": 1700384,
-  "sha256": "c597c990d16138fa01378c3c0124ba082993d7366647176c22e1270c43bd3ecf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v4.9",
+  "sha256": "232c1426572eac525b32f92de7c38a513e0f03787e8bacf444af8e077785bb0e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.0",
   "notes": [
-    "chore(ci): trigger APK rebuild with Android distribution credential"
+    "fix(ci): restore working workflow and preserve historical release versions",
+    "fix(ci): restore valid legacy and public release version lookup",
+    "fix(ci): restore complete version lookup shell command",
+    "Preserve legacy APK version baseline for existing installations (#6)"
   ]
 }
