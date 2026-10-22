@@ -1,17 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v2.9",
-  "versionName": "2.9",
-  "versionCode": 100039,
-  "apkName": "BCam-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v2.9/BCam-2.9.apk",
+  "tag": "bcam-v3.0",
+  "versionName": "3.0",
+  "versionCode": 100041,
+  "apkName": "BCam-3.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.0/BCam-3.0.apk",
   "apkSize": 83709,
-  "sha256": "dcfc3b59ae9404aadba1d50a5c4dbbb37c533b9fb1dc0aaf2a6463b7935ce555",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v2.9",
+  "sha256": "9a10c66f99ff801ac4c95692b785b9343f231a02ef1f740639a6d0e93966b5e1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.0",
   "notes": [
-    "fix(ci): restore working workflow and preserve historical release versions",
-    "fix(ci): restore valid legacy and public release version lookup",
-    "fix(ci): restore complete version lookup shell command",
-    "Preserve legacy APK version baseline for existing installations (#5)"
+    "Add recording auto-stop settings (#6)"
   ]
 }
