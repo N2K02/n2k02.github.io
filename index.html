@@ -16,7 +16,7 @@
     .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;flex-wrap:wrap;margin-bottom:24px}.section-head h2{font-size:1.7rem;letter-spacing:-.04em;margin:0}.section-head p{margin:4px 0 0;color:var(--muted);font-size:.94rem}.search{background:#111b2b;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 15px;font:inherit;width:min(100%,300px)}.search::placeholder{color:#8c9bb2}
     .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-bottom:35px}.card[hidden]{display:none!important}.card{display:flex;flex-direction:column;gap:13px;min-height:245px;padding:25px;background:linear-gradient(150deg,#17243a,#101a2b 80%);border:1px solid var(--line);border-radius:20px;position:relative;overflow:hidden}.card:before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent);opacity:.65}.card h3{font-size:1.2rem;letter-spacing:-.025em;line-height:1.35;margin:0}.card p{color:var(--muted);font-size:.94rem;margin:0;flex:1}.status{font-size:.73rem;font-weight:800;letter-spacing:.065em;text-transform:uppercase;color:var(--mint)}.links{display:flex;flex-wrap:wrap;gap:14px;padding-top:15px;border-top:1px solid var(--line)}.links a{font-size:.87rem;font-weight:700;text-decoration:none;color:var(--accent)}.links a:hover{text-decoration:underline}.note{padding:18px 20px;margin:0 0 52px;border:1px solid var(--line);border-radius:14px;color:var(--muted);background:#111b2a;font-size:.9rem}footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}footer a{text-decoration:none;color:var(--accent)}.empty{display:none;color:var(--muted);padding:20px 0}
     @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}header.hero{padding:55px 0}}@media(max-width:600px){.wrap{width:min(100% - 28px,1160px)}.grid{grid-template-columns:1fr}.card{min-height:0;padding:22px}.section-head{align-items:stretch}.search{width:100%}header.hero{padding:42px 0 50px}.topbar{padding:18px 0}}@media(prefers-reduced-motion:no-preference){.card{transition:transform .2s,border-color .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);border-color:#4b6c95;box-shadow:0 18px 45px #0003}.button{transition:filter .2s}}
-  </style>
+  .card .features{margin:15px 0 20px;padding-left:20px;color:var(--muted);font-size:.94rem;line-height:1.65}.card .features li{padding-left:3px;margin:6px 0}.card .features li::marker{color:var(--mint)}</style>
 </head>
 <body>
   <nav class="topbar wrap" aria-label="Main navigation"><a class="brand" href="/">N2K<span>02.</span></a><a class="navlink" href="#projects">Browse apps ↓</a></nav>
@@ -31,60 +31,60 @@
     <section id="projects" class="grid" aria-label="Projects">
       <article class="card">
         <div class="status">Android utility</div><h3>PCL — Bluetooth Call Companion</h3>
-        <p>Use a second Android phone as a Bluetooth companion for a SIM-equipped gateway phone. Manage calls, notifications and contacts from the remote phone.</p>
-        <div class="links"><a href="/pcl/">View app &amp; download APK</a></div>
+        <ul class="features"><li>Bluetooth gateway and remote phone</li><li>Call notifications and contact access</li><li>Companion call controls</li></ul>
+        <div class="links"><a href="/pcl/">Explore PCL</a></div>
       </article>
       <article class="card">
         <div class="status">Voice recording</div><h3>VREC</h3>
-        <p>Android voice recorder with call metadata tools, recording controls and on-device storage.</p>
-        <div class="links"><a href="/vrec/">View app &amp; download APK</a></div>
+        <ul class="features"><li>Audio recording and playback</li><li>Call metadata tools</li><li>On-device recording library</li></ul>
+        <div class="links"><a href="/vrec/">Explore VREC</a></div>
       </article>
       <article class="card">
         <div class="status">Camera utility</div><h3>BCam</h3>
-        <p>Background video recorder for Android, with front and back camera options and recording controls through its notification.</p>
+        <ul class="features"><li>Background video recording</li><li>Front and rear camera options</li><li>Notification recording controls</li></ul>
         
-              <div class="links"><a href="/bcam/">View app &amp; download APK</a></div>
+              <div class="links"><a href="/bcam/">Explore BCam</a></div>
       </article>
       <article class="card">
         <div class="status">Media casting</div><h3>PixelCast</h3>
-        <p>Cast local videos and music from Android to compatible TVs through DLNA/UPnP, with playback controls in a notification.</p>
+        <ul class="features"><li>Cast local video and music</li><li>DLNA/UPnP compatible TVs</li><li>Playback controls from notifications</li></ul>
         
-              <div class="links"><a href="/pixelcast/">View app &amp; download APK</a></div>
+              <div class="links"><a href="/pixelcast/">Explore PixelCast</a></div>
       </article>
       <article class="card">
         <div class="status">Android overlay utility</div><h3>PBar — Floating Progress Bar</h3>
-        <p>Display a configurable floating progress line for downloads, music and video playback, and Google Clock timers. Customize its position, horizontal or vertical orientation, thickness, colours and per-app behaviour. Playback progress moves smoothly when Android exposes timing data; live streams can use an indeterminate animation.</p>
-        <div class="links"><a href="/pbar/">View app &amp; download APK</a></div>
+        <ul class="features"><li>Floating media and timer progress</li><li>Custom position, size and colors</li><li>Per-app display preferences</li></ul>
+        <div class="links"><a href="/pbar/">Explore PBar</a></div>
       </article>
       <article class="card">
         <div class="status">Network utility</div><h3>NetSpeed</h3>
-        <p>Shows current phone-wide download and upload activity in the Android status bar.</p>
+        <ul class="features"><li>Live download and upload speed</li><li>Android status-bar display</li><li>Phone-wide network activity</li></ul>
         
-              <div class="links"><a href="/netspeed/">View app &amp; download APK</a></div>
+              <div class="links"><a href="/netspeed/">Explore NetSpeed</a></div>
       </article>
       <article class="card">
         <div class="status">Radio and Android Auto</div><h3>MRadio</h3>
-        <p>Listen to Mauritian and international online radio stations on Android, including Android Auto support.</p>
-        <div class="links"><a href="/mradio/">Explore mRadio ✨</a><a href="/mradio/download/">Download APK</a></div>
+        <ul class="features"><li>Mauritius and worldwide stations</li><li>Android Auto support</li><li>Live online radio playback</li></ul>
+        <div class="links"><a href="/mradio/">Explore mRadio</a><a href="/mradio/download/">Download APK</a></div>
       </article>
       <article class="card">
         <div class="status">Earbud utility</div><h3>HFreebuds</h3>
-        <p>Control Huawei FreeBuds settings and features from Android without relying on Huawei AI Life.</p>
+        <ul class="features"><li>Huawei FreeBuds controls</li><li>Supported earbud settings</li><li>Android companion interface</li></ul>
         
-              <div class="links"><a href="/hfreebuds/">View app &amp; download APK</a></div>
+              <div class="links"><a href="/hfreebuds/">Explore HFreebuds</a></div>
       </article>
       <article class="card">
         <div class="status">Network diagnostics</div><h3>SpeedTester</h3>
-        <p>Run download and upload tests, inspect latency, jitter and Wi-Fi details, and review saved results.</p>
-        <div class="links"><a href="/speedtester/">View app &amp; download APK</a></div>
+        <ul class="features"><li>Download and upload speed tests</li><li>Latency, jitter and Wi-Fi details</li><li>Saved test results</li></ul>
+        <div class="links"><a href="/speedtester/">Explore SpeedTester</a></div>
       </article>
       
       
       <article class="card">
         <div class="status">YouTube and Android Auto</div><h3>AAYoutube</h3>
-        <p>YouTube WebView player for Android with media features and audio playback integration for Android Auto.</p>
+        <ul class="features"><li>YouTube WebView playback</li><li>Android media integration</li><li>Experimental Android Auto audio</li></ul>
         
-              <div class="links"><a href="/aayoutube/">View app &amp; download APK</a></div>
+              <div class="links"><a href="/aayoutube/">Explore AAYoutube</a></div>
       </article>
       
       
