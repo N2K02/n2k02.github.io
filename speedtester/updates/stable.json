@@ -1,0 +1,17 @@
+{
+  "channel": "stable",
+  "tag": "speedtester-v6.6",
+  "versionName": "6.6",
+  "versionCode": 100116,
+  "apkName": "SpeedTester-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v6.6/SpeedTester-6.6.apk",
+  "apkSize": 2511415,
+  "sha256": "f4a947d78ffabd8dd88ce436bd2087e12003fa8fabd195f7c6adfaab1ab3590f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v6.6",
+  "notes": [
+    "fix(ci): restore working workflow and preserve historical release versions",
+    "fix(ci): restore valid legacy and public release version lookup",
+    "fix(ci): restore complete version lookup shell command",
+    "Preserve legacy APK version baseline for existing installations (#14)"
+  ]
+}
