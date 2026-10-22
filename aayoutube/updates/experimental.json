@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-9-run-61",
-  "versionName": "5.2",
-  "versionCode": 100061,
-  "apkName": "AAYoutube-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-9-run-61/AAYoutube-5.2.apk",
+  "tag": "aayoutube-experimental-pr-10-run-63",
+  "versionName": "5.4",
+  "versionCode": 100063,
+  "apkName": "AAYoutube-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-10-run-63/AAYoutube-5.4.apk",
   "apkSize": 1700384,
-  "sha256": "b770f0d1f10595f56ecf3448a0870683600c964258aad11db68c50898a792c60",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-9-run-61",
+  "sha256": "a2b5501d8f1f8be55c14a15e8a6a4a7315e40373a59e18db55f581dbe8112904",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-10-run-63",
   "notes": [
-    "Fix stale fullscreen collectors when car surface reconnects",
-    "Car screen touch: back to singleTop; a second screen no longer pauses or hides the page"
+    "Normalize YouTube text zoom only on car display",
+    "Map car surface taps to presentation bounds and log viewport dimensions"
   ]
 }
