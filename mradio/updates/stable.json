@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mradio-v1.0-build-192",
-  "versionName": "1.0",
-  "versionCode": 100192,
-  "apkName": "MRadio-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v1.0-build-192/MRadio-1.0.apk",
+  "tag": "mradio-v1.1-build-193",
+  "versionName": "1.1",
+  "versionCode": 100193,
+  "apkName": "MRadio-1.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v1.1-build-193/MRadio-1.1.apk",
   "apkSize": 2781995,
-  "sha256": "6251f0a8a0168b2ee8bd27ebe8dea1874e20abd3f6a1d2d26fe49c4fd99fb966",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v1.0-build-192",
+  "sha256": "ecfc6ea565b153536f893e0f7523d50c2410a720d75040006b7c0be21b4da5b1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v1.1-build-193",
   "notes": [
+    "ci: automatically publish private main and experimental APK releases; derive stable versions from public distribution",
     "fix(ci): always preserve signed APK and warn when public distribution token is missing",
     "fix(ci): never publish public updates to private source repo; require website distribution for stable releases",
     "ci: publish direct APKs to website repository with opt-in credential and legacy compatibility",
@@ -17,7 +18,6 @@
     "docs: point public README to automatic direct-APK download page",
     "docs: link public mRadio website prominently in simplified README",
     "docs: simplify public README to match redesigned mRadio experience",
-    "test(updates): verify update badges only show for pending install states",
-    "feat(updates): add live update badges in Settings menu and Updates submenu"
+    "test(updates): verify update badges only show for pending install states"
   ]
 }
