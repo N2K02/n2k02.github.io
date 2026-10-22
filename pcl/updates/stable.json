@@ -1,15 +1,17 @@
 {
   "channel": "stable",
-  "tag": "pcl-v4.4",
-  "versionName": "4.4",
-  "versionCode": 100181,
-  "apkName": "PCL-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.4/PCL-4.4.apk",
-  "apkSize": 16609406,
-  "sha256": "e84ec958a3ee710c96e8cd3cd4fd895225d112ff2dda98d7e1c9f0b13bd678b8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.4",
+  "tag": "pcl-v4.5",
+  "versionName": "4.5",
+  "versionCode": 100188,
+  "apkName": "PCL-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.5/PCL-4.5.apk",
+  "apkSize": 16609410,
+  "sha256": "80ef1a0225805056d8e1517e4a083ade3a98a2e7a7798f7c98b26f3fd4242df2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.5",
   "notes": [
-    "ci: run stable APK build after distribution token setup",
-    "chore(ci): trigger APK rebuild with Android distribution credential"
+    "fix(ci): restore working workflow and preserve historical release versions",
+    "fix(ci): restore valid legacy and public release version lookup",
+    "fix(ci): restore complete version lookup shell command",
+    "Preserve legacy APK version baseline for existing installations (#46)"
   ]
 }
