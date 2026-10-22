@@ -1,19 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-11-run-67",
-  "versionName": "5.4",
-  "versionCode": 100067,
-  "apkName": "AAYoutube-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-11-run-67/AAYoutube-5.4.apk",
-  "apkSize": 1700384,
-  "sha256": "24c4db2e6fe60f813a1b0095d1595ace6a9cbbda2ffea1a573eb412ba8ba8598",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-11-run-67",
+  "tag": "aayoutube-experimental-pr-12-run-69",
+  "versionName": "5.5",
+  "versionCode": 100069,
+  "apkName": "AAYoutube-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-12-run-69/AAYoutube-5.5.apk",
+  "apkSize": 1704480,
+  "sha256": "0fd31f7d4580622358721db21ab2bef95f6d12a480447063dd6be0af3007640e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-12-run-69",
   "notes": [
-    "Simplify car activity to single WebView; remove Android Auto mini-player UI",
-    "Add native car mini-player and swipe-down gesture while retaining browser playback",
-    "Host Android Auto WebView in native activity FrameLayout like AABrowser",
-    "Keep direct car WebView at normal text scale while preserving phone preferences",
-    "Let car activity use its real window viewport rather than phone edge-to-edge insets",
-    "Render car WebView directly without Scaffold padding or gesture interception"
+    "Add phone PiP controls and YouTube bottom navigation action",
+    "Add phone PiP controls and YouTube bottom navigation action",
+    "Add phone PiP controls and YouTube bottom navigation action"
   ]
 }
