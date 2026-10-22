@@ -1,15 +1,17 @@
 {
   "channel": "stable",
-  "tag": "vrec-v2.9",
-  "versionName": "2.9",
-  "versionCode": 100024,
-  "apkName": "VREC-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v2.9/VREC-2.9.apk",
+  "tag": "vrec-v3.0",
+  "versionName": "3.0",
+  "versionCode": 100031,
+  "apkName": "VREC-3.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.0/VREC-3.0.apk",
   "apkSize": 16561859,
-  "sha256": "0621ed672288af243dbdc935b15ef59f1d9b4e2f8b0479934d92bda98a129b03",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v2.9",
+  "sha256": "1fca53dbaa7f239581d80cb699771261ab7a0be155259a0d64ad1c7ad14128f6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.0",
   "notes": [
-    "ci: run stable APK build after distribution token setup",
-    "chore(ci): trigger APK rebuild with Android distribution credential"
+    "fix(ci): restore working workflow and preserve historical release versions",
+    "fix(ci): restore valid legacy and public release version lookup",
+    "fix(ci): restore complete version lookup shell command",
+    "Preserve legacy APK version baseline for existing installations (#18)"
   ]
 }
