@@ -1,0 +1,14 @@
+{
+  "channel": "stable",
+  "tag": "aayoutube-v4.9",
+  "versionName": "4.9",
+  "versionCode": 100049,
+  "apkName": "AAYoutube-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v4.9/AAYoutube-4.9.apk",
+  "apkSize": 1700384,
+  "sha256": "c597c990d16138fa01378c3c0124ba082993d7366647176c22e1270c43bd3ecf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v4.9",
+  "notes": [
+    "chore(ci): trigger APK rebuild with Android distribution credential"
+  ]
+}
