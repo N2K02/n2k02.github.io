@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v3.1",
-  "versionName": "3.1",
-  "versionCode": 100039,
-  "apkName": "NetSpeed-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.1/NetSpeed-3.1.apk",
+  "tag": "netspeed-v3.3",
+  "versionName": "3.3",
+  "versionCode": 100048,
+  "apkName": "NetSpeed-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.3/NetSpeed-3.3.apk",
   "apkSize": 1158632,
-  "sha256": "7c99b036c0c4320f40bdef2777bb97c8c34dfd03dc8070157a2c739248fa8914",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.1",
+  "sha256": "e13ef42bd8ebf72febbc8d34495d2413d713c06d7af1a9636c9b810a28c3fc9f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.3",
   "notes": [
-    "chore(ci): trigger APK rebuild with Android distribution credential"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
