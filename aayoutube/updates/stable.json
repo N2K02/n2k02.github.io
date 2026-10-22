@@ -1,17 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v5.0",
-  "versionName": "5.0",
-  "versionCode": 100056,
-  "apkName": "AAYoutube-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.0/AAYoutube-5.0.apk",
+  "tag": "aayoutube-v5.1",
+  "versionName": "5.1",
+  "versionCode": 100058,
+  "apkName": "AAYoutube-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.1/AAYoutube-5.1.apk",
   "apkSize": 1700384,
-  "sha256": "232c1426572eac525b32f92de7c38a513e0f03787e8bacf444af8e077785bb0e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.0",
+  "sha256": "ed577b0f391c6427ffe668de214fb649d9f93aa50852b4c1174a7053602415a5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.1",
   "notes": [
-    "fix(ci): restore working workflow and preserve historical release versions",
-    "fix(ci): restore valid legacy and public release version lookup",
-    "fix(ci): restore complete version lookup shell command",
-    "Preserve legacy APK version baseline for existing installations (#6)"
+    "Fix background video in the car: back to singleTask; remove audio-only media player mode"
   ]
 }
