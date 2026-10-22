@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v5.4",
-  "versionName": "5.4",
-  "versionCode": 100068,
-  "apkName": "AAYoutube-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.4/AAYoutube-5.4.apk",
+  "tag": "aayoutube-v5.5",
+  "versionName": "5.5",
+  "versionCode": 100071,
+  "apkName": "AAYoutube-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.5/AAYoutube-5.5.apk",
   "apkSize": 1700384,
-  "sha256": "25dd04965c0341776dd7a1bf231193f59ef5cf95c0bbe11840d078cd4f2871ed",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.4",
+  "sha256": "d987dd289a739c9c9739213d6804e6c8d98e164fc444216d989547259713bf14",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.5",
   "notes": [
-    "Round button steps aside when the mini player would cover it (phone and car screen)"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
