@@ -1,17 +1,15 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v2.9",
-  "versionName": "2.9",
-  "versionCode": 100040,
-  "apkName": "PixelCast-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v2.9/PixelCast-2.9.apk",
+  "tag": "pixelcast-v3.0",
+  "versionName": "3.0",
+  "versionCode": 100042,
+  "apkName": "PixelCast-3.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.0/PixelCast-3.0.apk",
   "apkSize": 2133820,
-  "sha256": "cc49a76683a7567499f412b6e73a6bab4474602c31204d7644afc87c8c514626",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v2.9",
+  "sha256": "0ae0e1cbabe13732acadb2e6f8e10c4d561287528f60c1b66682532cf993c193",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.0",
   "notes": [
-    "fix(ci): restore working workflow and preserve historical release versions",
-    "fix(ci): restore valid legacy and public release version lookup",
-    "fix(ci): restore complete version lookup shell command",
-    "Preserve legacy APK version baseline for existing installations (#5)"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
