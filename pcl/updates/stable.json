@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "pcl-v4.7",
-  "versionName": "4.7",
-  "versionCode": 100192,
-  "apkName": "PCL-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.7/PCL-4.7.apk",
+  "tag": "pcl-v4.8",
+  "versionName": "4.8",
+  "versionCode": 100194,
+  "apkName": "PCL-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.8/PCL-4.8.apk",
   "apkSize": 16609410,
-  "sha256": "a210a5e232103938d5177aa0d553a8056cfdd178c8ea27c67cfc3104cf58b4d4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.7",
+  "sha256": "e0b07bea485818d2ef65c60e41e01788f3c005f8770646885d5619ebd0120251",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.8",
   "notes": [
-    "Recover unsaved SIM caller numbers from dialer notifications (#48)"
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs",
+    "Cancel superseded Android workflow runs"
   ]
 }
