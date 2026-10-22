@@ -1,17 +1,16 @@
 {
   "channel": "stable",
-  "tag": "pbar-v3.7",
-  "versionName": "3.7",
-  "versionCode": 100050,
-  "apkName": "PBar-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.7/PBar-3.7.apk",
+  "tag": "pbar-v3.8",
+  "versionName": "3.8",
+  "versionCode": 100053,
+  "apkName": "PBar-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.8/PBar-3.8.apk",
   "apkSize": 13260722,
-  "sha256": "7103d4760212ed8bb7793d58f415a90c9dd74bc881b52267ca220542405e41bf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.7",
+  "sha256": "51d2edfa317fd36657d27ce4b65a97621af235d4bae4b4b0b89b2b006bebecef",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.8",
   "notes": [
-    "Resume interrupted distribution publishing only for identical signed APKs",
-    "Cancel superseded runs in validate-pr.yml",
-    "Cancel superseded runs in ci.yml",
-    "Cancel superseded runs in build.yml"
+    "Fix Updates tab crash caused by nested vertical scrolling",
+    "Improve app customization layout and support system back navigation",
+    "Enable recognized media players only on first PBar launch"
   ]
 }
