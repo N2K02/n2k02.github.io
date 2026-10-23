@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-8-run-81",
+  "tag": "bcam-experimental-pr-8-run-86",
   "versionName": "3.2",
-  "versionCode": 100081,
+  "versionCode": 100086,
   "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-81/BCam-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-86/BCam-3.2.apk",
   "apkSize": 237236,
-  "sha256": "9401a450f243e38ce279899e75255a9782661ed73c3bd4fff6370ad9be9829a4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-81",
+  "sha256": "b96b45860c73b800c2b3a6913c271d5af15b92d81b834196a5623a25830d993f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-86",
   "notes": [
+    "fix(exit): save preferences and discard unfinished recording on exit",
+    "feat(settings): save selected video preferences before exiting",
+    "feat(recording): safely discard only active unfinished video on exit",
+    "refactor(ui): remove duplicate Exit BCam action from settings page",
+    "feat(ui): add bottom-right More menu with exit without saving settings",
     "refactor(ui): simplify BCam settings actions, remove duplicate updates link and improve form spacing",
     "style(ui): replace BCam oversized pill buttons with MRadio-style bottom navigation",
     "fix(build): use valid Android DayNight parent for opaque BCam settings and updater",
     "feat(ui): replace updater back button with BCam bottom navigation",
-    "feat(ui): shared two-tab bottom navigation for BCam",
-    "feat(ui): add persistent Settings and Updates bottom navigation to BCam settings",
-    "fix(ui): make BCam video settings activity opaque and full-screen",
-    "feat(ui): replace floating video settings dialog with full-screen settings page",
-    "refactor(ui): remove obsolete dialog updater references",
-    "fix(ui): render About & updates in opaque full-screen activity"
+    "feat(ui): shared two-tab bottom navigation for BCam"
   ]
 }
