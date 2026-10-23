@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-14-run-101",
+  "tag": "aayoutube-experimental-pr-14-run-105",
   "versionName": "5.6",
-  "versionCode": 100101,
+  "versionCode": 100105,
   "apkName": "AAYoutube-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-101/AAYoutube-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-105/AAYoutube-5.6.apk",
   "apkSize": 1811032,
-  "sha256": "3f14fcd4bb2c21d0393742a3933498893e835203b6a2da1c7c68e182ab79012d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-101",
+  "sha256": "f83f2468939c4d6f36bd0d91cdd09f3f3836d81d7bc65f6a2891701434e552bd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-105",
   "notes": [
+    "fix(aayoutube): import navigation bar insets for menu sheet",
+    "fix(updater): use published channel versionCode manifests",
+    "fix(aayoutube): qualify sheet state and use existing window insets API",
+    "fix(aayoutube): expand and scroll menu sheet so Quit stays visible above system navigation",
     "fix(aayoutube): remove native floating button and open sheet from HTML menu",
     "feat(aayoutube): inject Menu as a real YouTube HTML bottom-nav item",
     "feat(aayoutube): connect HTML bottom navigation menu to native settings sheet",
     "fix(updater): recompose AAYoutube update UI when experimental channel changes",
     "refactor(updater): remove obsolete standalone updater; use shared MRadio updater only",
-    "refactor(updater): remove legacy AAYoutube updater references from UI",
-    "fix(ui): anchor AAYoutube menu button to far-right bottom navigation slot",
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "style(updater): match MRadio experimental-updates typography",
-    "chore(updater): align experimental updater screen with MRadio standard"
+    "refactor(updater): remove legacy AAYoutube updater references from UI"
   ]
 }
