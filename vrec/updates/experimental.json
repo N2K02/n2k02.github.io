@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-20-run-53",
+  "tag": "vrec-experimental-pr-20-run-58",
   "versionName": "3.2",
-  "versionCode": 100053,
+  "versionCode": 100058,
   "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-53/VREC-3.2.apk",
-  "apkSize": 19756800,
-  "sha256": "e39225b92f3dc0af6e049b8f4afd037e60c9d63f7f99106ee4d85e1a20edfab7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-53",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-58/VREC-3.2.apk",
+  "apkSize": 19756796,
+  "sha256": "3026fd3b6307ee20ad6f06c8aa07e4655b9f464a76cb73974a8a43bd4aded8da",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-58",
   "notes": [
+    "Generate BuildConfig for VREC About and updates version label",
+    "Pass existing GitHub Packages token into Android CI build job",
+    "Permit shared updater installation only when no recording is active",
+    "Initialize VREC shared updater lifecycle for new About and updates page",
+    "Replace VREC legacy updater page with MRadio-style shared update card",
     "Supply private Maven credentials to PR validation",
     "Supply authenticated private Maven token to APK build",
     "Unify VREC recording dropdowns and details sheet with rounded icon-led design",
     "Fail closed on updater installation until recording guard is wired",
-    "Prepare experimental build for shared updater and theme",
-    "Prepare experimental build for shared updater and theme",
-    "Stage shared updater controller for experimental migration",
-    "Update Gradle wrapper for AGP 9.1 experimental integration",
-    "Resolve shared updater FileProvider manifest merge conflict in experimental build",
-    "Fix AGP 9 built-in Kotlin compatibility on experimental branch"
+    "Prepare experimental build for shared updater and theme"
   ]
 }
