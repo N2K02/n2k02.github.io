@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-14-run-86",
+  "tag": "aayoutube-experimental-pr-14-run-87",
   "versionName": "5.6",
-  "versionCode": 100086,
+  "versionCode": 100087,
   "apkName": "AAYoutube-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-86/AAYoutube-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-87/AAYoutube-5.6.apk",
   "apkSize": 1811032,
-  "sha256": "7bd115c4c100691cc7b2cd8c23f7c4124d5fff6076a58068309405d0769c5d59",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-86",
+  "sha256": "c8f41cf8855d3e22cc641b0f283da20595e784ab715e80034af6c612fec2c0b0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-87",
   "notes": [
+    "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Fix Android CI compilation errors in shared updater and rounded menus",
     "Initialize shared updater for AAYoutube About and updates screen",
     "Replace AAYoutube legacy updater page with MRadio-style shared card",
@@ -17,7 +18,6 @@
     "Prepare experimental build for shared updater and theme",
     "Prepare experimental build for shared updater and theme",
     "Stage shared updater controller for experimental migration",
-    "Build experimental PR APK with shared N2K02 packages",
-    "Resolve shared packages during experimental PR validation"
+    "Build experimental PR APK with shared N2K02 packages"
   ]
 }
