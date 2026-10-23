@@ -1,14 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-12-run-50",
+  "tag": "netspeed-experimental-pr-12-run-53",
   "versionName": "3.4",
-  "versionCode": 100050,
+  "versionCode": 100053,
   "apkName": "NetSpeed-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-12-run-50/NetSpeed-3.4.apk",
-  "apkSize": 1158632,
-  "sha256": "d46a440c5cfd8138e16a8dfd92c9c7eae66c0b4a7ced7fcc914c507b80ee6a36",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-12-run-50",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-12-run-53/NetSpeed-3.4.apk",
+  "apkSize": 1191400,
+  "sha256": "eb9eb423835dcfecebd0087104cc0943d6d889ec46587be1c8508c9d2a3b89f3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-12-run-53",
   "notes": [
+    "Opt in to experimental Material 3 Expressive loading API",
+    "Use expressive loading indicator for update checking state",
+    "Replace update-check button label with expressive loading indicator",
     "Round actual Material 3 popup surfaces via theme shape token",
     "Polish update menu with rounded Material 3 corners"
   ]
