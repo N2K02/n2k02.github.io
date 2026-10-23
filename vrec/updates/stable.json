@@ -1,16 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.1",
-  "versionName": "3.1",
-  "versionCode": 100033,
-  "apkName": "VREC-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.1/VREC-3.1.apk",
-  "apkSize": 16561859,
-  "sha256": "4862402a81314d2d71ac1e65829125f5c6f6a9715de7ad39603ead505e29365d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.1",
+  "tag": "vrec-v3.2",
+  "versionName": "3.2",
+  "versionCode": 100071,
+  "apkName": "VREC-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.2/VREC-3.2.apk",
+  "apkSize": 19756780,
+  "sha256": "555f8943805d2eba065ad4a4158027fe67708629357e453285295ddbc6587b7b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.2",
   "notes": [
-    "Cancel superseded Android workflow runs",
-    "Cancel superseded Android workflow runs",
-    "Cancel superseded Android workflow runs"
+    "Experimental shared libraries and manifest-based updater (#20)"
   ]
 }
