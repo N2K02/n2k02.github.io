@@ -1,14 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-49-run-196",
+  "tag": "pcl-experimental-pr-49-run-203",
   "versionName": "4.9",
-  "versionCode": 100196,
+  "versionCode": 100203,
   "apkName": "PCL-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-49-run-196/PCL-4.9.apk",
-  "apkSize": 16609434,
-  "sha256": "9111d1d68110100dec9be4e012d7012ef91d0de5d19454a7b2d2a6eb20ebd71a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-49-run-196",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-49-run-203/PCL-4.9.apk",
+  "apkSize": 19820375,
+  "sha256": "01be936dd4be0ddd7ba67d2b192beccc96b4fc888146e0bdf43dfb97986c5e8c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-49-run-203",
   "notes": [
+    "Opt in to experimental Material 3 Expressive loading API",
+    "Show expressive loading animation during update checks",
+    "Import expressive theme and motion APIs for PCL",
+    "Switch application theme to Material 3 Expressive",
+    "Update Gradle wrapper for AGP 9",
+    "Upgrade Compose runtime and Material 3 Expressive dependencies",
+    "Upgrade Gradle plugins to AGP 9 and Kotlin Compose 2.4.20",
     "Round actual Material 3 popup surfaces via theme shape token",
     "Use rounded Material 3 confirmation dialog for call history"
   ]
