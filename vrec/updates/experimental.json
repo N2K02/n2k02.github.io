@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-20-run-70",
-  "versionName": "3.2",
-  "versionCode": 100070,
-  "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-70/VREC-3.2.apk",
+  "tag": "vrec-experimental-pr-21-run-72",
+  "versionName": "3.3",
+  "versionCode": 100072,
+  "apkName": "VREC-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-21-run-72/VREC-3.3.apk",
   "apkSize": 19756796,
-  "sha256": "e96163e6379358a0d1192b5f1eb5f20a4762e61ad445ba3fc7c83aeeb8d4bc62",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-70",
+  "sha256": "44c2ae3d695fc9f68435a831c95a9ce9b4d20e325fe582bf9c6bc8de8ba69eee",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-21-run-72",
   "notes": [
-    "build(updater): use manifest-authoritative 0.1.13",
-    "fix(updater): use published channel versionCode manifests",
-    "feat(vrec): add Material 3 settings hub with recording, audio, VoIP and updates submenus",
-    "refactor(vrec): remove top overflow menu and route settings subpages",
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "style(updater): use MRadio About & updates ListItem layout",
-    "fix(ci): resolve Kotlin compilation errors blocking experimental APK",
-    "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
-    "refactor(theme): replace custom app theme with shared N2K02Theme",
-    "feat(ui): align VREC navigation with MRadio rounded icon menu and bottom bar"
+    "fix(distribution): retry concurrent manifest updates"
   ]
 }
