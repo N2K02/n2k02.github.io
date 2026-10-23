@@ -1,14 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-28-run-55",
+  "tag": "pbar-experimental-pr-28-run-58",
   "versionName": "3.9",
-  "versionCode": 100055,
+  "versionCode": 100058,
   "apkName": "PBar-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-28-run-55/PBar-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-28-run-58/PBar-3.9.apk",
   "apkSize": 13260722,
-  "sha256": "b6281b5e5a09055499a93f9d524eee88df0a57d1bac417c43e22a68e5c864c16",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-28-run-55",
+  "sha256": "6f85fca63fab60ec6370484ff519ecaf4406425a79abd8b16585ceee53c50b3f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-28-run-58",
   "notes": [
+    "Opt in to experimental Material 3 Expressive loading API",
+    "Use expressive loading indicator for update checking state",
+    "Replace update-check button label with expressive loading indicator",
     "Round actual Material 3 popup surfaces via theme shape token",
     "Round all four per-app settings dropdowns"
   ]
