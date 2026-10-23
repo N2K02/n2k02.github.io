@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-20-run-68",
+  "tag": "vrec-experimental-pr-20-run-69",
   "versionName": "3.2",
-  "versionCode": 100068,
+  "versionCode": 100069,
   "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-68/VREC-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-69/VREC-3.2.apk",
   "apkSize": 19756800,
-  "sha256": "e29c4f71940f7b1c472d11eb916f457ffd8176eb2058d35dcb29e659aab2b6a1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-68",
+  "sha256": "7fb902327440f200cb67f90b9c7f8fd49f6beca9c9133a639aecb84cf260534a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-69",
   "notes": [
+    "fix(updater): use published channel versionCode manifests",
     "feat(vrec): add Material 3 settings hub with recording, audio, VoIP and updates submenus",
     "refactor(vrec): remove top overflow menu and route settings subpages",
     "fix(ci): make experimental APK publishing safe on workflow reruns",
@@ -17,7 +18,6 @@
     "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
     "refactor(theme): replace custom app theme with shared N2K02Theme",
     "feat(ui): align VREC navigation with MRadio rounded icon menu and bottom bar",
-    "refactor(updater): retire redundant legacy updater UI and implementation",
     "refactor(updater): retire redundant legacy updater UI and implementation"
   ]
 }
