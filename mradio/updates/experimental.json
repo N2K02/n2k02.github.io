@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-14-run-255",
-  "versionName": "4.3-experimental.255",
-  "versionCode": 100255,
-  "apkName": "MRadio-PR-14-1db11f0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-255/MRadio-PR-14-1db11f0.apk",
-  "apkSize": 2810723,
-  "sha256": "4f27bf6854227c53f87426c063b4ef72852e5f9e8094ce1c89598adc06418a46",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-255",
+  "tag": "mradio-exp-pr-14-run-260",
+  "versionName": "4.3-experimental.260",
+  "versionCode": 100260,
+  "apkName": "MRadio-PR-14-41ae50a.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-260/MRadio-PR-14-41ae50a.apk",
+  "apkSize": 2810779,
+  "sha256": "a275ec655bc66b63bdd319174e8cd8108581760840d5b2e1e54617864b675ba2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-260",
   "notes": [
+    "feat(notification): declare Android 13+ permission for experimental custom controls",
+    "fix(notification): refresh custom controls on playback changes and respect notification permission",
+    "feat(notification): wire experimental custom Quit and transport controls alongside Media3",
+    "feat(notification): add experimental custom radio controls layout",
+    "feat(player): add prominent Material 3 Quit control in now-playing header",
     "fix(notification): restore Previous Next Quit ordering",
     "Position Quit between Previous and Next in MRadio media notification",
     "Remove duplicate update-check action from MRadio settings",
     "Make buffering indicator visible against filled play button background",
-    "Clean up playback startup state and handle retry loading",
-    "Show Expressive loading indicator during startup and buffering across radio controls",
-    "Fix shared updater CI for mandatory packages and experimental branch",
-    "Keep Android version-code compatibility in live shared updater",
-    "Resolve mandatory shared updater and theme packages in all MRadio builds",
-    "Connect MRadio live settings, badges and lifecycle to shared updater"
+    "Clean up playback startup state and handle retry loading"
   ]
 }
