@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-16-run-143",
+  "tag": "speedtester-experimental-pr-16-run-148",
   "versionName": "6.8",
-  "versionCode": 100143,
+  "versionCode": 100148,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-143/SpeedTester-6.8.apk",
-  "apkSize": 2782864,
-  "sha256": "16ea4279e1adac83758c0654ce968323f65a9bc0550cc94b9473ad635efc2b97",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-143",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-148/SpeedTester-6.8.apk",
+  "apkSize": 2827920,
+  "sha256": "b71156a3e7a4c0f399f54e8470c3072afd428a950aaaf3cedb21f9cda2eba4ef",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-148",
   "notes": [
+    "fix(ci): resolve Kotlin compilation errors blocking experimental APK",
+    "fix: capture theme palette outside Canvas draw scope",
+    "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
+    "refactor(theme): use shared N2K02Theme instead of custom MaterialTheme",
+    "style: align Material 3 rounded expressive shapes with N2K02 UI",
     "refactor(updater): retire redundant legacy updater UI and implementation",
     "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Retry transient GitHub Releases 500 errors when publishing experimental APK",
     "Qualify Material3 list item in SpeedTester update page",
-    "Replace SpeedTester custom updater with MRadio shared About and updates screen",
-    "Supply private Maven credentials to PR validation",
-    "Supply authenticated private Maven token to APK build",
-    "Enable shared library resolution on experimental app builds",
-    "Enable shared library resolution on experimental app builds",
-    "Stage shared updater controller for experimental migration"
+    "Replace SpeedTester custom updater with MRadio shared About and updates screen"
   ]
 }
