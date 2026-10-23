@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-16-run-138",
+  "tag": "speedtester-experimental-pr-16-run-141",
   "versionName": "6.8",
-  "versionCode": 100138,
+  "versionCode": 100141,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-138/SpeedTester-6.8.apk",
-  "apkSize": 2733712,
-  "sha256": "1022d6b1d18525f5d588d1e7100c1719308cf8d6e2f7ff9f9ad376ae23cdfe3d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-138",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-141/SpeedTester-6.8.apk",
+  "apkSize": 2799248,
+  "sha256": "4ff9484492928cbc2d38ad3a716de52394f2a9cb3dc8f0c9bd493e2603978b9d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-141",
   "notes": [
+    "Retry transient GitHub Releases 500 errors when publishing experimental APK",
+    "Qualify Material3 list item in SpeedTester update page",
+    "Replace SpeedTester custom updater with MRadio shared About and updates screen",
     "Supply private Maven credentials to PR validation",
     "Supply authenticated private Maven token to APK build",
     "Enable shared library resolution on experimental app builds",
     "Enable shared library resolution on experimental app builds",
     "Stage shared updater controller for experimental migration",
     "Validate SpeedTester PR using Gradle 9.3.1",
-    "Use Gradle 9.3.1 in SpeedTester APK build for AGP 9.1",
-    "Resolve shared updater FileProvider manifest merge conflict in experimental build",
-    "Run experimental integration with Gradle 9.3.1",
-    "Use built-in Kotlin and SDK 37 in experimental app"
+    "Use Gradle 9.3.1 in SpeedTester APK build for AGP 9.1"
   ]
 }
