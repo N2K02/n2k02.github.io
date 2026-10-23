@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-7-run-75",
+  "tag": "hfreebuds-experimental-pr-7-run-76",
   "versionName": "3.8",
-  "versionCode": 100075,
+  "versionCode": 100076,
   "apkName": "HFreebuds-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-75/HFreebuds-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-76/HFreebuds-3.8.apk",
   "apkSize": 2313870,
-  "sha256": "dccf3cb8525404cb2c92210e91e44322230093339782ef2ba751e76b60259703",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-75",
+  "sha256": "a1f49d4d33647734cb5b2ac68002afc6dc340a58aae6655dc849e5834a013409",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-76",
   "notes": [
+    "fix(ci): make experimental APK publishing safe on workflow reruns",
     "style(updater): match MRadio ListItem experimental channel control",
     "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
     "ci: trigger fresh HFreebuds experimental APK build",
@@ -17,7 +18,6 @@
     "Remove redundant footer update-check action; retain single shared updater card",
     "Generate BuildConfig for version display in updater UI",
     "Import icons for HFreebuds device actions",
-    "Replace unavailable Material icons with existing HFreebuds icon set",
-    "Add meaningful leading icons to every HFreebuds dropdown action"
+    "Replace unavailable Material icons with existing HFreebuds icon set"
   ]
 }
