@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.0",
-  "versionName": "4.0",
-  "versionCode": 100083,
-  "apkName": "PBar-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.0/PBar-4.0.apk",
+  "tag": "pbar-v4.1",
+  "versionName": "4.1",
+  "versionCode": 100084,
+  "apkName": "PBar-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.1/PBar-4.1.apk",
   "apkSize": 13293546,
-  "sha256": "7a33121704172100e5154e475213dd113948125b03568aa26dbc86c94dd5e6d6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.0",
+  "sha256": "0659cf38d590d7f754c3557a7c8ad3fd8697219b139b857e4f9a168b31dd1441",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.1",
   "notes": [
-    "Avoid Apps tab freezes and add Reset to app colours (#31)"
+    "Fix stable and experimental updater version selection (#30)"
   ]
 }
