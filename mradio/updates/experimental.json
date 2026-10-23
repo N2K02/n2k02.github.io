@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-14-run-261",
-  "versionName": "4.3-experimental.261",
-  "versionCode": 100261,
-  "apkName": "MRadio-PR-14-289008b.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-261/MRadio-PR-14-289008b.apk",
+  "tag": "mradio-exp-pr-15-run-263",
+  "versionName": "4.4-experimental.263",
+  "versionCode": 100263,
+  "apkName": "MRadio-PR-15-595102d.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-15-run-263/MRadio-PR-15-595102d.apk",
   "apkSize": 2810779,
-  "sha256": "b743a98110782570353be01777e4d4dcf0c00f731be290c6f8c2cc71b73f1c19",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-261",
+  "sha256": "dc8e492e1cbeef919071f8ed45e7cdebad30d4a681bb0af469cfce582551f47a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-15-run-263",
   "notes": [
-    "fix(ci): allow experimental APK reruns without overwriting stable releases",
-    "feat(notification): declare Android 13+ permission for experimental custom controls",
-    "fix(notification): refresh custom controls on playback changes and respect notification permission",
-    "feat(notification): wire experimental custom Quit and transport controls alongside Media3",
-    "feat(notification): add experimental custom radio controls layout",
-    "feat(player): add prominent Material 3 Quit control in now-playing header",
-    "fix(notification): restore Previous Next Quit ordering",
-    "Position Quit between Previous and Next in MRadio media notification",
-    "Remove duplicate update-check action from MRadio settings",
-    "Make buffering indicator visible against filled play button background"
+    "fix(updater): require published manifest versionCode"
   ]
 }
