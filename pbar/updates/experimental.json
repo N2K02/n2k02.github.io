@@ -1,18 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-26-run-42",
-  "versionName": "3.5",
-  "versionCode": 100042,
-  "apkName": "PBar-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-26-run-42/PBar-3.5.apk",
+  "tag": "pbar-experimental-pr-28-run-54",
+  "versionName": "3.9",
+  "versionCode": 100054,
+  "apkName": "PBar-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-28-run-54/PBar-3.9.apk",
   "apkSize": 13260722,
-  "sha256": "cba143cb6aa8fe5f2466fff17743c5cd97cb8f806c712ea8f4baf6f785973aa5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-26-run-42",
+  "sha256": "c1c601ddabe4dedc6f9735e16ccff4ae0217211709fbdc088664deaa502de426",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-28-run-54",
   "notes": [
-    "Fix Apps screen Kotlin scope and clickable card compilation",
-    "Separate app selection from dedicated customization screen",
-    "Add detected filter and multi-app bulk selection controls",
-    "Actually redesign app cards and correct switch callback syntax",
-    "Redesign Apps selection with installed apps, search, filters and bulk controls (#23)"
+    "Round all four per-app settings dropdowns"
   ]
 }
