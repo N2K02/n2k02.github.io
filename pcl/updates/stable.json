@@ -1,16 +1,23 @@
 {
   "channel": "stable",
-  "tag": "pcl-v4.8",
-  "versionName": "4.8",
-  "versionCode": 100194,
-  "apkName": "PCL-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.8/PCL-4.8.apk",
-  "apkSize": 16609410,
-  "sha256": "e0b07bea485818d2ef65c60e41e01788f3c005f8770646885d5619ebd0120251",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.8",
+  "tag": "pcl-v4.9",
+  "versionName": "4.9",
+  "versionCode": 100224,
+  "apkName": "PCL-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.9/PCL-4.9.apk",
+  "apkSize": 19820809,
+  "sha256": "79508214efe1280f907ad3f26100e45c4f0cc92147d3a50df4243c3a0f3cc7c5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.9",
   "notes": [
-    "Cancel superseded Android workflow runs",
-    "Cancel superseded Android workflow runs",
-    "Cancel superseded Android workflow runs"
+    "fix(ci): allow experimental APK release publishing on workflow reruns",
+    "style(updater): match MRadio experimental-updates typography",
+    "chore(updater): align experimental updater screen with MRadio standard",
+    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
+    "refactor(theme): use shared N2K02Theme instead of custom MaterialTheme",
+    "style: align Material 3 rounded expressive shapes with N2K02 UI",
+    "fix(updater): remove legacy update entry action and align shared updater UI",
+    "fix(updater): avoid duplicate App updates title in shared updater screen",
+    "Pass existing GitHub Packages token into Android CI build job",
+    "Replace PCL legacy update screen with MRadio-style shared updater UI"
   ]
 }
