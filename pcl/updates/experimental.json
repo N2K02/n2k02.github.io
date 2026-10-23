@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-50-run-213",
+  "tag": "pcl-experimental-pr-50-run-214",
   "versionName": "4.9",
-  "versionCode": 100213,
+  "versionCode": 100214,
   "apkName": "PCL-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-50-run-213/PCL-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-50-run-214/PCL-4.9.apk",
   "apkSize": 19820825,
-  "sha256": "5db963383e2eb2791649fb56dc2ae06c46db495747b309f8f8260ea17f36c436",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-50-run-213",
+  "sha256": "f4266b3e11875dbf64f8911dca533c8409f000935a6e4665ba5301582f78b3e8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-50-run-214",
   "notes": [
+    "Replace PCL legacy update screen with MRadio-style shared updater UI",
     "Supply private Maven credentials to PR validation",
     "Supply authenticated private Maven token to APK build",
     "Enable shared library resolution on experimental app builds",
@@ -17,7 +18,6 @@
     "Update Gradle wrapper for AGP 9.1 experimental integration",
     "Fix AGP 9 built-in Kotlin compatibility on experimental branch",
     "Run experimental compilation on Gradle 9.3.1",
-    "Enable Kotlin Compose compiler and compileSdk 37 for experimental libraries",
-    "Experimental AGP and Kotlin toolchain upgrade for modern AndroidX"
+    "Enable Kotlin Compose compiler and compileSdk 37 for experimental libraries"
   ]
 }
