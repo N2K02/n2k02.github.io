@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v4.9",
-  "versionName": "4.9",
-  "versionCode": 100224,
-  "apkName": "PCL-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v4.9/PCL-4.9.apk",
+  "tag": "pcl-v5.0",
+  "versionName": "5.0",
+  "versionCode": 100227,
+  "apkName": "PCL-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.0/PCL-5.0.apk",
   "apkSize": 19820809,
-  "sha256": "79508214efe1280f907ad3f26100e45c4f0cc92147d3a50df4243c3a0f3cc7c5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v4.9",
+  "sha256": "142032e5c254f520b3d5fdc3f286ff8c788ccb1846f13a2e8107791b3f4bbf05",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.0",
   "notes": [
-    "fix(ci): allow experimental APK release publishing on workflow reruns",
-    "style(updater): match MRadio experimental-updates typography",
-    "chore(updater): align experimental updater screen with MRadio standard",
-    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
-    "refactor(theme): use shared N2K02Theme instead of custom MaterialTheme",
-    "style: align Material 3 rounded expressive shapes with N2K02 UI",
-    "fix(updater): remove legacy update entry action and align shared updater UI",
-    "fix(updater): avoid duplicate App updates title in shared updater screen",
-    "Pass existing GitHub Packages token into Android CI build job",
-    "Replace PCL legacy update screen with MRadio-style shared updater UI"
+    "Fix stable and experimental updater version selection (#51)"
   ]
 }
