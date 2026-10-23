@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-31-run-81",
+  "tag": "pbar-experimental-pr-30-run-82",
   "versionName": "4.0",
-  "versionCode": 100081,
+  "versionCode": 100082,
   "apkName": "PBar-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-31-run-81/PBar-4.0.apk",
-  "apkSize": 13293546,
-  "sha256": "b32295ae356ee0519c1d9699f1d877c1671e3562b16f1a8e257cca829a3d66bb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-31-run-81",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-30-run-82/PBar-4.0.apk",
+  "apkSize": 13277162,
+  "sha256": "5cdf1210b68da483a0339885972d1112393d62378e8c2300b568ab76df3e1e3d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-30-run-82",
   "notes": [
-    "Disable bulk app actions until first scan finishes",
-    "Load apps asynchronously with lazy list and add app-colour reset"
+    "build(updater): use manifest-authoritative 0.1.13",
+    "fix(updater): use published channel versionCode manifests"
   ]
 }
