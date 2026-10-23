@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-13-run-69",
+  "tag": "netspeed-experimental-pr-13-run-70",
   "versionName": "3.4",
-  "versionCode": 100069,
+  "versionCode": 100070,
   "apkName": "NetSpeed-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-13-run-69/NetSpeed-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-13-run-70/NetSpeed-3.4.apk",
   "apkSize": 1175072,
-  "sha256": "b8ecd6a645bb1afca539849e17ec1a8251add947925e18498c1120abe6052cc4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-13-run-69",
+  "sha256": "ba25507399c909f7fcc2318162e0cb7f8a26c17947683bd23ee0283cb23cf5ba",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-13-run-70",
   "notes": [
+    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
     "fix(build): use available SystemUpdate icon in updates page",
     "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Fix Android CI compilation errors in shared updater and rounded menus",
@@ -16,7 +17,6 @@
     "Use single MRadio-style updater card without duplicate check action",
     "Generate BuildConfig for version display in updater UI",
     "Apply rounded MRadio menu and leading icons to update actions",
-    "Connect NetSpeed UI and builds to shared updater and theme",
     "Connect NetSpeed UI and builds to shared updater and theme",
     "Connect NetSpeed UI and builds to shared updater and theme"
   ]
