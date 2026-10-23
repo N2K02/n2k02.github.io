@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-7-run-71",
+  "tag": "hfreebuds-experimental-pr-7-run-72",
   "versionName": "3.8",
-  "versionCode": 100071,
+  "versionCode": 100072,
   "apkName": "HFreebuds-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-71/HFreebuds-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-72/HFreebuds-3.8.apk",
   "apkSize": 2313870,
-  "sha256": "1f2f98655682d933f22d7c2ad6d17190ec4b85bab47e63872a590de7a47ea4ec",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-71",
+  "sha256": "bf335f5ae9ca195b836604d4ba3e2acb2a20f67c37addab2360c2cb7ce70e479",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-72",
   "notes": [
+    "fix(updates): remove duplicate App updates heading",
     "Match MRadio About and updates screen; remove duplicate updater action",
     "Remove redundant footer update-check action; retain single shared updater card",
     "Generate BuildConfig for version display in updater UI",
@@ -17,7 +18,6 @@
     "Add meaningful leading icons to every HFreebuds dropdown action",
     "Match MRadio rounded Expressive dropdown styling in HFreebuds",
     "Move HFreebuds update footer off legacy updater state",
-    "Resolve shared HFreebuds dependencies for live updater builds",
-    "Wire HFreebuds live updater UI and lifecycle to shared controller"
+    "Resolve shared HFreebuds dependencies for live updater builds"
   ]
 }
