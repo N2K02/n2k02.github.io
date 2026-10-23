@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-6-run-51",
+  "tag": "hfreebuds-experimental-pr-6-run-53",
   "versionName": "3.8",
-  "versionCode": 100051,
+  "versionCode": 100053,
   "apkName": "HFreebuds-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-6-run-51/HFreebuds-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-6-run-53/HFreebuds-3.8.apk",
   "apkSize": 2313814,
-  "sha256": "f45aae2163d90b22412c1f371631addda253921082e87bb7339674a94af6e56e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-6-run-51",
+  "sha256": "bd12e5669835abb137bb04be0144175baaa5f78f73dc9d9676581018ca1631ba",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-6-run-53",
   "notes": [
+    "Opt in to experimental Material 3 Expressive loading API",
+    "Show expressive loading animation during update checks",
     "Round actual Material 3 popup surfaces via theme shape token",
     "Modernize earbuds mode sheet with rounded top corners"
   ]
