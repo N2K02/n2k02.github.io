@@ -1,19 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-9-run-231",
-  "versionName": "4.3-experimental.231",
-  "versionCode": 100231,
-  "apkName": "MRadio-PR-9-2084400.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-9-run-231/MRadio-PR-9-2084400.apk",
+  "tag": "mradio-exp-pr-11-run-232",
+  "versionName": "4.3-experimental.232",
+  "versionCode": 100232,
+  "apkName": "MRadio-PR-11-39c6238.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-11-run-232/MRadio-PR-11-39c6238.apk",
   "apkSize": 2798379,
-  "sha256": "849f446c53e1c9a738725a74446602cc0a1e7a892f74a3563e72e7c3190ec934",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-9-run-231",
+  "sha256": "f222b0ff9368d40a986d6c292f7744f67141b4818df000dc88a7426349d48ba0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-11-run-232",
   "notes": [
-    "Opt in to experimental Material 3 Expressive loading API",
-    "Use expressive loading indicator for update checking state",
-    "Replace play icons with expressive loading animation while buffering",
-    "Round actual Material 3 popup surfaces via theme shape token",
-    "Unify rounded settings menus and sheets",
-    "Unify rounded settings menus and sheets"
+    "Document isolated Compose device test harness and required install guard",
+    "Avoid duplicate onResume checks when lifecycle observer catches up",
+    "Add opt-in shared updater Compose device-test screen and lifecycle wiring",
+    "Record published updater 0.1.10 and next CI verification gate",
+    "Validate published updater 0.1.10 with latest parity fixes",
+    "Document opt-in install guard, resume behavior, and updater parity fixes",
+    "Expose opt-in download/install lifecycle with mandatory host safety guard",
+    "Document opt-in controller adapter and remaining device validation",
+    "Expose opt-in shared updater state and check/skip adapter methods",
+    "Document published 0.1.8 fallback policy and runtime migration gate"
   ]
 }
