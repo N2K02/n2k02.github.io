@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-7-run-55",
+  "tag": "bcam-experimental-pr-8-run-56",
   "versionName": "3.2",
-  "versionCode": 100055,
+  "versionCode": 100056,
   "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-7-run-55/BCam-3.2.apk",
-  "apkSize": 1273712,
-  "sha256": "5d01c92675a99f678b2bce90116f11c699d1996098342c863b517f04f35d2dfc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-7-run-55",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-56/BCam-3.2.apk",
+  "apkSize": 83709,
+  "sha256": "dce9d30e0049497a05f39c8665cd149c3a76248a69296aedd6e89408693d42fb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-56",
   "notes": [
-    "Render BCam updater as native Compose without AndroidView",
-    "Replace legacy BCam updater Android Views with state-driven Material 3 Compose screen",
-    "Separate BCam updates into a dedicated Expressive settings view",
-    "Fix Compose check icon import in BCam settings",
-    "Use ComponentActivity for Compose lifecycle integration",
-    "Use imported Compose activity content extension",
-    "Remove obsolete native dialog lifecycle references",
-    "Replace BCam native settings dialog with Compose Expressive interface",
-    "Create Material 3 Expressive video settings and dropdown interface",
-    "Enable Compose and Material 3 Expressive in BCam"
+    "Validate BCam dual-library experimental build",
+    "Add opt-in N2K02 shared library dependencies for BCam experimental build",
+    "Add opt-in N2K02 shared library dependencies for BCam experimental build"
   ]
 }
