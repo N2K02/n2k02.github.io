@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.1",
-  "versionName": "3.1",
-  "versionCode": 100043,
-  "apkName": "BCam-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.1/BCam-3.1.apk",
-  "apkSize": 83709,
-  "sha256": "dbe32cb73e03ab0c80e8e13b280687ada631f41ce48f05cffa1d0acbfa09d061",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.1",
+  "tag": "bcam-v3.2",
+  "versionName": "3.2",
+  "versionCode": 100106,
+  "apkName": "BCam-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.2/BCam-3.2.apk",
+  "apkSize": 1134504,
+  "sha256": "d36a5278e457bfea14675235677869ab14fcb4771b0b4cbe62d4f21128f77ff0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.2",
   "notes": [
-    "Cancel superseded Android workflow runs",
-    "Cancel superseded Android workflow runs"
+    "Experimental shared libraries and manifest-based updater (#8)"
   ]
 }
