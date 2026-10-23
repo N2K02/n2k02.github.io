@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-13-run-77",
-  "versionName": "3.4",
-  "versionCode": 100077,
-  "apkName": "NetSpeed-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-13-run-77/NetSpeed-3.4.apk",
+  "tag": "netspeed-experimental-pr-14-run-79",
+  "versionName": "3.5",
+  "versionCode": 100079,
+  "apkName": "NetSpeed-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-14-run-79/NetSpeed-3.5.apk",
   "apkSize": 1170976,
-  "sha256": "1ad86519cdfce56b38227685af03fd2759462c2baebf672953718de679158ff7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-13-run-77",
+  "sha256": "5b223547d8472f8197d652fae3706fb7d7a9ee516e5b3fa60a779cef093b8bb0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-14-run-79",
   "notes": [
-    "style(ui): match MRadio persistent bottom navigation menu for NetSpeed",
-    "fix(ui): remove three-dot updater menu and use one MRadio-style update action",
-    "feat(ui): replace NetSpeed update navigation with Home and Updates bottom bar",
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "fix(settings): mirror MRadio dedicated About & updates page with direct settings row",
-    "fix(settings): avoid nested vertical scrolling in inline updater section",
-    "feat(settings): show updater directly without three-dot submenu",
-    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
-    "fix(build): use available SystemUpdate icon in updates page",
-    "fix(updater): avoid duplicate App updates title in shared updater screen"
+    "fix(updater): use published channel versionCode manifests"
   ]
 }
