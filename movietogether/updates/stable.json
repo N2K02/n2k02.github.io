@@ -1,0 +1,15 @@
+{
+  "channel": "stable",
+  "tag": "movietogether-v1.0-build-12",
+  "versionName": "1.0",
+  "versionCode": 100012,
+  "apkName": "MovieTogether-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.0-build-12/MovieTogether-1.0.apk",
+  "apkSize": 13162317,
+  "sha256": "e4f9741921014f6738938931f6d97c725e636517e3ff8e5bea4dbbe4df1fd3e8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.0-build-12",
+  "notes": [
+    "Bootstrap MovieTogether with signed manifest updater (#1)",
+    "Add project README and future APK release links"
+  ]
+}
