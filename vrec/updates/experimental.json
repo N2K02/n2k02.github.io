@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-20-run-59",
+  "tag": "vrec-experimental-pr-20-run-64",
   "versionName": "3.2",
-  "versionCode": 100059,
+  "versionCode": 100064,
   "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-59/VREC-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-64/VREC-3.2.apk",
   "apkSize": 19756800,
-  "sha256": "8ba47842f4732553ab66e33293f7fe7351e92c3f562d52d0a6e41c7bb5cc96d7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-59",
+  "sha256": "e29ab59c7a78419e75c0ba437f28070d261ee44a7610318434af4b779b0577cf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-64",
   "notes": [
+    "fix(ci): resolve Kotlin compilation errors blocking experimental APK",
+    "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
+    "refactor(theme): replace custom app theme with shared N2K02Theme",
+    "feat(ui): align VREC navigation with MRadio rounded icon menu and bottom bar",
+    "refactor(updater): retire redundant legacy updater UI and implementation",
+    "refactor(updater): retire redundant legacy updater UI and implementation",
     "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Generate BuildConfig for VREC About and updates version label",
     "Pass existing GitHub Packages token into Android CI build job",
-    "Permit shared updater installation only when no recording is active",
-    "Initialize VREC shared updater lifecycle for new About and updates page",
-    "Replace VREC legacy updater page with MRadio-style shared update card",
-    "Supply private Maven credentials to PR validation",
-    "Supply authenticated private Maven token to APK build",
-    "Unify VREC recording dropdowns and details sheet with rounded icon-led design",
-    "Fail closed on updater installation until recording guard is wired"
+    "Permit shared updater installation only when no recording is active"
   ]
 }
