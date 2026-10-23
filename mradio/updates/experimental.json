@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-14-run-248",
-  "versionName": "4.3-experimental.248",
-  "versionCode": 100248,
-  "apkName": "MRadio-PR-14-594f1fd.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-248/MRadio-PR-14-594f1fd.apk",
+  "tag": "mradio-exp-pr-14-run-251",
+  "versionName": "4.3-experimental.251",
+  "versionCode": 100251,
+  "apkName": "MRadio-PR-14-bf9f129.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-251/MRadio-PR-14-bf9f129.apk",
   "apkSize": 2810723,
-  "sha256": "b0ab80f055d5309024b79a3c8bab33b3454a94feabadc4014957a18b7332b014",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-248",
+  "sha256": "f6b2ae08a56072d508def7fe57dfde43e05a8131ffdfdc766154bb25299de8a1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-251",
   "notes": [
+    "Clean up playback startup state and handle retry loading",
+    "Show Expressive loading indicator during startup and buffering across radio controls",
+    "Fix shared updater CI for mandatory packages and experimental branch",
     "Keep Android version-code compatibility in live shared updater",
     "Resolve mandatory shared updater and theme packages in all MRadio builds",
     "Connect MRadio live settings, badges and lifecycle to shared updater",
     "Connect MRadio live settings, badges and lifecycle to shared updater",
     "Connect MRadio live settings, badges and lifecycle to shared updater",
     "Connect MRadio live settings, badges and lifecycle to shared updater",
-    "Connect MRadio live settings, badges and lifecycle to shared updater",
-    "Introduce live shared updater controller with playback-safe installation",
-    "Authenticate private shared theme during MRadio unit tests and lint",
-    "Include shared theme in all MRadio builds after live theme cutover"
+    "Connect MRadio live settings, badges and lifecycle to shared updater"
   ]
 }
