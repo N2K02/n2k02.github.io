@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-8-run-105",
-  "versionName": "3.2",
-  "versionCode": 100105,
-  "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-105/BCam-3.2.apk",
+  "tag": "bcam-experimental-pr-9-run-107",
+  "versionName": "3.3",
+  "versionCode": 100107,
+  "apkName": "BCam-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-9-run-107/BCam-3.3.apk",
   "apkSize": 1134504,
-  "sha256": "ab33597107e41c1c0795169f1a45204fb3bef69219a73cc0f675b4c250c0b3f7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-105",
+  "sha256": "35637d2ac8eeec1d3965894bffa35ed665dc07f146555b4b8abdba3cde891f0b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-9-run-107",
   "notes": [
-    "build(updater): use manifest-authoritative 0.1.13",
-    "fix(updater): use published channel versionCode manifests",
-    "fix(updater): use published channel versionCode manifests",
-    "feat(bcam): add bottom Quit action with discard-current-recording confirmation",
-    "style(bcam): use exact MRadio shared N2K02Theme for automatic day and night colors",
-    "fix(bcam): navigate back from updates and settings subpages to settings overview",
-    "feat(bcam): follow system day/night mode with Material You dynamic colors",
-    "fix(build): remove duplicate Compose plugin, features and dependencies",
-    "refactor(bcam): match MRadio Material 3 settings hub and nested sections; remove More menu",
-    "refactor(ui): remove obsolete native bottom navigation and duplicate update controls"
+    "fix(distribution): retry concurrent manifest updates"
   ]
 }
