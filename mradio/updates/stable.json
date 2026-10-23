@@ -1,20 +1,23 @@
 {
   "channel": "stable",
-  "tag": "mradio-v4.1-build-212",
-  "versionName": "4.1",
-  "versionCode": 100212,
-  "apkName": "MRadio-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.1-build-212/MRadio-4.1.apk",
+  "tag": "mradio-v4.2-build-222",
+  "versionName": "4.2",
+  "versionCode": 100222,
+  "apkName": "MRadio-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.2-build-222/MRadio-4.2.apk",
   "apkSize": 2781995,
-  "sha256": "593eb3cf4afe0d196bf0d1c0f881ed75e29cc4c07a61fadd16ea3b35d5a641f4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.1-build-212",
+  "sha256": "08bd63c646279ce24022a0869b6ba1d11e6e0df1bc64d44b2cff38ed343e0e7e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.2-build-222",
   "notes": [
-    "Fix nullable intent access for incoming radio links",
-    "Fix Kotlin string literals in station sharing",
-    "Include Open in mRadio deep link when sharing stations",
-    "Decode mRadio deep links and shared stream URLs",
-    "Register dedicated mradio open-stream deep links",
-    "Open and play shared radio streams in mRadio",
-    "Register mRadio for shared streaming URLs and audio links"
+    "Show clear error for unplayable shared stream",
+    "Offer to save successfully playing external stream",
+    "Wire preview feedback dialogs",
+    "Observe preview playback success and failure",
+    "Track external stream preview status in activity",
+    "Preview external streams without adding them to library",
+    "Fix newlines in temporary stream handling",
+    "Play incoming radio URLs as one-shot temporary streams without saving",
+    "Register common radio stream extensions and extensionless streaming hosts",
+    "Share WhatsApp-friendly clickable stream URLs instead of custom scheme links"
   ]
 }
