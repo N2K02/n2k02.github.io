@@ -1,17 +1,23 @@
 {
   "channel": "stable",
-  "tag": "mradio-v4.3-build-226",
-  "versionName": "4.3",
-  "versionCode": 100226,
-  "apkName": "MRadio-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.3-build-226/MRadio-4.3.apk",
-  "apkSize": 2798379,
-  "sha256": "9ec23dac150d7492b7b8288b8975eba4981ff1446d621cd539d4ff0d6f3c6744",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.3-build-226",
+  "tag": "mradio-v4.4-build-262",
+  "versionName": "4.4",
+  "versionCode": 100262,
+  "apkName": "MRadio-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.4-build-262/MRadio-4.4.apk",
+  "apkSize": 2810779,
+  "sha256": "66172987fbd9617bd5eda840a37d4bac4eb1e40546156c2036f4be6d02b1be51",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.4-build-262",
   "notes": [
-    "Round stream-selection dropdown for consistent mRadio styling",
-    "Give station overflow menus rounded corners and clearer action groups",
-    "Add icons to stream preference dropdown choices",
-    "Add consistent icons to every station overflow menu action"
+    "fix(ci): allow experimental APK reruns without overwriting stable releases",
+    "feat(notification): declare Android 13+ permission for experimental custom controls",
+    "fix(notification): refresh custom controls on playback changes and respect notification permission",
+    "feat(notification): wire experimental custom Quit and transport controls alongside Media3",
+    "feat(notification): add experimental custom radio controls layout",
+    "feat(player): add prominent Material 3 Quit control in now-playing header",
+    "fix(notification): restore Previous Next Quit ordering",
+    "Position Quit between Previous and Next in MRadio media notification",
+    "Remove duplicate update-check action from MRadio settings",
+    "Make buffering indicator visible against filled play button background"
   ]
 }
