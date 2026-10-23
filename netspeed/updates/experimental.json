@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-14-run-79",
+  "tag": "netspeed-experimental-pr-14-run-80",
   "versionName": "3.5",
-  "versionCode": 100079,
+  "versionCode": 100080,
   "apkName": "NetSpeed-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-14-run-79/NetSpeed-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-14-run-80/NetSpeed-3.5.apk",
   "apkSize": 1170976,
-  "sha256": "5b223547d8472f8197d652fae3706fb7d7a9ee516e5b3fa60a779cef093b8bb0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-14-run-79",
+  "sha256": "9d0047f58242f0f7dd4f461600fa558cc6ba05f3f2100d53b4c9014a17cc4e35",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-14-run-80",
   "notes": [
+    "build(updater): use manifest-authoritative 0.1.13",
     "fix(updater): use published channel versionCode manifests"
   ]
 }
