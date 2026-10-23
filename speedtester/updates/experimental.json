@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-16-run-141",
+  "tag": "speedtester-experimental-pr-16-run-142",
   "versionName": "6.8",
-  "versionCode": 100141,
+  "versionCode": 100142,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-141/SpeedTester-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-142/SpeedTester-6.8.apk",
   "apkSize": 2799248,
-  "sha256": "4ff9484492928cbc2d38ad3a716de52394f2a9cb3dc8f0c9bd493e2603978b9d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-141",
+  "sha256": "fc3db5853ea4c23ea425b62a9ca11a3da47d1c1522837d178c43c17d90bc87b0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-142",
   "notes": [
+    "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Retry transient GitHub Releases 500 errors when publishing experimental APK",
     "Qualify Material3 list item in SpeedTester update page",
     "Replace SpeedTester custom updater with MRadio shared About and updates screen",
@@ -17,7 +18,6 @@
     "Enable shared library resolution on experimental app builds",
     "Enable shared library resolution on experimental app builds",
     "Stage shared updater controller for experimental migration",
-    "Validate SpeedTester PR using Gradle 9.3.1",
-    "Use Gradle 9.3.1 in SpeedTester APK build for AGP 9.1"
+    "Validate SpeedTester PR using Gradle 9.3.1"
   ]
 }
