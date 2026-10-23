@@ -1,0 +1,19 @@
+{
+  "channel": "experimental",
+  "tag": "vrec-experimental-pr-19-run-38",
+  "versionName": "3.2",
+  "versionCode": 100038,
+  "apkName": "VREC-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-19-run-38/VREC-3.2.apk",
+  "apkSize": 19756442,
+  "sha256": "44e0fa7f2df19939f5470fd5cc83a50cd2a10c3ad864b908605ebaaa94dfc2af",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-19-run-38",
+  "notes": [
+    "Switch application theme to Material 3 Expressive",
+    "Update Gradle wrapper for AGP 9",
+    "Upgrade Compose runtime and Material 3 Expressive dependencies",
+    "Upgrade Gradle plugins to AGP 9 and Kotlin Compose 2.4.20",
+    "Round recording menus and recording-details bottom sheet",
+    "Set rounded menu and sheet shapes across VREC"
+  ]
+}
