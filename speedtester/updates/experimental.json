@@ -1,21 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-15-run-126",
+  "tag": "speedtester-experimental-pr-16-run-127",
   "versionName": "6.8",
-  "versionCode": 100126,
+  "versionCode": 100127,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-15-run-126/SpeedTester-6.8.apk",
-  "apkSize": 2750096,
-  "sha256": "d8a8003e45b6403332f6df80e7e6287d529c716bdda4e97dd79d9ff22db549e7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-15-run-126",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-127/SpeedTester-6.8.apk",
+  "apkSize": 2511415,
+  "sha256": "d02483b8d6d02f4627bd9db4b0146b78c9e641421a185a15b54004f725a51796",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-127",
   "notes": [
-    "Align SpeedTester build toolchain with Material 3 Expressive SDK requirements",
-    "Align SpeedTester build toolchain with Material 3 Expressive SDK requirements",
-    "Align SpeedTester build toolchain with Material 3 Expressive SDK requirements",
-    "Use expressive loading indicator during server discovery",
-    "Opt in to Material 3 Expressive APIs",
-    "Use expressive theme with rounded surfaces and motion",
-    "Enable Material 3 Expressive components in SpeedTester",
-    "Use consistent rounded Material 3 surfaces in SpeedTester"
+    "Compile opt-in shared libraries in isolated experimental APK workflow",
+    "Add opt-in shared Expressive theme and updater dependencies",
+    "Add opt-in authenticated N2K02 package repositories"
   ]
 }
