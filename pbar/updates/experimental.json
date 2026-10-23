@@ -1,17 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-29-run-60",
+  "tag": "pbar-experimental-pr-29-run-77",
   "versionName": "3.9",
-  "versionCode": 100060,
+  "versionCode": 100077,
   "apkName": "PBar-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-29-run-60/PBar-3.9.apk",
-  "apkSize": 13260722,
-  "sha256": "2cfa5e1b0665eb44b58344dfe9f27e1c45e639eb9c000d411dbb074a33358c56",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-29-run-60",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-29-run-77/PBar-3.9.apk",
+  "apkSize": 13277162,
+  "sha256": "290c58430fcfc94b764a64a1b21673889c621380763bf72d1b47bbd16980e7ec",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-29-run-77",
   "notes": [
-    "Fix experimental CI to use installed Gradle instead of absent wrapper",
-    "Compile opt-in shared libraries in isolated experimental APK workflow",
-    "Add opt-in shared Expressive theme and updater dependencies",
-    "Add opt-in authenticated N2K02 package repositories"
+    "fix(build): import missing Material icons used by PBar settings and updates",
+    "fix(build): import missing Material icons used by PBar settings and updates",
+    "fix(ui): align PBar updater page with MRadio settings layout and shared updater",
+    "Fix Android CI compilation errors in shared updater and rounded menus",
+    "Fix Android CI compilation errors in shared updater and rounded menus",
+    "Align About and updates screen with MRadio layout and single shared updater card",
+    "Use single MRadio-style updater card without duplicate check action",
+    "Supply private Maven credentials to Android CI",
+    "Supply private Maven credentials to PR validation",
+    "Pass private Maven credentials into PBar APK build"
   ]
 }
