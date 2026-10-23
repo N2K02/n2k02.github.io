@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-50-run-220",
+  "tag": "pcl-experimental-pr-50-run-222",
   "versionName": "4.9",
-  "versionCode": 100220,
+  "versionCode": 100222,
   "apkName": "PCL-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-50-run-220/PCL-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-50-run-222/PCL-4.9.apk",
   "apkSize": 19820825,
-  "sha256": "56062c1c0c65a56e1849392527d2a9dba238d05e1ecfda724409a84401065085",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-50-run-220",
+  "sha256": "2bd19797aa792add2e2f164c5129c75ba9d47ea8509bac116db5e797ac62309f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-50-run-222",
   "notes": [
+    "style(updater): match MRadio experimental-updates typography",
+    "chore(updater): align experimental updater screen with MRadio standard",
     "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
     "refactor(theme): use shared N2K02Theme instead of custom MaterialTheme",
     "style: align Material 3 rounded expressive shapes with N2K02 UI",
@@ -16,8 +18,6 @@
     "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Pass existing GitHub Packages token into Android CI build job",
     "Replace PCL legacy update screen with MRadio-style shared updater UI",
-    "Supply private Maven credentials to PR validation",
-    "Supply authenticated private Maven token to APK build",
-    "Enable shared library resolution on experimental app builds"
+    "Supply private Maven credentials to PR validation"
   ]
 }
