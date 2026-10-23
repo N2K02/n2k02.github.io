@@ -1,15 +1,20 @@
 {
   "channel": "stable",
-  "tag": "mradio-v4.0-build-205",
-  "versionName": "4.0",
-  "versionCode": 100205,
-  "apkName": "MRadio-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.0-build-205/MRadio-4.0.apk",
+  "tag": "mradio-v4.1-build-212",
+  "versionName": "4.1",
+  "versionCode": 100212,
+  "apkName": "MRadio-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.1-build-212/MRadio-4.1.apk",
   "apkSize": 2781995,
-  "sha256": "b93a91b297b8d68499274196ab15d5a1a2b4c2b833351d79a9123037814e8154",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.0-build-205",
+  "sha256": "593eb3cf4afe0d196bf0d1c0f881ed75e29cc4c07a61fadd16ea3b35d5a641f4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.1-build-212",
   "notes": [
-    "Cancel superseded Android workflow runs",
-    "Cancel superseded Android workflow runs"
+    "Fix nullable intent access for incoming radio links",
+    "Fix Kotlin string literals in station sharing",
+    "Include Open in mRadio deep link when sharing stations",
+    "Decode mRadio deep links and shared stream URLs",
+    "Register dedicated mradio open-stream deep links",
+    "Open and play shared radio streams in mRadio",
+    "Register mRadio for shared streaming URLs and audio links"
   ]
 }
