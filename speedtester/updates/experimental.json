@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-16-run-133",
+  "tag": "speedtester-experimental-pr-16-run-138",
   "versionName": "6.8",
-  "versionCode": 100133,
+  "versionCode": 100138,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-133/SpeedTester-6.8.apk",
-  "apkSize": 2441705,
-  "sha256": "b80fef08c8b55cf78a20002506457ec502b35c8fa094301005d273ea40e6a826",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-133",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-138/SpeedTester-6.8.apk",
+  "apkSize": 2733712,
+  "sha256": "1022d6b1d18525f5d588d1e7100c1719308cf8d6e2f7ff9f9ad376ae23cdfe3d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-138",
   "notes": [
+    "Supply private Maven credentials to PR validation",
+    "Supply authenticated private Maven token to APK build",
+    "Enable shared library resolution on experimental app builds",
+    "Enable shared library resolution on experimental app builds",
+    "Stage shared updater controller for experimental migration",
     "Validate SpeedTester PR using Gradle 9.3.1",
     "Use Gradle 9.3.1 in SpeedTester APK build for AGP 9.1",
     "Resolve shared updater FileProvider manifest merge conflict in experimental build",
     "Run experimental integration with Gradle 9.3.1",
-    "Use built-in Kotlin and SDK 37 in experimental app",
-    "Upgrade experimental Android toolchain for shared Compose dependencies",
-    "Fix experimental CI to use installed Gradle instead of absent wrapper",
-    "Compile opt-in shared libraries in isolated experimental APK workflow",
-    "Add opt-in shared Expressive theme and updater dependencies",
-    "Add opt-in authenticated N2K02 package repositories"
+    "Use built-in Kotlin and SDK 37 in experimental app"
   ]
 }
