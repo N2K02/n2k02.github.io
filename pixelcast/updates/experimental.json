@@ -1,19 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-7-run-51",
+  "tag": "pixelcast-experimental-pr-7-run-58",
   "versionName": "3.1",
-  "versionCode": 100051,
+  "versionCode": 100058,
   "apkName": "PixelCast-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-7-run-51/PixelCast-3.1.apk",
-  "apkSize": 2133984,
-  "sha256": "4369840e3dcc66021a7f28014d31dc7ca7467cd2cc24ff6057deb8d38ddd24d3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-7-run-51",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-7-run-58/PixelCast-3.1.apk",
+  "apkSize": 2117600,
+  "sha256": "f275e6a3c16d4a326e82ffba4f263fe1dbfa4461b12e767bad7d776ffa0eab5e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-7-run-58",
   "notes": [
+    "Generate BuildConfig for version display in updater UI",
+    "Apply rounded MRadio menu and leading icons to update actions",
+    "Connect PixelCast update UI and build to shared libraries",
+    "Connect PixelCast update UI and build to shared libraries",
+    "Connect PixelCast update UI and build to shared libraries",
+    "Connect PixelCast update UI and build to shared libraries",
+    "Add casting-safe shared updater controller to PixelCast",
     "Build experimental PR APK with shared N2K02 packages",
     "Resolve shared packages during experimental PR validation",
-    "Switch app theme to shared N2K02 Material 3 Expressive design system",
-    "Add isolated experimental dual-library compilation workflow",
-    "Pin opt-in N2K02 Expressive theme and updater packages",
-    "Stage authenticated private N2K02 package repositories behind opt-in flag"
+    "Switch app theme to shared N2K02 Material 3 Expressive design system"
   ]
 }
