@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-51-run-225",
+  "tag": "pcl-experimental-pr-51-run-226",
   "versionName": "5.0",
-  "versionCode": 100225,
+  "versionCode": 100226,
   "apkName": "PCL-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-51-run-225/PCL-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-51-run-226/PCL-5.0.apk",
   "apkSize": 19820829,
-  "sha256": "f45e6775f2fef39563c4cb530bca1ca8489962f5d02cfa79c8f9610e0b79a127",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-51-run-225",
+  "sha256": "85d72763b7186c1fb42fe371d1135851ba1551736d0dcbac5f9beb1577e18b4e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-51-run-226",
   "notes": [
+    "build(updater): use manifest-authoritative 0.1.13",
     "fix(updater): use published channel versionCode manifests"
   ]
 }
