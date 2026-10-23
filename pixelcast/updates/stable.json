@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v3.1",
-  "versionName": "3.1",
-  "versionCode": 100069,
-  "apkName": "PixelCast-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.1/PixelCast-3.1.apk",
+  "tag": "pixelcast-v3.2",
+  "versionName": "3.2",
+  "versionCode": 100072,
+  "apkName": "PixelCast-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.2/PixelCast-3.2.apk",
   "apkSize": 2097120,
-  "sha256": "08c99dca44bcdc6eb6811dbbb3b164087997262b256b5ef5cfdab680430eff9d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.1",
+  "sha256": "1fa7b4e75e446097b0c4cd6737d5a24aa1927eef30014bcf3e5d8b6358f29640",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.2",
   "notes": [
-    "fix(pixelcast): remove More navigation item and dropdown, retain Home and Settings",
-    "fix(pixelcast): use bundled vector resources and valid navigation row scope",
-    "feat(pixelcast): replace top gear with Material 3 bottom Home, Settings and Updates navigation",
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "style(updater): use MRadio About & updates ListItem layout",
-    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
-    "fix(updater): remove legacy update entry action and align shared updater UI",
-    "feat(updater): centralize PixelCast update controls on About & updates page",
-    "feat(updater): centralize PixelCast update controls on About & updates page",
-    "Fix PixelCast Compose Flow collection import in update settings"
+    "Fix stable and experimental updater version selection (#8)"
   ]
 }
