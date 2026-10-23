@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-8-run-79",
+  "tag": "bcam-experimental-pr-8-run-81",
   "versionName": "3.2",
-  "versionCode": 100079,
+  "versionCode": 100081,
   "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-79/BCam-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-81/BCam-3.2.apk",
   "apkSize": 237236,
-  "sha256": "8976048b005a01e4684d7a8519af5cfe9c7a8ef48f7d6c6622c8738b5b955b39",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-79",
+  "sha256": "9401a450f243e38ce279899e75255a9782661ed73c3bd4fff6370ad9be9829a4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-81",
   "notes": [
+    "refactor(ui): simplify BCam settings actions, remove duplicate updates link and improve form spacing",
+    "style(ui): replace BCam oversized pill buttons with MRadio-style bottom navigation",
     "fix(build): use valid Android DayNight parent for opaque BCam settings and updater",
     "feat(ui): replace updater back button with BCam bottom navigation",
     "feat(ui): shared two-tab bottom navigation for BCam",
@@ -16,8 +18,6 @@
     "fix(ui): make BCam video settings activity opaque and full-screen",
     "feat(ui): replace floating video settings dialog with full-screen settings page",
     "refactor(ui): remove obsolete dialog updater references",
-    "fix(ui): render About & updates in opaque full-screen activity",
-    "fix(ui): add opaque theme for standalone BCam updater",
-    "fix(ui): add opaque theme for standalone BCam updater"
+    "fix(ui): render About & updates in opaque full-screen activity"
   ]
 }
