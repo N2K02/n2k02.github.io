@@ -1,21 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-19-run-40",
+  "tag": "vrec-experimental-pr-20-run-41",
   "versionName": "3.2",
-  "versionCode": 100040,
+  "versionCode": 100041,
   "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-19-run-40/VREC-3.2.apk",
-  "apkSize": 19756446,
-  "sha256": "e7e7183f92a6280366c5db80036ac82bc2422a5615f52bf3cc401cb014905189",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-19-run-40",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-41/VREC-3.2.apk",
+  "apkSize": 16561875,
+  "sha256": "f5863b95cf3631f5bce29be9706b03ce08f0fb4143dc381ba280ee13e57e74c9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-41",
   "notes": [
-    "Opt in to experimental Material 3 Expressive loading API",
-    "Use expressive loading animation while checking updates",
-    "Switch application theme to Material 3 Expressive",
-    "Update Gradle wrapper for AGP 9",
-    "Upgrade Compose runtime and Material 3 Expressive dependencies",
-    "Upgrade Gradle plugins to AGP 9 and Kotlin Compose 2.4.20",
-    "Round recording menus and recording-details bottom sheet",
-    "Set rounded menu and sheet shapes across VREC"
+    "Add isolated experimental dual-library compilation workflow",
+    "Pin opt-in N2K02 Expressive theme and updater packages",
+    "Stage authenticated private N2K02 package repositories behind opt-in flag"
   ]
 }
