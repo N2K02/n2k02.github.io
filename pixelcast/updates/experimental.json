@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-8-run-71",
-  "versionName": "3.2",
-  "versionCode": 100071,
-  "apkName": "PixelCast-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-8-run-71/PixelCast-3.2.apk",
+  "tag": "pixelcast-experimental-pr-9-run-73",
+  "versionName": "3.3",
+  "versionCode": 100073,
+  "apkName": "PixelCast-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-9-run-73/PixelCast-3.3.apk",
   "apkSize": 2097120,
-  "sha256": "6e2df1d424d4130ea8b095c3fe6e55bf8a75434c123ddaa239f3d46eb5d5f74e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-8-run-71",
+  "sha256": "67f2db8ae1693e6a6bbe9f1710f9d34fbdd992fedc35527f3be866982365d44f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-9-run-73",
   "notes": [
-    "build(updater): use manifest-authoritative 0.1.13",
-    "fix(updater): use published channel versionCode manifests"
+    "fix(distribution): retry concurrent manifest updates"
   ]
 }
