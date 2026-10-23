@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-7-run-62",
+  "tag": "pixelcast-experimental-pr-7-run-63",
   "versionName": "3.1",
-  "versionCode": 100062,
+  "versionCode": 100063,
   "apkName": "PixelCast-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-7-run-62/PixelCast-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-7-run-63/PixelCast-3.1.apk",
   "apkSize": 2133984,
-  "sha256": "a8b6321473b1614c0b199b15c35bbcce6dd717c5151c128bd05556defcbd7c1a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-7-run-62",
+  "sha256": "d7c4096cd5ffcc0192064b2c65c985b12624c29ee3473999d62ee51e4288e8d2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-7-run-63",
   "notes": [
+    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
     "fix(updater): remove legacy update entry action and align shared updater UI",
     "feat(updater): centralize PixelCast update controls on About & updates page",
     "feat(updater): centralize PixelCast update controls on About & updates page",
@@ -16,7 +17,6 @@
     "Align PixelCast update section with MRadio About and updates layout",
     "Generate BuildConfig for version display in updater UI",
     "Apply rounded MRadio menu and leading icons to update actions",
-    "Connect PixelCast update UI and build to shared libraries",
     "Connect PixelCast update UI and build to shared libraries",
     "Connect PixelCast update UI and build to shared libraries"
   ]
