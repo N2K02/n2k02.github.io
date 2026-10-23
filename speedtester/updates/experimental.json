@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-16-run-148",
+  "tag": "speedtester-experimental-pr-16-run-150",
   "versionName": "6.8",
-  "versionCode": 100148,
+  "versionCode": 100150,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-148/SpeedTester-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-150/SpeedTester-6.8.apk",
   "apkSize": 2827920,
-  "sha256": "b71156a3e7a4c0f399f54e8470c3072afd428a950aaaf3cedb21f9cda2eba4ef",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-148",
+  "sha256": "11c529926bf41f7fef0bc0fe258e7011b7d1bf5d1b2125160e983a56ebea8f35",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-150",
   "notes": [
+    "style(updater): match MRadio experimental-updates typography",
+    "chore(updater): align experimental updater screen with MRadio standard",
     "fix(ci): resolve Kotlin compilation errors blocking experimental APK",
     "fix: capture theme palette outside Canvas draw scope",
     "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
@@ -16,8 +18,6 @@
     "style: align Material 3 rounded expressive shapes with N2K02 UI",
     "refactor(updater): retire redundant legacy updater UI and implementation",
     "fix(updater): avoid duplicate App updates title in shared updater screen",
-    "Retry transient GitHub Releases 500 errors when publishing experimental APK",
-    "Qualify Material3 list item in SpeedTester update page",
-    "Replace SpeedTester custom updater with MRadio shared About and updates screen"
+    "Retry transient GitHub Releases 500 errors when publishing experimental APK"
   ]
 }
