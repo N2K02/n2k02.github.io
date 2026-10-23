@@ -1,0 +1,20 @@
+{
+  "channel": "experimental",
+  "tag": "shizucallrecorder-experimental-pr-6-run-65",
+  "versionName": "1.5.3-experimental.65",
+  "versionCode": 100065,
+  "apkName": "ShizuCallRecorder-1.5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/shizucallrecorder-experimental-pr-6-run-65/ShizuCallRecorder-1.5.3.apk",
+  "apkSize": 5298382,
+  "sha256": "a6ff26c59b6152c2cf13aa521a42ecc1cc410a48305e2a06ca2867098969d79f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/shizucallrecorder-experimental-pr-6-run-65",
+  "notes": [
+    "fix(shizucallrecorder): use RowScope weight extension",
+    "ci(updater): build monotonic stable and experimental APK channels",
+    "ci(updater): publish signed stable and experimental manifests",
+    "build(version): let CI supply monotonic APK versionCode",
+    "feat(updater): add immediate stable and experimental channel switch",
+    "fix(updater): select updates by published manifest versionCode",
+    "Cancel superseded Android workflow runs"
+  ]
+}
