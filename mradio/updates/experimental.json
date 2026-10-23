@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-15-run-263",
-  "versionName": "4.4-experimental.263",
-  "versionCode": 100263,
-  "apkName": "MRadio-PR-15-595102d.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-15-run-263/MRadio-PR-15-595102d.apk",
+  "tag": "mradio-exp-pr-15-run-264",
+  "versionName": "4.4-experimental.264",
+  "versionCode": 100264,
+  "apkName": "MRadio-PR-15-046e196.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-15-run-264/MRadio-PR-15-046e196.apk",
   "apkSize": 2810779,
-  "sha256": "dc8e492e1cbeef919071f8ed45e7cdebad30d4a681bb0af469cfce582551f47a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-15-run-263",
+  "sha256": "b7833f865f363cbba94861e380e7e154a732c5942c7545a8d6df13fefee0c2ea",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-15-run-264",
   "notes": [
+    "build(updater): use manifest-authoritative 0.1.13",
     "fix(updater): require published manifest versionCode"
   ]
 }
