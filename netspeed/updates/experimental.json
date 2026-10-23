@@ -1,0 +1,15 @@
+{
+  "channel": "experimental",
+  "tag": "netspeed-experimental-pr-12-run-50",
+  "versionName": "3.4",
+  "versionCode": 100050,
+  "apkName": "NetSpeed-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-12-run-50/NetSpeed-3.4.apk",
+  "apkSize": 1158632,
+  "sha256": "d46a440c5cfd8138e16a8dfd92c9c7eae66c0b4a7ced7fcc914c507b80ee6a36",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-12-run-50",
+  "notes": [
+    "Round actual Material 3 popup surfaces via theme shape token",
+    "Polish update menu with rounded Material 3 corners"
+  ]
+}
