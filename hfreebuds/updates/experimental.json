@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-7-run-76",
-  "versionName": "3.8",
-  "versionCode": 100076,
-  "apkName": "HFreebuds-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-76/HFreebuds-3.8.apk",
+  "tag": "hfreebuds-experimental-pr-8-run-78",
+  "versionName": "3.9",
+  "versionCode": 100078,
+  "apkName": "HFreebuds-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-8-run-78/HFreebuds-3.9.apk",
   "apkSize": 2313870,
-  "sha256": "a1f49d4d33647734cb5b2ac68002afc6dc340a58aae6655dc849e5834a013409",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-76",
+  "sha256": "5f56c4e7c02b7e0c644ff7202bfa14f448e71fa2a5350b31b9324ae504e7202f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-8-run-78",
   "notes": [
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "style(updater): match MRadio ListItem experimental channel control",
-    "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
-    "ci: trigger fresh HFreebuds experimental APK build",
-    "fix(updates): remove duplicate App updates heading",
-    "Match MRadio About and updates screen; remove duplicate updater action",
-    "Remove redundant footer update-check action; retain single shared updater card",
-    "Generate BuildConfig for version display in updater UI",
-    "Import icons for HFreebuds device actions",
-    "Replace unavailable Material icons with existing HFreebuds icon set"
+    "fix(updater): use published channel versionCode manifests"
   ]
 }
