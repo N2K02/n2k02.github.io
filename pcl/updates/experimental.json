@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-50-run-215",
+  "tag": "pcl-experimental-pr-50-run-216",
   "versionName": "4.9",
-  "versionCode": 100215,
+  "versionCode": 100216,
   "apkName": "PCL-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-50-run-215/PCL-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-50-run-216/PCL-4.9.apk",
   "apkSize": 19820825,
-  "sha256": "f36db85e054e98d1d78833859c692dab4baf1ed68257d06dc400c5785d92553c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-50-run-215",
+  "sha256": "3c31b1009e92540a309d6904f36d1fc6e4ef33352bd04303dd31c99a1f812a43",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-50-run-216",
   "notes": [
+    "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Pass existing GitHub Packages token into Android CI build job",
     "Replace PCL legacy update screen with MRadio-style shared updater UI",
     "Supply private Maven credentials to PR validation",
@@ -17,7 +18,6 @@
     "Enable shared library resolution on experimental app builds",
     "Stage shared updater controller for experimental migration",
     "Update Gradle wrapper for AGP 9.1 experimental integration",
-    "Fix AGP 9 built-in Kotlin compatibility on experimental branch",
-    "Run experimental compilation on Gradle 9.3.1"
+    "Fix AGP 9 built-in Kotlin compatibility on experimental branch"
   ]
 }
