@@ -1,17 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-5-run-195",
-  "versionName": "1.1-experimental.195",
-  "versionCode": 100195,
-  "apkName": "MRadio-PR-5-3485d01.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-5-run-195/MRadio-PR-5-3485d01.apk",
-  "apkSize": 2781995,
-  "sha256": "db09315aaf0eed44b03395a5db5ca88a1069fb935ea389ee869a9a6a7747ff44",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-5-run-195",
+  "tag": "mradio-exp-pr-9-run-228",
+  "versionName": "4.3-experimental.228",
+  "versionCode": 100228,
+  "apkName": "MRadio-PR-9-156b6f1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-9-run-228/MRadio-PR-9-156b6f1.apk",
+  "apkSize": 2798379,
+  "sha256": "d35e6bcf3f326259ab119679c9a64255ccc553b7323a23123b83e3b3b0b41512",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-9-run-228",
   "notes": [
-    "Restore original MRADIO_DISTRIBUTION_TOKEN secret name",
-    "Restore original MRADIO_DISTRIBUTION_TOKEN secret name",
-    "Document shared mRadio distribution secret",
-    "Use shared mRadio secret for website distribution"
+    "Round actual Material 3 popup surfaces via theme shape token",
+    "Unify rounded settings menus and sheets",
+    "Unify rounded settings menus and sheets"
   ]
 }
