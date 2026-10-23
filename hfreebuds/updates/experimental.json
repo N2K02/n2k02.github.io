@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-7-run-74",
+  "tag": "hfreebuds-experimental-pr-7-run-75",
   "versionName": "3.8",
-  "versionCode": 100074,
+  "versionCode": 100075,
   "apkName": "HFreebuds-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-74/HFreebuds-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-7-run-75/HFreebuds-3.8.apk",
   "apkSize": 2313870,
-  "sha256": "dbc20bc17a1a346a4fb1bd7c546ecadb0e9df920dea4f92e277f29d906ad9bfe",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-74",
+  "sha256": "dccf3cb8525404cb2c92210e91e44322230093339782ef2ba751e76b60259703",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-7-run-75",
   "notes": [
+    "style(updater): match MRadio ListItem experimental channel control",
     "style: remove screen-specific overrides in favor of shared Material 3 theme tokens",
     "ci: trigger fresh HFreebuds experimental APK build",
     "fix(updates): remove duplicate App updates heading",
@@ -17,7 +18,6 @@
     "Generate BuildConfig for version display in updater UI",
     "Import icons for HFreebuds device actions",
     "Replace unavailable Material icons with existing HFreebuds icon set",
-    "Add meaningful leading icons to every HFreebuds dropdown action",
-    "Match MRadio rounded Expressive dropdown styling in HFreebuds"
+    "Add meaningful leading icons to every HFreebuds dropdown action"
   ]
 }
