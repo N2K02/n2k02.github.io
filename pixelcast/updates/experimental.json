@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-7-run-68",
-  "versionName": "3.1",
-  "versionCode": 100068,
-  "apkName": "PixelCast-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-7-run-68/PixelCast-3.1.apk",
-  "apkSize": 2097120,
-  "sha256": "6b4a13b186b55472a198d985825cc3282a81e1a2676b6ef2fae6d5ddbf7b98b0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-7-run-68",
+  "tag": "pixelcast-experimental-pr-8-run-70",
+  "versionName": "3.2",
+  "versionCode": 100070,
+  "apkName": "PixelCast-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-8-run-70/PixelCast-3.2.apk",
+  "apkSize": 2113504,
+  "sha256": "eb74a5566a649d6c19ee352381e49f157a4e99db0339875b2fed1769eeff7ecf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-8-run-70",
   "notes": [
-    "fix(pixelcast): remove More navigation item and dropdown, retain Home and Settings",
-    "fix(pixelcast): use bundled vector resources and valid navigation row scope",
-    "feat(pixelcast): replace top gear with Material 3 bottom Home, Settings and Updates navigation",
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "style(updater): use MRadio About & updates ListItem layout",
-    "style: reduce per-screen styling overrides and rely on shared Material 3 theme",
-    "fix(updater): remove legacy update entry action and align shared updater UI",
-    "feat(updater): centralize PixelCast update controls on About & updates page",
-    "feat(updater): centralize PixelCast update controls on About & updates page",
-    "Fix PixelCast Compose Flow collection import in update settings"
+    "fix(updater): use published channel versionCode manifests"
   ]
 }
