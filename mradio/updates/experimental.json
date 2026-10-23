@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-14-run-253",
-  "versionName": "4.3-experimental.253",
-  "versionCode": 100253,
-  "apkName": "MRadio-PR-14-45ef1d1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-253/MRadio-PR-14-45ef1d1.apk",
+  "tag": "mradio-exp-pr-14-run-254",
+  "versionName": "4.3-experimental.254",
+  "versionCode": 100254,
+  "apkName": "MRadio-PR-14-92a4ebf.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-14-run-254/MRadio-PR-14-92a4ebf.apk",
   "apkSize": 2810723,
-  "sha256": "a0289fa34d64ffc5e60d6777970cda39250fd3f67279cda3bd3d37839895a85f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-253",
+  "sha256": "c4025a35697a4e8d100919b5a46923c1eb390bca2a890ebf7062e75d3c97451f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-14-run-254",
   "notes": [
+    "Position Quit between Previous and Next in MRadio media notification",
     "Remove duplicate update-check action from MRadio settings",
     "Make buffering indicator visible against filled play button background",
     "Clean up playback startup state and handle retry loading",
@@ -16,7 +17,6 @@
     "Fix shared updater CI for mandatory packages and experimental branch",
     "Keep Android version-code compatibility in live shared updater",
     "Resolve mandatory shared updater and theme packages in all MRadio builds",
-    "Connect MRadio live settings, badges and lifecycle to shared updater",
     "Connect MRadio live settings, badges and lifecycle to shared updater",
     "Connect MRadio live settings, badges and lifecycle to shared updater"
   ]
