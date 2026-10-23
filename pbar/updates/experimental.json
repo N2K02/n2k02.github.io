@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-29-run-77",
-  "versionName": "3.9",
-  "versionCode": 100077,
-  "apkName": "PBar-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-29-run-77/PBar-3.9.apk",
+  "tag": "pbar-experimental-pr-30-run-79",
+  "versionName": "4.0",
+  "versionCode": 100079,
+  "apkName": "PBar-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-30-run-79/PBar-4.0.apk",
   "apkSize": 13277162,
-  "sha256": "290c58430fcfc94b764a64a1b21673889c621380763bf72d1b47bbd16980e7ec",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-29-run-77",
+  "sha256": "e5e5a89bf9f1633e08e2710d3a649a8f8901f848b3a0dd6877c72b18bd2f3955",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-30-run-79",
   "notes": [
-    "fix(build): import missing Material icons used by PBar settings and updates",
-    "fix(build): import missing Material icons used by PBar settings and updates",
-    "fix(ui): align PBar updater page with MRadio settings layout and shared updater",
-    "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Align About and updates screen with MRadio layout and single shared updater card",
-    "Use single MRadio-style updater card without duplicate check action",
-    "Supply private Maven credentials to Android CI",
-    "Supply private Maven credentials to PR validation",
-    "Pass private Maven credentials into PBar APK build"
+    "fix(updater): use published channel versionCode manifests"
   ]
 }
