@@ -1,18 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-6-run-47",
+  "tag": "pixelcast-experimental-pr-7-run-48",
   "versionName": "3.1",
-  "versionCode": 100047,
+  "versionCode": 100048,
   "apkName": "PixelCast-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-6-run-47/PixelCast-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-7-run-48/PixelCast-3.1.apk",
   "apkSize": 2133820,
-  "sha256": "9a99407dbe30cba9fe24a24921f794869209ebd400402dfa752cbf38c10bc313",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-6-run-47",
+  "sha256": "6d10a41603c52a0077d790cc4ad986788d4014b307251916cf03086bfc5e9a6b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-7-run-48",
   "notes": [
-    "Opt in to experimental Material 3 Expressive loading API",
-    "Use expressive loading indicator for update checking state",
-    "Keep Find TVs button visible and show expressive loading inside during discovery",
-    "Round actual Material 3 popup surfaces via theme shape token",
-    "Polish update menu with rounded Material 3 corners"
+    "Add isolated experimental dual-library compilation workflow",
+    "Pin opt-in N2K02 Expressive theme and updater packages",
+    "Stage authenticated private N2K02 package repositories behind opt-in flag"
   ]
 }
