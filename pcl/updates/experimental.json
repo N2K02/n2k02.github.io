@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-48-run-191",
-  "versionName": "4.7",
-  "versionCode": 100191,
-  "apkName": "PCL-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-48-run-191/PCL-4.7.apk",
-  "apkSize": 16609430,
-  "sha256": "9add561e2d79f7614d4734d85eff9603d5630ebc0960d66faff2ec3a30f49407",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-48-run-191",
+  "tag": "pcl-experimental-pr-49-run-196",
+  "versionName": "4.9",
+  "versionCode": 100196,
+  "apkName": "PCL-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-49-run-196/PCL-4.9.apk",
+  "apkSize": 16609434,
+  "sha256": "9111d1d68110100dec9be4e012d7012ef91d0de5d19454a7b2d2a6eb20ebd71a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-49-run-196",
   "notes": [
-    "Improve SIM caller number recovery and reject placeholder names",
-    "Improve SIM caller number recovery and reject placeholder names"
+    "Round actual Material 3 popup surfaces via theme shape token",
+    "Use rounded Material 3 confirmation dialog for call history"
   ]
 }
