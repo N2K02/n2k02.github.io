@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-8-run-69",
+  "tag": "bcam-experimental-pr-8-run-79",
   "versionName": "3.2",
-  "versionCode": 100069,
+  "versionCode": 100079,
   "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-69/BCam-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-79/BCam-3.2.apk",
   "apkSize": 237236,
-  "sha256": "e23ed1114c67c62b827c9fe1bf3784d14e58a2ae8104a906d028396ce3f601ba",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-69",
+  "sha256": "8976048b005a01e4684d7a8519af5cfe9c7a8ef48f7d6c6622c8738b5b955b39",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-79",
   "notes": [
-    "fix(ci): make experimental APK publishing safe on workflow reruns",
-    "feat(settings): route BCam updater to full-screen activity instead of dialog",
-    "feat(updater): register dedicated BCam update page",
-    "feat(updater): add full-screen About & updates activity for BCam",
-    "fix(settings): safely release dedicated updater dialog",
-    "feat(settings): move BCam updater into dedicated About & updates destination",
-    "fix(updater): use one consistent Check again action",
-    "feat: add idempotent pause and resume actions and expose recording pause status",
-    "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Provide package registry credentials to Android CI jobs"
+    "fix(build): use valid Android DayNight parent for opaque BCam settings and updater",
+    "feat(ui): replace updater back button with BCam bottom navigation",
+    "feat(ui): shared two-tab bottom navigation for BCam",
+    "feat(ui): add persistent Settings and Updates bottom navigation to BCam settings",
+    "fix(ui): make BCam video settings activity opaque and full-screen",
+    "feat(ui): replace floating video settings dialog with full-screen settings page",
+    "refactor(ui): remove obsolete dialog updater references",
+    "fix(ui): render About & updates in opaque full-screen activity",
+    "fix(ui): add opaque theme for standalone BCam updater",
+    "fix(ui): add opaque theme for standalone BCam updater"
   ]
 }
