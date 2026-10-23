@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-13-run-73",
+  "tag": "netspeed-experimental-pr-13-run-74",
   "versionName": "3.4",
-  "versionCode": 100073,
+  "versionCode": 100074,
   "apkName": "NetSpeed-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-13-run-73/NetSpeed-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-13-run-74/NetSpeed-3.4.apk",
   "apkSize": 1154592,
-  "sha256": "3389c6bb7e68a846fbcb41230e8f131f62e7735833b6d568d60899b1aa320eca",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-13-run-73",
+  "sha256": "d4644a7514c456d781274bb7e2cb1bde099b651b7ba46b36776dcd8f3534b926",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-13-run-74",
   "notes": [
+    "fix(ci): make experimental APK publishing safe on workflow reruns",
     "fix(settings): mirror MRadio dedicated About & updates page with direct settings row",
     "fix(settings): avoid nested vertical scrolling in inline updater section",
     "feat(settings): show updater directly without three-dot submenu",
@@ -17,7 +18,6 @@
     "fix(updater): avoid duplicate App updates title in shared updater screen",
     "Fix Android CI compilation errors in shared updater and rounded menus",
     "Align About and updates screen with MRadio layout and single shared updater card",
-    "Use single MRadio-style updater card without duplicate check action",
-    "Generate BuildConfig for version display in updater UI"
+    "Use single MRadio-style updater card without duplicate check action"
   ]
 }
