@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-13-run-74",
+  "tag": "aayoutube-experimental-pr-14-run-75",
   "versionName": "5.6",
-  "versionCode": 100074,
+  "versionCode": 100075,
   "apkName": "AAYoutube-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-13-run-74/AAYoutube-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-75/AAYoutube-5.6.apk",
   "apkSize": 1700384,
-  "sha256": "225392272cedd6369a1ed5b33e6016570263d1eb0be3ac4a86b913856f9a1caf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-13-run-74",
+  "sha256": "b6c1432514ae91dda26d08455355a7a6adbc6e46c73e938c6de997248121defb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-75",
   "notes": [
-    "Standardize rounded popup and sheet shape tokens"
+    "Add isolated experimental dual-library compilation workflow",
+    "Pin opt-in N2K02 Expressive theme and updater packages",
+    "Stage authenticated private N2K02 package repositories behind opt-in flag"
   ]
 }
