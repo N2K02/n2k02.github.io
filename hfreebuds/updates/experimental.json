@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-8-run-78",
+  "tag": "hfreebuds-experimental-pr-8-run-79",
   "versionName": "3.9",
-  "versionCode": 100078,
+  "versionCode": 100079,
   "apkName": "HFreebuds-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-8-run-78/HFreebuds-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-8-run-79/HFreebuds-3.9.apk",
   "apkSize": 2313870,
-  "sha256": "5f56c4e7c02b7e0c644ff7202bfa14f448e71fa2a5350b31b9324ae504e7202f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-8-run-78",
+  "sha256": "cb332deafc4283c3b84148c3627eb85cb76bbc55c97a3ae3cce41cf7a1c02545",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-8-run-79",
   "notes": [
+    "build(updater): use manifest-authoritative 0.1.13",
     "fix(updater): use published channel versionCode manifests"
   ]
 }
