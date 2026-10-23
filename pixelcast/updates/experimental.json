@@ -1,0 +1,15 @@
+{
+  "channel": "experimental",
+  "tag": "pixelcast-experimental-pr-6-run-44",
+  "versionName": "3.1",
+  "versionCode": 100044,
+  "apkName": "PixelCast-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-6-run-44/PixelCast-3.1.apk",
+  "apkSize": 2133820,
+  "sha256": "9dde23c5c65fe530239a7d584aed9f2b805923346ca5ed2e14928aa1a9bf65c2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-6-run-44",
+  "notes": [
+    "Round actual Material 3 popup surfaces via theme shape token",
+    "Polish update menu with rounded Material 3 corners"
+  ]
+}
