@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v3.9",
-  "versionName": "3.9",
-  "versionCode": 100078,
-  "apkName": "PBar-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v3.9/PBar-3.9.apk",
-  "apkSize": 13277162,
-  "sha256": "8259c9641e9c265f6b671476f4f095be92685f3fc388b72e6bdb70ecb7d94b24",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v3.9",
+  "tag": "pbar-v4.0",
+  "versionName": "4.0",
+  "versionCode": 100083,
+  "apkName": "PBar-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.0/PBar-4.0.apk",
+  "apkSize": 13293546,
+  "sha256": "7a33121704172100e5154e475213dd113948125b03568aa26dbc86c94dd5e6d6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.0",
   "notes": [
-    "fix(build): import missing Material icons used by PBar settings and updates",
-    "fix(build): import missing Material icons used by PBar settings and updates",
-    "fix(ui): align PBar updater page with MRadio settings layout and shared updater",
-    "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Align About and updates screen with MRadio layout and single shared updater card",
-    "Use single MRadio-style updater card without duplicate check action",
-    "Supply private Maven credentials to Android CI",
-    "Supply private Maven credentials to PR validation",
-    "Pass private Maven credentials into PBar APK build"
+    "Avoid Apps tab freezes and add Reset to app colours (#31)"
   ]
 }
