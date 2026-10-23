@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-28-run-54",
+  "tag": "pbar-experimental-pr-28-run-55",
   "versionName": "3.9",
-  "versionCode": 100054,
+  "versionCode": 100055,
   "apkName": "PBar-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-28-run-54/PBar-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-28-run-55/PBar-3.9.apk",
   "apkSize": 13260722,
-  "sha256": "c1c601ddabe4dedc6f9735e16ccff4ae0217211709fbdc088664deaa502de426",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-28-run-54",
+  "sha256": "b6281b5e5a09055499a93f9d524eee88df0a57d1bac417c43e22a68e5c864c16",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-28-run-55",
   "notes": [
+    "Round actual Material 3 popup surfaces via theme shape token",
     "Round all four per-app settings dropdowns"
   ]
 }
