@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-16-run-127",
+  "tag": "speedtester-experimental-pr-16-run-128",
   "versionName": "6.8",
-  "versionCode": 100127,
+  "versionCode": 100128,
   "apkName": "SpeedTester-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-127/SpeedTester-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-16-run-128/SpeedTester-6.8.apk",
   "apkSize": 2511415,
-  "sha256": "d02483b8d6d02f4627bd9db4b0146b78c9e641421a185a15b54004f725a51796",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-127",
+  "sha256": "04feb97c34555b5c0afb6a889e693c260aa34a6a5f511fcdb003c0ac03871673",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-16-run-128",
   "notes": [
+    "Fix experimental CI to use installed Gradle instead of absent wrapper",
     "Compile opt-in shared libraries in isolated experimental APK workflow",
     "Add opt-in shared Expressive theme and updater dependencies",
     "Add opt-in authenticated N2K02 package repositories"
