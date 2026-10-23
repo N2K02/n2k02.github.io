@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-8-run-68",
+  "tag": "bcam-experimental-pr-8-run-69",
   "versionName": "3.2",
-  "versionCode": 100068,
+  "versionCode": 100069,
   "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-68/BCam-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-8-run-69/BCam-3.2.apk",
   "apkSize": 237236,
-  "sha256": "160fd67c2c8a86362b40db4a2eb3a70129a07180ab64d9291d1472e8d3dbb050",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-68",
+  "sha256": "e23ed1114c67c62b827c9fe1bf3784d14e58a2ae8104a906d028396ce3f601ba",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-8-run-69",
   "notes": [
+    "fix(ci): make experimental APK publishing safe on workflow reruns",
     "feat(settings): route BCam updater to full-screen activity instead of dialog",
     "feat(updater): register dedicated BCam update page",
     "feat(updater): add full-screen About & updates activity for BCam",
@@ -17,7 +18,6 @@
     "fix(updater): use one consistent Check again action",
     "feat: add idempotent pause and resume actions and expose recording pause status",
     "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Provide package registry credentials to Android CI jobs",
     "Provide package registry credentials to Android CI jobs"
   ]
 }
