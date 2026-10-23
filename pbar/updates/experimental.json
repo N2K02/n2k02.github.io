@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-29-run-59",
+  "tag": "pbar-experimental-pr-29-run-60",
   "versionName": "3.9",
-  "versionCode": 100059,
+  "versionCode": 100060,
   "apkName": "PBar-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-29-run-59/PBar-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-29-run-60/PBar-3.9.apk",
   "apkSize": 13260722,
-  "sha256": "3f11594674a660d20c25966cf7af55094c60ccad5ff0c40313986b49c76d4aed",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-29-run-59",
+  "sha256": "2cfa5e1b0665eb44b58344dfe9f27e1c45e639eb9c000d411dbb074a33358c56",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-29-run-60",
   "notes": [
+    "Fix experimental CI to use installed Gradle instead of absent wrapper",
     "Compile opt-in shared libraries in isolated experimental APK workflow",
     "Add opt-in shared Expressive theme and updater dependencies",
     "Add opt-in authenticated N2K02 package repositories"
