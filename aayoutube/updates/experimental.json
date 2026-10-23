@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-14-run-94",
+  "tag": "aayoutube-experimental-pr-14-run-95",
   "versionName": "5.6",
-  "versionCode": 100094,
+  "versionCode": 100095,
   "apkName": "AAYoutube-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-94/AAYoutube-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-14-run-95/AAYoutube-5.6.apk",
   "apkSize": 1811032,
-  "sha256": "9ba14f1cd6b05dc7137dd0db354871430892956f051f79a8b315adb9ea44598c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-94",
+  "sha256": "7604d5bd5e35c209eb467b48a40604958c618ac86887e78c7b3e994bb5ace002",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-14-run-95",
   "notes": [
+    "fix(ui): anchor AAYoutube menu button to far-right bottom navigation slot",
     "fix(ci): make experimental APK publishing safe on workflow reruns",
     "style(updater): match MRadio experimental-updates typography",
     "chore(updater): align experimental updater screen with MRadio standard",
@@ -17,7 +18,6 @@
     "refactor(updater): observe shared update status once for menu badges",
     "fix(updater): remove legacy update entry action and align shared updater UI",
     "fix(updater): avoid duplicate App updates title in shared updater screen",
-    "Fix Android CI compilation errors in shared updater and rounded menus",
-    "Initialize shared updater for AAYoutube About and updates screen"
+    "Fix Android CI compilation errors in shared updater and rounded menus"
   ]
 }
