@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-20-run-66",
+  "tag": "vrec-experimental-pr-20-run-68",
   "versionName": "3.2",
-  "versionCode": 100066,
+  "versionCode": 100068,
   "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-66/VREC-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-20-run-68/VREC-3.2.apk",
   "apkSize": 19756800,
-  "sha256": "d021e280e00c47ed0cc0be494d763a901ab87c98c3e2cda3267ff03ecfa05ece",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-66",
+  "sha256": "e29c4f71940f7b1c472d11eb916f457ffd8176eb2058d35dcb29e659aab2b6a1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-20-run-68",
   "notes": [
+    "feat(vrec): add Material 3 settings hub with recording, audio, VoIP and updates submenus",
+    "refactor(vrec): remove top overflow menu and route settings subpages",
     "fix(ci): make experimental APK publishing safe on workflow reruns",
     "style(updater): use MRadio About & updates ListItem layout",
     "fix(ci): resolve Kotlin compilation errors blocking experimental APK",
@@ -16,8 +18,6 @@
     "refactor(theme): replace custom app theme with shared N2K02Theme",
     "feat(ui): align VREC navigation with MRadio rounded icon menu and bottom bar",
     "refactor(updater): retire redundant legacy updater UI and implementation",
-    "refactor(updater): retire redundant legacy updater UI and implementation",
-    "fix(updater): avoid duplicate App updates title in shared updater screen",
-    "Generate BuildConfig for VREC About and updates version label"
+    "refactor(updater): retire redundant legacy updater UI and implementation"
   ]
 }
