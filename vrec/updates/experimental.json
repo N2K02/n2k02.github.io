@@ -1,21 +1,19 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-23-run-88",
+  "tag": "vrec-experimental-pr-26-run-89",
   "versionName": "3.6",
-  "versionCode": 100088,
+  "versionCode": 100089,
   "apkName": "VREC-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-88/VREC-3.6.apk",
-  "apkSize": 19806272,
-  "sha256": "9ad1243fcb327d40adbdcf522564768e1e713c57d65bb83999f76a312c839820",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-88",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-26-run-89/VREC-3.6.apk",
+  "apkSize": 19789632,
+  "sha256": "6bed5cb4d6631c47b8392bc0dd6025635150abd067193c8576044ba05e59e3a4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-26-run-89",
   "notes": [
-    "Keep advanced call detection setup only in Experimental settings",
-    "Redesign permissions into two-step setup with optional extras",
-    "Document one-time recovery for older broken updater installations",
-    "Preserve shared updater FileProvider in experimental build",
-    "Show copyable optional InCallService ADB setup card with fallback status",
-    "Allow caller metadata fallback for visible default-dialer call screens",
-    "Harden call waiting and constrain Accessibility fallback to call UI",
-    "Add opt-in non-UI Telecom call detector with caller enrichment"
+    "Align about and updater controls with mRadio rounded page sections",
+    "Bring VREC two-step permissions UX to mRadio-style UI update",
+    "Polish activity log into rounded MRadio-style diagnostics surface",
+    "Give recordings mRadio-style rounded search and list rows",
+    "Group VREC settings into mRadio-style rounded navigation sections",
+    "Match mRadio branded headers, bottom navigation and recording home surface"
   ]
 }
