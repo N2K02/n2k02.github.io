@@ -35,14 +35,24 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
   'use strict';
   const launch = document.getElementById('launch');
   const status = document.getElementById('status');
-  const supplied = new URLSearchParams(location.search).get('u');
+  const params = new URLSearchParams(location.search);
+  const token = params.get('d');
+  const legacy = params.get('u');
   try {
-    if (!supplied || supplied.length > 4096) throw new Error('Missing or invalid stream');
-    const url = new URL(supplied);
-    if (!['http:', 'https:'].includes(url.protocol) || !url.hostname || url.username || url.password) {
-      throw new Error('Only HTTP(S) streams are supported');
+    if (token !== null) {
+      // The website never decodes the opaque stream token. Only the Android app
+      // knows the token format; the browser simply passes it to the app.
+      if (!/^1[A-Za-z0-9_-]{2,4095}$/.test(token)) throw new Error('Invalid token');
+      launch.href = 'mradio://open?d=' + encodeURIComponent(token);
+    } else {
+      // Backward compatibility for the first generation of HTTPS share links.
+      if (!legacy || legacy.length > 4096) throw new Error('Missing stream');
+      const url = new URL(legacy);
+      if (!['http:', 'https:'].includes(url.protocol) || !url.hostname || url.username || url.password) {
+        throw new Error('Only HTTP(S) streams are supported');
+      }
+      launch.href = 'mradio://open?url=' + encodeURIComponent(legacy);
     }
-    launch.href = 'mradio://open?url=' + encodeURIComponent(supplied);
     launch.classList.remove('hidden');
   } catch (_) {
     status.textContent = 'This link does not contain a valid radio stream. Ask the sender to share again from MRadio.';
