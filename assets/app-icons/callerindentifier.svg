@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="CallerIndentifier shield with phone and checkmark">
-<path fill="#6650A4" d="M54 9C71 14 83 16 88 20V54C88 75 74 88 54 99 34 88 20 75 20 54V20C25 16 37 14 54 9Z"/>
-<path fill="#312453" d="M54 20C68 24 76 25 78 28V55C78 69 68 79 54 87 40 79 30 69 30 55V28C35 25 43 24 54 20Z"/>
-<path fill="#fff" d="m41 39 6 6-4 5c3 7 8 12 15 15l5-4 6 6-5 6c-3 4-10 1-16-2-9-6-15-14-17-23-1-4 3-7 7-10Z"/>
-<circle cx="61" cy="29" r="14" fill="#97F1D4"/>
-<path fill="#173F3E" d="m59 29 5 5 9-11 3 3-12 13-8-7Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="CallerIndentifier centered purple shield, white handset and mint check">
+<defs>
+  <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A55DFF"/><stop offset=".52" stop-color="#823EF0"/><stop offset="1" stop-color="#6331B8"/></linearGradient>
+  <linearGradient id="core" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#36135E"/><stop offset="1" stop-color="#21113E"/></linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A5FFE1"/><stop offset="1" stop-color="#52E7C8"/></linearGradient>
+</defs>
+<path fill="url(#shield)" d="M54 22C69 22 81 32 82 39V60C82 72 70 82 54 88 38 82 26 72 26 60V39C27 31 39 22 54 22Z"/>
+<path fill="url(#core)" d="M54 28C67 28 76 34 76 41V60C76 69 66 76 54 81 42 76 32 69 32 60V41C32 34 42 28 54 28Z"/>
+<path fill="#FFFFFF" d="M40 41C37 40 34 44 35 49 36 58 43 66 51 72 59 78 66 78 70 73L73 69C74 67 74 66 72 64L66 59C64 57 63 58 61 59L57 63C50 59 45 54 42 47L46 44C47 43 47 42 45 40L43 39C42 39 41 40 40 41Z"/>
+<circle cx="68" cy="34" r="11" fill="url(#mint)"/>
+<path fill="#103E40" d="M62 34L66 38 73 30 76 33 66 43 59 37Z"/>
 </svg>
