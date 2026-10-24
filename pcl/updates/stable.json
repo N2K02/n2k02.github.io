@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v5.1",
-  "versionName": "5.1",
-  "versionCode": 100229,
-  "apkName": "PCL-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.1/PCL-5.1.apk",
-  "apkSize": 19820809,
-  "sha256": "9ddc160701a852870c25f3938bac2501675279de783da3b4aee509be85818dfd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.1",
+  "tag": "pcl-v5.2",
+  "versionName": "5.2",
+  "versionCode": 100232,
+  "apkName": "PCL-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.2/PCL-5.2.apk",
+  "apkSize": 19820805,
+  "sha256": "a32be22cee4c913784f24968a6ec34995c4b3c81d291fa687ac5f64986d66d9f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.2",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates (#52)"
+    "Update N2K02 shared updater to 0.1.14"
   ]
 }
