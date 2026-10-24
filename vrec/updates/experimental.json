@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-28-run-121",
+  "tag": "vrec-experimental-pr-29-run-122",
   "versionName": "3.6",
-  "versionCode": 100121,
+  "versionCode": 100122,
   "apkName": "VREC-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-28-run-121/VREC-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-29-run-122/VREC-3.6.apk",
   "apkSize": 19773248,
-  "sha256": "72ea1c265d26c8945d19646e1421e377d9a1a259bec2334f860239fdef33e8d1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-28-run-121",
+  "sha256": "b8475826823d55e5bb0202cafb8a6247c8711db8db258c606cd165137b8f3cd7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-29-run-122",
   "notes": [
-    "Bump stable VREC's shared updater to 0.1.14"
+    "Update VRec stable shared updater to 0.1.14"
   ]
 }
