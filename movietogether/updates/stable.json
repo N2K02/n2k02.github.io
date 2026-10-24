@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "movietogether-v1.1-build-14",
-  "versionName": "1.1",
-  "versionCode": 100014,
-  "apkName": "MovieTogether-1.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.1-build-14/MovieTogether-1.1.apk",
-  "apkSize": 13178757,
-  "sha256": "8f410ee57aa5e91d685cd48b9891ee2d4445918dd8b5f2c816aa2647634bf4fd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.1-build-14",
+  "tag": "movietogether-v1.2-build-18",
+  "versionName": "1.2",
+  "versionCode": 100018,
+  "apkName": "MovieTogether-1.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.2-build-18/MovieTogether-1.2.apk",
+  "apkSize": 13195141,
+  "sha256": "c9596136ac3edb269daac58653223d4a0bb4d8843820d4f2cf4dcedeb2eaaf22",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.2-build-18",
   "notes": [
+    "feat: consistent New update badges in Settings and submenu",
     "Use shared N2K02 theme and updater UI (#2)",
     "Bootstrap MovieTogether with signed manifest updater (#1)",
     "Add project README and future APK release links"
