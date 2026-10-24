@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.2",
-  "versionName": "3.2",
-  "versionCode": 100071,
-  "apkName": "VREC-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.2/VREC-3.2.apk",
-  "apkSize": 19756780,
-  "sha256": "555f8943805d2eba065ad4a4158027fe67708629357e453285295ddbc6587b7b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.2",
+  "tag": "vrec-v3.3",
+  "versionName": "3.3",
+  "versionCode": 100073,
+  "apkName": "VREC-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.3/VREC-3.3.apk",
+  "apkSize": 19756776,
+  "sha256": "e35be46ac27fc7942846766d41748a095d589c99fe3c06fd636ed07ad2963e27",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.3",
   "notes": [
-    "Experimental shared libraries and manifest-based updater (#20)"
+    "fix(distribution): retry concurrent manifest updates (#21)"
   ]
 }
