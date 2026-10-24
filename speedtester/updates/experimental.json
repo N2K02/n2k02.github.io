@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-17-run-155",
-  "versionName": "6.9",
-  "versionCode": 100155,
-  "apkName": "SpeedTester-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-17-run-155/SpeedTester-6.9.apk",
-  "apkSize": 2827920,
-  "sha256": "1d8f0fb240e9e8e3c5231785d0499d8e0bd18466d18813d257016fb88858ea00",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-17-run-155",
+  "tag": "speedtester-experimental-pr-18-run-157",
+  "versionName": "7.0",
+  "versionCode": 100157,
+  "apkName": "SpeedTester-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-18-run-157/SpeedTester-7.0.apk",
+  "apkSize": 2827976,
+  "sha256": "4f64798deafe48c1594534165853e3e569d37a8ec2ed44506925e1c8a7621161",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-18-run-157",
   "notes": [
-    "build(updater): use manifest-authoritative 0.1.13",
-    "fix(updater): use published channel versionCode manifests"
+    "Prevent FileProvider manifest merge from overriding shared updater authority"
   ]
 }
