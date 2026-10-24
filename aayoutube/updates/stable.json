@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v5.7",
-  "versionName": "5.7",
-  "versionCode": 100110,
-  "apkName": "AAYoutube-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.7/AAYoutube-5.7.apk",
+  "tag": "aayoutube-v5.8",
+  "versionName": "5.8",
+  "versionCode": 100111,
+  "apkName": "AAYoutube-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.8/AAYoutube-5.8.apk",
   "apkSize": 1811032,
-  "sha256": "b9b6387798efafffafd4b529628b25c96a6fd07907e4d53b3add1fe1f798380b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.7",
+  "sha256": "c00bd5badc78a65f4fd0c0b74b0b0bbb58e3c38e8a5a3945bf67f5fd3e3bcf73",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.8",
   "notes": [
-    "Update N2K02 shared updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#16)"
   ]
 }
