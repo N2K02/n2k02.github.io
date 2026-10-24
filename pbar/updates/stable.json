@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.6",
-  "versionName": "4.6",
-  "versionCode": 100110,
-  "apkName": "PBar-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.6/PBar-4.6.apk",
-  "apkSize": 13293546,
-  "sha256": "6d989e0b6369eda83f38644e6ed19d78640cff1ee8ff40245457dd3d6a23fd78",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.6",
+  "tag": "pbar-v4.7",
+  "versionName": "4.7",
+  "versionCode": 100112,
+  "apkName": "PBar-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.7/PBar-4.7.apk",
+  "apkSize": 13326314,
+  "sha256": "6603d187e5b8f9cc178d13a2e5b7fcd1cfd56ac8d1b367785a5f3e4d2b394174",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.7",
   "notes": [
-    "Add high-contrast progress option to Appearance and match live preview",
-    "Improve filled-progress visibility with subtle track and bright leading-edge marker",
-    "Place all four Apps filters in one compact equal-width row",
-    "Space Apps filters evenly in a balanced two-column layout",
-    "Automatically follow device rotation when positioning and drawing the overlay",
-    "Replace manual global and per-app orientation choices with automatic portrait/landscape positions",
-    "Ensure test overlay follows global style independently of active playback",
-    "Add live preview, on-screen test, HSV colour picker, palettes and per-card resets",
-    "Expose stable timer timing for per-frame interpolation",
-    "Support on-screen test progress, smooth timers and jitter-free media transitions"
+    "feat: consistent New update badges in Settings and submenu"
   ]
 }
