@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v3.8",
-  "versionName": "3.8",
-  "versionCode": 100087,
-  "apkName": "NetSpeed-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.8/NetSpeed-3.8.apk",
-  "apkSize": 1170976,
-  "sha256": "9e12024656e9a8afc7aafebca4bd706aa79f01394491159f0fb8a2d96ffb771a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.8",
+  "tag": "netspeed-v3.9",
+  "versionName": "3.9",
+  "versionCode": 100089,
+  "apkName": "NetSpeed-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.9/NetSpeed-3.9.apk",
+  "apkSize": 1207840,
+  "sha256": "62179e93a369c91f062cf8ddbde83bce4458ee389fc4bd89ba302c682a051fc9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.9",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#17)"
+    "feat: consistent New update badges in Settings and submenu"
   ]
 }
