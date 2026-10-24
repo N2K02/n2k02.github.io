@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-22-run-74",
-  "versionName": "3.4",
-  "versionCode": 100074,
-  "apkName": "VREC-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-22-run-74/VREC-3.4.apk",
-  "apkSize": 19756796,
-  "sha256": "7884b66a284bed24dbced3e5b7b3e320526a49bbfdb69c1d2bf415e709c96102",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-22-run-74",
+  "tag": "vrec-experimental-pr-23-run-76",
+  "versionName": "3.5",
+  "versionCode": 100076,
+  "apkName": "VREC-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-76/VREC-3.5.apk",
+  "apkSize": 19789756,
+  "sha256": "c224340942ef2c42f923aeb54c9d9acd161ecbb404c967446fc05e3260f08507",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-76",
   "notes": [
-    "Hoist Settings subsection state into navigation",
-    "Handle Back navigation through Settings overview"
+    "Add opt-in non-UI Telecom call detector with caller enrichment"
   ]
 }
