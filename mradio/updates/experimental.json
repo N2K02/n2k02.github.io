@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-16-run-266",
-  "versionName": "4.4-experimental.266",
-  "versionCode": 100266,
-  "apkName": "MRadio-PR-16-38b9db3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-16-run-266/MRadio-PR-16-38b9db3.apk",
+  "tag": "mradio-exp-pr-17-run-268",
+  "versionName": "4.6-experimental.268",
+  "versionCode": 100268,
+  "apkName": "MRadio-PR-17-33a88ea.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-17-run-268/MRadio-PR-17-33a88ea.apk",
   "apkSize": 2810779,
-  "sha256": "d9d5bc24ab93929449baa833a35c79a5da5f79e8a6711c993338fd6c6c1e0d06",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-16-run-266",
+  "sha256": "589cebae070c36853428693ce1bd47c1de4ec5b5f851bc1c8c48629bca032516",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-17-run-268",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates",
-    "Require manifest versionCode for stable and experimental updates (#15)"
+    "Update shared N2K02 updater to 0.1.14"
   ]
 }
