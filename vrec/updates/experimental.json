@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-31-run-144",
+  "tag": "vrec-experimental-pr-32-run-146",
   "versionName": "3.8",
-  "versionCode": 100144,
+  "versionCode": 100146,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-31-run-144/VREC-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-146/VREC-3.8.apk",
   "apkSize": 34562372,
-  "sha256": "5bb5154745fa614309eadb0ce8d57b5d475056d20d5648869d181eab1a085dd3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-31-run-144",
+  "sha256": "9bc6b4c3fb355bbb11765b14f4e212dae59a2703e95756118c708f333c5de912",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-146",
   "notes": [
-    "Document single experimental PR and ADB-only privileged recording status",
+    "Correct unified PR number and helper lifecycle documentation",
+    "Bring stable recording overlay and updated ADB-only guide into unified PR #32",
+    "Consolidate Standard and ADB architecture and wire privileged API helper",
     "Add AdbPrivilegedApiHelper for persistent shell service lifecycle",
     "Expose AdbPrivilegedApiHelper lifecycle facade for shell daemon",
     "Remove Shizuku recording support and migrate saved choice to Standard",
     "Explain built-in ADB versus Shizuku and recover after TCP transport restart",
     "Keep a single inline player in the active recording card",
     "Unify advanced-call detection status and simplify experimental settings",
-    "Verify Material 3 compile and APK runtime ABI before every VRec build",
-    "Fix recording overflow crash by matching shared Material 3 ABI",
-    "Verify daemon acknowledged the requested recording master mode"
+    "Verify Material 3 compile and APK runtime ABI before every VRec build"
   ]
 }
