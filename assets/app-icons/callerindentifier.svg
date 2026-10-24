@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-label="CallerIndentifier shield with phone and checkmark">
+<path fill="#6650A4" d="M54 9C71 14 83 16 88 20V54C88 75 74 88 54 99 34 88 20 75 20 54V20C25 16 37 14 54 9Z"/>
+<path fill="#312453" d="M54 20C68 24 76 25 78 28V55C78 69 68 79 54 87 40 79 30 69 30 55V28C35 25 43 24 54 20Z"/>
+<path fill="#fff" d="m41 39 6 6-4 5c3 7 8 12 15 15l5-4 6 6-5 6c-3 4-10 1-16-2-9-6-15-14-17-23-1-4 3-7 7-10Z"/>
+<circle cx="61" cy="29" r="14" fill="#97F1D4"/>
+<path fill="#173F3E" d="m59 29 5 5 9-11 3 3-12 13-8-7Z"/>
+</svg>
