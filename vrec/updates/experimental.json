@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-31-run-128",
+  "tag": "vrec-experimental-pr-31-run-133",
   "versionName": "3.8",
-  "versionCode": 100128,
+  "versionCode": 100133,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-31-run-128/VREC-3.8.apk",
-  "apkSize": 34594706,
-  "sha256": "de21c74e31b1f4eece2cebe2cdc3a254b37866f40c69ba9bf538ab8bbf624d7d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-31-run-128",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-31-run-133/VREC-3.8.apk",
+  "apkSize": 34611178,
+  "sha256": "eabe40375d334cc8e190f32049ebe3d0b58b521ee976b1014aac46135e5f042a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-31-run-133",
   "notes": [
+    "Verify daemon acknowledged the requested recording master mode",
+    "Stop active enhanced audio capture when Home master switch turns off",
+    "Synchronize shell recording even when daemon readiness has not been probed",
+    "Serialize shell recorder mode changes to honor rapid Home toggle transitions",
+    "Restore Home recording master switch and guard all experimental capture modes",
     "Publish experimental PR APK for Shizu-style recorder UI review",
     "Apply rounded Material 3 surface styling across VRec setup and diagnostics",
     "Opt in to Material 3 modal sheet APIs in recordings screen",
     "Validate redesign PRs targeting VREC experimental recorder branch",
-    "Validate redesign PRs targeting VREC experimental recorder branch",
-    "Align updater information cards with MRadio branding and shared updater",
-    "Group VRec Settings into rounded expressive cards",
-    "Use scalable recordings LazyColumn within app navigation",
-    "Redesign recordings as rounded lazy cards with pause/resume, player and action sheets",
-    "Use shared updater 0.1.14 and restore standard updates UI"
+    "Validate redesign PRs targeting VREC experimental recorder branch"
   ]
 }
