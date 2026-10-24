@@ -1,16 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-2-run-13",
-  "versionName": "1.0-experimental.13",
-  "versionCode": 100013,
-  "apkName": "MovieTogether-PR-2-2e2ad87.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-2-run-13/MovieTogether-PR-2-2e2ad87.apk",
-  "apkSize": 13178757,
-  "sha256": "d557c6377fe88c07270cf288a200c9b5bd558e5e4c8be301921e4841e663808d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-2-run-13",
+  "tag": "movietogether-experimental-pr-4-run-15",
+  "versionName": "1.1-experimental.15",
+  "versionCode": 100015,
+  "apkName": "MovieTogether-PR-4-39c33ec.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-15/MovieTogether-PR-4-39c33ec.apk",
+  "apkSize": 16280836,
+  "sha256": "f46cf1e4c49020790bd1084df998f220d96c675592526e990007f0aa4097f366",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-15",
   "notes": [
-    "Use shared N2K02 theme and updater UI",
-    "Bootstrap MovieTogether with signed manifest updater (#1)",
-    "Add project README and future APK release links"
+    "docs: explain offline embedded watch parties and no-service limitations",
+    "fix: ping guest WebSocket before host read timeout to avoid idle disconnect",
+    "fix: preserve guest room and watch navigation across rotation",
+    "fix: use nested NanoWSD WebSocket classes from published 2.3.1",
+    "fix: pause guest playback when host player closes",
+    "feat: optional manual routable IP or DNS override for direct internet invitations",
+    "fix: target published NanoHTTPD 2.3.1 API and secure WebSocket upgrades",
+    "fix: preserve host playback across rotations and keep service errors visible",
+    "fix: preserve host playback across rotations and keep service errors visible",
+    "docs: finalize embedded-only gateway and honest direct-connect limits"
   ]
 }
