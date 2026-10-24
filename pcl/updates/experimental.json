@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-52-run-228",
-  "versionName": "5.1",
-  "versionCode": 100228,
-  "apkName": "PCL-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-52-run-228/PCL-5.1.apk",
+  "tag": "pcl-experimental-pr-53-run-230",
+  "versionName": "5.2",
+  "versionCode": 100230,
+  "apkName": "PCL-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-53-run-230/PCL-5.2.apk",
   "apkSize": 19820825,
-  "sha256": "6ef72472c41285fbb07dd6a689539a76636f3c101d5b78fec2742dd3cdd8ea57",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-52-run-228",
+  "sha256": "435f3ee757c12d84a9289e0f209ee33295ade7e7a0a7ab56810d231bd446b3e6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-53-run-230",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates"
+    "Update shared N2K02 updater to 0.1.14"
   ]
 }
