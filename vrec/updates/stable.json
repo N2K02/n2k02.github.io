@@ -1,15 +1,23 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.7",
-  "versionName": "3.7",
-  "versionCode": 100127,
-  "apkName": "VREC-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.7/VREC-3.7.apk",
-  "apkSize": 19773722,
-  "sha256": "2f5c3e0a08258d53f29de2e0ab0dd6e5527e8fb1faa0e6a61b9ccb2d14536742",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.7",
+  "tag": "vrec-v3.8",
+  "versionName": "3.8",
+  "versionCode": 100201,
+  "apkName": "VREC-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.8/VREC-3.8.apk",
+  "apkSize": 34627928,
+  "sha256": "19523ddec3b568d18fe60daf460583f5c16d45801fb1f5ca53c045a70fb53e8d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.8",
   "notes": [
-    "Add recording opt-in and improve overlay controls (#30)",
-    "Update stable VRec shared updater to 0.1.14"
+    "Require verified shell shutdown before standard recovery to prevent two simultaneous recordings",
+    "Document conditional mid-call ADB transfer, separate saved segments and recovery behavior",
+    "Indicate active enhanced handoff on Home and hide duplicate manual record button",
+    "Clear enhanced handoff indicator when call ends or Home recording turns off",
+    "Offer safe mid-call transfer when privileged helper reconnects or becomes healthy",
+    "Save standard segment and transfer verified active call to enhanced recorder with fallback recovery",
+    "Allow only verified explicit mid-call handoff to arm daemon during standard fallback",
+    "Track handoff state and show notification when enhanced recording takes over",
+    "Track safe cellular handoff and recover a new standard segment if enhanced start fails",
+    "Verify daemon observes live cellular call and start authenticated enhanced mid-call segment"
   ]
 }
