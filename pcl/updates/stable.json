@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v5.0",
-  "versionName": "5.0",
-  "versionCode": 100227,
-  "apkName": "PCL-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.0/PCL-5.0.apk",
+  "tag": "pcl-v5.1",
+  "versionName": "5.1",
+  "versionCode": 100229,
+  "apkName": "PCL-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.1/PCL-5.1.apk",
   "apkSize": 19820809,
-  "sha256": "142032e5c254f520b3d5fdc3f286ff8c788ccb1846f13a2e8107791b3f4bbf05",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.0",
+  "sha256": "9ddc160701a852870c25f3938bac2501675279de783da3b4aee509be85818dfd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.1",
   "notes": [
-    "Fix stable and experimental updater version selection (#51)"
+    "fix(distribution): retry concurrent manifest updates (#52)"
   ]
 }
