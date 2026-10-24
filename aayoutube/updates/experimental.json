@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-16-run-109",
-  "versionName": "5.7",
-  "versionCode": 100109,
-  "apkName": "AAYoutube-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-16-run-109/AAYoutube-5.7.apk",
-  "apkSize": 1811032,
-  "sha256": "509bcb77b823b61f73e0ddd2b631114c861386060d68af3612d2dc27bf98b926",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-16-run-109",
+  "tag": "aayoutube-experimental-pr-17-run-112",
+  "versionName": "5.9",
+  "versionCode": 100112,
+  "apkName": "AAYoutube-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-17-run-112/AAYoutube-5.9.apk",
+  "apkSize": 1847896,
+  "sha256": "bff2aee6a5807710bd748e6c3fa41e073660042ebef5fafdff36b4ee9cce738e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-17-run-112",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
+    "feat(ui): show shared New on menu and update submenu",
+    "fix: share updater foreground refresh and preserve controller",
+    "build: use shared updater 0.1.16 for reusable New badge UI"
   ]
 }
