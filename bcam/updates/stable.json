@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.3",
-  "versionName": "3.3",
-  "versionCode": 100108,
-  "apkName": "BCam-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.3/BCam-3.3.apk",
-  "apkSize": 1134504,
-  "sha256": "cafe9cdba127c1acb995480166233796d5e139c248474b65bd8de182f103b561",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.3",
+  "tag": "bcam-v3.4",
+  "versionName": "3.4",
+  "versionCode": 100111,
+  "apkName": "BCam-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.4/BCam-3.4.apk",
+  "apkSize": 1150888,
+  "sha256": "352e837bfe1b0d89056634ffe0d27e8c274f45ddaf30bde9d2a71340ce58c4b6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.4",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates (#9)"
+    "Update N2K02 shared updater to 0.1.14"
   ]
 }
