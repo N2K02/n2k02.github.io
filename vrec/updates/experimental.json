@@ -1,15 +1,19 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-24-run-83",
-  "versionName": "3.5",
-  "versionCode": 100083,
-  "apkName": "VREC-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-24-run-83/VREC-3.5.apk",
-  "apkSize": 19756864,
-  "sha256": "d146d2d4ad86cddf529dd6eac28dcdf35eee8fd6c137ca5a47324b160447165e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-24-run-83",
+  "tag": "vrec-experimental-pr-23-run-86",
+  "versionName": "3.6",
+  "versionCode": 100086,
+  "apkName": "VREC-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-86/VREC-3.6.apk",
+  "apkSize": 19789888,
+  "sha256": "aee2979372ad44dae38e2a2f4642fca7ce26a61921dac4340a81c812b2586eb9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-86",
   "notes": [
-    "Align recording provider identity with experimental VREC branch",
-    "Fix shared updater installer FileProvider authority collision"
+    "Document one-time recovery for older broken updater installations",
+    "Preserve shared updater FileProvider in experimental build",
+    "Show copyable optional InCallService ADB setup card with fallback status",
+    "Allow caller metadata fallback for visible default-dialer call screens",
+    "Harden call waiting and constrain Accessibility fallback to call UI",
+    "Add opt-in non-UI Telecom call detector with caller enrichment"
   ]
 }
