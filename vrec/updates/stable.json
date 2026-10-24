@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.9",
-  "versionName": "3.9",
-  "versionCode": 100204,
-  "apkName": "VREC-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.9/VREC-3.9.apk",
-  "apkSize": 34644312,
-  "sha256": "1193feb90c60f67e3f630bde6a4753b34ced2f7c7b7af590bbe48f9eccabccb6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.9",
+  "tag": "vrec-v4.0",
+  "versionName": "4.0",
+  "versionCode": 100207,
+  "apkName": "VREC-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.0/VREC-4.0.apk",
+  "apkSize": 34677080,
+  "sha256": "70f37ec2fe71eceedfaad8baf67223809c440d8db5366b62186e9839c19cb78a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.0",
   "notes": [
-    "Fix ADB transport state, TCP recovery, and USB-only setup guidance (#33)"
+    "feat: shared New badges for Settings and About & updates"
   ]
 }
