@@ -1,13 +1,13 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-27-run-92",
+  "tag": "vrec-experimental-pr-23-run-93",
   "versionName": "3.6",
-  "versionCode": 100092,
+  "versionCode": 100093,
   "apkName": "VREC-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-27-run-92/VREC-3.6.apk",
-  "apkSize": 19789632,
-  "sha256": "c1c7c3bc7d4e7aa58815268bc9f512a1064ab92ec2d0259b6626d2a6eb31d13f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-27-run-92",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-93/VREC-3.6.apk",
+  "apkSize": 19822656,
+  "sha256": "493cfb80c39139db0c055595f57c2d51016eea7fa8232536330785c66bf76d4e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-93",
   "notes": [
     "Polish branded page icons and single-selected navigation state",
     "Align About and updates page typography with MRadio",
@@ -15,6 +15,9 @@
     "Modernize recordings with MRadio-style filter chips and compact actions",
     "Bring simplified two-step permissions flow into MRadio-aligned UI",
     "Match MRadio's icon settings rows and remove duplicate page titles",
-    "Adopt MRadio-style branded header, navigation and recording mini-bar"
+    "Adopt MRadio-style branded header, navigation and recording mini-bar",
+    "Keep advanced call detection setup only in Experimental settings",
+    "Redesign permissions into two-step setup with optional extras",
+    "Document one-time recovery for older broken updater installations"
   ]
 }
