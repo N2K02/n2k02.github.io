@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-9-run-81",
-  "versionName": "4.0",
-  "versionCode": 100081,
-  "apkName": "HFreebuds-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-9-run-81/HFreebuds-4.0.apk",
-  "apkSize": 2313870,
-  "sha256": "a5d6b1e85f035c41c246faee3dd33ee6624927faa9fd71f686bef310c80b51dc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-9-run-81",
+  "tag": "hfreebuds-experimental-pr-10-run-83",
+  "versionName": "4.1",
+  "versionCode": 100083,
+  "apkName": "HFreebuds-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-10-run-83/HFreebuds-4.1.apk",
+  "apkSize": 2330254,
+  "sha256": "02514905a8e681a310c0975e7ccc2317f7417717fd4ffe60e55dc130ca1f07b7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-10-run-83",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates"
+    "Update shared N2K02 updater to 0.1.14"
   ]
 }
