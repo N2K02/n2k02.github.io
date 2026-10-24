@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-20-run-160",
+  "tag": "speedtester-experimental-pr-21-run-161",
   "versionName": "7.1",
-  "versionCode": 100160,
+  "versionCode": 100161,
   "apkName": "SpeedTester-7.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-20-run-160/SpeedTester-7.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-21-run-161/SpeedTester-7.1.apk",
   "apkSize": 2844360,
-  "sha256": "46ea1a15fd8e9216979f04c5552e8607bf5d2db8126723dd4d625f99edb48072",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-20-run-160",
+  "sha256": "acfef07667a134bfe3e70c8e31612e3411ff7814a895ff9b7081ff4c04756d8b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-21-run-161",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
