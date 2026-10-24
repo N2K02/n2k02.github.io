@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.3",
-  "versionName": "4.3",
-  "versionCode": 100089,
-  "apkName": "PBar-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.3/PBar-4.3.apk",
+  "tag": "pbar-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100091,
+  "apkName": "PBar-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.4/PBar-4.4.apk",
   "apkSize": 13293546,
-  "sha256": "de62507d1dcb75db36c1a6bbe148f4345eb83afde6ca49c57638e5698562e3b5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.3",
+  "sha256": "0c9e50e01447e7419ca24096da22760c8ba8820142ae19161ba5f5c87dc6034f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.4",
   "notes": [
-    "Update N2K02 shared updater to 0.1.14"
+    "Use shared N2K02 Material Expressive theme (#35)",
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#34)"
   ]
 }
