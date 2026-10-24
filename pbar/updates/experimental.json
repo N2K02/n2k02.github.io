@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-34-run-88",
-  "versionName": "4.3",
-  "versionCode": 100088,
-  "apkName": "PBar-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-34-run-88/PBar-4.3.apk",
+  "tag": "pbar-experimental-pr-35-run-90",
+  "versionName": "4.4",
+  "versionCode": 100090,
+  "apkName": "PBar-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-35-run-90/PBar-4.4.apk",
   "apkSize": 13293546,
-  "sha256": "df6899f37ec056c79547010d8fc367d4d756ac2c12905fbf749ee424b8ec0e69",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-34-run-88",
+  "sha256": "ef34bd7dbd2510949f4ba825e55bad9ac9beeaf2349c23ae0530f3cbac13578e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-35-run-90",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
+    "Use shared N2K02 Material Expressive theme",
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#34)"
   ]
 }
