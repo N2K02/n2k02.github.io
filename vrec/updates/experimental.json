@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-23-run-93",
+  "tag": "vrec-experimental-pr-23-run-94",
   "versionName": "3.6",
-  "versionCode": 100093,
+  "versionCode": 100094,
   "apkName": "VREC-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-93/VREC-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-94/VREC-3.6.apk",
   "apkSize": 19822656,
-  "sha256": "493cfb80c39139db0c055595f57c2d51016eea7fa8232536330785c66bf76d4e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-93",
+  "sha256": "747cc44a11f1b394530f0924940457e737b63ec7c1aa2d9141550b20abdd10f1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-94",
   "notes": [
+    "Document built-in ADB, Shizuku and offline TCP experimental recording design",
     "Polish branded page icons and single-selected navigation state",
     "Align About and updates page typography with MRadio",
     "Simplify activity log heading and description",
@@ -17,7 +18,6 @@
     "Match MRadio's icon settings rows and remove duplicate page titles",
     "Adopt MRadio-style branded header, navigation and recording mini-bar",
     "Keep advanced call detection setup only in Experimental settings",
-    "Redesign permissions into two-step setup with optional extras",
-    "Document one-time recovery for older broken updater installations"
+    "Redesign permissions into two-step setup with optional extras"
   ]
 }
