@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v3.6",
-  "versionName": "3.6",
-  "versionCode": 100083,
-  "apkName": "NetSpeed-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.6/NetSpeed-3.6.apk",
+  "tag": "netspeed-v3.7",
+  "versionName": "3.7",
+  "versionCode": 100086,
+  "apkName": "NetSpeed-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.7/NetSpeed-3.7.apk",
   "apkSize": 1170976,
-  "sha256": "3de1f44828395e737776d24423c5aa06a4445483d76ca6530d2295e7b61897fa",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.6",
+  "sha256": "9ad894c9fb1827e848f5dee682b8c448311ce1d47ca37b0c4294a99c799c9e6b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.7",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates (#15)"
+    "Update N2K02 shared updater to 0.1.14"
   ]
 }
