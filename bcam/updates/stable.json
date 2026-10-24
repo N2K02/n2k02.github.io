@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.2",
-  "versionName": "3.2",
-  "versionCode": 100106,
-  "apkName": "BCam-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.2/BCam-3.2.apk",
+  "tag": "bcam-v3.3",
+  "versionName": "3.3",
+  "versionCode": 100108,
+  "apkName": "BCam-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.3/BCam-3.3.apk",
   "apkSize": 1134504,
-  "sha256": "d36a5278e457bfea14675235677869ab14fcb4771b0b4cbe62d4f21128f77ff0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.2",
+  "sha256": "cafe9cdba127c1acb995480166233796d5e139c248474b65bd8de182f103b561",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.3",
   "notes": [
-    "Experimental shared libraries and manifest-based updater (#8)"
+    "fix(distribution): retry concurrent manifest updates (#9)"
   ]
 }
