@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-23-run-76",
+  "tag": "vrec-experimental-pr-23-run-78",
   "versionName": "3.5",
-  "versionCode": 100076,
+  "versionCode": 100078,
   "apkName": "VREC-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-76/VREC-3.5.apk",
-  "apkSize": 19789756,
-  "sha256": "c224340942ef2c42f923aeb54c9d9acd161ecbb404c967446fc05e3260f08507",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-76",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-78/VREC-3.5.apk",
+  "apkSize": 19789828,
+  "sha256": "62bc737bc4f7439aa346712236f9052231723c35b395cec713f49f8dcaa0bb86",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-78",
   "notes": [
+    "Allow caller metadata fallback for visible default-dialer call screens",
+    "Harden call waiting and constrain Accessibility fallback to call UI",
     "Add opt-in non-UI Telecom call detector with caller enrichment"
   ]
 }
