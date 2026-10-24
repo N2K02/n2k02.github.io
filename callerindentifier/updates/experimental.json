@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-1-run-28",
-  "versionName": "1.0-experimental.28",
-  "versionCode": 100028,
-  "apkName": "CallerIndentifier-PR-1-3edd450.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-28/CallerIndentifier-PR-1-3edd450.apk",
-  "apkSize": 13556754,
-  "sha256": "9d38c7078469753be3edcc7719dec663aea2f2079f06954ea636067989191af9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-28",
+  "tag": "callerindentifier-exp-pr-1-run-30",
+  "versionName": "1.0-experimental.30",
+  "versionCode": 100030,
+  "apkName": "CallerIndentifier-PR-1-92d9f88.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-30/CallerIndentifier-PR-1-92d9f88.apk",
+  "apkSize": 13540370,
+  "sha256": "1710d889b0046469d3489e5dbd11ec5a221e3f533cedc6fdd24fa1cbad7f11a8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-30",
   "notes": [
+    "feat(search): replace API setup with 27 free browser number searches and source badges",
+    "feat(search): 27 free no-key phone number search links with distinct source attribution",
     "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing",
     "feat(settings): configure optional PhoneInfoga HTTPS server",
     "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results",
@@ -16,8 +18,6 @@
     "test(docs): validate Mauritius and international metadata; document free-tier lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup",
-    "refactor: remove unsupported Truecaller login and reverse lookup",
-    "refactor: remove unsupported Truecaller login and reverse lookup",
-    "feat(nav): Home number search, Call history and Settings tabs; remove Truecaller login"
+    "refactor: remove unsupported Truecaller login and reverse lookup"
   ]
 }
