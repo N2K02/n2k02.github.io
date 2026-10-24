@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mradio-v4.6-build-267",
-  "versionName": "4.6",
-  "versionCode": 100267,
-  "apkName": "MRadio-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.6-build-267/MRadio-4.6.apk",
+  "tag": "mradio-v4.7-build-271",
+  "versionName": "4.7",
+  "versionCode": 100271,
+  "apkName": "MRadio-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.7-build-271/MRadio-4.7.apk",
   "apkSize": 2810779,
-  "sha256": "64925f764b952222621e6e5407a62a4de9a703c2f4f4cd29ac175f16de5cbc10",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.6-build-267",
+  "sha256": "9cf80f5692b4d81c0cacac2618b94965cc799d55f2f0da3e33fec9de0d2c050d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.7-build-271",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates (#16)"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#18)",
+    "Update N2K02 shared updater to 0.1.14"
   ]
 }
