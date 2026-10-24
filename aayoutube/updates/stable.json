@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v5.8",
-  "versionName": "5.8",
-  "versionCode": 100111,
-  "apkName": "AAYoutube-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.8/AAYoutube-5.8.apk",
-  "apkSize": 1811032,
-  "sha256": "c00bd5badc78a65f4fd0c0b74b0b0bbb58e3c38e8a5a3945bf67f5fd3e3bcf73",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.8",
+  "tag": "aayoutube-v5.9",
+  "versionName": "5.9",
+  "versionCode": 100113,
+  "apkName": "AAYoutube-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v5.9/AAYoutube-5.9.apk",
+  "apkSize": 1847896,
+  "sha256": "b5e717063c5ed30d237b6154fd1c13d7f720868dbad7bc1b321b50d3c5bef362",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v5.9",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#16)"
+    "feat: consistent New update badges in Settings and submenu"
   ]
 }
