@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-23-run-124",
+  "tag": "vrec-experimental-pr-30-run-125",
   "versionName": "3.7",
-  "versionCode": 100124,
+  "versionCode": 100125,
   "apkName": "VREC-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-124/VREC-3.7.apk",
-  "apkSize": 34561938,
-  "sha256": "47b6d26a80eb10fd5e782982c683a0f5de429983721cfa1967feeed3d3968720",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-124",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-30-run-125/VREC-3.7.apk",
+  "apkSize": 19773248,
+  "sha256": "33f7b40e64304648c35615c2f9a88114e021fa048057a41424be9ba51c2b802c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-30-run-125",
   "notes": [
-    "Update stable VRec shared updater to 0.1.14",
-    "Use shared updater 0.1.14 and restore standard updates UI",
-    "Keep experimental APK download action above collapsible notes and make updates page scrollable",
-    "Do not reset VRec's experimental InCallService AppOp when shell recorder starts",
-    "Use authorized Shizuku UserService for shell capture instead of private newProcess",
-    "Compile shell daemon against published Android SDK 36 matching upstream recorder",
-    "Request Android 16/17 local network access for notification-free ADB discovery",
-    "Show Ogg enhanced recordings in library with correct share type and serialized imports",
-    "Provision shell-side Android SDK 37 before Gradle preBuild runs on clean CI",
-    "Never silently re-enable system USB debugging from the capture daemon"
+    "Add recording master switch defaulting off",
+    "Update stable VRec shared updater to 0.1.14"
   ]
 }
