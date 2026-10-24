@@ -1,22 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-33-run-203",
-  "versionName": "3.9",
-  "versionCode": 100203,
-  "apkName": "VREC-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-33-run-203/VREC-3.9.apk",
-  "apkSize": 34644320,
-  "sha256": "2c4cb31a00fbd3135aea728c0c86b00809319ce0d71d1084d6d7ffbbaff95478",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-33-run-203",
+  "tag": "vrec-experimental-pr-34-run-206",
+  "versionName": "4.0",
+  "versionCode": 100206,
+  "apkName": "VREC-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-34-run-206/VREC-4.0.apk",
+  "apkSize": 34677084,
+  "sha256": "8600621bc253996d14ac9c3063ea1d371f43ea48dc645dd25c104713a467a117",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-34-run-206",
   "notes": [
-    "Allow USB setup guidance to scroll on smaller screens",
-    "Allow adbd to acknowledge USB mode transition before stream teardown",
-    "Preserve verified Wireless session when TCP switch command is rejected",
-    "Document USB-only ADB bootstrap, accessibility limitations, and TCP verification",
-    "Refresh visible ADB setup state when Android changes its debugger",
-    "Disable unsupported Wireless setup and clarify independent ADB key authorization",
-    "Guide users through on-device RSA authorization while TCP reconnects",
-    "Synchronize wireless/TCP controls with verified ADB state and USB setup guidance",
-    "Track authorized ADB transport and improve TCP recovery and status"
+    "fix(VREC): restrict update badge to About & updates menu row",
+    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
+    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
+    "fix: share updater foreground refresh and preserve controller",
+    "build: consume shared updater for consistent New badges"
   ]
 }
