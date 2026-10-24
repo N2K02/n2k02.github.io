@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.5",
-  "versionName": "3.5",
-  "versionCode": 100084,
-  "apkName": "VREC-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.5/VREC-3.5.apk",
-  "apkSize": 19756840,
-  "sha256": "6f249f6028472079455e6385929b3adec390d548c4b634dd7a6b40810f71ca44",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.5",
+  "tag": "vrec-v3.6",
+  "versionName": "3.6",
+  "versionCode": 100123,
+  "apkName": "VREC-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.6/VREC-3.6.apk",
+  "apkSize": 19773220,
+  "sha256": "0d3f1ed1ca7073a07e7532da5d7b7f5b9712513fdf3e072e5a8ccbde275c3165",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.6",
   "notes": [
-    "Fix shared updater FileProvider authority collision"
+    "Bump stable VREC's shared updater to 0.1.14 (#28)"
   ]
 }
