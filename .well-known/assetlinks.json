@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mradio.app",
+      "sha256_cert_fingerprints": [
+        "EF:D5:40:02:A3:31:91:E0:C4:20:6E:2C:D6:85:75:F2:E1:75:A0:B4:B4:DD:82:C9:A7:78:C7:57:AA:13:E5:6C"
+      ]
+    }
+  }
+]
