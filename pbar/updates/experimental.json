@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-37-run-103",
+  "tag": "pbar-experimental-pr-37-run-106",
   "versionName": "4.6",
-  "versionCode": 100103,
+  "versionCode": 100106,
   "apkName": "PBar-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-37-run-103/PBar-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-37-run-106/PBar-4.6.apk",
   "apkSize": 13293546,
-  "sha256": "133400ac242d6b53c248a5dfb2ebaba1fe31c91f3a8df8fd7c57ff807d00e2be",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-37-run-103",
+  "sha256": "e9a8d27d4f06fa654bcb94d8d968a391f9161218e9da3ee0b6fb8597c4bfacb0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-37-run-106",
   "notes": [
+    "Space Apps filters evenly in a balanced two-column layout",
+    "Automatically follow device rotation when positioning and drawing the overlay",
+    "Replace manual global and per-app orientation choices with automatic portrait/landscape positions",
     "Ensure test overlay follows global style independently of active playback",
     "Add live preview, on-screen test, HSV colour picker, palettes and per-card resets",
     "Expose stable timer timing for per-frame interpolation",
     "Support on-screen test progress, smooth timers and jitter-free media transitions",
     "Reset fallback playback anchor when player changes tracks",
     "Track current source when refreshing cached overlay styles",
-    "Avoid per-frame preference parsing and redundant window relayouts",
-    "Separate Appearance controls into five focused settings cards",
-    "Render player progress continuously from media timing instead of integer percentage steps",
-    "Preserve media playback timebase for fluid progress rendering"
+    "Avoid per-frame preference parsing and redundant window relayouts"
   ]
 }
