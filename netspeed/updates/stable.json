@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v3.7",
-  "versionName": "3.7",
-  "versionCode": 100086,
-  "apkName": "NetSpeed-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.7/NetSpeed-3.7.apk",
+  "tag": "netspeed-v3.8",
+  "versionName": "3.8",
+  "versionCode": 100087,
+  "apkName": "NetSpeed-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.8/NetSpeed-3.8.apk",
   "apkSize": 1170976,
-  "sha256": "9ad894c9fb1827e848f5dee682b8c448311ce1d47ca37b0c4294a99c799c9e6b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.7",
+  "sha256": "9e12024656e9a8afc7aafebca4bd706aa79f01394491159f0fb8a2d96ffb771a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.8",
   "notes": [
-    "Update N2K02 shared updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#17)"
   ]
 }
