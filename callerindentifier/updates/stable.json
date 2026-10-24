@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "callerindentifier-v1.1-build-33",
-  "versionName": "1.1",
-  "versionCode": 100033,
-  "apkName": "CallerIndentifier-1.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-v1.1-build-33/CallerIndentifier-1.1.apk",
-  "apkSize": 13540370,
-  "sha256": "8d46c7cc6ddafa20a0e78ad758a1b4919eeb207f219cffabb497de654c617a9d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-v1.1-build-33",
+  "tag": "callerindentifier-v1.2-build-36",
+  "versionName": "1.2",
+  "versionCode": 100036,
+  "apkName": "CallerIndentifier-1.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-v1.2-build-36/CallerIndentifier-1.2.apk",
+  "apkSize": 13556754,
+  "sha256": "4cea21d01034f15de5649bb962759401671dd39ea617866a2fd49ba2e7986567",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-v1.2-build-36",
   "notes": [
+    "feat: shared New badges across Settings and About & updates",
     "fix(ui): add missing Compose setValue delegate import for Settings navigation",
     "feat(ui): match MRadio page header, app logo, persistent navigation and settings pages",
     "feat(search): replace API setup with 27 free browser number searches and source badges",
@@ -17,7 +18,6 @@
     "feat(settings): configure optional PhoneInfoga HTTPS server",
     "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results",
     "feat(search): optional PhoneInfoga v2 HTTPS metadata and search suggestions",
-    "test(docs): validate Mauritius and international metadata; document free-tier lookup",
-    "refactor: remove unsupported Truecaller login and reverse lookup"
+    "test(docs): validate Mauritius and international metadata; document free-tier lookup"
   ]
 }
