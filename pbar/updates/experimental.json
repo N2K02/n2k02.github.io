@@ -1,18 +1,19 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-36-run-94",
-  "versionName": "4.5",
-  "versionCode": 100094,
-  "apkName": "PBar-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-36-run-94/PBar-4.5.apk",
+  "tag": "pbar-experimental-pr-37-run-99",
+  "versionName": "4.6",
+  "versionCode": 100099,
+  "apkName": "PBar-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-37-run-99/PBar-4.6.apk",
   "apkSize": 13293546,
-  "sha256": "9703cf3e8b3d926a8071366a7d378e4691ac4ce0a26fc0d3abf37f30e85bdb21",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-36-run-94",
+  "sha256": "0beb9ba00fe376467c59d43f18c91467f1b55267536f60ec25824d7599fed65b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-37-run-99",
   "notes": [
-    "Replace Updates tab with nested Settings and move permissions out of Home",
-    "Resolve duplicate filled and rounded icon imports",
-    "Use N2K02Theme Material 3 menus and compact page spacing",
-    "Match MRadio page headers using Material 3 and N2K02Theme; compact navigation and Home",
-    "Declutter PBar Home and remove nonfunctional page footer"
+    "Reset fallback playback anchor when player changes tracks",
+    "Track current source when refreshing cached overlay styles",
+    "Avoid per-frame preference parsing and redundant window relayouts",
+    "Separate Appearance controls into five focused settings cards",
+    "Render player progress continuously from media timing instead of integer percentage steps",
+    "Preserve media playback timebase for fluid progress rendering"
   ]
 }
