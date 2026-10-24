@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-15-run-82",
-  "versionName": "3.6",
-  "versionCode": 100082,
-  "apkName": "NetSpeed-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-15-run-82/NetSpeed-3.6.apk",
+  "tag": "netspeed-experimental-pr-16-run-84",
+  "versionName": "3.7",
+  "versionCode": 100084,
+  "apkName": "NetSpeed-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-16-run-84/NetSpeed-3.7.apk",
   "apkSize": 1170976,
-  "sha256": "1b6d302ad5b74418703693d64bf7d906d879f141a03db846bb743bd986d3bf45",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-15-run-82",
+  "sha256": "eb7767fe46b6ea3e988e759669c1acc8fa6e7a4189cff2bdc4b0a8263d3a4e02",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-16-run-84",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates"
+    "Update shared N2K02 updater to 0.1.14"
   ]
 }
