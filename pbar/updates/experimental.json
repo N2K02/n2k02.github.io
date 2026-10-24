@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-37-run-107",
+  "tag": "pbar-experimental-pr-37-run-109",
   "versionName": "4.6",
-  "versionCode": 100107,
+  "versionCode": 100109,
   "apkName": "PBar-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-37-run-107/PBar-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-37-run-109/PBar-4.6.apk",
   "apkSize": 13293546,
-  "sha256": "ddea6461c1bb28071a147e59f9cfcba92f38d73929670840a73af27b8a182608",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-37-run-107",
+  "sha256": "f3c2582f208659de76ab43f0279a30a8fdbf9307d3832d033c30329c1723e82f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-37-run-109",
   "notes": [
+    "Add high-contrast progress option to Appearance and match live preview",
+    "Improve filled-progress visibility with subtle track and bright leading-edge marker",
     "Place all four Apps filters in one compact equal-width row",
     "Space Apps filters evenly in a balanced two-column layout",
     "Automatically follow device rotation when positioning and drawing the overlay",
@@ -16,8 +18,6 @@
     "Ensure test overlay follows global style independently of active playback",
     "Add live preview, on-screen test, HSV colour picker, palettes and per-card resets",
     "Expose stable timer timing for per-frame interpolation",
-    "Support on-screen test progress, smooth timers and jitter-free media transitions",
-    "Reset fallback playback anchor when player changes tracks",
-    "Track current source when refreshing cached overlay styles"
+    "Support on-screen test progress, smooth timers and jitter-free media transitions"
   ]
 }
