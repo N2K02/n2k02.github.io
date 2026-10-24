@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-54-run-231",
-  "versionName": "5.2",
-  "versionCode": 100231,
-  "apkName": "PCL-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-54-run-231/PCL-5.2.apk",
+  "tag": "pcl-experimental-pr-55-run-233",
+  "versionName": "5.3",
+  "versionCode": 100233,
+  "apkName": "PCL-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-55-run-233/PCL-5.3.apk",
   "apkSize": 19820825,
-  "sha256": "2a1d09f2af83f41a46f35969630c69dd45cdd6de808c0c4f1cc9b82156cf271a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-54-run-231",
+  "sha256": "b32d12651d8e1877f403c7c5437cd8eb122ae74fc375d37ea2da703c5ca333f9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-55-run-233",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
+    "Resolve caller helper methods explicitly in label functions",
+    "Fix caller placeholders in Remote recents and notifications",
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#54)"
   ]
 }
