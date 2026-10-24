@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-1-run-11",
-  "versionName": "1.0-experimental.11",
-  "versionCode": 100011,
-  "apkName": "MovieTogether-PR-1-80dc209.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-1-run-11/MovieTogether-PR-1-80dc209.apk",
-  "apkSize": 13162317,
-  "sha256": "d201e0ab6d75099a651710611d57b65a8bd770de4620fad9b9712aca273b8f04",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-1-run-11",
+  "tag": "movietogether-experimental-pr-2-run-13",
+  "versionName": "1.0-experimental.13",
+  "versionCode": 100013,
+  "apkName": "MovieTogether-PR-2-2e2ad87.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-2-run-13/MovieTogether-PR-2-2e2ad87.apk",
+  "apkSize": 13178757,
+  "sha256": "d557c6377fe88c07270cf288a200c9b5bd558e5e4c8be301921e4841e663808d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-2-run-13",
   "notes": [
-    "build(signing): publish signed stable and experimental APK manifests",
-    "build(updater): add public APK manifest publisher",
-    "build(signing): reuse encrypted N2K02 release identity",
-    "fix(updater): require published manifest versionCode",
-    "fix(settings): align MovieTogether updater controls with MRadio settings screen",
-    "feat(settings): add MRadio-style About & updates section and detail page",
-    "fix: remove MRadio branding and update links from MovieTogether",
-    "fix: remove MRadio branding and update links from MovieTogether",
-    "fix: remove MRadio branding and update links from MovieTogether",
-    "fix: remove MRadio branding and update links from MovieTogether"
+    "Use shared N2K02 theme and updater UI",
+    "Bootstrap MovieTogether with signed manifest updater (#1)",
+    "Add project README and future APK release links"
   ]
 }
