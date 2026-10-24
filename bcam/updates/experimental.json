@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-10-run-109",
+  "tag": "bcam-experimental-pr-11-run-110",
   "versionName": "3.4",
-  "versionCode": 100109,
+  "versionCode": 100110,
   "apkName": "BCam-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-10-run-109/BCam-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-11-run-110/BCam-3.4.apk",
   "apkSize": 1150888,
-  "sha256": "5eb76addfb2664c7f2d52cdeff7f5d599f18a6ffea85c751fa50daf1b979f190",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-10-run-109",
+  "sha256": "378c541657f8e6765684148239ce99a30203663cdaa4f208525f918ba7545172",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-11-run-110",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
