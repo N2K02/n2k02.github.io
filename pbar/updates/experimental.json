@@ -1,15 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-35-run-90",
-  "versionName": "4.4",
-  "versionCode": 100090,
-  "apkName": "PBar-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-35-run-90/PBar-4.4.apk",
+  "tag": "pbar-experimental-pr-36-run-93",
+  "versionName": "4.5",
+  "versionCode": 100093,
+  "apkName": "PBar-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-36-run-93/PBar-4.5.apk",
   "apkSize": 13293546,
-  "sha256": "ef34bd7dbd2510949f4ba825e55bad9ac9beeaf2349c23ae0530f3cbac13578e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-35-run-90",
+  "sha256": "a9619de618daa9687a650827e72663abd1b93552a0b2beac11b18e9bdf886806",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-36-run-93",
   "notes": [
-    "Use shared N2K02 Material Expressive theme",
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#34)"
+    "Resolve duplicate filled and rounded icon imports",
+    "Use N2K02Theme Material 3 menus and compact page spacing",
+    "Match MRadio page headers using Material 3 and N2K02Theme; compact navigation and Home",
+    "Declutter PBar Home and remove nonfunctional page footer"
   ]
 }
