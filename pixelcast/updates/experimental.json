@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-10-run-75",
+  "tag": "pixelcast-experimental-pr-11-run-76",
   "versionName": "3.4",
-  "versionCode": 100075,
+  "versionCode": 100076,
   "apkName": "PixelCast-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-10-run-75/PixelCast-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-11-run-76/PixelCast-3.4.apk",
   "apkSize": 2113504,
-  "sha256": "6faeb8cbdae22a446d7b6e216ed786b49c09eba7263eb26c3b0ba20625d4b385",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-10-run-75",
+  "sha256": "2e485f0ad9941092d78b51cb76f5e2f56c87269a731551d2095c807d0ad256aa",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-11-run-76",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
