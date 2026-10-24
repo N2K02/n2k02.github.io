@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-32-run-190",
+  "tag": "vrec-experimental-pr-32-run-200",
   "versionName": "3.8",
-  "versionCode": 100190,
+  "versionCode": 100200,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-190/VREC-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-200/VREC-3.8.apk",
   "apkSize": 34627936,
-  "sha256": "7a8c6b1e07eb04965091c43c6b820ea62401b2b392c49b2ec65c2d937254708e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-190",
+  "sha256": "8747387e8c00b0e93410c217f8e43dc39d683f121877dc8db36759bbca3a1f9a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-200",
   "notes": [
-    "Use bottom Setup tab as the single setup navigation entry",
-    "Remove duplicated Setup permissions link from Settings menu",
-    "Document notification-driven ADB recovery and per-call standard fallback",
-    "Clear queued fallback if Home recording is disabled before service starts",
-    "Keep restored ADB helper in standby during standard fallback to prevent double recording",
-    "Use standard audio on ADB loss, notify on successful fallback start, and rearm after call",
-    "Open Experimental setup from fallback notification and show standard fallback on Home",
-    "Notify when an ADB-selected call falls back to standard recording",
-    "Finish helper startup automatically if ADB was already verified when method selected",
-    "Remove duplicate Compose import in advanced access card"
+    "Require verified shell shutdown before standard recovery to prevent two simultaneous recordings",
+    "Document conditional mid-call ADB transfer, separate saved segments and recovery behavior",
+    "Indicate active enhanced handoff on Home and hide duplicate manual record button",
+    "Clear enhanced handoff indicator when call ends or Home recording turns off",
+    "Offer safe mid-call transfer when privileged helper reconnects or becomes healthy",
+    "Save standard segment and transfer verified active call to enhanced recorder with fallback recovery",
+    "Allow only verified explicit mid-call handoff to arm daemon during standard fallback",
+    "Track handoff state and show notification when enhanced recording takes over",
+    "Track safe cellular handoff and recover a new standard segment if enhanced start fails",
+    "Verify daemon observes live cellular call and start authenticated enhanced mid-call segment"
   ]
 }
