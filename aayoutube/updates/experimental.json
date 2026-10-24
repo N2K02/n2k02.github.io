@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-15-run-108",
+  "tag": "aayoutube-experimental-pr-16-run-109",
   "versionName": "5.7",
-  "versionCode": 100108,
+  "versionCode": 100109,
   "apkName": "AAYoutube-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-15-run-108/AAYoutube-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-16-run-109/AAYoutube-5.7.apk",
   "apkSize": 1811032,
-  "sha256": "898ebff9b2d149af357c6bf9fe2b373650d9ace67ff12ce9ab79df444a2b0bd9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-15-run-108",
+  "sha256": "509bcb77b823b61f73e0ddd2b631114c861386060d68af3612d2dc27bf98b926",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-16-run-109",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
