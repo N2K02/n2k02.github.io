@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-31-run-141",
+  "tag": "vrec-experimental-pr-32-run-143",
   "versionName": "3.8",
-  "versionCode": 100141,
+  "versionCode": 100143,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-31-run-141/VREC-3.8.apk",
-  "apkSize": 34561870,
-  "sha256": "c0e069c0dc6b6f641c9ecfdfdf86f213e372bdadbba5e611006c17dc201f9487",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-31-run-141",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-143/VREC-3.8.apk",
+  "apkSize": 34562372,
+  "sha256": "0a501c5eab1c5e3bf0067b81e301850b17cc99f902964277e11cdfb943c3aabe",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-143",
   "notes": [
+    "Consolidate Standard and ADB architecture and wire privileged API helper",
     "Add AdbPrivilegedApiHelper for persistent shell service lifecycle",
     "Expose AdbPrivilegedApiHelper lifecycle facade for shell daemon",
     "Remove Shizuku recording support and migrate saved choice to Standard",
@@ -17,7 +18,6 @@
     "Unify advanced-call detection status and simplify experimental settings",
     "Verify Material 3 compile and APK runtime ABI before every VRec build",
     "Fix recording overflow crash by matching shared Material 3 ABI",
-    "Verify daemon acknowledged the requested recording master mode",
-    "Stop active enhanced audio capture when Home master switch turns off"
+    "Verify daemon acknowledged the requested recording master mode"
   ]
 }
