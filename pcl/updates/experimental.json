@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-53-run-230",
+  "tag": "pcl-experimental-pr-54-run-231",
   "versionName": "5.2",
-  "versionCode": 100230,
+  "versionCode": 100231,
   "apkName": "PCL-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-53-run-230/PCL-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-54-run-231/PCL-5.2.apk",
   "apkSize": 19820825,
-  "sha256": "435f3ee757c12d84a9289e0f209ee33295ade7e7a0a7ab56810d231bd446b3e6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-53-run-230",
+  "sha256": "2a1d09f2af83f41a46f35969630c69dd45cdd6de808c0c4f1cc9b82156cf271a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-54-run-231",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
