@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.4",
-  "versionName": "4.4",
-  "versionCode": 100091,
-  "apkName": "PBar-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.4/PBar-4.4.apk",
+  "tag": "pbar-v4.5",
+  "versionName": "4.5",
+  "versionCode": 100095,
+  "apkName": "PBar-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.5/PBar-4.5.apk",
   "apkSize": 13293546,
-  "sha256": "0c9e50e01447e7419ca24096da22760c8ba8820142ae19161ba5f5c87dc6034f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.4",
+  "sha256": "1ed34ace233d86c5f2e0c8936bfa8229a10d04e1a9a0e616ef5f4f8da93be2f8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.5",
   "notes": [
-    "Use shared N2K02 Material Expressive theme (#35)",
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#34)"
+    "Simplify PBar Home and add MRadio-style Settings navigation (#36)"
   ]
 }
