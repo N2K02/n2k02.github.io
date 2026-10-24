@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-9-run-107",
-  "versionName": "3.3",
-  "versionCode": 100107,
-  "apkName": "BCam-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-9-run-107/BCam-3.3.apk",
-  "apkSize": 1134504,
-  "sha256": "35637d2ac8eeec1d3965894bffa35ed665dc07f146555b4b8abdba3cde891f0b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-9-run-107",
+  "tag": "bcam-experimental-pr-10-run-109",
+  "versionName": "3.4",
+  "versionCode": 100109,
+  "apkName": "BCam-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-10-run-109/BCam-3.4.apk",
+  "apkSize": 1150888,
+  "sha256": "5eb76addfb2664c7f2d52cdeff7f5d599f18a6ffea85c751fa50daf1b979f190",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-10-run-109",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates"
+    "Update shared N2K02 updater to 0.1.14"
   ]
 }
