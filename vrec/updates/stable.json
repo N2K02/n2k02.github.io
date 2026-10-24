@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.4",
-  "versionName": "3.4",
-  "versionCode": 100075,
-  "apkName": "VREC-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.4/VREC-3.4.apk",
-  "apkSize": 19756776,
-  "sha256": "f3f6a289a7a67de200525531997dda7795d9e410581a4f56b5e2121c0796f8c1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.4",
+  "tag": "vrec-v3.5",
+  "versionName": "3.5",
+  "versionCode": 100084,
+  "apkName": "VREC-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.5/VREC-3.5.apk",
+  "apkSize": 19756840,
+  "sha256": "6f249f6028472079455e6385929b3adec390d548c4b634dd7a6b40810f71ca44",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.5",
   "notes": [
-    "Fix Settings submenu Back navigation (#22)"
+    "Fix shared updater FileProvider authority collision"
   ]
 }
