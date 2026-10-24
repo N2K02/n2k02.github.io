@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-21-run-72",
-  "versionName": "3.3",
-  "versionCode": 100072,
-  "apkName": "VREC-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-21-run-72/VREC-3.3.apk",
+  "tag": "vrec-experimental-pr-22-run-74",
+  "versionName": "3.4",
+  "versionCode": 100074,
+  "apkName": "VREC-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-22-run-74/VREC-3.4.apk",
   "apkSize": 19756796,
-  "sha256": "44c2ae3d695fc9f68435a831c95a9ce9b4d20e325fe582bf9c6bc8de8ba69eee",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-21-run-72",
+  "sha256": "7884b66a284bed24dbced3e5b7b3e320526a49bbfdb69c1d2bf415e709c96102",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-22-run-74",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates"
+    "Hoist Settings subsection state into navigation",
+    "Handle Back navigation through Settings overview"
   ]
 }
