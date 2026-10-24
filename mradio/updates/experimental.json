@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-17-run-268",
-  "versionName": "4.6-experimental.268",
-  "versionCode": 100268,
-  "apkName": "MRadio-PR-17-33a88ea.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-17-run-268/MRadio-PR-17-33a88ea.apk",
+  "tag": "mradio-exp-pr-18-run-269",
+  "versionName": "4.6-experimental.269",
+  "versionCode": 100269,
+  "apkName": "MRadio-PR-18-6ef0d2f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-18-run-269/MRadio-PR-18-6ef0d2f.apk",
   "apkSize": 2810779,
-  "sha256": "589cebae070c36853428693ce1bd47c1de4ec5b5f851bc1c8c48629bca032516",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-17-run-268",
+  "sha256": "e44df91abb1faa7dcdfb6588ccd8c524bb2f5b966f4f55ae1ddad3e7b299e447",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-18-run-269",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
