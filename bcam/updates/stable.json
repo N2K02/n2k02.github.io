@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.5",
-  "versionName": "3.5",
-  "versionCode": 100112,
-  "apkName": "BCam-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.5/BCam-3.5.apk",
+  "tag": "bcam-v3.6",
+  "versionName": "3.6",
+  "versionCode": 100117,
+  "apkName": "BCam-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.6/BCam-3.6.apk",
   "apkSize": 1150888,
-  "sha256": "7aa8815082e73498526637de81825116b97841ec28341b11006da66ddd31b00a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.5",
+  "sha256": "05ca93c69e846ce5a6c50318b7c978221a649998af33772f34f29c4c08c88ef3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.6",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#11)"
+    "feat: shared New badges and safe update lifecycle for BCam"
   ]
 }
