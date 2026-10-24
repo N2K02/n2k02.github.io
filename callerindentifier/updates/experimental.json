@@ -1,0 +1,23 @@
+{
+  "channel": "experimental",
+  "tag": "callerindentifier-exp-pr-1-run-16",
+  "versionName": "1.0-experimental.16",
+  "versionCode": 100016,
+  "apkName": "CallerIndentifier-PR-1-b323204.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-16/CallerIndentifier-PR-1-b323204.apk",
+  "apkSize": 13556754,
+  "sha256": "dddc9e56b4621b12432389e3b983cd80619ab4258d335295097b637ab80101b6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-16",
+  "notes": [
+    "ci(signing): reuse MRadio encrypted signing bundle and passphrase flow",
+    "ci: initialize MRadio-style Gradle setup before tests and signing",
+    "ci: match MRadio signed experimental releases without custom debug fallback",
+    "fix(ci): publish experimental PR releases like MRadio, even with debug-only signing",
+    "test(docs): cover Truecaller OTP parsing, session setup and logout workflow",
+    "feat(truecaller): dedicated phone/OTP login screen and logout navigation",
+    "feat(truecaller): encrypted automatic session with expiry, account label and logout wipe",
+    "feat(truecaller): native experimental SMS OTP request/verification flow",
+    "feat(updates): adopt MRadio signed APK publishing and experimental feed with dedicated key",
+    "fix(search): use static ContactsContract Phone fields in Kotlin"
+  ]
+}
