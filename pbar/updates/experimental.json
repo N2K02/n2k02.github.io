@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-37-run-109",
-  "versionName": "4.6",
-  "versionCode": 100109,
-  "apkName": "PBar-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-37-run-109/PBar-4.6.apk",
-  "apkSize": 13293546,
-  "sha256": "f3c2582f208659de76ab43f0279a30a8fdbf9307d3832d033c30329c1723e82f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-37-run-109",
+  "tag": "pbar-experimental-pr-38-run-111",
+  "versionName": "4.7",
+  "versionCode": 100111,
+  "apkName": "PBar-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-38-run-111/PBar-4.7.apk",
+  "apkSize": 13326314,
+  "sha256": "b6b60f4dce5b1513d3d24f4bff9d123d2d74d6378c76bcf9b6aa63a5c79131b9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-38-run-111",
   "notes": [
-    "Add high-contrast progress option to Appearance and match live preview",
-    "Improve filled-progress visibility with subtle track and bright leading-edge marker",
-    "Place all four Apps filters in one compact equal-width row",
-    "Space Apps filters evenly in a balanced two-column layout",
-    "Automatically follow device rotation when positioning and drawing the overlay",
-    "Replace manual global and per-app orientation choices with automatic portrait/landscape positions",
-    "Ensure test overlay follows global style independently of active playback",
-    "Add live preview, on-screen test, HSV colour picker, palettes and per-card resets",
-    "Expose stable timer timing for per-frame interpolation",
-    "Support on-screen test progress, smooth timers and jitter-free media transitions"
+    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
+    "fix: share updater foreground refresh and preserve controller",
+    "build: consume shared updater for consistent New badges"
   ]
 }
