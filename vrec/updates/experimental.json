@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-31-run-136",
+  "tag": "vrec-experimental-pr-31-run-137",
   "versionName": "3.8",
-  "versionCode": 100136,
+  "versionCode": 100137,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-31-run-136/VREC-3.8.apk",
-  "apkSize": 34594798,
-  "sha256": "51b22cc4fe7ae65cd1ab3ae1a20cb7abe89a22aaec5ea20f2cf81534cd8734d6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-31-run-136",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-31-run-137/VREC-3.8.apk",
+  "apkSize": 34594794,
+  "sha256": "314ad619ebd4dc35a1a956874dc4f2e6da6114651290a2a17a5910c2312dc60b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-31-run-137",
   "notes": [
+    "Keep a single inline player in the active recording card",
     "Unify advanced-call detection status and simplify experimental settings",
     "Verify Material 3 compile and APK runtime ABI before every VRec build",
     "Fix recording overflow crash by matching shared Material 3 ABI",
@@ -17,7 +18,6 @@
     "Synchronize shell recording even when daemon readiness has not been probed",
     "Serialize shell recorder mode changes to honor rapid Home toggle transitions",
     "Restore Home recording master switch and guard all experimental capture modes",
-    "Publish experimental PR APK for Shizu-style recorder UI review",
-    "Apply rounded Material 3 surface styling across VRec setup and diagnostics"
+    "Publish experimental PR APK for Shizu-style recorder UI review"
   ]
 }
