@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-32-run-146",
+  "tag": "vrec-experimental-pr-32-run-147",
   "versionName": "3.8",
-  "versionCode": 100146,
+  "versionCode": 100147,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-146/VREC-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-147/VREC-3.8.apk",
   "apkSize": 34562372,
-  "sha256": "9bc6b4c3fb355bbb11765b14f4e212dae59a2703e95756118c708f333c5de912",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-146",
+  "sha256": "d8a563fa6b98d332f3af40df676960f7993b1eb78befe88e7da4698815d84aa6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-147",
   "notes": [
+    "Start enhanced ADB helper automatically after verified Wireless or TCP connection",
     "Correct unified PR number and helper lifecycle documentation",
     "Bring stable recording overlay and updated ADB-only guide into unified PR #32",
     "Consolidate Standard and ADB architecture and wire privileged API helper",
@@ -17,7 +18,6 @@
     "Remove Shizuku recording support and migrate saved choice to Standard",
     "Explain built-in ADB versus Shizuku and recover after TCP transport restart",
     "Keep a single inline player in the active recording card",
-    "Unify advanced-call detection status and simplify experimental settings",
-    "Verify Material 3 compile and APK runtime ABI before every VRec build"
+    "Unify advanced-call detection status and simplify experimental settings"
   ]
 }
