@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-17-run-85",
-  "versionName": "3.7",
-  "versionCode": 100085,
-  "apkName": "NetSpeed-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-17-run-85/NetSpeed-3.7.apk",
-  "apkSize": 1170976,
-  "sha256": "887f664e08b6d8c19ca2d960780cb562061bd464c52a53a32f992598a984baeb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-17-run-85",
+  "tag": "netspeed-experimental-pr-18-run-88",
+  "versionName": "3.9",
+  "versionCode": 100088,
+  "apkName": "NetSpeed-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-18-run-88/NetSpeed-3.9.apk",
+  "apkSize": 1207840,
+  "sha256": "51fa64b01e5cabac734a334ac8c18a69ec6b7b60ba495e69beb43766f618ce8b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-18-run-88",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
+    "feat(ui): show shared New badge on settings navigation and update submenu",
+    "fix: share foreground update refresh and retain controller on Activity recreation",
+    "build: consume shared updater for consistent New badges"
   ]
 }
