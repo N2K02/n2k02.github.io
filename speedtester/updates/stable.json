@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v6.9",
-  "versionName": "6.9",
-  "versionCode": 100156,
-  "apkName": "SpeedTester-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v6.9/SpeedTester-6.9.apk",
-  "apkSize": 2827920,
-  "sha256": "e7823b0e8c67c4894fdccdb7189c2c3e128d9f8ba51529d9d9489632174385da",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v6.9",
+  "tag": "speedtester-v7.0",
+  "versionName": "7.0",
+  "versionCode": 100159,
+  "apkName": "SpeedTester-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.0/SpeedTester-7.0.apk",
+  "apkSize": 2827976,
+  "sha256": "e4988b13721b4e3986a40588c377446daa3ca87545728aadcc95c7c7d8a65c9e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.0",
   "notes": [
-    "Fix stable and experimental updater version selection (#17)"
+    "Fix shared updater FileProvider authority collision"
   ]
 }
