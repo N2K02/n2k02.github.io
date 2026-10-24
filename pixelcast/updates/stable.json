@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v3.3",
-  "versionName": "3.3",
-  "versionCode": 100074,
-  "apkName": "PixelCast-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.3/PixelCast-3.3.apk",
-  "apkSize": 2097120,
-  "sha256": "3169ed2b9a188641f0e09f82a7d3fa9f081b0880a982da007d63c8b52c2c4369",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.3",
+  "tag": "pixelcast-v3.4",
+  "versionName": "3.4",
+  "versionCode": 100077,
+  "apkName": "PixelCast-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.4/PixelCast-3.4.apk",
+  "apkSize": 2113504,
+  "sha256": "a53a7ede107a9b226c6cfbd3ac3dbe9d4c3fc0720da8cefb3df95dfec84e93c2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.4",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates (#9)"
+    "Update N2K02 shared updater to 0.1.14"
   ]
 }
