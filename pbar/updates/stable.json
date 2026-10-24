@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.1",
-  "versionName": "4.1",
-  "versionCode": 100084,
-  "apkName": "PBar-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.1/PBar-4.1.apk",
+  "tag": "pbar-v4.2",
+  "versionName": "4.2",
+  "versionCode": 100086,
+  "apkName": "PBar-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.2/PBar-4.2.apk",
   "apkSize": 13293546,
-  "sha256": "0659cf38d590d7f754c3557a7c8ad3fd8697219b139b857e4f9a168b31dd1441",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.1",
+  "sha256": "f7d952456f0f21dcea2402a50bd90083869e3de2d0b0e62eb18091ddde122490",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.2",
   "notes": [
-    "Fix stable and experimental updater version selection (#30)"
+    "fix(distribution): retry concurrent manifest updates (#32)"
   ]
 }
