@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v3.9",
-  "versionName": "3.9",
-  "versionCode": 100080,
-  "apkName": "HFreebuds-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v3.9/HFreebuds-3.9.apk",
+  "tag": "hfreebuds-v4.0",
+  "versionName": "4.0",
+  "versionCode": 100082,
+  "apkName": "HFreebuds-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.0/HFreebuds-4.0.apk",
   "apkSize": 2313870,
-  "sha256": "529367f9e3f6469b642d323c1e8eb424544a79aa57d2a6082726fbfdbd088450",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v3.9",
+  "sha256": "a1e8acbfe6dc335a7348e8e236c488c7eb648df8b52e144f56937e2a21ed816e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.0",
   "notes": [
-    "Fix stable and experimental updater version selection (#8)"
+    "fix(distribution): retry concurrent manifest updates (#9)"
   ]
 }
