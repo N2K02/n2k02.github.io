@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0d1c">
+<meta name="description" content="CallerIndentifier is an Android watch-party project for sharing a movie from your phone, watching in sync and chatting together.">
+<meta property="og:title" content="CallerIndentifier — A clearer caller experience, in progress">
+<meta property="og:description" content="An Android caller-identification project with a privacy-minded starter app. Caller lookup is not enabled yet.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://n2k02.github.io/callerindentifier/">
+<meta property="og:image" content="https://n2k02.github.io/assets/app-icons/callerindentifier.svg">
+<title>CallerIndentifier — A clearer caller experience, in progress</title>
+<link rel="icon" href="/assets/app-icons/callerindentifier.svg" type="image/svg+xml">
+<style>
+:root{color-scheme:dark;--bg:#0b0d1c;--panel:#181b33;--panel2:#222241;--line:#3b3659;--text:#faf7ff;--muted:#bdb4d3;--a:#c5a3ff;--b:#ef99d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}a:focus-visible{outline:3px solid var(--a);outline-offset:4px}.container{width:min(1100px,calc(100% - 36px));margin:auto}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:24px 0}.brand{text-decoration:none;font-size:1.18rem;font-weight:850;letter-spacing:-.045em}.brand span{color:var(--a)}.navlinks{display:flex;gap:20px}.navlinks a{color:var(--muted);font-size:.9rem;text-decoration:none}.navlinks a:hover{color:var(--text)}
+.hero{background:radial-gradient(ellipse at 75% 43%,#73399755,transparent 51%),radial-gradient(ellipse at 15% 4%,#42387466,transparent 52%);border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:46px;align-items:center;padding:85px 0 95px}.pill{display:inline-flex;align-items:center;border:1px solid #765b91;border-radius:100px;background:#3b294e;color:#e9cbff;font-size:.77rem;font-weight:850;letter-spacing:.075em;text-transform:uppercase;padding:6px 14px}h1{font-size:clamp(3rem,7vw,5.9rem);line-height:1.04;letter-spacing:-.07em;margin:22px 0}h1 em{font-style:normal;background:linear-gradient(110deg,var(--a),var(--b));background-clip:text;-webkit-background-clip:text;color:transparent}.lead{font-size:1.17rem;color:var(--muted);max-width:630px;margin:0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 14px}.btn{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;font-weight:800;padding:13px 20px;border:1px solid #776a96;border-radius:14px;background:#252343}.btn.primary{background:linear-gradient(110deg,var(--a),var(--b));color:#201429;border:0}.btn:hover{filter:brightness(1.1)}.small{font-size:.88rem;color:var(--muted)}
+.visual{min-height:335px;display:grid;place-items:center;background:linear-gradient(135deg,#292041,#15182e);border:1px solid #705388;border-radius:32px;position:relative;overflow:hidden;box-shadow:0 25px 75px #0006}.visual:before{content:"";position:absolute;width:300px;height:300px;background:#b78cf838;border-radius:50%;filter:blur(60px)}.app-logo{position:relative;width:180px;height:180px;filter:drop-shadow(0 15px 25px #0008)}.visual-tag{position:absolute;bottom:22px;left:20px;right:20px;text-align:center;color:#d3c4ec;font-size:.88rem}
+section{padding:75px 0}.kicker{color:var(--a);text-transform:uppercase;letter-spacing:.13em;font-size:.76rem;font-weight:850}h2{font-size:clamp(1.85rem,4vw,3rem);line-height:1.15;letter-spacing:-.055em;margin:10px 0 18px}.section-intro{max-width:780px;margin-bottom:30px}.section-intro p{color:var(--muted)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:var(--panel);border:1px solid var(--line);border-radius:21px;padding:26px}.num{font-size:.86rem;color:var(--a);font-weight:900}.feature h3{font-size:1.19rem;margin:14px 0 9px}.feature p{color:var(--muted);margin:0}.band{background:var(--panel2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding-top:14px;border-top:2px solid var(--a)}.step h3{margin:0 0 8px}.step p{margin:0;color:var(--muted)}.notice{background:#211f39;border:1px solid #665781;border-radius:18px;padding:20px 24px;color:#d5cae8;margin-top:28px}.cta{border:1px solid #725687;border-radius:26px;padding:42px;background:linear-gradient(110deg,#382445,#242143)}footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}footer .container{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr;padding:62px 0}.visual{min-height:260px}.features,.steps{grid-template-columns:1fr}section{padding:58px 0}.cta{padding:28px}.navlinks{gap:12px}}@media(max-width:420px){.navlinks a:first-child{display:none}}@media(prefers-reduced-motion:no-preference){.btn{transition:filter .2s}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="container">
+<nav aria-label="CallerIndentifier navigation"><a class="brand" href="/">N2K02<span> / CallerIndentifier</span></a><div class="navlinks"><a href="#features">Features</a><a href="#how-it-works">How it works</a><a href="/callerindentifier/download/">Download</a></div></nav>
+<div class="hero-grid">
+<div><span class="pill">Android app · Watch-party project</span><h1>Know who's calling.<br><em>On your terms.</em></h1>
+<p class="lead">A new Android project for caller identification, designed to keep the experience clear, simple and privacy-conscious.</p>
+<div class="actions"><a class="btn primary" href="/callerindentifier/download/">↓ Get CallerIndentifier</a><a class="btn" href="#features">Explore the features →</a></div>
+<p class="small">This is an early project template. Caller lookup and screening are not available yet.</p></div>
+<div class="visual" aria-label="CallerIndentifier clapperboard"><img class="app-logo" src="/assets/app-icons/callerindentifier.svg" alt="CallerIndentifier clapperboard icon" width="180" height="180"><span class="visual-tag">One Android app for hosts and viewers</span></div>
+</div></div></header>
+<main>
+<section id="features" class="container"><div class="section-intro"><div class="kicker">Caller information</div><h2>A clearer view of incoming calls.<br>Built step by step.</h2><p>CallerIndentifier starts with a Material 3 Expressive interface, a unique Android identity and safe update support.</p></div>
+<div class="features">
+<article class="feature"><div class="num">01 · Design</div><h3>Material 3 Expressive</h3><p>Rounded layouts and clear controls, using the same shared N2K02Theme as other N2K02 apps.</p></article>
+<article class="feature"><div class="num">02 · Updates</div><h3>Built-in updates</h3><p>The shared N2K02Updater supports stable and experimental release channels.</p></article>
+<article class="feature"><div class="num">03 · Privacy</div><h3>Permissions when needed</h3><p>The starter requests no phone, call log, contacts or call-screening permissions.</p></article>
+</div>
+<div class="notice"><strong>Project status:</strong> This is a starter app. It does not yet identify unknown callers, screen calls or analyze your call history. Those features must be built and reviewed separately.</div>
+</section>
+<section id="how-it-works" class="band"><div class="container"><div class="kicker">Get started</div><h2>Your new Android companion.</h2><div class="steps">
+<div class="step"><h3>1. Download</h3><p>Use the dedicated download page for the first published stable APK.</p></div>
+<div class="step"><h3>2. Install</h3><p>Install the APK using Android's normal installation confirmation.</p></div>
+<div class="step"><h3>3. Explore</h3><p>Explore the starter UI and use Settings for version and update controls.</p></div>
+</div></div></section>
+<section class="container"><div class="cta"><div class="kicker">Get started</div><h2>Download CallerIndentifier for Android.</h2><p class="lead">Stable APKs appear automatically once published. Experimental features may not be included in the latest stable build.</p><div class="actions"><a class="btn primary" href="/callerindentifier/download/">↓ Download stable APK</a></div></div></section>
+</main>
+<footer><div class="container"><span>© N2K02 · CallerIndentifier Android project</span><a href="/">N2K02 home</a></div></footer>
+</body></html>
