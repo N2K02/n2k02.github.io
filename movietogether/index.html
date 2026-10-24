@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0d1c">
+<meta name="description" content="MovieTogether is an Android watch-party project for sharing a movie from your phone, watching in sync and chatting together.">
+<meta property="og:title" content="MovieTogether — Your movie night, together">
+<meta property="og:description" content="Select a movie on your phone, invite friends and watch in sync. Watch-party features are currently experimental.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://n2k02.github.io/movietogether/">
+<meta property="og:image" content="https://n2k02.github.io/assets/app-icons/movietogether.svg">
+<title>MovieTogether — Your movie night, together</title>
+<link rel="icon" href="/assets/app-icons/movietogether.svg" type="image/svg+xml">
+<style>
+:root{color-scheme:dark;--bg:#0b0d1c;--panel:#181b33;--panel2:#222241;--line:#3b3659;--text:#faf7ff;--muted:#bdb4d3;--a:#c5a3ff;--b:#ef99d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}a:focus-visible{outline:3px solid var(--a);outline-offset:4px}.container{width:min(1100px,calc(100% - 36px));margin:auto}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:24px 0}.brand{text-decoration:none;font-size:1.18rem;font-weight:850;letter-spacing:-.045em}.brand span{color:var(--a)}.navlinks{display:flex;gap:20px}.navlinks a{color:var(--muted);font-size:.9rem;text-decoration:none}.navlinks a:hover{color:var(--text)}
+.hero{background:radial-gradient(ellipse at 75% 43%,#73399755,transparent 51%),radial-gradient(ellipse at 15% 4%,#42387466,transparent 52%);border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:46px;align-items:center;padding:85px 0 95px}.pill{display:inline-flex;align-items:center;border:1px solid #765b91;border-radius:100px;background:#3b294e;color:#e9cbff;font-size:.77rem;font-weight:850;letter-spacing:.075em;text-transform:uppercase;padding:6px 14px}h1{font-size:clamp(3rem,7vw,5.9rem);line-height:1.04;letter-spacing:-.07em;margin:22px 0}h1 em{font-style:normal;background:linear-gradient(110deg,var(--a),var(--b));background-clip:text;-webkit-background-clip:text;color:transparent}.lead{font-size:1.17rem;color:var(--muted);max-width:630px;margin:0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 14px}.btn{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;font-weight:800;padding:13px 20px;border:1px solid #776a96;border-radius:14px;background:#252343}.btn.primary{background:linear-gradient(110deg,var(--a),var(--b));color:#201429;border:0}.btn:hover{filter:brightness(1.1)}.small{font-size:.88rem;color:var(--muted)}
+.visual{min-height:335px;display:grid;place-items:center;background:linear-gradient(135deg,#292041,#15182e);border:1px solid #705388;border-radius:32px;position:relative;overflow:hidden;box-shadow:0 25px 75px #0006}.visual:before{content:"";position:absolute;width:300px;height:300px;background:#b78cf838;border-radius:50%;filter:blur(60px)}.app-logo{position:relative;width:180px;height:180px;filter:drop-shadow(0 15px 25px #0008)}.visual-tag{position:absolute;bottom:22px;left:20px;right:20px;text-align:center;color:#d3c4ec;font-size:.88rem}
+section{padding:75px 0}.kicker{color:var(--a);text-transform:uppercase;letter-spacing:.13em;font-size:.76rem;font-weight:850}h2{font-size:clamp(1.85rem,4vw,3rem);line-height:1.15;letter-spacing:-.055em;margin:10px 0 18px}.section-intro{max-width:780px;margin-bottom:30px}.section-intro p{color:var(--muted)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:var(--panel);border:1px solid var(--line);border-radius:21px;padding:26px}.num{font-size:.86rem;color:var(--a);font-weight:900}.feature h3{font-size:1.19rem;margin:14px 0 9px}.feature p{color:var(--muted);margin:0}.band{background:var(--panel2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding-top:14px;border-top:2px solid var(--a)}.step h3{margin:0 0 8px}.step p{margin:0;color:var(--muted)}.notice{background:#211f39;border:1px solid #665781;border-radius:18px;padding:20px 24px;color:#d5cae8;margin-top:28px}.cta{border:1px solid #725687;border-radius:26px;padding:42px;background:linear-gradient(110deg,#382445,#242143)}footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}footer .container{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr;padding:62px 0}.visual{min-height:260px}.features,.steps{grid-template-columns:1fr}section{padding:58px 0}.cta{padding:28px}.navlinks{gap:12px}}@media(max-width:420px){.navlinks a:first-child{display:none}}@media(prefers-reduced-motion:no-preference){.btn{transition:filter .2s}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="container">
+<nav aria-label="MovieTogether navigation"><a class="brand" href="/">N2K02<span> / MovieTogether</span></a><div class="navlinks"><a href="#features">Features</a><a href="#how-it-works">How it works</a><a href="/movietogether/download/">Download</a></div></nav>
+<div class="hero-grid">
+<div><span class="pill">Android app · Watch-party project</span><h1>Movie night.<br><em>Better together.</em></h1>
+<p class="lead">Pick a movie stored on your Android phone, invite someone using MovieTogether, follow the same playback and chat as you watch.</p>
+<div class="actions"><a class="btn primary" href="/movietogether/download/">↓ Get MovieTogether</a><a class="btn" href="#features">Explore the features →</a></div>
+<p class="small">Watch-party features are currently experimental. Stable releases may have fewer features.</p></div>
+<div class="visual" aria-label="MovieTogether clapperboard"><img class="app-logo" src="/assets/app-icons/movietogether.svg" alt="MovieTogether clapperboard icon" width="180" height="180"><span class="visual-tag">One Android app for hosts and viewers</span></div>
+</div></div></header>
+<main>
+<section id="features" class="container"><div class="section-intro"><div class="kicker">Watch together</div><h2>Start with a movie.<br>Stay for the conversation.</h2><p>MovieTogether is being built around shared playback without uploading a movie library to the cloud.</p></div>
+<div class="features">
+<article class="feature"><div class="num">01 · Hosting</div><h3>Bring your own movie</h3><p>Select a supported local MP4 file. The host phone serves that selected movie from inside the app.</p></article>
+<article class="feature"><div class="num">02 · Joining</div><h3>Share a room invitation</h3><p>Firebase-assisted room codes help other MovieTogether users discover a watch party.</p></article>
+<article class="feature"><div class="num">03 · Together</div><h3>Play in sync and chat</h3><p>Follow the host's play, pause and seek controls, and send messages during the movie.</p></article>
+</div>
+<div class="notice"><strong>Current connection limits:</strong> Firebase finds rooms but does not carry the movie. Video still requires a direct connection to the host phone, such as on the same Wi-Fi or a properly routed private network. Different mobile networks may be blocked by carrier NAT. Direct streaming in the experimental app is not encrypted; use trusted networks.</div>
+</section>
+<section id="how-it-works" class="band"><div class="container"><div class="kicker">Get together</div><h2>Three steps to a shared screen.</h2><div class="steps">
+<div class="step"><h3>1. Install the app</h3><p>Both the host and guests install MovieTogether on Android.</p></div>
+<div class="step"><h3>2. Create a room</h3><p>The host selects an offline MP4 and shares an invitation.</p></div>
+<div class="step"><h3>3. Join and watch</h3><p>Guests join a reachable room and follow along, with chat alongside playback.</p></div>
+</div></div></section>
+<section class="container"><div class="cta"><div class="kicker">Get started</div><h2>Download MovieTogether for Android.</h2><p class="lead">Stable APKs appear automatically once published. Experimental features may not be included in the latest stable build.</p><div class="actions"><a class="btn primary" href="/movietogether/download/">↓ Download stable APK</a></div></div></section>
+</main>
+<footer><div class="container"><span>© N2K02 · MovieTogether Android project</span><a href="/">N2K02 home</a></div></footer>
+</body></html>
