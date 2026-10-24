@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-32-run-158",
+  "tag": "vrec-experimental-pr-32-run-163",
   "versionName": "3.8",
-  "versionCode": 100158,
+  "versionCode": 100163,
   "apkName": "VREC-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-158/VREC-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-32-run-163/VREC-3.8.apk",
   "apkSize": 34578784,
-  "sha256": "83aeba9b74d60c49d03f6edfefc7e055646b77b585b8a475751b30455bb21af8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-158",
+  "sha256": "a024f79e79f04f5cfb81f484ddae4f082f82c52e0fc58f3b54c457513c01edd7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-32-run-163",
   "notes": [
+    "Expose Wireless discovery permission before connecting, not only inside pairing help",
+    "Document unified ADB connect/disconnect and automatic enhanced call imports",
+    "Keep selected Wireless connection from silently falling back to TCP",
+    "Expose safe ADB disconnect without stopping the recording helper",
+    "Simplify experimental ADB page with single connection selector and toggle action",
     "Limit VoIP end watchdog to notification-owned call sessions",
     "Match Home recording controls to saving and explicit Record-again states",
     "Keep overlay stable while manually starting a new call segment",
     "Serialize global recording switch and retry enhanced daemon mode acknowledgements",
-    "Stop overlay service directly for reliable global Off and call-end cleanup",
-    "Guard ended VoIP calls, link manual recordings and explain Home master switch",
-    "Reconcile VoIP call notifications and stop stale sessions after grace period",
-    "Add Close and in-call Play/Stop states to centered recording overlay",
-    "Synchronize record stop, save state and manual notification actions",
-    "Track once-per-call automatic recording and explicit restart controls"
+    "Stop overlay service directly for reliable global Off and call-end cleanup"
   ]
 }
