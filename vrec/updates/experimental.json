@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-23-run-118",
+  "tag": "vrec-experimental-pr-23-run-119",
   "versionName": "3.6",
-  "versionCode": 100118,
+  "versionCode": 100119,
   "apkName": "VREC-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-118/VREC-3.6.apk",
-  "apkSize": 34561938,
-  "sha256": "760c503eae0c8ea0eb3b21ae178a0c786cf9ad4f137d735f07b214467773a170",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-118",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-23-run-119/VREC-3.6.apk",
+  "apkSize": 34578322,
+  "sha256": "3e5cd513316392600a4d1f636bd589c43b9aec218b355bddf9aed171059731a1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-23-run-119",
   "notes": [
+    "Keep experimental APK download action above collapsible notes and make updates page scrollable",
     "Do not reset VRec's experimental InCallService AppOp when shell recorder starts",
     "Use authorized Shizuku UserService for shell capture instead of private newProcess",
     "Compile shell daemon against published Android SDK 36 matching upstream recorder",
@@ -17,7 +18,6 @@
     "Provision shell-side Android SDK 37 before Gradle preBuild runs on clean CI",
     "Never silently re-enable system USB debugging from the capture daemon",
     "Unify Experimental settings and avoid duplicate standard/shell capture",
-    "Wire enhanced shell recorder startup, offline capture status and saved-call import controls",
-    "Protect enhanced recording importer with shell-only service permission"
+    "Wire enhanced shell recorder startup, offline capture status and saved-call import controls"
   ]
 }
