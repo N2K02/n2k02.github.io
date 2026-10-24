@@ -1,19 +1,19 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-19-run-275",
-  "versionName": "4.7-experimental.275",
-  "versionCode": 100275,
-  "apkName": "MRadio-PR-19-30bf5e9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-275/MRadio-PR-19-30bf5e9.apk",
-  "apkSize": 2810779,
-  "sha256": "633405bc167cb1547f7dfa84467fbdc2d6aa65e4df39e6b837213ed9b5e6c2ed",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-275",
+  "tag": "mradio-exp-pr-20-run-276",
+  "versionName": "4.7-experimental.276",
+  "versionCode": 100276,
+  "apkName": "MRadio-PR-20-cc184ce.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-20-run-276/MRadio-PR-20-cc184ce.apk",
+  "apkSize": 2827163,
+  "sha256": "9f0633f79478450402a2889a4358d69ec3d46bfde0e40867872beb72d2a41e90",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-20-run-276",
   "notes": [
-    "fix(ui): set rounded Material3 dropdown surface shapes explicitly",
-    "fix: use opaque compressed share tokens and correct nullable Intent handling",
-    "feat: share playable HTTPS MRadio links with Android App Links",
-    "test: cover shared stream and deep-link URL parsing",
-    "feat: add share text URL extraction utility",
-    "fix: parse shared HTTP streams and app deep links correctly"
+    "fix(ui): import shared pending update state extension",
+    "feat(ui): share New badges across Settings and About & updates",
+    "feat(ui): share New badges across Settings and About & updates",
+    "feat(ui): share New badges across Settings and About & updates",
+    "fix: share foreground update refresh and retain controller on Activity recreation",
+    "build: consume shared updater for consistent New badges"
   ]
 }
