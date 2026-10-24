@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "shizucallrecorder-v1.5.3-build-67",
+  "tag": "shizucallrecorder-v1.5.3-build-70",
   "versionName": "1.5.3",
-  "versionCode": 100067,
+  "versionCode": 100070,
   "apkName": "ShizuCallRecorder-1.5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/shizucallrecorder-v1.5.3-build-67/ShizuCallRecorder-1.5.3.apk",
-  "apkSize": 5281998,
-  "sha256": "69e78f04eab0ad66899cd3852628a9501dbab13736bcec8b11583602422aa39a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/shizucallrecorder-v1.5.3-build-67",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/shizucallrecorder-v1.5.3-build-70/ShizuCallRecorder-1.5.3.apk",
+  "apkSize": 5331408,
+  "sha256": "944b51cb2e2a8da517efa864ac8a2ab76fee07a3bdcaf72ecdf7e45b23077f91",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/shizucallrecorder-v1.5.3-build-70",
   "notes": [
+    "Use shared N2K02 theme and updater UI (#7)",
     "Add manifest versionCode updater and signed distribution (#6)",
     "Cancel superseded Android workflow runs"
   ]
