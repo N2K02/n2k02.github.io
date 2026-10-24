@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v4.1",
-  "versionName": "4.1",
-  "versionCode": 100085,
-  "apkName": "HFreebuds-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.1/HFreebuds-4.1.apk",
+  "tag": "hfreebuds-v4.2",
+  "versionName": "4.2",
+  "versionCode": 100086,
+  "apkName": "HFreebuds-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.2/HFreebuds-4.2.apk",
   "apkSize": 2330254,
-  "sha256": "71fc0ace8b226247e7204275865be00e29c30458f9913daf2d1d0025c4261ab7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.1",
+  "sha256": "4fbde84950000e8a4251d1e2434d2fdad0ed073654d4fe3f789d1b720507a13e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.2",
   "notes": [
-    "Update N2K02 shared updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#11)"
   ]
 }
