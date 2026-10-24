@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-30-run-125",
+  "tag": "vrec-experimental-pr-30-run-126",
   "versionName": "3.7",
-  "versionCode": 100125,
+  "versionCode": 100126,
   "apkName": "VREC-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-30-run-125/VREC-3.7.apk",
-  "apkSize": 19773248,
-  "sha256": "33f7b40e64304648c35615c2f9a88114e021fa048057a41424be9ba51c2b802c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-30-run-125",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-30-run-126/VREC-3.7.apk",
+  "apkSize": 19773750,
+  "sha256": "b052534a4e6e959d43cc6c707296845c4b3456f8a365d0869dc0e39b36e6a7f6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-30-run-126",
   "notes": [
+    "Improve movable recording overlay states",
     "Add recording master switch defaulting off",
     "Update stable VRec shared updater to 0.1.14"
   ]
