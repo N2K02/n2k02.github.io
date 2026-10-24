@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v3.5",
-  "versionName": "3.5",
-  "versionCode": 100078,
-  "apkName": "PixelCast-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.5/PixelCast-3.5.apk",
-  "apkSize": 2113504,
-  "sha256": "14c76b204e14e3e3bf676bf4b4200588127543e8833e230f60a6baed15a95c2d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.5",
+  "tag": "pixelcast-v3.6",
+  "versionName": "3.6",
+  "versionCode": 100080,
+  "apkName": "PixelCast-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.6/PixelCast-3.6.apk",
+  "apkSize": 2183136,
+  "sha256": "895ad101c36337e456c4f75557a903c038f6a7f2a3356d5c3edb883774339753",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.6",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#11)"
+    "feat: consistent New update badges in Settings and submenu"
   ]
 }
