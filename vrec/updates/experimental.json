@@ -1,20 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-26-run-91",
+  "tag": "vrec-experimental-pr-27-run-92",
   "versionName": "3.6",
-  "versionCode": 100091,
+  "versionCode": 100092,
   "apkName": "VREC-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-26-run-91/VREC-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-27-run-92/VREC-3.6.apk",
   "apkSize": 19789632,
-  "sha256": "3969d54bc7a62d13291c9044083fdc119f6a1d980512a3f28d9d1a19a78a3b57",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-26-run-91",
+  "sha256": "c1c7c3bc7d4e7aa58815268bc9f512a1064ab92ec2d0259b6626d2a6eb31d13f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-27-run-92",
   "notes": [
-    "Use mRadio section icons for primary tabs and back arrows on subpages",
-    "Align about and updater controls with mRadio rounded page sections",
-    "Bring VREC two-step permissions UX to mRadio-style UI update",
-    "Polish activity log into rounded MRadio-style diagnostics surface",
-    "Give recordings mRadio-style rounded search and list rows",
-    "Group VREC settings into mRadio-style rounded navigation sections",
-    "Match mRadio branded headers, bottom navigation and recording home surface"
+    "Polish branded page icons and single-selected navigation state",
+    "Align About and updates page typography with MRadio",
+    "Simplify activity log heading and description",
+    "Modernize recordings with MRadio-style filter chips and compact actions",
+    "Bring simplified two-step permissions flow into MRadio-aligned UI",
+    "Match MRadio's icon settings rows and remove duplicate page titles",
+    "Adopt MRadio-style branded header, navigation and recording mini-bar"
   ]
 }
