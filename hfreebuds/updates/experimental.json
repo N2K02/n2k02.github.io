@@ -1,14 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-11-run-84",
-  "versionName": "4.1",
-  "versionCode": 100084,
-  "apkName": "HFreebuds-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-11-run-84/HFreebuds-4.1.apk",
-  "apkSize": 2330254,
-  "sha256": "7d84ab415ca58b96f3244bdf619675bb49146d126387869cf81f8c2a681a1e6a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-11-run-84",
+  "tag": "hfreebuds-experimental-pr-12-run-87",
+  "versionName": "4.3",
+  "versionCode": 100087,
+  "apkName": "HFreebuds-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-12-run-87/HFreebuds-4.3.apk",
+  "apkSize": 2350734,
+  "sha256": "e1302e4ac9d847ac782fa7d8245e35732f732e17588259c596cda523b15f2a7a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-12-run-87",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
+    "feat(ui): badge settings and update tiles including before Bluetooth permission",
+    "feat(ui): badge settings and update tiles including before Bluetooth permission",
+    "fix: share foreground update refresh and retain controller on Activity recreation",
+    "build: consume shared updater for consistent New badges"
   ]
 }
