@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-1-run-24",
-  "versionName": "1.0-experimental.24",
-  "versionCode": 100024,
-  "apkName": "CallerIndentifier-PR-1-324db20.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-24/CallerIndentifier-PR-1-324db20.apk",
-  "apkSize": 13540370,
-  "sha256": "b50950b2a379a9e994174a0b1664dd96ba2dad1d0438541a3cbc165ddbbabd60",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-24",
+  "tag": "callerindentifier-exp-pr-1-run-28",
+  "versionName": "1.0-experimental.28",
+  "versionCode": 100028,
+  "apkName": "CallerIndentifier-PR-1-3edd450.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-28/CallerIndentifier-PR-1-3edd450.apk",
+  "apkSize": 13556754,
+  "sha256": "9d38c7078469753be3edcc7719dec663aea2f2079f06954ea636067989191af9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-28",
   "notes": [
+    "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing",
+    "feat(settings): configure optional PhoneInfoga HTTPS server",
+    "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results",
+    "feat(search): optional PhoneInfoga v2 HTTPS metadata and search suggestions",
     "test(docs): validate Mauritius and international metadata; document free-tier lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup",
-    "feat(nav): Home number search, Call history and Settings tabs; remove Truecaller login",
-    "feat(settings): optional encrypted free-tier Internet lookup API key",
-    "feat(ui): dedicated local Call History menu separate from Home search",
-    "feat(ui): number-first Home with Contacts and optional Internet badges",
-    "feat(lookup): use optional free-tier online number metadata provider"
+    "feat(nav): Home number search, Call history and Settings tabs; remove Truecaller login"
   ]
 }
