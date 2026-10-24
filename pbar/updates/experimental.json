@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-33-run-87",
+  "tag": "pbar-experimental-pr-34-run-88",
   "versionName": "4.3",
-  "versionCode": 100087,
+  "versionCode": 100088,
   "apkName": "PBar-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-33-run-87/PBar-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-34-run-88/PBar-4.3.apk",
   "apkSize": 13293546,
-  "sha256": "3e1b5cffa608e573bd6eeec3f636ad6d99415e941e13e1f84b3b8f121d7990c5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-33-run-87",
+  "sha256": "df6899f37ec056c79547010d8fc367d4d756ac2c12905fbf749ee424b8ec0e69",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-34-run-88",
   "notes": [
-    "Update shared N2K02 updater to 0.1.14"
+    "Update shared N2K02 updater to 0.1.14 (collapsible changelog)"
   ]
 }
