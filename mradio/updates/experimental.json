@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-19-run-272",
-  "versionName": "4.7-experimental.272",
-  "versionCode": 100272,
-  "apkName": "MRadio-PR-19-0068562.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-272/MRadio-PR-19-0068562.apk",
+  "tag": "mradio-exp-pr-19-run-274",
+  "versionName": "4.7-experimental.274",
+  "versionCode": 100274,
+  "apkName": "MRadio-PR-19-5f5b421.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-274/MRadio-PR-19-5f5b421.apk",
   "apkSize": 2810779,
-  "sha256": "6133efe0ea4f51949d2768143a4f5f0794559ee4946ab8d7000e6ff4223e1fe9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-272",
+  "sha256": "a3d3ba722ddab75b899e145e4783744e25f106a2918abf1369ec7945c9497c81",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-274",
   "notes": [
+    "fix: use opaque compressed share tokens and correct nullable Intent handling",
+    "feat: share playable HTTPS MRadio links with Android App Links",
     "test: cover shared stream and deep-link URL parsing",
     "feat: add share text URL extraction utility",
     "fix: parse shared HTTP streams and app deep links correctly"
