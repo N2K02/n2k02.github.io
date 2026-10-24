@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-1-run-30",
-  "versionName": "1.0-experimental.30",
-  "versionCode": 100030,
-  "apkName": "CallerIndentifier-PR-1-92d9f88.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-30/CallerIndentifier-PR-1-92d9f88.apk",
+  "tag": "callerindentifier-exp-pr-1-run-32",
+  "versionName": "1.0-experimental.32",
+  "versionCode": 100032,
+  "apkName": "CallerIndentifier-PR-1-400ea0c.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-1-run-32/CallerIndentifier-PR-1-400ea0c.apk",
   "apkSize": 13540370,
-  "sha256": "1710d889b0046469d3489e5dbd11ec5a221e3f533cedc6fdd24fa1cbad7f11a8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-30",
+  "sha256": "3559fc5dfc96a6e2741c5c1b61be41cc9d437e56aa5b2abd9527e5e79f9ea35b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-1-run-32",
   "notes": [
+    "fix(ui): add missing Compose setValue delegate import for Settings navigation",
+    "feat(ui): match MRadio page header, app logo, persistent navigation and settings pages",
     "feat(search): replace API setup with 27 free browser number searches and source badges",
     "feat(search): 27 free no-key phone number search links with distinct source attribution",
     "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing",
@@ -16,8 +18,6 @@
     "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results",
     "feat(search): optional PhoneInfoga v2 HTTPS metadata and search suggestions",
     "test(docs): validate Mauritius and international metadata; document free-tier lookup",
-    "refactor: remove unsupported Truecaller login and reverse lookup",
-    "refactor: remove unsupported Truecaller login and reverse lookup",
     "refactor: remove unsupported Truecaller login and reverse lookup"
   ]
 }
