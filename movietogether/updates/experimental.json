@@ -1,23 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-4-run-16",
-  "versionName": "1.1-experimental.16",
-  "versionCode": 100016,
-  "apkName": "MovieTogether-PR-4-e32e0ef.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-16/MovieTogether-PR-4-e32e0ef.apk",
-  "apkSize": 18421719,
-  "sha256": "fdf512730293b14360233dd74d5e61f78464cb02f7163a469848800eaf4d7103",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-16",
+  "tag": "movietogether-experimental-pr-5-run-17",
+  "versionName": "1.1-experimental.17",
+  "versionCode": 100017,
+  "apkName": "MovieTogether-PR-5-acff756.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-5-run-17/MovieTogether-PR-5-acff756.apk",
+  "apkSize": 13195141,
+  "sha256": "ab4cff8f76c43c8171a3579b7eb914eb3ee65949db38b52d1f2e8eda0ffdf4bc",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-5-run-17",
   "notes": [
-    "docs: clarify Firebase room discovery with embedded video streaming",
-    "docs: record integrated Firebase Android config and remaining console checks",
-    "docs: record integrated Firebase Android config and remaining console checks",
-    "config: attach MovieTogether Firebase Android project settings",
-    "test: validate Firebase room-code parsing without backend configuration",
-    "fix: invalidate previous Firebase room code on refresh",
-    "ci: include Firebase Android config in final signed APK when supplied",
-    "docs: add Firebase RTDB rules and app registration instructions",
-    "docs: add Firebase RTDB rules and app registration instructions",
-    "feat: share and join Firebase room codes with direct-connection fallback"
+    "fix(ui): import shared pending update state extension",
+    "feat(ui): share New badges across Settings and About & updates",
+    "fix: share updater foreground refresh and preserve controller",
+    "build: use shared updater 0.1.16 for reusable New badge UI",
+    "Use shared N2K02 theme and updater UI (#2)",
+    "Bootstrap MovieTogether with signed manifest updater (#1)",
+    "Add project README and future APK release links"
   ]
 }
