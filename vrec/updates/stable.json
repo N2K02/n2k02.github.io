@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v3.3",
-  "versionName": "3.3",
-  "versionCode": 100073,
-  "apkName": "VREC-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.3/VREC-3.3.apk",
+  "tag": "vrec-v3.4",
+  "versionName": "3.4",
+  "versionCode": 100075,
+  "apkName": "VREC-3.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v3.4/VREC-3.4.apk",
   "apkSize": 19756776,
-  "sha256": "e35be46ac27fc7942846766d41748a095d589c99fe3c06fd636ed07ad2963e27",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.3",
+  "sha256": "f3f6a289a7a67de200525531997dda7795d9e410581a4f56b5e2121c0796f8c1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v3.4",
   "notes": [
-    "fix(distribution): retry concurrent manifest updates (#21)"
+    "Fix Settings submenu Back navigation (#22)"
   ]
 }
