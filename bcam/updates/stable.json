@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.8",
-  "versionName": "3.8",
-  "versionCode": 100121,
-  "apkName": "BCam-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.8/BCam-3.8.apk",
-  "apkSize": 1200040,
-  "sha256": "e2c18b192de5fc092ee98575668c404c5e598827f8ca9cdef1672591736d10d5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.8",
+  "tag": "bcam-v3.9",
+  "versionName": "3.9",
+  "versionCode": 100139,
+  "apkName": "BCam-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.9/BCam-3.9.apk",
+  "apkSize": 1199872,
+  "sha256": "25f4de3d0c2d4dee51a0fe80448b11614eacae0ff642012027c434843e9c4b69",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.9",
   "notes": [
-    "fix: single updater title, navigation-only badges and usable scroll (#15)"
+    "Fix BCam notification XML test to parse Android namespaced attributes",
+    "Test BCam centered notification labels, equal-width actions, and preserved recorder controls",
+    "Use centered RemoteViews for BCam notification text and recording actions",
+    "Add center-aligned recording notification with evenly spaced 48dp action buttons",
+    "Prevent regressions removing bottom Quit or restoring old settings modal",
+    "BCam: replace Close settings modal with bottom Quit that saves and stops recording",
+    "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
+    "Match mRadio Settings spacing and place updates last after divider",
+    "Require updater 0.1.19+ on every Android PR and push",
+    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build"
   ]
 }
