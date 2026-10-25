@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-40-run-115",
-  "versionName": "4.9",
-  "versionCode": 100115,
-  "apkName": "PBar-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-40-run-115/PBar-4.9.apk",
+  "tag": "pbar-experimental-pr-41-run-117",
+  "versionName": "5.0",
+  "versionCode": 100117,
+  "apkName": "PBar-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-41-run-117/PBar-5.0.apk",
   "apkSize": 13326314,
-  "sha256": "2faa43218f1cbe974ef2ddba70a3d9c4932b037ba33980adaa7f9ffd45ddcf29",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-40-run-115",
+  "sha256": "05bd6d83d82da236d32a4dc481af27ce44cfab3e3adda7c63d9a4e391225117b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-41-run-117",
   "notes": [
-    "build: consume M3 Expressive updater page 0.1.17",
-    "feat(ui): consolidate duplicated app/version cards into Expressive updater page",
-    "feat(ui): consolidate duplicated app/version cards into Expressive updater page"
+    "build: use latest shared single-title and badge-scoped updater"
   ]
 }
