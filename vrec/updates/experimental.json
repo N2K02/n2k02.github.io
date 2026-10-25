@@ -1,23 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-39-run-259",
-  "versionName": "4.5",
-  "versionCode": 100259,
-  "apkName": "VREC-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-259/VREC-4.5.apk",
-  "apkSize": 34712684,
-  "sha256": "df57f7d744fc4704cb7d0d64e7ac974d231b55db3dac40b58ee17b0604d00221",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-259",
+  "tag": "vrec-experimental-pr-40-run-262",
+  "versionName": "4.6",
+  "versionCode": 100262,
+  "apkName": "VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-262/VREC-4.6.apk",
+  "apkSize": 34712680,
+  "sha256": "f08bebfc060aa78c8c4b47a4dbfb8ca6e26c4ec819afbba6f2cf83dffb75fe9b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-262",
   "notes": [
-    "Make VREC ADB status regression test accept styled Compose Text",
-    "Test second-position Recordings tab and removal of VREC Home Explore shortcuts",
-    "Move VREC Recordings into second bottom tab and remove redundant Home Explore shortcuts",
-    "Test VREC ADB Home connect/health and Experimental-only setup checklist",
-    "VREC: remove duplicated helper-health summary from Experimental connection card",
-    "VREC: show verified helper health and explicit Connect TCP action on ADB-mode Home",
-    "Keep VREC ADB setup checklist only inside Experimental, simplify inactive mode",
-    "Fix Quit regression test for VREC's data-driven Settings bottom tab",
-    "Prevent regressions removing bottom Quit or restoring old settings modal",
-    "VREC: put Quit beside Settings and safely disable recording and overlays"
+    "Show legacy recording caller names without raw filenames",
+    "Test legacy contact and direction recovery",
+    "Support legacy filename caller fallback and known call flow",
+    "Show contact, precise direction, source app or SIM, and size on recordings cards",
+    "Read persisted VoIP call flow for recording list attribution",
+    "Test direction, contact and call source labels",
+    "Add metadata-safe recording list labels"
   ]
 }
