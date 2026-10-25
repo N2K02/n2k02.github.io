@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-6-run-49",
-  "versionName": "1.5-experimental.49",
-  "versionCode": 100049,
-  "apkName": "CallerIndentifier-PR-6-cfc3136.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-49/CallerIndentifier-PR-6-cfc3136.apk",
+  "tag": "callerindentifier-exp-pr-6-run-50",
+  "versionName": "1.5-experimental.50",
+  "versionCode": 100050,
+  "apkName": "CallerIndentifier-PR-6-34ada60.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-50/CallerIndentifier-PR-6-34ada60.apk",
   "apkSize": 13573138,
-  "sha256": "17515ad0916c02c12a181f0f5bd9e9f18287fa3294d886cc81550c66558b2a96",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-49",
+  "sha256": "00ffa68c448555aa6d1b39fcdb715dc66e4a6b9abc500a1f822565cf9450705e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-50",
   "notes": [
+    "Align Settings rows with mRadio and place diagnostics and updates last",
     "Require updater 0.1.19+ on every Android PR and push",
     "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
     "Remove CallerIdentifier nested Scaffold top inset for consistent header alignment",
@@ -17,7 +18,6 @@
     "Move call history into Settings; keep Home and Settings main navigation",
     "Test mRadio-style page icon and right-side brand header contract",
     "Show one caller page header with brand on nested Settings pages",
-    "Show one caller page header with brand on nested Settings pages",
-    "build(experimental): use compact host-owned updater and updated last-check timestamp"
+    "Show one caller page header with brand on nested Settings pages"
   ]
 }
