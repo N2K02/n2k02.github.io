@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-19-run-301",
-  "versionName": "5.2-experimental.301",
-  "versionCode": 100301,
-  "apkName": "MRadio-PR-19-b835828.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-301/MRadio-PR-19-b835828.apk",
+  "tag": "mradio-exp-pr-19-run-302",
+  "versionName": "5.2-experimental.302",
+  "versionCode": 100302,
+  "apkName": "MRadio-PR-19-4549f1e.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-302/MRadio-PR-19-4549f1e.apk",
   "apkSize": 2827163,
-  "sha256": "6cc8dd6ff6b50b48519c6061e47e2b75188eee6e9f083e8f5266c7444441cb15",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-301",
+  "sha256": "6490fcab0a6ece22c87dacf94fd30af7ea20dffc73e4ca72d9906db74d0a22af",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-302",
   "notes": [
+    "Add regression test protecting app-specific Quit navigation",
     "Protect mRadio Settings menu as visual reference for Android apps",
     "Require updater 0.1.19+ on every Android PR and push",
     "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
@@ -17,7 +18,6 @@
     "Make header regression test robust across Gradle working directories",
     "Test mRadio single top header contract across Settings pages",
     "Fix Kotlin visibility of hoisted SettingsDestination header state",
-    "Pin all mRadio page titles and logos to one shared top bar",
-    "Eliminate double Settings scaffold inset and share mRadio top header"
+    "Pin all mRadio page titles and logos to one shared top bar"
   ]
 }
