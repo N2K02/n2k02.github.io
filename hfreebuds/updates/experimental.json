@@ -1,20 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-13-run-89",
-  "versionName": "4.4",
-  "versionCode": 100089,
-  "apkName": "HFreebuds-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-13-run-89/HFreebuds-4.4.apk",
-  "apkSize": 2350734,
-  "sha256": "60bad6fe2a14f8e7cfb5559f9be6ae3e7e55ad406fea154741ba6087d37edabf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-13-run-89",
+  "tag": "hfreebuds-experimental-pr-14-run-91",
+  "versionName": "4.5",
+  "versionCode": 100091,
+  "apkName": "HFreebuds-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-14-run-91/HFreebuds-4.5.apk",
+  "apkSize": 2383502,
+  "sha256": "fa1b2d69d4d9e755b94f3b8c9a00b892c7bf058892b01ea651368f858943495c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-14-run-91",
   "notes": [
-    "fix(hfreebuds): import shared updater settings menu icon",
-    "feat(updater): show shared New indicator on Settings and update submenu",
-    "feat(updater): show shared New indicator on Settings and update submenu",
-    "feat(ui): badge settings and update tiles including before Bluetooth permission",
-    "feat(ui): badge settings and update tiles including before Bluetooth permission",
-    "fix: share foreground update refresh and retain controller on Activity recreation",
-    "build: consume shared updater for consistent New badges"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): standardize branded Expressive update destination without duplicate sections",
+    "feat(ui): standardize branded Expressive update destination without duplicate sections"
   ]
 }
