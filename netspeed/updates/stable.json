@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.0",
-  "versionName": "4.0",
-  "versionCode": 100091,
-  "apkName": "NetSpeed-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.0/NetSpeed-4.0.apk",
-  "apkSize": 1207840,
-  "sha256": "05ecd7eb11735c633983f503ffb3ec1256e6a8b48262481ebd2fd9ba2c989b40",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.0",
+  "tag": "netspeed-v4.1",
+  "versionName": "4.1",
+  "versionCode": 100093,
+  "apkName": "NetSpeed-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.1/NetSpeed-4.1.apk",
+  "apkSize": 1240608,
+  "sha256": "bc0e641c8420006428c0eaf4b3533eb921f17882283d4ea683510bfcb92c6b49",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.1",
   "notes": [
-    "feat: consistent shared updater page and New badges (#19)"
+    "feat: Material 3 Expressive updater page with branded title (#20)"
   ]
 }
