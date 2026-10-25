@@ -1,16 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-58-run-238",
-  "versionName": "5.4",
-  "versionCode": 100238,
-  "apkName": "PCL-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-58-run-238/PCL-5.4.apk",
-  "apkSize": 19869981,
-  "sha256": "de77bd82e50a7de1df78db23a1ef9d025605faad5701b36f8ff90bcab2f9522b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-58-run-238",
+  "tag": "pcl-experimental-pr-59-run-240",
+  "versionName": "5.5",
+  "versionCode": 100240,
+  "apkName": "PCL-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-59-run-240/PCL-5.5.apk",
+  "apkSize": 19869977,
+  "sha256": "8e1ffadc7c6e9dbcccdb2acf1cd64e0e2b83907e9d76f96263b2b451b7e5bb36",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-59-run-240",
   "notes": [
-    "build: consume M3 Expressive updater page 0.1.17",
-    "feat(ui): consolidate duplicated app/version cards into Expressive updater page",
-    "feat: shared update page and consistent New badges (#57)"
+    "fix(ui): New badge only on Settings and About & updates; remove duplicate title",
+    "build: update shared updater for single title, icon and navigation-only badges"
   ]
 }
