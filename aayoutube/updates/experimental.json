@@ -1,17 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-18-run-114",
-  "versionName": "6.0",
-  "versionCode": 100114,
-  "apkName": "AAYoutube-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-18-run-114/AAYoutube-6.0.apk",
+  "tag": "aayoutube-experimental-pr-19-run-116",
+  "versionName": "6.1",
+  "versionCode": 100116,
+  "apkName": "AAYoutube-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-19-run-116/AAYoutube-6.1.apk",
   "apkSize": 1847896,
-  "sha256": "0961032e96f390eb399a5534a8779f9d4f039f3a20662e83f38613cbd444f11f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-18-run-114",
+  "sha256": "fe6187fb5b50aee1477cb77f93c9739e6f5c843fce6688788bb9804d4273acd8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-19-run-116",
   "notes": [
-    "feat(updater): use complete shared About & updates page",
-    "feat(ui): show shared New on menu and update submenu",
-    "fix: share updater foreground refresh and preserve controller",
-    "build: use shared updater 0.1.16 for reusable New badge UI"
+    "build: adopt Material3 Expressive updater 0.1.17"
   ]
 }
