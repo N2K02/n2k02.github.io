@@ -1,15 +1,15 @@
 {
   "channel": "stable",
-  "tag": "pcl-v5.3",
-  "versionName": "5.3",
-  "versionCode": 100236,
-  "apkName": "PCL-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.3/PCL-5.3.apk",
-  "apkSize": 19853577,
-  "sha256": "443b5a17b3529ed4e21b25af188efd13136fea4b1d40efb9bea4781c4bc10c8f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.3",
+  "tag": "pcl-v5.4",
+  "versionName": "5.4",
+  "versionCode": 100239,
+  "apkName": "PCL-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.4/PCL-5.4.apk",
+  "apkSize": 19869961,
+  "sha256": "b99cdeb8ff224903ae5bb720cbea6433df9545dffca4d4b8d898068f28fd137a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.4",
   "notes": [
-    "feat: shared New badges on Settings and About & updates",
-    "Update shared N2K02 updater to 0.1.14 (collapsible changelog) (#54)"
+    "feat: M3 Expressive updater and branded About & updates title (#58)",
+    "feat: shared update page and consistent New badges (#57)"
   ]
 }
