@@ -1,20 +1,23 @@
 {
   "channel": "stable",
-  "tag": "movietogether-v1.5-build-24",
-  "versionName": "1.5",
-  "versionCode": 100024,
-  "apkName": "MovieTogether-1.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.5-build-24/MovieTogether-1.5.apk",
+  "tag": "movietogether-v1.6-build-39",
+  "versionName": "1.6",
+  "versionCode": 100039,
+  "apkName": "MovieTogether-1.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.6-build-39/MovieTogether-1.6.apk",
   "apkSize": 13195141,
-  "sha256": "8df02ff8e3538916ad2dec39339f01a7fcaf4a504d328c1c1ef0ea29e607c38f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.5-build-24",
+  "sha256": "fb0a1cf0ad5a90e8f945227dbdcf191856ba2527980366d68a8d6658b57e4e53",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.6-build-39",
   "notes": [
-    "fix: shared updater with one icon title and scoped New badge (#8)",
-    "feat: expressive unified updater page and launcher icon (#7)",
-    "feat: shared updater page with New badges (#6)",
-    "feat: consistent New update badges in Settings and submenu",
-    "Use shared N2K02 theme and updater UI (#2)",
-    "Bootstrap MovieTogether with signed manifest updater (#1)",
-    "Add project README and future APK release links"
+    "Fix Android CI compile/lint issue in Quit navigation",
+    "Prevent regressions removing bottom Quit or restoring old settings modal",
+    "Capture MovieTogether activity in composition for safe Quit callback",
+    "MovieTogether: add bottom Quit beside Settings and end app task",
+    "Test Settings row alignment, diagnostic grouping and update placement",
+    "Use mRadio Settings section alignment and consistent updates-only row",
+    "Require updater 0.1.19+ on every Android PR and push",
+    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
+    "Test compact shared updater version and host-owned header",
+    "Use compact shared n2k02updater 0.1.19 in experimental app"
   ]
 }
