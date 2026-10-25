@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-4-run-43",
-  "versionName": "1.6-experimental.43",
-  "versionCode": 100043,
-  "apkName": "MovieTogether-PR-4-d1d2b42.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-43/MovieTogether-PR-4-d1d2b42.apk",
+  "tag": "movietogether-experimental-pr-4-run-44",
+  "versionName": "1.6-experimental.44",
+  "versionCode": 100044,
+  "apkName": "MovieTogether-PR-4-7c51509.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-44/MovieTogether-PR-4-7c51509.apk",
   "apkSize": 18470871,
-  "sha256": "3648c834e1885d8315f7adf6d0479158f1ab89de1cd4bcf80eec96668dd26b97",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-43",
+  "sha256": "78250c59cbd534a9332d4b1f1bfad8ccec9a1dd63f92b2ff1065e4d5b0042c23",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-44",
   "notes": [
+    "Add minimized playback PiP and Android conversation chat bubbles",
     "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
     "Add shared pause attribution, in-player chat bubble and leave/rejoin flows",
     "Align MovieTogether header brand with UI regression contract",
@@ -17,7 +18,6 @@
     "Capture MovieTogether activity in composition for safe Quit callback",
     "MovieTogether: add bottom Quit beside Settings and end app task",
     "Test Settings row alignment, diagnostic grouping and update placement",
-    "Use mRadio Settings section alignment and consistent updates-only row",
-    "Require updater 0.1.19+ on every Android PR and push"
+    "Use mRadio Settings section alignment and consistent updates-only row"
   ]
 }
