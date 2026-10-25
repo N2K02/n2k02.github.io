@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-4-run-42",
-  "versionName": "1.6-experimental.42",
-  "versionCode": 100042,
-  "apkName": "MovieTogether-PR-4-2c14547.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-42/MovieTogether-PR-4-2c14547.apk",
-  "apkSize": 18454487,
-  "sha256": "87c506a2862fbbfa86203e99c5a8f3b438906f33b655aac657c3af91edd07beb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-42",
+  "tag": "movietogether-experimental-pr-4-run-43",
+  "versionName": "1.6-experimental.43",
+  "versionCode": 100043,
+  "apkName": "MovieTogether-PR-4-d1d2b42.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-43/MovieTogether-PR-4-d1d2b42.apk",
+  "apkSize": 18470871,
+  "sha256": "3648c834e1885d8315f7adf6d0479158f1ab89de1cd4bcf80eec96668dd26b97",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-43",
   "notes": [
+    "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
     "Add shared pause attribution, in-player chat bubble and leave/rejoin flows",
     "Align MovieTogether header brand with UI regression contract",
     "Fix Android CI compile/lint issue in Quit navigation",
@@ -17,7 +18,6 @@
     "MovieTogether: add bottom Quit beside Settings and end app task",
     "Test Settings row alignment, diagnostic grouping and update placement",
     "Use mRadio Settings section alignment and consistent updates-only row",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build"
+    "Require updater 0.1.19+ on every Android PR and push"
   ]
 }
