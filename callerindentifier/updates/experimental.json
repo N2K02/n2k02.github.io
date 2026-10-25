@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-5-run-41",
-  "versionName": "1.4-experimental.41",
-  "versionCode": 100041,
-  "apkName": "CallerIndentifier-PR-5-5d1c920.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-5-run-41/CallerIndentifier-PR-5-5d1c920.apk",
+  "tag": "callerindentifier-exp-pr-6-run-43",
+  "versionName": "1.5-experimental.43",
+  "versionCode": 100043,
+  "apkName": "CallerIndentifier-PR-6-076c03c.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-43/CallerIndentifier-PR-6-076c03c.apk",
   "apkSize": 13573138,
-  "sha256": "ab73fd263007ce07237f84c548d6f00d60d50f0555dc650a51ca66d4dd202027",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-5-run-41",
+  "sha256": "8ddada8844749f6ed4626ea118b0bac3705c60857c91d36ec1db4f5b3d7b7695",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-43",
   "notes": [
-    "build: use latest shared single-title and badge-scoped updater",
+    "build(experimental): use compact host-owned updater and updated last-check timestamp",
+    "fix: shared updater with one icon title and scoped New badge (#5)",
     "feat: branded Material3 Expressive updater screen (#4)",
     "feat: consistent shared updater page and New badges (#3)",
     "feat: shared New badges across Settings and About & updates",
@@ -17,7 +18,6 @@
     "feat(ui): match MRadio page header, app logo, persistent navigation and settings pages",
     "feat(search): replace API setup with 27 free browser number searches and source badges",
     "feat(search): 27 free no-key phone number search links with distinct source attribution",
-    "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing",
-    "feat(settings): configure optional PhoneInfoga HTTPS server"
+    "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing"
   ]
 }
