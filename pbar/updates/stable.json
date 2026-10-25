@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.8",
-  "versionName": "4.8",
-  "versionCode": 100114,
-  "apkName": "PBar-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.8/PBar-4.8.apk",
+  "tag": "pbar-v4.9",
+  "versionName": "4.9",
+  "versionCode": 100116,
+  "apkName": "PBar-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.9/PBar-4.9.apk",
   "apkSize": 13326314,
-  "sha256": "9f3cea31ba615f434e61628151ea7f99863699e6a5b6615c01801af093baa227",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.8",
+  "sha256": "680b35c81ebdf3a8802d383f129e4ff2b26a5e546065c8dd47350a83882a5044",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.9",
   "notes": [
-    "feat: consistent N2K02 updater page and New badges (#39)"
+    "feat: compact animated updater page and real app-icon title (#40)"
   ]
 }
