@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-21-run-130",
+  "tag": "aayoutube-experimental-pr-21-run-131",
   "versionName": "6.3",
-  "versionCode": 100130,
+  "versionCode": 100131,
   "apkName": "AAYoutube-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-21-run-130/AAYoutube-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-21-run-131/AAYoutube-6.3.apk",
   "apkSize": 1847896,
-  "sha256": "3f28bf13132a49f454897bf1a3394976714c061157ce51134b2cff38bdf5dbe2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-21-run-130",
+  "sha256": "d3d5dbfedbe273d2e9db5b2c31d95822bad4c609cdb440a411897e1733b8f356",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-21-run-131",
   "notes": [
+    "Add regression test protecting app-specific Quit navigation",
     "Test Settings row alignment, diagnostic grouping and update placement",
     "Import Compose scrolling and section-divider APIs for Settings layout",
     "Align Settings rows with mRadio and place diagnostics and updates last",
@@ -17,7 +18,6 @@
     "Use Home/Settings menu in AAYoutube and nest Features, Logs, About, updates under Settings",
     "Fix Kotlin compile error in unified page header",
     "Test mRadio-style page icon and right-side brand header contract",
-    "Enable JUnit tests for AAYoutube header behavior",
-    "Test AAYoutube page header on phone, car and immersive playback"
+    "Enable JUnit tests for AAYoutube header behavior"
   ]
 }
