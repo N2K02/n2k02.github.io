@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v4.3",
-  "versionName": "4.3",
-  "versionCode": 100214,
-  "apkName": "VREC-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.3/VREC-4.3.apk",
+  "tag": "vrec-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100216,
+  "apkName": "VREC-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.4/VREC-4.4.apk",
   "apkSize": 34709848,
-  "sha256": "cdbf0e4ac944321f4c0f38ad4311fab1da8695ee1deeb6440bd799b75eca654f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.3",
+  "sha256": "56ebc4827edf05b919219213ade59e728ab7a0a50fb37a811cc1487315c01049",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.4",
   "notes": [
-    "Center Recordings empty state and recover authorized ADB helper (#36)"
+    "fix: standardize update title/logo, scoped New badges and scroll (#38)"
   ]
 }
