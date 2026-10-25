@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-8-run-23",
-  "versionName": "1.4-experimental.23",
-  "versionCode": 100023,
-  "apkName": "MovieTogether-PR-8-dd04e2b.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-8-run-23/MovieTogether-PR-8-dd04e2b.apk",
-  "apkSize": 13195141,
-  "sha256": "ef9612ded90af1efab8c9847b93fc03df27ba6f47c72d0fec8ecb5d89a1bdca6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-8-run-23",
+  "tag": "movietogether-experimental-pr-4-run-25",
+  "versionName": "1.5-experimental.25",
+  "versionCode": 100025,
+  "apkName": "MovieTogether-PR-4-37b4d93.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-25/MovieTogether-PR-4-37b4d93.apk",
+  "apkSize": 18454487,
+  "sha256": "3915effc9ec9f69922e5d5a8cbe077845dbf7e7de3f5b770600bbc2e4d5354ba",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-25",
   "notes": [
-    "build: use latest shared single-title and badge-scoped updater",
+    "fix(experimental): use shared updater pending state for consistent recovery badges",
+    "fix: shared updater with one icon title and scoped New badge (#8)",
+    "sync(experimental): retain latest main updater navigation and foreground lifecycle",
+    "build(experimental): keep updater at 0.1.18 and avoid reverting unified UI",
+    "fix(experimental): preserve watch party while adopting single updater title and scoped badges",
     "feat: expressive unified updater page and launcher icon (#7)",
     "feat: shared updater page with New badges (#6)",
     "feat: consistent New update badges in Settings and submenu",
-    "Use shared N2K02 theme and updater UI (#2)",
-    "Bootstrap MovieTogether with signed manifest updater (#1)",
-    "Add project README and future APK release links"
+    "docs: clarify Firebase room discovery with embedded video streaming",
+    "docs: record integrated Firebase Android config and remaining console checks"
   ]
 }
