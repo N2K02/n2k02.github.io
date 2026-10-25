@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-296",
+  "tag": "vrec-experimental-pr-40-run-297",
   "versionName": "4.6",
-  "versionCode": 100296,
+  "versionCode": 100297,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-296/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-297/VREC-4.6.apk",
   "apkSize": 34763584,
-  "sha256": "2c3323a6833b068e7532aa10e1e3c6450231fb444406776c34f07903a991fd05",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-296",
+  "sha256": "85f1626cc1e37fff8817ed48484c06d9c90dbd63fae67faa76e3f5be296baa89",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-297",
   "notes": [
+    "test: align Home recording contract with one-tap ADB setup",
     "feat: embed one-tap local ADB middleware and Huawei-aware Home setup",
     "Remove channel-health sidecar when excluded call recording is deleted",
     "Avoid guessing SIM audio source when legacy diagnostic metadata is unavailable",
@@ -17,7 +18,6 @@
     "Test silent, one-channel quiet, and audible PCM capture verdicts",
     "Test enhanced VoIP opt-in, supported Android, SIM mode choices and safe shell filename identity",
     "Show saved shell audio channel diagnostics and actionable silence warning in recording details",
-    "Read saved shell channel-quality verdicts alongside capture metadata",
-    "Expose privileged SIM source modes and enabled VoIP shell capture with per-mode guidance"
+    "Read saved shell channel-quality verdicts alongside capture metadata"
   ]
 }
