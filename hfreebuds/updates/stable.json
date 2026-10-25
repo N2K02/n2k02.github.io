@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v4.3",
-  "versionName": "4.3",
-  "versionCode": 100088,
-  "apkName": "HFreebuds-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.3/HFreebuds-4.3.apk",
+  "tag": "hfreebuds-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100090,
+  "apkName": "HFreebuds-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.4/HFreebuds-4.4.apk",
   "apkSize": 2350734,
-  "sha256": "d893fec0549e6ea9063357e8c464259a24e1fb52152496b5f15e7c53fcf22a5b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.3",
+  "sha256": "7280c066f583a2609398e41a17f216acc2b8daf776ce3fbb426f1241736e8363",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.4",
   "notes": [
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: shared About & updates page and New menu badges (#13)"
   ]
 }
