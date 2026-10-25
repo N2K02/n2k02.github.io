@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-4-run-25",
-  "versionName": "1.5-experimental.25",
-  "versionCode": 100025,
-  "apkName": "MovieTogether-PR-4-37b4d93.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-25/MovieTogether-PR-4-37b4d93.apk",
-  "apkSize": 18454487,
-  "sha256": "3915effc9ec9f69922e5d5a8cbe077845dbf7e7de3f5b770600bbc2e4d5354ba",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-25",
+  "tag": "movietogether-experimental-pr-4-run-26",
+  "versionName": "1.5-experimental.26",
+  "versionCode": 100026,
+  "apkName": "MovieTogether-PR-4-9b94e39.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-26/MovieTogether-PR-4-9b94e39.apk",
+  "apkSize": 18438103,
+  "sha256": "5051a7386b354bc3745c4879621e6faa53261fc706c6e05dea3de9e9d2e54947",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-26",
   "notes": [
+    "build(experimental): use compact host-owned updater and updated last-check timestamp",
     "fix(experimental): use shared updater pending state for consistent recovery badges",
     "fix: shared updater with one icon title and scoped New badge (#8)",
     "sync(experimental): retain latest main updater navigation and foreground lifecycle",
@@ -17,7 +18,6 @@
     "feat: expressive unified updater page and launcher icon (#7)",
     "feat: shared updater page with New badges (#6)",
     "feat: consistent New update badges in Settings and submenu",
-    "docs: clarify Firebase room discovery with embedded video streaming",
-    "docs: record integrated Firebase Android config and remaining console checks"
+    "docs: clarify Firebase room discovery with embedded video streaming"
   ]
 }
