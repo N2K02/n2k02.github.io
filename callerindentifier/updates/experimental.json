@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-6-run-45",
-  "versionName": "1.5-experimental.45",
-  "versionCode": 100045,
-  "apkName": "CallerIndentifier-PR-6-b0cc66d.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-45/CallerIndentifier-PR-6-b0cc66d.apk",
+  "tag": "callerindentifier-exp-pr-6-run-46",
+  "versionName": "1.5-experimental.46",
+  "versionCode": 100046,
+  "apkName": "CallerIndentifier-PR-6-800ff37.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-46/CallerIndentifier-PR-6-800ff37.apk",
   "apkSize": 13573138,
-  "sha256": "a90d084f80f646fb40d84645ea1cd065e7775aedec92dd012558665e208b6cb2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-45",
+  "sha256": "fbe4ae27190c06da544df6a30718aa7319facb788c8ebd15e64c00271562091d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-46",
   "notes": [
+    "Move call history into Settings; keep Home and Settings main navigation",
+    "Move call history into Settings; keep Home and Settings main navigation",
+    "Move call history into Settings; keep Home and Settings main navigation",
     "Test mRadio-style page icon and right-side brand header contract",
     "Show one caller page header with brand on nested Settings pages",
     "Show one caller page header with brand on nested Settings pages",
     "build(experimental): use compact host-owned updater and updated last-check timestamp",
     "fix: shared updater with one icon title and scoped New badge (#5)",
     "feat: branded Material3 Expressive updater screen (#4)",
-    "feat: consistent shared updater page and New badges (#3)",
-    "feat: shared New badges across Settings and About & updates",
-    "fix(ui): add missing Compose setValue delegate import for Settings navigation",
-    "feat(ui): match MRadio page header, app logo, persistent navigation and settings pages"
+    "feat: consistent shared updater page and New badges (#3)"
   ]
 }
