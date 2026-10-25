@@ -1,17 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v4.1",
-  "versionName": "4.1",
-  "versionCode": 100148,
-  "apkName": "BCam-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.1/BCam-4.1.apk",
+  "tag": "bcam-v4.2",
+  "versionName": "4.2",
+  "versionCode": 100150,
+  "apkName": "BCam-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.2/BCam-4.2.apk",
   "apkSize": 1200040,
-  "sha256": "bc0623e4189bd6e1f21b5bf0a03fde95a25999107e9ed24b884076252ea40a12",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.1",
+  "sha256": "a3351d5b046a2d69f270d6c7316c8cb9f52f38ddca10ff8282c2800f0f770f09",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.2",
   "notes": [
-    "Correct emulator job package token expression",
-    "Run lint and Android emulator overlay regression test on PRs",
-    "Correct drag regression expectation for display smaller than overlay",
-    "Add VREC-style floating recording controls enabled by default"
+    "Fix BCam pause controls during camera startup and recording"
   ]
 }
