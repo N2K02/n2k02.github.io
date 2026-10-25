@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.7",
-  "versionName": "4.7",
-  "versionCode": 100112,
-  "apkName": "PBar-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.7/PBar-4.7.apk",
+  "tag": "pbar-v4.8",
+  "versionName": "4.8",
+  "versionCode": 100114,
+  "apkName": "PBar-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.8/PBar-4.8.apk",
   "apkSize": 13326314,
-  "sha256": "6603d187e5b8f9cc178d13a2e5b7fcd1cfd56ac8d1b367785a5f3e4d2b394174",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.7",
+  "sha256": "9f3cea31ba615f434e61628151ea7f99863699e6a5b6615c01801af093baa227",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.8",
   "notes": [
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: consistent N2K02 updater page and New badges (#39)"
   ]
 }
