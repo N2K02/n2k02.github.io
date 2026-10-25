@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-16-run-100",
+  "tag": "pixelcast-experimental-pr-16-run-102",
   "versionName": "4.0",
-  "versionCode": 100100,
+  "versionCode": 100102,
   "apkName": "PixelCast-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-16-run-100/PixelCast-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-16-run-102/PixelCast-4.0.apk",
   "apkSize": 2216016,
-  "sha256": "ce328ebb1cbeca300b627add456a73734f2c0a4ac61dd01241a92c9a2d8cb35a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-16-run-100",
+  "sha256": "dc50b55080383a69fd24d0b6237c944eb7c4df5febc266904a345b81dc5cf0b6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-16-run-102",
   "notes": [
+    "Test PixelCast Quit uses mRadio's rounded power icon, not the stop square",
+    "Match PixelCast Quit icon to mRadio rounded PowerSettingsNew",
+    "Match PixelCast Quit icon to mRadio rounded PowerSettingsNew",
     "Fix Android CI compile/lint issue in Quit navigation",
     "Prevent regressions removing bottom Quit or restoring old settings modal",
     "PixelCast: add bottom-bar Quit and stop active cast before closing",
     "PixelCast: add bottom-bar Quit and stop active cast before closing",
     "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
     "Import Compose scrolling and section-divider APIs for Settings layout",
-    "Use mRadio Settings section alignment and consistent updates-only row",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Use the compact mRadio-height header on all pages and subpages"
+    "Use mRadio Settings section alignment and consistent updates-only row"
   ]
 }
