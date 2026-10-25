@@ -1,17 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-57-run-237",
+  "tag": "pcl-experimental-pr-58-run-238",
   "versionName": "5.4",
-  "versionCode": 100237,
+  "versionCode": 100238,
   "apkName": "PCL-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-57-run-237/PCL-5.4.apk",
-  "apkSize": 19853593,
-  "sha256": "131c1e59a724fa79453ec0fd7225b35c029412a333f520b490a27ebb61033712",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-57-run-237",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-58-run-238/PCL-5.4.apk",
+  "apkSize": 19869981,
+  "sha256": "de77bd82e50a7de1df78db23a1ef9d025605faad5701b36f8ff90bcab2f9522b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-58-run-238",
   "notes": [
-    "fix(PCL): import shared badge state and clickable submenu modifier",
-    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
-    "fix: share foreground update refresh and retain controller on Activity recreation",
-    "build: consume shared updater for consistent New badges"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): consolidate duplicated app/version cards into Expressive updater page",
+    "feat: shared update page and consistent New badges (#57)"
   ]
 }
