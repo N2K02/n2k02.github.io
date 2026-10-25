@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v3.9",
-  "versionName": "3.9",
-  "versionCode": 100089,
-  "apkName": "NetSpeed-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v3.9/NetSpeed-3.9.apk",
+  "tag": "netspeed-v4.0",
+  "versionName": "4.0",
+  "versionCode": 100091,
+  "apkName": "NetSpeed-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.0/NetSpeed-4.0.apk",
   "apkSize": 1207840,
-  "sha256": "62179e93a369c91f062cf8ddbde83bce4458ee389fc4bd89ba302c682a051fc9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v3.9",
+  "sha256": "05ecd7eb11735c633983f503ffb3ec1256e6a8b48262481ebd2fd9ba2c989b40",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.0",
   "notes": [
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: consistent shared updater page and New badges (#19)"
   ]
 }
