@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-16-run-87",
+  "tag": "pixelcast-experimental-pr-16-run-88",
   "versionName": "4.0",
-  "versionCode": 100087,
+  "versionCode": 100088,
   "apkName": "PixelCast-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-16-run-87/PixelCast-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-16-run-88/PixelCast-4.0.apk",
   "apkSize": 2216016,
-  "sha256": "38fa2a50fb2eaa346691c5b527f801119e6d6d603dd00ca09d64ecf2b3003d1f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-16-run-87",
+  "sha256": "c07c2069d86329c5bb94bd1a616cad59f26933333045d90e98e09f3779fad392",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-16-run-88",
   "notes": [
+    "Unify all top bars with page icon/title and app icon/name",
     "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
