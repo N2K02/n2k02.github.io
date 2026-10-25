@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-16-run-104",
+  "tag": "hfreebuds-experimental-pr-16-run-108",
   "versionName": "4.7",
-  "versionCode": 100104,
+  "versionCode": 100108,
   "apkName": "HFreebuds-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-104/HFreebuds-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-108/HFreebuds-4.7.apk",
   "apkSize": 2383502,
-  "sha256": "160817a7a5b2b6c0f5d9b60e44f9de7ca50140da855ced937245c1497b88d247",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-104",
+  "sha256": "cdda565b2624343863271c66407af2da4f2bb381daa32911d0e49f78e6238c86",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-108",
   "notes": [
+    "Test HFreebuds labeled Home actions below the branded title bar",
+    "Put labeled Choose earbuds and Quit buttons below HFreebuds home title bar",
+    "Require updater 0.1.19+ on every Android PR and push",
+    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
     "Guard HFreebuds tile navigation against bottom menu regressions",
     "Restore HFreebuds in-page Back button for tile navigation",
     "HFreebuds: restore Home shortcut tiles and remove bottom navigation",
     "Use the compact mRadio-height header on all pages and subpages",
     "Expose HFreebuds secondary pages as Settings submenus",
-    "Add persistent Home/Settings navigation and move HFreebuds secondary pages to Settings",
-    "Fix Kotlin compile error in unified page header",
-    "Test mRadio-style page icon and right-side brand header contract",
-    "Use page-icon and HFreebuds-brand header consistently across all screens",
-    "Use page-icon and HFreebuds-brand header consistently across all screens"
+    "Add persistent Home/Settings navigation and move HFreebuds secondary pages to Settings"
   ]
 }
