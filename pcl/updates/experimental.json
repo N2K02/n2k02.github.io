@@ -1,15 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-59-run-240",
-  "versionName": "5.5",
-  "versionCode": 100240,
-  "apkName": "PCL-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-59-run-240/PCL-5.5.apk",
-  "apkSize": 19869977,
-  "sha256": "8e1ffadc7c6e9dbcccdb2acf1cd64e0e2b83907e9d76f96263b2b451b7e5bb36",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-59-run-240",
+  "tag": "pcl-experimental-pr-55-run-248",
+  "versionName": "5.6",
+  "versionCode": 100248,
+  "apkName": "PCL-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-55-run-248/PCL-5.6.apk",
+  "apkSize": 19869981,
+  "sha256": "948c177b13655aaf52f1af432f1d392a617e497582908f629eddad8b90924267",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-55-run-248",
   "notes": [
-    "fix(ui): New badge only on Settings and About & updates; remove duplicate title",
-    "build: update shared updater for single title, icon and navigation-only badges"
+    "test(PCL): guard late caller history updates and Bluetooth command frames",
+    "fix(PCL): reset transient SIM call tracking on disconnect or stop",
+    "fix(PCL): process caller-only notifications and independent Person list",
+    "fix(PCL): resolve CI compilation error and protect caller fallback",
+    "sync(experimental): retain latest main updater navigation and foreground lifecycle",
+    "sync(experimental): retain latest main updater navigation and foreground lifecycle",
+    "build(experimental): keep updater at 0.1.18 and avoid reverting unified UI",
+    "fix(PCL): accept plus-prefixed phone numbers in dialer parser",
+    "fix(PCL): recover Phone caller numbers after call-state race",
+    "Resolve caller helper methods explicitly in label functions"
   ]
 }
