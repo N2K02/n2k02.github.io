@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-271",
+  "tag": "vrec-experimental-pr-40-run-279",
   "versionName": "4.6",
-  "versionCode": 100271,
+  "versionCode": 100279,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-271/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-279/VREC-4.6.apk",
   "apkSize": 34729092,
-  "sha256": "204da4663807bc81f11f211e91192c3da37b5835134ebdab0925fa463e9d8946",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-271",
+  "sha256": "a76268c82a9a3a61a0a76a45beac8f9746a303e89a8e70842d8eae7ae5cf385a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-279",
   "notes": [
+    "Refresh readiness when enhanced ADB helper becomes available",
+    "Cover recording capture-type persistence and legacy ADB/standard classification",
+    "Remove microphone gating for ADB readiness and route mode-specific setup",
+    "Make setup mode-specific and move microphone permission to optional ADB fallback",
+    "Show standard mic and speaker controls only in Standard mode, hide ADB controls otherwise",
+    "Show actual ADB or Standard recording type in recording details",
+    "Tag imported enhanced shell recordings as ADB in metadata",
+    "Persist actual recording capture type with compatible legacy ADB detection",
     "Test call-log SIM matching and ambiguous caller safeguards",
-    "Include local call-log access in VREC permission requests",
-    "Require call history in SIM caller setup and explain Android restricted grant",
-    "Backfill existing SIM recordings from local call history after permission grant",
-    "Recover SIM caller identity from unambiguous local call-log matches",
-    "Request call history permission for personal-use SIM caller recovery",
-    "Retain short-lived early dialer caller details until SIM call connects",
-    "Offer Contacts permission and per-recording contact picker for missing SIM identities",
-    "Surface Contacts permission for caller names without blocking recording",
-    "Show legacy recording caller names without raw filenames"
+    "Include local call-log access in VREC permission requests"
   ]
 }
