@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v6.0",
-  "versionName": "6.0",
-  "versionCode": 100115,
-  "apkName": "AAYoutube-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.0/AAYoutube-6.0.apk",
+  "tag": "aayoutube-v6.1",
+  "versionName": "6.1",
+  "versionCode": 100117,
+  "apkName": "AAYoutube-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.1/AAYoutube-6.1.apk",
   "apkSize": 1847896,
-  "sha256": "ec2504cff95c5edb227b165803770b257f98e736ea52eff7bce528d849c23e7b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.0",
+  "sha256": "3a164af9a7806dd67ed8964a8d49f27a6325b773e029556a3513f0e98826cd7b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.1",
   "notes": [
-    "feat: shared updater page with New menu badges (#18)"
+    "feat: expressive unified updater page and launcher icon (#19)"
   ]
 }
