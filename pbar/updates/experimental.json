@@ -1,18 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-39-run-113",
-  "versionName": "4.8",
-  "versionCode": 100113,
-  "apkName": "PBar-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-39-run-113/PBar-4.8.apk",
+  "tag": "pbar-experimental-pr-40-run-115",
+  "versionName": "4.9",
+  "versionCode": 100115,
+  "apkName": "PBar-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-40-run-115/PBar-4.9.apk",
   "apkSize": 13326314,
-  "sha256": "cf970c4a65bcaa5638578b7604f4b49dcfcf75cf52d5abd79f7f2f058434f48c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-39-run-113",
+  "sha256": "2faa43218f1cbe974ef2ddba70a3d9c4932b037ba33980adaa7f9ffd45ddcf29",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-40-run-115",
   "notes": [
-    "fix(updater): avoid nested scrolling inside PBar Settings while using shared update page",
-    "feat(updater): use complete shared About & updates page",
-    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
-    "fix: share updater foreground refresh and preserve controller",
-    "build: consume shared updater for consistent New badges"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): consolidate duplicated app/version cards into Expressive updater page",
+    "feat(ui): consolidate duplicated app/version cards into Expressive updater page"
   ]
 }
