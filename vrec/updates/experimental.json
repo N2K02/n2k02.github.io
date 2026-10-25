@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-297",
+  "tag": "vrec-experimental-pr-40-run-299",
   "versionName": "4.6",
-  "versionCode": 100297,
+  "versionCode": 100299,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-297/VREC-4.6.apk",
-  "apkSize": 34763584,
-  "sha256": "85f1626cc1e37fff8817ed48484c06d9c90dbd63fae67faa76e3f5be296baa89",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-297",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-299/VREC-4.6.apk",
+  "apkSize": 34714388,
+  "sha256": "7a5982e9a6650bc7abf8558082ffbbfe325c75ad8706bcb675b5c28925367f48",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-299",
   "notes": [
+    "docs: align fallback and architecture guidance with USB-only ADB",
+    "refactor: remove wireless ADB flows, keep USB bootstrap and rename Accessibility helper",
     "test: align Home recording contract with one-tap ADB setup",
     "feat: embed one-tap local ADB middleware and Huawei-aware Home setup",
     "Remove channel-health sidecar when excluded call recording is deleted",
@@ -16,8 +18,6 @@
     "Document independent enhanced VoIP, SIM source modes, diagnostics and required device testing",
     "Write a newline-terminated channel diagnostic sidecar for reliable shell import",
     "Test silent, one-channel quiet, and audible PCM capture verdicts",
-    "Test enhanced VoIP opt-in, supported Android, SIM mode choices and safe shell filename identity",
-    "Show saved shell audio channel diagnostics and actionable silence warning in recording details",
-    "Read saved shell channel-quality verdicts alongside capture metadata"
+    "Test enhanced VoIP opt-in, supported Android, SIM mode choices and safe shell filename identity"
   ]
 }
