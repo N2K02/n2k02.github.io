@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-21-run-94",
-  "versionName": "4.2",
-  "versionCode": 100094,
-  "apkName": "NetSpeed-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-21-run-94/NetSpeed-4.2.apk",
+  "tag": "netspeed-experimental-pr-22-run-98",
+  "versionName": "4.3",
+  "versionCode": 100098,
+  "apkName": "NetSpeed-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-22-run-98/NetSpeed-4.3.apk",
   "apkSize": 1240608,
-  "sha256": "dc4d64ca70e1fd619bd7c0d2f5d49d56103238e94491e40827b9ec40d215b050",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-21-run-94",
+  "sha256": "50544e78d0cd9805863c10a97b97900b785c4cde11b20818f45c7b7a39b90f32",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-22-run-98",
   "notes": [
-    "fix(ui): New badge only on Settings and About & updates; remove duplicate title",
-    "build: update shared updater for single title, icon and navigation-only badges"
+    "fix(netspeed): import size modifier for branded Settings top bar",
+    "feat(ui): NetSpeed Settings page uses MRadio-style header and app branding",
+    "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
