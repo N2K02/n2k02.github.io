@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v7.5",
-  "versionName": "7.5",
-  "versionCode": 100169,
-  "apkName": "SpeedTester-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.5/SpeedTester-7.5.apk",
+  "tag": "speedtester-v7.6",
+  "versionName": "7.6",
+  "versionCode": 100171,
+  "apkName": "SpeedTester-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.6/SpeedTester-7.6.apk",
   "apkSize": 2979528,
-  "sha256": "501f7d85595a7628ccadf40d452ffacc71b3b20783ee272c2677a04f656b26ab",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.5",
+  "sha256": "a5e0e02cf2a8bc83e54f6e559736745304bda076c21da691073ef5d5aa6d06c5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.6",
   "notes": [
-    "feat: branded Material3 Expressive updater screen (#24)"
+    "fix: standardize update title/logo, scoped New badges and scroll (#25)"
   ]
 }
