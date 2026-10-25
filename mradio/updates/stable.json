@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v4.9-build-279",
-  "versionName": "4.9",
-  "versionCode": 100279,
-  "apkName": "MRadio-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.9-build-279/MRadio-4.9.apk",
+  "tag": "mradio-v5.0-build-281",
+  "versionName": "5.0",
+  "versionCode": 100281,
+  "apkName": "MRadio-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.0-build-281/MRadio-5.0.apk",
   "apkSize": 2827163,
-  "sha256": "86759789c7e40418e4308320d1bac277faa6ee0af7b2f471a1b460aebedb619b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.9-build-279",
+  "sha256": "1b7251e28014b027a5a90d7b1ff2bb9f6f9ef0da44ee4f8a89ebafba54b22e2e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.0-build-281",
   "notes": [
-    "feat: shared updater page with New badges (#21)"
+    "feat: animated M3 Expressive About & updates page (#22)"
   ]
 }
