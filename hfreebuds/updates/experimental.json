@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-16-run-109",
+  "tag": "hfreebuds-experimental-pr-16-run-111",
   "versionName": "4.7",
-  "versionCode": 100109,
+  "versionCode": 100111,
   "apkName": "HFreebuds-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-109/HFreebuds-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-111/HFreebuds-4.7.apk",
   "apkSize": 2383502,
-  "sha256": "2c60a69c63414112a8c99087573c7148d8384c1ff507b1ada52d4906608da981",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-109",
+  "sha256": "5d14bfd5e4ec9d1bdb9851dd654a362880f8498cd55cc41b1fa5a3dad0af577c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-111",
   "notes": [
+    "Test shared New badge visibility and HFreebuds tile exception",
+    "Keep update New badges visible on Settings and update destinations",
     "Add regression test protecting app-specific Quit navigation",
     "Test HFreebuds labeled Home actions below the branded title bar",
     "Put labeled Choose earbuds and Quit buttons below HFreebuds home title bar",
@@ -16,8 +18,6 @@
     "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
     "Guard HFreebuds tile navigation against bottom menu regressions",
     "Restore HFreebuds in-page Back button for tile navigation",
-    "HFreebuds: restore Home shortcut tiles and remove bottom navigation",
-    "Use the compact mRadio-height header on all pages and subpages",
-    "Expose HFreebuds secondary pages as Settings submenus"
+    "HFreebuds: restore Home shortcut tiles and remove bottom navigation"
   ]
 }
