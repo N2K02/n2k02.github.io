@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.1-build-283",
-  "versionName": "5.1",
-  "versionCode": 100283,
-  "apkName": "MRadio-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.1-build-283/MRadio-5.1.apk",
+  "tag": "mradio-v5.2-build-286",
+  "versionName": "5.2",
+  "versionCode": 100286,
+  "apkName": "MRadio-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.2-build-286/MRadio-5.2.apk",
   "apkSize": 2827163,
-  "sha256": "6c3399febbbafface734aa5e56f248071d9ed1c8d71b730904665f6970434a2c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.1-build-283",
+  "sha256": "12439cdf4432568462a30f67594e52493d1f49e6fe1bc1d95b8098858a315231",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.2-build-286",
   "notes": [
-    "refactor(settings): move Connection diagnostics out of About & updates (#23)"
+    "fix: standardize update title/logo, scoped New badges and scroll (#24)"
   ]
 }
