@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v7.3",
-  "versionName": "7.3",
-  "versionCode": 100165,
-  "apkName": "SpeedTester-7.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.3/SpeedTester-7.3.apk",
+  "tag": "speedtester-v7.4",
+  "versionName": "7.4",
+  "versionCode": 100167,
+  "apkName": "SpeedTester-7.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.4/SpeedTester-7.4.apk",
   "apkSize": 2897608,
-  "sha256": "1f8a12ef72cda97382e54e0df4444d0157d5cf9fd0acf8f34f9c9fb18efe78ad",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.3",
+  "sha256": "2fba00bc0cc08febec053dafb2fc9b06bfa143f571c610e0c98b2c1541f6a779",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.4",
   "notes": [
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: Settings and About & updates share New badge (#23)"
   ]
 }
