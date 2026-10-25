@@ -1,23 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-42-run-135",
-  "versionName": "5.1",
-  "versionCode": 100135,
-  "apkName": "PBar-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-42-run-135/PBar-5.1.apk",
+  "tag": "pbar-experimental-pr-43-run-137",
+  "versionName": "5.2",
+  "versionCode": 100137,
+  "apkName": "PBar-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-43-run-137/PBar-5.2.apk",
   "apkSize": 13326314,
-  "sha256": "2630322a1c30900c35f089d75da1f2ddf29b13fd5f40804745a30ff116f8e038",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-42-run-135",
+  "sha256": "0765f61e2e21b425351f649a3f4730e870db681526143c7b4b583459db8aabef",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-43-run-137",
   "notes": [
-    "Test shared New badge visibility and HFreebuds tile exception",
-    "Keep update New badges visible on Settings and update destinations",
-    "PBar: place portrait progress bar at real edges or detected status/navigation insets",
-    "PBar: expose four portrait positions and only left/right landscape, including per-app overrides",
-    "Define portrait system-bar-safe positions and remove legacy landscape Centre",
-    "Define portrait system-bar-safe positions and remove legacy landscape Centre",
-    "Test Settings row alignment, diagnostic grouping and update placement",
-    "Align Settings rows with mRadio and place diagnostics and updates last",
-    "Guard bottom-bar Quit placement and app-specific shutdown semantics",
-    "Move Quit into bottom navigation after Settings and retain existing stop behavior"
+    "docs(pbar): explain horizontal landscape position controls",
+    "test(pbar): verify four landscape positions, migration and system bar insets",
+    "feat(pbar): show four landscape edge options in appearance and app settings",
+    "feat(pbar): position landscape overlay on horizontal screen edges",
+    "feat(pbar): offer four horizontal landscape positions"
   ]
 }
