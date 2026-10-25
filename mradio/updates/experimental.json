@@ -1,19 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-21-run-278",
-  "versionName": "4.8-experimental.278",
-  "versionCode": 100278,
-  "apkName": "MRadio-PR-21-ab78f86.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-21-run-278/MRadio-PR-21-ab78f86.apk",
+  "tag": "mradio-exp-pr-22-run-280",
+  "versionName": "4.9-experimental.280",
+  "versionCode": 100280,
+  "apkName": "MRadio-PR-22-b7420cb.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-22-run-280/MRadio-PR-22-b7420cb.apk",
   "apkSize": 2827163,
-  "sha256": "c98beb02760632b112b14173e0f5854363126b680fee447046aa68ace678e3c2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-21-run-278",
+  "sha256": "b6eac5135bf1be4a8bf17902a59a7fd3bc6c32e5de87be10b1966a03fba10327",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-22-run-280",
   "notes": [
-    "fix(ui): import shared pending update state extension",
-    "feat(ui): share New badges across Settings and About & updates",
-    "feat(ui): share New badges across Settings and About & updates",
-    "feat(ui): share New badges across Settings and About & updates",
-    "fix: share foreground update refresh and retain controller on Activity recreation",
-    "build: consume shared updater for consistent New badges"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): use one branded expressive updater page without duplicate metadata"
   ]
 }
