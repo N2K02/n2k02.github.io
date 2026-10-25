@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v3.8",
-  "versionName": "3.8",
-  "versionCode": 100084,
-  "apkName": "PixelCast-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.8/PixelCast-3.8.apk",
+  "tag": "pixelcast-v3.9",
+  "versionName": "3.9",
+  "versionCode": 100086,
+  "apkName": "PixelCast-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.9/PixelCast-3.9.apk",
   "apkSize": 2232400,
-  "sha256": "89bfc61b9bd89c09d9cbabac89fa71a0bcfb7df3ed48a00ec5a258051c19eb35",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.8",
+  "sha256": "6af572b7c61169e6bb42e7c048392e03975dae2823179029d874bd9216e25cba",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.9",
   "notes": [
-    "feat: Material 3 Expressive updater page with branded title (#14)"
+    "fix: single updater title, navigation-only badges and usable scroll (#15)"
   ]
 }
