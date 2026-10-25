@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-299",
+  "tag": "vrec-experimental-pr-40-run-300",
   "versionName": "4.6",
-  "versionCode": 100299,
+  "versionCode": 100300,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-299/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-300/VREC-4.6.apk",
   "apkSize": 34714388,
-  "sha256": "7a5982e9a6650bc7abf8558082ffbbfe325c75ad8706bcb675b5c28925367f48",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-299",
+  "sha256": "f32ae36d2d2dd33b268cac13bbe83ffb2d528cadb8d6e7b970f49d3b2d536237",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-300",
   "notes": [
+    "feat: ADB-only VRec dashboard, verified UID badges and guarded permission bootstrap",
     "docs: align fallback and architecture guidance with USB-only ADB",
     "refactor: remove wireless ADB flows, keep USB bootstrap and rename Accessibility helper",
     "test: align Home recording contract with one-tap ADB setup",
@@ -17,7 +18,6 @@
     "Avoid guessing SIM audio source when legacy diagnostic metadata is unavailable",
     "Document independent enhanced VoIP, SIM source modes, diagnostics and required device testing",
     "Write a newline-terminated channel diagnostic sidecar for reliable shell import",
-    "Test silent, one-channel quiet, and audible PCM capture verdicts",
-    "Test enhanced VoIP opt-in, supported Android, SIM mode choices and safe shell filename identity"
+    "Test silent, one-channel quiet, and audible PCM capture verdicts"
   ]
 }
