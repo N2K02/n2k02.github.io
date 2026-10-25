@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-39-run-222",
+  "tag": "vrec-experimental-pr-39-run-240",
   "versionName": "4.5",
-  "versionCode": 100222,
+  "versionCode": 100240,
   "apkName": "VREC-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-222/VREC-4.5.apk",
-  "apkSize": 34694112,
-  "sha256": "d27d16b8681596f6ba5c1cb80bd453d7dd90c8fbb713c205593c70808260e4e2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-222",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-240/VREC-4.5.apk",
+  "apkSize": 34712684,
+  "sha256": "61bfd4a901513f8cad96a35330d47ef24ccb14582dfa6180977d6ba63e58a2cf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-240",
   "notes": [
-    "build(experimental): use compact host-owned updater and updated last-check timestamp",
-    "Acknowledge answered-call capture before foreground wake to avoid timeout",
-    "Protect old-helper upgrade and failed capture retries without losing recording fallback",
-    "Retry outgoing answer acknowledgement only for the active call; prevent stale trigger",
-    "Reconfigure outgoing answer gate immediately after Telecom access is granted",
-    "Gate experimental outgoing capture on answered Telecom state and test regressions",
-    "Enable overlay by default and add persistent three-dot drag handle with tests"
+    "fix(adb): bound raw PCM diagnostic capture zero reads and avoid empty packets",
+    "fix(adb): continue importing valid recordings after one corrupt shell file",
+    "test(adb): isolate corrupted enhanced recordings during batch imports",
+    "test(adb): isolate corrupted enhanced recordings during batch imports",
+    "docs(adb): document batch of ShizuCallRecorder-inspired capture hardening and limits",
+    "fix(adb): propagate all worker terminations to owner and reset PCM read buffer",
+    "ci(adb): run PCM stereo and bounded audio capture regression suites",
+    "ci(adb): run PCM stereo and bounded audio capture regression suites",
+    "test(adb): privilege helper recovery and handshake state transitions",
+    "test(adb): privilege helper recovery and handshake state transitions"
   ]
 }
