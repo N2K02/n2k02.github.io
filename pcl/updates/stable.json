@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v5.4",
-  "versionName": "5.4",
-  "versionCode": 100239,
-  "apkName": "PCL-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.4/PCL-5.4.apk",
+  "tag": "pcl-v5.5",
+  "versionName": "5.5",
+  "versionCode": 100243,
+  "apkName": "PCL-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.5/PCL-5.5.apk",
   "apkSize": 19869961,
-  "sha256": "b99cdeb8ff224903ae5bb720cbea6433df9545dffca4d4b8d898068f28fd137a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.4",
+  "sha256": "6b62e605ce2af614cf1988cdad369d83d284eb90a92385bef88b68994f879c97",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.5",
   "notes": [
-    "feat: M3 Expressive updater and branded About & updates title (#58)",
-    "feat: shared update page and consistent New badges (#57)"
+    "fix: single updater title, navigation-only badges and usable scroll (#59)"
   ]
 }
