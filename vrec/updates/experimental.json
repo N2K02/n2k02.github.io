@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-301",
+  "tag": "vrec-experimental-pr-40-run-302",
   "versionName": "4.6",
-  "versionCode": 100301,
+  "versionCode": 100302,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-301/VREC-4.6.apk",
-  "apkSize": 34714392,
-  "sha256": "32c3a8b1fe1e7a87a04388658632ed9a168fa013892e3f2fc1b7f4f60a7ece0e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-301",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-302/VREC-4.6.apk",
+  "apkSize": 34714388,
+  "sha256": "9b6011cfcf7d2b515022e7db9f56d24704028221b50d97d79a296e04fcac90b7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-302",
   "notes": [
+    "review: verify permission outcomes, polish ADB-first UI, align docs and safety tests",
     "fix: restore verified UID Home badge and explicit failed connection state",
     "feat: ADB-only VRec dashboard, verified UID badges and guarded permission bootstrap",
     "docs: align fallback and architecture guidance with USB-only ADB",
@@ -17,7 +18,6 @@
     "feat: embed one-tap local ADB middleware and Huawei-aware Home setup",
     "Remove channel-health sidecar when excluded call recording is deleted",
     "Avoid guessing SIM audio source when legacy diagnostic metadata is unavailable",
-    "Document independent enhanced VoIP, SIM source modes, diagnostics and required device testing",
-    "Write a newline-terminated channel diagnostic sidecar for reliable shell import"
+    "Document independent enhanced VoIP, SIM source modes, diagnostics and required device testing"
   ]
 }
