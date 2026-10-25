@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-19-run-285",
-  "versionName": "5.1-experimental.285",
-  "versionCode": 100285,
-  "apkName": "MRadio-PR-19-f1994f3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-285/MRadio-PR-19-f1994f3.apk",
+  "tag": "mradio-exp-pr-19-run-287",
+  "versionName": "5.2-experimental.287",
+  "versionCode": 100287,
+  "apkName": "MRadio-PR-19-a313b18.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-287/MRadio-PR-19-a313b18.apk",
   "apkSize": 2827163,
-  "sha256": "daecfc6d45a39458f51faaa6bbba656c7154aa0d4d36ee800d97910aa0e0aee1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-285",
+  "sha256": "f5b1ff8fc1bd96b2ea3677ce9bddf914b956fe9d17b9860526602d9769c540b6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-287",
   "notes": [
+    "fix(experimental): use one shared badge state on Settings navigation",
+    "sync(experimental): common Settings-only badge and foreground updater behavior",
+    "sync(experimental): common Settings-only badge and foreground updater behavior",
+    "fix(experimental): keep PR #19 on shared single-title updater 0.1.18",
+    "fix(experimental): keep PR #19 on shared single-title updater 0.1.18",
+    "fix(experimental): unify update title, compact Settings header and remove duplicate update controls",
     "fix(experimental): remove double Settings app bars from PR #19",
     "fix(ui): set rounded Material3 dropdown surface shapes explicitly",
     "fix: use opaque compressed share tokens and correct nullable Intent handling",
-    "feat: share playable HTTPS MRadio links with Android App Links",
-    "test: cover shared stream and deep-link URL parsing",
-    "feat: add share text URL extraction utility",
-    "fix: parse shared HTTP streams and app deep links correctly"
+    "feat: share playable HTTPS MRadio links with Android App Links"
   ]
 }
