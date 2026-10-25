@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-9-run-28",
-  "versionName": "1.5-experimental.28",
-  "versionCode": 100028,
-  "apkName": "MovieTogether-PR-9-0bd746f.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-9-run-28/MovieTogether-PR-9-0bd746f.apk",
+  "tag": "movietogether-experimental-pr-9-run-30",
+  "versionName": "1.5-experimental.30",
+  "versionCode": 100030,
+  "apkName": "MovieTogether-PR-9-8276805.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-9-run-30/MovieTogether-PR-9-8276805.apk",
   "apkSize": 13195141,
-  "sha256": "920b5cc5d91194e032943e87888abfba1edb8c37e81d694ad22797a0fd7b7d7d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-9-run-28",
+  "sha256": "056e88409c509b8472a6a31bbdffe26ff12c0a1a4c6845dbcc49b6df642212da",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-9-run-30",
   "notes": [
+    "Test compact shared updater version and host-owned header",
+    "Use compact shared n2k02updater 0.1.19 in experimental app",
     "Test mRadio-style page icon and right-side brand header contract",
     "Unify all top bars with page icon/title and app icon/name",
     "fix: shared updater with one icon title and scoped New badge (#8)",
@@ -16,7 +18,6 @@
     "feat: shared updater page with New badges (#6)",
     "feat: consistent New update badges in Settings and submenu",
     "Use shared N2K02 theme and updater UI (#2)",
-    "Bootstrap MovieTogether with signed manifest updater (#1)",
-    "Add project README and future APK release links"
+    "Bootstrap MovieTogether with signed manifest updater (#1)"
   ]
 }
