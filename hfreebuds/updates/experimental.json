@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-15-run-93",
-  "versionName": "4.6",
-  "versionCode": 100093,
-  "apkName": "HFreebuds-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-15-run-93/HFreebuds-4.6.apk",
+  "tag": "hfreebuds-experimental-pr-16-run-95",
+  "versionName": "4.7",
+  "versionCode": 100095,
+  "apkName": "HFreebuds-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-95/HFreebuds-4.7.apk",
   "apkSize": 2383502,
-  "sha256": "a10713d6946a12a282e6880f0aee5eee802fbbf6d0309b0fa03e414c6c5ceeea",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-15-run-93",
+  "sha256": "83873336533fbf1c6b95ead8a60265ea587f5f4842eec4f5e1380544f384f5e7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-95",
   "notes": [
-    "build: update shared updater for single title, icon and navigation-only badges"
+    "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
