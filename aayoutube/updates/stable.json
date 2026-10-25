@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v6.1",
-  "versionName": "6.1",
-  "versionCode": 100117,
-  "apkName": "AAYoutube-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.1/AAYoutube-6.1.apk",
-  "apkSize": 1847896,
-  "sha256": "3a164af9a7806dd67ed8964a8d49f27a6325b773e029556a3513f0e98826cd7b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.1",
+  "tag": "aayoutube-v6.2",
+  "versionName": "6.2",
+  "versionCode": 100119,
+  "apkName": "AAYoutube-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.2/AAYoutube-6.2.apk",
+  "apkSize": 1864280,
+  "sha256": "446a8ac94642d2c8b73b5febfc22f92af8b7b13dfa76accbbc48d8a5ff60e5c1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.2",
   "notes": [
-    "feat: expressive unified updater page and launcher icon (#19)"
+    "fix: standardize update title/logo, scoped New badges and scroll (#20)"
   ]
 }
