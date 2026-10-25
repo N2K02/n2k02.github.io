@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-19-run-116",
-  "versionName": "6.1",
-  "versionCode": 100116,
-  "apkName": "AAYoutube-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-19-run-116/AAYoutube-6.1.apk",
-  "apkSize": 1847896,
-  "sha256": "fe6187fb5b50aee1477cb77f93c9739e6f5c843fce6688788bb9804d4273acd8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-19-run-116",
+  "tag": "aayoutube-experimental-pr-20-run-118",
+  "versionName": "6.2",
+  "versionCode": 100118,
+  "apkName": "AAYoutube-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-20-run-118/AAYoutube-6.2.apk",
+  "apkSize": 1864280,
+  "sha256": "06d28c7cffc4c347302ed4c8ac36de16ee461bcc2c415682d8651eb22a3c6006",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-20-run-118",
   "notes": [
-    "build: adopt Material3 Expressive updater 0.1.17"
+    "build: use latest shared single-title and badge-scoped updater"
   ]
 }
