@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-23-run-282",
-  "versionName": "5.0-experimental.282",
-  "versionCode": 100282,
-  "apkName": "MRadio-PR-23-41d32e4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-23-run-282/MRadio-PR-23-41d32e4.apk",
+  "tag": "mradio-exp-pr-24-run-284",
+  "versionName": "5.1-experimental.284",
+  "versionCode": 100284,
+  "apkName": "MRadio-PR-24-71394f9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-24-run-284/MRadio-PR-24-71394f9.apk",
   "apkSize": 2827163,
-  "sha256": "ab9abd9019d054caa2fcf9c6c5ba106aa8b48f59cf58a667b5e613bba71b5155",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-23-run-282",
+  "sha256": "b67dffee92086c4698309c5bae116c1475daa15eb5a4c7831c49f1ac49b465a1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-24-run-284",
   "notes": [
-    "ui(settings): make diagnostics page title match its menu entry",
-    "refactor(settings): move Connection diagnostics next to About & updates"
+    "build: include single-title and badge-scoped shared updater 0.1.18",
+    "fix(settings): show a single compact app bar with MRadio branding",
+    "fix(mradio): hide parent Settings header when nested Settings owns app bar"
   ]
 }
