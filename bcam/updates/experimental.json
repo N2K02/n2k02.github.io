@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-16-run-137",
+  "tag": "bcam-experimental-pr-16-run-138",
   "versionName": "3.9",
-  "versionCode": 100137,
+  "versionCode": 100138,
   "apkName": "BCam-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-16-run-137/BCam-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-16-run-138/BCam-3.9.apk",
   "apkSize": 1199872,
-  "sha256": "52c04760bf9dcec17ba2ab9dafa43567dba8da3819b0d695f1eb0d439b2bd1f0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-16-run-137",
+  "sha256": "14b569a72b63ec3f1524ed21a66aec0c32e6ea0081f6d027fa0870be1dce0bcd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-16-run-138",
   "notes": [
+    "Fix BCam notification XML test to parse Android namespaced attributes",
     "Test BCam centered notification labels, equal-width actions, and preserved recorder controls",
     "Use centered RemoteViews for BCam notification text and recording actions",
     "Add center-aligned recording notification with evenly spaced 48dp action buttons",
@@ -17,7 +18,6 @@
     "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
     "Match mRadio Settings spacing and place updates last after divider",
     "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Update BCam navigation regression coverage for Home and branded Settings subpages"
+    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build"
   ]
 }
