@@ -1,14 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-16-run-95",
+  "tag": "hfreebuds-experimental-pr-16-run-100",
   "versionName": "4.7",
-  "versionCode": 100095,
+  "versionCode": 100100,
   "apkName": "HFreebuds-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-95/HFreebuds-4.7.apk",
-  "apkSize": 2383502,
-  "sha256": "83873336533fbf1c6b95ead8a60265ea587f5f4842eec4f5e1380544f384f5e7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-95",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-100/HFreebuds-4.7.apk",
+  "apkSize": 2399886,
+  "sha256": "e4af239776068aebe58025034424ce4c43bb6307252154742826e58303800b05",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-100",
   "notes": [
+    "Expose HFreebuds secondary pages as Settings submenus",
+    "Add persistent Home/Settings navigation and move HFreebuds secondary pages to Settings",
+    "Fix Kotlin compile error in unified page header",
+    "Test mRadio-style page icon and right-side brand header contract",
+    "Use page-icon and HFreebuds-brand header consistently across all screens",
+    "Use page-icon and HFreebuds-brand header consistently across all screens",
+    "Use page-icon and HFreebuds-brand header consistently across all screens",
     "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
