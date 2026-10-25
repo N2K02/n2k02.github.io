@@ -1,19 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-35-run-208",
-  "versionName": "4.1",
-  "versionCode": 100208,
-  "apkName": "VREC-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-35-run-208/VREC-4.1.apk",
-  "apkSize": 34677084,
-  "sha256": "ae54794f170ed65f30e29577d4cee876cecd7b80f8f6a179173286ca77de3838",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-35-run-208",
+  "tag": "vrec-experimental-pr-36-run-211",
+  "versionName": "4.2",
+  "versionCode": 100211,
+  "apkName": "VREC-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-36-run-211/VREC-4.2.apk",
+  "apkSize": 34677088,
+  "sha256": "843eb431cd979e85a88818e62431f9032b9c5622d04d9e8d9617dc6eb1acf4b9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-36-run-211",
   "notes": [
-    "feat(updater): use complete shared About & updates page",
-    "fix(VREC): restrict update badge to About & updates menu row",
-    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
-    "feat(ui): consistent New badges on Settings menu and About & updates submenu",
-    "fix: share updater foreground refresh and preserve controller",
-    "build: consume shared updater for consistent New badges"
+    "Retain unrelated main-branch updater UI changes",
+    "Preserve completed recording imports and avoid implicit permission changes on recovery",
+    "Center recordings empty state and auto-recover previously authorized ADB helper"
   ]
 }
