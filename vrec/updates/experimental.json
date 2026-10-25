@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-39-run-240",
+  "tag": "vrec-experimental-pr-39-run-241",
   "versionName": "4.5",
-  "versionCode": 100240,
+  "versionCode": 100241,
   "apkName": "VREC-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-240/VREC-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-241/VREC-4.5.apk",
   "apkSize": 34712684,
-  "sha256": "61bfd4a901513f8cad96a35330d47ef24ccb14582dfa6180977d6ba63e58a2cf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-240",
+  "sha256": "a240a3c66c4aae721e1ece204f8d1eb6311bae82575fc4c802bbfe663bd39b97",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-241",
   "notes": [
+    "Make every page header show its own icon and branded app identity",
     "fix(adb): bound raw PCM diagnostic capture zero reads and avoid empty packets",
     "fix(adb): continue importing valid recordings after one corrupt shell file",
     "test(adb): isolate corrupted enhanced recordings during batch imports",
@@ -17,7 +18,6 @@
     "fix(adb): propagate all worker terminations to owner and reset PCM read buffer",
     "ci(adb): run PCM stereo and bounded audio capture regression suites",
     "ci(adb): run PCM stereo and bounded audio capture regression suites",
-    "test(adb): privilege helper recovery and handshake state transitions",
     "test(adb): privilege helper recovery and handshake state transitions"
   ]
 }
