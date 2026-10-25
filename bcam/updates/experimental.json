@@ -1,20 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-12-run-116",
-  "versionName": "3.6",
-  "versionCode": 100116,
-  "apkName": "BCam-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-12-run-116/BCam-3.6.apk",
-  "apkSize": 1150888,
-  "sha256": "e1134f054af98f28788edf6fda64b650afe4de503c2b9e9ad3fc9ac3f35f80e8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-12-run-116",
+  "tag": "bcam-experimental-pr-14-run-118",
+  "versionName": "3.7",
+  "versionCode": 100118,
+  "apkName": "BCam-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-14-run-118/BCam-3.7.apk",
+  "apkSize": 1200040,
+  "sha256": "3516076108cd3d85e0200317e57f946857a338c99552c5af2dc57a3de52cf4c8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-14-run-118",
   "notes": [
-    "fix(BCam): import shared pending update status extension",
-    "fix: retain BCam Settings updater, refresh on resume and protect active recording",
-    "fix: retain BCam Settings updater, refresh on resume and protect active recording",
-    "fix: retain BCam Settings updater, refresh on resume and protect active recording",
-    "feat(ui): show shared New badge on settings navigation and update submenu",
-    "fix: share foreground update refresh and retain controller on Activity recreation",
-    "build: consume shared updater for consistent New badges"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): consolidate duplicated app/version cards into Expressive updater page"
   ]
 }
