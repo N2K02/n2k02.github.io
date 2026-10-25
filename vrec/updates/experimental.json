@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-262",
+  "tag": "vrec-experimental-pr-40-run-271",
   "versionName": "4.6",
-  "versionCode": 100262,
+  "versionCode": 100271,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-262/VREC-4.6.apk",
-  "apkSize": 34712680,
-  "sha256": "f08bebfc060aa78c8c4b47a4dbfb8ca6e26c4ec819afbba6f2cf83dffb75fe9b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-262",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-271/VREC-4.6.apk",
+  "apkSize": 34729092,
+  "sha256": "204da4663807bc81f11f211e91192c3da37b5835134ebdab0925fa463e9d8946",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-271",
   "notes": [
-    "Show legacy recording caller names without raw filenames",
-    "Test legacy contact and direction recovery",
-    "Support legacy filename caller fallback and known call flow",
-    "Show contact, precise direction, source app or SIM, and size on recordings cards",
-    "Read persisted VoIP call flow for recording list attribution",
-    "Test direction, contact and call source labels",
-    "Add metadata-safe recording list labels"
+    "Test call-log SIM matching and ambiguous caller safeguards",
+    "Include local call-log access in VREC permission requests",
+    "Require call history in SIM caller setup and explain Android restricted grant",
+    "Backfill existing SIM recordings from local call history after permission grant",
+    "Recover SIM caller identity from unambiguous local call-log matches",
+    "Request call history permission for personal-use SIM caller recovery",
+    "Retain short-lived early dialer caller details until SIM call connects",
+    "Offer Contacts permission and per-recording contact picker for missing SIM identities",
+    "Surface Contacts permission for caller names without blocking recording",
+    "Show legacy recording caller names without raw filenames"
   ]
 }
