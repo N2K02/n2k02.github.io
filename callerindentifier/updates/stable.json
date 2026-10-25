@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "callerindentifier-v1.4-build-40",
-  "versionName": "1.4",
-  "versionCode": 100040,
-  "apkName": "CallerIndentifier-1.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-v1.4-build-40/CallerIndentifier-1.4.apk",
+  "tag": "callerindentifier-v1.5-build-42",
+  "versionName": "1.5",
+  "versionCode": 100042,
+  "apkName": "CallerIndentifier-1.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-v1.5-build-42/CallerIndentifier-1.5.apk",
   "apkSize": 13573138,
-  "sha256": "fadfc818ff5a6874a657d4ed1a1803999d42f39f2fe5dcfe451a039c7a4a3c65",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-v1.4-build-40",
+  "sha256": "0d0f210fe22c3e771e2922b72a2edc134d694ad3860d40f3278d0e0270e6d13d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-v1.5-build-42",
   "notes": [
+    "fix: shared updater with one icon title and scoped New badge (#5)",
     "feat: branded Material3 Expressive updater screen (#4)",
     "feat: consistent shared updater page and New badges (#3)",
     "feat: shared New badges across Settings and About & updates",
@@ -17,7 +18,6 @@
     "feat(search): replace API setup with 27 free browser number searches and source badges",
     "feat(search): 27 free no-key phone number search links with distinct source attribution",
     "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing",
-    "feat(settings): configure optional PhoneInfoga HTTPS server",
-    "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results"
+    "feat(settings): configure optional PhoneInfoga HTTPS server"
   ]
 }
