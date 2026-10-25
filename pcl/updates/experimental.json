@@ -1,23 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-55-run-252",
+  "tag": "pcl-experimental-pr-60-run-253",
   "versionName": "5.6",
-  "versionCode": 100252,
+  "versionCode": 100253,
   "apkName": "PCL-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-55-run-252/PCL-5.6.apk",
-  "apkSize": 19853593,
-  "sha256": "be07eccd49a5eeee8288bdc965bc618b4a405c78e57fe5c93fe9d0cb722d20d8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-55-run-252",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-60-run-253/PCL-5.6.apk",
+  "apkSize": 19869981,
+  "sha256": "580e570dc2c62ac9272262db4c13893a8a2a3197d113d676032985f2e5abf153",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-60-run-253",
   "notes": [
-    "test(ui): cover PCL settings subpage routing and page titles",
-    "test(ui): cover PCL settings subpage routing and page titles",
-    "refactor(ui): place updates and permission setup under Settings",
-    "feat(ui): PCL app bar owns Settings/Update titles and avoids duplicate updater title",
-    "build(experimental): use compact host-owned updater and updated last-check timestamp",
-    "test(PCL): guard late caller history updates and Bluetooth command frames",
-    "fix(PCL): reset transient SIM call tracking on disconnect or stop",
-    "fix(PCL): process caller-only notifications and independent Person list",
-    "fix(PCL): resolve CI compilation error and protect caller fallback",
-    "sync(experimental): retain latest main updater navigation and foreground lifecycle"
+    "Enable Android JVM regression tests for branded page headers",
+    "Test mRadio-style page icon and right-side brand header contract",
+    "Remove duplicate updater title; keep a single host-owned page header",
+    "Unify all top bars with page icon/title and app icon/name"
   ]
 }
