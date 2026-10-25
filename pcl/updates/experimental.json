@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-60-run-262",
-  "versionName": "5.6",
-  "versionCode": 100262,
-  "apkName": "PCL-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-60-run-262/PCL-5.6.apk",
-  "apkSize": 19853593,
-  "sha256": "8a8c0b35aa1e9aafe9aba67fb39319fd0fd278fb3af3dccd4e3a36c76c859778",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-60-run-262",
+  "tag": "pcl-experimental-pr-61-run-264",
+  "versionName": "5.7",
+  "versionCode": 100264,
+  "apkName": "PCL-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-61-run-264/PCL-5.7.apk",
+  "apkSize": 19870005,
+  "sha256": "55abd28dba11dbb79675d73b511fdff40d36485f6a35627b1804d4a41fbda5de",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-61-run-264",
   "notes": [
-    "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
-    "Match mRadio Settings spacing and place updates last after divider",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Test compact shared updater version and host-owned header",
-    "Use compact shared n2k02updater 0.1.19 in experimental app",
-    "Regression test PCL Quit lives beside Settings in bottom navigation",
-    "Move PCL Quit from top app bar to bottom navigation beside Settings",
-    "Make PCL Home/Settings primary and nest Permissions, Calls and updater in Settings",
-    "Enable Android JVM regression tests for branded page headers"
+    "Fix missing caller numbers and names on the Remote"
   ]
 }
