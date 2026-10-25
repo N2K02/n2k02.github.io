@@ -1,14 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-21-run-120",
+  "tag": "aayoutube-experimental-pr-21-run-124",
   "versionName": "6.3",
-  "versionCode": 100120,
+  "versionCode": 100124,
   "apkName": "AAYoutube-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-21-run-120/AAYoutube-6.3.apk",
-  "apkSize": 1864280,
-  "sha256": "271cd7042c6a7c4786e030fe1b05b026f2b4533d98a26e2af712449932899441",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-21-run-120",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-21-run-124/AAYoutube-6.3.apk",
+  "apkSize": 1847896,
+  "sha256": "04b7273dceb2f2a751eeafc8b90b623791cfb0893d2fe681a54d03021e82b0ce",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-21-run-124",
   "notes": [
+    "Fix Kotlin compile error in unified page header",
+    "Test mRadio-style page icon and right-side brand header contract",
+    "Enable JUnit tests for AAYoutube header behavior",
+    "Test AAYoutube page header on phone, car and immersive playback",
+    "Define header visibility policy for phone, car, fullscreen and PiP",
+    "Use mRadio-style page icon, title and AAYoutube brand header across screens",
     "feat(ui): AAYoutube host provides one branded About & updates app bar",
     "build(experimental): use compact host-owned updater and updated last-check timestamp"
   ]
