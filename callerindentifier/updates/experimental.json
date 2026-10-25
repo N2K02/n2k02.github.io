@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-6-run-46",
-  "versionName": "1.5-experimental.46",
-  "versionCode": 100046,
-  "apkName": "CallerIndentifier-PR-6-800ff37.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-46/CallerIndentifier-PR-6-800ff37.apk",
+  "tag": "callerindentifier-exp-pr-6-run-47",
+  "versionName": "1.5-experimental.47",
+  "versionCode": 100047,
+  "apkName": "CallerIndentifier-PR-6-c75f6f1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-47/CallerIndentifier-PR-6-c75f6f1.apk",
   "apkSize": 13573138,
-  "sha256": "fbe4ae27190c06da544df6a30718aa7319facb788c8ebd15e64c00271562091d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-46",
+  "sha256": "c17fc776d31ee7b82513dc5a1cee7af6b9026a5d6a47cddd5c9584da9a6a04fe",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-47",
   "notes": [
+    "Remove CallerIdentifier nested Scaffold top inset for consistent header alignment",
     "Move call history into Settings; keep Home and Settings main navigation",
     "Move call history into Settings; keep Home and Settings main navigation",
     "Move call history into Settings; keep Home and Settings main navigation",
@@ -17,7 +18,6 @@
     "Show one caller page header with brand on nested Settings pages",
     "build(experimental): use compact host-owned updater and updated last-check timestamp",
     "fix: shared updater with one icon title and scoped New badge (#5)",
-    "feat: branded Material3 Expressive updater screen (#4)",
-    "feat: consistent shared updater page and New badges (#3)"
+    "feat: branded Material3 Expressive updater screen (#4)"
   ]
 }
