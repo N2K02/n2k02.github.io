@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-24-run-168",
-  "versionName": "7.5",
-  "versionCode": 100168,
-  "apkName": "SpeedTester-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-24-run-168/SpeedTester-7.5.apk",
+  "tag": "speedtester-experimental-pr-25-run-170",
+  "versionName": "7.6",
+  "versionCode": 100170,
+  "apkName": "SpeedTester-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-25-run-170/SpeedTester-7.6.apk",
   "apkSize": 2979528,
-  "sha256": "4cecb402e04ed097e7dfd5cef2e9fd05c00895ff321d6b027464aaf6c973aff9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-24-run-168",
+  "sha256": "a0519bf638bb4baca4a3f2fccf1adfaf9b4f93d21b6b2fabd2afe994d6e217a8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-25-run-170",
   "notes": [
-    "build: adopt Material3 Expressive updater 0.1.17",
-    "feat(ui): standardize branded Expressive update destination without duplicate sections"
+    "build: use latest shared single-title and badge-scoped updater"
   ]
 }
