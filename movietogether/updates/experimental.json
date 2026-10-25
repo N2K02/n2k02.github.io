@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-9-run-32",
-  "versionName": "1.5-experimental.32",
-  "versionCode": 100032,
-  "apkName": "MovieTogether-PR-9-79d0253.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-9-run-32/MovieTogether-PR-9-79d0253.apk",
+  "tag": "movietogether-experimental-pr-9-run-33",
+  "versionName": "1.5-experimental.33",
+  "versionCode": 100033,
+  "apkName": "MovieTogether-PR-9-c0dd394.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-9-run-33/MovieTogether-PR-9-c0dd394.apk",
   "apkSize": 13195141,
-  "sha256": "10378b52ae17b08fcaaa32f1832eb5e8a7ab130c68c76e72542b5b9330274c51",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-9-run-32",
+  "sha256": "5bc4f36ec962eb3e085c65241e02573040cec39b038ff9861526a58dbca9fd99",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-9-run-33",
   "notes": [
+    "Use mRadio Settings section alignment and consistent updates-only row",
     "Require updater 0.1.19+ on every Android PR and push",
     "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
     "Test compact shared updater version and host-owned header",
@@ -17,7 +18,6 @@
     "Unify all top bars with page icon/title and app icon/name",
     "fix: shared updater with one icon title and scoped New badge (#8)",
     "feat: expressive unified updater page and launcher icon (#7)",
-    "feat: shared updater page with New badges (#6)",
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: shared updater page with New badges (#6)"
   ]
 }
