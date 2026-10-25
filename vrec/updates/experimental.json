@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-39-run-252",
+  "tag": "vrec-experimental-pr-39-run-256",
   "versionName": "4.5",
-  "versionCode": 100252,
+  "versionCode": 100256,
   "apkName": "VREC-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-252/VREC-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-256/VREC-4.5.apk",
   "apkSize": 34712684,
-  "sha256": "047779c2452d25b2f8cba763d02df27c498b0b22d0b99d9de1bb84a2c3baa4d0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-252",
+  "sha256": "8a81c7d581663ff8ea1ff81983fa35144ea2ee9b19a4e7026c400462d7f93c24",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-256",
   "notes": [
+    "Test VREC ADB Home connect/health and Experimental-only setup checklist",
+    "VREC: remove duplicated helper-health summary from Experimental connection card",
+    "VREC: show verified helper health and explicit Connect TCP action on ADB-mode Home",
+    "Keep VREC ADB setup checklist only inside Experimental, simplify inactive mode",
     "Fix Quit regression test for VREC's data-driven Settings bottom tab",
     "Prevent regressions removing bottom Quit or restoring old settings modal",
     "VREC: put Quit beside Settings and safely disable recording and overlays",
     "Match VREC regression test to data-driven recording Settings rows",
     "Test Settings row alignment, diagnostic grouping and update placement",
-    "Make VREC Settings match mRadio aligned list rows and diagnostic/update footer",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Keep VREC Home/Settings main navigation and nest secondary screens in Settings",
-    "Keep VREC Home/Settings main navigation and nest secondary screens in Settings"
+    "Make VREC Settings match mRadio aligned list rows and diagnostic/update footer"
   ]
 }
