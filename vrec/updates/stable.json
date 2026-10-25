@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v4.1",
-  "versionName": "4.1",
-  "versionCode": 100209,
-  "apkName": "VREC-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.1/VREC-4.1.apk",
-  "apkSize": 34677080,
-  "sha256": "95b3fbc39cdc1d128ea84a663b41ebb812355b81c4f1853d9519a1a6c2e3dff5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.1",
+  "tag": "vrec-v4.2",
+  "versionName": "4.2",
+  "versionCode": 100213,
+  "apkName": "VREC-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.2/VREC-4.2.apk",
+  "apkSize": 34693464,
+  "sha256": "ab1c401694b4f3618a449f3f911088c0d2f339bbcdb7d4de4f2d0ad8f20cdd48",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.2",
   "notes": [
-    "feat: consistent N2K02 updater page and New badges (#35)"
+    "feat: M3 Expressive updater and branded About & updates title (#37)"
   ]
 }
