@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-12-run-79",
-  "versionName": "3.6",
-  "versionCode": 100079,
-  "apkName": "PixelCast-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-12-run-79/PixelCast-3.6.apk",
+  "tag": "pixelcast-experimental-pr-13-run-81",
+  "versionName": "3.7",
+  "versionCode": 100081,
+  "apkName": "PixelCast-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-13-run-81/PixelCast-3.7.apk",
   "apkSize": 2183136,
-  "sha256": "02b4041c9dad9e69dc0f45a52950e4556352f0835428dce23197137445ad9ede",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-12-run-79",
+  "sha256": "63ed086a1d47addc919d6786a89b71483d0c7815875f947e23b83252ecbb9409",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-13-run-81",
   "notes": [
+    "feat(updater): show shared New indicator on Settings and update submenu",
+    "feat(updater): use complete shared About & updates page",
     "feat(ui): show shared New badge on settings navigation and update submenu",
     "fix: share foreground update refresh and retain controller on Activity recreation",
     "build: consume shared updater for consistent New badges"
