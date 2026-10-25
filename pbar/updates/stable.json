@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v4.9",
-  "versionName": "4.9",
-  "versionCode": 100116,
-  "apkName": "PBar-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v4.9/PBar-4.9.apk",
+  "tag": "pbar-v5.0",
+  "versionName": "5.0",
+  "versionCode": 100118,
+  "apkName": "PBar-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.0/PBar-5.0.apk",
   "apkSize": 13326314,
-  "sha256": "680b35c81ebdf3a8802d383f129e4ff2b26a5e546065c8dd47350a83882a5044",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v4.9",
+  "sha256": "92480133dd92c92008363aba3bc970003a345c0c80ea505ca7540d339801d30d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.0",
   "notes": [
-    "feat: compact animated updater page and real app-icon title (#40)"
+    "fix: shared updater with one icon title and scoped New badge (#41)"
   ]
 }
