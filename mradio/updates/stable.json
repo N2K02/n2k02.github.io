@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v4.8-build-277",
-  "versionName": "4.8",
-  "versionCode": 100277,
-  "apkName": "MRadio-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.8-build-277/MRadio-4.8.apk",
+  "tag": "mradio-v4.9-build-279",
+  "versionName": "4.9",
+  "versionCode": 100279,
+  "apkName": "MRadio-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v4.9-build-279/MRadio-4.9.apk",
   "apkSize": 2827163,
-  "sha256": "febddfb447627ccb0258b7590e9bc3ab9bee86c55db7597bafe9ada3c589caad",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.8-build-277",
+  "sha256": "86759789c7e40418e4308320d1bac277faa6ee0af7b2f471a1b460aebedb619b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v4.9-build-279",
   "notes": [
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: shared updater page with New badges (#21)"
   ]
 }
