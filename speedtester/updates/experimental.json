@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-25-run-170",
-  "versionName": "7.6",
-  "versionCode": 100170,
-  "apkName": "SpeedTester-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-25-run-170/SpeedTester-7.6.apk",
+  "tag": "speedtester-experimental-pr-26-run-172",
+  "versionName": "7.7",
+  "versionCode": 100172,
+  "apkName": "SpeedTester-7.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-26-run-172/SpeedTester-7.7.apk",
   "apkSize": 2979528,
-  "sha256": "a0519bf638bb4baca4a3f2fccf1adfaf9b4f93d21b6b2fabd2afe994d6e217a8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-25-run-170",
+  "sha256": "a193552afd34ed895b4def2dd3c0338fb5fc19b88b8cf8023e6c5377d9b23acc",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-26-run-172",
   "notes": [
-    "build: use latest shared single-title and badge-scoped updater"
+    "feat(ui): host-owned SpeedTester page titles, no nested About title or custom back row",
+    "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
