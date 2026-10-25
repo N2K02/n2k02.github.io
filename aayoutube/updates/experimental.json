@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-20-run-118",
-  "versionName": "6.2",
-  "versionCode": 100118,
-  "apkName": "AAYoutube-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-20-run-118/AAYoutube-6.2.apk",
+  "tag": "aayoutube-experimental-pr-21-run-120",
+  "versionName": "6.3",
+  "versionCode": 100120,
+  "apkName": "AAYoutube-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-21-run-120/AAYoutube-6.3.apk",
   "apkSize": 1864280,
-  "sha256": "06d28c7cffc4c347302ed4c8ac36de16ee461bcc2c415682d8651eb22a3c6006",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-20-run-118",
+  "sha256": "271cd7042c6a7c4786e030fe1b05b026f2b4533d98a26e2af712449932899441",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-21-run-120",
   "notes": [
-    "build: use latest shared single-title and badge-scoped updater"
+    "feat(ui): AAYoutube host provides one branded About & updates app bar",
+    "build(experimental): use compact host-owned updater and updated last-check timestamp"
   ]
 }
