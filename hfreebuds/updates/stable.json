@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v4.5",
-  "versionName": "4.5",
-  "versionCode": 100092,
-  "apkName": "HFreebuds-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.5/HFreebuds-4.5.apk",
+  "tag": "hfreebuds-v4.6",
+  "versionName": "4.6",
+  "versionCode": 100094,
+  "apkName": "HFreebuds-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.6/HFreebuds-4.6.apk",
   "apkSize": 2383502,
-  "sha256": "a644028fcbaf0c372c1aa2e38a5f2516060075c8c77212b10cd947c1b2cdcd81",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.5",
+  "sha256": "b625472c99e8703ec9cd8bdcbc4f2cc639b9fa83eff1ae1e667535346677d160",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.6",
   "notes": [
-    "feat: M3 Expressive updater and branded About & updates title (#14)"
+    "fix: single updater title, navigation-only badges and usable scroll (#15)"
   ]
 }
