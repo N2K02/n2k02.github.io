@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-19-run-290",
-  "versionName": "5.2-experimental.290",
-  "versionCode": 100290,
-  "apkName": "MRadio-PR-19-c561c07.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-290/MRadio-PR-19-c561c07.apk",
+  "tag": "mradio-exp-pr-19-run-291",
+  "versionName": "5.2-experimental.291",
+  "versionCode": 100291,
+  "apkName": "MRadio-PR-19-a314555.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-291/MRadio-PR-19-a314555.apk",
   "apkSize": 2827163,
-  "sha256": "209a2fdf94502ed0154c625068a9e47bca69c170b4a249cf013a7c05484a97d5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-290",
+  "sha256": "d371cc607573ff9899e679bab7c1e2d2ddd30b0083c196c3a1baa4e8efdaf701",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-291",
   "notes": [
+    "Test mRadio-style page icon and right-side brand header contract",
     "Keep icon/page and app brand on every mRadio Settings subsection",
     "build(experimental): use compact host-owned updater and updated last-check timestamp",
     "fix(experimental): use one shared badge state on Settings navigation",
@@ -17,7 +18,6 @@
     "fix(experimental): keep PR #19 on shared single-title updater 0.1.18",
     "fix(experimental): keep PR #19 on shared single-title updater 0.1.18",
     "fix(experimental): unify update title, compact Settings header and remove duplicate update controls",
-    "fix(experimental): remove double Settings app bars from PR #19",
-    "fix(ui): set rounded Material3 dropdown surface shapes explicitly"
+    "fix(experimental): remove double Settings app bars from PR #19"
   ]
 }
