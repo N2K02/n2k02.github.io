@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "pbar-v5.0",
-  "versionName": "5.0",
-  "versionCode": 100118,
-  "apkName": "PBar-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.0/PBar-5.0.apk",
+  "tag": "pbar-v5.1",
+  "versionName": "5.1",
+  "versionCode": 100136,
+  "apkName": "PBar-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.1/PBar-5.1.apk",
   "apkSize": 13326314,
-  "sha256": "92480133dd92c92008363aba3bc970003a345c0c80ea505ca7540d339801d30d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.0",
+  "sha256": "1a1e47d1f46d3ebf88a5ae8fe75742b1c6d3dd95b48769c6467827e60a2fbe7a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.1",
   "notes": [
-    "fix: shared updater with one icon title and scoped New badge (#41)"
+    "Test shared New badge visibility and HFreebuds tile exception",
+    "Keep update New badges visible on Settings and update destinations",
+    "PBar: place portrait progress bar at real edges or detected status/navigation insets",
+    "PBar: expose four portrait positions and only left/right landscape, including per-app overrides",
+    "Define portrait system-bar-safe positions and remove legacy landscape Centre",
+    "Define portrait system-bar-safe positions and remove legacy landscape Centre",
+    "Test Settings row alignment, diagnostic grouping and update placement",
+    "Align Settings rows with mRadio and place diagnostics and updates last",
+    "Guard bottom-bar Quit placement and app-specific shutdown semantics",
+    "Move Quit into bottom navigation after Settings and retain existing stop behavior"
   ]
 }
