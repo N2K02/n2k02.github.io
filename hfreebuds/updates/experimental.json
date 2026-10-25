@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-16-run-108",
+  "tag": "hfreebuds-experimental-pr-16-run-109",
   "versionName": "4.7",
-  "versionCode": 100108,
+  "versionCode": 100109,
   "apkName": "HFreebuds-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-108/HFreebuds-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-109/HFreebuds-4.7.apk",
   "apkSize": 2383502,
-  "sha256": "cdda565b2624343863271c66407af2da4f2bb381daa32911d0e49f78e6238c86",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-108",
+  "sha256": "2c60a69c63414112a8c99087573c7148d8384c1ff507b1ada52d4906608da981",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-109",
   "notes": [
+    "Add regression test protecting app-specific Quit navigation",
     "Test HFreebuds labeled Home actions below the branded title bar",
     "Put labeled Choose earbuds and Quit buttons below HFreebuds home title bar",
     "Require updater 0.1.19+ on every Android PR and push",
@@ -17,7 +18,6 @@
     "Restore HFreebuds in-page Back button for tile navigation",
     "HFreebuds: restore Home shortcut tiles and remove bottom navigation",
     "Use the compact mRadio-height header on all pages and subpages",
-    "Expose HFreebuds secondary pages as Settings submenus",
-    "Add persistent Home/Settings navigation and move HFreebuds secondary pages to Settings"
+    "Expose HFreebuds secondary pages as Settings submenus"
   ]
 }
