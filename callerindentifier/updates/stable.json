@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "callerindentifier-v1.3-build-38",
-  "versionName": "1.3",
-  "versionCode": 100038,
-  "apkName": "CallerIndentifier-1.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-v1.3-build-38/CallerIndentifier-1.3.apk",
-  "apkSize": 13556754,
-  "sha256": "4e1f98b0799eb30bc50692b31aa7f4cf3835ae51c1825ed9b3b9e359237c590d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-v1.3-build-38",
+  "tag": "callerindentifier-v1.4-build-40",
+  "versionName": "1.4",
+  "versionCode": 100040,
+  "apkName": "CallerIndentifier-1.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-v1.4-build-40/CallerIndentifier-1.4.apk",
+  "apkSize": 13573138,
+  "sha256": "fadfc818ff5a6874a657d4ed1a1803999d42f39f2fe5dcfe451a039c7a4a3c65",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-v1.4-build-40",
   "notes": [
+    "feat: branded Material3 Expressive updater screen (#4)",
     "feat: consistent shared updater page and New badges (#3)",
     "feat: shared New badges across Settings and About & updates",
     "fix(ui): add missing Compose setValue delegate import for Settings navigation",
@@ -17,7 +18,6 @@
     "feat(search): 27 free no-key phone number search links with distinct source attribution",
     "test(docs): verify provider-source attribution and PhoneInfoga JSON parsing",
     "feat(settings): configure optional PhoneInfoga HTTPS server",
-    "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results",
-    "feat(search): optional PhoneInfoga v2 HTTPS metadata and search suggestions"
+    "feat(home): combine sourced Google, PhoneInfoga, Libphonenumber and OmkarCloud results"
   ]
 }
