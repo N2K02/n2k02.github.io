@@ -1,16 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-23-run-166",
-  "versionName": "7.4",
-  "versionCode": 100166,
-  "apkName": "SpeedTester-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-23-run-166/SpeedTester-7.4.apk",
-  "apkSize": 2897608,
-  "sha256": "30dfb8af5152d01c10e5727ac4a05d6853cbecd0dda05678b55422f332150d8b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-23-run-166",
+  "tag": "speedtester-experimental-pr-24-run-168",
+  "versionName": "7.5",
+  "versionCode": 100168,
+  "apkName": "SpeedTester-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-24-run-168/SpeedTester-7.5.apk",
+  "apkSize": 2979528,
+  "sha256": "4cecb402e04ed097e7dfd5cef2e9fd05c00895ff321d6b027464aaf6c973aff9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-24-run-168",
   "notes": [
-    "feat(ui): show shared New on menu and update submenu",
-    "fix: share updater foreground refresh and preserve controller",
-    "build: use shared updater 0.1.16 for reusable New badge UI"
+    "build: adopt Material3 Expressive updater 0.1.17",
+    "feat(ui): standardize branded Expressive update destination without duplicate sections"
   ]
 }
