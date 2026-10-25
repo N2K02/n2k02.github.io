@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.3-build-303",
-  "versionName": "5.3",
-  "versionCode": 100303,
-  "apkName": "MRadio-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.3-build-303/MRadio-5.3.apk",
+  "tag": "mradio-v5.4-build-306",
+  "versionName": "5.4",
+  "versionCode": 100306,
+  "apkName": "MRadio-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.4-build-306/MRadio-5.4.apk",
   "apkSize": 2827163,
-  "sha256": "2da3c47be42bf5a181f3e96cb0d1bce20b64ce59df8741c3ce8869522687020e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.3-build-303",
+  "sha256": "7550316274d690164c3439c008b0db711e2134b8d2e5b26275e4d7bf495a5510",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.4-build-306",
   "notes": [
-    "Add regression test protecting app-specific Quit navigation",
-    "Protect mRadio Settings menu as visual reference for Android apps",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Update mRadio header regression test for single host-owned bar",
-    "Keep long Settings page labels from colliding with mRadio app logo",
-    "Make header regression test robust across Gradle working directories",
-    "Test mRadio single top header contract across Settings pages",
-    "Fix Kotlin visibility of hoisted SettingsDestination header state",
-    "Pin all mRadio page titles and logos to one shared top bar"
+    "Fix shared stream player and prevent duplicate favourites (#25)"
   ]
 }
