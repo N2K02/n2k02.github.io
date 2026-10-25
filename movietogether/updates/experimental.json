@@ -1,23 +1,22 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-4-run-27",
-  "versionName": "1.5-experimental.27",
-  "versionCode": 100027,
-  "apkName": "MovieTogether-PR-4-73ea56b.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-4-run-27/MovieTogether-PR-4-73ea56b.apk",
-  "apkSize": 18438103,
-  "sha256": "9d38de876ef4820b908872a3a7bc549813705bc1e7297ae7758998a09644bb4e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-4-run-27",
+  "tag": "movietogether-experimental-pr-9-run-28",
+  "versionName": "1.5-experimental.28",
+  "versionCode": 100028,
+  "apkName": "MovieTogether-PR-9-0bd746f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-9-run-28/MovieTogether-PR-9-0bd746f.apk",
+  "apkSize": 13195141,
+  "sha256": "920b5cc5d91194e032943e87888abfba1edb8c37e81d694ad22797a0fd7b7d7d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-9-run-28",
   "notes": [
-    "build(experimental): use compact host-owned updater and updated last-check timestamp",
-    "fix(experimental): use shared updater pending state for consistent recovery badges",
+    "Test mRadio-style page icon and right-side brand header contract",
+    "Unify all top bars with page icon/title and app icon/name",
     "fix: shared updater with one icon title and scoped New badge (#8)",
-    "sync(experimental): retain latest main updater navigation and foreground lifecycle",
-    "build(experimental): keep updater at 0.1.18 and avoid reverting unified UI",
-    "fix(experimental): preserve watch party while adopting single updater title and scoped badges",
     "feat: expressive unified updater page and launcher icon (#7)",
     "feat: shared updater page with New badges (#6)",
     "feat: consistent New update badges in Settings and submenu",
-    "docs: clarify Firebase room discovery with embedded video streaming"
+    "Use shared N2K02 theme and updater UI (#2)",
+    "Bootstrap MovieTogether with signed manifest updater (#1)",
+    "Add project README and future APK release links"
   ]
 }
