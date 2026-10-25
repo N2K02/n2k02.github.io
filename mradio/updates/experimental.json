@@ -1,16 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-24-run-284",
-  "versionName": "5.1-experimental.284",
-  "versionCode": 100284,
-  "apkName": "MRadio-PR-24-71394f9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-24-run-284/MRadio-PR-24-71394f9.apk",
+  "tag": "mradio-exp-pr-19-run-285",
+  "versionName": "5.1-experimental.285",
+  "versionCode": 100285,
+  "apkName": "MRadio-PR-19-f1994f3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-285/MRadio-PR-19-f1994f3.apk",
   "apkSize": 2827163,
-  "sha256": "b67dffee92086c4698309c5bae116c1475daa15eb5a4c7831c49f1ac49b465a1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-24-run-284",
+  "sha256": "daecfc6d45a39458f51faaa6bbba656c7154aa0d4d36ee800d97910aa0e0aee1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-285",
   "notes": [
-    "build: include single-title and badge-scoped shared updater 0.1.18",
-    "fix(settings): show a single compact app bar with MRadio branding",
-    "fix(mradio): hide parent Settings header when nested Settings owns app bar"
+    "fix(experimental): remove double Settings app bars from PR #19",
+    "fix(ui): set rounded Material3 dropdown surface shapes explicitly",
+    "fix: use opaque compressed share tokens and correct nullable Intent handling",
+    "feat: share playable HTTPS MRadio links with Android App Links",
+    "test: cover shared stream and deep-link URL parsing",
+    "feat: add share text URL extraction utility",
+    "fix: parse shared HTTP streams and app deep links correctly"
   ]
 }
