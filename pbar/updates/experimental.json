@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-41-run-117",
-  "versionName": "5.0",
-  "versionCode": 100117,
-  "apkName": "PBar-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-41-run-117/PBar-5.0.apk",
+  "tag": "pbar-experimental-pr-42-run-119",
+  "versionName": "5.1",
+  "versionCode": 100119,
+  "apkName": "PBar-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-42-run-119/PBar-5.1.apk",
   "apkSize": 13326314,
-  "sha256": "05bd6d83d82da236d32a4dc481af27ce44cfab3e3adda7c63d9a4e391225117b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-41-run-117",
+  "sha256": "bab502db45b663249bfdbac977343c60792d356376720adec2f4f6b440671060",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-42-run-119",
   "notes": [
-    "build: use latest shared single-title and badge-scoped updater"
+    "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
