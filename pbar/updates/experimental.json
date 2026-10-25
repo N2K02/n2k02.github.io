@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-42-run-133",
+  "tag": "pbar-experimental-pr-42-run-134",
   "versionName": "5.1",
-  "versionCode": 100133,
+  "versionCode": 100134,
   "apkName": "PBar-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-42-run-133/PBar-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-42-run-134/PBar-5.1.apk",
   "apkSize": 13326314,
-  "sha256": "37325aad17b5d7e0d6da944ede82d933773dab007acb0ac6779c55b57b9e0371",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-42-run-133",
+  "sha256": "4d72b9664f8aa2659f432df2163c0a15a449c536b631e84ea1e6c6e41577cc6d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-42-run-134",
   "notes": [
+    "Keep update New badges visible on Settings and update destinations",
     "PBar: place portrait progress bar at real edges or detected status/navigation insets",
     "PBar: expose four portrait positions and only left/right landscape, including per-app overrides",
     "Define portrait system-bar-safe positions and remove legacy landscape Centre",
@@ -17,7 +18,6 @@
     "Align Settings rows with mRadio and place diagnostics and updates last",
     "Guard bottom-bar Quit placement and app-specific shutdown semantics",
     "Move Quit into bottom navigation after Settings and retain existing stop behavior",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build"
+    "Require updater 0.1.19+ on every Android PR and push"
   ]
 }
