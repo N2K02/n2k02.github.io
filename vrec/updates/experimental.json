@@ -1,16 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-36-run-211",
+  "tag": "vrec-experimental-pr-37-run-212",
   "versionName": "4.2",
-  "versionCode": 100211,
+  "versionCode": 100212,
   "apkName": "VREC-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-36-run-211/VREC-4.2.apk",
-  "apkSize": 34677088,
-  "sha256": "843eb431cd979e85a88818e62431f9032b9c5622d04d9e8d9617dc6eb1acf4b9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-36-run-211",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-37-run-212/VREC-4.2.apk",
+  "apkSize": 34693468,
+  "sha256": "4e23921dff4f40b98f1f29b04d139b6a15faa2a2547e95a99ad7dd1d3437d57d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-37-run-212",
   "notes": [
-    "Retain unrelated main-branch updater UI changes",
-    "Preserve completed recording imports and avoid implicit permission changes on recovery",
-    "Center recordings empty state and auto-recover previously authorized ADB helper"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): use the real app icon in VREC update page heading"
   ]
 }
