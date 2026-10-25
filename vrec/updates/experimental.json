@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-37-run-212",
-  "versionName": "4.2",
-  "versionCode": 100212,
-  "apkName": "VREC-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-37-run-212/VREC-4.2.apk",
-  "apkSize": 34693468,
-  "sha256": "4e23921dff4f40b98f1f29b04d139b6a15faa2a2547e95a99ad7dd1d3437d57d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-37-run-212",
+  "tag": "vrec-experimental-pr-38-run-215",
+  "versionName": "4.4",
+  "versionCode": 100215,
+  "apkName": "VREC-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-38-run-215/VREC-4.4.apk",
+  "apkSize": 34709852,
+  "sha256": "f68b199689427e7a68b03ea62fdee51c711ece13acc4d7c7cef55ccfa170bacb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-38-run-215",
   "notes": [
-    "build: consume M3 Expressive updater page 0.1.17",
-    "feat(ui): use the real app icon in VREC update page heading"
+    "build: update shared updater for single title, icon and navigation-only badges"
   ]
 }
