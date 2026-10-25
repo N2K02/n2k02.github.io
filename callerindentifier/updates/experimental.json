@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-6-run-51",
-  "versionName": "1.5-experimental.51",
-  "versionCode": 100051,
-  "apkName": "CallerIndentifier-PR-6-b5268b5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-51/CallerIndentifier-PR-6-b5268b5.apk",
-  "apkSize": 13573138,
-  "sha256": "ca4da67ebff7d5dc2d461dbbb6be30715d623bd3fb5f5745ba3e601bec8f43e4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-51",
+  "tag": "callerindentifier-exp-pr-6-run-54",
+  "versionName": "1.5-experimental.54",
+  "versionCode": 100054,
+  "apkName": "CallerIndentifier-PR-6-cd6c533.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-6-run-54/CallerIndentifier-PR-6-cd6c533.apk",
+  "apkSize": 13556754,
+  "sha256": "a9c437f82e47fed442b5840c8b64af74940bb9d6251ff13b8bfb6861cfdb5da9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-6-run-54",
   "notes": [
+    "Prevent regressions removing bottom Quit or restoring old settings modal",
+    "CallerIdentifier: add Quit beside Settings and close app task",
+    "CallerIdentifier: add Quit beside Settings and close app task",
     "Test Settings row alignment, diagnostic grouping and update placement",
     "Align Settings rows with mRadio and place diagnostics and updates last",
     "Require updater 0.1.19+ on every Android PR and push",
     "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
     "Remove CallerIdentifier nested Scaffold top inset for consistent header alignment",
     "Move call history into Settings; keep Home and Settings main navigation",
-    "Move call history into Settings; keep Home and Settings main navigation",
-    "Move call history into Settings; keep Home and Settings main navigation",
-    "Test mRadio-style page icon and right-side brand header contract",
-    "Show one caller page header with brand on nested Settings pages"
+    "Move call history into Settings; keep Home and Settings main navigation"
   ]
 }
