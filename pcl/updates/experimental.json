@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-61-run-266",
+  "tag": "pcl-experimental-pr-61-run-267",
   "versionName": "5.7",
-  "versionCode": 100266,
+  "versionCode": 100267,
   "apkName": "PCL-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-61-run-266/PCL-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-61-run-267/PCL-5.7.apk",
   "apkSize": 19870005,
-  "sha256": "1ea04422eac4ca513bb042c7edfd3f8099c495086021d2baf2541a6f284b07fc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-61-run-266",
+  "sha256": "b9061adc351d7e350d46ea43beb2870c14a3187ac867a90f7e1747d08ad4a106",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-61-run-267",
   "notes": [
+    "Require every permission before PCL can be used",
     "Log where the caller number comes from (or why it's missing)",
     "Fix missing caller numbers and names on the Remote"
   ]
