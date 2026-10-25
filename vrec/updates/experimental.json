@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-39-run-256",
+  "tag": "vrec-experimental-pr-39-run-258",
   "versionName": "4.5",
-  "versionCode": 100256,
+  "versionCode": 100258,
   "apkName": "VREC-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-256/VREC-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-39-run-258/VREC-4.5.apk",
   "apkSize": 34712684,
-  "sha256": "8a81c7d581663ff8ea1ff81983fa35144ea2ee9b19a4e7026c400462d7f93c24",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-256",
+  "sha256": "4c8e6f46e68d69f9ba333217f00fabe210a4061b25acf17f54079e0a5a15ae5e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-39-run-258",
   "notes": [
+    "Test second-position Recordings tab and removal of VREC Home Explore shortcuts",
+    "Move VREC Recordings into second bottom tab and remove redundant Home Explore shortcuts",
     "Test VREC ADB Home connect/health and Experimental-only setup checklist",
     "VREC: remove duplicated helper-health summary from Experimental connection card",
     "VREC: show verified helper health and explicit Connect TCP action on ADB-mode Home",
@@ -16,8 +18,6 @@
     "Fix Quit regression test for VREC's data-driven Settings bottom tab",
     "Prevent regressions removing bottom Quit or restoring old settings modal",
     "VREC: put Quit beside Settings and safely disable recording and overlays",
-    "Match VREC regression test to data-driven recording Settings rows",
-    "Test Settings row alignment, diagnostic grouping and update placement",
-    "Make VREC Settings match mRadio aligned list rows and diagnostic/update footer"
+    "Match VREC regression test to data-driven recording Settings rows"
   ]
 }
