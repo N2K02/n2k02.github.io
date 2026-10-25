@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-15-run-85",
-  "versionName": "3.9",
-  "versionCode": 100085,
-  "apkName": "PixelCast-3.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-15-run-85/PixelCast-3.9.apk",
-  "apkSize": 2232400,
-  "sha256": "f182e391765a28f32de1080a40e31081deee438c37a600c22952cfcd65cb1ab0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-15-run-85",
+  "tag": "pixelcast-experimental-pr-16-run-87",
+  "versionName": "4.0",
+  "versionCode": 100087,
+  "apkName": "PixelCast-4.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-16-run-87/PixelCast-4.0.apk",
+  "apkSize": 2216016,
+  "sha256": "38fa2a50fb2eaa346691c5b527f801119e6d6d603dd00ca09d64ecf2b3003d1f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-16-run-87",
   "notes": [
-    "build: update shared updater for single title, icon and navigation-only badges"
+    "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
