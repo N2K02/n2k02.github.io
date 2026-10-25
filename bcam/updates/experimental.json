@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-15-run-120",
-  "versionName": "3.8",
-  "versionCode": 100120,
-  "apkName": "BCam-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-15-run-120/BCam-3.8.apk",
+  "tag": "bcam-experimental-pr-16-run-122",
+  "versionName": "3.9",
+  "versionCode": 100122,
+  "apkName": "BCam-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-16-run-122/BCam-3.9.apk",
   "apkSize": 1200040,
-  "sha256": "b52fa10ba47be9ca85bca07124a84bddfe721b3584c67619237bff4c45414cfd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-15-run-120",
+  "sha256": "0906f12455693381dcda9e27b099f65a44480ceea0babe5de112a68598d5e1d4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-16-run-122",
   "notes": [
-    "fix(updater): give BCam update screen its own scroll viewport and safe bottom inset",
-    "fix(ui): New badge only on Settings and About & updates; remove duplicate title",
-    "build: update shared updater for single title, icon and navigation-only badges"
+    "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
