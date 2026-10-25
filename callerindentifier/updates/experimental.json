@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "callerindentifier-exp-pr-2-run-35",
-  "versionName": "1.1-experimental.35",
-  "versionCode": 100035,
-  "apkName": "CallerIndentifier-PR-2-1789d6b.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-2-run-35/CallerIndentifier-PR-2-1789d6b.apk",
+  "tag": "callerindentifier-exp-pr-3-run-37",
+  "versionName": "1.2-experimental.37",
+  "versionCode": 100037,
+  "apkName": "CallerIndentifier-PR-3-456b5f8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/callerindentifier-exp-pr-3-run-37/CallerIndentifier-PR-3-456b5f8.apk",
   "apkSize": 13556754,
-  "sha256": "05cdba897a39de656b670efdee0d32d00c27c69d99b9de80c47954e6ea24ac97",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-2-run-35",
+  "sha256": "5b44e77a2bedee756f4bb2518df16959c5410451af6fecfd0c4bc8db3bc6c05d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/callerindentifier-exp-pr-3-run-37",
   "notes": [
+    "feat: shared New badges across Settings and About & updates",
     "fix: pass shared update status to settings submenu",
     "fix(ui): import shared pending update state extension",
     "feat(ui): share New badges across Settings and About & updates",
@@ -17,7 +18,6 @@
     "fix: share updater foreground refresh and preserve controller",
     "build: use shared updater 0.1.16 for reusable New badge UI",
     "fix(ui): add missing Compose setValue delegate import for Settings navigation",
-    "feat(ui): match MRadio page header, app logo, persistent navigation and settings pages",
-    "feat(search): replace API setup with 27 free browser number searches and source badges"
+    "feat(ui): match MRadio page header, app logo, persistent navigation and settings pages"
   ]
 }
