@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-42-run-119",
+  "tag": "pbar-experimental-pr-42-run-120",
   "versionName": "5.1",
-  "versionCode": 100119,
+  "versionCode": 100120,
   "apkName": "PBar-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-42-run-119/PBar-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-42-run-120/PBar-5.1.apk",
   "apkSize": 13326314,
-  "sha256": "bab502db45b663249bfdbac977343c60792d356376720adec2f4f6b440671060",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-42-run-119",
+  "sha256": "5c4f82111198995e7ad950e794262d9f47e6df4f0216910f48fdeed5545d48e3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-42-run-120",
   "notes": [
+    "Make every page header show its own icon and branded app identity",
     "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
   ]
 }
