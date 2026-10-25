@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "tag": "movietogether-v1.6-build-39",
-  "versionName": "1.6",
-  "versionCode": 100039,
-  "apkName": "MovieTogether-1.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.6-build-39/MovieTogether-1.6.apk",
-  "apkSize": 13195141,
-  "sha256": "fb0a1cf0ad5a90e8f945227dbdcf191856ba2527980366d68a8d6658b57e4e53",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.6-build-39",
+  "tag": "movietogether-v1.7-build-45",
+  "versionName": "1.7",
+  "versionCode": 100045,
+  "apkName": "MovieTogether-1.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.7-build-45/MovieTogether-1.7.apk",
+  "apkSize": 18470871,
+  "sha256": "6f9b67f289683f50c8c7bbe1075f0fbe5dae20dba38ef9fde16e3593a1b78bcc",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.7-build-45",
   "notes": [
+    "Add minimized playback PiP and Android conversation chat bubbles",
+    "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
+    "Add shared pause attribution, in-player chat bubble and leave/rejoin flows",
+    "Align MovieTogether header brand with UI regression contract",
     "Fix Android CI compile/lint issue in Quit navigation",
     "Prevent regressions removing bottom Quit or restoring old settings modal",
     "Capture MovieTogether activity in composition for safe Quit callback",
     "MovieTogether: add bottom Quit beside Settings and end app task",
     "Test Settings row alignment, diagnostic grouping and update placement",
-    "Use mRadio Settings section alignment and consistent updates-only row",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Test compact shared updater version and host-owned header",
-    "Use compact shared n2k02updater 0.1.19 in experimental app"
+    "Use mRadio Settings section alignment and consistent updates-only row"
   ]
 }
