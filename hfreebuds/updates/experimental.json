@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-14-run-91",
-  "versionName": "4.5",
-  "versionCode": 100091,
-  "apkName": "HFreebuds-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-14-run-91/HFreebuds-4.5.apk",
+  "tag": "hfreebuds-experimental-pr-15-run-93",
+  "versionName": "4.6",
+  "versionCode": 100093,
+  "apkName": "HFreebuds-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-15-run-93/HFreebuds-4.6.apk",
   "apkSize": 2383502,
-  "sha256": "fa1b2d69d4d9e755b94f3b8c9a00b892c7bf058892b01ea651368f858943495c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-14-run-91",
+  "sha256": "a10713d6946a12a282e6880f0aee5eee802fbbf6d0309b0fa03e414c6c5ceeea",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-15-run-93",
   "notes": [
-    "build: consume M3 Expressive updater page 0.1.17",
-    "feat(ui): standardize branded Expressive update destination without duplicate sections",
-    "feat(ui): standardize branded Expressive update destination without duplicate sections"
+    "build: update shared updater for single title, icon and navigation-only badges"
   ]
 }
