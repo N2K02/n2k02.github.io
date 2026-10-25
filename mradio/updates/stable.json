@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.0-build-281",
-  "versionName": "5.0",
-  "versionCode": 100281,
-  "apkName": "MRadio-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.0-build-281/MRadio-5.0.apk",
+  "tag": "mradio-v5.1-build-283",
+  "versionName": "5.1",
+  "versionCode": 100283,
+  "apkName": "MRadio-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.1-build-283/MRadio-5.1.apk",
   "apkSize": 2827163,
-  "sha256": "1b7251e28014b027a5a90d7b1ff2bb9f6f9ef0da44ee4f8a89ebafba54b22e2e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.0-build-281",
+  "sha256": "6c3399febbbafface734aa5e56f248071d9ed1c8d71b730904665f6970434a2c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.1-build-283",
   "notes": [
-    "feat: animated M3 Expressive About & updates page (#22)"
+    "refactor(settings): move Connection diagnostics out of About & updates (#23)"
   ]
 }
