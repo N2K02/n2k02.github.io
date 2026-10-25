@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-14-run-83",
-  "versionName": "3.8",
-  "versionCode": 100083,
-  "apkName": "PixelCast-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-14-run-83/PixelCast-3.8.apk",
+  "tag": "pixelcast-experimental-pr-15-run-85",
+  "versionName": "3.9",
+  "versionCode": 100085,
+  "apkName": "PixelCast-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-15-run-85/PixelCast-3.9.apk",
   "apkSize": 2232400,
-  "sha256": "c95897ba737925ede754e10e36a71d570a03eb127488fca87c4fbb6c73a26e3b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-14-run-83",
+  "sha256": "f182e391765a28f32de1080a40e31081deee438c37a600c22952cfcd65cb1ab0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-15-run-85",
   "notes": [
-    "build: consume M3 Expressive updater page 0.1.17",
-    "feat(ui): use app-branded title and remove duplicate update page padding",
-    "feat(ui): use app-branded title and remove duplicate update page padding"
+    "build: update shared updater for single title, icon and navigation-only badges"
   ]
 }
