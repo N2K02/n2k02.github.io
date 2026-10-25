@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-26-run-173",
+  "tag": "speedtester-experimental-pr-26-run-174",
   "versionName": "7.7",
-  "versionCode": 100173,
+  "versionCode": 100174,
   "apkName": "SpeedTester-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-26-run-173/SpeedTester-7.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-26-run-174/SpeedTester-7.7.apk",
   "apkSize": 2979528,
-  "sha256": "6e47b6329e4dfc8ba65569c193e9fab607a0b79bb601bcd85c238d2c515e1b80",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-26-run-173",
+  "sha256": "fa939b40f321123eedcd76cf5478c7b138a310c7afc78f71b514c3d35876d256",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-26-run-174",
   "notes": [
+    "Test mRadio-style page icon and right-side brand header contract",
     "Match mRadio page icon/title and app icon/name header on every page",
     "feat(ui): host-owned SpeedTester page titles, no nested About title or custom back row",
     "build(experimental): adopt compact updater 0.1.19 and reliable last-check timestamp"
