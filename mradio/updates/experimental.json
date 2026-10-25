@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-19-run-289",
-  "versionName": "5.2-experimental.289",
-  "versionCode": 100289,
-  "apkName": "MRadio-PR-19-3b659c1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-289/MRadio-PR-19-3b659c1.apk",
+  "tag": "mradio-exp-pr-19-run-290",
+  "versionName": "5.2-experimental.290",
+  "versionCode": 100290,
+  "apkName": "MRadio-PR-19-c561c07.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-19-run-290/MRadio-PR-19-c561c07.apk",
   "apkSize": 2827163,
-  "sha256": "3a251958fde9e0e05b3740dd06522963d2573d3351924f90a0d527850e7bec22",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-289",
+  "sha256": "209a2fdf94502ed0154c625068a9e47bca69c170b4a249cf013a7c05484a97d5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-19-run-290",
   "notes": [
+    "Keep icon/page and app brand on every mRadio Settings subsection",
     "build(experimental): use compact host-owned updater and updated last-check timestamp",
     "fix(experimental): use one shared badge state on Settings navigation",
     "sync(experimental): common Settings-only badge and foreground updater behavior",
@@ -17,7 +18,6 @@
     "fix(experimental): keep PR #19 on shared single-title updater 0.1.18",
     "fix(experimental): unify update title, compact Settings header and remove duplicate update controls",
     "fix(experimental): remove double Settings app bars from PR #19",
-    "fix(ui): set rounded Material3 dropdown surface shapes explicitly",
-    "fix: use opaque compressed share tokens and correct nullable Intent handling"
+    "fix(ui): set rounded Material3 dropdown surface shapes explicitly"
   ]
 }
