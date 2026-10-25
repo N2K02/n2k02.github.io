@@ -1,17 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-19-run-90",
-  "versionName": "4.0",
-  "versionCode": 100090,
-  "apkName": "NetSpeed-4.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-19-run-90/NetSpeed-4.0.apk",
-  "apkSize": 1207840,
-  "sha256": "a5e89889380da0282d77cbef0a1da9b332dca21df3dbb2840643b94b1e204988",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-19-run-90",
+  "tag": "netspeed-experimental-pr-20-run-92",
+  "versionName": "4.1",
+  "versionCode": 100092,
+  "apkName": "NetSpeed-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-20-run-92/NetSpeed-4.1.apk",
+  "apkSize": 1240608,
+  "sha256": "8925447a14b5e72073bbcaf7bff1f48fb2a6e2e67ea8950101300e91b306e12f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-20-run-92",
   "notes": [
-    "feat(updater): use complete shared About & updates page",
-    "feat(ui): show shared New badge on settings navigation and update submenu",
-    "fix: share foreground update refresh and retain controller on Activity recreation",
-    "build: consume shared updater for consistent New badges"
+    "build: consume M3 Expressive updater page 0.1.17",
+    "feat(ui): use app-branded title and remove duplicate update page padding"
   ]
 }
