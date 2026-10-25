@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-20-run-92",
-  "versionName": "4.1",
-  "versionCode": 100092,
-  "apkName": "NetSpeed-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-20-run-92/NetSpeed-4.1.apk",
+  "tag": "netspeed-experimental-pr-21-run-94",
+  "versionName": "4.2",
+  "versionCode": 100094,
+  "apkName": "NetSpeed-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-21-run-94/NetSpeed-4.2.apk",
   "apkSize": 1240608,
-  "sha256": "8925447a14b5e72073bbcaf7bff1f48fb2a6e2e67ea8950101300e91b306e12f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-20-run-92",
+  "sha256": "dc4d64ca70e1fd619bd7c0d2f5d49d56103238e94491e40827b9ec40d215b050",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-21-run-94",
   "notes": [
-    "build: consume M3 Expressive updater page 0.1.17",
-    "feat(ui): use app-branded title and remove duplicate update page padding"
+    "fix(ui): New badge only on Settings and About & updates; remove duplicate title",
+    "build: update shared updater for single title, icon and navigation-only badges"
   ]
 }
