@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v3.6",
-  "versionName": "3.6",
-  "versionCode": 100080,
-  "apkName": "PixelCast-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.6/PixelCast-3.6.apk",
+  "tag": "pixelcast-v3.7",
+  "versionName": "3.7",
+  "versionCode": 100082,
+  "apkName": "PixelCast-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v3.7/PixelCast-3.7.apk",
   "apkSize": 2183136,
-  "sha256": "895ad101c36337e456c4f75557a903c038f6a7f2a3356d5c3edb883774339753",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.6",
+  "sha256": "352d54d9e6e54a2dfb896378ac01a323d9d744b36ccbe18b1c3806a3f8bd7237",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v3.7",
   "notes": [
-    "feat: consistent New update badges in Settings and submenu"
+    "feat: shared About & updates page and New menu badges (#13)"
   ]
 }
