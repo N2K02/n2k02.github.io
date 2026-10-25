@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v3.6",
-  "versionName": "3.6",
-  "versionCode": 100117,
-  "apkName": "BCam-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.6/BCam-3.6.apk",
-  "apkSize": 1150888,
-  "sha256": "05ca93c69e846ce5a6c50318b7c978221a649998af33772f34f29c4c08c88ef3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.6",
+  "tag": "bcam-v3.7",
+  "versionName": "3.7",
+  "versionCode": 100119,
+  "apkName": "BCam-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v3.7/BCam-3.7.apk",
+  "apkSize": 1200040,
+  "sha256": "98bb707cfd666966cb2ff8bbd6e48bbe1efd85fb536173924a0291829820c0d3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v3.7",
   "notes": [
-    "feat: shared New badges and safe update lifecycle for BCam"
+    "feat: Material 3 Expressive updater page with branded title (#14)"
   ]
 }
