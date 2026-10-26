@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-308",
+  "tag": "vrec-experimental-pr-40-run-313",
   "versionName": "4.6",
-  "versionCode": 100308,
+  "versionCode": 100313,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-308/VREC-4.6.apk",
-  "apkSize": 34714504,
-  "sha256": "4c79ca50e9a6d0bfc6877eebd52f5db76fa419b2c4ec889e32c80c733e2f1769",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-308",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-313/VREC-4.6.apk",
+  "apkSize": 34747340,
+  "sha256": "d70d44533b9d53959910a60e3315bc985dfb4278bde9d6d43ccfe43af40cb3d9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-313",
   "notes": [
+    "Passively await trusted USB host enabling ADB and update dual-bootstrap documentation",
+    "Automatically expand detected wireless pairing and collapse USB directions; keep mDNS alive across Settings",
+    "Prevent reconnect after deliberate ADB disconnect and fix notification permission handoff",
+    "Auto-detect USB or on-device Wireless ADB on first Home launch and expose Shizuku-style code pairing",
+    "Add same-device mDNS wireless debugging discovery, six-digit notification pairing and TLS UID2000 bootstrap",
     "Use actual Termux result bundle, handle callback error codes, and clarify same-device USB limitation",
     "Add optional Termux-backed command console to VRec Home with safe USB ADB boundaries",
     "Update ADB status badge contract tests for actionable USB-bootstrap state",
     "Fix third-party ADB_ENABLED false-negative; surface USB bootstrap prerequisite and log setup outcomes",
-    "Align navigation tests with single Home ADB setup and clear manual retry before helper reattach",
-    "Move USB ADB onboarding to Home; enforce 15s manual authorization retry and simplify diagnostics",
-    "review: verify permission outcomes, polish ADB-first UI, align docs and safety tests",
-    "fix: restore verified UID Home badge and explicit failed connection state",
-    "feat: ADB-only VRec dashboard, verified UID badges and guarded permission bootstrap",
-    "docs: align fallback and architecture guidance with USB-only ADB"
+    "Align navigation tests with single Home ADB setup and clear manual retry before helper reattach"
   ]
 }
