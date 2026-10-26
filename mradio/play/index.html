@@ -76,7 +76,11 @@
   .full .round.primary{width:62px;height:62px}
   #timers .btn{padding:7px 2px}
 }
-</style><style>#heading[role=link]{cursor:pointer}#heading[role=link]:focus-visible{outline:2px solid var(--accent);outline-offset:5px;border-radius:6px}</style></head><body><div class="wrap"><header><h1 id="heading" role="link" tabindex="0" aria-label="Home — N2K02 main website">⌂ Home</h1><a class="brand" href="./" aria-label="mRadio Web Player home">📻 mRadio</a></header><main>
+</style><style>#heading[role=link]{cursor:pointer}#heading[role=link]:focus-visible{outline:2px solid var(--accent);outline-offset:5px;border-radius:6px}</style><style>
+header .brand{display:inline-flex;align-items:center;gap:9px}
+.mradio-mark{display:inline-grid;place-items:center;width:33px;height:33px;border-radius:10px;background:var(--accent);color:#102638;font-size:23px;line-height:1}
+.mradio-brand-accent{color:var(--accent)}
+</style></head><body><div class="wrap"><header><h1 id="heading" role="link" tabindex="0" aria-label="Home — N2K02 main website">⌂ Home</h1><a class="brand" href="./" aria-label="mRadio Web Player home"><span class="mradio-mark" aria-hidden="true">♫</span><span>m<span class="mradio-brand-accent">Radio</span></span></a></header><main>
 <section id="homePanel"><div class="panel"><div class="player"><div class="art" id="homeArt">♫</div><div class="grow"><div style="color:var(--accent);font-size:.8rem;font-weight:800">NOW PLAYING</div><div class="title" id="current">Choose a station</div><div class="muted notice" id="status" role="status">Select a radio below</div></div><div class="controls"><button class="round" id="previous" aria-label="Previous station">◀Ⅰ</button><button class="round primary" id="toggle" disabled>▶</button><button class="round" id="next" aria-label="Next station">Ⅰ▶</button></div></div></div><div class="row"><h2 style="flex:1">Favourite Radios</h2><button class="btn tiny" id="reorder">Reorder</button></div><div class="grid" id="favorites"></div><h2>More from Mauritius</h2><div class="grid" id="more"></div></section>
 <section id="searchPanel" class="hidden"><h2>Find stations</h2><form class="row" id="searchForm"><input class="search" id="query" placeholder="⌕ Find a station" aria-label="Find a station"><button class="btn primary">Search</button></form><div class="tabs"><button class="btn" id="muTab" aria-pressed="true">Mauritius</button><button class="btn" id="worldTab" aria-pressed="false">Worldwide</button><select class="btn" id="country" aria-label="Country"><option value="">Country</option><option value="FR">France</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="IN">India</option><option value="ZA">South Africa</option><option value="AU">Australia</option></select></div><p class="muted" id="searchStatus" role="status">More from Mauritius</p><div class="grid" id="results"></div></section>
 <section id="settingsPanel" class="hidden"><h2>Settings</h2><div class="panel"><label>Volume <input id="volume" type="range" min="0" max="100" value="80"></label><p class="muted">Your bookmarks and preferences stay in this browser.</p><button class="btn" id="reset">Restore default favourites</button></div><div class="panel"><h2>Add a custom stream</h2><form id="customForm" class="row"><input class="search" id="customName" placeholder="Station name" required><input class="search" id="customUrl" type="url" placeholder="https://stream.example/radio.mp3" required><button class="btn primary">Add</button></form></div></section>
@@ -128,16 +132,23 @@ audio.onplaying=()=>{$('status').textContent='● Live';sync()};
 audio.onpause=()=>{if(audio.src&&!['Connecting…','Buffering…'].includes($('status').textContent))$('status').textContent='Paused';sync()};
 audio.onwaiting=()=>{$('status').textContent='Buffering…';sync()};
 function fallback(){if(selected&&streamIndex<(selected.streams||[]).length-1){streamIndex++;audio.src=selected.streams[streamIndex];start()}else{$('status').textContent='Stream unavailable or unsupported';sync()}}audio.onerror=fallback;
-function page(p){for(const id of ['home','search','settings']){$(id+'Panel').classList.toggle('hidden',id!==p);$(id+'Nav').classList.toggle('active',id===p)}$('heading').textContent=({home:'⌂ Home',search:'⌕ Search',settings:'⚙ Settings'})[p];$('full').classList.add('hidden')}
+const playerViews=['home','search','settings'];
+function currentPlayerView(){return playerViews.find(id=>!$(id+'Panel').classList.contains('hidden'))||'home'}
+function showPlayerView(p,full=false){if(!playerViews.includes(p))p='home';for(const id of playerViews){$(id+'Panel').classList.toggle('hidden',id!==p);$(id+'Nav').classList.toggle('active',id===p)}$('heading').textContent=({home:'⌂ Home',search:'⌕ Search',settings:'⚙ Settings'})[p];$('full').classList.toggle('hidden',!full)}
+function navigatePlayer(p,full=false){if(currentPlayerView()===p&&!($('full').classList.contains('hidden')!==!full))return;history.pushState({mradioView:p,mradioFull:full},'',location.pathname+location.search+'#'+(full?'player':p));showPlayerView(p,full)}
+function page(p){navigatePlayer(p,false)}
+history.replaceState({mradioView:'home',mradioFull:false},'',location.href);
+window.addEventListener('popstate',e=>{const st=e.state;if(st&&playerViews.includes(st.mradioView))showPlayerView(st.mradioView,!!st.mradioFull);else showPlayerView('home')});
+window.addEventListener('beforeunload',e=>{if(!audio.paused){e.preventDefault();e.returnValue=''}});
 function goToMainSite(event){if(event)event.preventDefault();const playing=!audio.paused||['Connecting…','Buffering…'].includes($('status').textContent);if(playing&&!confirm('Radio is playing. Leaving the web player will stop playback. Continue to the N2K02 main website?'))return;stop();window.location.assign('/')}
 $('homeNav').onclick=()=>page('home');
 for(const id of ['search','settings'])$(id+'Nav').onclick=()=>page(id);
 document.querySelector('header .brand').addEventListener('click',e=>{e.preventDefault();page('home')});
 $('heading').onclick=goToMainSite;
 $('heading').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();goToMainSite()}};
-$('openFull').onclick=()=>{$('full').classList.remove('hidden');sync()};
+$('openFull').onclick=()=>{navigatePlayer(currentPlayerView(),true);sync()};
 $('miniInfo').onclick=$('openFull').onclick;$('miniInfo').onkeydown=e=>{if(e.key==='Enter')$('openFull').click()};
-$('closeFull').onclick=()=>$('full').classList.add('hidden');
+$('closeFull').onclick=()=>navigatePlayer(currentPlayerView(),false);
 $('heart').onclick=()=>{if(!selected)return;if(state.favorites.some(x=>x.id===selected.id))state.favorites=state.favorites.filter(x=>x.id!==selected.id);else state.favorites.push(selected);save();render()};
 $('reorder').onclick=()=>{reordering=!reordering;$('reorder').textContent=reordering?'Done':'Reorder';render()};
 function move(i,d){const j=i+d;if(j<0||j>=state.favorites.length)return;state.favorites.splice(j,0,...state.favorites.splice(i,1));save();render()}
