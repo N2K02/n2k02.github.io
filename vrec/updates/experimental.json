@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-329",
+  "tag": "vrec-experimental-pr-40-run-333",
   "versionName": "4.6",
-  "versionCode": 100329,
+  "versionCode": 100333,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-329/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-333/VREC-4.6.apk",
   "apkSize": 34796444,
-  "sha256": "14a3ed801400564001d9a6bd3d36371d4d5e0144e13e693d4840dd801e79d2d7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-329",
+  "sha256": "7e623ee902b9b3cc8ac4db7fa9dc30995614b272ad52a3d535d6936290c03f47",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-333",
   "notes": [
+    "ui: use green for Wi-Fi recovery badge, distinct from blue Computer",
+    "ui: give each ADB recovery method a distinct badge color",
+    "ui: color-code recovery method and shell identity badges",
+    "ui: add animated connection and recording status badges to ADB dashboard",
     "ui: center and evenly distribute ADB dashboard status data",
     "ui: use neutral grey for recording OFF status badge",
     "ui: improve ADB helper dashboard readability with two-row status grid",
     "ui: color-code recording master badge by state",
     "ui: simplify VREC Home, add master recording status badge and subtle animations",
-    "fix: debounce repeated ADB setup taps and guard concurrent setup",
-    "fix: do not report cancelled ADB recovery as a failure",
-    "fix: gate Home ADB controls behind global Recording switch",
-    "test: cover overflow-safe ADB retry deadlines",
-    "fix: prevent ADB recovery backoff deadline overflow"
+    "fix: debounce repeated ADB setup taps and guard concurrent setup"
   ]
 }
