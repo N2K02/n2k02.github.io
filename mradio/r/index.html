@@ -54,8 +54,7 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
   }
   try {
     if (token !== null) {
-      // The website never decodes the opaque stream token. Only the Android app
-      // knows the token format; the browser simply passes it to the app.
+      // Preserve the original token for Android; decode locally only for browser listening.
       if (!/^1[A-Za-z0-9_-]{2,4095}$/.test(token)) throw new Error('Invalid token');
       launch.href = 'mradio://open?d=' + encodeURIComponent(token);
       decodeStreamToken(token).then(stream=>{if(validStream(stream)){online.href='/mradio/play/?stream='+encodeURIComponent(stream);online.classList.remove('hidden')}}).catch(()=>{});
