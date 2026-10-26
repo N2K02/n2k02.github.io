@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-319",
+  "tag": "vrec-experimental-pr-40-run-320",
   "versionName": "4.6",
-  "versionCode": 100319,
+  "versionCode": 100320,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-319/VREC-4.6.apk",
-  "apkSize": 34780020,
-  "sha256": "605265098556796b464e16f53fb88c9d7d0cf686e3377305c2fbf209e65c91d6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-319",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-320/VREC-4.6.apk",
+  "apkSize": 34796444,
+  "sha256": "15343392aa1ea77d8534ab5e0e0a3b84c7965d40d7ebe38a61d9283dea25d40e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-320",
   "notes": [
+    "Review fixes: opt-in ADB restore/TCP, typed failures, cancellation, Quit cleanup",
     "Single-flight wireless ADB transition, stale-callback guard, explicit phases",
     "Harden ADB recovery: verified restore, backoff, bounded discovery, background loop",
     "ADB Home dashboard, restore after restart, and simpler first-time setup",
@@ -17,7 +18,6 @@
     "Remove Termux; compact recording radio row; USB copy commands; transition wireless ADB to localhost TCP 5555",
     "Passively await trusted USB host enabling ADB and update dual-bootstrap documentation",
     "Automatically expand detected wireless pairing and collapse USB directions; keep mDNS alive across Settings",
-    "Prevent reconnect after deliberate ADB disconnect and fix notification permission handoff",
-    "Auto-detect USB or on-device Wireless ADB on first Home launch and expose Shizuku-style code pairing"
+    "Prevent reconnect after deliberate ADB disconnect and fix notification permission handoff"
   ]
 }
