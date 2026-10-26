@@ -7,7 +7,7 @@
 <meta name="description" content="Open a shared radio station in MRadio for Android.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Listen on MRadio">
-<meta property="og:description" content="A radio station was shared with you. Tap to play in MRadio for Android.">
+<meta property="og:description" content="A radio station was shared with you. Open in the Android app or listen online.">
 <meta property="og:url" content="https://n2k02.github.io/mradio/r/">
 <title>Listen on MRadio</title>
 <style>
@@ -16,7 +16,7 @@
 main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #404765;border-radius:24px;background:var(--card);box-shadow:0 20px 70px #0005}
 .brand{font-size:1.15rem;font-weight:800;letter-spacing:-.03em;color:#ff9fc9}h1{font-size:clamp(2rem,6vw,3rem);line-height:1.1;letter-spacing:-.055em;margin:21px 0}p{color:var(--muted);margin-bottom:26px}a{color:#e2cbff}
 .actions{display:grid;gap:14px}.action{display:block;text-align:center;padding:14px 18px;border-radius:12px;background:linear-gradient(110deg,#ff85b8,#b59cff);color:#1a0d29;text-decoration:none;font-weight:800}
-.secondary{display:block;text-align:center}.note{font-size:.85rem;margin:24px 0 0}.hidden{display:none!important}
+.online{background:#93c9fa;color:#102638}.secondary{display:block;text-align:center}.note{font-size:.85rem;margin:24px 0 0}.hidden{display:none!important}
 </style>
 </head>
 <body>
@@ -26,6 +26,7 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
 <p id="status">Open the shared stream in MRadio on your Android device.</p>
 <div class="actions">
 <a id="launch" class="action hidden" href="#">Open in MRadio</a>
+<a id="online" class="action online hidden" href="#">Listen online in browser</a>
 <a class="secondary" href="/mradio/download/">Get MRadio for Android</a>
 </div>
 <p class="note">If MRadio does not launch automatically when tapping a shared link, use the Open button above. You can also use Share → MRadio from your browser.</p>
@@ -34,16 +35,29 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
 (() => {
   'use strict';
   const launch = document.getElementById('launch');
+  const online = document.getElementById('online');
   const status = document.getElementById('status');
   const params = new URLSearchParams(location.search);
   const token = params.get('d');
   const legacy = params.get('u');
+  const validStream = value => {try {const u=new URL(value);return ['http:','https:'].includes(u.protocol)&&!!u.hostname&&!u.username&&!u.password&&value.length<=4096&&!/[\\x00-\\x1f\\x7f]/.test(value)}catch{return false}};
+  async function decodeStreamToken(value) {
+    if (!/^1[A-Za-z0-9_-]{2,4095}$/.test(value) || typeof DecompressionStream==='undefined') throw Error('Unsupported shared link');
+    const encoded=value.slice(1).replace(/-/g,'+').replace(/_/g,'/');
+    const bytes=Uint8Array.from(atob(encoded.padEnd(Math.ceil(encoded.length/4)*4,'=')),c=>c.charCodeAt(0));
+    if(bytes.length>4096) throw Error('Token too large');
+    const reader=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate-raw')).getReader();
+    const chunks=[];let total=0;
+    while(true){const {done,value:part}=await reader.read();if(done)break;total+=part.length;if(total>4096){await reader.cancel();throw Error('Decoded stream too long')}chunks.push(part)}
+    const combined=new Uint8Array(total);let offset=0;for(const part of chunks){combined.set(part,offset);offset+=part.length}
+    return new TextDecoder('utf-8',{fatal:true}).decode(combined);
+  }
   try {
     if (token !== null) {
-      // The website never decodes the opaque stream token. Only the Android app
-      // knows the token format; the browser simply passes it to the app.
+      // Preserve the original token for Android; decode locally only for browser listening.
       if (!/^1[A-Za-z0-9_-]{2,4095}$/.test(token)) throw new Error('Invalid token');
       launch.href = 'mradio://open?d=' + encodeURIComponent(token);
+      decodeStreamToken(token).then(stream=>{if(validStream(stream)){online.href='/mradio/play/?stream='+encodeURIComponent(stream);online.classList.remove('hidden')}}).catch(()=>{});
     } else {
       // Backward compatibility for the first generation of HTTPS share links.
       if (!legacy || legacy.length > 4096) throw new Error('Missing stream');
@@ -52,6 +66,8 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
         throw new Error('Only HTTP(S) streams are supported');
       }
       launch.href = 'mradio://open?url=' + encodeURIComponent(legacy);
+      online.href='/mradio/play/?stream='+encodeURIComponent(legacy);
+      online.classList.remove('hidden');
     }
     launch.classList.remove('hidden');
   } catch (_) {
