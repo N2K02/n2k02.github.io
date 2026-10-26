@@ -46,6 +46,36 @@
 .bottom button{flex-direction:column;gap:5px}
 .bottom button span{display:flex;align-items:center;justify-content:center;height:28px;width:28px;line-height:1}
 .full>.row:first-child .btn{min-height:44px;min-width:44px;padding:0}
+</style><style>
+/* Fit the full player comfortably on short mobile screens. */
+.full .heroart{
+  width:min(100%,330px,36dvh);
+  max-height:36dvh;
+  aspect-ratio:1;
+  margin:12px auto 14px;
+  border-radius:22px;
+}
+.full .heroart>.art{width:82%;height:82%;border-radius:18px}
+.full h1{font-size:clamp(1.45rem,4.8vw,1.85rem);margin:6px 0}
+.full #fullStatus{margin:6px 0 2px}
+.full .controls{margin:7px 0 10px;padding:5px}
+.full .center>p{margin:5px 0}
+.full .row:has(#fullVolume){margin:5px 0}
+#timers{margin:8px auto}
+#timers .btn{padding-top:9px;padding-bottom:9px}
+.full .panel{margin-top:12px}
+@media(max-width:450px){
+  .full{padding-top:9px;padding-bottom:20px}
+  .full .heroart{width:min(100%,310px,34dvh);max-height:34dvh;margin:9px auto 12px}
+  .full .controls{margin:6px 0 8px}
+}
+@media(max-height:700px){
+  .full .heroart{width:min(100%,265px,29dvh);max-height:29dvh;margin:6px auto 8px}
+  .full .controls{margin:4px 0}
+  .full .round{width:45px;height:45px}
+  .full .round.primary{width:62px;height:62px}
+  #timers .btn{padding:7px 2px}
+}
 </style></head><body><div class="wrap"><header><h1 id="heading">⌂ Home</h1><a class="brand" href="../">📻 mRadio</a></header><main>
 <section id="homePanel"><div class="panel"><div class="player"><div class="art" id="homeArt">♫</div><div class="grow"><div style="color:var(--accent);font-size:.8rem;font-weight:800">NOW PLAYING</div><div class="title" id="current">Choose a station</div><div class="muted notice" id="status" role="status">Select a radio below</div></div><div class="controls"><button class="round" id="previous" aria-label="Previous station">◀Ⅰ</button><button class="round primary" id="toggle" disabled>▶</button><button class="round" id="next" aria-label="Next station">Ⅰ▶</button></div></div></div><div class="row"><h2 style="flex:1">Favourite Radios</h2><button class="btn tiny" id="reorder">Reorder</button></div><div class="grid" id="favorites"></div><h2>More from Mauritius</h2><div class="grid" id="more"></div></section>
 <section id="searchPanel" class="hidden"><h2>Find stations</h2><form class="row" id="searchForm"><input class="search" id="query" placeholder="⌕ Find a station" aria-label="Find a station"><button class="btn primary">Search</button></form><div class="tabs"><button class="btn" id="muTab" aria-pressed="true">Mauritius</button><button class="btn" id="worldTab" aria-pressed="false">Worldwide</button><select class="btn" id="country" aria-label="Country"><option value="">Country</option><option value="FR">France</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="IN">India</option><option value="ZA">South Africa</option><option value="AU">Australia</option></select></div><p class="muted" id="searchStatus" role="status">More from Mauritius</p><div class="grid" id="results"></div></section>
