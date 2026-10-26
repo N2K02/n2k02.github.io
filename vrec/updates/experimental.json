@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-339",
+  "tag": "vrec-experimental-pr-40-run-343",
   "versionName": "4.6",
-  "versionCode": 100339,
+  "versionCode": 100343,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-339/VREC-4.6.apk",
-  "apkSize": 34796444,
-  "sha256": "351b6736230780efb3b1c2ba7183b1c3b04765bce0a081bd89564ca7dc5b3248",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-339",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-343/VREC-4.6.apk",
+  "apkSize": 34812828,
+  "sha256": "10f531ba6039283f728187f215df4d14b6940c28c3ceccc0b7a19be8985ffca8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-343",
   "notes": [
+    "Keep shell overlay visible and disable unsupported app-recorder controls",
+    "Import recording preferences for enhanced overlay",
+    "Create enhanced recording notification channel and show shell overlay on confirmed handoff",
+    "Restore manual recording card on Home when ADB capture is ready",
     "Move enhanced SIM audio source controls into dedicated Settings submenu",
     "Fix diagnostic logger overload compilation errors",
     "Log verified shell recording bytes, packet counts, and import failures",
     "Ignore duplicate Telecom disconnect and removal events",
     "Clarify call start dispatch in diagnostic logs",
-    "Add explicit recording dispatch and audio initialization diagnostics",
-    "ui: use green for Wi-Fi recovery badge, distinct from blue Computer",
-    "ui: give each ADB recovery method a distinct badge color",
-    "ui: color-code recovery method and shell identity badges",
-    "ui: add animated connection and recording status badges to ADB dashboard"
+    "Add explicit recording dispatch and audio initialization diagnostics"
   ]
 }
