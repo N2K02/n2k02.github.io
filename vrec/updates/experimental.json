@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-41-run-344",
+  "tag": "vrec-experimental-pr-41-run-371",
   "versionName": "4.6",
-  "versionCode": 100344,
+  "versionCode": 100371,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-344/VREC-4.6.apk",
-  "apkSize": 34712684,
-  "sha256": "aef2be054d8efafd8a66903f4b6a93712cce664f1663a6163bfb29c167af4395",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-344",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-371/VREC-4.6.apk",
+  "apkSize": 34712680,
+  "sha256": "249d89dee5f65df4fe1a0952d63daca5d8d6f79d04cd9ea4d0a58dab519d0ecb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-371",
   "notes": [
+    "Forward explicit private caller labels from Telecom details",
+    "Show Private number for withheld SIM and Telecom caller IDs",
+    "Preserve explicit private caller identity in notification metadata",
     "Preserve caller names in third-party call notification text",
     "Resolve SIM caller names from available Telecom numbers",
     "Make VREC ADB status regression test accept styled Compose Text",
     "Test second-position Recordings tab and removal of VREC Home Explore shortcuts",
     "Move VREC Recordings into second bottom tab and remove redundant Home Explore shortcuts",
     "Test VREC ADB Home connect/health and Experimental-only setup checklist",
-    "VREC: remove duplicated helper-health summary from Experimental connection card",
-    "VREC: show verified helper health and explicit Connect TCP action on ADB-mode Home",
-    "Keep VREC ADB setup checklist only inside Experimental, simplify inactive mode",
-    "Fix Quit regression test for VREC's data-driven Settings bottom tab"
+    "VREC: remove duplicated helper-health summary from Experimental connection card"
   ]
 }
