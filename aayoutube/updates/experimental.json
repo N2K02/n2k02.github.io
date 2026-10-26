@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-21-run-133",
-  "versionName": "6.3",
-  "versionCode": 100133,
-  "apkName": "AAYoutube-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-21-run-133/AAYoutube-6.3.apk",
-  "apkSize": 1847896,
-  "sha256": "de2a4010ce6806c50bf33902b25cb10c77ecdb56d9df988c0e7811d1874be44b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-21-run-133",
+  "tag": "aayoutube-experimental-pr-22-run-136",
+  "versionName": "6.4",
+  "versionCode": 100136,
+  "apkName": "AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-136/AAYoutube-6.4.apk",
+  "apkSize": 1864280,
+  "sha256": "644a150b4ce900e65965e79cab97b86fc06ca25d1b85a82ee9714d088c808747",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-136",
   "notes": [
-    "Test shared New badge visibility and HFreebuds tile exception",
-    "Keep update New badges visible on Settings and update destinations",
-    "Add regression test protecting app-specific Quit navigation",
-    "Test Settings row alignment, diagnostic grouping and update placement",
-    "Import Compose scrolling and section-divider APIs for Settings layout",
-    "Align Settings rows with mRadio and place diagnostics and updates last",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Use Home/Settings menu in AAYoutube and nest Features, Logs, About, updates under Settings",
-    "Fix Kotlin compile error in unified page header"
+    "Enable lyrics overlay by default for new installs while retaining manual toggle",
+    "Wire lyrics submenu and player toggle into app UI",
+    "Add LRCLIB lyrics lookup, LRC parser, settings and synchronized overlay"
   ]
 }
