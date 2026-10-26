@@ -237,4 +237,17 @@ const origSync=sync;sync=function(){origSync();for(const id of ['toggle','miniTo
 const origRender=render;render=function(){origRender();document.querySelectorAll('.station .btn.tiny').forEach(e=>{const t=e.textContent;e.innerHTML=svg(t==='▶'?'play':t==='⋮'?'menu':'star')})};
 render();
 })();
+
+// Shared-link handoff: select the exact stream, but require a user tap to start audio.
+const sharedStream=new URLSearchParams(location.search).get('stream');
+if(sharedStream&&sharedStream.length<=4096&&safe(sharedStream)){
+  const parsed=new URL(sharedStream);
+  if(parsed.hostname&&!parsed.username&&!parsed.password&&!/[\x00-\x1f\x7f]/.test(sharedStream)){
+    const known=defaults.find(st=>[st.url,...(st.streams||[])].includes(sharedStream));
+    const shared=known||station('shared:'+sharedStream,'Shared radio stream',sharedStream,'Shared from mRadio','');
+    choose(shared,false);
+    activeList=[shared];
+    history.replaceState(history.state,'',location.pathname+location.hash);
+  }
+}
 </script></body></html>
