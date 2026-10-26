@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-333",
+  "tag": "vrec-experimental-pr-40-run-338",
   "versionName": "4.6",
-  "versionCode": 100333,
+  "versionCode": 100338,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-333/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-338/VREC-4.6.apk",
   "apkSize": 34796444,
-  "sha256": "7e623ee902b9b3cc8ac4db7fa9dc30995614b272ad52a3d535d6936290c03f47",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-333",
+  "sha256": "99b977cf19d0cbcfbcd514146bf0648b34e3966866824262d2d1d42fcc8084e4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-338",
   "notes": [
+    "Fix diagnostic logger overload compilation errors",
+    "Log verified shell recording bytes, packet counts, and import failures",
+    "Ignore duplicate Telecom disconnect and removal events",
+    "Clarify call start dispatch in diagnostic logs",
+    "Add explicit recording dispatch and audio initialization diagnostics",
     "ui: use green for Wi-Fi recovery badge, distinct from blue Computer",
     "ui: give each ADB recovery method a distinct badge color",
     "ui: color-code recovery method and shell identity badges",
     "ui: add animated connection and recording status badges to ADB dashboard",
-    "ui: center and evenly distribute ADB dashboard status data",
-    "ui: use neutral grey for recording OFF status badge",
-    "ui: improve ADB helper dashboard readability with two-row status grid",
-    "ui: color-code recording master badge by state",
-    "ui: simplify VREC Home, add master recording status badge and subtle animations",
-    "fix: debounce repeated ADB setup taps and guard concurrent setup"
+    "ui: center and evenly distribute ADB dashboard status data"
   ]
 }
