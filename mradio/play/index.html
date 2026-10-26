@@ -239,7 +239,7 @@ render();
   history.replaceState(history.state,'',location.pathname+location.hash);
   const valid=url=>{try{const u=new URL(url);return url.length<=4096&&
     ['http:','https:'].includes(u.protocol)&&!!u.hostname&&!u.username&&!u.password&&
-    !/[\\x00-\\x1f\\x7f]/.test(url)}catch{return false}};
+    !Array.from(url).some(ch=>ch.charCodeAt(0)<32||ch.charCodeAt(0)===127)}catch{return false}};
   try{
     if(token){
       if(!/^1[A-Za-z0-9_-]{2,4095}$/.test(token))throw Error('Invalid shared token');
