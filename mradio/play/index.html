@@ -107,6 +107,35 @@ header .brand{display:inline-flex;align-items:center;gap:9px}
   .tabs .btn{font-size:.88rem;padding:10px 9px}
   #country{padding-right:32px;padding-left:10px;background-position:right 10px center}
 }
+</style><style>
+/* Search result rows: keep both actions visible and prevent horizontal clipping. */
+#results,#favorites,#more{min-width:0;width:100%}
+#results .station,#favorites .station,#more .station{
+  width:100%;max-width:100%;min-width:0;
+  display:grid;grid-template-columns:49px minmax(0,1fr) 38px 38px;
+  align-items:center;column-gap:9px;overflow:hidden;
+}
+#results .station .art,#favorites .station .art,#more .station .art{
+  width:49px;height:49px;max-width:100%;min-width:0;
+}
+.station .info{min-width:0;overflow:hidden}
+.station .name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.station .btn.tiny{width:38px;min-width:38px;height:38px;min-height:38px;padding:0}
+.station .btn.tiny svg{width:23px;height:23px}
+#results .station .btn.tiny:last-child{color:var(--accent)}
+@media(max-width:450px){
+  #results .station,#favorites .station,#more .station{
+    grid-template-columns:44px minmax(0,1fr) 34px 34px;
+    column-gap:7px;padding:11px 10px;
+  }
+  #results .station .art,#favorites .station .art,#more .station .art{width:44px;height:44px}
+  .station .btn.tiny{width:34px;min-width:34px;height:38px}
+}
+/* Keep bottom results scrollable beyond the mini-player and bottom tabs. */
+.wrap{padding-bottom:calc(185px + env(safe-area-inset-bottom,0px))}
+.mini{max-width:calc(100vw - 20px);min-width:0}
+.mini .grow{flex:1 1 0;min-width:0}
+.mini button{flex-shrink:0}
 </style></head><body><div class="wrap"><header><h1 id="heading">⌂ Home</h1><div class="brand"><img class="mradio-mark" src="../mradio-icon.svg" alt="" aria-hidden="true"><span>m<span class="mradio-brand-accent">Radio</span></span></div></header><main>
 <section id="homePanel"><div class="panel"><div class="player"><div class="art" id="homeArt">♫</div><div class="grow"><div style="color:var(--accent);font-size:.8rem;font-weight:800">NOW PLAYING</div><div class="title" id="current">Choose a station</div><div class="muted notice" id="status" role="status">Select a radio below</div></div><div class="controls"><button class="round" id="previous" aria-label="Previous station">◀Ⅰ</button><button class="round primary" id="toggle" disabled>▶</button><button class="round" id="next" aria-label="Next station">Ⅰ▶</button></div></div></div><div class="row"><h2 style="flex:1">Favourite Radios</h2><button class="btn tiny" id="reorder">Reorder</button></div><div class="grid" id="favorites"></div><h2>More from Mauritius</h2><div class="grid" id="more"></div></section>
 <section id="searchPanel" class="hidden"><h2>Find stations</h2><form class="row" id="searchForm"><input class="search" id="query" placeholder="⌕ Find a station" aria-label="Find a station"><button class="btn primary">Search</button></form><div class="tabs"><button class="btn" id="muTab" aria-pressed="true">Mauritius</button><button class="btn" id="worldTab" aria-pressed="false">Worldwide</button><select class="btn" id="country" aria-label="Country"><option value="">Country</option><option value="FR">France</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="IN">India</option><option value="ZA">South Africa</option><option value="AU">Australia</option></select></div><p class="muted" id="searchStatus" role="status">More from Mauritius</p><div class="grid" id="results"></div></section>
