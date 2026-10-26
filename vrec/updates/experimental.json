@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-313",
+  "tag": "vrec-experimental-pr-40-run-315",
   "versionName": "4.6",
-  "versionCode": 100313,
+  "versionCode": 100315,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-313/VREC-4.6.apk",
-  "apkSize": 34747340,
-  "sha256": "d70d44533b9d53959910a60e3315bc985dfb4278bde9d6d43ccfe43af40cb3d9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-313",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-315/VREC-4.6.apk",
+  "apkSize": 34730848,
+  "sha256": "50db8d60d3ec138c183b54f151490f3accfa77352b128dd6289cbd08c1d60a82",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-315",
   "notes": [
+    "Implement authorized wireless-to-TCP 5555 switch using existing ADB stream and preserve recovery pipeline",
+    "Remove Termux; compact recording radio row; USB copy commands; transition wireless ADB to localhost TCP 5555",
     "Passively await trusted USB host enabling ADB and update dual-bootstrap documentation",
     "Automatically expand detected wireless pairing and collapse USB directions; keep mDNS alive across Settings",
     "Prevent reconnect after deliberate ADB disconnect and fix notification permission handoff",
@@ -16,8 +18,6 @@
     "Add same-device mDNS wireless debugging discovery, six-digit notification pairing and TLS UID2000 bootstrap",
     "Use actual Termux result bundle, handle callback error codes, and clarify same-device USB limitation",
     "Add optional Termux-backed command console to VRec Home with safe USB ADB boundaries",
-    "Update ADB status badge contract tests for actionable USB-bootstrap state",
-    "Fix third-party ADB_ENABLED false-negative; surface USB bootstrap prerequisite and log setup outcomes",
-    "Align navigation tests with single Home ADB setup and clear manual retry before helper reattach"
+    "Update ADB status badge contract tests for actionable USB-bootstrap state"
   ]
 }
