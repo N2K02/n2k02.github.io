@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-306",
+  "tag": "vrec-experimental-pr-40-run-308",
   "versionName": "4.6",
-  "versionCode": 100306,
+  "versionCode": 100308,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-306/VREC-4.6.apk",
-  "apkSize": 34714388,
-  "sha256": "ea425f340d9c6177c3bc4a6e24f84c897dd1824a4124aaf2312963f63012af6e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-306",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-308/VREC-4.6.apk",
+  "apkSize": 34714504,
+  "sha256": "4c79ca50e9a6d0bfc6877eebd52f5db76fa419b2c4ec889e32c80c733e2f1769",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-308",
   "notes": [
+    "Use actual Termux result bundle, handle callback error codes, and clarify same-device USB limitation",
+    "Add optional Termux-backed command console to VRec Home with safe USB ADB boundaries",
     "Update ADB status badge contract tests for actionable USB-bootstrap state",
     "Fix third-party ADB_ENABLED false-negative; surface USB bootstrap prerequisite and log setup outcomes",
     "Align navigation tests with single Home ADB setup and clear manual retry before helper reattach",
@@ -16,8 +18,6 @@
     "review: verify permission outcomes, polish ADB-first UI, align docs and safety tests",
     "fix: restore verified UID Home badge and explicit failed connection state",
     "feat: ADB-only VRec dashboard, verified UID badges and guarded permission bootstrap",
-    "docs: align fallback and architecture guidance with USB-only ADB",
-    "refactor: remove wireless ADB flows, keep USB bootstrap and rename Accessibility helper",
-    "test: align Home recording contract with one-tap ADB setup"
+    "docs: align fallback and architecture guidance with USB-only ADB"
   ]
 }
