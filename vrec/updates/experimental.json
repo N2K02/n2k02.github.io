@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-315",
+  "tag": "vrec-experimental-pr-40-run-316",
   "versionName": "4.6",
-  "versionCode": 100315,
+  "versionCode": 100316,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-315/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-316/VREC-4.6.apk",
   "apkSize": 34730848,
-  "sha256": "50db8d60d3ec138c183b54f151490f3accfa77352b128dd6289cbd08c1d60a82",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-315",
+  "sha256": "3dfcb4a991a5fb7dc625ebc3841932a2562609c0255b511cc4b6b909ccff7db1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-316",
   "notes": [
+    "Stop wireless discovery after verified TCP; recover paired wireless when TCP disappears and expose redo setup",
     "Implement authorized wireless-to-TCP 5555 switch using existing ADB stream and preserve recovery pipeline",
     "Remove Termux; compact recording radio row; USB copy commands; transition wireless ADB to localhost TCP 5555",
     "Passively await trusted USB host enabling ADB and update dual-bootstrap documentation",
@@ -17,7 +18,6 @@
     "Auto-detect USB or on-device Wireless ADB on first Home launch and expose Shizuku-style code pairing",
     "Add same-device mDNS wireless debugging discovery, six-digit notification pairing and TLS UID2000 bootstrap",
     "Use actual Termux result bundle, handle callback error codes, and clarify same-device USB limitation",
-    "Add optional Termux-backed command console to VRec Home with safe USB ADB boundaries",
-    "Update ADB status badge contract tests for actionable USB-bootstrap state"
+    "Add optional Termux-backed command console to VRec Home with safe USB ADB boundaries"
   ]
 }
