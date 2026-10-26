@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-321",
+  "tag": "vrec-experimental-pr-40-run-322",
   "versionName": "4.6",
-  "versionCode": 100321,
+  "versionCode": 100322,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-321/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-322/VREC-4.6.apk",
   "apkSize": 34796444,
-  "sha256": "f75d2bfa6cddef13ff283a4e8e30c75ac88da7de26db0a07027d576b1fb26a28",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-321",
+  "sha256": "c463a58f2008f924bef6427d9e6acffff82dacf69c73fa7a4c3a3c8079e4cd70",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-322",
   "notes": [
+    "fix: gate Home ADB controls behind global Recording switch",
     "test: cover overflow-safe ADB retry deadlines",
     "fix: prevent ADB recovery backoff deadline overflow",
     "Review fixes: opt-in ADB restore/TCP, typed failures, cancellation, Quit cleanup",
@@ -17,7 +18,6 @@
     "ADB Home dashboard, restore after restart, and simpler first-time setup",
     "Stop wireless discovery after verified TCP; recover paired wireless when TCP disappears and expose redo setup",
     "Implement authorized wireless-to-TCP 5555 switch using existing ADB stream and preserve recovery pipeline",
-    "Remove Termux; compact recording radio row; USB copy commands; transition wireless ADB to localhost TCP 5555",
-    "Passively await trusted USB host enabling ADB and update dual-bootstrap documentation"
+    "Remove Termux; compact recording radio row; USB copy commands; transition wireless ADB to localhost TCP 5555"
   ]
 }
