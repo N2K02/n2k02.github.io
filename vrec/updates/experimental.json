@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-317",
+  "tag": "vrec-experimental-pr-40-run-318",
   "versionName": "4.6",
-  "versionCode": 100317,
+  "versionCode": 100318,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-317/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-318/VREC-4.6.apk",
   "apkSize": 34763636,
-  "sha256": "03be861a16ac48cb0262cf7a130275db84db1fa818ecff6b6e0360c3f675eec2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-317",
+  "sha256": "bb9e17c8e69de39e37f456ce7238c595861fe2d1ec6fdbf409efcf51577bb38a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-318",
   "notes": [
+    "Harden ADB recovery: verified restore, backoff, bounded discovery, background loop",
     "ADB Home dashboard, restore after restart, and simpler first-time setup",
     "Stop wireless discovery after verified TCP; recover paired wireless when TCP disappears and expose redo setup",
     "Implement authorized wireless-to-TCP 5555 switch using existing ADB stream and preserve recovery pipeline",
@@ -17,7 +18,6 @@
     "Automatically expand detected wireless pairing and collapse USB directions; keep mDNS alive across Settings",
     "Prevent reconnect after deliberate ADB disconnect and fix notification permission handoff",
     "Auto-detect USB or on-device Wireless ADB on first Home launch and expose Shizuku-style code pairing",
-    "Add same-device mDNS wireless debugging discovery, six-digit notification pairing and TLS UID2000 bootstrap",
-    "Use actual Termux result bundle, handle callback error codes, and clarify same-device USB limitation"
+    "Add same-device mDNS wireless debugging discovery, six-digit notification pairing and TLS UID2000 bootstrap"
   ]
 }
