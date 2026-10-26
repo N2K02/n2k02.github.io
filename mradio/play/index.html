@@ -128,16 +128,23 @@ audio.onplaying=()=>{$('status').textContent='● Live';sync()};
 audio.onpause=()=>{if(audio.src&&!['Connecting…','Buffering…'].includes($('status').textContent))$('status').textContent='Paused';sync()};
 audio.onwaiting=()=>{$('status').textContent='Buffering…';sync()};
 function fallback(){if(selected&&streamIndex<(selected.streams||[]).length-1){streamIndex++;audio.src=selected.streams[streamIndex];start()}else{$('status').textContent='Stream unavailable or unsupported';sync()}}audio.onerror=fallback;
-function page(p){for(const id of ['home','search','settings']){$(id+'Panel').classList.toggle('hidden',id!==p);$(id+'Nav').classList.toggle('active',id===p)}$('heading').textContent=({home:'⌂ Home',search:'⌕ Search',settings:'⚙ Settings'})[p];$('full').classList.add('hidden')}
+const playerViews=['home','search','settings'];
+function currentPlayerView(){return playerViews.find(id=>!$(id+'Panel').classList.contains('hidden'))||'home'}
+function showPlayerView(p,full=false){if(!playerViews.includes(p))p='home';for(const id of playerViews){$(id+'Panel').classList.toggle('hidden',id!==p);$(id+'Nav').classList.toggle('active',id===p)}$('heading').textContent=({home:'⌂ Home',search:'⌕ Search',settings:'⚙ Settings'})[p];$('full').classList.toggle('hidden',!full)}
+function navigatePlayer(p,full=false){if(currentPlayerView()===p&&!($('full').classList.contains('hidden')!==!full))return;history.pushState({mradioView:p,mradioFull:full},'',location.pathname+location.search+'#'+(full?'player':p));showPlayerView(p,full)}
+function page(p){navigatePlayer(p,false)}
+history.replaceState({mradioView:'home',mradioFull:false},'',location.href);
+window.addEventListener('popstate',e=>{const st=e.state;if(st&&playerViews.includes(st.mradioView))showPlayerView(st.mradioView,!!st.mradioFull);else showPlayerView('home')});
+window.addEventListener('beforeunload',e=>{if(!audio.paused){e.preventDefault();e.returnValue=''}});
 function goToMainSite(event){if(event)event.preventDefault();const playing=!audio.paused||['Connecting…','Buffering…'].includes($('status').textContent);if(playing&&!confirm('Radio is playing. Leaving the web player will stop playback. Continue to the N2K02 main website?'))return;stop();window.location.assign('/')}
 $('homeNav').onclick=()=>page('home');
 for(const id of ['search','settings'])$(id+'Nav').onclick=()=>page(id);
 document.querySelector('header .brand').addEventListener('click',e=>{e.preventDefault();page('home')});
 $('heading').onclick=goToMainSite;
 $('heading').onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();goToMainSite()}};
-$('openFull').onclick=()=>{$('full').classList.remove('hidden');sync()};
+$('openFull').onclick=()=>{navigatePlayer(currentPlayerView(),true);sync()};
 $('miniInfo').onclick=$('openFull').onclick;$('miniInfo').onkeydown=e=>{if(e.key==='Enter')$('openFull').click()};
-$('closeFull').onclick=()=>$('full').classList.add('hidden');
+$('closeFull').onclick=()=>navigatePlayer(currentPlayerView(),false);
 $('heart').onclick=()=>{if(!selected)return;if(state.favorites.some(x=>x.id===selected.id))state.favorites=state.favorites.filter(x=>x.id!==selected.id);else state.favorites.push(selected);save();render()};
 $('reorder').onclick=()=>{reordering=!reordering;$('reorder').textContent=reordering?'Done':'Reorder';render()};
 function move(i,d){const j=i+d;if(j<0||j>=state.favorites.length)return;state.favorites.splice(j,0,...state.favorites.splice(i,1));save();render()}
