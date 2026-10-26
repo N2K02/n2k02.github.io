@@ -249,7 +249,7 @@ if(state.last&&safe(state.last.url))choose(state.last,false);render();search();
 
 </script>
 <script>
-// Shared-link handoff. Never autoplay, and never add duplicate favourites.
+// Shared-link handoff. Attempt playback immediately; never add duplicate favourites.
 (async function openSharedRadio(){
   const params=new URLSearchParams(location.search);
   const token=params.get('d');
@@ -293,30 +293,35 @@ if(state.last&&safe(state.last.url))choose(state.last,false);render();search();
     choose(shared,false);
     activeList=[shared];
     history.replaceState(history.state,'',location.pathname+location.hash);
-    notice.classList.remove('hidden');
+    // Start immediately when the browser allows it. Mobile browsers may block
+    // unprompted audio; the normal player controls remain available in that case.
+    const attempt=audio.play();
+    if(attempt&&typeof attempt.catch==='function')attempt.catch(err=>{
+      console.info('Shared-radio autoplay was blocked:',err);
+      $('status').textContent='Tap the player to listen (browser autoplay restriction)';
+      sync();
+    });
+    notice.classList.add('hidden');
     notice.replaceChildren();
-    const heading=document.createElement('strong');
-    heading.textContent=existing?'Already in favourites':known?known.name:'Shared radio ready';
-    const description=document.createElement('p');
-    description.textContent=existing?'This station is already saved. Press Play to listen.':'The station is ready to listen to in your browser.';
-    const actions=document.createElement('div');actions.className='shared-actions';
-    const listen=document.createElement('button');listen.textContent='▶ Play shared radio';
-    listen.onclick=()=>{choose(shared,true);activeList=[shared]};
-    actions.append(listen);
     if(!existing){
-      const add=document.createElement('button');add.className='secondary-action';add.textContent='☆ Add to favourites';
+      const heading=document.createElement('strong');
+      heading.textContent='New shared radio';
+      const description=document.createElement('p');
+      description.textContent='This station is not in your favourites.';
+      const actions=document.createElement('div');actions.className='shared-actions';
+      const add=document.createElement('button');add.textContent='☆ Add to favourites';
       add.onclick=()=>{
         const name=known?known.name:(prompt('Name this radio station:','Shared radio')||'Shared radio').trim().slice(0,100);
         const entry=known||{...shared,name:name||'Shared radio'};
         if(!state.favorites.some(match)){state.favorites.push(entry);save();render()}
-        choose(entry,false);activeList=[entry];
         heading.textContent='Saved to favourites';
         description.textContent=entry.name+' is now in your favourites.';
         add.remove();
       };
       actions.append(add);
+      notice.append(heading,description,actions);
+      notice.classList.remove('hidden');
     }
-    notice.append(heading,description,actions);
     page('home');
   }catch(err){
     console.error('Shared radio decode failed:',err);
