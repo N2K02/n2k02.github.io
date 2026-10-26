@@ -28,6 +28,45 @@
 #favorites .station[draggable=true]{outline:1px dashed #597d9f}
 #favorites .move{background:none;border:0;color:var(--accent);padding:6px;font-size:1.2rem}
 @media(max-width:450px){.full{padding:12px 15px 25px}.full .heroart{max-height:39vh;margin:14px auto 18px}.full .controls{gap:12px;margin:12px 0}.full .round{width:50px;height:50px}.full .round.primary{width:70px;height:70px}#timers .btn{font-size:.8rem;padding:11px 2px}}
+</style><style>
+/* Website-inspired pink/violet preview theme; visual only. */
+:root{
+ --bg:#0d0c1a;
+ --panel:#191629;
+ --panel2:#24203b;
+ --bar:#181529;
+ --text:#f9f5ff;
+ --muted:#c4b9d7;
+ --accent:#ff8fbd;
+ --line:#4b365e;
+}
+body{background:radial-gradient(ellipse at 75% -15%,#5a28545c,transparent 52%),radial-gradient(ellipse at 0 70%,#33235a45,transparent 55%),var(--bg)}
+header .brand b{color:#ff8fbd}
+.panel,.station{background:linear-gradient(140deg,#252037,#1a182b);border:1px solid #453751}
+.station{box-shadow:0 2px 12px #0002}
+.station:hover{border-color:#8e5b86}
+.btn{background:#32283f;border-color:#5e486a;color:#f9efff}
+.btn.primary,.primary,.round.primary,.mini .play{background:linear-gradient(120deg,#ff78af,#b996ff);color:#25122c;border-color:transparent}
+.round{background:#48334f;color:#ffe1ef}
+.round.primary{box-shadow:0 8px 24px #d66ba33b}
+.tabs button[aria-pressed=true]{background:#513451;color:#ffe0f0;border-color:#8d5b85}
+.search{background:#282237;border:1px solid #564366}
+#status,#fullStatus,#miniStatus{color:#ff9dc6}
+#status:has(+ *){color:var(--accent)}
+#homePanel .panel{border:1px solid #634467}
+.art{background:linear-gradient(135deg,#ff9fc8,#c3a5ff);color:#392241}
+.full{background:radial-gradient(ellipse at top,#3b203e55,transparent 65%),#110e1b}
+.full .heroart{background:linear-gradient(145deg,#302239,#211c32);border:1px solid #634663}
+.full .heroart>.art{background:linear-gradient(135deg,#ff9fc8,#bca0ef)}
+.mini{background:#292136;border-color:#715171;box-shadow:0 8px 30px #0008}
+.bottom{background:#1b1628;border-color:#543a58}
+.bottom button.active{color:#ff9fc8}
+.linkaction,#reorder,#timerOff,.move{color:#ff9fc8}
+#timers{border-color:#896780}
+#timers .btn{border-color:#6b526e}
+#timers .btn.chosen{background:#573753;color:#ffb5d4}
+input[type=range]{accent-color:#ff8fbd!important}
+a:focus-visible,button:focus-visible,input:focus-visible{outline-color:#ff9fc8}
 </style></head><body><div class="wrap"><header><h1 id="heading">⌂ Home</h1><a class="brand" href="../">📻 mRadio</a></header><main>
 <section id="homePanel"><div class="panel"><div class="player"><div class="art" id="homeArt">♫</div><div class="grow"><div style="color:var(--accent);font-size:.8rem;font-weight:800">NOW PLAYING</div><div class="title" id="current">Choose a station</div><div class="muted notice" id="status" role="status">Select a radio below</div></div><div class="controls"><button class="round" id="previous" aria-label="Previous station">◀Ⅰ</button><button class="round primary" id="toggle" disabled>▶</button><button class="round" id="next" aria-label="Next station">Ⅰ▶</button></div></div></div><div class="row"><h2 style="flex:1">Favourite Radios</h2><button class="btn tiny" id="reorder">Reorder</button></div><div class="grid" id="favorites"></div><h2>More from Mauritius</h2><div class="grid" id="more"></div></section>
 <section id="searchPanel" class="hidden"><h2>Find stations</h2><form class="row" id="searchForm"><input class="search" id="query" placeholder="⌕ Find a station" aria-label="Find a station"><button class="btn primary">Search</button></form><div class="tabs"><button class="btn" id="muTab" aria-pressed="true">Mauritius</button><button class="btn" id="worldTab" aria-pressed="false">Worldwide</button><select class="btn" id="country" aria-label="Country"><option value="">Country</option><option value="FR">France</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="IN">India</option><option value="ZA">South Africa</option><option value="AU">Australia</option></select></div><p class="muted" id="searchStatus" role="status">More from Mauritius</p><div class="grid" id="results"></div></section>
