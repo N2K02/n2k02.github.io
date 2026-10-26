@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-386",
+  "tag": "vrec-experimental-pr-40-run-389",
   "versionName": "4.6",
-  "versionCode": 100386,
+  "versionCode": 100389,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-386/VREC-4.6.apk",
-  "apkSize": 34829212,
-  "sha256": "21fc3b81dcbc086ba7489645de92cb58299ce5fff1ce8479ab56ed5d5c6f6e0a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-386",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-389/VREC-4.6.apk",
+  "apkSize": 34845596,
+  "sha256": "ea0bb3e635f63c0f47d204b938dd5d57da7ea771d972851598ceb70eabcae908",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-389",
   "notes": [
+    "Redesign Home recording method selector as compact two-option tiles",
+    "Remove duplicate call detection import from permission dashboard",
+    "Compact permissions grid and add safe tap-to-request actions with verified ADB grants",
     "Fix malformed Kotlin string in Settings ADB access diagnostics",
     "Add regression test for green and red permission badge styling",
     "Redesign system status with color-coded mockup-inspired connection and recovery tiles",
     "Redesign Home permission dashboard with mockup-inspired status tiles and badges",
     "Regression-test granted and not-granted permission badge labels",
     "Show prominent green/red verified AppOp permission badge on Home dashboard",
-    "Keep Experimental settings focused on ADB connection diagnostics",
-    "Show actual advanced call detection grant and enabled state on Home dashboard",
-    "Add regression tests for mode-specific permission badges and grant counts",
-    "Display permission status card beneath Home method selector"
+    "Keep Experimental settings focused on ADB connection diagnostics"
   ]
 }
