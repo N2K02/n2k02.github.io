@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-61-run-274",
+  "tag": "pcl-experimental-pr-61-run-275",
   "versionName": "5.7",
-  "versionCode": 100274,
+  "versionCode": 100275,
   "apkName": "PCL-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-61-run-274/PCL-5.7.apk",
-  "apkSize": 19886385,
-  "sha256": "a5e91865457bc781319685bd8289cc9aace58422ffa67a978193b14efb139d12",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-61-run-274",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-61-run-275/PCL-5.7.apk",
+  "apkSize": 19886389,
+  "sha256": "3b6502d055e3aa420051f2c1cfd086a8431a6235266050aec47d58405d742fd3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-61-run-275",
   "notes": [
+    "test: cover mixed-case tel URI caller labels",
+    "fix: normalize case-insensitive tel URI caller numbers",
     "Review fixes: Back to the previous screen, saved navigation, Quit cleanup, one updater check",
     "Navigation like mRadio, setup can't be bypassed; clearer updater check",
     "Several Remotes per Gateway; stronger volume and speaker control",
@@ -16,8 +18,6 @@
     "One route switch: shows 'Switch to speaker' or 'Switch to earpiece'",
     "Make Gateway volume and speaker/earpiece control work from the Remote",
     "Fix test compile: use an explicit File constructor",
-    "Require every permission before PCL can be used",
-    "Log where the caller number comes from (or why it's missing)",
-    "Fix missing caller numbers and names on the Remote"
+    "Require every permission before PCL can be used"
   ]
 }
