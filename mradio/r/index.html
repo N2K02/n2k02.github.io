@@ -23,7 +23,7 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
 <main>
 <div class="brand">MRadio ◉</div>
 <h1>Listen to this radio stream</h1>
-<p id="status">Open the shared stream in MRadio on your Android device.</p>
+<p id="status">Choose the Android app or listen in your browser.</p>
 <div class="actions">
 <a id="launch" class="action hidden" href="#">Open in MRadio</a>
 <a id="online" class="action online hidden" href="#">Listen online in browser</a>
@@ -41,23 +41,13 @@ main{max-width:510px;width:100%;padding:clamp(26px,5vw,42px);border:1px solid #4
   const token = params.get('d');
   const legacy = params.get('u');
   const validStream = value => {try {const u=new URL(value);return ['http:','https:'].includes(u.protocol)&&!!u.hostname&&!u.username&&!u.password&&value.length<=4096&&!/[\\x00-\\x1f\\x7f]/.test(value)}catch{return false}};
-  async function decodeStreamToken(value) {
-    if (!/^1[A-Za-z0-9_-]{2,4095}$/.test(value) || typeof DecompressionStream==='undefined') throw Error('Unsupported shared link');
-    const encoded=value.slice(1).replace(/-/g,'+').replace(/_/g,'/');
-    const bytes=Uint8Array.from(atob(encoded.padEnd(Math.ceil(encoded.length/4)*4,'=')),c=>c.charCodeAt(0));
-    if(bytes.length>4096) throw Error('Token too large');
-    const reader=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('deflate-raw')).getReader();
-    const chunks=[];let total=0;
-    while(true){const {done,value:part}=await reader.read();if(done)break;total+=part.length;if(total>4096){await reader.cancel();throw Error('Decoded stream too long')}chunks.push(part)}
-    const combined=new Uint8Array(total);let offset=0;for(const part of chunks){combined.set(part,offset);offset+=part.length}
-    return new TextDecoder('utf-8',{fatal:true}).decode(combined);
-  }
   try {
     if (token !== null) {
       // Preserve the original token for Android; decode locally only for browser listening.
       if (!/^1[A-Za-z0-9_-]{2,4095}$/.test(token)) throw new Error('Invalid token');
       launch.href = 'mradio://open?d=' + encodeURIComponent(token);
-      decodeStreamToken(token).then(stream=>{if(validStream(stream)){online.href='/mradio/play/?stream='+encodeURIComponent(stream);online.classList.remove('hidden')}}).catch(()=>{});
+      online.href='/mradio/play/?d='+encodeURIComponent(token);
+      online.classList.remove('hidden');
     } else {
       // Backward compatibility for the first generation of HTTPS share links.
       if (!legacy || legacy.length > 4096) throw new Error('Missing stream');
