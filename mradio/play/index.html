@@ -258,6 +258,10 @@ if(state.last&&safe(state.last.url))choose(state.last,false);render();search();
   const notice=$('sharedNotice');
   notice.classList.remove('hidden');
   notice.textContent='Opening shared radio…';
+  // Dismiss any shared-radio notification after eight seconds, even if the
+  // listener taps a playback button. Only the current notice is affected.
+  const dismissSharedNotice=()=>{notice.classList.add('hidden');notice.replaceChildren()};
+  setTimeout(dismissSharedNotice,8000);
   const valid=url=>{try{const u=new URL(url);return url.length<=4096&&
     ['http:','https:'].includes(u.protocol)&&!!u.hostname&&!u.username&&!u.password&&
     !Array.from(url).some(ch=>ch.charCodeAt(0)<32||ch.charCodeAt(0)===127)}catch{return false}};
@@ -321,11 +325,6 @@ if(state.last&&safe(state.last.url))choose(state.last,false);render();search();
       actions.append(add);
       notice.append(heading,description,actions);
       notice.classList.remove('hidden');
-      // Auto-dismiss the optional favourites prompt after eight seconds.
-      // Do not dismiss while the user is entering a station name.
-      let editing=false;
-      add.addEventListener('click',()=>{editing=true},{capture:true});
-      setTimeout(()=>{if(!editing)notice.classList.add('hidden')},8000);
     }
     page('home');
   }catch(err){
