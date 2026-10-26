@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-328",
+  "tag": "vrec-experimental-pr-40-run-329",
   "versionName": "4.6",
-  "versionCode": 100328,
+  "versionCode": 100329,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-328/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-329/VREC-4.6.apk",
   "apkSize": 34796444,
-  "sha256": "b51a50a47e1deaef78fbf559f0e721cd2cabc7bfb8b9b0f6c40d1ed14da0bca9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-328",
+  "sha256": "14a3ed801400564001d9a6bd3d36371d4d5e0144e13e693d4840dd801e79d2d7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-329",
   "notes": [
+    "ui: center and evenly distribute ADB dashboard status data",
     "ui: use neutral grey for recording OFF status badge",
     "ui: improve ADB helper dashboard readability with two-row status grid",
     "ui: color-code recording master badge by state",
@@ -17,7 +18,6 @@
     "fix: do not report cancelled ADB recovery as a failure",
     "fix: gate Home ADB controls behind global Recording switch",
     "test: cover overflow-safe ADB retry deadlines",
-    "fix: prevent ADB recovery backoff deadline overflow",
-    "Review fixes: opt-in ADB restore/TCP, typed failures, cancellation, Quit cleanup"
+    "fix: prevent ADB recovery backoff deadline overflow"
   ]
 }
