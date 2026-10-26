@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-303",
+  "tag": "vrec-experimental-pr-40-run-304",
   "versionName": "4.6",
-  "versionCode": 100303,
+  "versionCode": 100304,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-303/VREC-4.6.apk",
-  "apkSize": 34698004,
-  "sha256": "ecb567604ec06f0a2a9642d3d410062078fdf014cd27cb8be03db1360bcd496b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-303",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-304/VREC-4.6.apk",
+  "apkSize": 34698008,
+  "sha256": "36eee288865e08ea4e90052b95d77dae37f1bf48ebdb860de6fdce68b8aac694",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-304",
   "notes": [
+    "Align navigation tests with single Home ADB setup and clear manual retry before helper reattach",
     "Move USB ADB onboarding to Home; enforce 15s manual authorization retry and simplify diagnostics",
     "review: verify permission outcomes, polish ADB-first UI, align docs and safety tests",
     "fix: restore verified UID Home badge and explicit failed connection state",
@@ -17,7 +18,6 @@
     "refactor: remove wireless ADB flows, keep USB bootstrap and rename Accessibility helper",
     "test: align Home recording contract with one-tap ADB setup",
     "feat: embed one-tap local ADB middleware and Huawei-aware Home setup",
-    "Remove channel-health sidecar when excluded call recording is deleted",
-    "Avoid guessing SIM audio source when legacy diagnostic metadata is unavailable"
+    "Remove channel-health sidecar when excluded call recording is deleted"
   ]
 }
