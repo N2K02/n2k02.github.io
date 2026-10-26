@@ -264,7 +264,7 @@ render();
       stream=new TextDecoder('utf-8',{fatal:true}).decode(decoded);
     }
     if(!valid(stream))throw Error('Invalid stream URL');
-    const same=(a,b)=>{try{const x=new URL(a),y=new URL(b);return x.origin===y.origin&&x.pathname.replace(/\\/$/,'')===y.pathname.replace(/\\/$/,'')&&x.search===y.search}catch{return a===b}};
+    const same=(a,b)=>{try{const x=new URL(a),y=new URL(b);const trim=p=>p.endsWith('/')?p.slice(0,-1):p;return x.origin===y.origin&&trim(x.pathname)===trim(y.pathname)&&x.search===y.search}catch{return a===b}};
     const match=st=>[st.url,...(st.streams||[])].some(url=>same(url,stream));
     const existing=state.favorites.find(match);
     const known=existing||defaults.find(match)||results.find(match);
