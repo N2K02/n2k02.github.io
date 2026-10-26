@@ -321,6 +321,11 @@ if(state.last&&safe(state.last.url))choose(state.last,false);render();search();
       actions.append(add);
       notice.append(heading,description,actions);
       notice.classList.remove('hidden');
+      // Auto-dismiss the optional favourites prompt after eight seconds.
+      // Do not dismiss while the user is entering a station name.
+      let editing=false;
+      add.addEventListener('click',()=>{editing=true},{capture:true});
+      setTimeout(()=>{if(!editing)notice.classList.add('hidden')},8000);
     }
     page('home');
   }catch(err){
