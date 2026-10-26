@@ -136,8 +136,15 @@ header .brand{display:inline-flex;align-items:center;gap:9px}
 .mini{max-width:calc(100vw - 20px);min-width:0}
 .mini .grow{flex:1 1 0;min-width:0}
 .mini button{flex-shrink:0}
+</style><style>
+.shared-notice{margin:0 0 16px;padding:15px;border:1px solid #536c82;border-radius:16px;background:#23313d;color:#edf5ff}
+.shared-notice strong{display:block;margin-bottom:5px;color:#93c9fa}
+.shared-notice p{margin:5px 0 10px;font-size:.9rem}
+.shared-actions{display:flex;flex-wrap:wrap;gap:9px}
+.shared-actions button{min-height:42px;padding:9px 14px;border:0;border-radius:10px;background:#93c9fa;color:#14283a;font-weight:700}
+.shared-actions .secondary-action{background:#394b5a;color:#edf5ff}
 </style></head><body><div class="wrap"><header><h1 id="heading">⌂ Home</h1><div class="brand"><img class="mradio-mark" src="../mradio-icon.svg" alt="" aria-hidden="true"><span>m<span class="mradio-brand-accent">Radio</span></span></div></header><main>
-<section id="homePanel"><div class="panel"><div class="player"><div class="art" id="homeArt">♫</div><div class="grow"><div style="color:var(--accent);font-size:.8rem;font-weight:800">NOW PLAYING</div><div class="title" id="current">Choose a station</div><div class="muted notice" id="status" role="status">Select a radio below</div></div><div class="controls"><button class="round" id="previous" aria-label="Previous station">◀Ⅰ</button><button class="round primary" id="toggle" disabled>▶</button><button class="round" id="next" aria-label="Next station">Ⅰ▶</button></div></div></div><div class="row"><h2 style="flex:1">Favourite Radios</h2><button class="btn tiny" id="reorder">Reorder</button></div><div class="grid" id="favorites"></div><h2>More from Mauritius</h2><div class="grid" id="more"></div></section>
+<section id="homePanel"><div id="sharedNotice" class="shared-notice hidden" role="status" aria-live="polite"></div><div class="panel"><div class="player"><div class="art" id="homeArt">♫</div><div class="grow"><div style="color:var(--accent);font-size:.8rem;font-weight:800">NOW PLAYING</div><div class="title" id="current">Choose a station</div><div class="muted notice" id="status" role="status">Select a radio below</div></div><div class="controls"><button class="round" id="previous" aria-label="Previous station">◀Ⅰ</button><button class="round primary" id="toggle" disabled>▶</button><button class="round" id="next" aria-label="Next station">Ⅰ▶</button></div></div></div><div class="row"><h2 style="flex:1">Favourite Radios</h2><button class="btn tiny" id="reorder">Reorder</button></div><div class="grid" id="favorites"></div><h2>More from Mauritius</h2><div class="grid" id="more"></div></section>
 <section id="searchPanel" class="hidden"><h2>Find stations</h2><form class="row" id="searchForm"><input class="search" id="query" placeholder="⌕ Find a station" aria-label="Find a station"><button class="btn primary">Search</button></form><div class="tabs"><button class="btn" id="muTab" aria-pressed="true">Mauritius</button><button class="btn" id="worldTab" aria-pressed="false">Worldwide</button><select class="btn" id="country" aria-label="Country"><option value="">Country</option><option value="FR">France</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="IN">India</option><option value="ZA">South Africa</option><option value="AU">Australia</option></select></div><p class="muted" id="searchStatus" role="status">More from Mauritius</p><div class="grid" id="results"></div></section>
 <section id="settingsPanel" class="hidden"><h2>Settings</h2><div class="panel"><label>Volume <input id="volume" type="range" min="0" max="100" value="80"></label><p class="muted">Your bookmarks and preferences stay in this browser.</p><button class="btn" id="reset">Restore default favourites</button></div><div class="panel"><h2>Add a custom stream</h2><form id="customForm" class="row"><input class="search" id="customName" placeholder="Station name" required><input class="search" id="customUrl" type="url" placeholder="https://stream.example/radio.mp3" required><button class="btn primary">Add</button></form></div></section>
 </main><footer>Independent station streams may not support browser playback. mRadio Web uses local browser storage.</footer></div>
@@ -271,24 +278,35 @@ render();
     const shared=known||station('shared:'+stream,'Shared radio stream',stream,'Shared from mRadio','');
     choose(shared,false);
     activeList=[shared];
-    if(existing){
-      alert(shared.name+' is already in your favourites. Ready to listen!');
-    }else if(confirm((known?known.name:'This shared radio')+' is not in your favourites. Add it?')){
-      let toSave=shared;
-      if(!known){
-        const name=prompt('Name this radio station:', 'Shared radio');
-        if(name&&name.trim())toSave={...shared,name:name.trim().slice(0,100)};
-      }
-      if(!state.favorites.some(match)){
-        state.favorites.push(toSave);
-        save();render();
-        choose(toSave,false);activeList=[toSave];
-      }
+    const notice=$('sharedNotice');
+    notice.classList.remove('hidden');
+    notice.replaceChildren();
+    const heading=document.createElement('strong');
+    heading.textContent=existing?'Already in favourites':known?known.name:'Shared radio ready';
+    const description=document.createElement('p');
+    description.textContent=existing?'This station is already saved. Press Play to listen.':'The station is ready to listen to in your browser.';
+    const actions=document.createElement('div');actions.className='shared-actions';
+    const listen=document.createElement('button');listen.textContent='▶ Play shared radio';
+    listen.onclick=()=>{choose(shared,true);activeList=[shared]};
+    actions.append(listen);
+    if(!existing){
+      const add=document.createElement('button');add.className='secondary-action';add.textContent='☆ Add to favourites';
+      add.onclick=()=>{
+        const name=known?known.name:(prompt('Name this radio station:','Shared radio')||'Shared radio').trim().slice(0,100);
+        const entry=known||{...shared,name:name||'Shared radio'};
+        if(!state.favorites.some(match)){state.favorites.push(entry);save();render()}
+        choose(entry,false);activeList=[entry];
+        heading.textContent='Saved to favourites';
+        description.textContent=entry.name+' is now in your favourites.';
+        add.remove();
+      };
+      actions.append(add);
     }
+    notice.append(heading,description,actions);
     page('home');
   }catch(err){
     console.warn('Shared radio could not be opened:',err);
-    alert('Unable to open this shared radio in the browser. Try opening it in the Android app.');
+    const notice=$('sharedNotice');notice.classList.remove('hidden');notice.replaceChildren();const heading=document.createElement('strong');heading.textContent='Unable to open shared station';const message=document.createElement('p');message.textContent='This link could not be decoded in this browser. Try opening it in the Android app, or share the link again. ('+(err&&err.message?err.message:'Unknown error')+')';notice.append(heading,message);page('home');
   }
 })();
 </script></body></html>
