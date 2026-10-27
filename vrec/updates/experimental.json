@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-405",
+  "tag": "vrec-experimental-pr-40-run-408",
   "versionName": "4.6",
-  "versionCode": 100405,
+  "versionCode": 100408,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-405/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-408/VREC-4.6.apk",
   "apkSize": 34845596,
-  "sha256": "5157748d8f0b137a0dddf8745b3ef695d31ac67aebfa2cecbedff54f7310809d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-405",
+  "sha256": "2caf3520dcfc129e4dedd9d2a68ae46419d4878fc16422924b0e9b889cd04ae5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-408",
   "notes": [
+    "Do not silently report empty recording queue when shell listing fails",
+    "Log shell recording import queue state to distinguish missing capture from missing list entry",
+    "Fallback to Android runtime permission prompt when shell refuses call history grant",
     "Regression tests for private caller labels and WhatsApp Unicode number/name extraction",
     "Correct Unicode whitespace regex for caller identity normalization",
     "Normalize hidden Unicode formatting in WhatsApp caller labels and recognize withheld numbers",
     "Capture VoIP caller from notification Person and text fields and preserve private number",
     "Consume temporary caller JSON only after successful ADB recording import",
     "Atomically save temporary call metadata, preserve late fields, and consume matched entries",
-    "Avoid overloaded JSONArray method reference in call metadata journal",
-    "Add regression tests for safe timestamp and package caller matching",
-    "Extract deterministic shell call metadata matching policy for regression tests",
-    "Auto-reattach previously authorized ADB transport while preserving live shell helper"
+    "Avoid overloaded JSONArray method reference in call metadata journal"
   ]
 }
