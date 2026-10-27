@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-311",
+  "tag": "pcl-experimental-pr-64-run-317",
   "versionName": "5.8",
-  "versionCode": 100311,
+  "versionCode": 100317,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-311/PCL-5.8.apk",
-  "apkSize": 19785844,
-  "sha256": "694f76d41a7b095eddc434323b7dfa2b838b6c32312ee4951711043295786509",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-311",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-317/PCL-5.8.apk",
+  "apkSize": 19785840,
+  "sha256": "30d75d16066da951ad4a926e76c11cd169a258806860a1ac6f9c568551de4e59",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-317",
   "notes": [
+    "Test recent-call dial eligibility and withheld caller safety",
+    "Repair recent unknown SIM call when Gateway recovers caller ID after idle",
+    "Preserve SIM call start and direction before idle reset for call-log recovery",
+    "Recover missing SIM caller number from matching Gateway call log after call ends",
+    "Centralize valid SIM recent number filtering for call action",
+    "Add Gateway call button for dialable SIM recent entries",
     "Add regression checks for volume mode protocol UI persistence and stream routing",
     "Wire remote volume mode selection into Gateway audio requests",
     "Expose Auto Call Media Ringtone volume mode selector on Remote Calls screen",
-    "Allow volume mode command and bump Bluetooth protocol to version 8",
-    "Add Gateway volume mode Auto Call Media Ringtone with persisted selection and status sync",
-    "Keep remote volume notification for Gateway-handled SIM calls; select active audio stream",
-    "Test read-only Recents and retained Clear history action",
-    "Import Material ListItem for read-only Recents",
-    "Make Recents read-only SIM call list; retain confirmed Clear history",
-    "Restore SIM dialing and contact name lookup removed by cleanup"
+    "Allow volume mode command and bump Bluetooth protocol to version 8"
   ]
 }
