@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-392",
+  "tag": "vrec-experimental-pr-40-run-399",
   "versionName": "4.6",
-  "versionCode": 100392,
+  "versionCode": 100399,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-392/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-399/VREC-4.6.apk",
   "apkSize": 34845596,
-  "sha256": "b1633409879fec0cb61f12f97d8015d679be5c36e14b9d6b3a1dbb0568ddeaf8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-392",
+  "sha256": "4828816bc44a8a9de2d13b1a0ef27acf50ba7e5e6e149c48e7926604e092baf4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-399",
   "notes": [
+    "Avoid overloaded JSONArray method reference in call metadata journal",
+    "Add regression tests for safe timestamp and package caller matching",
+    "Extract deterministic shell call metadata matching policy for regression tests",
+    "Auto-reattach previously authorized ADB transport while preserving live shell helper",
+    "Attach verified time-matched WhatsApp caller details to imported ADB files",
+    "Persist Telecom and notification caller identity for delayed shell recording import",
+    "Add time-correlated caller metadata journal for asynchronous ADB recordings",
     "Reduce VRec helper Start Stop Restart button height to 40dp",
     "Show four system status indicators in one compact row",
-    "Use three-column permission chips with circular grant icons and centered ADB error badge",
-    "Redesign Home recording method selector as compact two-option tiles",
-    "Remove duplicate call detection import from permission dashboard",
-    "Compact permissions grid and add safe tap-to-request actions with verified ADB grants",
-    "Fix malformed Kotlin string in Settings ADB access diagnostics",
-    "Add regression test for green and red permission badge styling",
-    "Redesign system status with color-coded mockup-inspired connection and recovery tiles",
-    "Redesign Home permission dashboard with mockup-inspired status tiles and badges"
+    "Use three-column permission chips with circular grant icons and centered ADB error badge"
   ]
 }
