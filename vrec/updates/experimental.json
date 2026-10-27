@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-552",
+  "tag": "vrec-experimental-pr-40-run-556",
   "versionName": "4.6",
-  "versionCode": 100552,
+  "versionCode": 100556,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-552/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-556/VREC-4.6.apk",
   "apkSize": 34829624,
-  "sha256": "e70cdca7c7c9c42d7d8fe12598e74dc2ddae41b715598f97591afde6188c87e8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-552",
+  "sha256": "e8a24555afbaed6563721da348fbcc2b34561bc3df3b171fb4e5c714ac8ee33c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-556",
   "notes": [
+    "Avoid redundant Home setup contract assertion",
+    "Align source contract assertion with current implementation",
+    "Align source contract assertion with current implementation",
+    "Align source contract assertion with current implementation",
+    "Align source contract assertion with current implementation",
     "Test oversized authenticated recording identity fails closed",
     "Align authenticated recording snapshot filename limit with lifecycle validation",
     "Test VoIP metadata matching under ambiguous simultaneous calls",
     "Require matching VoIP package before enriching shell recording metadata",
-    "Regress against overlapping and mismatched notification shell commands",
-    "Use explicit branches for confirmed notification command responses",
-    "Serialize notification recording controls and reject mismatched shell responses",
-    "Test authoritative recording snapshot repairing reordered END wake",
-    "Allow authenticated live snapshot to repair prematurely retired recording identity",
-    "Test paused recovery notification channel and stale overlay cleanup"
+    "Regress against overlapping and mismatched notification shell commands"
   ]
 }
