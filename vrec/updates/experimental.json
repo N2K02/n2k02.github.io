@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-399",
+  "tag": "vrec-experimental-pr-40-run-401",
   "versionName": "4.6",
-  "versionCode": 100399,
+  "versionCode": 100401,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-399/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-401/VREC-4.6.apk",
   "apkSize": 34845596,
-  "sha256": "4828816bc44a8a9de2d13b1a0ef27acf50ba7e5e6e149c48e7926604e092baf4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-399",
+  "sha256": "cf07153121ec28b055fbe8d48492e5425781a3f0c2b4e1ce4f3a64ba126d6126",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-401",
   "notes": [
+    "Consume temporary caller JSON only after successful ADB recording import",
+    "Atomically save temporary call metadata, preserve late fields, and consume matched entries",
     "Avoid overloaded JSONArray method reference in call metadata journal",
     "Add regression tests for safe timestamp and package caller matching",
     "Extract deterministic shell call metadata matching policy for regression tests",
@@ -16,8 +18,6 @@
     "Attach verified time-matched WhatsApp caller details to imported ADB files",
     "Persist Telecom and notification caller identity for delayed shell recording import",
     "Add time-correlated caller metadata journal for asynchronous ADB recordings",
-    "Reduce VRec helper Start Stop Restart button height to 40dp",
-    "Show four system status indicators in one compact row",
-    "Use three-column permission chips with circular grant icons and centered ADB error badge"
+    "Reduce VRec helper Start Stop Restart button height to 40dp"
   ]
 }
