@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-435",
+  "tag": "vrec-experimental-pr-40-run-436",
   "versionName": "4.6",
-  "versionCode": 100435,
+  "versionCode": 100436,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-435/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-436/VREC-4.6.apk",
   "apkSize": 34829552,
-  "sha256": "8cca0b39a4ba1061ee1dbaf8cdaf3760a5f2b46625f20a4830900d0ca8abd8c7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-435",
+  "sha256": "b387b283018b64195b232c8b5a578289f4dc24a9885940022d3b5c82c09c849f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-436",
   "notes": [
+    "Update permission dashboard tests for ADB-only recording API",
     "Fix ADB-only compilation by removing obsolete method enum checks",
     "Fix ADB-only compilation by removing obsolete method enum checks",
     "Fix ADB-only compilation by removing obsolete method enum checks",
@@ -17,7 +18,6 @@
     "Correct shell control protocol line framing",
     "Keep paused shell controls visible while completed segment imports",
     "Register internal enhanced capture notification control receiver",
-    "Add private notification receiver for enhanced capture controls",
-    "Add shell recording notification actions and paused state"
+    "Add private notification receiver for enhanced capture controls"
   ]
 }
