@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-442",
+  "tag": "vrec-experimental-pr-40-run-443",
   "versionName": "4.6",
-  "versionCode": 100442,
+  "versionCode": 100443,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-442/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-443/VREC-4.6.apk",
   "apkSize": 34829552,
-  "sha256": "6fef4caaae28b929c3e03d304c625d4f1a14e077d5684d6200b43389d8ab1745",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-442",
+  "sha256": "6c797a386a0c675dd412c7a5faaf0c653da7660d612943b63683cf02c9112179",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-443",
   "notes": [
+    "Show green System Status tick only when connected, armed and UID 2000; otherwise red cross",
     "Check Home ADB setup wiring without brittle composable substring boundaries",
     "Check Home ADB setup wiring without brittle composable substring boundaries",
     "Refresh outdated UI and ADB lifecycle contract expectations",
@@ -17,7 +18,6 @@
     "Align contract tests with ADB-only Home and shell controls",
     "Align contract tests with ADB-only Home and shell controls",
     "Align contract tests with ADB-only Home and shell controls",
-    "Update permission dashboard tests for ADB-only recording API",
-    "Fix ADB-only compilation by removing obsolete method enum checks"
+    "Update permission dashboard tests for ADB-only recording API"
   ]
 }
