@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-410",
+  "tag": "vrec-experimental-pr-40-run-414",
   "versionName": "4.6",
-  "versionCode": 100410,
+  "versionCode": 100414,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-410/VREC-4.6.apk",
-  "apkSize": 34845596,
-  "sha256": "8af95881b3b361a51d5927ca7b91ff1face5bc7504414393ada1b0ca58b7ca2d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-410",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-414/VREC-4.6.apk",
+  "apkSize": 34845592,
+  "sha256": "3530270e0ff7f2bb472feb20b845986b6a87d2a61b2d12da583dde7db161efe2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-414",
   "notes": [
+    "Refresh recordings screen automatically after finalized standard or imported ADB recording",
+    "Refresh recordings screen automatically after finalized standard or imported ADB recording",
+    "Refresh recordings screen automatically after finalized standard or imported ADB recording",
+    "Expose recording-store revision for automatic list refresh",
     "Explain tap-to-grant permission badges and automatic ADB grant attempts",
     "Keep Start Stop Restart visible after ADB refresh; disable safely during recording",
     "Do not silently report empty recording queue when shell listing fails",
     "Log shell recording import queue state to distinguish missing capture from missing list entry",
     "Fallback to Android runtime permission prompt when shell refuses call history grant",
-    "Regression tests for private caller labels and WhatsApp Unicode number/name extraction",
-    "Correct Unicode whitespace regex for caller identity normalization",
-    "Normalize hidden Unicode formatting in WhatsApp caller labels and recognize withheld numbers",
-    "Capture VoIP caller from notification Person and text fields and preserve private number",
-    "Consume temporary caller JSON only after successful ADB recording import"
+    "Regression tests for private caller labels and WhatsApp Unicode number/name extraction"
   ]
 }
