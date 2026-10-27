@@ -1,17 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-279",
+  "tag": "pcl-experimental-pr-64-run-306",
   "versionName": "5.8",
-  "versionCode": 100279,
+  "versionCode": 100306,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-279/PCL-5.8.apk",
-  "apkSize": 19853593,
-  "sha256": "e87c1384bcf552348f5a6af5394fd4b5d604e906e04cc76fd78d00dbe0c00120",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-279",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-306/PCL-5.8.apk",
+  "apkSize": 19785844,
+  "sha256": "cc4a3018e093d779b94469ace0efb7c1166b82b20bc6b38fbd88fe58bc71eb82",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-306",
   "notes": [
-    "Restrict remote notifications to live calls: LinkService.kt",
-    "Restrict remote notifications to live calls: NotifListener.kt",
-    "Restrict remote notifications to live calls: Prefs.kt",
-    "Restrict remote notifications to live calls: MainActivity.kt"
+    "Test read-only Recents and retained Clear history action",
+    "Import Material ListItem for read-only Recents",
+    "Make Recents read-only SIM call list; retain confirmed Clear history",
+    "Restore SIM dialing and contact name lookup removed by cleanup",
+    "Remove last obsolete mirror call branch from Calls UI",
+    "Restore complete SIM Calls UI and remove third-party cards safely",
+    "Test SIM-only role allowlist and audio acknowledgements",
+    "Enforce SIM-only command allowlist and validate call states",
+    "Preserve audio command acknowledgements in SIM-only protocol",
+    "Remove obsolete WhatsApp accessibility configuration"
   ]
 }
