@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-414",
+  "tag": "vrec-experimental-pr-40-run-417",
   "versionName": "4.6",
-  "versionCode": 100414,
+  "versionCode": 100417,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-414/VREC-4.6.apk",
-  "apkSize": 34845592,
-  "sha256": "3530270e0ff7f2bb472feb20b845986b6a87d2a61b2d12da583dde7db161efe2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-414",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-417/VREC-4.6.apk",
+  "apkSize": 34845596,
+  "sha256": "03fe6b0e4f3c52bb93dcada0405a1729d9bd7bbcc8b502745fa631cbe3a81642",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-417",
   "notes": [
+    "Simplify permissions card label for ADB-only recording",
+    "Remove obsolete Standard versus ADB method selector card",
+    "Enforce ADB-only recording and migrate stored standard preference",
     "Refresh recordings screen automatically after finalized standard or imported ADB recording",
     "Refresh recordings screen automatically after finalized standard or imported ADB recording",
     "Refresh recordings screen automatically after finalized standard or imported ADB recording",
     "Expose recording-store revision for automatic list refresh",
     "Explain tap-to-grant permission badges and automatic ADB grant attempts",
     "Keep Start Stop Restart visible after ADB refresh; disable safely during recording",
-    "Do not silently report empty recording queue when shell listing fails",
-    "Log shell recording import queue state to distinguish missing capture from missing list entry",
-    "Fallback to Android runtime permission prompt when shell refuses call history grant",
-    "Regression tests for private caller labels and WhatsApp Unicode number/name extraction"
+    "Do not silently report empty recording queue when shell listing fails"
   ]
 }
