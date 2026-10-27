@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-391",
+  "tag": "vrec-experimental-pr-40-run-392",
   "versionName": "4.6",
-  "versionCode": 100391,
+  "versionCode": 100392,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-391/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-392/VREC-4.6.apk",
   "apkSize": 34845596,
-  "sha256": "a2bda337195e11251ca52bfdd437ce04f400fdafb86370fc0e1ef1f82e6cf3bf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-391",
+  "sha256": "b1633409879fec0cb61f12f97d8015d679be5c36e14b9d6b3a1dbb0568ddeaf8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-392",
   "notes": [
+    "Reduce VRec helper Start Stop Restart button height to 40dp",
     "Show four system status indicators in one compact row",
     "Use three-column permission chips with circular grant icons and centered ADB error badge",
     "Redesign Home recording method selector as compact two-option tiles",
@@ -17,7 +18,6 @@
     "Fix malformed Kotlin string in Settings ADB access diagnostics",
     "Add regression test for green and red permission badge styling",
     "Redesign system status with color-coded mockup-inspired connection and recovery tiles",
-    "Redesign Home permission dashboard with mockup-inspired status tiles and badges",
-    "Regression-test granted and not-granted permission badge labels"
+    "Redesign Home permission dashboard with mockup-inspired status tiles and badges"
   ]
 }
