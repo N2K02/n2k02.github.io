@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-645",
+  "tag": "vrec-experimental-pr-40-run-648",
   "versionName": "4.6",
-  "versionCode": 100645,
+  "versionCode": 100648,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-645/VREC-4.6.apk",
-  "apkSize": 34846008,
-  "sha256": "11f4db8996b2cfecd6ca11ac92e430787e53920937f0eb9af3861f2ce794b622",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-645",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-648/VREC-4.6.apk",
+  "apkSize": 34845996,
+  "sha256": "7b483bad1a81fe8c7d57757a02340dfe9b39eb48a818ffc12d861d247498d8d2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-648",
   "notes": [
+    "Add shell command collision regression test for helper startup",
+    "Fix duplicate shell protocol opcodes blocking SIM source acknowledgment",
+    "Fix duplicate shell protocol opcodes blocking SIM source acknowledgment",
+    "Fix duplicate shell protocol opcodes blocking SIM source acknowledgment",
     "Keep Home recovery tests aligned with validated helper startup transaction",
     "Preserve wireless loopback and live UID checks with shared permission flow",
     "Assert stable TCP preference across full wireless setup",
     "Check central UID verification instead of deleted grant wrapper",
     "Assert stale TLS UID is cleared before TCP authorization retry",
-    "Clear stale wireless UID badge during TCP daemon restart",
-    "Protect TCP-before-helper recovery, cached UID Start and optional Telecom grants",
-    "Update TCP reconnect contract for snapshot-based transport decision",
-    "Keep wireless-to-TCP decision consistent across pairing transaction",
-    "Keep missing-permission explanation visible when ADB helper is healthy"
+    "Clear stale wireless UID badge during TCP daemon restart"
   ]
 }
