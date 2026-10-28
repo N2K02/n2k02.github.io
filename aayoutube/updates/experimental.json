@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-164",
+  "tag": "aayoutube-experimental-pr-22-run-166",
   "versionName": "6.4",
-  "versionCode": 100164,
+  "versionCode": 100166,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-164/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-166/AAYoutube-6.4.apk",
   "apkSize": 1864280,
-  "sha256": "0615c265ac4d2da8e8dec2841a8137f7546414e63d9c22aadd844a9596a88187",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-164",
+  "sha256": "c7812204a5f73368201c064c72d882c1357675c720d5cbc149cafbd5d17dd3ec",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-166",
   "notes": [
+    "Restore swipe-down mini player gesture across updated YouTube player DOM",
+    "Replace fragile YouTube pivot overrides with one persistent AAyoutube navigation bar on Home and watch",
     "Test timed lyrics sync, buffering, pause, speed and offsets",
     "Synchronize lyrics with playback buffering and add timing offset controls",
     "Hide YouTube mobile Open App badge without removing topbar controls",
@@ -16,8 +18,6 @@
     "Cache lyrics across panel toggles and close only on X",
     "Use browse-specific native menu bridge for mini-player Home navigation",
     "Route YouTube browse-page Menu taps through BrowseBridge during mini playback",
-    "Document system-controlled PiP sizing constraints",
-    "Restore hidden YouTube pivot bar on watch pages and reserve bottom space",
-    "Make lyrics panel vertically draggable and persist position"
+    "Document system-controlled PiP sizing constraints"
   ]
 }
