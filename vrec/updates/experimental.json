@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-757",
+  "tag": "vrec-experimental-pr-40-run-764",
   "versionName": "4.6",
-  "versionCode": 100757,
+  "versionCode": 100764,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-757/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-764/VREC-4.6.apk",
   "apkSize": 34895420,
-  "sha256": "be189eaee038b79e36ded266cdef299f5a4e9a4e931cf74242ee596797cb9d7c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-757",
+  "sha256": "09d61b3d6ad68f4d83107635611282f6bb3130ec58cd7a39be9344cd41c0c145",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-764",
   "notes": [
-    "Test explicit incoming and outgoing text variations",
-    "Recognize explicit call direction labels including calling ellipsis",
-    "Show unknown call direction explicitly rather than redundant VoIP badge",
-    "Retain previously observed VoIP flow across Telecom callbacks and session adoption",
-    "Test reliable incoming and outgoing VoIP notification classification",
-    "Let users label legacy VoIP direction so incoming/outgoing icons appear",
-    "Allow correcting legacy VoIP direction in recording metadata sidecar",
-    "Save matched VoIP flow direction in imported shell recording sidecars",
-    "Forward notification-backed call direction without guessing ongoing VoIP",
-    "Classify VoIP incoming and explicit outgoing notification evidence"
+    "Respect explicit unknown call direction without inventing SIM or VoIP flow",
+    "Respect explicit unknown call direction without inventing SIM or VoIP flow",
+    "Respect explicit unknown call direction without inventing SIM or VoIP flow",
+    "Respect explicit unknown call direction without inventing SIM or VoIP flow",
+    "Test incoming/outgoing SIM and VoIP direction precedence in recording list",
+    "Test SIM call direction correction and ambiguous call-log rejections",
+    "Auto-reconcile SIM direction from call log and apply direction to labels and filters",
+    "Cross-check SIM call direction against unique matching Android call-log entries",
+    "Keep observed SIM ringing/offhook direction in session flow metadata",
+    "Honor verified incoming/outgoing flow for SIM and VoIP list labels"
   ]
 }
