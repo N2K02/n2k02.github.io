@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-615",
+  "tag": "vrec-experimental-pr-40-run-616",
   "versionName": "4.6",
-  "versionCode": 100615,
+  "versionCode": 100616,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-615/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-616/VREC-4.6.apk",
   "apkSize": 34829620,
-  "sha256": "75e5bee8d5c2d9885c5b5833281d455e17519190972b2b6eb881121ab508ed20",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-615",
+  "sha256": "262837c9803c6668927a16410c2878bbbe28c1a23550ef03e8efa45fddac1d2e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-616",
   "notes": [
+    "Correct legacy filename regression to reject unverified cross-app caller metadata",
     "Retain failed shell import warnings until user acknowledges them",
     "Keep irreversible import failure warnings visible until explicitly dismissed",
     "Report metadata failures during contact recovery, contact selection and favorites",
@@ -17,7 +18,6 @@
     "Allow immediate first TCP promotion and throttle only actual transport-switch attempts",
     "Align onboarding state and UI terminology with automatic TCP default",
     "Align onboarding state and UI terminology with automatic TCP default",
-    "Align onboarding state and UI terminology with automatic TCP default",
-    "Remove AtomicFile backup remnants on deletion and preserve error return when rollback fails"
+    "Align onboarding state and UI terminology with automatic TCP default"
   ]
 }
