@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-803",
+  "tag": "vrec-experimental-pr-40-run-807",
   "versionName": "4.6",
-  "versionCode": 100803,
+  "versionCode": 100807,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-803/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-807/VREC-4.6.apk",
   "apkSize": 34928192,
-  "sha256": "562e0aba253eb7108e8a118f5138e32695e13e9f6bbf7217c3d4c31816d8d0d3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-803",
+  "sha256": "b839d8920c51133544d8c52d65cb2c28e1ad0887f69ebff9116afe2866232eff",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-807",
   "notes": [
+    "Update ADB and unified recording controller contracts without weakening safety checks",
+    "Update ADB and unified recording controller contracts without weakening safety checks",
+    "Update ADB and unified recording controller contracts without weakening safety checks",
+    "Update ADB and unified recording controller contracts without weakening safety checks",
+    "Refresh lifecycle and notification safety contracts for shared shell controller",
+    "Update Home visual contracts to verify guarded switch and library navigation",
     "Enforce and test authenticated recording command eligibility across all UI surfaces",
     "Enforce and test authenticated recording command eligibility across all UI surfaces",
     "Serialize all live recording controls with atomic pending-action reservation",
-    "Keep live caller/timer through pause segment finalization and restore paused overlay",
-    "Show installed calling-app icon with live source and caller on Home and mini-bar",
-    "Display actual VoIP app icon with phone fallback in live recording details",
-    "Route floating overlay pause resume stop through unified authenticated receiver",
-    "Test live capture controls, status timing and detailed notifications",
-    "Test live capture controls, status timing and detailed notifications",
-    "Test all permission icons and shell pause stop resume lifecycle"
+    "Keep live caller/timer through pause segment finalization and restore paused overlay"
   ]
 }
