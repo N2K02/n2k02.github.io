@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-776",
+  "tag": "vrec-experimental-pr-40-run-783",
   "versionName": "4.6",
-  "versionCode": 100776,
+  "versionCode": 100783,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-776/VREC-4.6.apk",
-  "apkSize": 34911808,
-  "sha256": "72dc2a547cb079542968bfcf321d58b787c891105fe1f535e28caaf0f93d4a2d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-776",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-783/VREC-4.6.apk",
+  "apkSize": 34911804,
+  "sha256": "88e27b16dcf33875f427332660be133163c729a0dee3772d29a30cf6581a1cb2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-783",
   "notes": [
+    "Test Home status while starting and saving a call recording",
+    "Make Home recording hero reflect confirmed, starting, paused and saving states",
+    "Represent starting and saving states without claiming active audio capture",
+    "Modernize Home hero status, promote active recording and add Library shortcut",
+    "Show Connection, Recording, Recovery and Shell UID in one compact row",
+    "Add trustworthy Home capture summary state and JVM regression coverage",
+    "Add trustworthy Home capture summary state and JVM regression coverage",
     "Guard modern Home layout and unchanged recording, ADB and permission actions",
     "Remove obsolete Home imports after switching recording control to Material switch",
-    "Preserve accessible status and permission badge contrast in light and dark themes",
-    "Preserve accessible status and permission badge contrast in light and dark themes",
-    "Preserve accessible status and permission badge contrast in light and dark themes",
-    "Align ADB onboarding card and status chip with modern Home dashboard styling",
-    "Modernize Home permissions with progress, outlined chips and readable two-column grid",
-    "Refine Home ADB dashboard with distinct card and readable two-column metrics",
-    "Modernize VRec Home recording control and warning cards while preserving behavior",
-    "Unify high-contrast Home panel surfaces and outlines"
+    "Preserve accessible status and permission badge contrast in light and dark themes"
   ]
 }
