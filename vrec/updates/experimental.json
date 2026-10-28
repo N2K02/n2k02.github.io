@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-723",
+  "tag": "vrec-experimental-pr-40-run-735",
   "versionName": "4.6",
-  "versionCode": 100723,
+  "versionCode": 100735,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-723/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-735/VREC-4.6.apk",
   "apkSize": 34878764,
-  "sha256": "dda24d6f6b2b7c63f1e72f03b5671248143f264deeaabc0ffed028d0b0cc1a4c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-723",
+  "sha256": "aa0ea057e02376f68f2d79cdbcf36bd7e513b45728da40e8a62ed0429c77e0d4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-735",
   "notes": [
-    "Remove duplicate Color import found by Kotlin CI after repairing missing import",
-    "Regression-test manual-only repair of unresponsive current helper and safe stale upgrade",
-    "Carry manual repair intent through TCP and Wireless ADB verification to shell helper",
-    "Use guarded user-initiated helper restart for Home Start and Repair actions",
-    "Pass user-triggered repair intent through verified helper startup transaction",
-    "Let explicit helper Repair safely restart unresponsive current-version daemon once",
-    "Separate explicit guarded helper repair from conservative automatic recovery",
-    "Test SIM source socket diagnostics and no unsafe automatic daemon replacement",
-    "Show actual SIM source socket failure type in diagnostics instead of ambiguous timeouts",
-    "Expose SIM source command transport failure classification without unsafe upgrades"
+    "Make guarded shell quit regression assertion strictly require BUSY response",
+    "Add cross-layer ADB Start/Repair, safe shell upgrade, permissions, warning and Quit contracts",
+    "Align ADB regression assertions with current explicit repair and deduplicated logging code",
+    "Align ADB regression assertions with current explicit repair and deduplicated logging code",
+    "Align ADB regression assertions with current explicit repair and deduplicated logging code",
+    "Avoid local exception shadowing Kotlin error assertion in SIM recovery test",
+    "Add comprehensive SIM source, protocol, stale helper and repair regression matrix",
+    "Update regression contract for explicit manual helper repair argument",
+    "Update regression contract for explicit manual helper repair argument",
+    "Test red helper warning clearance without losing persistent recording and import alerts"
   ]
 }
