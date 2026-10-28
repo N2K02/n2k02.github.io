@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-735",
+  "tag": "vrec-experimental-pr-40-run-740",
   "versionName": "4.6",
-  "versionCode": 100735,
+  "versionCode": 100740,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-735/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-740/VREC-4.6.apk",
   "apkSize": 34878764,
-  "sha256": "aa0ea057e02376f68f2d79cdbcf36bd7e513b45728da40e8a62ed0429c77e0d4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-735",
+  "sha256": "07048b3afa5cce8f7ccfb71c629a302a3d773bb5fdb602e0346ad6e1a1a53eaf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-740",
   "notes": [
+    "Regression-test automatic TCP repair isolation and non-reentrant recovery mutex routing",
+    "Assert automatic TCP repair keeps its retry intent and re-verifies UID after transport change",
+    "Assert automatic TCP repair keeps its retry intent and re-verifies UID after transport change",
+    "Preserve automatic vs manual repair intent through wireless-to-TCP promotion",
+    "Expose coordinated TCP reconnect that preserves automatic repair policy without reentrant lock",
     "Make guarded shell quit regression assertion strictly require BUSY response",
     "Add cross-layer ADB Start/Repair, safe shell upgrade, permissions, warning and Quit contracts",
     "Align ADB regression assertions with current explicit repair and deduplicated logging code",
     "Align ADB regression assertions with current explicit repair and deduplicated logging code",
-    "Align ADB regression assertions with current explicit repair and deduplicated logging code",
-    "Avoid local exception shadowing Kotlin error assertion in SIM recovery test",
-    "Add comprehensive SIM source, protocol, stale helper and repair regression matrix",
-    "Update regression contract for explicit manual helper repair argument",
-    "Update regression contract for explicit manual helper repair argument",
-    "Test red helper warning clearance without losing persistent recording and import alerts"
+    "Align ADB regression assertions with current explicit repair and deduplicated logging code"
   ]
 }
