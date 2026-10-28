@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-843",
+  "tag": "vrec-experimental-pr-40-run-844",
   "versionName": "4.6",
-  "versionCode": 100843,
+  "versionCode": 100844,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-843/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-844/VREC-4.6.apk",
   "apkSize": 34944572,
-  "sha256": "c886d300e567a0a086abc6703dca3b6ed1349700057783008b36a7efee8ba08d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-843",
+  "sha256": "3a18e564e0181ea551f6013ce766fca9161a55a109db12fc26b59b81b7529d6c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-844",
   "notes": [
+    "Fix stale ADB TCP transition order test to match automatic argument",
     "Test contact-to-number-to-call-details fallback without guessed private identity",
     "Test contact-to-number-to-call-details fallback without guessed private identity",
     "Display actual number or call source and direction on live Home, mini-bar and notification",
@@ -17,7 +18,6 @@
     "Replace unknown caller placeholder with verified number or descriptive call summary",
     "Recover verified uniquely timed WhatsApp video caller even when Telecom direction is unspecified",
     "Test SIM name and number fallback, explicit private callers and competing-call rejection",
-    "Assert unambiguous SIM and VoIP caller import and exact journal consumption",
-    "Show resolved SIM caller in live recording card using same unambiguous shell journal"
+    "Assert unambiguous SIM and VoIP caller import and exact journal consumption"
   ]
 }
