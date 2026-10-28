@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-740",
+  "tag": "vrec-experimental-pr-40-run-745",
   "versionName": "4.6",
-  "versionCode": 100740,
+  "versionCode": 100745,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-740/VREC-4.6.apk",
-  "apkSize": 34878764,
-  "sha256": "07048b3afa5cce8f7ccfb71c629a302a3d773bb5fdb602e0346ad6e1a1a53eaf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-740",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-745/VREC-4.6.apk",
+  "apkSize": 34879036,
+  "sha256": "038087584d9ee15874ed049e07cf9bc9a5329666851af5782efea3385edfad3a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-745",
   "notes": [
+    "Test VoIP source icon classification and direction fallbacks",
+    "Grant narrow package visibility for call-app icon lookup",
+    "Place app and direction badges beneath recording caller without changing playback",
+    "Show source app icons and colored call direction badges",
+    "Classify recording source without confusing VoIP and SIM calls",
     "Regression-test automatic TCP repair isolation and non-reentrant recovery mutex routing",
     "Assert automatic TCP repair keeps its retry intent and re-verifies UID after transport change",
     "Assert automatic TCP repair keeps its retry intent and re-verifies UID after transport change",
     "Preserve automatic vs manual repair intent through wireless-to-TCP promotion",
-    "Expose coordinated TCP reconnect that preserves automatic repair policy without reentrant lock",
-    "Make guarded shell quit regression assertion strictly require BUSY response",
-    "Add cross-layer ADB Start/Repair, safe shell upgrade, permissions, warning and Quit contracts",
-    "Align ADB regression assertions with current explicit repair and deduplicated logging code",
-    "Align ADB regression assertions with current explicit repair and deduplicated logging code",
-    "Align ADB regression assertions with current explicit repair and deduplicated logging code"
+    "Expose coordinated TCP reconnect that preserves automatic repair policy without reentrant lock"
   ]
 }
