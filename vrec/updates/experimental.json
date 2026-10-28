@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-641",
+  "tag": "vrec-experimental-pr-40-run-645",
   "versionName": "4.6",
-  "versionCode": 100641,
+  "versionCode": 100645,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-641/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-645/VREC-4.6.apk",
   "apkSize": 34846008,
-  "sha256": "677958e388838d0b0ed6aabdba63046ee05b9ea079f7ee8a5e7a5c1e9648f165",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-641",
+  "sha256": "11f4db8996b2cfecd6ca11ac92e430787e53920937f0eb9af3861f2ce794b622",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-645",
   "notes": [
+    "Keep Home recovery tests aligned with validated helper startup transaction",
+    "Preserve wireless loopback and live UID checks with shared permission flow",
+    "Assert stable TCP preference across full wireless setup",
+    "Check central UID verification instead of deleted grant wrapper",
     "Assert stale TLS UID is cleared before TCP authorization retry",
     "Clear stale wireless UID badge during TCP daemon restart",
     "Protect TCP-before-helper recovery, cached UID Start and optional Telecom grants",
     "Update TCP reconnect contract for snapshot-based transport decision",
     "Keep wireless-to-TCP decision consistent across pairing transaction",
-    "Keep missing-permission explanation visible when ADB helper is healthy",
-    "Promote verified wireless transport to TCP before starting recording helper",
-    "Refresh permission badges reactively and explain Android-controlled access without false grant claims",
-    "Make helper permission badge repair ADB via shared setup and refresh readiness reactively",
-    "Simulate complete first-time pairing, TCP promotion, repair and UI-navigation ADB journeys"
+    "Keep missing-permission explanation visible when ADB helper is healthy"
   ]
 }
