@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-154",
+  "tag": "aayoutube-experimental-pr-22-run-164",
   "versionName": "6.4",
-  "versionCode": 100154,
+  "versionCode": 100164,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-154/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-164/AAYoutube-6.4.apk",
   "apkSize": 1864280,
-  "sha256": "3e5244c9f72605fe42fe1a502fe44f8b39bf5047070c7a3e4517cabd5071ffee",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-154",
+  "sha256": "0615c265ac4d2da8e8dec2841a8137f7546414e63d9c22aadd844a9596a88187",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-164",
   "notes": [
-    "Make PiP video use full viewport without cropping or stale small-video sizing",
-    "Keep YouTube bottom pivot navigation visible on mobile watch pages",
-    "Show lyrics panel while searching and display unavailable feedback instead of silently hiding",
-    "Update registry tests for seven free-access sources and default order",
-    "Align Lyrics settings with free-only provider defaults",
-    "Configure free-only lyrics provider defaults; NetEase opt-in",
-    "Expose RMM Revival in lyrics provider settings",
-    "Add iTunes matched RMM Revival provider fallback",
-    "Add integrated-provider registry and timestamp precision tests",
-    "Add LRC parsing and playback synchronization regression tests"
+    "Test timed lyrics sync, buffering, pause, speed and offsets",
+    "Synchronize lyrics with playback buffering and add timing offset controls",
+    "Hide YouTube mobile Open App badge without removing topbar controls",
+    "Add independent watch-page bottom navigation fallback when YouTube removes pivot bar",
+    "Cache lyrics across panel toggles and close only on X",
+    "Use browse-specific native menu bridge for mini-player Home navigation",
+    "Route YouTube browse-page Menu taps through BrowseBridge during mini playback",
+    "Document system-controlled PiP sizing constraints",
+    "Restore hidden YouTube pivot bar on watch pages and reserve bottom space",
+    "Make lyrics panel vertically draggable and persist position"
   ]
 }
