@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-151",
+  "tag": "aayoutube-experimental-pr-22-run-154",
   "versionName": "6.4",
-  "versionCode": 100151,
+  "versionCode": 100154,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-151/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-154/AAYoutube-6.4.apk",
   "apkSize": 1864280,
-  "sha256": "cae2e7733190587e5ef12f6ae54f33fa3219ab191ee6e97becb490fc1fc4e3d5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-151",
+  "sha256": "3e5244c9f72605fe42fe1a502fe44f8b39bf5047070c7a3e4517cabd5071ffee",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-154",
   "notes": [
+    "Make PiP video use full viewport without cropping or stale small-video sizing",
+    "Keep YouTube bottom pivot navigation visible on mobile watch pages",
+    "Show lyrics panel while searching and display unavailable feedback instead of silently hiding",
     "Update registry tests for seven free-access sources and default order",
     "Align Lyrics settings with free-only provider defaults",
     "Configure free-only lyrics provider defaults; NetEase opt-in",
     "Expose RMM Revival in lyrics provider settings",
     "Add iTunes matched RMM Revival provider fallback",
     "Add integrated-provider registry and timestamp precision tests",
-    "Add LRC parsing and playback synchronization regression tests",
-    "Expose bLyrics and BiniLyrics in provider settings",
-    "Add bLyrics and BiniLyrics TTML sources and timing parser",
-    "Expose SimpMusic provider in lyrics settings"
+    "Add LRC parsing and playback synchronization regression tests"
   ]
 }
