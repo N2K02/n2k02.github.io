@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-690",
+  "tag": "vrec-experimental-pr-40-run-700",
   "versionName": "4.6",
-  "versionCode": 100690,
+  "versionCode": 100700,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-690/VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-700/VREC-4.6.apk",
   "apkSize": 34862380,
-  "sha256": "a2f57cf4590c93a3e8a6e07705170e90b25c313433905e89e80864b161cc6b05",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-690",
+  "sha256": "4373309c807087e7b35b6664786654a10e76f39c6bbaf6c4f0207b5d1b08a240",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-700",
   "notes": [
-    "Avoid claiming Developer options disabled based on restricted Android setting",
-    "Add tests for legacy helper EOF, SIM ack, socket timeout and Quit cancellation",
-    "Use testable handshake in authenticated SIM configuration path",
-    "Introduce testable SIM source compatibility handshake to distinguish EOF from timeout",
-    "Show Android grants independently of ADB helper readiness and provide repair action",
-    "Avoid false Developer options off warning when ADB UID 2000 is verified",
-    "Test legacy SIM protocol migration and timeout preservation",
-    "Distinguish legacy SIM source EOF from socket timeout to safely upgrade existing daemon",
-    "Recognize legacy shell helper SIM command EOF as upgrade-required protocol mismatch",
-    "Guard permission state reset on screen cancellation and nonfatal grant failure"
+    "Expire previous-day Activity Log entries when opening the screen",
+    "Keep Activity Log retention correct when toggled across midnight",
+    "Remove unused Compose import from paginated Activity Log",
+    "Guard VRec Activity Log toggle, pagination controls and early startup initialization",
+    "Test log wrapping, pagination, following new activity and clearing",
+    "Match AAYoutube logging page with enable toggle, auto-follow pagination, copy and clear",
+    "Add deterministic wrapped-log pagination policy with auto-follow support",
+    "Initialize VRec Activity Log at application startup before background ADB work",
+    "Initialize VRec Activity Log at application startup before background ADB work",
+    "Add persistent opt-in Activity Log capture while preserving redacted logcat and daily retention"
   ]
 }
