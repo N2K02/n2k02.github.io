@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-40-run-675",
+  "tag": "vrec-experimental-pr-40-run-681",
   "versionName": "4.6",
-  "versionCode": 100675,
+  "versionCode": 100681,
   "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-675/VREC-4.6.apk",
-  "apkSize": 34845992,
-  "sha256": "3e1461026abd40c42f2276f04d8be26b6a0284e21ac2f7a5216876a21e928def",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-675",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-40-run-681/VREC-4.6.apk",
+  "apkSize": 34845996,
+  "sha256": "c768628c2712b5828dfa359dca9806c10e8ad3ebc99952d6cf8b999db7e48941",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-40-run-681",
   "notes": [
+    "Guard permission state reset on screen cancellation and nonfatal grant failure",
+    "Keep permission dashboard consistent after cancellation and optional Android grant errors",
+    "Update ADB source contracts to follow shared setup and new permission diagnostics",
+    "Update ADB source contracts to follow shared setup and new permission diagnostics",
+    "Update ADB source contracts to follow shared setup and new permission diagnostics",
+    "Update ADB source contracts to follow shared setup and new permission diagnostics",
     "Regress queued wireless Start suppression and temporary JAR staging cleanup",
     "Disable duplicate Start while wireless pairing or TCP verification is underway",
     "Test scoped-storage fallback policy for helper JAR staging",
-    "Fallback to ephemeral MediaStore staging when Android shell cannot read app-scoped helper JAR",
-    "Model shell JAR staging fallback for scoped-storage Android devices",
-    "Expose paired wireless retry as connecting immediately to prevent duplicate Start taps",
-    "Regression guards for navigation-safe helper Start, Quit cleanup and runtime grants",
-    "Expect app-owned Start operation in Home navigation regression contracts",
-    "Expect app-owned Start operation in Home navigation regression contracts",
-    "Propagate Quit cancellation from helper launch instead of misreporting recorder failure"
+    "Fallback to ephemeral MediaStore staging when Android shell cannot read app-scoped helper JAR"
   ]
 }
