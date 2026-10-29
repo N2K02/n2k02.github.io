@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-26-run-330",
-  "versionName": "5.4-experimental.330",
-  "versionCode": 100330,
-  "apkName": "MRadio-PR-26-f0256c4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-330/MRadio-PR-26-f0256c4.apk",
+  "tag": "mradio-exp-pr-26-run-331",
+  "versionName": "5.4-experimental.331",
+  "versionCode": 100331,
+  "apkName": "MRadio-PR-26-fa7f4de.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-331/MRadio-PR-26-fa7f4de.apk",
   "apkSize": 24393342,
-  "sha256": "0bee5c0767edf75250f2c91197bdbf1b371c18bd9f6397893c282cd012db469b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-330",
+  "sha256": "a8398e3b7f364f7208f782ad5097657b9d7a2d97c108cf72fb73e7a5dfe40682",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-331",
   "notes": [
+    "Test ordered mixed-source diagnostics and stable legacy log handling",
     "Timestamp daily diagnostics and date legacy saved log lines",
     "Sort combined persistent and live Logs chronologically",
     "Guard canonical Article icon on Logs entries and headers",
@@ -17,7 +18,6 @@
     "Align regression checks with AAYouTube Logs navigation and controls",
     "Test AAYouTube-style Logs controls and absence of Back action",
     "Remove redundant Logs Back action; keep existing navigation",
-    "Remove redundant Logs Back action; keep existing navigation",
-    "Match AAYouTube Logs page controls and remove redundant Back action"
+    "Remove redundant Logs Back action; keep existing navigation"
   ]
 }
