@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-17-run-113",
+  "tag": "hfreebuds-experimental-pr-17-run-114",
   "versionName": "4.8",
-  "versionCode": 100113,
+  "versionCode": 100114,
   "apkName": "HFreebuds-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-113/HFreebuds-4.8.apk",
-  "apkSize": 64449867,
-  "sha256": "b214f977bcb69092c7eeb2a362d0a9e9ebb8f621cbad19a82bc1307e33cd4fec",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-113",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-114/HFreebuds-4.8.apk",
+  "apkSize": 19787083,
+  "sha256": "4673a056b2b5dba9680b5db22ce34769d0a412acaa401b7b84481316724471a5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-114",
   "notes": [
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
