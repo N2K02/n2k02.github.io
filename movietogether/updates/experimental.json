@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-75",
-  "versionName": "1.7-experimental.75",
-  "versionCode": 100075,
-  "apkName": "MovieTogether-PR-10-6e73e2e.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-75/MovieTogether-PR-10-6e73e2e.apk",
+  "tag": "movietogether-experimental-pr-10-run-81",
+  "versionName": "1.7-experimental.81",
+  "versionCode": 100081,
+  "apkName": "MovieTogether-PR-10-c7ac856.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-81/MovieTogether-PR-10-c7ac856.apk",
   "apkSize": 26064960,
-  "sha256": "b34dab283762927304cec0f34c4934307a5a95220db412e3ce2aaeb60318410a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-75",
+  "sha256": "1e5064058e2e7afa23dbb9a29c9825396066d23da9da161d417c76f4583e0e02",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-81",
   "notes": [
+    "Align regression checks with AAYouTube Logs navigation and controls",
+    "Test AAYouTube-style Logs controls and absence of Back action",
+    "Keep app navigation without redundant Logs Back button",
+    "Remove unused Logs Back callback",
+    "Remove obsolete Back action binding from Logs page",
+    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
     "Align Logs regression tests with shared AAYouTube-style viewer",
     "Standardize Logs with AAYouTube paging, theme and common actions",
     "Move MovieTogether Logs into themed Settings page and prevent clipped controls",
-    "Test Firebase room expiry decisions and privacy-safe diagnostic contracts",
-    "Log privacy-safe Firebase auth, publish, resolution and expiry events",
-    "Align Firebase workflow verification with shared APK package ID",
-    "Use identical application ID for experimental and stable APKs",
-    "Report both SHA-1 and SHA-256 fingerprints for Firebase registration",
-    "Remove synthetic Firebase client workaround and validate both registered app IDs",
-    "Register genuine experimental Firebase Android client alongside stable client"
+    "Test Firebase room expiry decisions and privacy-safe diagnostic contracts"
   ]
 }
