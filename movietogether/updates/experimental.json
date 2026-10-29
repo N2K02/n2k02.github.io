@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-65",
-  "versionName": "1.7-experimental.65",
-  "versionCode": 100065,
-  "apkName": "MovieTogether-PR-10-ccb13b7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-65/MovieTogether-PR-10-ccb13b7.apk",
+  "tag": "movietogether-experimental-pr-10-run-68",
+  "versionName": "1.7-experimental.68",
+  "versionCode": 100068,
+  "apkName": "MovieTogether-PR-10-36b0376.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-68/MovieTogether-PR-10-36b0376.apk",
   "apkSize": 26064960,
-  "sha256": "3e245e744710ed6b0eacabd2298f5c93218b2500f51b7bcbf82afb7314ded1ac",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-65",
+  "sha256": "3524e2895f6d0d79930ef765b86a3beaacfec306c6fe9a2f0a28103d0b601fc0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-68",
   "notes": [
+    "Report both SHA-1 and SHA-256 fingerprints for Firebase registration",
+    "Remove synthetic Firebase client workaround and validate both registered app IDs",
+    "Register genuine experimental Firebase Android client alongside stable client",
     "Remove old Java log viewer in favor of Compose screen",
     "Use native Material 3 Logs screen matching app settings structure",
     "Fix debug google-services client selection for experimental package",
     "Expose private Logs submenu from Settings",
     "Register private Settings Logs screen",
     "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger",
-    "Initialize local crash journal automatically on process startup",
-    "Add local privacy-safe crash journal"
+    "Restore daily private diagnostic log on app startup"
   ]
 }
