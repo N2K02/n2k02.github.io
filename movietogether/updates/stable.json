@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "movietogether-v1.7-build-45",
-  "versionName": "1.7",
-  "versionCode": 100045,
-  "apkName": "MovieTogether-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.7-build-45/MovieTogether-1.7.apk",
-  "apkSize": 18470871,
-  "sha256": "6f9b67f289683f50c8c7bbe1075f0fbe5dae20dba38ef9fde16e3593a1b78bcc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.7-build-45",
+  "tag": "movietogether-v1.8-build-88",
+  "versionName": "1.8",
+  "versionCode": 100088,
+  "apkName": "MovieTogether-1.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v1.8-build-88/MovieTogether-1.8.apk",
+  "apkSize": 3445214,
+  "sha256": "5ee0457efa08a8fc5b77aaab9911a6c569c9336cff72669c331309009bec1d61",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v1.8-build-88",
   "notes": [
+    "Experimental: persistent random nickname on first launch (#10)",
     "Add minimized playback PiP and Android conversation chat bubbles",
     "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
     "Add shared pause attribution, in-player chat bubble and leave/rejoin flows",
@@ -17,7 +18,6 @@
     "Prevent regressions removing bottom Quit or restoring old settings modal",
     "Capture MovieTogether activity in composition for safe Quit callback",
     "MovieTogether: add bottom Quit beside Settings and end app task",
-    "Test Settings row alignment, diagnostic grouping and update placement",
-    "Use mRadio Settings section alignment and consistent updates-only row"
+    "Test Settings row alignment, diagnostic grouping and update placement"
   ]
 }
