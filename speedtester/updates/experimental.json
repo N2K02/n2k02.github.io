@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-224",
+  "tag": "speedtester-experimental-pr-27-run-227",
   "versionName": "7.8",
-  "versionCode": 100224,
+  "versionCode": 100227,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-224/SpeedTester-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-227/SpeedTester-7.8.apk",
   "apkSize": 21608015,
-  "sha256": "d3248458527c5926aadf8e1e56c238aceb643678402e31d91c12167b91c7167c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-224",
+  "sha256": "0987dce77cb862e25a44e58b3738e293c57319148e8f813d87d701d40c706f6f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-227",
   "notes": [
+    "test: update scan lifecycle contract for resumed location permission state",
+    "fix(performance): suspend network status polling while SpeedTester is backgrounded",
+    "fix(reliability): synchronize server details, reject stale locations, and refresh Wi-Fi permission state",
     "feat(ui): paired download/upload rates and redesigned Mauritius server directory",
     "fix: use AndroidX LocationManagerCompat across supported Android versions",
     "fix: restore remembered history selection and surface failed history saves",
     "ci: validate release minification without unavailable release unit-test task",
     "Align SpeedTester with shared public version checks and protect stable releases",
     "fix(release): centralize permissions, preserve history, track network changes and validate release builds",
-    "Simplify speedometer Home and enlarge expandable detailed metric cards",
-    "Show SSID and BSSID directly on Wi-Fi Analyzer nearby-network cards",
-    "Fix Home gauge card Compose scope after layout extraction",
-    "Align redesign regression test with start-of-test Wi-Fi snapshot"
+    "Simplify speedometer Home and enlarge expandable detailed metric cards"
   ]
 }
