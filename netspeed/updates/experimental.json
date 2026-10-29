@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-22-run-110",
-  "versionName": "4.3",
-  "versionCode": 100110,
-  "apkName": "NetSpeed-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-22-run-110/NetSpeed-4.3.apk",
-  "apkSize": 1207840,
-  "sha256": "7fd15356ad46f45c162984715b380542478895abdee06fcd36f054cf17cfb7f8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-22-run-110",
+  "tag": "netspeed-experimental-pr-23-run-113",
+  "versionName": "4.4",
+  "versionCode": 100113,
+  "apkName": "NetSpeed-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-113/NetSpeed-4.4.apk",
+  "apkSize": 19557714,
+  "sha256": "3e31b83d899a92a054825c34325e32d61d70e601be8a9f6d5b76c30d8124af90",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-113",
   "notes": [
-    "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
-    "Use mRadio Settings section alignment and consistent updates-only row",
-    "Guard bottom-bar Quit placement and app-specific shutdown semantics",
-    "Move Quit into bottom navigation after Settings and retain existing stop behavior",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Test NetSpeed Home-only controls and updates-only Settings",
-    "NetSpeed: remove Home Settings shortcut and show only About & updates in Settings",
-    "Make NetSpeed Home and Settings primary, with About & updates nested in Settings",
-    "Enable Android JVM regression tests for branded page headers"
+    "Run Android unit tests before experimental and stable APK packaging",
+    "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
