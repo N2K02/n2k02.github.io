@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-26-run-181",
-  "versionName": "7.7",
-  "versionCode": 100181,
-  "apkName": "SpeedTester-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-26-run-181/SpeedTester-7.7.apk",
-  "apkSize": 2979528,
-  "sha256": "57445ebe3e1a042a777a0b3d61d2404d0c7dc6256c2bd393da43b66fde1ee107",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-26-run-181",
+  "tag": "speedtester-experimental-pr-27-run-184",
+  "versionName": "7.8",
+  "versionCode": 100184,
+  "apkName": "SpeedTester-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-184/SpeedTester-7.8.apk",
+  "apkSize": 21395023,
+  "sha256": "5297cd3ce3b86c27bab8bb868ea45a43d4247e723aadfa88b366f5dc97ee74c2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-184",
   "notes": [
-    "Prevent regressions removing bottom Quit or restoring old settings modal",
-    "SpeedTester: add bottom Quit and cancel in-flight network tests",
-    "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
-    "Match mRadio Settings spacing and place updates last after divider",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Nest history and server pages under Settings; keep Home/Settings navigation",
-    "Test mRadio-style page icon and right-side brand header contract",
-    "Match mRadio page icon/title and app icon/name header on every page",
-    "feat(ui): host-owned SpeedTester page titles, no nested About title or custom back row"
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
+    "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
