@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-83",
-  "versionName": "1.7-experimental.83",
-  "versionCode": 100083,
-  "apkName": "MovieTogether-PR-10-c29998f.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-83/MovieTogether-PR-10-c29998f.apk",
+  "tag": "movietogether-experimental-pr-10-run-84",
+  "versionName": "1.7-experimental.84",
+  "versionCode": 100084,
+  "apkName": "MovieTogether-PR-10-9cb519b.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-84/MovieTogether-PR-10-9cb519b.apk",
   "apkSize": 26064960,
-  "sha256": "77a531b793075e160cbbc1d045782b1e6158161660fa9c87fa228484fcce2426",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-83",
+  "sha256": "c591b08241e632fbf67ccab17dc75c38e614565fd2598a0036b4e446978cd5db",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-84",
   "notes": [
+    "Attribute shared playback changes to stable server-owned guest connection labels",
     "Guard canonical Article icon on Logs entries and headers",
     "Standardize Logs submenu and page header with rounded Article icon",
     "Align regression checks with AAYouTube Logs navigation and controls",
@@ -17,7 +18,6 @@
     "Remove unused Logs Back callback",
     "Remove obsolete Back action binding from Logs page",
     "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
-    "Align Logs regression tests with shared AAYouTube-style viewer",
-    "Standardize Logs with AAYouTube paging, theme and common actions"
+    "Align Logs regression tests with shared AAYouTube-style viewer"
   ]
 }
