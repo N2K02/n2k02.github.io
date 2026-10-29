@@ -1,20 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-25-run-305",
-  "versionName": "5.3-experimental.305",
-  "versionCode": 100305,
-  "apkName": "MRadio-PR-25-969c873.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-25-run-305/MRadio-PR-25-969c873.apk",
-  "apkSize": 2827163,
-  "sha256": "827700f39775724f9ddf7197275eb5645474cde888858d69f8e0f3e7b9fc85d0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-25-run-305",
+  "tag": "mradio-exp-pr-26-run-308",
+  "versionName": "5.4-experimental.308",
+  "versionCode": 100308,
+  "apkName": "MRadio-PR-26-20c6587.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-308/MRadio-PR-26-20c6587.apk",
+  "apkSize": 24360574,
+  "sha256": "433c0c39ab5a7d9842c697b29875b4c828c33617e203c0743974f3cd4e07ef9b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-308",
   "notes": [
-    "Avoid false favourite matches for unrelated shared streams with same name",
-    "Test and implement shared stream URL identity",
-    "Test and implement shared stream URL identity",
-    "Experimental: recognise shared streams and integrate player/favourites",
-    "Experimental: recognise shared streams and integrate player/favourites",
-    "Experimental: recognise shared streams and integrate player/favourites",
-    "Experimental: recognise shared streams and integrate player/favourites"
+    "Run Android unit tests before experimental and stable APK packaging",
+    "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
