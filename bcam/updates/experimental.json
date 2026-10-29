@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-20-run-178",
-  "versionName": "4.3",
-  "versionCode": 100178,
-  "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-178/BCam-4.3.apk",
+  "tag": "bcam-experimental-pr-21-run-180",
+  "versionName": "4.4",
+  "versionCode": 100180,
+  "apkName": "BCam-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-21-run-180/BCam-4.4.apk",
   "apkSize": 19611388,
-  "sha256": "1c1abbf8618be88d12f5523f74d2a9feace0f4731ef8f494c9f63b1a7af985f4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-178",
+  "sha256": "cc945b7c13c3828f2371dbf97d2bc536e8ace66dca4444db7d14c45d6ed51cb9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-21-run-180",
   "notes": [
-    "Keep camera overlay lifecycle test robust to added diagnostics",
-    "Test privacy-safe lifecycle event coverage in shared diagnostic Logs",
-    "Capture privacy-safe camera lifecycle, retries and failures in unified Logs",
-    "Test ordered mixed-source diagnostics and stable legacy log handling",
-    "Chronologically merge diagnostic and live Logs; preserve dates of legacy entries",
-    "Fix Logs icon test compilation by reading UI source in test scope",
-    "Guard canonical Article icon on Logs entries and headers",
-    "Use the same Article icon for Logs navigation and headers",
-    "Align regression checks with AAYouTube Logs navigation and controls",
-    "Test AAYouTube-style Logs controls and absence of Back action"
+    "Align public release version lookup and duplicate-version guards"
   ]
 }
