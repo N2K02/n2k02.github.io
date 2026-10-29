@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-210",
+  "tag": "speedtester-experimental-pr-27-run-211",
   "versionName": "7.8",
-  "versionCode": 100210,
+  "versionCode": 100211,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-210/SpeedTester-7.8.apk",
-  "apkSize": 21493327,
-  "sha256": "78a2126eaa9dd71c52987d07cc6948383f549c7ca35a44e14f563385deb26efc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-210",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-211/SpeedTester-7.8.apk",
+  "apkSize": 21509711,
+  "sha256": "ede6e8844bcfe00a1f2e981e65d7a6ea51ba898f2b63af71337a1159b224c4a3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-211",
   "notes": [
+    "Replace speed graph with animated speedometer home dashboard",
     "Add native Wi-Fi analyser submenu with signal graphs, channel ratings and scan tests",
     "Test lifecycle and cancellation events appear in unified Logs",
     "Record interrupted speed tests in Logs before Quit cancels network work",
@@ -17,7 +18,6 @@
     "Sort combined persistent and live Logs chronologically",
     "Verify consistent rounded Article icon on Logs menu and header",
     "Standardize Logs submenu and page header with rounded Article icon",
-    "Update Logs regression tests for icon actions and no redundant Back link",
-    "Align regression checks with AAYouTube Logs navigation and controls"
+    "Update Logs regression tests for icon actions and no redundant Back link"
   ]
 }
