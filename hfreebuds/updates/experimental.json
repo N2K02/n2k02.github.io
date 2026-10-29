@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-17-run-124",
+  "tag": "hfreebuds-experimental-pr-17-run-131",
   "versionName": "4.8",
-  "versionCode": 100124,
+  "versionCode": 100131,
   "apkName": "HFreebuds-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-124/HFreebuds-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-131/HFreebuds-4.8.apk",
   "apkSize": 19807563,
-  "sha256": "d12523bcea76a4daf5338b095d1e5442a4eca78851369962af1dfdc38e650342",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-124",
+  "sha256": "2769dd6c6b14f4bf86827afdefc9280ea4435393dc1b097dcf5567f8812b824b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-131",
   "notes": [
+    "Align regression checks with AAYouTube Logs navigation and controls",
+    "Test AAYouTube-style Logs controls and absence of Back action",
+    "Remove redundant Logs Back action; keep existing navigation",
+    "Align Logs page controls and spacing with AAYouTube",
+    "Clear HFreebuds connection history together with unified Logs",
+    "Fix Logs header and layout compilation",
+    "Standardize HFreebuds in-app Logs with AAYouTube controls and shared theme",
     "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
-    "Use native Material 3 Logs screen matching app settings structure",
-    "Integrate persistent diagnostics into existing HFreebuds Logs submenu",
-    "Add Settings Logs navigation entry",
-    "Register private Settings Logs screen",
-    "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger",
-    "Initialize local crash journal automatically on process startup"
+    "Use native Material 3 Logs screen matching app settings structure"
   ]
 }
