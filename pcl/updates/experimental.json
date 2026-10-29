@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-63-run-403",
+  "tag": "pcl-experimental-pr-63-run-404",
   "versionName": "5.8",
-  "versionCode": 100403,
+  "versionCode": 100404,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-403/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-404/PCL-5.8.apk",
   "apkSize": 19935545,
-  "sha256": "3bd5dcbb5a88f380af4f323523973b88fe7c78a8acabbc19bda1d6b25befc91f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-403",
+  "sha256": "b9d508c1ac0998b0de63f346f1caeef396b177832a0c4a2c6205a82993e89a2d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-404",
   "notes": [
+    "Update last stale Recents guard test to verify all new guarded call actions",
     "Fix Recents UI contract test local variable so validation compiles",
     "Opt in to Material 3 modal sheet API on dedicated Recents card",
     "Track caller-summary behavior in its new shared presentation policy",
@@ -17,7 +18,6 @@
     "Match mockup's three side-by-side SIM statistics cards on phone screens",
     "Update source contracts to inspect the dedicated modern Recents component",
     "Update source contracts to inspect the dedicated modern Recents component",
-    "Update source contracts to inspect the dedicated modern Recents component",
-    "Verify mockup UI, all rounded-sheet actions, date badges and Gateway SIM-call safety"
+    "Update source contracts to inspect the dedicated modern Recents component"
   ]
 }
