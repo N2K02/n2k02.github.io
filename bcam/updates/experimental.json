@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-19-run-149",
-  "versionName": "4.2",
-  "versionCode": 100149,
-  "apkName": "BCam-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-19-run-149/BCam-4.2.apk",
-  "apkSize": 1200040,
-  "sha256": "1fc24bc60df995f5ec41dc424ac93abc63c069a695337a9382cb18e08b362afa",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-19-run-149",
+  "tag": "bcam-experimental-pr-20-run-152",
+  "versionName": "4.3",
+  "versionCode": 100152,
+  "apkName": "BCam-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-152/BCam-4.3.apk",
+  "apkSize": 19578620,
+  "sha256": "73d8523469f53e0cba8d99584374645cf9713b5fa58cc5ac29020835cee5636e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-152",
   "notes": [
-    "Fix BCam pause controls during camera startup and recording"
+    "Run Android unit tests before experimental and stable APK packaging",
+    "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
