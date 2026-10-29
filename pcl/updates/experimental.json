@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-338",
+  "tag": "pcl-experimental-pr-64-run-348",
   "versionName": "5.8",
-  "versionCode": 100338,
+  "versionCode": 100348,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-338/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-348/PCL-5.8.apk",
   "apkSize": 19785844,
-  "sha256": "63e22a9d899c9100f5714a3d95f91634fd8ea64c0ab0b14422cb9c16a8444f80",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-338",
+  "sha256": "0011cec5bfb26eccc83a3c07d114285f6ff4fa98752b4c43785dfcd22c1ec128",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-348",
   "notes": [
+    "Explicitly disable Android debugging in stable release builds",
     "Restore experimental debug builds; test both channels and ship release variant on main",
     "Build experimental and stable APKs using release variant",
     "Update SIM-only Recents contract test for requested call-back button",
@@ -17,7 +18,6 @@
     "Preserve SIM call start and direction before idle reset for call-log recovery",
     "Recover missing SIM caller number from matching Gateway call log after call ends",
     "Centralize valid SIM recent number filtering for call action",
-    "Add Gateway call button for dialable SIM recent entries",
-    "Add regression checks for volume mode protocol UI persistence and stream routing"
+    "Add Gateway call button for dialable SIM recent entries"
   ]
 }
