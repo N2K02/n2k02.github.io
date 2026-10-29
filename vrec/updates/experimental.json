@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-41-run-875",
+  "tag": "vrec-experimental-pr-41-run-876",
   "versionName": "3.3",
-  "versionCode": 100875,
+  "versionCode": 100876,
   "apkName": "VREC-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-875/VREC-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-876/VREC-3.3.apk",
   "apkSize": 34729140,
-  "sha256": "647f4b7a9d538fc76c37748e27186bfc2717e1c3df232b9cc85ce4669342da61",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-875",
+  "sha256": "31146c8c9a5ed4634476e2733b7ec185cfb1ecc7472a57a8a322720ccc4d2f4b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-876",
   "notes": [
+    "Verify consistent rounded Article icon on Logs menu and header",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
@@ -17,7 +18,6 @@
     "Allow PR debug signing without private release keystore",
     "Merge VRec recording diagnostics and persistent crash history into unified Logs",
     "Use encrypted keys.tar.enc CI signing bundle after verified migration",
-    "Migrate existing signing identity to encrypted CI bundle",
-    "Migrate legacy signing key into verified encrypted CI bundle"
+    "Migrate existing signing identity to encrypted CI bundle"
   ]
 }
