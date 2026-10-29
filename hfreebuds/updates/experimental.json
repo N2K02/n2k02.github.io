@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-16-run-111",
-  "versionName": "4.7",
-  "versionCode": 100111,
-  "apkName": "HFreebuds-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-16-run-111/HFreebuds-4.7.apk",
-  "apkSize": 2383502,
-  "sha256": "5d14bfd5e4ec9d1bdb9851dd654a362880f8498cd55cc41b1fa5a3dad0af577c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-16-run-111",
+  "tag": "hfreebuds-experimental-pr-17-run-113",
+  "versionName": "4.8",
+  "versionCode": 100113,
+  "apkName": "HFreebuds-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-113/HFreebuds-4.8.apk",
+  "apkSize": 64449867,
+  "sha256": "b214f977bcb69092c7eeb2a362d0a9e9ebb8f621cbad19a82bc1307e33cd4fec",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-113",
   "notes": [
-    "Test shared New badge visibility and HFreebuds tile exception",
-    "Keep update New badges visible on Settings and update destinations",
-    "Add regression test protecting app-specific Quit navigation",
-    "Test HFreebuds labeled Home actions below the branded title bar",
-    "Put labeled Choose earbuds and Quit buttons below HFreebuds home title bar",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Guard HFreebuds tile navigation against bottom menu regressions",
-    "Restore HFreebuds in-page Back button for tile navigation",
-    "HFreebuds: restore Home shortcut tiles and remove bottom navigation"
+    "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
