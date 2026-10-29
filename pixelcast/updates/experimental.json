@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-17-run-105",
+  "tag": "pixelcast-experimental-pr-17-run-106",
   "versionName": "4.1",
-  "versionCode": 100105,
+  "versionCode": 100106,
   "apkName": "PixelCast-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-105/PixelCast-4.1.apk",
-  "apkSize": 64405376,
-  "sha256": "d76731b1f32d318b5d26861264733ff449ce61f5214517c02e6709d85ecfd468",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-105",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-106/PixelCast-4.1.apk",
+  "apkSize": 19599232,
+  "sha256": "d6f34dca702fc749492fc6fa4c2371e569a5f2545fd18c5f1731b3784dfe70ed",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-106",
   "notes": [
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Run Android unit tests before experimental and stable APK packaging",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
