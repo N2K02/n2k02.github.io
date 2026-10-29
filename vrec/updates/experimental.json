@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-41-run-879",
+  "tag": "vrec-experimental-pr-41-run-882",
   "versionName": "3.3",
-  "versionCode": 100879,
+  "versionCode": 100882,
   "apkName": "VREC-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-879/VREC-3.3.apk",
-  "apkSize": 34977416,
-  "sha256": "ec51b04e4475c33a1c608846081a1e18e46faa29f44ca90b4dc9ce4aaad3b802",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-879",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-882/VREC-3.3.apk",
+  "apkSize": 34977412,
+  "sha256": "ce34fd6f5167f74ef8658ecd1fdf190f0483fb4f7aca6d4b7f0800fcd4f95e36",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-882",
   "notes": [
+    "Test chronological combined activity and diagnostic Logs",
+    "Write dated VREC diagnostics and normalize legacy saved log timestamps",
+    "Merge VREC shell recording activity and app diagnostics chronologically",
     "Update shutdown contract to verify new fail-closed recording Quit sequence",
     "Guard VREC Quit against active capture; import and confirm safe shell exit before disconnect",
     "Verify consistent rounded Article icon on Logs menu and header",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
-    "Remove obsolete Back action binding from Logs page",
-    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
-    "Allow PR debug signing without private release keystore",
-    "Merge VRec recording diagnostics and persistent crash history into unified Logs"
+    "Remove obsolete Back action binding from Logs page"
   ]
 }
