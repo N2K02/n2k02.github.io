@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-206",
+  "tag": "speedtester-experimental-pr-27-run-207",
   "versionName": "7.8",
-  "versionCode": 100206,
+  "versionCode": 100207,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-206/SpeedTester-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-207/SpeedTester-7.8.apk",
   "apkSize": 21411407,
-  "sha256": "4f9415159533ad0281118cb944e5885807d7a1423d87d802482c5412ae579f94",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-206",
+  "sha256": "30fd80e8087fa171b3b1578498c3c0a97d16f755791502e9ac2b97f02227f442",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-207",
   "notes": [
+    "Test chronological combined activity and diagnostic Logs",
     "Timestamp daily diagnostics and date legacy saved log lines",
     "Sort combined persistent and live Logs chronologically",
     "Verify consistent rounded Article icon on Logs menu and header",
@@ -17,7 +18,6 @@
     "Align regression checks with AAYouTube Logs navigation and controls",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
-    "Remove obsolete Back action binding from Logs page",
-    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link"
+    "Remove obsolete Back action binding from Logs page"
   ]
 }
