@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-318",
+  "tag": "pcl-experimental-pr-64-run-338",
   "versionName": "5.8",
-  "versionCode": 100318,
+  "versionCode": 100338,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-318/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-338/PCL-5.8.apk",
   "apkSize": 19785844,
-  "sha256": "39e90393d290985f72cb7392e6024f80a6a399a0a05b2abbd820b14cc5888d91",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-318",
+  "sha256": "63e22a9d899c9100f5714a3d95f91634fd8ea64c0ab0b14422cb9c16a8444f80",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-338",
   "notes": [
+    "Restore experimental debug builds; test both channels and ship release variant on main",
+    "Build experimental and stable APKs using release variant",
     "Update SIM-only Recents contract test for requested call-back button",
     "Test recent-call dial eligibility and withheld caller safety",
     "Repair recent unknown SIM call when Gateway recovers caller ID after idle",
@@ -16,8 +18,6 @@
     "Recover missing SIM caller number from matching Gateway call log after call ends",
     "Centralize valid SIM recent number filtering for call action",
     "Add Gateway call button for dialable SIM recent entries",
-    "Add regression checks for volume mode protocol UI persistence and stream routing",
-    "Wire remote volume mode selection into Gateway audio requests",
-    "Expose Auto Call Media Ringtone volume mode selector on Remote Calls screen"
+    "Add regression checks for volume mode protocol UI persistence and stream routing"
   ]
 }
