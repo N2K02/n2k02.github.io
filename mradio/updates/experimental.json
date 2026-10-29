@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-26-run-325",
-  "versionName": "5.4-experimental.325",
-  "versionCode": 100325,
-  "apkName": "MRadio-PR-26-063ace9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-325/MRadio-PR-26-063ace9.apk",
+  "tag": "mradio-exp-pr-26-run-328",
+  "versionName": "5.4-experimental.328",
+  "versionCode": 100328,
+  "apkName": "MRadio-PR-26-58ca79e.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-328/MRadio-PR-26-58ca79e.apk",
   "apkSize": 24393342,
-  "sha256": "89da46a5d2d245299731f533f2b2895ca666a40d02e6b9450353da3239cf7eb0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-325",
+  "sha256": "c428dd2062bda2ef658ed774088d202889106782b29c7f4a4067306496d2e263",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-328",
   "notes": [
+    "Guard canonical Article icon on Logs entries and headers",
+    "Use the same Article icon for Logs navigation and headers",
+    "Use the same Article icon for Logs navigation and headers",
     "Align regression checks with AAYouTube Logs navigation and controls",
     "Test AAYouTube-style Logs controls and absence of Back action",
     "Remove redundant Logs Back action; keep existing navigation",
     "Remove redundant Logs Back action; keep existing navigation",
     "Match AAYouTube Logs page controls and remove redundant Back action",
     "Standardize Logs to AAYouTube layout, paging, and n2k02theme",
-    "Merge mRadio connection diagnostics into themed Logs Settings page",
-    "Use identical application ID for experimental and stable APKs",
-    "Remove duplicate legacy Logs Activity after native Compose migration",
-    "Use native Material 3 Logs screen matching app settings structure"
+    "Merge mRadio connection diagnostics into themed Logs Settings page"
   ]
 }
