@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v4.2",
-  "versionName": "4.2",
-  "versionCode": 100150,
-  "apkName": "BCam-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.2/BCam-4.2.apk",
-  "apkSize": 1200040,
-  "sha256": "a3351d5b046a2d69f270d6c7316c8cb9f52f38ddca10ff8282c2800f0f770f09",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.2",
+  "tag": "bcam-v4.3",
+  "versionName": "4.3",
+  "versionCode": 100179,
+  "apkName": "BCam-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.3/BCam-4.3.apk",
+  "apkSize": 1216424,
+  "sha256": "b3c410f4aec167234610d70768ba7600a76d07e5b7088e93b6771e9bc9606bca",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.3",
   "notes": [
-    "Fix BCam pause controls during camera startup and recording"
+    "Use debug builds for experimental and release builds for stable APKs (#20)"
   ]
 }
