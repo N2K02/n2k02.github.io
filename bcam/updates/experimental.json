@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-20-run-166",
+  "tag": "bcam-experimental-pr-20-run-170",
   "versionName": "4.3",
-  "versionCode": 100166,
+  "versionCode": 100170,
   "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-166/BCam-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-170/BCam-4.3.apk",
   "apkSize": 19611388,
-  "sha256": "b48ab029ce6173cd068fa6a434f2d9f9ee6ade6be9a151db1c13c6e7a185377c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-166",
+  "sha256": "1ef6c4fcd8490f564cc0db94998eb3769c3f0c5e7f48f396fbaa01a8b50ee212",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-170",
   "notes": [
+    "Align regression checks with AAYouTube Logs navigation and controls",
+    "Test AAYouTube-style Logs controls and absence of Back action",
+    "Remove redundant Logs Back action; keep existing navigation",
+    "Remove redundant Logs Back action; keep existing navigation",
+    "Align Logs page controls and spacing with AAYouTube",
     "Align Logs regression tests with shared AAYouTube-style viewer",
     "Standardize Logs with AAYouTube paging, theme and common actions",
     "Use shared BCam theme and safe layout for diagnostics Logs page",
     "Use identical application ID for experimental and stable APKs",
-    "Remove duplicate legacy Logs Activity after native Compose migration",
-    "Use native Material 3 Logs screen matching app settings structure",
-    "Add Settings Logs entry",
-    "Register private Settings Logs screen",
-    "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup"
+    "Remove duplicate legacy Logs Activity after native Compose migration"
   ]
 }
