@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-63-run-402",
+  "tag": "pcl-experimental-pr-63-run-403",
   "versionName": "5.8",
-  "versionCode": 100402,
+  "versionCode": 100403,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-402/PCL-5.8.apk",
-  "apkSize": 19935541,
-  "sha256": "67fe9e798943ce26e70735cec333a2271334abbb47e248830f47ee24837bd41c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-402",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-403/PCL-5.8.apk",
+  "apkSize": 19935545,
+  "sha256": "3bd5dcbb5a88f380af4f323523973b88fe7c78a8acabbc19bda1d6b25befc91f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-403",
   "notes": [
+    "Fix Recents UI contract test local variable so validation compiles",
     "Opt in to Material 3 modal sheet API on dedicated Recents card",
     "Track caller-summary behavior in its new shared presentation policy",
     "Make date format test valid across device and CI timezones",
@@ -17,7 +18,6 @@
     "Update source contracts to inspect the dedicated modern Recents component",
     "Update source contracts to inspect the dedicated modern Recents component",
     "Update source contracts to inspect the dedicated modern Recents component",
-    "Verify mockup UI, all rounded-sheet actions, date badges and Gateway SIM-call safety",
-    "Test precise single-entry deletion including duplicates, time collision and safety"
+    "Verify mockup UI, all rounded-sheet actions, date badges and Gateway SIM-call safety"
   ]
 }
