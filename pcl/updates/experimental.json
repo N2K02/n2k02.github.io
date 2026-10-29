@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-354",
+  "tag": "pcl-experimental-pr-64-run-364",
   "versionName": "5.8",
-  "versionCode": 100354,
+  "versionCode": 100364,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-354/PCL-5.8.apk",
-  "apkSize": 19785856,
-  "sha256": "48eee1aa8cb35eb8bd4826baaebccbb64c5e8a9811869083ea8710f6b2caac73",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-354",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-364/PCL-5.8.apk",
+  "apkSize": 19785936,
+  "sha256": "3e829ab72c1184144050f92478f5de8a226c9146ec08469940b6fcebb1b77eb8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-364",
   "notes": [
+    "Initialize local crash journal automatically on process startup",
+    "Add local privacy-safe crash journal",
     "Apply experimental package suffix to debug build type, not signing config",
     "Add ProGuard rules file for optimized release builds",
     "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
@@ -16,8 +18,6 @@
     "Restore experimental debug builds; test both channels and ship release variant on main",
     "Build experimental and stable APKs using release variant",
     "Update SIM-only Recents contract test for requested call-back button",
-    "Test recent-call dial eligibility and withheld caller safety",
-    "Repair recent unknown SIM call when Gateway recovers caller ID after idle",
-    "Preserve SIM call start and direction before idle reset for call-log recovery"
+    "Test recent-call dial eligibility and withheld caller safety"
   ]
 }
