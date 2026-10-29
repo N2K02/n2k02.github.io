@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-218",
+  "tag": "aayoutube-experimental-pr-22-run-222",
   "versionName": "6.4",
-  "versionCode": 100218,
+  "versionCode": 100222,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-218/AAYoutube-6.4.apk",
-  "apkSize": 22164660,
-  "sha256": "1c9e352ae06c4b29b24b2bad6abedb5219d9ae2cb07c3e5e00be41d2bd2b548f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-218",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-222/AAYoutube-6.4.apk",
+  "apkSize": 22393325,
+  "sha256": "7b42b1d7287efd1878ee56b3355b66859b7253ca731dbfcedf4a2fe9dfb7c2d2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-222",
   "notes": [
+    "fix(auto): correct Kotlin Gradle imports for pinned AABrowser SDK verifier",
+    "docs: record AABrowser as canonical Android Auto upstream for AAYouTube",
+    "fix(auto): compute exact Git blob digest for pinned upstream SDK",
+    "feat(auto): pin and fetch AABrowser's actual v4 projection SDK artifact",
     "fix(auto): debounce host split-screen area transitions without recreating video",
     "test(auto): lock down dual media/video discovery, host security, and surface recovery",
     "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
     "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
     "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
-    "fix(auto): recover active playback after web-service disconnect with bounded retry",
-    "fix(auto): keep media controller connected when car surface runs without phone Activity",
-    "test(auto): verify Android WebView Media Session shim and car tap-to-seek",
-    "fix(auto): enable car-mode layout in legacy navigation surface too",
-    "feat(auto): adapt AABrowser media-session polyfill and car progress tap-to-seek"
+    "fix(auto): recover active playback after web-service disconnect with bounded retry"
   ]
 }
