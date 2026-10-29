@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-20-run-152",
+  "tag": "bcam-experimental-pr-20-run-153",
   "versionName": "4.3",
-  "versionCode": 100152,
+  "versionCode": 100153,
   "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-152/BCam-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-153/BCam-4.3.apk",
   "apkSize": 19578620,
-  "sha256": "73d8523469f53e0cba8d99584374645cf9713b5fa58cc5ac29020835cee5636e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-152",
+  "sha256": "c37dc60b5da2f05abe6a225a94ecdc94f199cb95c650d3938cf3d199393be613",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-153",
   "notes": [
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Run Android unit tests before experimental and stable APK packaging",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
