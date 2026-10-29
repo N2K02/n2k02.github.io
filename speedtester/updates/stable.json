@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v7.7",
-  "versionName": "7.7",
-  "versionCode": 100182,
-  "apkName": "SpeedTester-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.7/SpeedTester-7.7.apk",
-  "apkSize": 2979528,
-  "sha256": "9ca421cf57ae2ab30c539bc3174a3bc91336f2184999b341c5af2ba269896793",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.7",
+  "tag": "speedtester-v7.8",
+  "versionName": "7.8",
+  "versionCode": 100228,
+  "apkName": "SpeedTester-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.8/SpeedTester-7.8.apk",
+  "apkSize": 1853128,
+  "sha256": "83250475a2aeff0b19cafb6c3f3b74d22679c0b441a72fe6c3cb36d9f82bee1f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.8",
   "notes": [
-    "Prevent regressions removing bottom Quit or restoring old settings modal",
-    "SpeedTester: add bottom Quit and cancel in-flight network tests",
-    "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
-    "Match mRadio Settings spacing and place updates last after divider",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Nest history and server pages under Settings; keep Home/Settings navigation",
-    "Test mRadio-style page icon and right-side brand header contract",
-    "Match mRadio page icon/title and app icon/name header on every page",
-    "feat(ui): host-owned SpeedTester page titles, no nested About title or custom back row"
+    "Experimental SpeedTester — speedometer, Wi-Fi analyser, redesigned Home & History (#27)"
   ]
 }
