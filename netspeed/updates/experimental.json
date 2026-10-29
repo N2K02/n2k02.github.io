@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-23-run-114",
+  "tag": "netspeed-experimental-pr-23-run-116",
   "versionName": "4.4",
-  "versionCode": 100114,
+  "versionCode": 100116,
   "apkName": "NetSpeed-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-114/NetSpeed-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-116/NetSpeed-4.4.apk",
   "apkSize": 19557714,
-  "sha256": "88c8dfbd291f33f7aa0b37d3c7003ca79eecd3c414079d27bf4d1c47bc16c59f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-114",
+  "sha256": "6fefd4ff97e3cb50cc36796a7cdb7defb045642c1a80a5bdc78337c4e1708dc8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-116",
   "notes": [
+    "Initialize local crash journal automatically on process startup",
+    "Add local privacy-safe crash journal",
     "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Run Android unit tests before experimental and stable APK packaging",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
