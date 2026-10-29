@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-44-run-160",
+  "tag": "pbar-experimental-pr-44-run-163",
   "versionName": "5.3",
-  "versionCode": 100160,
+  "versionCode": 100163,
   "apkName": "PBar-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-160/PBar-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-163/PBar-5.3.apk",
   "apkSize": 19869144,
-  "sha256": "87036b28aefc455b3d392275c2adfa8b79db5a97c40a5f25550eb7fc01d6d727",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-160",
+  "sha256": "47d6785c1a4fe0b56cc3450d01494f6b58fc410b7d165115df4ec9309a3348a5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-163",
   "notes": [
+    "Test chronological combined activity and diagnostic Logs",
+    "Timestamp PBar diagnostics and retain dates for older saved entries",
+    "Display PBar saved and live diagnostics in timestamp order",
     "Verify consistent rounded Article icon on Logs menu and header",
     "Standardize Logs submenu and page header with rounded Article icon",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
     "Remove obsolete Back action binding from Logs page",
-    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
-    "Fix Logs header and layout compilation",
-    "Route PBar Logs through shared n2k02theme with AAYouTube controls",
-    "Use same application ID in experimental and stable PBar builds"
+    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link"
   ]
 }
