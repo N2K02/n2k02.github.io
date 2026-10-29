@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-193",
+  "tag": "aayoutube-experimental-pr-22-run-194",
   "versionName": "6.4",
-  "versionCode": 100193,
+  "versionCode": 100194,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-193/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-194/AAYoutube-6.4.apk",
   "apkSize": 22164660,
-  "sha256": "9e299faf92a7ffc8a1f02d02ff87e66e6dd50aab595eb1be7799cd26a17c6ce7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-193",
+  "sha256": "7d65f17eca86d4b75e25b3988755e7e5c90821d7e7a652f768f791f8cb98e6b8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-194",
   "notes": [
+    "Use compact header settings and fixed Quit Home Back row on Settings page",
     "Remove Android Auto floating Back overlay and expose header Settings",
     "Move AAYouTube phone navigation into top Settings header",
     "Use identical application ID for experimental and stable APKs",
@@ -17,7 +18,6 @@
     "Test privacy redaction of persisted diagnostic logs",
     "Redact phone-number-shaped values from persisted diagnostics",
     "Support pre-Android-28 process detection in crash journal",
-    "Show saved crashes on Logs page even with detailed logging disabled",
-    "Restore fatal diagnostics from both process journals after restart"
+    "Show saved crashes on Logs page even with detailed logging disabled"
   ]
 }
