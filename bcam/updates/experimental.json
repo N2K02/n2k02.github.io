@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-20-run-173",
+  "tag": "bcam-experimental-pr-20-run-174",
   "versionName": "4.3",
-  "versionCode": 100173,
+  "versionCode": 100174,
   "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-173/BCam-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-174/BCam-4.3.apk",
   "apkSize": 19611388,
-  "sha256": "9f62f16edce4094321581ed9900ee6316aad0a1e3c96179fc6f2edb04510b95a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-173",
+  "sha256": "0b3326a72c7ce521daab54a7b2fcae560194dd201a1730b64461b2d6287b23f1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-174",
   "notes": [
+    "Chronologically merge diagnostic and live Logs; preserve dates of legacy entries",
     "Fix Logs icon test compilation by reading UI source in test scope",
     "Guard canonical Article icon on Logs entries and headers",
     "Use the same Article icon for Logs navigation and headers",
@@ -17,7 +18,6 @@
     "Remove redundant Logs Back action; keep existing navigation",
     "Remove redundant Logs Back action; keep existing navigation",
     "Align Logs page controls and spacing with AAYouTube",
-    "Align Logs regression tests with shared AAYouTube-style viewer",
-    "Standardize Logs with AAYouTube paging, theme and common actions"
+    "Align Logs regression tests with shared AAYouTube-style viewer"
   ]
 }
