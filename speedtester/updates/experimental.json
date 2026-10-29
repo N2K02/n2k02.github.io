@@ -1,15 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-184",
+  "tag": "speedtester-experimental-pr-27-run-193",
   "versionName": "7.8",
-  "versionCode": 100184,
+  "versionCode": 100193,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-184/SpeedTester-7.8.apk",
-  "apkSize": 21395023,
-  "sha256": "5297cd3ce3b86c27bab8bb868ea45a43d4247e723aadfa88b366f5dc97ee74c2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-184",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-193/SpeedTester-7.8.apk",
+  "apkSize": 21411407,
+  "sha256": "1a2c451ed9e63beb803767a7fc5da00d90c15d77cd87aa899d730eeab67e063a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-193",
   "notes": [
-    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
-    "Use debug APKs for experimental PRs and release APKs for stable distribution"
+    "Remove duplicate legacy Logs Activity after native Compose migration",
+    "Use native Material 3 Logs screen matching app settings structure",
+    "Expose private Logs submenu from Settings",
+    "Register private Settings Logs screen",
+    "Add Settings Logs viewer with toggle, private history, copy and clear",
+    "Restore daily private diagnostic log on app startup",
+    "Port AAYouTube persistent private daily diagnostic logger",
+    "Initialize privacy-safe crash journal at startup",
+    "Add local privacy-safe crash journal",
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking"
   ]
 }
