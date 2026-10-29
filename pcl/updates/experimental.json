@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-477",
+  "tag": "pcl-experimental-pr-64-run-479",
   "versionName": "5.8",
-  "versionCode": 100477,
+  "versionCode": 100479,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-477/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-479/PCL-5.8.apk",
   "apkSize": 19884284,
-  "sha256": "0ceb0b93f4afe6b9d18ee98dcae7f02bac52331c017dfae4fbc4d0aecd4745a1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-477",
+  "sha256": "a78217d7be020a9a86b2888e7c8136c3f0884d0b7121a544fbf1c54aadc9e072",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-479",
   "notes": [
+    "Keep other-app tag fixture distinct in PCL public version regression test",
+    "Standardize public release version validation and prevent tag reuse",
     "Keep contact persistence off Bluetooth reader and redact live diagnostic outputs",
     "Prevent concurrent call commands and confirm Declined only after correlated Gateway ACK",
     "Update Recents regression tests for expanded actions and validate dialable call numbers",
@@ -16,8 +18,6 @@
     "Restore Recents actions with safe per-call deletion and compact verified-SIM controls",
     "Restrict locked-screen UI to incoming calls and clarify setup, permissions and platform limitations",
     "Keep Bluetooth reader responsive during contact and telephony provider work; capture optional diagnostics",
-    "Correlate call-control ACKs, confirm state transitions and reject incompatible Bluetooth protocols",
-    "Make SIM history and contacts crash-safe; enable optional call-log permission and preserve live logs",
-    "Suppress stale Gateway call snapshot after fresh Bluetooth Remote session"
+    "Correlate call-control ACKs, confirm state transitions and reject incompatible Bluetooth protocols"
   ]
 }
