@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-51",
-  "versionName": "1.7-experimental.51",
-  "versionCode": 100051,
-  "apkName": "MovieTogether-PR-10-1536780.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-51/MovieTogether-PR-10-1536780.apk",
-  "apkSize": 18470871,
-  "sha256": "ee22bf6aa2effd721cc75392d28f217ed2d64929393160007f3a2641e1fb40ef",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-51",
+  "tag": "movietogether-experimental-pr-10-run-53",
+  "versionName": "1.7-experimental.53",
+  "versionCode": 100053,
+  "apkName": "MovieTogether-PR-10-c76bd3e.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-53/MovieTogether-PR-10-c76bd3e.apk",
+  "apkSize": 26032192,
+  "sha256": "7cdf36fe3629627173e038438830277291f846b90f125635b14db706b662ee95",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-53",
   "notes": [
+    "Run Android unit tests before experimental and stable APK packaging",
+    "Use debug APKs for experimental PRs and release APKs for stable distribution",
     "Remove unused AndroidX test import",
     "Add functional profile lifecycle, migration, edit and synchronization regression tests",
     "Enable Robolectric profile persistence regression tests",
@@ -16,8 +18,6 @@
     "Synchronize names across activities without stale writes",
     "Centralize display name updates and reject blank names",
     "Cover nickname generation and shared profile integration",
-    "Use persistent generated nickname across watch and bubble screens",
-    "Use persistent generated nickname across watch and bubble screens",
-    "Generate and persist first-launch room nickname"
+    "Use persistent generated nickname across watch and bubble screens"
   ]
 }
