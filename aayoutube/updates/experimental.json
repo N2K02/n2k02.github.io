@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-222",
+  "tag": "aayoutube-experimental-pr-22-run-224",
   "versionName": "6.4",
-  "versionCode": 100222,
+  "versionCode": 100224,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-222/AAYoutube-6.4.apk",
-  "apkSize": 22393325,
-  "sha256": "7b42b1d7287efd1878ee56b3355b66859b7253ca731dbfcedf4a2fe9dfb7c2d2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-222",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-224/AAYoutube-6.4.apk",
+  "apkSize": 22409709,
+  "sha256": "2f66a728112d2d941169d33962bca6bba934c6a89c3bfa8c43d98b67bc57796c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-224",
   "notes": [
+    "fix(features): update SponsorBlock, dislikes, promo hiding and background-quality toggles live",
+    "fix(features): show YouTube sign-out only when authenticated; audit and synchronize feature controls",
     "fix(auto): correct Kotlin Gradle imports for pinned AABrowser SDK verifier",
     "docs: record AABrowser as canonical Android Auto upstream for AAYouTube",
     "fix(auto): compute exact Git blob digest for pinned upstream SDK",
@@ -16,8 +18,6 @@
     "fix(auto): debounce host split-screen area transitions without recreating video",
     "test(auto): lock down dual media/video discovery, host security, and surface recovery",
     "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
-    "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
-    "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
-    "fix(auto): recover active playback after web-service disconnect with bounded retry"
+    "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse"
   ]
 }
