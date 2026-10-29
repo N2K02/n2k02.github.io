@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-63-run-439",
+  "tag": "pcl-experimental-pr-63-run-440",
   "versionName": "5.8",
-  "versionCode": 100439,
+  "versionCode": 100440,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-439/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-440/PCL-5.8.apk",
   "apkSize": 19951925,
-  "sha256": "fb52e1477f070afe34dbcd2da05307e6b69b9db5c8572ef624241f8b5f11417f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-439",
+  "sha256": "28ffcdfcbb283990cf43126f2a688792d51190a57140369d1ff00e60f6ed3cf3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-440",
   "notes": [
+    "Update SIM history integration test for backward-compatible Gateway call start timestamp",
     "Protect startup-mid-call against false outgoing history through Remote snapshot test",
     "Treat first Gateway call state after Remote app launch as a snapshot, not a phantom outgoing call",
     "Update SIM-specific UI test to verify explicit unsupported account status",
@@ -17,7 +18,6 @@
     "Test reliable SIM-only Recents, durable encrypted-private scope metadata, account mapping, and reconnection",
     "Test reliable SIM-only Recents, durable encrypted-private scope metadata, account mapping, and reconnection",
     "ACK harmless repeated SIM history delivery and reject mismatched contact or SIM data",
-    "Distinguish safe idempotent SIM enrichment replay from conflicting metadata",
-    "Test actual mapped SIM voice accounts, VoIP rejection, collisions and unsupported devices"
+    "Distinguish safe idempotent SIM enrichment replay from conflicting metadata"
   ]
 }
