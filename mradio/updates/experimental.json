@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-26-run-320",
-  "versionName": "5.4-experimental.320",
-  "versionCode": 100320,
-  "apkName": "MRadio-PR-26-85054b2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-320/MRadio-PR-26-85054b2.apk",
-  "apkSize": 24376958,
-  "sha256": "90cfd665f5cc830060cc95c27487be27f78e0a06a04d650260e6b70708ea0fe1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-320",
+  "tag": "mradio-exp-pr-26-run-321",
+  "versionName": "5.4-experimental.321",
+  "versionCode": 100321,
+  "apkName": "MRadio-PR-26-704a54f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-321/MRadio-PR-26-704a54f.apk",
+  "apkSize": 24393342,
+  "sha256": "4a8cb7460d3ce0f9867233091af448be1d6b2294d4940593c7fa7cd14c2e9d7c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-321",
   "notes": [
+    "Standardize Logs to AAYouTube layout, paging, and n2k02theme",
     "Merge mRadio connection diagnostics into themed Logs Settings page",
     "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
@@ -17,7 +18,6 @@
     "Register private Settings Logs screen",
     "Add Settings Logs viewer with toggle, private history, copy and clear",
     "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger",
-    "Initialize local crash journal automatically on process startup"
+    "Port AAYouTube persistent private daily diagnostic logger"
   ]
 }
