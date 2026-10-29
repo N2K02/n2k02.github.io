@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-217",
+  "tag": "speedtester-experimental-pr-27-run-218",
   "versionName": "7.8",
-  "versionCode": 100217,
+  "versionCode": 100218,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-217/SpeedTester-7.8.apk",
-  "apkSize": 21558863,
-  "sha256": "632f943ede92342bfa98dd16ba7050be93b781faa34187107af7f92894fcfa2a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-217",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-218/SpeedTester-7.8.apk",
+  "apkSize": 21575247,
+  "sha256": "f235bd66fd3cdc30569c1a61dc51926a208ffe8563106e10eab53217f02f7fda",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-218",
   "notes": [
+    "Simplify speedometer Home and enlarge expandable detailed metric cards",
     "Show SSID and BSSID directly on Wi-Fi Analyzer nearby-network cards",
     "Fix Home gauge card Compose scope after layout extraction",
     "Align redesign regression test with start-of-test Wi-Fi snapshot",
@@ -17,7 +18,6 @@
     "Refresh Wi-Fi analyser scan every 30 seconds",
     "Replace speed graph with animated speedometer home dashboard",
     "Add native Wi-Fi analyser submenu with signal graphs, channel ratings and scan tests",
-    "Test lifecycle and cancellation events appear in unified Logs",
-    "Record interrupted speed tests in Logs before Quit cancels network work"
+    "Test lifecycle and cancellation events appear in unified Logs"
   ]
 }
