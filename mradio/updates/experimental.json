@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-26-run-328",
-  "versionName": "5.4-experimental.328",
-  "versionCode": 100328,
-  "apkName": "MRadio-PR-26-58ca79e.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-328/MRadio-PR-26-58ca79e.apk",
+  "tag": "mradio-exp-pr-26-run-330",
+  "versionName": "5.4-experimental.330",
+  "versionCode": 100330,
+  "apkName": "MRadio-PR-26-f0256c4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-330/MRadio-PR-26-f0256c4.apk",
   "apkSize": 24393342,
-  "sha256": "c428dd2062bda2ef658ed774088d202889106782b29c7f4a4067306496d2e263",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-328",
+  "sha256": "0bee5c0767edf75250f2c91197bdbf1b371c18bd9f6397893c282cd012db469b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-330",
   "notes": [
+    "Timestamp daily diagnostics and date legacy saved log lines",
+    "Sort combined persistent and live Logs chronologically",
     "Guard canonical Article icon on Logs entries and headers",
     "Use the same Article icon for Logs navigation and headers",
     "Use the same Article icon for Logs navigation and headers",
@@ -16,8 +18,6 @@
     "Test AAYouTube-style Logs controls and absence of Back action",
     "Remove redundant Logs Back action; keep existing navigation",
     "Remove redundant Logs Back action; keep existing navigation",
-    "Match AAYouTube Logs page controls and remove redundant Back action",
-    "Standardize Logs to AAYouTube layout, paging, and n2k02theme",
-    "Merge mRadio connection diagnostics into themed Logs Settings page"
+    "Match AAYouTube Logs page controls and remove redundant Back action"
   ]
 }
