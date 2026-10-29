@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-23-run-126",
+  "tag": "netspeed-experimental-pr-23-run-127",
   "versionName": "4.4",
-  "versionCode": 100126,
+  "versionCode": 100127,
   "apkName": "NetSpeed-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-126/NetSpeed-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-127/NetSpeed-4.4.apk",
   "apkSize": 19574098,
-  "sha256": "b4b66aa3711e641b2fcf46b3fafd177d7be629bcef78cd880029647a84408817",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-126",
+  "sha256": "84240cbb4f603658e3172d4591837807ec5389d3ca4c91984c8e72b8b0b7f9c4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-127",
   "notes": [
+    "Standardize Logs with AAYouTube controls and shared theme",
     "Fix compilation issue in themed Logs navigation",
     "Integrate Logs into themed Settings navigation with responsive controls",
     "Use identical application ID for experimental and stable APKs",
@@ -17,7 +18,6 @@
     "Expose private Logs submenu from Settings",
     "Register private Settings Logs screen",
     "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger"
+    "Restore daily private diagnostic log on app startup"
   ]
 }
