@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-23-run-136",
+  "tag": "netspeed-experimental-pr-23-run-137",
   "versionName": "4.4",
-  "versionCode": 100136,
+  "versionCode": 100137,
   "apkName": "NetSpeed-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-136/NetSpeed-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-23-run-137/NetSpeed-4.4.apk",
   "apkSize": 19590482,
-  "sha256": "7415c7729bf26d5ac3600d5b6bb1eacccbaa0c44e9955c376d366486afa30a8c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-136",
+  "sha256": "3bfca257959985fed76eb4ff50f07f0131ea995e7e74b9f6f5c203d71fbe769d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-23-run-137",
   "notes": [
+    "Log NetSpeed meter lifecycle and report failed background starts correctly",
     "Regression test for chronological unified Logs",
     "Timestamp daily diagnostics and date legacy saved log lines",
     "Sort combined persistent and live Logs chronologically",
@@ -17,7 +18,6 @@
     "Test AAYouTube-style Logs controls and absence of Back action",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
-    "Remove obsolete Back action binding from Logs page",
-    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link"
+    "Remove obsolete Back action binding from Logs page"
   ]
 }
