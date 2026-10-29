@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-17-run-125",
+  "tag": "pixelcast-experimental-pr-17-run-128",
   "versionName": "4.1",
-  "versionCode": 100125,
+  "versionCode": 100128,
   "apkName": "PixelCast-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-125/PixelCast-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-128/PixelCast-4.1.apk",
   "apkSize": 19632000,
-  "sha256": "5a5ba4ca5f0260e55e2b9e18595a9c57bf85a6f8d806f49cdcae2e53fa00fb0f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-125",
+  "sha256": "1b0d951f53a96038c7d7be05fb0dc05c2df35790d2be0a664832fe13131d6b9c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-128",
   "notes": [
+    "Regression test for chronological unified Logs",
+    "Timestamp daily diagnostics and date legacy saved log lines",
+    "Sort combined persistent and live Logs chronologically",
     "Verify consistent rounded Article icon on Logs menu and header",
     "Standardize Logs submenu and page header with rounded Article icon",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
     "Remove obsolete Back action binding from Logs page",
-    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
-    "Standardize Logs to AAYouTube layout, paging, and n2k02theme",
-    "Integrate Logs into themed Settings navigation with responsive controls",
-    "Use identical application ID for experimental and stable APKs"
+    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link"
   ]
 }
