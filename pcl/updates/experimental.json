@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-444",
+  "tag": "pcl-experimental-pr-64-run-447",
   "versionName": "5.8",
-  "versionCode": 100444,
+  "versionCode": 100447,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-444/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-447/PCL-5.8.apk",
   "apkSize": 19802352,
-  "sha256": "e3b734c7688bf8ccb3596eb68759dd9f74d2ab0b9d5c45bee55890d8f240bd9f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-444",
+  "sha256": "ce086df3e05d082c6993faffb857e7c1367bb2301fb6b9f0dc432e979bc01a65",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-447",
   "notes": [
+    "Use encrypted keys.tar.enc CI signing bundle after verified migration",
+    "Migrate existing signing identity to encrypted CI bundle",
+    "Migrate legacy signing key into verified encrypted CI bundle",
     "Keep CI green when encrypted signing bundle is not configured yet",
     "Reject encrypted signing keys that differ from existing installed-app identity",
     "Document reproducible encryption of existing signing certificate for CI",
     "Support encrypted CI signing material with legacy-certificate compatibility",
     "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
-    "Use native Material 3 Logs screen matching app settings structure",
-    "Add Settings submenu entry for persistent Logs viewer",
-    "Register private Settings Logs screen",
-    "Add Settings Logs viewer with toggle, private history, copy and clear"
+    "Use native Material 3 Logs screen matching app settings structure"
   ]
 }
