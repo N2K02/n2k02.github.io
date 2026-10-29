@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-41-run-847",
-  "versionName": "4.6",
-  "versionCode": 100847,
-  "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-847/VREC-4.6.apk",
-  "apkSize": 34712684,
-  "sha256": "aa10d2a5d220ea17973df33fed441156ba5f342f49e19105c649d867257a5d4a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-847",
+  "tag": "vrec-experimental-pr-41-run-852",
+  "versionName": "3.3",
+  "versionCode": 100852,
+  "apkName": "VREC-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-852/VREC-3.3.apk",
+  "apkSize": 34712760,
+  "sha256": "d5e0128595be5ec19b5977c70671b49f1d36c954a96186647b4094499899a7a9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-852",
   "notes": [
+    "Initialize local crash journal automatically on process startup",
+    "Add bounded local crash journal with privacy-safe exception metadata",
+    "Apply experimental package suffix to debug build type, not signing config",
+    "Add ProGuard rules file for optimized release builds",
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Explicitly disable Android debugging in stable release builds",
     "Restore experimental debug builds; test both channels and ship release variant on main",
     "Build experimental and stable APKs using release variant",
     "Forward explicit private caller labels from Telecom details",
-    "Show Private number for withheld SIM and Telecom caller IDs",
-    "Preserve explicit private caller identity in notification metadata",
-    "Preserve caller names in third-party call notification text",
-    "Resolve SIM caller names from available Telecom numbers",
-    "Make VREC ADB status regression test accept styled Compose Text",
-    "Test second-position Recordings tab and removal of VREC Home Explore shortcuts"
+    "Show Private number for withheld SIM and Telecom caller IDs"
   ]
 }
