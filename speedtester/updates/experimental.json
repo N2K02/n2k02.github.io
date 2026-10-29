@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-218",
+  "tag": "speedtester-experimental-pr-27-run-223",
   "versionName": "7.8",
-  "versionCode": 100218,
+  "versionCode": 100223,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-218/SpeedTester-7.8.apk",
-  "apkSize": 21575247,
-  "sha256": "f235bd66fd3cdc30569c1a61dc51926a208ffe8563106e10eab53217f02f7fda",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-218",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-223/SpeedTester-7.8.apk",
+  "apkSize": 21591631,
+  "sha256": "64ab2973d551b704966fa333c5473f97fdec2e7eee8e8cd794e5d7f44729ec7b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-223",
   "notes": [
+    "fix: use AndroidX LocationManagerCompat across supported Android versions",
+    "fix: restore remembered history selection and surface failed history saves",
+    "ci: validate release minification without unavailable release unit-test task",
+    "Align SpeedTester with shared public version checks and protect stable releases",
+    "fix(release): centralize permissions, preserve history, track network changes and validate release builds",
     "Simplify speedometer Home and enlarge expandable detailed metric cards",
     "Show SSID and BSSID directly on Wi-Fi Analyzer nearby-network cards",
     "Fix Home gauge card Compose scope after layout extraction",
     "Align redesign regression test with start-of-test Wi-Fi snapshot",
-    "Implement approved SpeedTester Home and History redesign with Wi-Fi SSID/BSSID snapshots",
-    "Fix speed test accuracy, cancellation, history safety, CSV export and Wi-Fi permissions",
-    "Refresh Wi-Fi analyser scan every 30 seconds",
-    "Replace speed graph with animated speedometer home dashboard",
-    "Add native Wi-Fi analyser submenu with signal graphs, channel ratings and scan tests",
-    "Test lifecycle and cancellation events appear in unified Logs"
+    "Implement approved SpeedTester Home and History redesign with Wi-Fi SSID/BSSID snapshots"
   ]
 }
