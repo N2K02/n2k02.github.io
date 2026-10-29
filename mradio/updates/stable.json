@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.4-build-306",
-  "versionName": "5.4",
-  "versionCode": 100306,
-  "apkName": "MRadio-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.4-build-306/MRadio-5.4.apk",
+  "tag": "mradio-v5.5-build-332",
+  "versionName": "5.5",
+  "versionCode": 100332,
+  "apkName": "MRadio-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.5-build-332/MRadio-5.5.apk",
   "apkSize": 2827163,
-  "sha256": "7550316274d690164c3439c008b0db711e2134b8d2e5b26275e4d7bf495a5510",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.4-build-306",
+  "sha256": "4419dc85fefc437a38420398aa5fe1a495f3f30f3725c9ab5b60bd67df636c84",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.5-build-332",
   "notes": [
-    "Fix shared stream player and prevent duplicate favourites (#25)"
+    "Use debug builds for experimental and release builds for stable APKs (#26)"
   ]
 }
