@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-86",
-  "versionName": "1.7-experimental.86",
-  "versionCode": 100086,
-  "apkName": "MovieTogether-PR-10-b81914d.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-86/MovieTogether-PR-10-b81914d.apk",
+  "tag": "movietogether-experimental-pr-10-run-87",
+  "versionName": "1.7-experimental.87",
+  "versionCode": 100087,
+  "apkName": "MovieTogether-PR-10-475d7dc.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-87/MovieTogether-PR-10-475d7dc.apk",
   "apkSize": 26064960,
-  "sha256": "b26a83159b786df5e7905f774f62f9ca28d3f686d96b2160f34df1658f6c8b92",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-86",
+  "sha256": "7945e9d70a16740626b2dfa77e2d9c0fe3c319af3aad7d84e9c481e6409a80a5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-87",
   "notes": [
+    "Bind guest chat identity to authenticated room connection and test spoof resistance",
     "Regression test for chronological unified Logs",
     "Timestamp daily diagnostics and date legacy saved log lines",
     "Sort combined persistent and live Logs chronologically",
@@ -17,7 +18,6 @@
     "Standardize Logs submenu and page header with rounded Article icon",
     "Align regression checks with AAYouTube Logs navigation and controls",
     "Test AAYouTube-style Logs controls and absence of Back action",
-    "Keep app navigation without redundant Logs Back button",
-    "Remove unused Logs Back callback"
+    "Keep app navigation without redundant Logs Back button"
   ]
 }
