@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-20-run-162",
+  "tag": "bcam-experimental-pr-20-run-163",
   "versionName": "4.3",
-  "versionCode": 100162,
+  "versionCode": 100163,
   "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-162/BCam-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-163/BCam-4.3.apk",
   "apkSize": 19595004,
-  "sha256": "da0eccefd795d1c30f2a96cf6eff32d4eb8e3dca2ed38cd963ddff8e9ac4ade5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-162",
+  "sha256": "25851e02924526f7fd1eb6dc088d1648409b960a30e5137a856b9a905d406530",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-163",
   "notes": [
+    "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
     "Use native Material 3 Logs screen matching app settings structure",
     "Add Settings Logs entry",
@@ -17,7 +18,6 @@
     "Restore daily private diagnostic log on app startup",
     "Port AAYouTube persistent private daily diagnostic logger",
     "Initialize privacy-safe crash journal at startup",
-    "Add local privacy-safe crash journal",
-    "Standardize SDK 26–37, isolate experimental package, enable release shrinking"
+    "Add local privacy-safe crash journal"
   ]
 }
