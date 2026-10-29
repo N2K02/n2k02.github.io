@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-450",
+  "tag": "pcl-experimental-pr-64-run-451",
   "versionName": "5.8",
-  "versionCode": 100450,
+  "versionCode": 100451,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-450/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-451/PCL-5.8.apk",
   "apkSize": 19818688,
-  "sha256": "bd0e8113c664b2bebf3ad423d4cab68d548acfd3c71c2a0a503cb583fc8ae664",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-450",
+  "sha256": "834a802ee3b19684abd5cbc035c63e3755415a21830efb08e172c85038ad9bbd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-451",
   "notes": [
+    "Allow PR debug signing without private release keystore",
     "Standardize Logs with AAYouTube controls and shared theme",
     "Fix compilation issue in themed Logs navigation",
     "Use the app's themed Logs Settings subpage with accessible controls",
@@ -17,7 +18,6 @@
     "Migrate legacy signing key into verified encrypted CI bundle",
     "Keep CI green when encrypted signing bundle is not configured yet",
     "Reject encrypted signing keys that differ from existing installed-app identity",
-    "Document reproducible encryption of existing signing certificate for CI",
-    "Support encrypted CI signing material with legacy-certificate compatibility"
+    "Document reproducible encryption of existing signing certificate for CI"
   ]
 }
