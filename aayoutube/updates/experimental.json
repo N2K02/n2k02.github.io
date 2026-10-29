@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-198",
+  "tag": "aayoutube-experimental-pr-22-run-206",
   "versionName": "6.4",
-  "versionCode": 100198,
+  "versionCode": 100206,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-198/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-206/AAYoutube-6.4.apk",
   "apkSize": 22164660,
-  "sha256": "0ec0c186253f3b1d7c3976aa81e4614e22c8716a3a530eb9e6e50846d30aec5f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-198",
+  "sha256": "1874cf6e152851e6d9db0ddc54f96fff98f81f513d753cacc4f95db51566a34c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-206",
   "notes": [
+    "test(player): verify initial state report without a late playing event",
+    "fix(player): publish initial media state even if video already started",
+    "ci: require mini-player regression tests in release and debug APK builds",
+    "ci: gate pull requests on JavaScript syntax and mini-player regression tests",
+    "test(player): simulate mini swipe, media reporting and playback pause protection",
+    "fix(player): protect playback before shrinking and restore mini layout on reload",
+    "fix(player): restore page injection and make mini video visible",
+    "Standardize public release version validation and prevent tag reuse",
     "Prefer synchronized lyrics across enabled free providers and test fallback ordering",
-    "Guard canonical Article icon on Logs entries and headers",
-    "Use the same Article icon for Logs navigation and headers",
-    "Keep full New update badge visible beside compact AAYouTube settings icon",
-    "Use compact header settings and fixed Quit Home Back row on Settings page",
-    "Remove Android Auto floating Back overlay and expose header Settings",
-    "Move AAYouTube phone navigation into top Settings header",
-    "Use identical application ID for experimental and stable APKs",
-    "Fix settings ordering regression contract for new Lyrics submenu",
-    "Clear saved crashes together with daily logs when Clear all is selected"
+    "Guard canonical Article icon on Logs entries and headers"
   ]
 }
