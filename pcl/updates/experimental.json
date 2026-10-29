@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-451",
+  "tag": "pcl-experimental-pr-64-run-452",
   "versionName": "5.8",
-  "versionCode": 100451,
+  "versionCode": 100452,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-451/PCL-5.8.apk",
-  "apkSize": 19818688,
-  "sha256": "834a802ee3b19684abd5cbc035c63e3755415a21830efb08e172c85038ad9bbd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-451",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-452/PCL-5.8.apk",
+  "apkSize": 19802304,
+  "sha256": "e5505e3f1e94259ed77b167b5e1c1f54ee7d175b75f3acbf0b4a45ab73a04a84",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-452",
   "notes": [
+    "Merge PCL call activity log into unified diagnostic Logs page",
     "Allow PR debug signing without private release keystore",
     "Standardize Logs with AAYouTube controls and shared theme",
     "Fix compilation issue in themed Logs navigation",
@@ -17,7 +18,6 @@
     "Migrate existing signing identity to encrypted CI bundle",
     "Migrate legacy signing key into verified encrypted CI bundle",
     "Keep CI green when encrypted signing bundle is not configured yet",
-    "Reject encrypted signing keys that differ from existing installed-app identity",
-    "Document reproducible encryption of existing signing certificate for CI"
+    "Reject encrypted signing keys that differ from existing installed-app identity"
   ]
 }
