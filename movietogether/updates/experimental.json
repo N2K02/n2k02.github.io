@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-70",
-  "versionName": "1.7-experimental.70",
-  "versionCode": 100070,
-  "apkName": "MovieTogether-PR-10-a9758b9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-70/MovieTogether-PR-10-a9758b9.apk",
+  "tag": "movietogether-experimental-pr-10-run-72",
+  "versionName": "1.7-experimental.72",
+  "versionCode": 100072,
+  "apkName": "MovieTogether-PR-10-c31b241.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-72/MovieTogether-PR-10-c31b241.apk",
   "apkSize": 26064960,
-  "sha256": "687dda1f6042a4370fbfb416e416b75b628a6ebe0967b4d0b94e92723ce85513",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-70",
+  "sha256": "1467ff2bc2053a3422a9175135b36f2c426412a2f012ee5a29bf5e1b0e528905",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-72",
   "notes": [
+    "Test Firebase room expiry decisions and privacy-safe diagnostic contracts",
+    "Log privacy-safe Firebase auth, publish, resolution and expiry events",
     "Align Firebase workflow verification with shared APK package ID",
     "Use identical application ID for experimental and stable APKs",
     "Report both SHA-1 and SHA-256 fingerprints for Firebase registration",
@@ -16,8 +18,6 @@
     "Register genuine experimental Firebase Android client alongside stable client",
     "Remove old Java log viewer in favor of Compose screen",
     "Use native Material 3 Logs screen matching app settings structure",
-    "Fix debug google-services client selection for experimental package",
-    "Expose private Logs submenu from Settings",
-    "Register private Settings Logs screen"
+    "Fix debug google-services client selection for experimental package"
   ]
 }
