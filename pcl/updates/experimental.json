@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-458",
+  "tag": "pcl-experimental-pr-64-run-460",
   "versionName": "5.8",
-  "versionCode": 100458,
+  "versionCode": 100460,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-458/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-460/PCL-5.8.apk",
   "apkSize": 19802304,
-  "sha256": "7f71688be34699c705c7d0888136a0823f2ded9671f20c93c458b8f422aa51c8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-458",
+  "sha256": "29bc8d4785abd94a4f002c149978c82fbd38cc4df48c3339bb11bb88aa1c33fc",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-460",
   "notes": [
+    "Verify consistent rounded Article icon on Logs menu and header",
+    "Use rounded Article icon for PCL Logs submenu and header",
     "Assert Logs has no redundant Back link in PCL",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Keep app navigation without redundant Logs Back button",
@@ -16,8 +18,6 @@
     "Remove obsolete Back action binding from Logs page",
     "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
     "Merge PCL call activity log into unified diagnostic Logs page",
-    "Allow PR debug signing without private release keystore",
-    "Standardize Logs with AAYouTube controls and shared theme",
-    "Fix compilation issue in themed Logs navigation"
+    "Allow PR debug signing without private release keystore"
   ]
 }
