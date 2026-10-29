@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-26-run-308",
-  "versionName": "5.4-experimental.308",
-  "versionCode": 100308,
-  "apkName": "MRadio-PR-26-20c6587.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-308/MRadio-PR-26-20c6587.apk",
+  "tag": "mradio-exp-pr-26-run-309",
+  "versionName": "5.4-experimental.309",
+  "versionCode": 100309,
+  "apkName": "MRadio-PR-26-70a9504.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-26-run-309/MRadio-PR-26-70a9504.apk",
   "apkSize": 24360574,
-  "sha256": "433c0c39ab5a7d9842c697b29875b4c828c33617e203c0743974f3cd4e07ef9b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-308",
+  "sha256": "aefac1c4fa38548514bb3a014cf10abd399015d51b516fc41285e04a2b5f1994",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-26-run-309",
   "notes": [
+    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Run Android unit tests before experimental and stable APK packaging",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
