@@ -1,18 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-43-run-137",
-  "versionName": "5.2",
-  "versionCode": 100137,
-  "apkName": "PBar-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-43-run-137/PBar-5.2.apk",
-  "apkSize": 13326314,
-  "sha256": "0765f61e2e21b425351f649a3f4730e870db681526143c7b4b583459db8aabef",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-43-run-137",
+  "tag": "pbar-experimental-pr-44-run-139",
+  "versionName": "5.3",
+  "versionCode": 100139,
+  "apkName": "PBar-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-139/PBar-5.3.apk",
+  "apkSize": 19836376,
+  "sha256": "a6a9f38bfac5b4cd2d3a2e903258fcd7c54619c1a863303e8a2d6910e2f6c1ef",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-139",
   "notes": [
-    "docs(pbar): explain horizontal landscape position controls",
-    "test(pbar): verify four landscape positions, migration and system bar insets",
-    "feat(pbar): show four landscape edge options in appearance and app settings",
-    "feat(pbar): position landscape overlay on horizontal screen edges",
-    "feat(pbar): offer four horizontal landscape positions"
+    "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
 }
