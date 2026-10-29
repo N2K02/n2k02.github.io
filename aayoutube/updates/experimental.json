@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-166",
+  "tag": "aayoutube-experimental-pr-22-run-174",
   "versionName": "6.4",
-  "versionCode": 100166,
+  "versionCode": 100174,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-166/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-174/AAYoutube-6.4.apk",
   "apkSize": 1864280,
-  "sha256": "c7812204a5f73368201c064c72d882c1357675c720d5cbc149cafbd5d17dd3ec",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-166",
+  "sha256": "c1513ef32563e1fb9a48e62aab245f1698bfeb2df06789a526d4c2c0029400ed",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-174",
   "notes": [
+    "Fix Kotlin compilation: use public WebHost.openUrl for Home navigation",
+    "Align native bottom navigation with mRadio Home Settings Quit and Settings subpages",
+    "Disable redundant HTML navigation now that Android owns bottom bar",
+    "Preserve mini-player playback when navigating native Home and You tabs",
+    "Navigate browsing WebView without replacing active mini-player video",
+    "Use native Home You Settings bottom navigation across YouTube pages",
+    "Handle video swipe-down at Android Compose layer on phone and car",
+    "Add native persistent Settings shortcut independent of YouTube bottom bar",
     "Restore swipe-down mini player gesture across updated YouTube player DOM",
-    "Replace fragile YouTube pivot overrides with one persistent AAyoutube navigation bar on Home and watch",
-    "Test timed lyrics sync, buffering, pause, speed and offsets",
-    "Synchronize lyrics with playback buffering and add timing offset controls",
-    "Hide YouTube mobile Open App badge without removing topbar controls",
-    "Add independent watch-page bottom navigation fallback when YouTube removes pivot bar",
-    "Cache lyrics across panel toggles and close only on X",
-    "Use browse-specific native menu bridge for mini-player Home navigation",
-    "Route YouTube browse-page Menu taps through BrowseBridge during mini playback",
-    "Document system-controlled PiP sizing constraints"
+    "Replace fragile YouTube pivot overrides with one persistent AAyoutube navigation bar on Home and watch"
   ]
 }
