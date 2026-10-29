@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-197",
+  "tag": "aayoutube-experimental-pr-22-run-198",
   "versionName": "6.4",
-  "versionCode": 100197,
+  "versionCode": 100198,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-197/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-198/AAYoutube-6.4.apk",
   "apkSize": 22164660,
-  "sha256": "b3c740984856c591674c3a3de3dcadc56573da44ede51ae549bddab5fda2ed8a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-197",
+  "sha256": "0ec0c186253f3b1d7c3976aa81e4614e22c8716a3a530eb9e6e50846d30aec5f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-198",
   "notes": [
+    "Prefer synchronized lyrics across enabled free providers and test fallback ordering",
     "Guard canonical Article icon on Logs entries and headers",
     "Use the same Article icon for Logs navigation and headers",
     "Keep full New update badge visible beside compact AAYouTube settings icon",
@@ -17,7 +18,6 @@
     "Move AAYouTube phone navigation into top Settings header",
     "Use identical application ID for experimental and stable APKs",
     "Fix settings ordering regression contract for new Lyrics submenu",
-    "Clear saved crashes together with daily logs when Clear all is selected",
-    "Test privacy redaction of persisted diagnostic logs"
+    "Clear saved crashes together with daily logs when Clear all is selected"
   ]
 }
