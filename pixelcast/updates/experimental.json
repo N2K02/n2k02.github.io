@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-17-run-115",
+  "tag": "pixelcast-experimental-pr-17-run-116",
   "versionName": "4.1",
-  "versionCode": 100115,
+  "versionCode": 100116,
   "apkName": "PixelCast-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-115/PixelCast-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-116/PixelCast-4.1.apk",
   "apkSize": 19632000,
-  "sha256": "15c2bc0aaf8609b6ccd9e76e1a18608243a7bb015f7fc7a0650b254eed358465",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-115",
+  "sha256": "de42dbd6879f82d924fc416d17f1cd4e8ffd3015b38ca74a49c4c4fb2a3dc867",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-116",
   "notes": [
+    "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
     "Use native Material 3 Logs screen matching app settings structure",
     "Expose private Logs submenu from Settings",
@@ -17,7 +18,6 @@
     "Restore daily private diagnostic log on app startup",
     "Port AAYouTube persistent private daily diagnostic logger",
     "Initialize local crash journal automatically on process startup",
-    "Add local privacy-safe crash journal",
-    "Standardize SDK 26–37, isolate experimental package, enable release shrinking"
+    "Add local privacy-safe crash journal"
   ]
 }
