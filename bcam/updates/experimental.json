@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-20-run-164",
+  "tag": "bcam-experimental-pr-20-run-166",
   "versionName": "4.3",
-  "versionCode": 100164,
+  "versionCode": 100166,
   "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-164/BCam-4.3.apk",
-  "apkSize": 19595004,
-  "sha256": "42987d83ebfd4e3758a23c5540c874e91f3b8636dc48fa276288f690abdd5587",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-164",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-20-run-166/BCam-4.3.apk",
+  "apkSize": 19611388,
+  "sha256": "b48ab029ce6173cd068fa6a434f2d9f9ee6ade6be9a151db1c13c6e7a185377c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-20-run-166",
   "notes": [
+    "Align Logs regression tests with shared AAYouTube-style viewer",
+    "Standardize Logs with AAYouTube paging, theme and common actions",
     "Use shared BCam theme and safe layout for diagnostics Logs page",
     "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
@@ -16,8 +18,6 @@
     "Add Settings Logs entry",
     "Register private Settings Logs screen",
     "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger",
-    "Initialize privacy-safe crash journal at startup"
+    "Restore daily private diagnostic log on app startup"
   ]
 }
