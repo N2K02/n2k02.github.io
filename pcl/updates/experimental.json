@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-460",
+  "tag": "pcl-experimental-pr-64-run-464",
   "versionName": "5.8",
-  "versionCode": 100460,
+  "versionCode": 100464,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-460/PCL-5.8.apk",
-  "apkSize": 19802304,
-  "sha256": "29bc8d4785abd94a4f002c149978c82fbd38cc4df48c3339bb11bb88aa1c33fc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-460",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-464/PCL-5.8.apk",
+  "apkSize": 19851456,
+  "sha256": "a457324a53f1360ee1df6595496913abe421d60fa42fe3244a782654707a4747",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-464",
   "notes": [
+    "Align SIM-only recents outcome test with four supported call types",
+    "Keep caller history regression tests aligned with SIM-only call types",
+    "Restore safe SIM metadata encoding for consolidated call-state protocol",
     "Verify consistent rounded Article icon on Logs menu and header",
     "Use rounded Article icon for PCL Logs submenu and header",
     "Assert Logs has no redundant Back link in PCL",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Keep app navigation without redundant Logs Back button",
     "Remove unused Logs Back callback",
-    "Remove obsolete Back action binding from Logs page",
-    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
-    "Merge PCL call activity log into unified diagnostic Logs page",
-    "Allow PR debug signing without private release keystore"
+    "Remove obsolete Back action binding from Logs page"
   ]
 }
