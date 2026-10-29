@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.3",
-  "versionName": "4.3",
-  "versionCode": 100111,
-  "apkName": "NetSpeed-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.3/NetSpeed-4.3.apk",
+  "tag": "netspeed-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100139,
+  "apkName": "NetSpeed-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.4/NetSpeed-4.4.apk",
   "apkSize": 1207840,
-  "sha256": "67cdf631299b1bcac3a871a9975383b75e8ad3070419e821f2ce817c540aeffc",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.3",
+  "sha256": "201d399ea94f0c3f25ef73abf8fbae697180d8e2bc773251555d335ea427e294",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.4",
   "notes": [
-    "Guard mRadio-aligned Settings icon rows, spacing and updates placement",
-    "Use mRadio Settings section alignment and consistent updates-only row",
-    "Guard bottom-bar Quit placement and app-specific shutdown semantics",
-    "Move Quit into bottom navigation after Settings and retain existing stop behavior",
-    "Require updater 0.1.19+ on every Android PR and push",
-    "Enforce n2k02updater >= 0.1.19 in every Android Gradle build",
-    "Test NetSpeed Home-only controls and updates-only Settings",
-    "NetSpeed: remove Home Settings shortcut and show only About & updates in Settings",
-    "Make NetSpeed Home and Settings primary, with About & updates nested in Settings",
-    "Enable Android JVM regression tests for branded page headers"
+    "Use debug builds for experimental and release builds for stable APKs (#23)"
   ]
 }
