@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-17-run-130",
-  "versionName": "4.1",
-  "versionCode": 100130,
-  "apkName": "PixelCast-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-130/PixelCast-4.1.apk",
+  "tag": "pixelcast-experimental-pr-18-run-132",
+  "versionName": "4.2",
+  "versionCode": 100132,
+  "apkName": "PixelCast-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-18-run-132/PixelCast-4.2.apk",
   "apkSize": 19632000,
-  "sha256": "c8158b1a5553df3fec3eb100a5118fb5ade560c8c1c8a243fb898c3fb895f5f3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-130",
+  "sha256": "a935027eaae303a1aaf067674ff955891a28fdc73bee8611d4517e1a0fc33fb5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-18-run-132",
   "notes": [
-    "Test privacy-safe lifecycle event coverage in shared diagnostic Logs",
-    "Log privacy-safe casting start, playback, network failures and resource cleanup",
-    "Regression test for chronological unified Logs",
-    "Timestamp daily diagnostics and date legacy saved log lines",
-    "Sort combined persistent and live Logs chronologically",
-    "Verify consistent rounded Article icon on Logs menu and header",
-    "Standardize Logs submenu and page header with rounded Article icon",
-    "Update Logs regression tests for icon actions and no redundant Back link",
-    "Keep app navigation without redundant Logs Back button",
-    "Remove unused Logs Back callback"
+    "Align public release version selection with all published app tags"
   ]
 }
