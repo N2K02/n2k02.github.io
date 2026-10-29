@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-190",
+  "tag": "aayoutube-experimental-pr-22-run-191",
   "versionName": "6.4",
-  "versionCode": 100190,
+  "versionCode": 100191,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-190/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-191/AAYoutube-6.4.apk",
   "apkSize": 22197428,
-  "sha256": "53a6c36a951c4bd567bfa61f8ecc09f2837de61e6806a2fbaf544906ac646e79",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-190",
+  "sha256": "4299bdbaec72d47c8c183df8f9dde7bbadc8b80ee25be4a83352643b5dc26863",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-191",
   "notes": [
+    "Use identical application ID for experimental and stable APKs",
     "Fix settings ordering regression contract for new Lyrics submenu",
     "Clear saved crashes together with daily logs when Clear all is selected",
     "Test privacy redaction of persisted diagnostic logs",
@@ -17,7 +18,6 @@
     "Show saved crashes on Logs page even with detailed logging disabled",
     "Restore fatal diagnostics from both process journals after restart",
     "Capture fatal crashes in both AAYouTube media and web processes",
-    "Preserve privacy-safe crash stack frames in separate process journals",
-    "Restore private diagnostic logs and crash journal on web process startup"
+    "Preserve privacy-safe crash stack frames in separate process journals"
   ]
 }
