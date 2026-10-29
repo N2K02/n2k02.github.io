@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-196",
+  "tag": "speedtester-experimental-pr-27-run-197",
   "versionName": "7.8",
-  "versionCode": 100196,
+  "versionCode": 100197,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-196/SpeedTester-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-197/SpeedTester-7.8.apk",
   "apkSize": 21411407,
-  "sha256": "817a62dd72c5948bfaeb79d48228390a1352c4ffa9663483df70946ab737652a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-196",
+  "sha256": "cf12128310ed4f1d3eff078a66b9643837e18458b2e8bec8045fffe5a8ca512f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-197",
   "notes": [
+    "Move SpeedTester detailed test diagnostics into unified AAYouTube-style Logs",
     "Fix compilation issue in themed Logs navigation",
     "Use the app's themed Logs Settings subpage with accessible controls",
     "Use identical application ID for experimental and stable APKs",
@@ -17,7 +18,6 @@
     "Expose private Logs submenu from Settings",
     "Register private Settings Logs screen",
     "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger"
+    "Restore daily private diagnostic log on app startup"
   ]
 }
