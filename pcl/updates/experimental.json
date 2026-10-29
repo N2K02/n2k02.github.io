@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-472",
+  "tag": "pcl-experimental-pr-64-run-473",
   "versionName": "5.8",
-  "versionCode": 100472,
+  "versionCode": 100473,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-472/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-473/PCL-5.8.apk",
   "apkSize": 19867840,
-  "sha256": "5283e8b2a874e970ece5495ec1cb390416d503e9df3eea7958ed55c54ee106ea",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-472",
+  "sha256": "04fccea29a57333ee9f139c2e61d4d67e6eb60bcc2ac39ca4a10d333b94100f9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-473",
   "notes": [
+    "Suppress stale Gateway call snapshot after fresh Bluetooth Remote session",
     "Verify SIM recents dial safety through centralized call action policy",
     "Update SIM-only contracts for verified SIM dialing and safe recents clearing",
     "Test chronological combined activity and diagnostic Logs",
@@ -17,7 +18,6 @@
     "Import optional SIM history Settings icon",
     "Import History icon for optional SIM history permission row",
     "Wire PCL SIM-only call recovery, reliable CallLog enrichment and verified SIM dialing",
-    "Align SIM-only recents outcome test with four supported call types",
-    "Keep caller history regression tests aligned with SIM-only call types"
+    "Align SIM-only recents outcome test with four supported call types"
   ]
 }
