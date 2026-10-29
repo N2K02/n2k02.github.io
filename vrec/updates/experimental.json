@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-41-run-852",
+  "tag": "vrec-experimental-pr-41-run-858",
   "versionName": "3.3",
-  "versionCode": 100852,
+  "versionCode": 100858,
   "apkName": "VREC-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-852/VREC-3.3.apk",
-  "apkSize": 34712760,
-  "sha256": "d5e0128595be5ec19b5977c70671b49f1d36c954a96186647b4094499899a7a9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-852",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-858/VREC-3.3.apk",
+  "apkSize": 34712820,
+  "sha256": "a2e535d9ea062fe055c5da6ea35d035fc92c486e8079f017a7e6607b8056cd49",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-858",
   "notes": [
+    "Disambiguate persistent Logs from recording diagnostics in Settings",
+    "Add Settings submenu entry for persistent Logs viewer",
+    "Register private Settings Logs screen",
+    "Add Settings Logs viewer with toggle, private history, copy and clear",
+    "Restore daily private diagnostic log on app startup",
+    "Port AAYouTube persistent private daily diagnostic logger",
     "Initialize local crash journal automatically on process startup",
     "Add bounded local crash journal with privacy-safe exception metadata",
     "Apply experimental package suffix to debug build type, not signing config",
-    "Add ProGuard rules file for optimized release builds",
-    "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
-    "Explicitly disable Android debugging in stable release builds",
-    "Restore experimental debug builds; test both channels and ship release variant on main",
-    "Build experimental and stable APKs using release variant",
-    "Forward explicit private caller labels from Telecom details",
-    "Show Private number for withheld SIM and Telecom caller IDs"
+    "Add ProGuard rules file for optimized release builds"
   ]
 }
