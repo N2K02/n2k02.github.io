@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-63-run-437",
+  "tag": "pcl-experimental-pr-63-run-439",
   "versionName": "5.8",
-  "versionCode": 100437,
+  "versionCode": 100439,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-437/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-63-run-439/PCL-5.8.apk",
   "apkSize": 19951925,
-  "sha256": "f6c7cb94976ff1064b1f2054d7abe3e617cdc690d6c465746a45ffec631f85e4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-437",
+  "sha256": "fb52e1477f070afe34dbcd2da05307e6b69b9db5c8572ef624241f8b5f11417f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-63-run-439",
   "notes": [
+    "Protect startup-mid-call against false outgoing history through Remote snapshot test",
+    "Treat first Gateway call state after Remote app launch as a snapshot, not a phantom outgoing call",
     "Update SIM-specific UI test to verify explicit unsupported account status",
     "Explain unsupported SIM selection rather than silently dialing with default voice line",
     "Explain unsupported SIM selection rather than silently dialing with default voice line",
@@ -16,8 +18,6 @@
     "Test reliable SIM-only Recents, durable encrypted-private scope metadata, account mapping, and reconnection",
     "ACK harmless repeated SIM history delivery and reject mismatched contact or SIM data",
     "Distinguish safe idempotent SIM enrichment replay from conflicting metadata",
-    "Test actual mapped SIM voice accounts, VoIP rejection, collisions and unsupported devices",
-    "Route Android phone-account discovery through strictly tested subscription/capability selection",
-    "Testable SIM account selection requiring verified subscription and Telecom voice capability"
+    "Test actual mapped SIM voice accounts, VoIP rejection, collisions and unsupported devices"
   ]
 }
