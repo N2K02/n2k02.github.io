@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-44-run-148",
+  "tag": "pbar-experimental-pr-44-run-150",
   "versionName": "5.3",
-  "versionCode": 100148,
+  "versionCode": 100150,
   "apkName": "PBar-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-148/PBar-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-150/PBar-5.3.apk",
   "apkSize": 19852760,
-  "sha256": "7273725601c058c1c89f833fbafacf6cd5981002cac863205d3bc05a3b97b99f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-148",
+  "sha256": "b7fff9959228a8cd5087ac12b4caff7e1221be91c123151870585c8b90bf095f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-150",
   "notes": [
+    "Remove duplicate legacy Logs Activity after native Compose migration",
+    "Use native Material 3 Logs screen matching app settings structure",
     "Expose private Logs submenu from Settings",
     "Register private Settings Logs screen",
     "Add Settings Logs viewer with toggle, private history, copy and clear",
@@ -16,8 +18,6 @@
     "Port AAYouTube persistent private daily diagnostic logger",
     "Initialize privacy-safe crash journal at startup",
     "Add local privacy-safe crash journal",
-    "Add ProGuard rules file for optimized release builds",
-    "Unify SDK, optimize stable build, isolate experimental installation",
-    "Use debug APKs for experimental PRs and release APKs for stable distribution"
+    "Add ProGuard rules file for optimized release builds"
   ]
 }
