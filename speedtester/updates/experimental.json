@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-208",
+  "tag": "speedtester-experimental-pr-27-run-209",
   "versionName": "7.8",
-  "versionCode": 100208,
+  "versionCode": 100209,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-208/SpeedTester-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-209/SpeedTester-7.8.apk",
   "apkSize": 21411407,
-  "sha256": "674befa7004d7a7e177d82d0d4bfae73cf51363b7f742ebac48c1ecc74a92152",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-208",
+  "sha256": "58891335aeb05036fd44844fb97d9ceb3a00cf0364ff92132b4d50183d92b8bd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-209",
   "notes": [
+    "Test lifecycle and cancellation events appear in unified Logs",
     "Record interrupted speed tests in Logs before Quit cancels network work",
     "Test chronological combined activity and diagnostic Logs",
     "Timestamp daily diagnostics and date legacy saved log lines",
@@ -17,7 +18,6 @@
     "Standardize Logs submenu and page header with rounded Article icon",
     "Update Logs regression tests for icon actions and no redundant Back link",
     "Align regression checks with AAYouTube Logs navigation and controls",
-    "Keep app navigation without redundant Logs Back button",
-    "Remove unused Logs Back callback"
+    "Keep app navigation without redundant Logs Back button"
   ]
 }
