@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-191",
+  "tag": "aayoutube-experimental-pr-22-run-193",
   "versionName": "6.4",
-  "versionCode": 100191,
+  "versionCode": 100193,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-191/AAYoutube-6.4.apk",
-  "apkSize": 22197428,
-  "sha256": "4299bdbaec72d47c8c183df8f9dde7bbadc8b80ee25be4a83352643b5dc26863",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-191",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-193/AAYoutube-6.4.apk",
+  "apkSize": 22164660,
+  "sha256": "9e299faf92a7ffc8a1f02d02ff87e66e6dd50aab595eb1be7799cd26a17c6ce7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-193",
   "notes": [
+    "Remove Android Auto floating Back overlay and expose header Settings",
+    "Move AAYouTube phone navigation into top Settings header",
     "Use identical application ID for experimental and stable APKs",
     "Fix settings ordering regression contract for new Lyrics submenu",
     "Clear saved crashes together with daily logs when Clear all is selected",
@@ -16,8 +18,6 @@
     "Redact phone-number-shaped values from persisted diagnostics",
     "Support pre-Android-28 process detection in crash journal",
     "Show saved crashes on Logs page even with detailed logging disabled",
-    "Restore fatal diagnostics from both process journals after restart",
-    "Capture fatal crashes in both AAYouTube media and web processes",
-    "Preserve privacy-safe crash stack frames in separate process journals"
+    "Restore fatal diagnostics from both process journals after restart"
   ]
 }
