@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-41-run-869",
+  "tag": "vrec-experimental-pr-41-run-870",
   "versionName": "3.3",
-  "versionCode": 100869,
+  "versionCode": 100870,
   "apkName": "VREC-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-869/VREC-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-41-run-870/VREC-3.3.apk",
   "apkSize": 34729140,
-  "sha256": "86a65eb50d64a81e8699d728ce522be520ad86cf534d9691700afa85e6e07002",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-869",
+  "sha256": "3654ae4de7c286f3d573cde4dc47f083cda83da955f26e0d2b972b270b2e96be",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-41-run-870",
   "notes": [
+    "Allow PR debug signing without private release keystore",
     "Merge VRec recording diagnostics and persistent crash history into unified Logs",
     "Use encrypted keys.tar.enc CI signing bundle after verified migration",
     "Migrate existing signing identity to encrypted CI bundle",
@@ -17,7 +18,6 @@
     "Reject encrypted signing keys that differ from existing installed-app identity",
     "Document reproducible encryption of existing signing certificate for CI",
     "Support encrypted CI signing material with legacy-certificate compatibility",
-    "Use identical application ID for experimental and stable APKs",
-    "Remove duplicate legacy Logs Activity after native Compose migration"
+    "Use identical application ID for experimental and stable APKs"
   ]
 }
