@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "vrec-v4.5",
-  "versionName": "4.5",
-  "versionCode": 100260,
-  "apkName": "VREC-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.5/VREC-4.5.apk",
-  "apkSize": 34712676,
-  "sha256": "42a2ad3f7599b02a7990b9541745df94be1de567f2db7922b246e0ae4333a3e0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.5",
+  "tag": "vrec-v4.6",
+  "versionName": "4.6",
+  "versionCode": 100897,
+  "apkName": "VREC-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.6/VREC-4.6.apk",
+  "apkSize": 13834992,
+  "sha256": "b62718e8d8330ebcc529868302bf2c763ef71c576a598d7ffcaa77e9b02ea715",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.6",
   "notes": [
+    "Fix stable version selection across public releases (VRec v4.6) (#42)",
+    "Experimental: modern ADB recording, caller identity and unified Logs (#41)",
     "Make VREC ADB status regression test accept styled Compose Text",
     "Test second-position Recordings tab and removal of VREC Home Explore shortcuts",
     "Move VREC Recordings into second bottom tab and remove redundant Home Explore shortcuts",
@@ -16,8 +18,6 @@
     "VREC: remove duplicated helper-health summary from Experimental connection card",
     "VREC: show verified helper health and explicit Connect TCP action on ADB-mode Home",
     "Keep VREC ADB setup checklist only inside Experimental, simplify inactive mode",
-    "Fix Quit regression test for VREC's data-driven Settings bottom tab",
-    "Prevent regressions removing bottom Quit or restoring old settings modal",
-    "VREC: put Quit beside Settings and safely disable recording and overlays"
+    "Fix Quit regression test for VREC's data-driven Settings bottom tab"
   ]
 }
