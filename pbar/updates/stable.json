@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v5.2",
-  "versionName": "5.2",
-  "versionCode": 100138,
-  "apkName": "PBar-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.2/PBar-5.2.apk",
-  "apkSize": 13326314,
-  "sha256": "9c89faf70c9411ad2142074ba980e695148511cee077748e20c779c3bdaf713e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.2",
+  "tag": "pbar-v5.3",
+  "versionName": "5.3",
+  "versionCode": 100166,
+  "apkName": "PBar-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.3/PBar-5.3.apk",
+  "apkSize": 1515141,
+  "sha256": "785777f6061cc51de9612196b5ebf04fcff684ba203f0d7837195aed1e762f5a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.3",
   "notes": [
-    "feat(pbar): four landscape position options (#43)"
+    "Use debug builds for experimental and release builds for stable APKs (#44)"
   ]
 }
