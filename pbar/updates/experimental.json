@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-44-run-141",
+  "tag": "pbar-experimental-pr-44-run-143",
   "versionName": "5.3",
-  "versionCode": 100141,
+  "versionCode": 100143,
   "apkName": "PBar-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-141/PBar-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-44-run-143/PBar-5.3.apk",
   "apkSize": 19836376,
-  "sha256": "c0673b27718b1fb7c14c4f707a0e5d46a7ddd08e636866b22f4ccb0d713a65e8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-141",
+  "sha256": "c0953d9c1db0919d3e587bd15d11a36a1ceea07941a44422529a21ee8777642a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-44-run-143",
   "notes": [
+    "Initialize privacy-safe crash journal at startup",
+    "Add local privacy-safe crash journal",
     "Add ProGuard rules file for optimized release builds",
     "Unify SDK, optimize stable build, isolate experimental installation",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
