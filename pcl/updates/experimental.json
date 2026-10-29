@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-475",
+  "tag": "pcl-experimental-pr-64-run-476",
   "versionName": "5.8",
-  "versionCode": 100475,
+  "versionCode": 100476,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-475/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-476/PCL-5.8.apk",
   "apkSize": 19884284,
-  "sha256": "357d890fc28f8546c8ab1af618905b74d8e7a07a9e26ad3bfa1721b43d4ef3f5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-475",
+  "sha256": "87408c44d44df8c6e25668a8853b4f0029a30a2b90fd1ca8737f2ffeed5112ca",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-476",
   "notes": [
+    "Prevent concurrent call commands and confirm Declined only after correlated Gateway ACK",
     "Update Recents regression tests for expanded actions and validate dialable call numbers",
     "Verify call command correlation, restore delayed route verification and add regression coverage",
     "Restore Recents actions with safe per-call deletion and compact verified-SIM controls",
@@ -17,7 +18,6 @@
     "Correlate call-control ACKs, confirm state transitions and reject incompatible Bluetooth protocols",
     "Make SIM history and contacts crash-safe; enable optional call-log permission and preserve live logs",
     "Suppress stale Gateway call snapshot after fresh Bluetooth Remote session",
-    "Verify SIM recents dial safety through centralized call action policy",
-    "Update SIM-only contracts for verified SIM dialing and safe recents clearing"
+    "Verify SIM recents dial safety through centralized call action policy"
   ]
 }
