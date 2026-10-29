@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-452",
+  "tag": "pcl-experimental-pr-64-run-458",
   "versionName": "5.8",
-  "versionCode": 100452,
+  "versionCode": 100458,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-452/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-458/PCL-5.8.apk",
   "apkSize": 19802304,
-  "sha256": "e5505e3f1e94259ed77b167b5e1c1f54ee7d175b75f3acbf0b4a45ab73a04a84",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-452",
+  "sha256": "7f71688be34699c705c7d0888136a0823f2ded9671f20c93c458b8f422aa51c8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-458",
   "notes": [
+    "Assert Logs has no redundant Back link in PCL",
+    "Update Logs regression tests for icon actions and no redundant Back link",
+    "Keep app navigation without redundant Logs Back button",
+    "Remove unused Logs Back callback",
+    "Remove obsolete Back action binding from Logs page",
+    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
     "Merge PCL call activity log into unified diagnostic Logs page",
     "Allow PR debug signing without private release keystore",
     "Standardize Logs with AAYouTube controls and shared theme",
-    "Fix compilation issue in themed Logs navigation",
-    "Use the app's themed Logs Settings subpage with accessible controls",
-    "Use encrypted keys.tar.enc CI signing bundle after verified migration",
-    "Migrate existing signing identity to encrypted CI bundle",
-    "Migrate legacy signing key into verified encrypted CI bundle",
-    "Keep CI green when encrypted signing bundle is not configured yet",
-    "Reject encrypted signing keys that differ from existing installed-app identity"
+    "Fix compilation issue in themed Logs navigation"
   ]
 }
