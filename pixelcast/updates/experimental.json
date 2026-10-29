@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-17-run-118",
+  "tag": "pixelcast-experimental-pr-17-run-123",
   "versionName": "4.1",
-  "versionCode": 100118,
+  "versionCode": 100123,
   "apkName": "PixelCast-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-118/PixelCast-4.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-17-run-123/PixelCast-4.1.apk",
   "apkSize": 19632000,
-  "sha256": "aba993bcd55cab0de6857f45a2f4a90068be55592834755484de92fb7455dc30",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-118",
+  "sha256": "b223f102e324392ca9e4244e8bfc774e32f0806b8dd82a04e1c56543040de471",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-17-run-123",
   "notes": [
+    "Update Logs regression tests for icon actions and no redundant Back link",
+    "Keep app navigation without redundant Logs Back button",
+    "Remove unused Logs Back callback",
+    "Remove obsolete Back action binding from Logs page",
+    "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
     "Standardize Logs to AAYouTube layout, paging, and n2k02theme",
     "Integrate Logs into themed Settings navigation with responsive controls",
     "Use identical application ID for experimental and stable APKs",
     "Remove duplicate legacy Logs Activity after native Compose migration",
-    "Use native Material 3 Logs screen matching app settings structure",
-    "Expose private Logs submenu from Settings",
-    "Register private Settings Logs screen",
-    "Add Settings Logs viewer with toggle, private history, copy and clear",
-    "Restore daily private diagnostic log on app startup",
-    "Port AAYouTube persistent private daily diagnostic logger"
+    "Use native Material 3 Logs screen matching app settings structure"
   ]
 }
