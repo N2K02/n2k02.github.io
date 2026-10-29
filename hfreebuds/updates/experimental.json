@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-17-run-141",
-  "versionName": "4.8",
-  "versionCode": 100141,
-  "apkName": "HFreebuds-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-141/HFreebuds-4.8.apk",
+  "tag": "hfreebuds-experimental-pr-18-run-143",
+  "versionName": "4.9",
+  "versionCode": 100143,
+  "apkName": "HFreebuds-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-18-run-143/HFreebuds-4.9.apk",
   "apkSize": 19807563,
-  "sha256": "ac948aa69f8634a1f8192b3ae3732dac885cb14d06bebf1eeb296cd221088f5e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-141",
+  "sha256": "611e55b2943a411d1883f1c7a1f658fa96a9635442b8c29d35bbc245444bc87c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-18-run-143",
   "notes": [
-    "Test cancelled Bluetooth connects cannot restart after Quit",
-    "Prevent cancelled Bluetooth connects from resurrecting after Quit",
-    "Regression test comprehensive HFreebuds Quit cleanup and in-flight connection cancellation",
-    "Test ordered mixed-source diagnostics and stable legacy log handling",
-    "Chronologically merge diagnostic and live Logs; preserve dates of legacy entries",
-    "Close even an in-flight Bluetooth socket during cancellation",
-    "Cancel pending Bluetooth jobs and connection work on Quit",
-    "Make Home Quit explicitly close earbuds work before finishing",
-    "Guard canonical Article icon on Logs entries and headers",
-    "Use the same Article icon for Logs navigation and headers"
+    "Align public release version lookup and duplicate-version guards"
   ]
 }
