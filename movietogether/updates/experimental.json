@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-10-run-81",
-  "versionName": "1.7-experimental.81",
-  "versionCode": 100081,
-  "apkName": "MovieTogether-PR-10-c7ac856.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-81/MovieTogether-PR-10-c7ac856.apk",
+  "tag": "movietogether-experimental-pr-10-run-83",
+  "versionName": "1.7-experimental.83",
+  "versionCode": 100083,
+  "apkName": "MovieTogether-PR-10-c29998f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-10-run-83/MovieTogether-PR-10-c29998f.apk",
   "apkSize": 26064960,
-  "sha256": "1e5064058e2e7afa23dbb9a29c9825396066d23da9da161d417c76f4583e0e02",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-81",
+  "sha256": "77a531b793075e160cbbc1d045782b1e6158161660fa9c87fa228484fcce2426",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-10-run-83",
   "notes": [
+    "Guard canonical Article icon on Logs entries and headers",
+    "Standardize Logs submenu and page header with rounded Article icon",
     "Align regression checks with AAYouTube Logs navigation and controls",
     "Test AAYouTube-style Logs controls and absence of Back action",
     "Keep app navigation without redundant Logs Back button",
@@ -16,8 +18,6 @@
     "Remove obsolete Back action binding from Logs page",
     "Match AAYouTube Logs UI: compact header and aligned icon controls; no Back link",
     "Align Logs regression tests with shared AAYouTube-style viewer",
-    "Standardize Logs with AAYouTube paging, theme and common actions",
-    "Move MovieTogether Logs into themed Settings page and prevent clipped controls",
-    "Test Firebase room expiry decisions and privacy-safe diagnostic contracts"
+    "Standardize Logs with AAYouTube paging, theme and common actions"
   ]
 }
