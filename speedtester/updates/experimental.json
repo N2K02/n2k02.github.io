@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-27-run-223",
+  "tag": "speedtester-experimental-pr-27-run-224",
   "versionName": "7.8",
-  "versionCode": 100223,
+  "versionCode": 100224,
   "apkName": "SpeedTester-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-223/SpeedTester-7.8.apk",
-  "apkSize": 21591631,
-  "sha256": "64ab2973d551b704966fa333c5473f97fdec2e7eee8e8cd794e5d7f44729ec7b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-223",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-27-run-224/SpeedTester-7.8.apk",
+  "apkSize": 21608015,
+  "sha256": "d3248458527c5926aadf8e1e56c238aceb643678402e31d91c12167b91c7167c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-27-run-224",
   "notes": [
+    "feat(ui): paired download/upload rates and redesigned Mauritius server directory",
     "fix: use AndroidX LocationManagerCompat across supported Android versions",
     "fix: restore remembered history selection and surface failed history saves",
     "ci: validate release minification without unavailable release unit-test task",
@@ -17,7 +18,6 @@
     "Simplify speedometer Home and enlarge expandable detailed metric cards",
     "Show SSID and BSSID directly on Wi-Fi Analyzer nearby-network cards",
     "Fix Home gauge card Compose scope after layout extraction",
-    "Align redesign regression test with start-of-test Wi-Fi snapshot",
-    "Implement approved SpeedTester Home and History redesign with Wi-Fi SSID/BSSID snapshots"
+    "Align redesign regression test with start-of-test Wi-Fi snapshot"
   ]
 }
