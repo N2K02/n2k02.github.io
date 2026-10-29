@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-17-run-114",
+  "tag": "hfreebuds-experimental-pr-17-run-116",
   "versionName": "4.8",
-  "versionCode": 100114,
+  "versionCode": 100116,
   "apkName": "HFreebuds-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-114/HFreebuds-4.8.apk",
-  "apkSize": 19787083,
-  "sha256": "4673a056b2b5dba9680b5db22ce34769d0a412acaa401b7b84481316724471a5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-114",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-17-run-116/HFreebuds-4.8.apk",
+  "apkSize": 19791179,
+  "sha256": "294b54eb1931e58b13f1da8dc1e321e8829bdecef4c7e093faa502fc17cf2ee9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-17-run-116",
   "notes": [
+    "Initialize local crash journal automatically on process startup",
+    "Add local privacy-safe crash journal",
     "Standardize SDK 26–37, isolate experimental package, enable release shrinking",
     "Use debug APKs for experimental PRs and release APKs for stable distribution"
   ]
