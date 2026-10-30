@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-532",
+  "tag": "pcl-experimental-pr-64-run-540",
   "versionName": "5.8",
-  "versionCode": 100532,
+  "versionCode": 100540,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-532/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-540/PCL-5.8.apk",
   "apkSize": 19900668,
-  "sha256": "c78b4b2158aaf5172a26e7033c995c80ee103e87c64332396e5956d419023e09",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-532",
+  "sha256": "77eb2ff6953ce31509b4577024d64c4f5ede52ec630a8063776456a47833efe5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-540",
   "notes": [
+    "Protect audio status UI against late responses from older Gateway requests",
+    "Do not let superseded Gateway audio acknowledgements overwrite newer UI results",
+    "Avoid Kotlin string interpolation in audio-timeout source-contract test",
+    "Expect first available Gateway output when notification route is unknown",
+    "Test Gateway Bluetooth output cycling, route ACK supersession and slider timeouts",
+    "Stabilize Remote volume slider until Gateway confirms or times out",
+    "Fix Gateway route supersession ACKs, Remote timeout feedback and Bluetooth notification control",
+    "Cycle Gateway audio endpoints including Bluetooth in Remote call notification",
     "Update audio regression contracts for call-token-validated Gateway command dispatch",
-    "Regress live Gateway phone state guard for delayed audio requests",
-    "Reject delayed volume commands after real SIM call ends before broadcast arrives",
-    "Remove one-time privileged signing-migration workflow after encrypted bundle migration",
-    "Add premerge regressions for call-bound audio, stale notification actions and release R8 build",
-    "Protocol 12: require live-call identity for audio and call controls",
-    "Protocol 12: require live-call identity for audio and call controls",
-    "Protocol 12: require live-call identity for audio and call controls",
-    "Protocol 12: require live-call identity for audio and call controls",
-    "Protocol 12: require live-call identity for audio and call controls"
+    "Regress live Gateway phone state guard for delayed audio requests"
   ]
 }
