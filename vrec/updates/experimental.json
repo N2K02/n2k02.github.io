@@ -1,17 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-43-run-898",
-  "versionName": "4.7",
-  "versionCode": 100898,
-  "apkName": "VREC-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-43-run-898/VREC-4.7.apk",
-  "apkSize": 34977772,
-  "sha256": "04707e7c04aaeeeec8cb9456f76861464f29e13271d97414bae532cbec1a3624",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-43-run-898",
+  "tag": "vrec-experimental-pr-44-run-917",
+  "versionName": "4.8",
+  "versionCode": 100917,
+  "apkName": "VREC-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-44-run-917/VREC-4.8.apk",
+  "apkSize": 35423275,
+  "sha256": "3f5c260cccc092461675d3a57247c00d3c9d0f751c5c6da6fae46955fd30027e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-44-run-917",
   "notes": [
-    "Add regression contracts for duplicate WhatsApp and cellular call signals",
-    "Fix VoIP shell call ownership and readable capture diagnostics",
-    "Fix VoIP shell call ownership and readable capture diagnostics",
-    "Fix VoIP shell call ownership and readable capture diagnostics"
+    "Fix Quit regression contract for persistent stopped-state guard",
+    "Start on-device ADB discovery when the user opens Android pairing dialog directly",
+    "Start on-device ADB discovery when the user opens Android pairing dialog directly",
+    "Start on-device ADB discovery when the user opens Android pairing dialog directly",
+    "Prefer automatic pairing scan; defer notification fallback to avoid covering Settings dialog",
+    "Prefer automatic pairing scan; defer notification fallback to avoid covering Settings dialog",
+    "Prefer automatic pairing scan; defer notification fallback to avoid covering Settings dialog",
+    "Harden Android 17 pairing events, fix regression source and update auto-pair documentation",
+    "Harden Android 17 pairing events, fix regression source and update auto-pair documentation",
+    "Harden Android 17 pairing events, fix regression source and update auto-pair documentation"
   ]
 }
