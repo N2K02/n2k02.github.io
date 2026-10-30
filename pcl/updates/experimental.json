@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-521",
+  "tag": "pcl-experimental-pr-64-run-532",
   "versionName": "5.8",
-  "versionCode": 100521,
+  "versionCode": 100532,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-521/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-532/PCL-5.8.apk",
   "apkSize": 19900668,
-  "sha256": "5bfc610ba64c66ba49967b5adf597a938ac292283bb63f7f3139cfec05fcdd07",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-521",
+  "sha256": "c78b4b2158aaf5172a26e7033c995c80ee103e87c64332396e5956d419023e09",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-532",
   "notes": [
-    "Document Gateway-only voice volume and Bluetooth call-route limitations",
-    "Keep Remote volume slider stable until verified Gateway volume feedback arrives",
-    "Add regression coverage for Bluetooth SCO ownership and invalid audio requests",
-    "Release only PCL-owned Bluetooth SCO and routing on link loss/call end",
-    "Test call-capable Bluetooth endpoints, volume sync, route verification, and cleanup",
-    "Pass Gateway available call-audio routes to Remote Controls UI",
-    "Add Bluetooth audio endpoint button and send only one volume update per slider drag",
-    "Validate speaker, earpiece and Bluetooth call-audio output types",
-    "Add Gateway Bluetooth headset routing, available endpoints and verified audio feedback",
-    "Test call-identity reset across Bluetooth loss and quit/restart"
+    "Update audio regression contracts for call-token-validated Gateway command dispatch",
+    "Regress live Gateway phone state guard for delayed audio requests",
+    "Reject delayed volume commands after real SIM call ends before broadcast arrives",
+    "Remove one-time privileged signing-migration workflow after encrypted bundle migration",
+    "Add premerge regressions for call-bound audio, stale notification actions and release R8 build",
+    "Protocol 12: require live-call identity for audio and call controls",
+    "Protocol 12: require live-call identity for audio and call controls",
+    "Protocol 12: require live-call identity for audio and call controls",
+    "Protocol 12: require live-call identity for audio and call controls",
+    "Protocol 12: require live-call identity for audio and call controls"
   ]
 }
