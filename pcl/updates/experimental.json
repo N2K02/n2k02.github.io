@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-494",
+  "tag": "pcl-experimental-pr-64-run-512",
   "versionName": "5.8",
-  "versionCode": 100494,
+  "versionCode": 100512,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-494/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-512/PCL-5.8.apk",
   "apkSize": 19884284,
-  "sha256": "a966d48c770931fb834188a8e1326bd4d3433c330d38153d7291575235c54a94",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-494",
+  "sha256": "98cf53c3aec5d793aadecc33f508a765f7d2c9ffeb8e79b92a790349cc8e2263",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-512",
   "notes": [
-    "Regression tests for stale Bluetooth session cleanup and stream failure",
-    "Format Bluetooth session setup with full lifecycle cleanup",
-    "Always clean up current Bluetooth session, including stream setup failures",
-    "Prevent stale Bluetooth session cleanup from resetting a newer call connection",
-    "Add regression tests for Bluetooth dial latency and reconnect notification time",
-    "Avoid contact provider I/O on Bluetooth call reader and fix reconnect call timestamp",
-    "Cover two event orders, overlapping calls and stale Remote ownership",
-    "Use correlated ACK policy for Remote call attribution regardless of event order",
-    "Add pure Remote call ownership policy for ACK ordering tests",
-    "Attribute Remote answer and dial only after correlated Gateway ACK and OFFHOOK"
+    "Test call-identity reset across Bluetooth loss and quit/restart",
+    "Clear old caller details and call token on disconnect, shutdown and role restart",
+    "Document paired protocol v11 and safe fallback for overlapping SIM calls",
+    "Test that ambiguous call waiting cannot create misleading Remote missed calls",
+    "Surface failure immediately if a new SIM call supersedes pending Remote action",
+    "Prevent fabricated missed-call history during ambiguous SIM call waiting",
+    "Add SIM call waiting, token identity, lock-screen and reconnect safety regressions",
+    "Update request-before-send contracts for call-bound protocol 11",
+    "Align ringtone contracts with ongoing call reconciliation and concurrent safety",
+    "Show safe concurrent-call warning in PCL Home and disable unsupported controls"
   ]
 }
