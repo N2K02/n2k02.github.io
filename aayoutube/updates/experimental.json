@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-337",
+  "tag": "aayoutube-experimental-pr-22-run-338",
   "versionName": "6.4",
-  "versionCode": 100337,
+  "versionCode": 100338,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-337/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-338/AAYoutube-6.4.apk",
   "apkSize": 20164883,
-  "sha256": "2c6f4600206dd1b3743375f398cea1e1884ab7a9036873134d542e1031206daf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-337",
+  "sha256": "0d0284c1ca70f576bb77f5dcb65d35dd60de65a5d6b2549a35c30511f8217190",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-338",
   "notes": [
+    "Open Android Auto car video screen instead of music player",
     "test(settings): use persisted-to-script key map and isolate unmute from ad-skip assertions",
     "fix(car): match AABrowser unconditional WebView pause and visibility behavior",
     "fix(car): match AABrowser WebView lifecycle, preserve projected video and autoplay selected media",
@@ -17,7 +18,6 @@
     "test(pip): exercise native transition classes and restore background decoder quality",
     "test(video): validate native mini/PiP layout, unmute suppression and Settings wiring",
     "fix(web): fit native mini/PiP video surface, prevent tiny PiP quality and hide unmute prompt",
-    "fix(video): use real WebView mini viewport and safe Android PiP source/resize",
-    "fix(media): refresh artwork on track changes, add fallback thumbnail and car-only Quit cleanup"
+    "fix(video): use real WebView mini viewport and safe Android PiP source/resize"
   ]
 }
