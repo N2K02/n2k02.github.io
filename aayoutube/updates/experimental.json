@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-338",
+  "tag": "aayoutube-experimental-pr-22-run-342",
   "versionName": "6.4",
-  "versionCode": 100338,
+  "versionCode": 100342,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-338/AAYoutube-6.4.apk",
-  "apkSize": 20164883,
-  "sha256": "0d0284c1ca70f576bb77f5dcb65d35dd60de65a5d6b2549a35c30511f8217190",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-338",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-342/AAYoutube-6.4.apk",
+  "apkSize": 21430786,
+  "sha256": "18faeb6e95c7c581894adcae7dc67a98aaee3a4d73109e85795f67ce1dcbbb43",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-342",
   "notes": [
+    "Make phone and Android Auto video top menu auto-hide configurable",
+    "Match AABrowser Android Auto app-projected runtime dependency",
+    "Fix legacy-only test and reattach crashed WebView on Android Auto Wide surface",
+    "Restore AABrowser Android Auto video, Wide surfaces, media and lifecycle architecture",
     "Open Android Auto car video screen instead of music player",
     "test(settings): use persisted-to-script key map and isolate unmute from ad-skip assertions",
     "fix(car): match AABrowser unconditional WebView pause and visibility behavior",
     "fix(car): match AABrowser WebView lifecycle, preserve projected video and autoplay selected media",
     "fix(settings): include opt-in media-process diagnostics in shared Logs screen",
-    "test(pip): provide viewport dimensions in simulated WebView",
-    "test(pip): exercise native transition classes and restore background decoder quality",
-    "test(video): validate native mini/PiP layout, unmute suppression and Settings wiring",
-    "fix(web): fit native mini/PiP video surface, prevent tiny PiP quality and hide unmute prompt",
-    "fix(video): use real WebView mini viewport and safe Android PiP source/resize"
+    "test(pip): provide viewport dimensions in simulated WebView"
   ]
 }
