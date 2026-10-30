@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-224",
+  "tag": "aayoutube-experimental-pr-22-run-225",
   "versionName": "6.4",
-  "versionCode": 100224,
+  "versionCode": 100225,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-224/AAYoutube-6.4.apk",
-  "apkSize": 22409709,
-  "sha256": "2f66a728112d2d941169d33962bca6bba934c6a89c3bfa8c43d98b67bc57796c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-224",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-225/AAYoutube-6.4.apk",
+  "apkSize": 22393325,
+  "sha256": "f8503c9addeec531c0ff49a117c3cec447d76dda753f00e9237da4785e59e280",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-225",
   "notes": [
+    "feat(lyrics): replace floating button with availability-gated header toggle; remove duplicate YouTube bottom menu",
     "fix(features): update SponsorBlock, dislikes, promo hiding and background-quality toggles live",
     "fix(features): show YouTube sign-out only when authenticated; audit and synchronize feature controls",
     "fix(auto): correct Kotlin Gradle imports for pinned AABrowser SDK verifier",
@@ -17,7 +18,6 @@
     "feat(auto): pin and fetch AABrowser's actual v4 projection SDK artifact",
     "fix(auto): debounce host split-screen area transitions without recreating video",
     "test(auto): lock down dual media/video discovery, host security, and surface recovery",
-    "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse",
     "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse"
   ]
 }
