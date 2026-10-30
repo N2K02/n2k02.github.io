@@ -1,23 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-42-run-896",
-  "versionName": "4.6",
-  "versionCode": 100896,
-  "apkName": "VREC-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-42-run-896/VREC-4.6.apk",
-  "apkSize": 34977416,
-  "sha256": "45f03c63409536688d86818cd9317d2ea2ab9eab834ea954de7aca6a0bcbbe25",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-42-run-896",
+  "tag": "vrec-experimental-pr-43-run-898",
+  "versionName": "4.7",
+  "versionCode": 100898,
+  "apkName": "VREC-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-43-run-898/VREC-4.7.apk",
+  "apkSize": 34977772,
+  "sha256": "04707e7c04aaeeeec8cb9456f76861464f29e13271d97414bae532cbec1a3624",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-43-run-898",
   "notes": [
-    "Fail closed on full public tag history and block duplicate or regressive VRec release versions",
-    "Regression-test complete public-tag lookup, malformed tags and API failures",
-    "Resolve VRec public versions from complete tag history, not first 100 shared releases",
-    "Experimental: modern ADB recording, caller identity and unified Logs (#41)",
-    "Make VREC ADB status regression test accept styled Compose Text",
-    "Test second-position Recordings tab and removal of VREC Home Explore shortcuts",
-    "Move VREC Recordings into second bottom tab and remove redundant Home Explore shortcuts",
-    "Test VREC ADB Home connect/health and Experimental-only setup checklist",
-    "VREC: remove duplicated helper-health summary from Experimental connection card",
-    "VREC: show verified helper health and explicit Connect TCP action on ADB-mode Home"
+    "Add regression contracts for duplicate WhatsApp and cellular call signals",
+    "Fix VoIP shell call ownership and readable capture diagnostics",
+    "Fix VoIP shell call ownership and readable capture diagnostics",
+    "Fix VoIP shell call ownership and readable capture diagnostics"
   ]
 }
