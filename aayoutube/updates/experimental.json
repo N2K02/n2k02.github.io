@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-225",
+  "tag": "aayoutube-experimental-pr-22-run-232",
   "versionName": "6.4",
-  "versionCode": 100225,
+  "versionCode": 100232,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-225/AAYoutube-6.4.apk",
-  "apkSize": 22393325,
-  "sha256": "f8503c9addeec531c0ff49a117c3cec447d76dda753f00e9237da4785e59e280",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-225",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-232/AAYoutube-6.4.apk",
+  "apkSize": 22409709,
+  "sha256": "f03ea7fd7a08e286ea1469b730cdd7380d7da4006235db0e8644474728d4c747",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-232",
   "notes": [
+    "test: avoid false positive from excluded-feature names in documentation comments",
+    "fix(android-auto): adapt legacy CarActivity thread dispatch and fullscreen view to SDK; restore phone WebView after projection",
+    "feat(android-auto): integrate AABrowser legacy CarActivityService and projected Compose WebView; preserve template and media paths",
+    "fix(playback): keep lyrics tied to video ID and preserve browse taps and car WebView during transitions",
+    "fix(playback): stabilize timed lyrics, WebView mini/PiP animation, and Android Auto surface availability",
+    "test(lyrics): cover direct clock playback, seek, pause, buffering and stale video samples",
+    "fix(lyrics): synchronize timed lines with live YouTube video position and prefer timed provider results",
     "feat(lyrics): replace floating button with availability-gated header toggle; remove duplicate YouTube bottom menu",
     "fix(features): update SponsorBlock, dislikes, promo hiding and background-quality toggles live",
-    "fix(features): show YouTube sign-out only when authenticated; audit and synchronize feature controls",
-    "fix(auto): correct Kotlin Gradle imports for pinned AABrowser SDK verifier",
-    "docs: record AABrowser as canonical Android Auto upstream for AAYouTube",
-    "fix(auto): compute exact Git blob digest for pinned upstream SDK",
-    "feat(auto): pin and fetch AABrowser's actual v4 projection SDK artifact",
-    "fix(auto): debounce host split-screen area transitions without recreating video",
-    "test(auto): lock down dual media/video discovery, host security, and surface recovery",
-    "feat(auto): support Assistant legacy play-from-search alongside Media3 voice browse"
+    "fix(features): show YouTube sign-out only when authenticated; audit and synchronize feature controls"
   ]
 }
