@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-328",
+  "tag": "aayoutube-experimental-pr-22-run-337",
   "versionName": "6.4",
-  "versionCode": 100328,
+  "versionCode": 100337,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-328/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-337/AAYoutube-6.4.apk",
   "apkSize": 20164883,
-  "sha256": "d641a656b6d7850b55eb553bdb0be0c371cee4632f30f3535a8e6d4c1ebd0235",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-328",
+  "sha256": "2c6f4600206dd1b3743375f398cea1e1884ab7a9036873134d542e1031206daf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-337",
   "notes": [
-    "fix(media): refresh artwork on track changes, add fallback thumbnail and car-only Quit cleanup",
-    "test(media): replace obsolete recovery, projection, and notification contracts",
-    "fix(media): keep active playback and car browser reconnecting with bounded backoff",
-    "feat(media): asynchronously publish trusted artwork to Auto session and notifications",
-    "fix(web): reject stale bridge callbacks and cancel lyric I/O on navigation; document lifecycle invariants",
-    "fix(player): recover browse renderer, mute secondary media, refresh lyrics metadata and add lifecycle tests",
-    "fix(lifecycle): recover WebView without false reload, preserve car layout and handoff",
-    "feat(media): acknowledge IPC before replay, expose bounded live Up next browse queue",
-    "fix(media): guard WebView registration and stale snapshots; align projection tests and architecture docs",
-    "test(media): guard sanitized playback speed for MediaCompat"
+    "test(settings): use persisted-to-script key map and isolate unmute from ad-skip assertions",
+    "fix(car): match AABrowser unconditional WebView pause and visibility behavior",
+    "fix(car): match AABrowser WebView lifecycle, preserve projected video and autoplay selected media",
+    "fix(settings): include opt-in media-process diagnostics in shared Logs screen",
+    "test(pip): provide viewport dimensions in simulated WebView",
+    "test(pip): exercise native transition classes and restore background decoder quality",
+    "test(video): validate native mini/PiP layout, unmute suppression and Settings wiring",
+    "fix(web): fit native mini/PiP video surface, prevent tiny PiP quality and hide unmute prompt",
+    "fix(video): use real WebView mini viewport and safe Android PiP source/resize",
+    "fix(media): refresh artwork on track changes, add fallback thumbnail and car-only Quit cleanup"
   ]
 }
