@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-481",
+  "tag": "pcl-experimental-pr-64-run-494",
   "versionName": "5.8",
-  "versionCode": 100481,
+  "versionCode": 100494,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-481/PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-494/PCL-5.8.apk",
   "apkSize": 19884284,
-  "sha256": "9099928436ef00fc7e8b062dae32ad502897530fe91c5696a3215d77631850ab",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-481",
+  "sha256": "a966d48c770931fb834188a8e1326bd4d3433c330d38153d7291575235c54a94",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-494",
   "notes": [
-    "Test recovery when Gateway answers while Remote still rings",
-    "Test recovery when Gateway answers while Remote still rings",
-    "Stop PCL Remote ringing promptly after SIM answer on Gateway",
-    "Keep other-app tag fixture distinct in PCL public version regression test",
-    "Standardize public release version validation and prevent tag reuse",
-    "Keep contact persistence off Bluetooth reader and redact live diagnostic outputs",
-    "Prevent concurrent call commands and confirm Declined only after correlated Gateway ACK",
-    "Update Recents regression tests for expanded actions and validate dialable call numbers",
-    "Verify call command correlation, restore delayed route verification and add regression coverage",
-    "Restore Recents actions with safe per-call deletion and compact verified-SIM controls"
+    "Regression tests for stale Bluetooth session cleanup and stream failure",
+    "Format Bluetooth session setup with full lifecycle cleanup",
+    "Always clean up current Bluetooth session, including stream setup failures",
+    "Prevent stale Bluetooth session cleanup from resetting a newer call connection",
+    "Add regression tests for Bluetooth dial latency and reconnect notification time",
+    "Avoid contact provider I/O on Bluetooth call reader and fix reconnect call timestamp",
+    "Cover two event orders, overlapping calls and stale Remote ownership",
+    "Use correlated ACK policy for Remote call attribution regardless of event order",
+    "Add pure Remote call ownership policy for ACK ordering tests",
+    "Attribute Remote answer and dial only after correlated Gateway ACK and OFFHOOK"
   ]
 }
