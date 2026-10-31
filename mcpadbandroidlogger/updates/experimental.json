@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-27",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-35",
   "versionName": "1.0",
-  "versionCode": 100027,
+  "versionCode": 100035,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-27/McpAdbAndroidLogger-1.0.apk",
-  "apkSize": 25782431,
-  "sha256": "86ceb4df936fd56293b3a51e3311da1e2a765657d3cbcd8547eae683fd75517f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-27",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-35/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 25807007,
+  "sha256": "455637a721704f818f9ad81e166992430531a9b295bb320f06040bd3df90dedb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-35",
   "notes": [
+    "fix: fail closed on Logcat app UID filters even when unrelated messages mention package names",
+    "test: protect Home/Logs redesign, icon picker, non-destructive filters and storage export",
+    "feat: wire redesigned Home and root Logs, enable launcher metadata without broad package permission",
+    "ui: redesign Android Logcat viewer with app icons, search, severity filters, copy, clear and SAF export",
+    "ui: rebuild Home as compact ADB, monitoring, metrics and MCP dashboard",
+    "feat: promote Android Logcat to independent root navigation tab",
+    "feat: combined severity, app, time and text filters and safe Logcat export format",
+    "feat: capture all Logcat independently of view filters and track session metrics",
     "fix: handle nullable sticky foreground service intent",
-    "fix: correct MCP foreground service capture action and sticky lifecycle",
-    "test: assert release APK serves local MCP and blocks anonymous tools on Android",
-    "build: include SHA-256-verified official Cloudflare ARM64 binary in signed APK",
-    "ui: show live local/public MCP URLs and token, add reconnect and secure copy controls",
-    "feat: start local MCP and optional tunnel in foreground, stop both on Quit",
-    "feat: add phone-hosted Cloudflare Quick Tunnel with live URL and secure shutdown",
-    "feat: serve authenticated read-only MCP protocol on Android loopback",
-    "fix: remove duplicate MCP settings method found by CI compiler",
-    "feat: auto-save MCP connector, auto-enable uploads and bring ADB setup in line with VRec"
+    "fix: correct MCP foreground service capture action and sticky lifecycle"
   ]
 }
