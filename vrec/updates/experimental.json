@@ -1,23 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-44-run-936",
-  "versionName": "4.8",
-  "versionCode": 100936,
-  "apkName": "VREC-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-44-run-936/VREC-4.8.apk",
-  "apkSize": 35439663,
-  "sha256": "a23db8f3902d0edf541160efff82ddd619319257526f2fc8c73748ee4cc14275",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-44-run-936",
+  "tag": "vrec-experimental-pr-46-run-938",
+  "versionName": "4.9",
+  "versionCode": 100938,
+  "apkName": "VREC-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-46-run-938/VREC-4.9.apk",
+  "apkSize": 13936796,
+  "sha256": "6d893099ff7be1d63cd2b4895de10220ca6e60aa354f6ecc64acdd163846745a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-46-run-938",
   "notes": [
-    "Fix stale regression expectations for verified port status and user-controlled startup",
-    "Fix stale regression expectations for verified port status and user-controlled startup",
-    "Fix stale regression expectations for verified port status and user-controlled startup",
-    "Test disabled-boot safety against persisted watchdog and fresh foreground launch",
-    "Explain Start on boot OFF gate for persisted watchdog and package-update recovery",
-    "Explain Start on boot OFF gate for persisted watchdog and package-update recovery",
-    "Prevent watchdog and update receiver from defeating Start on boot OFF before foreground launch",
-    "Prevent watchdog and update receiver from defeating Start on boot OFF before foreground launch",
-    "Prevent watchdog and update receiver from defeating Start on boot OFF before foreground launch",
-    "Ensure Start on boot OFF also blocks watchdog recovery until foreground open in current boot"
+    "CI: build R8-minified release variant for experimental PR APKs",
+    "test: guard WorkManager Room constructor keep rules for release startup [skip ci]",
+    "fix: keep reflectively invoked WorkManager and Room constructors in R8 release [skip ci]",
+    "docs: update README with Shizuku-Next reference [skip ci]"
   ]
 }
