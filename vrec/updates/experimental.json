@@ -1,17 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-47-run-943",
-  "versionName": "5.0",
-  "versionCode": 100943,
-  "apkName": "VREC-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-47-run-943/VREC-5.0.apk",
-  "apkSize": 13936704,
-  "sha256": "8da6a1003d0bbff6efa8f61d6e474cb6d6e1bf4ce1f953f858161b395bc100d6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-47-run-943",
+  "tag": "vrec-experimental-pr-48-run-947",
+  "versionName": "5.1",
+  "versionCode": 100947,
+  "apkName": "VREC-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-48-run-947/VREC-5.1.apk",
+  "apkSize": 13920320,
+  "sha256": "75ddc9aefac4e85f94a538228650f5951454444b5ed4cfcd63943bfbaef4f4cd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-48-run-947",
   "notes": [
-    "test: align diagnostics contracts with Logcat-only logging",
-    "test: verify VRec Logcat diagnostics without Activity Logs storage",
-    "refactor: retire VRec Activity Log buffer and preferences; keep sanitized Logcat",
-    "refactor: remove embedded Logs screen and private diagnostic journals"
+    "Guard WhatsApp direction lifecycle, shell metadata, and ambiguity regressions",
+    "Avoid stale VoIP direction hints overriding already established call direction",
+    "Test explicit and ambiguous VoIP accessibility direction signals",
+    "Add unambiguous accessibility direction inference for live VoIP call screens",
+    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
+    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
+    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
+    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
+    "Simplify ADB connection settings and remove redundant diagnostics submenu",
+    "Simplify ADB connection settings and remove redundant diagnostics submenu"
   ]
 }
