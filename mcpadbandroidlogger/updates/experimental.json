@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-13",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-14",
   "versionName": "1.0",
-  "versionCode": 100013,
+  "versionCode": 100014,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-13/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-14/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 13555794,
-  "sha256": "96441310013a4d9d853d3b776b7e81ed454c3d7af80891a00637905cac2dc835",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-13",
+  "sha256": "ac04e34aabbf3e3a2baf8f8bf34248ade4683c974d63c84a2e933ceb869928e5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-14",
   "notes": [
+    "fix: handle system back gestures in settings subpages using mRadio navigation contract",
     "feat: add N2K02-style logger adaptive launcher and notification icons",
     "fix: retain WorkManager/Room constructors in R8 and smoke-test signed APK cold launches",
     "build: adopt existing encrypted N2K02 signing bundle used by mRadio and AAYouTube",
@@ -17,7 +18,6 @@
     "fix: remove broad package visibility and resolve filtered Logcat UIDs via shell; cover fail-closed filtering",
     "ci: configure Dependabot for N2K02 Maven registries, gateway and GitHub Actions",
     "fix: safely unwrap AccessibilityEvent before reading event type",
-    "feat: add optional VRec-style auto pairing-code Accessibility helper and reliable log clear/status sync",
-    "fix(ci): pin Android platform 37.2 required by current Compose dependencies"
+    "feat: add optional VRec-style auto pairing-code Accessibility helper and reliable log clear/status sync"
   ]
 }
