@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-35",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-36",
   "versionName": "1.0",
-  "versionCode": 100035,
+  "versionCode": 100036,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-35/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-36/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 25807007,
-  "sha256": "455637a721704f818f9ad81e166992430531a9b295bb320f06040bd3df90dedb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-35",
+  "sha256": "6fc4cc8f43860ed9cc4590264839cb15c1adc29607a4ff7d3a8383f720064536",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-36",
   "notes": [
+    "Remove Diagnostics submenu; show feedback on Start server",
     "fix: fail closed on Logcat app UID filters even when unrelated messages mention package names",
     "test: protect Home/Logs redesign, icon picker, non-destructive filters and storage export",
     "feat: wire redesigned Home and root Logs, enable launcher metadata without broad package permission",
@@ -17,7 +18,6 @@
     "feat: promote Android Logcat to independent root navigation tab",
     "feat: combined severity, app, time and text filters and safe Logcat export format",
     "feat: capture all Logcat independently of view filters and track session metrics",
-    "fix: handle nullable sticky foreground service intent",
-    "fix: correct MCP foreground service capture action and sticky lifecycle"
+    "fix: handle nullable sticky foreground service intent"
   ]
 }
