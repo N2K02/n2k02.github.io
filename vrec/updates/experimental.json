@@ -1,17 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-46-run-938",
-  "versionName": "4.9",
-  "versionCode": 100938,
-  "apkName": "VREC-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-46-run-938/VREC-4.9.apk",
-  "apkSize": 13936796,
-  "sha256": "6d893099ff7be1d63cd2b4895de10220ca6e60aa354f6ecc64acdd163846745a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-46-run-938",
+  "tag": "vrec-experimental-pr-47-run-943",
+  "versionName": "5.0",
+  "versionCode": 100943,
+  "apkName": "VREC-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-47-run-943/VREC-5.0.apk",
+  "apkSize": 13936704,
+  "sha256": "8da6a1003d0bbff6efa8f61d6e474cb6d6e1bf4ce1f953f858161b395bc100d6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-47-run-943",
   "notes": [
-    "CI: build R8-minified release variant for experimental PR APKs",
-    "test: guard WorkManager Room constructor keep rules for release startup [skip ci]",
-    "fix: keep reflectively invoked WorkManager and Room constructors in R8 release [skip ci]",
-    "docs: update README with Shizuku-Next reference [skip ci]"
+    "test: align diagnostics contracts with Logcat-only logging",
+    "test: verify VRec Logcat diagnostics without Activity Logs storage",
+    "refactor: retire VRec Activity Log buffer and preferences; keep sanitized Logcat",
+    "refactor: remove embedded Logs screen and private diagnostic journals"
   ]
 }
