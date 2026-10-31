@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-345",
+  "tag": "aayoutube-experimental-pr-22-run-349",
   "versionName": "6.4",
-  "versionCode": 100345,
+  "versionCode": 100349,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-345/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-349/AAYoutube-6.4.apk",
   "apkSize": 20181267,
-  "sha256": "ded47ec92a8effa74f6e5be95287b2de3d424433840643ed7928877945667937",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-345",
+  "sha256": "1b1c9d847299f8aea1971837a00a95b20c185aede1933ae0b5449f0c3e920a52",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-349",
   "notes": [
+    "Log whether PackageManager discovers the Android Auto video projection entry",
+    "Use Long MediaSession queue ID for Kotlin AndroidX compatibility",
+    "Prevent duplicate media OPEN reloads and refresh active Android Auto queue state",
+    "Fix Android Auto Music skip controls and protect legacy video launch from media hijack",
     "Keep useful video diagnostics while dropping YouTube preload and base64 log spam",
     "Expose AAYouTube Music player separately and restore top menu by downward edge swipe",
     "Use one Android Auto video launcher and restore full WebView viewport",
     "Make phone and Android Auto video top menu auto-hide configurable",
     "Match AABrowser Android Auto app-projected runtime dependency",
-    "Fix legacy-only test and reattach crashed WebView on Android Auto Wide surface",
-    "Restore AABrowser Android Auto video, Wide surfaces, media and lifecycle architecture",
-    "Open Android Auto car video screen instead of music player",
-    "test(settings): use persisted-to-script key map and isolate unmute from ad-skip assertions",
-    "fix(car): match AABrowser unconditional WebView pause and visibility behavior"
+    "Fix legacy-only test and reattach crashed WebView on Android Auto Wide surface"
   ]
 }
