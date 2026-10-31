@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "bcam-v4.3",
-  "versionName": "4.3",
-  "versionCode": 100179,
-  "apkName": "BCam-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.3/BCam-4.3.apk",
-  "apkSize": 1216424,
-  "sha256": "b3c410f4aec167234610d70768ba7600a76d07e5b7088e93b6771e9bc9606bca",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.3",
+  "tag": "bcam-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100183,
+  "apkName": "BCam-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.4/BCam-4.4.apk",
+  "apkSize": 1200040,
+  "sha256": "60e17a50614cc23874bd48e0fc249973ed5550783399132c64a1b107e6b47d23",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.4",
   "notes": [
-    "Use debug builds for experimental and release builds for stable APKs (#20)"
+    "test: align regression contracts with removal of in-app Logs",
+    "refactor: remove in-app diagnostic logs and disk journal",
+    "Align public release version lookup and duplicate-version guards"
   ]
 }
