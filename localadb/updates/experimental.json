@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-8",
-  "versionName": "1.0-experimental.8",
-  "versionCode": 100008,
-  "apkName": "LocalAdb-PR-1-00557a0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-8/LocalAdb-PR-1-00557a0.apk",
+  "tag": "localadb-exp-pr-1-run-9",
+  "versionName": "1.0-experimental.9",
+  "versionCode": 100009,
+  "apkName": "LocalAdb-PR-1-d19db31.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-9/LocalAdb-PR-1-d19db31.apk",
   "apkSize": 19508315,
-  "sha256": "72239e8cf2ff31f857f751a3c7df0f69f6d1e39778a5cd14926a639e9cbdbcb4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-8",
+  "sha256": "3dd2b0718e977d8b38c40a80f7a602e8b2a233f4811a71bece5b68d897fb350d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-9",
   "notes": [
+    "ci: mirror mRadio Dependabot updater registry and daily schedule",
     "fix: resolve LocalAdb stable versions and align shared app icon header",
     "ci: match MRadio release/version/signing workflow for experimental and stable",
     "ci: restore SDK 37.0 and add Dependabot and updater compatibility guard",
@@ -17,7 +18,6 @@
     "fix: use installable Android SDK 36 for reproducible builds",
     "fix: use installable Android SDK 36 for reproducible builds",
     "fix: use installable Android SDK 36 for reproducible builds",
-    "fix: use shell PR number in prerelease distribution tag",
-    "fix: gate optional public publishing on configured distribution token"
+    "fix: use shell PR number in prerelease distribution tag"
   ]
 }
