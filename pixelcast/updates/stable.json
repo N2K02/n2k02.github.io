@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v4.1",
-  "versionName": "4.1",
-  "versionCode": 100131,
-  "apkName": "PixelCast-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.1/PixelCast-4.1.apk",
-  "apkSize": 1298512,
-  "sha256": "7e0aa46a7cad8e63e453b589693177792da33449bee8a95d51b27e30b852e714",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.1",
+  "tag": "pixelcast-v4.2",
+  "versionName": "4.2",
+  "versionCode": 100134,
+  "apkName": "PixelCast-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.2/PixelCast-4.2.apk",
+  "apkSize": 1282128,
+  "sha256": "174c28fea9aa9ff8e2e928a70830c26e605028f3355c227233bdd55ad72d8928",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.2",
   "notes": [
-    "Use debug builds for experimental and release builds for stable APKs (#17)"
+    "refactor: remove in-app logs UI and disk journals; keep sanitized Logcat",
+    "Align public release version selection with all published app tags"
   ]
 }
