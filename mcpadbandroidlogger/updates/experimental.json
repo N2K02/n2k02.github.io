@@ -1,0 +1,23 @@
+{
+  "channel": "experimental",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-11",
+  "versionName": "1.0",
+  "versionCode": 100011,
+  "apkName": "McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-11/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 13534978,
+  "sha256": "94d7285c8bf8baa8daf2e689abf403fa3bb6c096b84d991119b408c6953e42c9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-11",
+  "notes": [
+    "build: adopt existing encrypted N2K02 signing bundle used by mRadio and AAYouTube",
+    "ci: use standard N2K02 signing and stable/experimental APK release pipeline",
+    "test: use actual newline escape in shell package-list parser fixture",
+    "fix: remove broad package visibility and resolve filtered Logcat UIDs via shell; cover fail-closed filtering",
+    "ci: configure Dependabot for N2K02 Maven registries, gateway and GitHub Actions",
+    "fix: safely unwrap AccessibilityEvent before reading event type",
+    "feat: add optional VRec-style auto pairing-code Accessibility helper and reliable log clear/status sync",
+    "fix(ci): pin Android platform 37.2 required by current Compose dependencies",
+    "fix(ci): target available Android SDK 36 with N2K02 shared libraries",
+    "test: reuse MCP ASGI lifespan across gateway test cases"
+  ]
+}
