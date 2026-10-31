@@ -1,17 +1,17 @@
 {
   "channel": "stable",
-  "tag": "vrec-v4.9",
-  "versionName": "4.9",
-  "versionCode": 100939,
-  "apkName": "VREC-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.9/VREC-4.9.apk",
-  "apkSize": 13936784,
-  "sha256": "40b142a644f3a5324465877b1526aabec4f0926dd9ddb61429e79b36fc421574",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.9",
+  "tag": "vrec-v5.0",
+  "versionName": "5.0",
+  "versionCode": 100944,
+  "apkName": "VREC-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.0/VREC-5.0.apk",
+  "apkSize": 13936696,
+  "sha256": "86aa2b03726cb218d243ff77f2e1394560c4b9768eee409117831d6acd1a5c40",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.0",
   "notes": [
-    "CI: build R8-minified release variant for experimental PR APKs",
-    "test: guard WorkManager Room constructor keep rules for release startup [skip ci]",
-    "fix: keep reflectively invoked WorkManager and Room constructors in R8 release [skip ci]",
-    "docs: update README with Shizuku-Next reference [skip ci]"
+    "test: align diagnostics contracts with Logcat-only logging",
+    "test: verify VRec Logcat diagnostics without Activity Logs storage",
+    "refactor: retire VRec Activity Log buffer and preferences; keep sanitized Logcat",
+    "refactor: remove embedded Logs screen and private diagnostic journals"
   ]
 }
