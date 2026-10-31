@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-27-run-334",
-  "versionName": "5.5-experimental.334",
-  "versionCode": 100334,
-  "apkName": "MRadio-PR-27-1bf43d3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-27-run-334/MRadio-PR-27-1bf43d3.apk",
-  "apkSize": 24393342,
-  "sha256": "fa87ac9d6d53ec50c6e2767caed36ceef3ee1bdce157a20ede5f2a88d9c4e8ad",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-27-run-334",
+  "tag": "mradio-exp-pr-27-run-335",
+  "versionName": "5.5-experimental.335",
+  "versionCode": 100335,
+  "apkName": "MRadio-PR-27-9316e48.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-27-run-335/MRadio-PR-27-9316e48.apk",
+  "apkSize": 24360574,
+  "sha256": "7ec45e07b330dc427fb86fce990da45d7c35f4081c006c137429207c7a72c8d0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-27-run-335",
   "notes": [
+    "refactor: remove Logs settings and private diagnostic journal",
     "Add default-on station volume normalization with safe DSP and regression tests",
     "Align shared public version checks and protect existing release versions"
   ]
