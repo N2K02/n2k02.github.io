@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-349",
+  "tag": "aayoutube-experimental-pr-22-run-350",
   "versionName": "6.4",
-  "versionCode": 100349,
+  "versionCode": 100350,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-349/AAYoutube-6.4.apk",
-  "apkSize": 20181267,
-  "sha256": "1b1c9d847299f8aea1971837a00a95b20c185aede1933ae0b5449f0c3e920a52",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-349",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-350/AAYoutube-6.4.apk",
+  "apkSize": 21244312,
+  "sha256": "19a6e39ef4b03022f345463db8cb16324c5b49e08398d78173e933189e35dbd4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-350",
   "notes": [
+    "Fix legacy Android Auto video FragmentManager crash with AABrowser Jetifier runtime parity",
     "Log whether PackageManager discovers the Android Auto video projection entry",
     "Use Long MediaSession queue ID for Kotlin AndroidX compatibility",
     "Prevent duplicate media OPEN reloads and refresh active Android Auto queue state",
@@ -17,7 +18,6 @@
     "Expose AAYouTube Music player separately and restore top menu by downward edge swipe",
     "Use one Android Auto video launcher and restore full WebView viewport",
     "Make phone and Android Auto video top menu auto-hide configurable",
-    "Match AABrowser Android Auto app-projected runtime dependency",
-    "Fix legacy-only test and reattach crashed WebView on Android Auto Wide surface"
+    "Match AABrowser Android Auto app-projected runtime dependency"
   ]
 }
