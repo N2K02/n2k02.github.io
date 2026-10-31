@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-11",
-  "versionName": "1.0-experimental.11",
-  "versionCode": 100011,
-  "apkName": "LocalAdb-PR-1-22a9d1c.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-11/LocalAdb-PR-1-22a9d1c.apk",
-  "apkSize": 34526752,
-  "sha256": "17eff1ebab4d9f9dbede195894905aac33bb1860988c29ec9c822c648b470230",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-11",
+  "tag": "localadb-exp-pr-1-run-12",
+  "versionName": "1.0-experimental.12",
+  "versionCode": 100012,
+  "apkName": "LocalAdb-PR-1-9e35d79.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-12/LocalAdb-PR-1-9e35d79.apk",
+  "apkSize": 34608672,
+  "sha256": "97e98568f4dafaaf10095d74d0e09d69614cbba0db755c424000b9f80f4f1ba6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-12",
   "notes": [
+    "feat: VRec-style verified ADB automation, app access and Shizuku manager handoff",
     "fix: guard nullable Accessibility events before reading pairing dialog",
     "Add verified local ADB pairing, recovery and secure Settings page",
     "ci: mirror mRadio Dependabot updater registry and daily schedule",
@@ -17,7 +18,6 @@
     "ci: restore SDK 37.0 and add Dependabot and updater compatibility guard",
     "fix: invoke GradleWrapperMain with wrapper JAR classpath",
     "ui: label n2k02updater Settings submenu Updates",
-    "fix: use installable Android SDK 36 for reproducible builds",
     "fix: use installable Android SDK 36 for reproducible builds"
   ]
 }
