@@ -1,14 +1,17 @@
 {
   "channel": "stable",
-  "tag": "pbar-v5.3",
-  "versionName": "5.3",
-  "versionCode": 100166,
-  "apkName": "PBar-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.3/PBar-5.3.apk",
-  "apkSize": 1515141,
-  "sha256": "785777f6061cc51de9612196b5ebf04fcff684ba203f0d7837195aed1e762f5a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.3",
+  "tag": "pbar-v5.4",
+  "versionName": "5.4",
+  "versionCode": 100171,
+  "apkName": "PBar-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.4/PBar-5.4.apk",
+  "apkSize": 1498757,
+  "sha256": "1f5652a4b88d81028b0be1b4e42959c2103acd67cae65382d93563fbb59145c2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.4",
   "notes": [
-    "Use debug builds for experimental and release builds for stable APKs (#44)"
+    "refactor: remove private Logs page and journal writer",
+    "Update PBar header regression contract for explicit listener Quit instead of refresh",
+    "Ensure PBar Quit stops notification listener timers, media callbacks, overlay and updater",
+    "Align public release version selection with all published app tags"
   ]
 }
