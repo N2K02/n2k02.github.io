@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v4.7",
-  "versionName": "4.7",
-  "versionCode": 100899,
-  "apkName": "VREC-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.7/VREC-4.7.apk",
-  "apkSize": 13835348,
-  "sha256": "4b708468357eda063d7ac3489015b6fbb444d2e32c60dc243f729623f0ff618f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.7",
+  "tag": "vrec-v4.8",
+  "versionName": "4.8",
+  "versionCode": 100937,
+  "apkName": "VREC-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.8/VREC-4.8.apk",
+  "apkSize": 13904016,
+  "sha256": "4a00974cb91f14756398e6d8009d501c1719c624882c0144b2acfc95a0b66f49",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.8",
   "notes": [
-    "Fix WhatsApp VoIP shell ownership and capture diagnostics (#43)"
+    "ADB reliability: automatic pairing, recovery controls and port diagnostics (#44)"
   ]
 }
