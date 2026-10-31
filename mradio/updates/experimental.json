@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-27-run-333",
-  "versionName": "5.5-experimental.333",
-  "versionCode": 100333,
-  "apkName": "MRadio-PR-27-17044ac.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-27-run-333/MRadio-PR-27-17044ac.apk",
+  "tag": "mradio-exp-pr-27-run-334",
+  "versionName": "5.5-experimental.334",
+  "versionCode": 100334,
+  "apkName": "MRadio-PR-27-1bf43d3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-27-run-334/MRadio-PR-27-1bf43d3.apk",
   "apkSize": 24393342,
-  "sha256": "3916a354b9b3663f6995216e7b60b8c7ef57d96f941926c22d9042c5d56c213f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-27-run-333",
+  "sha256": "fa87ac9d6d53ec50c6e2767caed36ceef3ee1bdce157a20ede5f2a88d9c4e8ad",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-27-run-334",
   "notes": [
+    "Add default-on station volume normalization with safe DSP and regression tests",
     "Align shared public version checks and protect existing release versions"
   ]
 }
