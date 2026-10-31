@@ -1,14 +1,19 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v4.8",
-  "versionName": "4.8",
-  "versionCode": 100142,
-  "apkName": "HFreebuds-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.8/HFreebuds-4.8.apk",
-  "apkSize": 1416846,
-  "sha256": "09fe7c4306cbcee179073c399cab465628a5b0e25d5ecfce1f7baaf613625c13",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.8",
+  "tag": "hfreebuds-v4.9",
+  "versionName": "4.9",
+  "versionCode": 100149,
+  "apkName": "HFreebuds-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v4.9/HFreebuds-4.9.apk",
+  "apkSize": 1400462,
+  "sha256": "a8ebcfd97cd23b341f1cab46acccaca282b6074aa2d7a8a04b3329e35ea8ee5b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v4.9",
   "notes": [
-    "Use debug builds for experimental and release builds for stable APKs (#17)"
+    "test: fix stray closing parenthesis in tile navigation contract",
+    "fix: close shortcut-tile test loop after removing Logs tile",
+    "refactor: remove unused Bluetooth event buffer after Logs viewer retirement",
+    "test: align regression contracts with removal of in-app Logs",
+    "refactor: remove Logs tile, viewer and disk journaling",
+    "Align public release version lookup and duplicate-version guards"
   ]
 }
