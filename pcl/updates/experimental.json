@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-64-run-541",
+  "tag": "pcl-experimental-pr-64-run-543",
   "versionName": "5.8",
-  "versionCode": 100541,
+  "versionCode": 100543,
   "apkName": "PCL-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-541/PCL-5.8.apk",
-  "apkSize": 19900668,
-  "sha256": "1c1a57cefb1369cef15ba9dd9c18b3778488cccaf20758281cb8cafa6824ff37",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-541",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-64-run-543/PCL-5.8.apk",
+  "apkSize": 19867820,
+  "sha256": "a8b0c52ae70211adccc853211f2ef44e5136b89b009518f996cdbe973e270022",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-64-run-543",
   "notes": [
+    "test: align regression contracts with removal of in-app Logs",
+    "refactor: remove in-app Logs screen, activity buffer and journal",
     "Regression test: Gateway answer always silences the Remote",
     "Protect audio status UI against late responses from older Gateway requests",
     "Do not let superseded Gateway audio acknowledgements overwrite newer UI results",
@@ -16,8 +18,6 @@
     "Expect first available Gateway output when notification route is unknown",
     "Test Gateway Bluetooth output cycling, route ACK supersession and slider timeouts",
     "Stabilize Remote volume slider until Gateway confirms or times out",
-    "Fix Gateway route supersession ACKs, Remote timeout feedback and Bluetooth notification control",
-    "Cycle Gateway audio endpoints including Bluetooth in Remote call notification",
-    "Update audio regression contracts for call-token-validated Gateway command dispatch"
+    "Fix Gateway route supersession ACKs, Remote timeout feedback and Bluetooth notification control"
   ]
 }
