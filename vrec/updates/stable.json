@@ -1,14 +1,17 @@
 {
   "channel": "stable",
-  "tag": "vrec-v4.8",
-  "versionName": "4.8",
-  "versionCode": 100937,
-  "apkName": "VREC-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.8/VREC-4.8.apk",
-  "apkSize": 13904016,
-  "sha256": "4a00974cb91f14756398e6d8009d501c1719c624882c0144b2acfc95a0b66f49",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.8",
+  "tag": "vrec-v4.9",
+  "versionName": "4.9",
+  "versionCode": 100939,
+  "apkName": "VREC-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v4.9/VREC-4.9.apk",
+  "apkSize": 13936784,
+  "sha256": "40b142a644f3a5324465877b1526aabec4f0926dd9ddb61429e79b36fc421574",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v4.9",
   "notes": [
-    "ADB reliability: automatic pairing, recovery controls and port diagnostics (#44)"
+    "CI: build R8-minified release variant for experimental PR APKs",
+    "test: guard WorkManager Room constructor keep rules for release startup [skip ci]",
+    "fix: keep reflectively invoked WorkManager and Room constructors in R8 release [skip ci]",
+    "docs: update README with Shizuku-Next reference [skip ci]"
   ]
 }
