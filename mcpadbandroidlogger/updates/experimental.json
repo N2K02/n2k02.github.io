@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-66",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-67",
   "versionName": "1.0",
-  "versionCode": 100066,
+  "versionCode": 100067,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-66/McpAdbAndroidLogger-1.0.apk",
-  "apkSize": 25843871,
-  "sha256": "a4211ff473254ca75af8977ac129cd55d4d95b5e7e3eec9bbb68701235f28114",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-66",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-67/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 25847967,
+  "sha256": "d8f828d680bd34f8efd5f00302e391f4332e1645af1dd266ae7524a34c42404e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-67",
   "notes": [
+    "Enhance MCP audits with agent badges, HTTP diagnostics and safe denied-client hints",
     "test: enforce throttled anonymous MCP audit recording and payload suppression",
     "security: rate-limit unauthorized audit writes and sanitize agent metadata",
     "test: prevent regressions in MCP per-agent auditing, privacy and Settings navigation",
@@ -17,7 +18,6 @@
     "feat: attribute OAuth MCP tool requests and data responses to agents, audit denied access safely",
     "feat: bounded on-device MCP request/response audit journal with redaction and filters",
     "test: correct Kotlin assertion for OAuth browser-origin regression",
-    "fix: preserve OAuth browser Origin on approval POST without exposing URL secrets",
-    "fix: finish offline_access scope validation and refresh-token propagation"
+    "fix: preserve OAuth browser Origin on approval POST without exposing URL secrets"
   ]
 }
