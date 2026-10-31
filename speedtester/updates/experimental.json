@@ -1,19 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-28-run-232",
-  "versionName": "7.9",
-  "versionCode": 100232,
-  "apkName": "SpeedTester-7.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-28-run-232/SpeedTester-7.9.apk",
-  "apkSize": 21624399,
-  "sha256": "2d07bb8c3898f854a72856b81a1273af69f90bcedb8b3caf90beadbe6acaace4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-28-run-232",
+  "tag": "speedtester-experimental-pr-29-run-234",
+  "versionName": "8.0",
+  "versionCode": 100234,
+  "apkName": "SpeedTester-8.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-29-run-234/SpeedTester-8.0.apk",
+  "apkSize": 21591631,
+  "sha256": "6bcc598f42797bf018bf84daad75ddba1416755f9c0c257f8701cbdf84ccedbf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-29-run-234",
   "notes": [
-    "Add regression tests for stale servers, network changes and failover safety",
-    "Include permission-gated cellular signal level in connection diagnostics",
-    "Expose optional cellular permission to show LTE diagnostics",
-    "Expose optional cellular permission to show LTE diagnostics",
-    "Distinguish validated Internet, guest Wi-Fi portals and LTE carrier network",
-    "Refresh stale servers and fail over safely after endpoint failure"
+    "refactor: remove in-app Logs screen and persistent journal"
   ]
 }
