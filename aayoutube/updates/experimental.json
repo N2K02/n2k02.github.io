@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-369",
+  "tag": "aayoutube-experimental-pr-22-run-370",
   "versionName": "6.4",
-  "versionCode": 100369,
+  "versionCode": 100370,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-369/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-370/AAYoutube-6.4.apk",
   "apkSize": 21244312,
-  "sha256": "bb112ee0701107c372ae766560e582b08cb953611284d36a5bcebe905dba93d5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-369",
+  "sha256": "2fc25c64bb61ebd51d539c46e46f5e56c8d4c23e6343156b65f7830f7ef1c4bf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-370",
   "notes": [
+    "Remove Settings header gear and bottom bar; add Quit to the video rail",
     "Same small floating side rail for phone and Android Auto video controls",
     "test: keep Android Auto black-screen Logcat coverage without old file-journal assumptions",
     "refactor: remove in-app Logs UI and private diagnostic files, keep redacted Logcat",
@@ -17,7 +18,6 @@
     "Use literal ownership call counts in car lifecycle regression test",
     "Restore separate Android Auto video launcher alias lost in projection migration",
     "Update stale car ownership and Android Auto label regression assertions",
-    "Use AAYT Video and AAYT Music labels on Android Auto only",
-    "Shorten only Android Auto video launcher label to AaYT Video"
+    "Use AAYT Video and AAYT Music labels on Android Auto only"
   ]
 }
