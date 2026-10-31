@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-45-run-169",
+  "tag": "pbar-experimental-pr-45-run-170",
   "versionName": "5.4",
-  "versionCode": 100169,
+  "versionCode": 100170,
   "apkName": "PBar-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-45-run-169/PBar-5.4.apk",
-  "apkSize": 19869144,
-  "sha256": "d2c97f5e4fa2139fbf9a29cd8ae536a09b7e7d6102f500430eb3cec74fd7a74d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-45-run-169",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-45-run-170/PBar-5.4.apk",
+  "apkSize": 19836376,
+  "sha256": "1a31e0899e35e712aa064cda398bd9771afb9a2cc7d67e4387a438779ce177db",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-45-run-170",
   "notes": [
+    "refactor: remove private Logs page and journal writer",
     "Update PBar header regression contract for explicit listener Quit instead of refresh",
     "Ensure PBar Quit stops notification listener timers, media callbacks, overlay and updater",
     "Align public release version selection with all published app tags"
