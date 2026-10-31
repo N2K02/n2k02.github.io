@@ -1,14 +1,19 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-18-run-143",
+  "tag": "hfreebuds-experimental-pr-18-run-148",
   "versionName": "4.9",
-  "versionCode": 100143,
+  "versionCode": 100148,
   "apkName": "HFreebuds-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-18-run-143/HFreebuds-4.9.apk",
-  "apkSize": 19807563,
-  "sha256": "611e55b2943a411d1883f1c7a1f658fa96a9635442b8c29d35bbc245444bc87c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-18-run-143",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-18-run-148/HFreebuds-4.9.apk",
+  "apkSize": 19787083,
+  "sha256": "c1de132deca4f37d2e73c704e0fbc2b2c0dba6e8285c59ceb5a51a6a8e0c03a7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-18-run-148",
   "notes": [
+    "test: fix stray closing parenthesis in tile navigation contract",
+    "fix: close shortcut-tile test loop after removing Logs tile",
+    "refactor: remove unused Bluetooth event buffer after Logs viewer retirement",
+    "test: align regression contracts with removal of in-app Logs",
+    "refactor: remove Logs tile, viewer and disk journaling",
     "Align public release version lookup and duplicate-version guards"
   ]
 }
