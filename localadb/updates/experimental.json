@@ -1,0 +1,23 @@
+{
+  "channel": "experimental",
+  "tag": "localadb-exp-pr-1-run-7",
+  "versionName": "5.6-experimental.7",
+  "versionCode": 100007,
+  "apkName": "LocalAdb-PR-1-337bbb4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-7/LocalAdb-PR-1-337bbb4.apk",
+  "apkSize": 19508315,
+  "sha256": "b81345a356193b67d00519a1a0ce28e7735d0bbb57656a74a8145fb51fa2a087",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-7",
+  "notes": [
+    "ci: match MRadio release/version/signing workflow for experimental and stable",
+    "ci: restore SDK 37.0 and add Dependabot and updater compatibility guard",
+    "fix: invoke GradleWrapperMain with wrapper JAR classpath",
+    "ui: label n2k02updater Settings submenu Updates",
+    "fix: use installable Android SDK 36 for reproducible builds",
+    "fix: use installable Android SDK 36 for reproducible builds",
+    "fix: use installable Android SDK 36 for reproducible builds",
+    "fix: use shell PR number in prerelease distribution tag",
+    "fix: gate optional public publishing on configured distribution token",
+    "feat: scaffold Compose starter, shared UI, tests and signed release CI"
+  ]
+}
