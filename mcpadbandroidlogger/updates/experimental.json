@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-15",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-19",
   "versionName": "1.0",
-  "versionCode": 100015,
+  "versionCode": 100019,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-15/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-19/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 13572178,
-  "sha256": "1ddcadb6d37dcbb3af17f754ce83979f554fe3289bddc9be1baf25161be86563",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-15",
+  "sha256": "96e56151395781f92226c1927d6bc6392101acc74e433d63701226db2e73c8ab",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-19",
   "notes": [
+    "fix: remove duplicate MCP settings method found by CI compiler",
+    "feat: auto-save MCP connector, auto-enable uploads and bring ADB setup in line with VRec",
+    "fix: tolerate partial MCP URLs and automatically persist validated connection",
+    "ui: add inline copy icons beside MCP gateway URL and credential fields",
     "feat: add one-screen MCP connector setup, secure key generation and gateway health check",
     "fix: handle system back gestures in settings subpages using mRadio navigation contract",
     "feat: add N2K02-style logger adaptive launcher and notification icons",
     "fix: retain WorkManager/Room constructors in R8 and smoke-test signed APK cold launches",
     "build: adopt existing encrypted N2K02 signing bundle used by mRadio and AAYouTube",
-    "ci: use standard N2K02 signing and stable/experimental APK release pipeline",
-    "test: use actual newline escape in shell package-list parser fixture",
-    "fix: remove broad package visibility and resolve filtered Logcat UIDs via shell; cover fail-closed filtering",
-    "ci: configure Dependabot for N2K02 Maven registries, gateway and GitHub Actions",
-    "fix: safely unwrap AccessibilityEvent before reading event type"
+    "ci: use standard N2K02 signing and stable/experimental APK release pipeline"
   ]
 }
