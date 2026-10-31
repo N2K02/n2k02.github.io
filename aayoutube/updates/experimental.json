@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-365",
+  "tag": "aayoutube-experimental-pr-22-run-369",
   "versionName": "6.4",
-  "versionCode": 100365,
+  "versionCode": 100369,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-365/AAYoutube-6.4.apk",
-  "apkSize": 21260696,
-  "sha256": "bc7c93d11d4dc196c67c7ca6a97fdf1a607f99f5e0985e6a0f0c7ed72472fc02",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-365",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-369/AAYoutube-6.4.apk",
+  "apkSize": 21244312,
+  "sha256": "bb112ee0701107c372ae766560e582b08cb953611284d36a5bcebe905dba93d5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-369",
   "notes": [
+    "Same small floating side rail for phone and Android Auto video controls",
+    "test: keep Android Auto black-screen Logcat coverage without old file-journal assumptions",
+    "refactor: remove in-app Logs UI and private diagnostic files, keep redacted Logcat",
+    "Floating icon-only video control pill on Android Auto and phone",
     "Keep car CSS wrapper boxes from covering the projected video",
     "Use literal ownership call counts in car lifecycle regression test",
     "Restore separate Android Auto video launcher alias lost in projection migration",
     "Update stale car ownership and Android Auto label regression assertions",
     "Use AAYT Video and AAYT Music labels on Android Auto only",
-    "Shorten only Android Auto video launcher label to AaYT Video",
-    "Restore media callback when a previously inactive car host becomes active",
-    "Guard car host ownership from late onStart during Android Auto window replacement",
-    "Give each Android Auto car window its own renderer and owner",
-    "Prevent unsolicited Android Auto keyboard from stopping projected video"
+    "Shorten only Android Auto video launcher label to AaYT Video"
   ]
 }
