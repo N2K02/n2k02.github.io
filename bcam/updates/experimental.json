@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-21-run-180",
+  "tag": "bcam-experimental-pr-21-run-182",
   "versionName": "4.4",
-  "versionCode": 100180,
+  "versionCode": 100182,
   "apkName": "BCam-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-21-run-180/BCam-4.4.apk",
-  "apkSize": 19611388,
-  "sha256": "cc945b7c13c3828f2371dbf97d2bc536e8ace66dca4444db7d14c45d6ed51cb9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-21-run-180",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-21-run-182/BCam-4.4.apk",
+  "apkSize": 19578620,
+  "sha256": "810dbb208b77b5c033569fd036019cb820851609e7fa547e0ba2ad7266b3122a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-21-run-182",
   "notes": [
+    "test: align regression contracts with removal of in-app Logs",
+    "refactor: remove in-app diagnostic logs and disk journal",
     "Align public release version lookup and duplicate-version guards"
   ]
 }
