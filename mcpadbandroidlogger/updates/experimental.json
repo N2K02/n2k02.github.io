@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-57",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-59",
   "versionName": "1.0",
-  "versionCode": 100057,
+  "versionCode": 100059,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-57/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-59/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 25827487,
-  "sha256": "635ef9665d53203c6602924c9036e9c02535598a88a9f85cb4fdc95d465b988d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-57",
+  "sha256": "54641b257c67956f513a66f7af48dc526340c6c38ef45c1ac3b5894d159bbe1d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-59",
   "notes": [
+    "test: correct Kotlin assertion for OAuth browser-origin regression",
+    "fix: preserve OAuth browser Origin on approval POST without exposing URL secrets",
     "fix: finish offline_access scope validation and refresh-token propagation",
     "oauth: support offline_access refresh scope for ChatGPT and generic MCP agents",
     "test: verify generic OAuth redirect safety, PKCE, discovery and in-app agent instructions",
@@ -16,8 +18,6 @@
     "ui: common OAuth instructions and per-agent revoke controls for all MCP providers",
     "feat: serve OAuth discovery, registration, consent, tokens and 401 resource challenges via local MCP",
     "feat: provider-neutral MCP OAuth with PKCE, DCR, per-agent grants and token revocation",
-    "fix: match VRec targeted lint annotation for opt-in ADB secure settings grant",
-    "test: verify signed APK keeps foreground MCP service accessible after Home background transition",
-    "perf: observe TCP/5555 status without blocking Compose UI on socket probes"
+    "fix: match VRec targeted lint annotation for opt-in ADB secure settings grant"
   ]
 }
