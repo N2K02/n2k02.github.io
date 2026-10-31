@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v7.9",
-  "versionName": "7.9",
-  "versionCode": 100233,
-  "apkName": "SpeedTester-7.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v7.9/SpeedTester-7.9.apk",
+  "tag": "speedtester-v8.0",
+  "versionName": "8.0",
+  "versionCode": 100235,
+  "apkName": "SpeedTester-8.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.0/SpeedTester-8.0.apk",
   "apkSize": 1853128,
-  "sha256": "5c61edc053829a89ad8ca0d6f32e1d7e400a64c4f2ac61ae5f533f0616423469",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v7.9",
+  "sha256": "20fd6c493b2e273367892e0db1e11e53902b1c2dd2533beee9edef43c77d3e0b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.0",
   "notes": [
-    "Experimental: recover stale speed-test servers and improve guest Wi-Fi/LTE diagnostics (#28)"
+    "refactor: remove in-app Logs screen and persistent journal"
   ]
 }
