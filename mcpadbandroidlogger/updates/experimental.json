@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-14",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-15",
   "versionName": "1.0",
-  "versionCode": 100014,
+  "versionCode": 100015,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-14/McpAdbAndroidLogger-1.0.apk",
-  "apkSize": 13555794,
-  "sha256": "ac04e34aabbf3e3a2baf8f8bf34248ade4683c974d63c84a2e933ceb869928e5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-14",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-15/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 13572178,
+  "sha256": "1ddcadb6d37dcbb3af17f754ce83979f554fe3289bddc9be1baf25161be86563",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-15",
   "notes": [
+    "feat: add one-screen MCP connector setup, secure key generation and gateway health check",
     "fix: handle system back gestures in settings subpages using mRadio navigation contract",
     "feat: add N2K02-style logger adaptive launcher and notification icons",
     "fix: retain WorkManager/Room constructors in R8 and smoke-test signed APK cold launches",
@@ -17,7 +18,6 @@
     "test: use actual newline escape in shell package-list parser fixture",
     "fix: remove broad package visibility and resolve filtered Logcat UIDs via shell; cover fail-closed filtering",
     "ci: configure Dependabot for N2K02 Maven registries, gateway and GitHub Actions",
-    "fix: safely unwrap AccessibilityEvent before reading event type",
-    "feat: add optional VRec-style auto pairing-code Accessibility helper and reliable log clear/status sync"
+    "fix: safely unwrap AccessibilityEvent before reading event type"
   ]
 }
