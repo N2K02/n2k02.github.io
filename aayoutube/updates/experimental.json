@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-357",
+  "tag": "aayoutube-experimental-pr-22-run-364",
   "versionName": "6.4",
-  "versionCode": 100357,
+  "versionCode": 100364,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-357/AAYoutube-6.4.apk",
-  "apkSize": 21244312,
-  "sha256": "591f27194f390aa65d9005967f6fbf94f8723a7cbdf724c1345deeb3d7fd2f36",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-357",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-364/AAYoutube-6.4.apk",
+  "apkSize": 21260696,
+  "sha256": "1a5a9c30dcda7d355d21c4a7735e73237697349d8e23e68656f1ad65eb0f85e7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-364",
   "notes": [
+    "Use literal ownership call counts in car lifecycle regression test",
+    "Restore separate Android Auto video launcher alias lost in projection migration",
+    "Update stale car ownership and Android Auto label regression assertions",
+    "Use AAYT Video and AAYT Music labels on Android Auto only",
+    "Shorten only Android Auto video launcher label to AaYT Video",
+    "Restore media callback when a previously inactive car host becomes active",
+    "Guard car host ownership from late onStart during Android Auto window replacement",
     "Give each Android Auto car window its own renderer and owner",
     "Prevent unsolicited Android Auto keyboard from stopping projected video",
-    "Bind Android Auto WebView only after car frame attach using direct display context; log rendering geometry",
-    "Update projected WebView identity test for stable car Surface rebind",
-    "Fix Android Auto lifecycle regression test variable ordering",
-    "Keep car WebView attached during Compose updates to preserve video Surface",
-    "Recreate video WebView for Android Auto virtual display and prevent phone view stealing",
-    "Fix legacy Android Auto video FragmentManager crash with AABrowser Jetifier runtime parity",
-    "Log whether PackageManager discovers the Android Auto video projection entry",
-    "Use Long MediaSession queue ID for Kotlin AndroidX compatibility"
+    "Bind Android Auto WebView only after car frame attach using direct display context; log rendering geometry"
   ]
 }
