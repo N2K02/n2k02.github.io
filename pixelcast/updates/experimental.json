@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-18-run-132",
+  "tag": "pixelcast-experimental-pr-18-run-133",
   "versionName": "4.2",
-  "versionCode": 100132,
+  "versionCode": 100133,
   "apkName": "PixelCast-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-18-run-132/PixelCast-4.2.apk",
-  "apkSize": 19632000,
-  "sha256": "a935027eaae303a1aaf067674ff955891a28fdc73bee8611d4517e1a0fc33fb5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-18-run-132",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-18-run-133/PixelCast-4.2.apk",
+  "apkSize": 19599232,
+  "sha256": "de4bae18ea7a68020c92cf3b5f1c9103885be9eeacf821b55e0cdf91ce9b7dcd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-18-run-133",
   "notes": [
+    "refactor: remove in-app logs UI and disk journals; keep sanitized Logcat",
     "Align public release version selection with all published app tags"
   ]
 }
