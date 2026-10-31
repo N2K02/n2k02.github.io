@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-354",
+  "tag": "aayoutube-experimental-pr-22-run-355",
   "versionName": "6.4",
-  "versionCode": 100354,
+  "versionCode": 100355,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-354/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-355/AAYoutube-6.4.apk",
   "apkSize": 21244312,
-  "sha256": "8c6f3f9827d9775e3c4e4d188f898853ae8336bea8324c3c5e0d6a14f2bb639e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-354",
+  "sha256": "bf8d7939aef3cbd9f57db6c81a900f13cc821449439fc558001c6a216abf851d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-355",
   "notes": [
+    "Bind Android Auto WebView only after car frame attach using direct display context; log rendering geometry",
     "Update projected WebView identity test for stable car Surface rebind",
     "Fix Android Auto lifecycle regression test variable ordering",
     "Keep car WebView attached during Compose updates to preserve video Surface",
@@ -17,7 +18,6 @@
     "Log whether PackageManager discovers the Android Auto video projection entry",
     "Use Long MediaSession queue ID for Kotlin AndroidX compatibility",
     "Prevent duplicate media OPEN reloads and refresh active Android Auto queue state",
-    "Fix Android Auto Music skip controls and protect legacy video launch from media hijack",
-    "Keep useful video diagnostics while dropping YouTube preload and base64 log spam"
+    "Fix Android Auto Music skip controls and protect legacy video launch from media hijack"
   ]
 }
