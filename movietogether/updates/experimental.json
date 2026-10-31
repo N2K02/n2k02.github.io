@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-11-run-89",
-  "versionName": "1.8-experimental.89",
-  "versionCode": 100089,
-  "apkName": "MovieTogether-PR-11-c9a86fd.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-11-run-89/MovieTogether-PR-11-c9a86fd.apk",
-  "apkSize": 26064960,
-  "sha256": "1fa911c15003ac5bc50f3811332f84f28bfc54ba21c2d5389fcfa04be26194fa",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-11-run-89",
+  "tag": "movietogether-experimental-pr-11-run-90",
+  "versionName": "1.8-experimental.90",
+  "versionCode": 100090,
+  "apkName": "MovieTogether-PR-11-9540c30.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-11-run-90/MovieTogether-PR-11-9540c30.apk",
+  "apkSize": 26048576,
+  "sha256": "ca526d1d3054ffa1a958e5223135e8620759cb0e85174c034182425f65feace6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-11-run-90",
   "notes": [
+    "refactor: remove in-app Logs page and on-disk diagnostics",
     "Align shared public version checks and protect existing release versions",
     "Experimental: persistent random nickname on first launch (#10)",
     "Add minimized playback PiP and Android conversation chat bubbles",
@@ -17,7 +18,6 @@
     "Align MovieTogether header brand with UI regression contract",
     "Fix Android CI compile/lint issue in Quit navigation",
     "Prevent regressions removing bottom Quit or restoring old settings modal",
-    "Capture MovieTogether activity in composition for safe Quit callback",
-    "MovieTogether: add bottom Quit beside Settings and end app task"
+    "Capture MovieTogether activity in composition for safe Quit callback"
   ]
 }
