@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.0-build-31",
-  "versionName": "1.0",
-  "versionCode": 100031,
-  "apkName": "LocalAdb-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.0-build-31/LocalAdb-1.0.apk",
-  "apkSize": 18528140,
-  "sha256": "8a80fca47756a24a789f1dbb3cae04b843f8a2e35d5a1978afa671b5112eeab0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.0-build-31",
+  "tag": "localadb-v1.1-build-37",
+  "versionName": "1.1",
+  "versionCode": 100037,
+  "apkName": "LocalAdb-1.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.1-build-37/LocalAdb-1.1.apk",
+  "apkSize": 18560908,
+  "sha256": "6da4b045193902fdc9116e83cdfdf816913cf0e5749eb38a03761eaad8f2059d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.1-build-37",
   "notes": [
-    "LocalAdb: authorized ADB console, Shizuku manager and optimized portrait UI",
-    "chore: initialize repository for experimental Android template"
+    "Fix release startup crash and implement compact swipeable LocalAdb UI"
   ]
 }
