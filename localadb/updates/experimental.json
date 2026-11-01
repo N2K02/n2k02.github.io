@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-21",
-  "versionName": "1.0-experimental.21",
-  "versionCode": 100021,
-  "apkName": "LocalAdb-PR-1-df3a033.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-21/LocalAdb-PR-1-df3a033.apk",
+  "tag": "localadb-exp-pr-1-run-22",
+  "versionName": "1.0-experimental.22",
+  "versionCode": 100022,
+  "apkName": "LocalAdb-PR-1-095c762.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-22/LocalAdb-PR-1-095c762.apk",
   "apkSize": 39712368,
-  "sha256": "e39fd70874f74ab14cf0abe97a62612bfed21f1c0dbf8ccf087dc6c7f6379946",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-21",
+  "sha256": "55d40240e30f17b2f64b0a169f03d89e30d7b310edf972d0fb928dd3f89f7405",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-22",
   "notes": [
+    "fix(shizuku): use verified seekable payload and upstream foreground starter lifecycle",
     "fix(shizuku): native starter, auto recovery and safe Stop/Restart controls",
     "fix(ui): route all primary tabs through validated navigation",
     "fix(ui): finish compact Shizuku-first Apps and correct navigation regressions",
@@ -17,7 +18,6 @@
     "test: verify native Shizuku approvals instead of external manager handoff",
     "feat: built-in ADB shell console and native Shizuku server manager",
     "fix: explicitly type app sort comparator for Kotlin 2.4",
-    "Harden Shizuku app discovery and verified Android ADB permission grants",
-    "feat: VRec-style verified ADB automation, app access and Shizuku manager handoff"
+    "Harden Shizuku app discovery and verified Android ADB permission grants"
   ]
 }
