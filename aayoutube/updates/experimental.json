@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-383",
+  "tag": "aayoutube-experimental-pr-22-run-406",
   "versionName": "6.4",
-  "versionCode": 100383,
+  "versionCode": 100406,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-383/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-406/AAYoutube-6.4.apk",
   "apkSize": 21244312,
-  "sha256": "531a999e6b9d552382da215547838ceade1fbeba56970c708896023980977d1c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-383",
+  "sha256": "8efd60759c0aa31e0770cccea8caa989b8cecb709756a7d9c053292f760e93d6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-406",
   "notes": [
-    "fix(car-nav): Back always enters mini-player for an active watch page",
-    "fix(nav): detect active video even while YouTube SPA history lags",
-    "test(background): regression contracts for background pauses and resolution recovery",
-    "test(player): same-video page reload restores video position",
-    "fix(webview): restore position after same-video resolution page reload",
-    "fix(player): accept same-video position recovery after full document reload",
-    "fix(background): retry unexpected pauses even long after app leaves foreground",
-    "test(car): enforce mini-player Back/Home and browse-layer integration",
-    "test(player): video quality reset, legitimate seek and background pause protection",
-    "fix(player): initialize background playback intent on video binding"
+    "test(car): model phone-background to Android Auto handoff correctly",
+    "test(logs): retain meaningful CORS errors",
+    "fix(logs): filter only known ad-tracker CORS noise",
+    "test(web): cover car reattach, mini, and quality handoff",
+    "test(car): assert refit and stream-quality recovery",
+    "test(player): assert current explicit-pause lifecycle",
+    "test(ui): allow mini behind controls without dead strip",
+    "refactor(ui): remove obsolete reserved-rail mini bounds",
+    "fix(car): reassert projected layout and report stream quality",
+    "fix(car): restore foreground quality and preserve mini during host refit"
   ]
 }
