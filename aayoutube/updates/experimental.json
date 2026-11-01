@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-23-run-425",
+  "tag": "aayoutube-experimental-pr-23-run-426",
   "versionName": "6.5",
-  "versionCode": 100425,
+  "versionCode": 100426,
   "apkName": "AAYoutube-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-23-run-425/AAYoutube-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-23-run-426/AAYoutube-6.5.apk",
   "apkSize": 21264792,
-  "sha256": "9c71ad45dd8377c6932105a89b8dfc590c9fa7c7cbe077add8d94d8f4b97252a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-23-run-425",
+  "sha256": "8242740b11b49256dc97e76aecd3236744ecc9b7d5e881a819760c9662b88a29",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-23-run-426",
   "notes": [
+    "perf: coalesce WebView DOM work and idle lyric clocks",
     "test: align TopMenuPolicyTest with smooth HD/overlay behavior",
     "test: align LegacyProjectionControlsContractTest with smooth HD/overlay behavior",
     "test: align FeaturesPageContractTest with smooth HD/overlay behavior",
@@ -17,7 +18,6 @@
     "test: verify pre-playback YouTube storage preference and manual Auto reset",
     "perf: cancel obsolete resize timers and apply HD preference before YouTube initializes",
     "test: simulate quality menu clicks without faking unrelated YouTube containers",
-    "test: native quality preference and safe settings transitions regression coverage",
-    "test: ensure HD is retained in PiP and mini-player"
+    "test: native quality preference and safe settings transitions regression coverage"
   ]
 }
