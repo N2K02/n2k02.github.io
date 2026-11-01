@@ -1,0 +1,15 @@
+{
+  "channel": "stable",
+  "tag": "mcpadbandroidlogger-v1.0",
+  "versionName": "1.0",
+  "versionCode": 100106,
+  "apkName": "McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.0/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 25860255,
+  "sha256": "6de93113faf6498e31dff6e3dc127897454150c716dc5796ecf351827e9930e9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.0",
+  "notes": [
+    "Experimental: Android UID-2000 Logcat logger + secure MCP bridge (N2K02 template) (#1)",
+    "chore: initialize Android logger repository"
+  ]
+}
