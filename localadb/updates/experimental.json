@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-25",
-  "versionName": "1.0-experimental.25",
-  "versionCode": 100025,
-  "apkName": "LocalAdb-PR-1-354de42.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-25/LocalAdb-PR-1-354de42.apk",
-  "apkSize": 39712368,
-  "sha256": "4cbcf93aa8140ba753d0313734debac6501f75f40f6d808ed97550f7fb1ec335",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-25",
+  "tag": "localadb-exp-pr-1-run-26",
+  "versionName": "1.0-experimental.26",
+  "versionCode": 100026,
+  "apkName": "LocalAdb-PR-1-9769408.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-26/LocalAdb-PR-1-9769408.apk",
+  "apkSize": 39728752,
+  "sha256": "09dd6c69f18cfc0a63d41dee7fddd5c7b8f3e12efffb8d1fccf1a7cbfa05daa4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-26",
   "notes": [
+    "feat(ui): modern Home Apps Adb cards, verified permission chips and Shizuku controls on Home",
     "test(shizuku): verify native starter and Rish archive names in ABI mapping",
     "test(shizuku): assert new ABI-selecting and checksum-verified payload provider",
     "fix(shizuku): stage required ABI-matched librish JNI dependency before server startup",
@@ -17,7 +18,6 @@
     "fix(ui): route all primary tabs through validated navigation",
     "fix(ui): finish compact Shizuku-first Apps and correct navigation regressions",
     "refactor(ui): compact read-only Home, primary Apps and Adb tabs, remove duplicate entry points",
-    "fix: authorize native Shizuku manager-only APIs and secure payload provider",
-    "test: verify native Shizuku approvals instead of external manager handoff"
+    "fix: authorize native Shizuku manager-only APIs and secure payload provider"
   ]
 }
