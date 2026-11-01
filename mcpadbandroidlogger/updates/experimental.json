@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-23-run-177",
-  "versionName": "1.6",
-  "versionCode": 100177,
-  "apkName": "McpAdbAndroidLogger-1.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-23-run-177/McpAdbAndroidLogger-1.6.apk",
-  "apkSize": 24745841,
-  "sha256": "dd8b3644412d6f4e64fae9e44dfc3b7e8cdde4dc52dfb606199497e2dfa50db5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-23-run-177",
+  "tag": "mcpadbandroidlogger-experimental-pr-24-run-182",
+  "versionName": "1.7",
+  "versionCode": 100182,
+  "apkName": "McpAdbAndroidLogger-1.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-24-run-182/McpAdbAndroidLogger-1.7.apk",
+  "apkSize": 24758129,
+  "sha256": "015e6c5241f3382d1b7ba49c554ed542e70addcd07b5e0a247f38997ff6f7cda",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-24-run-182",
   "notes": [
-    "test: verify Back pops Home visit history before changing pager",
-    "test: verify swipeable Home pager and in-tab back stack behavior",
-    "fix: enable swipeable Home tabs with backward visit history",
+    "test: match expanded Logcat metadata with new TID field",
+    "fix: make Home on-demand logs card open Logs for manual refresh and latest MCP filters",
+    "fix: sync latest MCP Logcat results and filters into Logs screen, repair JSON viewer build",
+    "feat: live Home badges, idle log eviction, compact logs and formatted MCP audit JSON",
+    "Fix Home tab swipes and Back navigation history (#23)",
     "Polish portrait Home and Logcat UI; add daily MCP audit pruning (#22)",
     "Add on-demand CPU and UI frame timing diagnostics to MCP and Home (#21)",
     "Experimental: on-demand Android Logcat reads for MCP and local UI (#20)",
     "Experimental: MCP package-name log filtering and Cloudflare setup guide (#19)",
-    "chore(deps): bump androidx.work:work-runtime-ktx from 2.10.5 to 2.12.0 (#17)",
-    "chore(deps): bump org.bouncycastle:bcprov-jdk15to18 from 1.81 to 1.86 (#16)",
-    "chore(deps): bump org.bouncycastle:bcpkix-jdk15to18 from 1.81 to 1.86 (#15)"
+    "chore(deps): bump androidx.work:work-runtime-ktx from 2.10.5 to 2.12.0 (#17)"
   ]
 }
