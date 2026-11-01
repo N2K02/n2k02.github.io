@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v8.0",
-  "versionName": "8.0",
-  "versionCode": 100235,
-  "apkName": "SpeedTester-8.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.0/SpeedTester-8.0.apk",
+  "tag": "speedtester-v8.1",
+  "versionName": "8.1",
+  "versionCode": 100238,
+  "apkName": "SpeedTester-8.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.1/SpeedTester-8.1.apk",
   "apkSize": 1853128,
-  "sha256": "20fd6c493b2e273367892e0db1e11e53902b1c2dd2533beee9edef43c77d3e0b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.0",
+  "sha256": "d7f9a5e1257af3cd12c5ca3e346ded01c729a93a73eeb0854ae1df5199bd2c5c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.1",
   "notes": [
-    "refactor: remove in-app Logs screen and persistent journal"
+    "Experimental: reduce Wi-Fi analyzer scanning overhead (#30)"
   ]
 }
