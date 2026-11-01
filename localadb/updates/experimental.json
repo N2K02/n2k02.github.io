@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-26",
-  "versionName": "1.0-experimental.26",
-  "versionCode": 100026,
-  "apkName": "LocalAdb-PR-1-9769408.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-26/LocalAdb-PR-1-9769408.apk",
-  "apkSize": 39728752,
-  "sha256": "09dd6c69f18cfc0a63d41dee7fddd5c7b8f3e12efffb8d1fccf1a7cbfa05daa4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-26",
+  "tag": "localadb-exp-pr-1-run-27",
+  "versionName": "1.0-experimental.27",
+  "versionCode": 100027,
+  "apkName": "LocalAdb-PR-1-be17a1e.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-27/LocalAdb-PR-1-be17a1e.apk",
+  "apkSize": 39761520,
+  "sha256": "2f1a509acee71026f75c5b8d680703ef129c1c6db89830e10711680a22d634a5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-27",
   "notes": [
+    "feat(adb): context-aware command package and permission autocomplete with Tab support",
     "feat(ui): modern Home Apps Adb cards, verified permission chips and Shizuku controls on Home",
     "test(shizuku): verify native starter and Rish archive names in ABI mapping",
     "test(shizuku): assert new ABI-selecting and checksum-verified payload provider",
@@ -17,7 +18,6 @@
     "fix(shizuku): native starter, auto recovery and safe Stop/Restart controls",
     "fix(ui): route all primary tabs through validated navigation",
     "fix(ui): finish compact Shizuku-first Apps and correct navigation regressions",
-    "refactor(ui): compact read-only Home, primary Apps and Adb tabs, remove duplicate entry points",
-    "fix: authorize native Shizuku manager-only APIs and secure payload provider"
+    "refactor(ui): compact read-only Home, primary Apps and Adb tabs, remove duplicate entry points"
   ]
 }
