@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v1.3",
-  "versionName": "1.3",
-  "versionCode": 100150,
-  "apkName": "McpAdbAndroidLogger-1.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.3/McpAdbAndroidLogger-1.3.apk",
+  "tag": "mcpadbandroidlogger-v1.4",
+  "versionName": "1.4",
+  "versionCode": 100153,
+  "apkName": "McpAdbAndroidLogger-1.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.4/McpAdbAndroidLogger-1.4.apk",
   "apkSize": 24668017,
-  "sha256": "7ca73979524b8c45460273a1f0fd73e4c9d6be9db078095cfa5a2b3be57b77a8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.3",
+  "sha256": "b1b6c1362c0cdf4a1cd5073a607c37c54c8e5e222e991907f3825932b1c2a3bc",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.4",
   "notes": [
+    "Experimental: on-demand Android Logcat reads for MCP and local UI (#20)",
     "Experimental: MCP package-name log filtering and Cloudflare setup guide (#19)",
     "chore(deps): bump androidx.work:work-runtime-ktx from 2.10.5 to 2.12.0 (#17)",
     "chore(deps): bump org.bouncycastle:bcprov-jdk15to18 from 1.81 to 1.86 (#16)",
@@ -17,7 +18,6 @@
     "chore(deps): bump actions/setup-java from 5 to 6 (#13)",
     "chore(deps): bump gradle-wrapper from 9.6.0 to 9.8.2 (#12)",
     "chore(deps): bump actions/upload-artifact from 4 to 7 (#10)",
-    "chore(deps): bump gradle/actions from 4 to 6 (#8)",
-    "chore(deps): update pytest requirement in /gateway (#7)"
+    "chore(deps): bump gradle/actions from 4 to 6 (#8)"
   ]
 }
