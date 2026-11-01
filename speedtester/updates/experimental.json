@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-29-run-234",
-  "versionName": "8.0",
-  "versionCode": 100234,
-  "apkName": "SpeedTester-8.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-29-run-234/SpeedTester-8.0.apk",
+  "tag": "speedtester-experimental-pr-30-run-237",
+  "versionName": "8.1",
+  "versionCode": 100237,
+  "apkName": "SpeedTester-8.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-30-run-237/SpeedTester-8.1.apk",
   "apkSize": 21591631,
-  "sha256": "6bcc598f42797bf018bf84daad75ddba1416755f9c0c257f8701cbdf84ccedbf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-29-run-234",
+  "sha256": "db28a78b92c3be9185dd517b353b7120202fa9a0da7717c0cb96fc1790cca3e6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-30-run-237",
   "notes": [
-    "refactor: remove in-app Logs screen and persistent journal"
+    "test: update Wi-Fi scan regression for reduced auto-scan cadence",
+    "perf: reduce foreground Wi-Fi analyzer radio scans"
   ]
 }
