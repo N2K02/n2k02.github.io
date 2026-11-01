@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-2-run-32",
-  "versionName": "1.0-experimental.32",
-  "versionCode": 100032,
-  "apkName": "LocalAdb-PR-2-d92e75a.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-2-run-32/LocalAdb-PR-2-d92e75a.apk",
-  "apkSize": 39794288,
-  "sha256": "a8db8f50030555f01281297b2ed8d70c3802c15f8d4dd1ee6cdaf13290e8a2d2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-2-run-32",
+  "tag": "localadb-exp-pr-2-run-34",
+  "versionName": "1.0-experimental.34",
+  "versionCode": 100034,
+  "apkName": "LocalAdb-PR-2-f33f916.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-2-run-34/LocalAdb-PR-2-f33f916.apk",
+  "apkSize": 39810672,
+  "sha256": "1492d61d60dd2c88b02b40f5c3c400b32e673ad11fd7a41f816bb81ab305f2d3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-2-run-34",
   "notes": [
+    "Preserve accessible switch hit targets and correct compact UI regression assertion",
+    "Match compact LocalAdb terminal and Apps permission mockups",
     "Fix minified WorkManager startup crash; test generated Room constructor in release DEX"
   ]
 }
