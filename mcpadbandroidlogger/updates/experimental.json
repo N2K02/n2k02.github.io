@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-20-run-151",
+  "tag": "mcpadbandroidlogger-experimental-pr-20-run-152",
   "versionName": "1.3",
-  "versionCode": 100151,
+  "versionCode": 100152,
   "apkName": "McpAdbAndroidLogger-1.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-20-run-151/McpAdbAndroidLogger-1.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-20-run-152/McpAdbAndroidLogger-1.3.apk",
   "apkSize": 24668017,
-  "sha256": "4ac34db72fc1c91bd27bdeec1e0016094e868afb766805543e87545b32acf387",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-20-run-151",
+  "sha256": "f2adbc73080f580fdf32f082e754da52d4da6b71df14b142a05bb4147e141d07",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-20-run-152",
   "notes": [
+    "perf: cache UID inventory across on-demand log requests",
     "Clarify on-demand MCP log filtering and cursor retention",
     "Document on-demand Logcat capture, buffer retention and MCP behavior",
     "Keep audit regression test aligned with MCP on-demand log provider",
@@ -17,7 +18,6 @@
     "Update Home Logcat controls to manual refresh and idle state",
     "Wire authenticated MCP log tools to one-shot ADB reads",
     "Fetch MCP Logcat and package data on tool requests instead of relying on polling",
-    "Replace background logcat polling with serialized on-demand snapshots",
-    "Experimental: MCP package-name log filtering and Cloudflare setup guide (#19)"
+    "Replace background logcat polling with serialized on-demand snapshots"
   ]
 }
