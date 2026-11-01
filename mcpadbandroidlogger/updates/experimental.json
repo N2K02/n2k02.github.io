@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-24-run-183",
+  "tag": "mcpadbandroidlogger-experimental-pr-24-run-186",
   "versionName": "1.7",
-  "versionCode": 100183,
+  "versionCode": 100186,
   "apkName": "McpAdbAndroidLogger-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-24-run-183/McpAdbAndroidLogger-1.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-24-run-186/McpAdbAndroidLogger-1.7.apk",
   "apkSize": 24758129,
-  "sha256": "cff7703a285c4e814f645cbd6f93625ddebb6b035aa4fa6b5852f3a4a4cc98e2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-24-run-183",
+  "sha256": "8b84372dd56425f1d7c5116a375abad7eab0aaf317bd53ddf1435087ac717c65",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-24-run-186",
   "notes": [
+    "Fix Kotlin escaped quote literals in MCP audit UI contract tests",
+    "Update MCP audit UI contract tests for compact filters and overflow actions",
+    "Compact MCP audits UI with aligned filters and overflow actions",
     "ui: show MCP source badges during on-demand log and performance reads",
     "test: match expanded Logcat metadata with new TID field",
     "fix: make Home on-demand logs card open Logs for manual refresh and latest MCP filters",
     "fix: sync latest MCP Logcat results and filters into Logs screen, repair JSON viewer build",
     "feat: live Home badges, idle log eviction, compact logs and formatted MCP audit JSON",
     "Fix Home tab swipes and Back navigation history (#23)",
-    "Polish portrait Home and Logcat UI; add daily MCP audit pruning (#22)",
-    "Add on-demand CPU and UI frame timing diagnostics to MCP and Home (#21)",
-    "Experimental: on-demand Android Logcat reads for MCP and local UI (#20)",
-    "Experimental: MCP package-name log filtering and Cloudflare setup guide (#19)"
+    "Polish portrait Home and Logcat UI; add daily MCP audit pruning (#22)"
   ]
 }
