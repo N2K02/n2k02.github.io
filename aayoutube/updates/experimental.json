@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-408",
+  "tag": "aayoutube-experimental-pr-22-run-416",
   "versionName": "6.4",
-  "versionCode": 100408,
+  "versionCode": 100416,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-408/AAYoutube-6.4.apk",
-  "apkSize": 21244312,
-  "sha256": "03df9cccd3f8d8071a966730915a1d50b71052ac506f097b0c70a47c0cf5e179",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-408",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-416/AAYoutube-6.4.apk",
+  "apkSize": 21248408,
+  "sha256": "a44ee4e759a383582281666ce28af68cd4a2b732f92641ce06379de832c9bda9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-416",
   "notes": [
+    "test(car): Chromium-injected taps reveal native controls and drags/mini do not",
+    "fix(car): handle direct WebView taps for native player controls and clear state in mini",
+    "test(car): enforce nonconsuming fullscreen tap and native control reveal bridge",
+    "test(car): fullscreen tap reveals native quality/menu and seeker, mini remains pass-through",
+    "fix(car): bridge native fullscreen taps to YouTube control reveal",
+    "fix(car): reveal native top and bottom YouTube controls on fullscreen taps",
+    "fix(car): observe fullscreen taps without stealing YouTube touch events",
+    "fix(car): reveal native YouTube quality menu and seeker when fullscreen video is tapped",
     "test(car): verify quality menus stay clickable while controls backdrop passes through taps",
-    "fix(car): retain YouTube quality and settings menu hit targets without blocking video",
-    "test(car): model phone-background to Android Auto handoff correctly",
-    "test(logs): retain meaningful CORS errors",
-    "fix(logs): filter only known ad-tracker CORS noise",
-    "test(web): cover car reattach, mini, and quality handoff",
-    "test(car): assert refit and stream-quality recovery",
-    "test(player): assert current explicit-pause lifecycle",
-    "test(ui): allow mini behind controls without dead strip",
-    "refactor(ui): remove obsolete reserved-rail mini bounds"
+    "fix(car): retain YouTube quality and settings menu hit targets without blocking video"
   ]
 }
