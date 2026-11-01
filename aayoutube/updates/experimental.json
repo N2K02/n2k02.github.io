@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-370",
+  "tag": "aayoutube-experimental-pr-22-run-383",
   "versionName": "6.4",
-  "versionCode": 100370,
+  "versionCode": 100383,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-370/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-383/AAYoutube-6.4.apk",
   "apkSize": 21244312,
-  "sha256": "2fc25c64bb61ebd51d539c46e46f5e56c8d4c23e6343156b65f7830f7ef1c4bf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-370",
+  "sha256": "531a999e6b9d552382da215547838ceade1fbeba56970c708896023980977d1c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-383",
   "notes": [
-    "Remove Settings header gear and bottom bar; add Quit to the video rail",
-    "Same small floating side rail for phone and Android Auto video controls",
-    "test: keep Android Auto black-screen Logcat coverage without old file-journal assumptions",
-    "refactor: remove in-app Logs UI and private diagnostic files, keep redacted Logcat",
-    "Floating icon-only video control pill on Android Auto and phone",
-    "Keep car CSS wrapper boxes from covering the projected video",
-    "Use literal ownership call counts in car lifecycle regression test",
-    "Restore separate Android Auto video launcher alias lost in projection migration",
-    "Update stale car ownership and Android Auto label regression assertions",
-    "Use AAYT Video and AAYT Music labels on Android Auto only"
+    "fix(car-nav): Back always enters mini-player for an active watch page",
+    "fix(nav): detect active video even while YouTube SPA history lags",
+    "test(background): regression contracts for background pauses and resolution recovery",
+    "test(player): same-video page reload restores video position",
+    "fix(webview): restore position after same-video resolution page reload",
+    "fix(player): accept same-video position recovery after full document reload",
+    "fix(background): retry unexpected pauses even long after app leaves foreground",
+    "test(car): enforce mini-player Back/Home and browse-layer integration",
+    "test(player): video quality reset, legitimate seek and background pause protection",
+    "fix(player): initialize background playback intent on video binding"
   ]
 }
