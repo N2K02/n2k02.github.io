@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-17",
-  "versionName": "1.0-experimental.17",
-  "versionCode": 100017,
-  "apkName": "LocalAdb-PR-1-efe590b.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-17/LocalAdb-PR-1-efe590b.apk",
+  "tag": "localadb-exp-pr-1-run-20",
+  "versionName": "1.0-experimental.20",
+  "versionCode": 100020,
+  "apkName": "LocalAdb-PR-1-2a25e4e.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-20/LocalAdb-PR-1-2a25e4e.apk",
   "apkSize": 39695984,
-  "sha256": "a0d6db8c2d290066e2891a8d3386a76ad1f3515ff405f1718bdc41b1f95e8a80",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-17",
+  "sha256": "38f7dc77517f055e371dda5ed536109bb79289305c5971d0fff5275f19377b46",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-20",
   "notes": [
+    "fix(ui): route all primary tabs through validated navigation",
+    "fix(ui): finish compact Shizuku-first Apps and correct navigation regressions",
+    "refactor(ui): compact read-only Home, primary Apps and Adb tabs, remove duplicate entry points",
     "fix: authorize native Shizuku manager-only APIs and secure payload provider",
     "test: verify native Shizuku approvals instead of external manager handoff",
     "feat: built-in ADB shell console and native Shizuku server manager",
     "fix: explicitly type app sort comparator for Kotlin 2.4",
     "Harden Shizuku app discovery and verified Android ADB permission grants",
     "feat: VRec-style verified ADB automation, app access and Shizuku manager handoff",
-    "fix: guard nullable Accessibility events before reading pairing dialog",
-    "Add verified local ADB pairing, recovery and secure Settings page",
-    "ci: mirror mRadio Dependabot updater registry and daily schedule",
-    "fix: resolve LocalAdb stable versions and align shared app icon header"
+    "fix: guard nullable Accessibility events before reading pairing dialog"
   ]
 }
