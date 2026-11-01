@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-24-run-142",
-  "versionName": "4.5",
-  "versionCode": 100142,
-  "apkName": "NetSpeed-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-24-run-142/NetSpeed-4.5.apk",
+  "tag": "netspeed-experimental-pr-25-run-144",
+  "versionName": "4.6",
+  "versionCode": 100144,
+  "apkName": "NetSpeed-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-25-run-144/NetSpeed-4.6.apk",
   "apkSize": 19557714,
-  "sha256": "8bf801c58d1ffdb9c81da25d89ac62869e36900a93aa1669e37fdfb1cb5c1d4f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-24-run-142",
+  "sha256": "68f48db71626cd6df069507f33148a6598e20dbb9c7b449e4578f05659824138",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-25-run-144",
   "notes": [
-    "test: align regression contracts with removal of in-app Logs",
-    "refactor: remove in-app logs screens and private journals",
-    "Standardize public release version checks against complete app tag history"
+    "perf: skip unchanged network meter overlay redraws"
   ]
 }
