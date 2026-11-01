@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-22",
-  "versionName": "1.0-experimental.22",
-  "versionCode": 100022,
-  "apkName": "LocalAdb-PR-1-095c762.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-22/LocalAdb-PR-1-095c762.apk",
+  "tag": "localadb-exp-pr-1-run-25",
+  "versionName": "1.0-experimental.25",
+  "versionCode": 100025,
+  "apkName": "LocalAdb-PR-1-354de42.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-25/LocalAdb-PR-1-354de42.apk",
   "apkSize": 39712368,
-  "sha256": "55d40240e30f17b2f64b0a169f03d89e30d7b310edf972d0fb928dd3f89f7405",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-22",
+  "sha256": "4cbcf93aa8140ba753d0313734debac6501f75f40f6d808ed97550f7fb1ec335",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-25",
   "notes": [
+    "test(shizuku): verify native starter and Rish archive names in ABI mapping",
+    "test(shizuku): assert new ABI-selecting and checksum-verified payload provider",
+    "fix(shizuku): stage required ABI-matched librish JNI dependency before server startup",
     "fix(shizuku): use verified seekable payload and upstream foreground starter lifecycle",
     "fix(shizuku): native starter, auto recovery and safe Stop/Restart controls",
     "fix(ui): route all primary tabs through validated navigation",
     "fix(ui): finish compact Shizuku-first Apps and correct navigation regressions",
     "refactor(ui): compact read-only Home, primary Apps and Adb tabs, remove duplicate entry points",
     "fix: authorize native Shizuku manager-only APIs and secure payload provider",
-    "test: verify native Shizuku approvals instead of external manager handoff",
-    "feat: built-in ADB shell console and native Shizuku server manager",
-    "fix: explicitly type app sort comparator for Kotlin 2.4",
-    "Harden Shizuku app discovery and verified Android ADB permission grants"
+    "test: verify native Shizuku approvals instead of external manager handoff"
   ]
 }
