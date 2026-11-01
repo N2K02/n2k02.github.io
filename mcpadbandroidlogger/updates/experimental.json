@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-69",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-74",
   "versionName": "1.0",
-  "versionCode": 100069,
+  "versionCode": 100074,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-69/McpAdbAndroidLogger-1.0.apk",
-  "apkSize": 25847967,
-  "sha256": "c9645637415db004cde81bc05db2a99b57d9e8c9ac2d561bb1f0f628a424c425",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-69",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-74/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 25852063,
+  "sha256": "e03a363e707682a709751889595af81368f93808ea020e156017b65c7cafc4b0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-74",
   "notes": [
+    "Update MCP security contract tests for read-only credentials and OAuth state rotation",
+    "Fix OAuth Kotlin compilation by removing obsolete prune call",
+    "Add confirmed OAuth state reset and prevent accidental MCP key edits",
+    "Cover OAuth approval retries, replay, restart and corrupted state safely",
+    "Harden OAuth approval persistence, expiry, replay, rotation and retry recovery with tests",
     "Handle optional OAuth state safely during consent approval",
     "Fix ChatGPT OAuth diagnostics and strengthen safe MCP authorization reporting",
     "Enhance MCP audits with agent badges, HTTP diagnostics and safe denied-client hints",
     "test: enforce throttled anonymous MCP audit recording and payload suppression",
-    "security: rate-limit unauthorized audit writes and sanitize agent metadata",
-    "test: prevent regressions in MCP per-agent auditing, privacy and Settings navigation",
-    "feat: expose MCP audits as Settings submenu with single header and navigation",
-    "ui: add MCP audits dashboard with per-agent filters, payload details and secure export",
-    "feat: attribute OAuth MCP tool requests and data responses to agents, audit denied access safely",
-    "feat: bounded on-device MCP request/response audit journal with redaction and filters"
+    "security: rate-limit unauthorized audit writes and sanitize agent metadata"
   ]
 }
