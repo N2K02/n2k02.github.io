@@ -1,16 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.6-build-336",
-  "versionName": "5.6",
-  "versionCode": 100336,
-  "apkName": "MRadio-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.6-build-336/MRadio-5.6.apk",
+  "tag": "mradio-v5.7-build-338",
+  "versionName": "5.7",
+  "versionCode": 100338,
+  "apkName": "MRadio-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.7-build-338/MRadio-5.7.apk",
   "apkSize": 2827163,
-  "sha256": "a52343aabd171161db7f553692d42bbb74445a82621b8809961c8faa7a499e16",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.6-build-336",
+  "sha256": "fc1e9504ee6e6be5f7c986aca3760aaafcc6ff663274836c001081f61d30efbd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.7-build-338",
   "notes": [
-    "refactor: remove Logs settings and private diagnostic journal",
-    "Add default-on station volume normalization with safe DSP and regression tests",
-    "Align shared public version checks and protect existing release versions"
+    "perf: avoid identical custom media notification rebuilds (#28)"
   ]
 }
