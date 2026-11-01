@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-1-run-14",
-  "versionName": "1.0-experimental.14",
-  "versionCode": 100014,
-  "apkName": "LocalAdb-PR-1-27e73e0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-14/LocalAdb-PR-1-27e73e0.apk",
-  "apkSize": 34592288,
-  "sha256": "17a837d3bf84e4d3feb4f020816c8cb3606c133a8a7b9f417ff2f26bfd48a557",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-14",
+  "tag": "localadb-exp-pr-1-run-17",
+  "versionName": "1.0-experimental.17",
+  "versionCode": 100017,
+  "apkName": "LocalAdb-PR-1-efe590b.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-1-run-17/LocalAdb-PR-1-efe590b.apk",
+  "apkSize": 39695984,
+  "sha256": "a0d6db8c2d290066e2891a8d3386a76ad1f3515ff405f1718bdc41b1f95e8a80",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-1-run-17",
   "notes": [
+    "fix: authorize native Shizuku manager-only APIs and secure payload provider",
+    "test: verify native Shizuku approvals instead of external manager handoff",
+    "feat: built-in ADB shell console and native Shizuku server manager",
     "fix: explicitly type app sort comparator for Kotlin 2.4",
     "Harden Shizuku app discovery and verified Android ADB permission grants",
     "feat: VRec-style verified ADB automation, app access and Shizuku manager handoff",
     "fix: guard nullable Accessibility events before reading pairing dialog",
     "Add verified local ADB pairing, recovery and secure Settings page",
     "ci: mirror mRadio Dependabot updater registry and daily schedule",
-    "fix: resolve LocalAdb stable versions and align shared app icon header",
-    "ci: match MRadio release/version/signing workflow for experimental and stable",
-    "ci: restore SDK 37.0 and add Dependabot and updater compatibility guard",
-    "fix: invoke GradleWrapperMain with wrapper JAR classpath"
+    "fix: resolve LocalAdb stable versions and align shared app icon header"
   ]
 }
