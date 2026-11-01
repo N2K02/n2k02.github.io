@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-22-run-406",
+  "tag": "aayoutube-experimental-pr-22-run-408",
   "versionName": "6.4",
-  "versionCode": 100406,
+  "versionCode": 100408,
   "apkName": "AAYoutube-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-406/AAYoutube-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-22-run-408/AAYoutube-6.4.apk",
   "apkSize": 21244312,
-  "sha256": "8efd60759c0aa31e0770cccea8caa989b8cecb709756a7d9c053292f760e93d6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-406",
+  "sha256": "03df9cccd3f8d8071a966730915a1d50b71052ac506f097b0c70a47c0cf5e179",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-22-run-408",
   "notes": [
+    "test(car): verify quality menus stay clickable while controls backdrop passes through taps",
+    "fix(car): retain YouTube quality and settings menu hit targets without blocking video",
     "test(car): model phone-background to Android Auto handoff correctly",
     "test(logs): retain meaningful CORS errors",
     "fix(logs): filter only known ad-tracker CORS noise",
@@ -16,8 +18,6 @@
     "test(car): assert refit and stream-quality recovery",
     "test(player): assert current explicit-pause lifecycle",
     "test(ui): allow mini behind controls without dead strip",
-    "refactor(ui): remove obsolete reserved-rail mini bounds",
-    "fix(car): reassert projected layout and report stream quality",
-    "fix(car): restore foreground quality and preserve mini during host refit"
+    "refactor(ui): remove obsolete reserved-rail mini bounds"
   ]
 }
