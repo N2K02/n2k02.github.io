@@ -1,16 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.5",
-  "versionName": "4.5",
-  "versionCode": 100143,
-  "apkName": "NetSpeed-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.5/NetSpeed-4.5.apk",
+  "tag": "netspeed-v4.6",
+  "versionName": "4.6",
+  "versionCode": 100145,
+  "apkName": "NetSpeed-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.6/NetSpeed-4.6.apk",
   "apkSize": 1207840,
-  "sha256": "967e7c7f0001dbec7953658769175b1b87cb3af1468b82354a8ca2d607f896ba",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.5",
+  "sha256": "6484dfcdedbd05bae435aa0467a63a62bfc1a7ca077d5c28d9c3db81dcb18f30",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.6",
   "notes": [
-    "test: align regression contracts with removal of in-app Logs",
-    "refactor: remove in-app logs screens and private journals",
-    "Standardize public release version checks against complete app tag history"
+    "perf: skip unchanged network meter overlay redraws (#25)"
   ]
 }
