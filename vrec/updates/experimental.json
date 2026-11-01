@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-48-run-947",
-  "versionName": "5.1",
-  "versionCode": 100947,
-  "apkName": "VREC-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-48-run-947/VREC-5.1.apk",
+  "tag": "vrec-experimental-pr-49-run-950",
+  "versionName": "5.2",
+  "versionCode": 100950,
+  "apkName": "VREC-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-49-run-950/VREC-5.2.apk",
   "apkSize": 13920320,
-  "sha256": "75ddc9aefac4e85f94a538228650f5951454444b5ed4cfcd63943bfbaef4f4cd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-48-run-947",
+  "sha256": "1906603dea77b98383ff4dfbc2a978367e7239736642861dd045fb3c4a4ad8d3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-49-run-950",
   "notes": [
-    "Guard WhatsApp direction lifecycle, shell metadata, and ambiguity regressions",
-    "Avoid stale VoIP direction hints overriding already established call direction",
-    "Test explicit and ambiguous VoIP accessibility direction signals",
-    "Add unambiguous accessibility direction inference for live VoIP call screens",
-    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
-    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
-    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
-    "Capture explicit early WhatsApp call direction and retain VoIP metadata during shell recording",
-    "Simplify ADB connection settings and remove redundant diagnostics submenu",
-    "Simplify ADB connection settings and remove redundant diagnostics submenu"
+    "fix: retain helper readiness detection when live snapshot is unavailable",
+    "perf: avoid redundant authenticated loopback probe during active calls"
   ]
 }
