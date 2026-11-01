@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-79",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-80",
   "versionName": "1.0",
-  "versionCode": 100079,
+  "versionCode": 100080,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-79/McpAdbAndroidLogger-1.0.apk",
-  "apkSize": 25852063,
-  "sha256": "8ac0e44f988c67767bbd7377371a2bf84092f267d6027ba2d06951ef6a285e1c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-79",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-80/McpAdbAndroidLogger-1.0.apk",
+  "apkSize": 25856159,
+  "sha256": "1471c80198e04654fc16ed886a635f4f6f5d47f483f0fd44660e89c30eed1408",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-80",
   "notes": [
+    "Add default-off agent access to redacted MCP audit history via Settings submenu",
     "Tighten OAuth CSP regression assertion for scheme-only wildcard",
     "Unblock Chrome/Safari OAuth callback redirects using registered-origin consent CSP and regression tests",
     "Update bearer security contract to verify RFC-compliant parser",
@@ -17,7 +18,6 @@
     "Update MCP security contract tests for read-only credentials and OAuth state rotation",
     "Fix OAuth Kotlin compilation by removing obsolete prune call",
     "Add confirmed OAuth state reset and prevent accidental MCP key edits",
-    "Cover OAuth approval retries, replay, restart and corrupted state safely",
-    "Harden OAuth approval persistence, expiry, replay, rotation and retry recovery with tests"
+    "Cover OAuth approval retries, replay, restart and corrupted state safely"
   ]
 }
