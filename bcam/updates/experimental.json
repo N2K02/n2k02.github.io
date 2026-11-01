@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-21-run-182",
-  "versionName": "4.4",
-  "versionCode": 100182,
-  "apkName": "BCam-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-21-run-182/BCam-4.4.apk",
+  "tag": "bcam-experimental-pr-22-run-184",
+  "versionName": "4.5",
+  "versionCode": 100184,
+  "apkName": "BCam-4.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-22-run-184/BCam-4.5.apk",
   "apkSize": 19578620,
-  "sha256": "810dbb208b77b5c033569fd036019cb820851609e7fa547e0ba2ad7266b3122a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-21-run-182",
+  "sha256": "81e6ae027377cb97a2d8cb2ffad0457fe875a5e85ae5cd38dcb17b117d4e03c9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-22-run-184",
   "notes": [
-    "test: align regression contracts with removal of in-app Logs",
-    "refactor: remove in-app diagnostic logs and disk journal",
-    "Align public release version lookup and duplicate-version guards"
+    "perf: refresh recording overlay on state transitions with slow fallback"
   ]
 }
