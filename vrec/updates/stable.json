@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.1",
-  "versionName": "5.1",
-  "versionCode": 100948,
-  "apkName": "VREC-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.1/VREC-5.1.apk",
+  "tag": "vrec-v5.2",
+  "versionName": "5.2",
+  "versionCode": 100951,
+  "apkName": "VREC-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.2/VREC-5.2.apk",
   "apkSize": 13920312,
-  "sha256": "97b1973392ee5adb71f4cca8a99aad347ff5948fad1b4c230d83a8bd9b0b81ed",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.1",
+  "sha256": "c9bdb23329dfd309f6cc2f49cd0f0aac47c30ad4879f99f49f3c2f7674af0594",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.2",
   "notes": [
-    "Experimental: streamline ADB Settings and improve WhatsApp call direction (#48)"
+    "Experimental: reduce VRec live-call shell round trips (#49)"
   ]
 }
