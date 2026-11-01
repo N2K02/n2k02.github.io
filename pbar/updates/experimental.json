@@ -1,17 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-45-run-170",
-  "versionName": "5.4",
-  "versionCode": 100170,
-  "apkName": "PBar-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-45-run-170/PBar-5.4.apk",
+  "tag": "pbar-experimental-pr-46-run-172",
+  "versionName": "5.5",
+  "versionCode": 100172,
+  "apkName": "PBar-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-46-run-172/PBar-5.5.apk",
   "apkSize": 19836376,
-  "sha256": "1a31e0899e35e712aa064cda398bd9771afb9a2cc7d67e4387a438779ce177db",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-45-run-170",
+  "sha256": "511f901aa1f449120a7a7815eb210a0b7d35be83633ec6ae7324f84ac280c719",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-46-run-172",
   "notes": [
-    "refactor: remove private Logs page and journal writer",
-    "Update PBar header regression contract for explicit listener Quit instead of refresh",
-    "Ensure PBar Quit stops notification listener timers, media callbacks, overlay and updater",
-    "Align public release version selection with all published app tags"
+    "perf: cap PBar continuous overlay redraw to 30 fps",
+    "perf: cap thin progress overlay redraws at 30 fps"
   ]
 }
