@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v1.5",
-  "versionName": "1.5",
-  "versionCode": 100173,
-  "apkName": "McpAdbAndroidLogger-1.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.5/McpAdbAndroidLogger-1.5.apk",
-  "apkSize": 24688497,
-  "sha256": "044a6e23f8182a719ccb807a9ba71b343d9460e6b502ffcafe76b78d5a71172f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.5",
+  "tag": "mcpadbandroidlogger-v1.6",
+  "versionName": "1.6",
+  "versionCode": 100176,
+  "apkName": "McpAdbAndroidLogger-1.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.6/McpAdbAndroidLogger-1.6.apk",
+  "apkSize": 24721265,
+  "sha256": "8e2b5f76beffefe1581e4a3d61bcf211ec7b0203208d71083d086aea540d9927",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.6",
   "notes": [
+    "Polish portrait Home and Logcat UI; add daily MCP audit pruning (#22)",
     "Add on-demand CPU and UI frame timing diagnostics to MCP and Home (#21)",
     "Experimental: on-demand Android Logcat reads for MCP and local UI (#20)",
     "Experimental: MCP package-name log filtering and Cloudflare setup guide (#19)",
@@ -17,7 +18,6 @@
     "chore(deps): bump org.bouncycastle:bcpkix-jdk15to18 from 1.81 to 1.86 (#15)",
     "chore(deps): bump org.json:json from 20240303 to 20260814 (#14)",
     "chore(deps): bump actions/setup-java from 5 to 6 (#13)",
-    "chore(deps): bump gradle-wrapper from 9.6.0 to 9.8.2 (#12)",
-    "chore(deps): bump actions/upload-artifact from 4 to 7 (#10)"
+    "chore(deps): bump gradle-wrapper from 9.6.0 to 9.8.2 (#12)"
   ]
 }
