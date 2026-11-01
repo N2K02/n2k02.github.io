@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-93",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-105",
   "versionName": "1.0",
-  "versionCode": 100093,
+  "versionCode": 100105,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-93/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-105/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 25860255,
-  "sha256": "6a46e434384f79c6842ea9d8a0d5c829cba33452f46df60cc5999cea91dbea4a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-93",
+  "sha256": "3203d981feecfef5f1b4753eef249575e55579f5476719efbfeab6819caac414",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-105",
   "notes": [
-    "test: align MCP tunnel handshake contract with optional stable Worker URL",
-    "security: renew stable Worker route only while Android tunnel remains connected",
-    "security: track real tunnel edge state for stable relay heartbeats",
-    "test: enforce fail-closed expired MCP tunnel routing",
-    "security: expire dynamic tunnel mapping without authenticated heartbeat",
-    "docs: explain stable Worker endpoint and why GitHub Pages cannot proxy MCP",
-    "test: run stable relay validation in PR CI",
-    "feat: configure and copy stable MCP relay in Android settings",
-    "feat: automatically publish stable relay on every tunnel connection",
-    "feat: publish Android quick tunnels to stable hosted MCP URL"
+    "ui: reject empty permanent URL setup instead of silently disabling stable endpoint",
+    "test: align MCP UI contracts with one permanent URL and stable key",
+    "test: align MCP UI contracts with one permanent URL and stable key",
+    "test: align MCP UI contracts with one permanent URL and stable key",
+    "docs: describe single public MCP card and automatic hidden tunnel reconnections",
+    "docs: one permanent MCP URL and non-rotating access key with honest one-time Worker deployment",
+    "ui: remove duplicate local URL field so MCP page exposes one URL only",
+    "test: avoid escaped quote syntax in UI contract assertions",
+    "test: ensure reconnect retains key and the app shows exactly one permanent public URL",
+    "test: enforce single permanent MCP URL without Quick Tunnel fallback"
   ]
 }
