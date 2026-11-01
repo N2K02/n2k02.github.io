@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-77",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-79",
   "versionName": "1.0",
-  "versionCode": 100077,
+  "versionCode": 100079,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-77/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-79/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 25852063,
-  "sha256": "3d0c5389c5029784992cb7cb6ef1c1e7682ca9305d8c38648a5d4e38704cdf5f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-77",
+  "sha256": "8ac0e44f988c67767bbd7377371a2bf84092f267d6027ba2d06951ef6a285e1c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-79",
   "notes": [
+    "Tighten OAuth CSP regression assertion for scheme-only wildcard",
+    "Unblock Chrome/Safari OAuth callback redirects using registered-origin consent CSP and regression tests",
     "Update bearer security contract to verify RFC-compliant parser",
     "Align MCP OAuth token diagnostics with official client flow and add interoperability tests",
     "Improve OAuth consent paste focus and guard duplicate approval submissions",
@@ -16,8 +18,6 @@
     "Fix OAuth Kotlin compilation by removing obsolete prune call",
     "Add confirmed OAuth state reset and prevent accidental MCP key edits",
     "Cover OAuth approval retries, replay, restart and corrupted state safely",
-    "Harden OAuth approval persistence, expiry, replay, rotation and retry recovery with tests",
-    "Handle optional OAuth state safely during consent approval",
-    "Fix ChatGPT OAuth diagnostics and strengthen safe MCP authorization reporting"
+    "Harden OAuth approval persistence, expiry, replay, rotation and retry recovery with tests"
   ]
 }
