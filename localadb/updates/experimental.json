@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-2-run-34",
-  "versionName": "1.0-experimental.34",
-  "versionCode": 100034,
-  "apkName": "LocalAdb-PR-2-f33f916.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-2-run-34/LocalAdb-PR-2-f33f916.apk",
+  "tag": "localadb-exp-pr-2-run-36",
+  "versionName": "1.0-experimental.36",
+  "versionCode": 100036,
+  "apkName": "LocalAdb-PR-2-5cf3db6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-2-run-36/LocalAdb-PR-2-5cf3db6.apk",
   "apkSize": 39810672,
-  "sha256": "1492d61d60dd2c88b02b40f5c3c400b32e673ad11fd7a41f816bb81ab305f2d3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-2-run-34",
+  "sha256": "35248b02520a58377f75c36377beee4de796b9e6109d93bda6a227c707cb3daa",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-2-run-36",
   "notes": [
+    "Shorten ADB command card heading to Run",
+    "Navigate tabs with horizontal swipes and visit-order Back history",
     "Preserve accessible switch hit targets and correct compact UI regression assertion",
     "Match compact LocalAdb terminal and Apps permission mockups",
     "Fix minified WorkManager startup crash; test generated Room constructor in release DEX"
