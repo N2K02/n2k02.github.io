@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-1-run-81",
+  "tag": "mcpadbandroidlogger-experimental-pr-1-run-93",
   "versionName": "1.0",
-  "versionCode": 100081,
+  "versionCode": 100093,
   "apkName": "McpAdbAndroidLogger-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-81/McpAdbAndroidLogger-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-1-run-93/McpAdbAndroidLogger-1.0.apk",
   "apkSize": 25860255,
-  "sha256": "98d3804c4ad3bf7b61a139a9adaa909f505a2195ff012e5072126144bca29eeb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-81",
+  "sha256": "6a46e434384f79c6842ea9d8a0d5c829cba33452f46df60cc5999cea91dbea4a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-1-run-93",
   "notes": [
-    "Add confirmed Android Logcat all-buffer clear, safe capture resets and Home stats control with tests",
-    "Add default-off agent access to redacted MCP audit history via Settings submenu",
-    "Tighten OAuth CSP regression assertion for scheme-only wildcard",
-    "Unblock Chrome/Safari OAuth callback redirects using registered-origin consent CSP and regression tests",
-    "Update bearer security contract to verify RFC-compliant parser",
-    "Align MCP OAuth token diagnostics with official client flow and add interoperability tests",
-    "Improve OAuth consent paste focus and guard duplicate approval submissions",
-    "Update MCP security contract tests for read-only credentials and OAuth state rotation",
-    "Fix OAuth Kotlin compilation by removing obsolete prune call",
-    "Add confirmed OAuth state reset and prevent accidental MCP key edits"
+    "test: align MCP tunnel handshake contract with optional stable Worker URL",
+    "security: renew stable Worker route only while Android tunnel remains connected",
+    "security: track real tunnel edge state for stable relay heartbeats",
+    "test: enforce fail-closed expired MCP tunnel routing",
+    "security: expire dynamic tunnel mapping without authenticated heartbeat",
+    "docs: explain stable Worker endpoint and why GitHub Pages cannot proxy MCP",
+    "test: run stable relay validation in PR CI",
+    "feat: configure and copy stable MCP relay in Android settings",
+    "feat: automatically publish stable relay on every tunnel connection",
+    "feat: publish Android quick tunnels to stable hosted MCP URL"
   ]
 }
