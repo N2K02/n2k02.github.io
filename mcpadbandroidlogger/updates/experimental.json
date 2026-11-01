@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-19-run-141",
+  "tag": "mcpadbandroidlogger-experimental-pr-19-run-149",
   "versionName": "1.2",
-  "versionCode": 100141,
+  "versionCode": 100149,
   "apkName": "McpAdbAndroidLogger-1.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-19-run-141/McpAdbAndroidLogger-1.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-19-run-149/McpAdbAndroidLogger-1.2.apk",
   "apkSize": 24668017,
-  "sha256": "fd37067df58ff483e30e4e5ceb4273006a43777096ab4888c83ef8e34feab354",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-19-run-141",
+  "sha256": "900faf18bdd9551a428f00909aa6b19dc826a2ee042f9416adf2a94eff69d228",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-19-run-149",
   "notes": [
+    "docs(mcp): explain package_name tool filter, fail-closed UID lookup and usage",
+    "test(mcp): verify package_name tool schema on all read-only log tools",
+    "fix(mcp): scan entire bounded capture buffer before package filtering",
+    "test(mcp): reject malformed package names and command injection attempts",
+    "fix(mcp): validate package_name against Android package-list characters",
+    "test(mcp): package filtering security, combined search, crashes, ANRs and limits",
+    "feat(mcp): expose package_name in log tools and apply UID-verified filtering",
+    "feat(mcp): implement fail-closed package UID filter for remote log queries",
     "docs: quickstart permanent MCP URL and distinguish Cloudflare secrets from legacy gateway",
-    "docs: Cloudflare Worker deployment, runtime secrets and offline diagnostics",
-    "chore(deps): bump androidx.work:work-runtime-ktx from 2.10.5 to 2.12.0 (#17)",
-    "chore(deps): bump org.bouncycastle:bcprov-jdk15to18 from 1.81 to 1.86 (#16)",
-    "chore(deps): bump org.bouncycastle:bcpkix-jdk15to18 from 1.81 to 1.86 (#15)",
-    "chore(deps): bump org.json:json from 20240303 to 20260814 (#14)",
-    "chore(deps): bump actions/setup-java from 5 to 6 (#13)",
-    "chore(deps): bump gradle-wrapper from 9.6.0 to 9.8.2 (#12)",
-    "chore(deps): bump actions/upload-artifact from 4 to 7 (#10)",
-    "chore(deps): bump gradle/actions from 4 to 6 (#8)"
+    "docs: Cloudflare Worker deployment, runtime secrets and offline diagnostics"
   ]
 }
