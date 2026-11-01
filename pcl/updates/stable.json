@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v5.7",
-  "versionName": "5.7",
-  "versionCode": 100277,
-  "apkName": "PCL-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.7/PCL-5.7.apk",
-  "apkSize": 19853573,
-  "sha256": "f238f85c9f59ba90112b2444e2a1657fba0b17bdc8951d476dbd0cda676357e2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.7",
+  "tag": "pcl-v5.8",
+  "versionName": "5.8",
+  "versionCode": 100545,
+  "apkName": "PCL-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.8/PCL-5.8.apk",
+  "apkSize": 19853577,
+  "sha256": "d91d7519b2af9479c7615ff98a2216ca39e3bcad4beb3e256bd591cb6f0ebdcf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.8",
   "notes": [
-    "Keep third-party caller identity in Remote call recents (#62)"
+    "perf: coalesce periodic Bluetooth traffic notification updates (#65)"
   ]
 }
