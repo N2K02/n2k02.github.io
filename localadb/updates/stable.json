@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.6-build-55",
-  "versionName": "1.6",
-  "versionCode": 100055,
-  "apkName": "LocalAdb-1.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.6-build-55/LocalAdb-1.6.apk",
+  "tag": "localadb-v1.7-build-57",
+  "versionName": "1.7",
+  "versionCode": 100057,
+  "apkName": "LocalAdb-1.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.7-build-57/LocalAdb-1.7.apk",
   "apkSize": 18560908,
-  "sha256": "34602348a50ff79cc036437bf7771b6f6a28f9afadf9e4bd9e29a9e083820754",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.6-build-55",
+  "sha256": "16cd9867b93de22117e6d0fcbc5f02ce31206be47af6f5d21002dcf53aba39ec",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.7-build-57",
   "notes": [
-    "fix(adb): align connection submenu with VRec and preserve recovery state (#8)"
+    "ci: run one-time cleanup of all non-main branches"
   ]
 }
