@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v5.2",
-  "versionName": "5.2",
-  "versionCode": 100162,
-  "apkName": "NetSpeed-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v5.2/NetSpeed-5.2.apk",
+  "tag": "netspeed-v5.3",
+  "versionName": "5.3",
+  "versionCode": 100164,
+  "apkName": "NetSpeed-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v5.3/NetSpeed-5.3.apk",
   "apkSize": 1207840,
-  "sha256": "e74d24b4c81181720189d7b99b5747af896a238cc775b9eac7bd6e8962238487",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v5.2",
+  "sha256": "c7a95156b4b57cb4fd1cd4efdb85b25c1e1ff763ff4f761e5c392c97ef1c8ca7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v5.3",
   "notes": [
-    "ci: retain latest APK releases and workflow runs (#33)"
+    "ci: remove finished one-time branch cleanup workflow (#34)"
   ]
 }
