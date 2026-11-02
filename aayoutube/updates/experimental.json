@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-23-run-426",
-  "versionName": "6.5",
-  "versionCode": 100426,
-  "apkName": "AAYoutube-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-23-run-426/AAYoutube-6.5.apk",
+  "tag": "aayoutube-experimental-pr-24-run-428",
+  "versionName": "6.6",
+  "versionCode": 100428,
+  "apkName": "AAYoutube-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-24-run-428/AAYoutube-6.6.apk",
   "apkSize": 21264792,
-  "sha256": "8242740b11b49256dc97e76aecd3236744ecc9b7d5e881a819760c9662b88a29",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-23-run-426",
+  "sha256": "3393d7eab3c8911c086edc690f65e87ff0b3b96bf8a465329049ea8dd2cf2360",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-24-run-428",
   "notes": [
-    "perf: coalesce WebView DOM work and idle lyric clocks",
-    "test: align TopMenuPolicyTest with smooth HD/overlay behavior",
-    "test: align LegacyProjectionControlsContractTest with smooth HD/overlay behavior",
-    "test: align FeaturesPageContractTest with smooth HD/overlay behavior",
-    "test: align CarWindowOwnershipContractTest with smooth HD/overlay behavior",
-    "test: align CarPlayerLayoutContractTest with smooth HD/overlay behavior",
-    "test: verify pre-playback YouTube storage preference and manual Auto reset",
-    "perf: cancel obsolete resize timers and apply HD preference before YouTube initializes",
-    "test: simulate quality menu clicks without faking unrelated YouTube containers",
-    "test: native quality preference and safe settings transitions regression coverage"
+    "ci: group Dependabot upgrades into one weekly PR"
   ]
 }
