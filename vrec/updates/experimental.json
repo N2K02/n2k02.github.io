@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-52-run-957",
+  "tag": "vrec-experimental-pr-53-run-961",
   "versionName": "5.4",
-  "versionCode": 100957,
+  "versionCode": 100961,
   "apkName": "VREC-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-52-run-957/VREC-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-53-run-961/VREC-5.4.apk",
   "apkSize": 13920320,
-  "sha256": "d8a80570a84dd6efe28ed75cad1a102f94813cda39b7aac044b91cf276933b90",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-52-run-957",
+  "sha256": "448a6c17f60d0ca2718a088f2ce28456cb21e146147171f36c93bdf00e41b672",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-53-run-961",
   "notes": [
-    "ci: poll and merge only fully green Dependabot PRs",
-    "ci: automatically merge green Dependabot PRs"
+    "Align VREC with shared ADB verified-session reuse and await Quit transport teardown",
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#51)",
+    "Fix libadb private-key ownership and socket lifecycle with regression tests"
   ]
 }
