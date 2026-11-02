@@ -1,20 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-8-run-54",
-  "versionName": "1.5-experimental.54",
-  "versionCode": 100054,
-  "apkName": "LocalAdb-PR-8-51fcbd0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-8-run-54/LocalAdb-PR-8-51fcbd0.apk",
+  "tag": "localadb-exp-pr-9-run-56",
+  "versionName": "1.6-experimental.56",
+  "versionCode": 100056,
+  "apkName": "LocalAdb-PR-9-c6f800d.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-9-run-56/LocalAdb-PR-9-c6f800d.apk",
   "apkSize": 39827056,
-  "sha256": "02d3de2af60c52d68928a61e5952c331a4db61e8b2d052982bdd943c4b9047bb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-8-run-54",
+  "sha256": "9cb6b3a564839f32147cafad24764727ee6df7b2824656417aa9792f721f597d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-9-run-56",
   "notes": [
-    "fix(ui): detect both short and fully-qualified pairing Accessibility service IDs",
-    "test(ui-adb): VRec page parity and healthy automatic transport recovery",
-    "ui: refresh pairing Accessibility prompt when toggle changes",
-    "fix(adb): remember healthy TCP and TLS connections for automatic recovery",
-    "ui: expose manual ADB pairing from Home",
-    "ui: move ADB setup and pairing to LocalAdb Home",
-    "ui: make LocalAdb ADB connection settings match VRec exactly"
+    "fix(ci): grant PR read access for safe merged-branch cleanup"
   ]
 }
