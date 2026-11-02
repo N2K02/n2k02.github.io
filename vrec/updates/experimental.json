@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-57-run-965",
-  "versionName": "5.7",
-  "versionCode": 100965,
-  "apkName": "VREC-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-57-run-965/VREC-5.7.apk",
+  "tag": "vrec-experimental-pr-58-run-967",
+  "versionName": "5.8",
+  "versionCode": 100967,
+  "apkName": "VREC-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-58-run-967/VREC-5.8.apk",
   "apkSize": 13920320,
-  "sha256": "80d9ed1dcaedde9315db5c7661d381f21aa9726855c720454775b7fbf9b8cde3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-57-run-965",
+  "sha256": "da2bd87e310329123fc7224141ba3719aa219b00023a359449f5905fd4126bbd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-58-run-967",
   "notes": [
-    "ci: delete merged PR branches safely"
+    "fix(ci): grant PR read access for safe merged-branch cleanup"
   ]
 }
