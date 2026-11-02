@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v6.9",
-  "versionName": "6.9",
-  "versionCode": 100440,
-  "apkName": "AAYoutube-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.9/AAYoutube-6.9.apk",
+  "tag": "aayoutube-v7.0",
+  "versionName": "7.0",
+  "versionCode": 100443,
+  "apkName": "AAYoutube-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v7.0/AAYoutube-7.0.apk",
   "apkSize": 14621033,
-  "sha256": "939a18baf0bc32048b8c005ff8f652752fba9f6d1541c086a8b399e00561ed15",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.9",
+  "sha256": "6cd57b9998c59e325b7261359dc9dd652bcd630469251c58cc320f8cdbc41226",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v7.0",
   "notes": [
-    "ci: delete merged PR branches safely (#30)"
+    "ci: retain latest APK releases and workflow runs (#32)"
   ]
 }
