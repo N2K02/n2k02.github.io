@@ -44,7 +44,8 @@ cd "$ROOT"
   echo "The current checkout is not N2K02/n2k02.github.io." >&2
   exit 1
 }
-[[ "$(git branch --show-current)" == "main" ]] || {
+branch=$(git branch --show-current)
+[[ -z "$branch" || "$branch" == "main" ]] || {
   echo "Check out main before running cleanup." >&2
   exit 1
 }
