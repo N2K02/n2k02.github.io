@@ -1,4 +1,4 @@
-name: Clean static site releases and branches
+name: One-time static site cleanup
 
 on:
   workflow_dispatch:
@@ -23,13 +23,12 @@ permissions:
 
 jobs:
   cleanup:
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.event.head_commit.message == 'Run static site cleanup (authorized)') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Clean releases and stale branches
+      - name: Clean obsolete releases, branches, and tags
         env:
           GH_TOKEN: ${{ github.token }}
           CLEANUP_MODE: ${{ (github.event_name == 'push' || inputs.mode == 'delete') && 'delete' || 'dry-run' }}

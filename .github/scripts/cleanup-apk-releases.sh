@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Clean the static website repository: remove unreferenced GitHub Releases and
-# stale remote branches. Keeps main, open-PR branches, and feed-linked releases.
-# Dry-run is the default. Git tags are preserved.
+# stale remote branches, and tags. Keeps main, open-PR branches, and feed-linked releases.
+# Dry-run is the default.
 
 set -euo pipefail
 
@@ -91,6 +91,8 @@ release_count=0
 release_skipped=0
 branch_count=0
 branch_skipped=0
+tag_count=0
+tag_skipped=0
 
 while IFS= read -r item; do
   id=$(jq -r '.id' <<<"$item")
@@ -130,5 +132,24 @@ while IFS= read -r branch; do
   ((branch_count += 1))
 done < <(jq -r '.[].name' "$tmp_dir/branches.json")
 
-printf '\nMode: %s | releases: %d removable, %d feed-linked kept | branches: %d removable, %d open-PR branches kept\n' \
-  "$MODE" "$release_count" "$release_skipped" "$branch_count" "$branch_skipped"
+gh api --paginate "repos/$REPOSITORY/git/matching-refs/tags/" |
+  jq -s 'add // []' > "$tmp_dir/tags.json"
+
+while IFS= read -r tag; do
+  [[ -z "$tag" ]] && continue
+  if [[ -n "${referenced_tags[$tag]:-}" ]]; then
+    printf 'KEEP tag      %s (referenced by %s)\n' "$tag" "${referenced_tags[$tag]}"
+    ((tag_skipped += 1))
+    continue
+  fi
+
+  if [[ "$MODE" == "delete" ]]; then
+    gh api --method DELETE "repos/$REPOSITORY/git/refs/tags/$tag" >/dev/null
+    printf 'DELETED tag   %s\n' "$tag"
+  else
+    printf 'WOULD DELETE tag %s\n' "$tag"
+  fi
+  ((tag_count += 1))
+done < <(jq -r '.[].ref | sub("^refs/tags/"; "")' "$tmp_dir/tags.json")
+
+printf 'Mode: %s | releases: %d removable, %d feed-linked kept | branches: %d removable, %d open-PR branches kept | tags: %d removable, %d feed-linked kept\n' "$MODE" "$release_count" "$release_skipped" "$branch_count" "$branch_skipped" "$tag_count" "$tag_skipped"
