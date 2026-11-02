@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-47-run-176",
-  "versionName": "5.6",
-  "versionCode": 100176,
-  "apkName": "PBar-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-47-run-176/PBar-5.6.apk",
+  "tag": "pbar-experimental-pr-48-run-178",
+  "versionName": "5.7",
+  "versionCode": 100178,
+  "apkName": "PBar-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-48-run-178/PBar-5.7.apk",
   "apkSize": 19836376,
-  "sha256": "f587de2ea1f5df0aa15ec26845091fd164561402c70a2831e01b5b6473ee04d0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-47-run-176",
+  "sha256": "528dca37b275bc1c66cdc0bffa965f6ff31999bf65d20a0a593e56705835ca0b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-48-run-178",
   "notes": [
-    "ci: authenticate private Maven dependencies in Dependabot",
-    "ci: group all Dependabot upgrades into one weekly PR"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
   ]
 }
