@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.3",
-  "versionName": "5.3",
-  "versionCode": 100953,
-  "apkName": "VREC-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.3/VREC-5.3.apk",
-  "apkSize": 13920312,
-  "sha256": "4918a8abb9fc5108166550745d1f72a317b4ee9b76bc36ce452e820eaf0b5e83",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.3",
+  "tag": "vrec-v5.4",
+  "versionName": "5.4",
+  "versionCode": 100960,
+  "apkName": "VREC-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.4/VREC-5.4.apk",
+  "apkSize": 13920316,
+  "sha256": "93a108ac013184872d05dfbd03b1645d052c5710bb60bc917b2153f309e15f44",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.4",
   "notes": [
-    "ci: group updates in one weekly Dependabot PR (#50)"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#51)"
   ]
 }
