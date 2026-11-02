@@ -32,7 +32,7 @@ jobs:
       - name: Clean releases and stale branches
         env:
           GH_TOKEN: ${{ github.token }}
-          CLEANUP_MODE: ${{ github.event_name == 'push' || inputs.mode == 'delete' && 'delete' || 'dry-run' }}
+          CLEANUP_MODE: ${{ (github.event_name == 'push' || inputs.mode == 'delete') && 'delete' || 'dry-run' }}
         run: |
           if [[ "$CLEANUP_MODE" == "delete" ]]; then
             bash .github/scripts/cleanup-apk-releases.sh --delete
