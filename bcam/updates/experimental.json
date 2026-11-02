@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-23-run-187",
-  "versionName": "4.6",
-  "versionCode": 100187,
-  "apkName": "BCam-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-23-run-187/BCam-4.6.apk",
+  "tag": "bcam-experimental-pr-24-run-189",
+  "versionName": "4.7",
+  "versionCode": 100189,
+  "apkName": "BCam-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-24-run-189/BCam-4.7.apk",
   "apkSize": 19578620,
-  "sha256": "5e651650ecefd23ffac4e081e1b8869ce9224fdf4034109c4a12cd230b051151",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-23-run-187",
+  "sha256": "feb3745ede2ada3aa5456f6c07308a64764975001abbfd3cfcdbb04768436070",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-24-run-189",
   "notes": [
-    "ci: authenticate private Maven dependencies in Dependabot",
-    "ci: group all Dependabot upgrades into one weekly PR"
+    "ci: green-only automatic dependency PR merge"
   ]
 }
