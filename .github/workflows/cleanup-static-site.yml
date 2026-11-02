@@ -1,0 +1,41 @@
+name: Clean static site releases and branches
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Preview removals or permanently delete them
+        required: true
+        type: choice
+        options:
+          - preview
+          - delete
+        default: preview
+  push:
+    branches:
+      - main
+    paths:
+      - .cleanup-static-site-now
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  cleanup:
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.event.head_commit.message == 'Run static site cleanup (authorized)') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Clean releases and stale branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLEANUP_MODE: ${{ github.event_name == 'push' || inputs.mode == 'delete' && 'delete' || 'dry-run' }}
+        run: |
+          if [[ "$CLEANUP_MODE" == "delete" ]]; then
+            bash .github/scripts/cleanup-apk-releases.sh --delete
+          else
+            bash .github/scripts/cleanup-apk-releases.sh --dry-run
+          fi
