@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-29-run-153",
-  "versionName": "4.8",
-  "versionCode": 100153,
-  "apkName": "PixelCast-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-29-run-153/PixelCast-4.8.apk",
+  "tag": "experimental-pr-31-run-159",
+  "versionName": "5.0-experimental.159",
+  "versionCode": 100159,
+  "apkName": "PixelCast-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-31-run-159/PixelCast-5.0.apk",
   "apkSize": 19599232,
-  "sha256": "33359894e6eae0005072d90aeb222093a929fbe7a111a6aafe5c4e8ea4c3a4a4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-29-run-153",
+  "sha256": "3c40a9058e36c2754cda89c50c194de3cee170fbd6e8bf8080585dc89b194078",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-31-run-159",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow",
-    "ci: retain latest APK releases and workflow runs (#28)"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
