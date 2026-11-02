@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v6.5",
-  "versionName": "6.5",
-  "versionCode": 100427,
-  "apkName": "AAYoutube-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.5/AAYoutube-6.5.apk",
+  "tag": "aayoutube-v6.6",
+  "versionName": "6.6",
+  "versionCode": 100430,
+  "apkName": "AAYoutube-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.6/AAYoutube-6.6.apk",
   "apkSize": 14621033,
-  "sha256": "abce76ec5fcbf46e48728f0a2c5de01bf343ffd71c5f85ffffc2ed6670157dac",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.5",
+  "sha256": "d41ceee2efaec45336fb94a087f0b74ee63dc5dc91e46a2672d01170ea0242ea",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.6",
   "notes": [
-    "Experimental: smooth player transitions and remember video quality (720p default) (#23)"
+    "ci: consolidate Dependabot updates into one weekly PR (#24)"
   ]
 }
