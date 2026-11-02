@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-52-run-185",
-  "versionName": "5.9",
-  "versionCode": 100185,
-  "apkName": "PBar-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-52-run-185/PBar-5.9.apk",
+  "tag": "pbar-experimental-pr-53-run-187",
+  "versionName": "6.0",
+  "versionCode": 100187,
+  "apkName": "PBar-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-53-run-187/PBar-6.0.apk",
   "apkSize": 19836376,
-  "sha256": "4a2dc410d17b3996e99768fd5b7a81be19d9bc7716b7a8c36b8af564459a2426",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-52-run-185",
+  "sha256": "b6141b8e51221ff81dfd68ee6f7962e16285e4e5c6c3d8be7d582263a03e2ed3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-53-run-187",
   "notes": [
-    "ci: delete merged PR branches safely"
+    "fix(ci): grant PR read access for safe merged-branch cleanup"
   ]
 }
