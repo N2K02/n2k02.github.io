@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.8",
-  "versionName": "5.8",
-  "versionCode": 100969,
-  "apkName": "VREC-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.8/VREC-5.8.apk",
-  "apkSize": 13920312,
-  "sha256": "e55fc0f116a8885c2ef29c2ff55b5883114b4b4e8866bd2e1ce2de18508b7db3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.8",
+  "tag": "vrec-v5.9",
+  "versionName": "5.9",
+  "versionCode": 100973,
+  "apkName": "VREC-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.9/VREC-5.9.apk",
+  "apkSize": 13920316,
+  "sha256": "2ef97d4462ecb5a2007b4a1bd8b02ac296690de1652b54e65d4b5a7314587651",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.9",
   "notes": [
-    "ci: add one-time non-main branch cleanup (#59)"
+    "ci: remove finished one-time branch cleanup workflow (#61)",
+    "ci: retain latest APK releases and workflow runs (#60)"
   ]
 }
