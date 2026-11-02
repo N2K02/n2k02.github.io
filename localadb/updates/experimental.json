@@ -1,17 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-10-run-63",
-  "versionName": "1.8-experimental.63",
-  "versionCode": 100063,
-  "apkName": "LocalAdb-PR-10-8cfea27.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-10-run-63/LocalAdb-PR-10-8cfea27.apk",
+  "tag": "experimental-pr-11-run-64",
+  "versionName": "1.8-experimental.64",
+  "versionCode": 100064,
+  "apkName": "LocalAdb-PR-11-4befd16.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-11-run-64/LocalAdb-PR-11-4befd16.apk",
   "apkSize": 39827056,
-  "sha256": "9adda6aa1c873d4cb0c0f8ce1134f410f34df64bfffebf55274da48e39245a2c",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-10-run-63",
+  "sha256": "606cdfdf3cb0715cfd5c13851d79809ccbc846a8f2d490712ee32ee72d8b834c",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-11-run-64",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry",
-    "fix: prevent stale feed publication races",
-    "fix: publish update feeds through pull requests"
+    "fix: point update feed to source APK releases"
   ]
 }
