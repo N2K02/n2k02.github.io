@@ -138,19 +138,18 @@ gh api --paginate "repos/$REPOSITORY/git/matching-refs/tags/" |
 while IFS= read -r tag; do
   [[ -z "$tag" ]] && continue
   if [[ -n "${referenced_tags[$tag]:-}" ]]; then
-    printf 'KEEP tag      %s (referenced by %s)\\n' "$tag" "${referenced_tags[$tag]}"
+    printf 'KEEP tag      %s (referenced by %s)\n' "$tag" "${referenced_tags[$tag]}"
     ((tag_skipped += 1))
     continue
   fi
 
   if [[ "$MODE" == "delete" ]]; then
     gh api --method DELETE "repos/$REPOSITORY/git/refs/tags/$tag" >/dev/null
-    printf 'DELETED tag   %s\\n' "$tag"
+    printf 'DELETED tag   %s\n' "$tag"
   else
-    printf 'WOULD DELETE tag %s\\n' "$tag"
+    printf 'WOULD DELETE tag %s\n' "$tag"
   fi
   ((tag_count += 1))
 done < <(jq -r '.[].ref | sub("^refs/tags/"; "")' "$tmp_dir/tags.json")
 
-printf '\\nMode: %s | releases: %d removable, %d feed-linked kept | branches: %d removable, %d open-PR branches kept | tags: %d removable, %d feed-linked kept\\n' \\
-  "$MODE" "$release_count" "$release_skipped" "$branch_count" "$branch_skipped" "$tag_count" "$tag_skipped"
+printf 'Mode: %s | releases: %d removable, %d feed-linked kept | branches: %d removable, %d open-PR branches kept | tags: %d removable, %d feed-linked kept\n' "$MODE" "$release_count" "$release_skipped" "$branch_count" "$branch_skipped" "$tag_count" "$tag_skipped"
