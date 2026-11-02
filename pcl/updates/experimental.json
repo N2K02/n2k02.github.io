@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-70-run-557",
-  "versionName": "6.2",
-  "versionCode": 100557,
-  "apkName": "PCL-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-70-run-557/PCL-6.2.apk",
+  "tag": "pcl-experimental-pr-71-run-559",
+  "versionName": "6.3",
+  "versionCode": 100559,
+  "apkName": "PCL-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-71-run-559/PCL-6.3.apk",
   "apkSize": 19966229,
-  "sha256": "ed405c7e80226205da2210f0eaedff41b4c05c9f61a53adf6d526f51b8f9d8da",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-70-run-557",
+  "sha256": "14b21b7a0533214688da9c9eae026702574fbf806c38915ef7ec10a5953a492e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-71-run-559",
   "notes": [
-    "ci: add one-time non-main branch cleanup"
+    "ci: retain latest APK releases and workflow runs"
   ]
 }
