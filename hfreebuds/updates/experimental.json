@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-20-run-154",
-  "versionName": "5.1",
-  "versionCode": 100154,
-  "apkName": "HFreebuds-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-20-run-154/HFreebuds-5.1.apk",
+  "tag": "hfreebuds-experimental-pr-21-run-156",
+  "versionName": "5.2",
+  "versionCode": 100156,
+  "apkName": "HFreebuds-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-21-run-156/HFreebuds-5.2.apk",
   "apkSize": 19787083,
-  "sha256": "e4b10227d4b1bd258c9cf7a184a6cc12da2d0a8c774176b70f108d95c8957210",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-20-run-154",
+  "sha256": "c26c666d923d1b9045dd1908b6e50751776cc129b14f145a7b6f612a74e4f399",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-21-run-156",
   "notes": [
-    "ci: authenticate private Maven dependencies in Dependabot",
-    "ci: group all Dependabot upgrades into one weekly PR"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
   ]
 }
