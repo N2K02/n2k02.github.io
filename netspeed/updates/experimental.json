@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-33-run-161",
-  "versionName": "5.2",
-  "versionCode": 100161,
-  "apkName": "NetSpeed-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-33-run-161/NetSpeed-5.2.apk",
+  "tag": "netspeed-experimental-pr-34-run-163",
+  "versionName": "5.3",
+  "versionCode": 100163,
+  "apkName": "NetSpeed-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-34-run-163/NetSpeed-5.3.apk",
   "apkSize": 19557714,
-  "sha256": "02d8f66aeb2adc89b83de35afc1999c4e6de7e5db6d743c9c62576932fd95cbe",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-33-run-161",
+  "sha256": "d996b6fed4aba87c4931fb2eead30c7e6ea8a5f7a7187618e27ce935065eb5f0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-34-run-163",
   "notes": [
-    "ci: retain latest APK releases and workflow runs"
+    "ci: remove finished one-time branch cleanup workflow"
   ]
 }
