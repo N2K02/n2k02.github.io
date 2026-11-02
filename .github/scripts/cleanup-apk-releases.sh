@@ -10,7 +10,7 @@ MODE="dry-run"
 
 usage() {
   cat <<'USAGE'
-Usage: .github/scripts/cleanup-apk-releases.sh [--dry-run | --delete]
+Usage: bash .github/scripts/cleanup-apk-releases.sh [--dry-run | --delete]
 
 Default: list APK-bearing releases that are not referenced by any local
 updates/*.json manifest. --delete removes those GitHub Release records and
