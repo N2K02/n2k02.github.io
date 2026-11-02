@@ -1,13 +1,13 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-40-run-305",
-  "versionName": "8.7",
+  "tag": "experimental-pr-40-run-305",
+  "versionName": "8.7-experimental.305",
   "versionCode": 100305,
   "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-305/SpeedTester-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-40-run-305/SpeedTester-8.7.apk",
   "apkSize": 21739087,
   "sha256": "b057c1771c8bf4b144f1e4255a53dc14b171acd02ea52cde00c976445df0d3b2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-305",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-40-run-305",
   "notes": [
     "test: align Home/history source contracts and exact packet-loss disclosure after quality redesign",
     "feat: update connected-path success and failure badges from live HTTPS probe results",
