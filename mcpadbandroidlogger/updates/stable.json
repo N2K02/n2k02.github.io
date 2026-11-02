@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v2.0",
-  "versionName": "2.0",
-  "versionCode": 100217,
-  "apkName": "McpAdbAndroidLogger-2.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.0/McpAdbAndroidLogger-2.0.apk",
+  "tag": "mcpadbandroidlogger-v2.1",
+  "versionName": "2.1",
+  "versionCode": 100219,
+  "apkName": "McpAdbAndroidLogger-2.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.1/McpAdbAndroidLogger-2.1.apk",
   "apkSize": 24786801,
-  "sha256": "dfdbf478a50ea4b1b0ff3dfbe0774a4414792b0d32d90b797791373545dea503",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.0",
+  "sha256": "590b8050809caba69379664f498575c72f94227590d975a6965868935ce19dcf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.1",
   "notes": [
+    "ci: require strict green checks for Dependabot merges (#33)",
     "build(deps): consolidate all five pending upgrades and future Dependabot PRs (#31)",
     "Fix Wrangler Preview TOML table declaration and Durable Object binding",
     "Configure isolated Cloudflare Worker Previews and test Durable Object bindings",
@@ -17,7 +18,6 @@
     "Isolate disposable ADB session keys from persistent authorized identity",
     "Use libadb socket-only disconnect and reuse healthy verified ADB sessions",
     "ci: group Dependabot updates across all package ecosystems",
-    "Shut down MCP worker pool on Stop/Quit and recreate cleanly on restart",
-    "Prevent new service requests from racing Quit; stop unconditionally after cleanup"
+    "Shut down MCP worker pool on Stop/Quit and recreate cleanly on restart"
   ]
 }
