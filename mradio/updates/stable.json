@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.9-build-345",
-  "versionName": "5.9",
-  "versionCode": 100345,
-  "apkName": "MRadio-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.9-build-345/MRadio-5.9.apk",
+  "tag": "mradio-v6.0-build-347",
+  "versionName": "6.0",
+  "versionCode": 100347,
+  "apkName": "MRadio-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v6.0-build-347/MRadio-6.0.apk",
   "apkSize": 2827163,
-  "sha256": "23c67329043ca4a9d0a3ede4264510519f07e5e414b3e819087fcb13c3393af5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.9-build-345",
+  "sha256": "b0bd3b608836bb36a7b4ddd3af78bf4f19fa8b97606fe17a785e1a7edf259c27",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v6.0-build-347",
   "notes": [
-    "ci: standardize strict green-only Dependabot auto-merge (#31)"
+    "ci: delete merged PR branches safely (#32)"
   ]
 }
