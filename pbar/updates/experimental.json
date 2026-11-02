@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-55-run-190",
-  "versionName": "6.1",
-  "versionCode": 100190,
-  "apkName": "PBar-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-55-run-190/PBar-6.1.apk",
+  "tag": "pbar-experimental-pr-56-run-192",
+  "versionName": "6.2",
+  "versionCode": 100192,
+  "apkName": "PBar-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-56-run-192/PBar-6.2.apk",
   "apkSize": 19836376,
-  "sha256": "397e343cbe98f920812e3b4faef0a8e9853b1845c6bef0eb0733e09542189a78",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-55-run-190",
+  "sha256": "60c9f10b19d976e23cbcfdbc4cd58291b6ced564df0eecb8fc9f89272fb2e316",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-56-run-192",
   "notes": [
-    "ci: retain latest APK releases and workflow runs"
+    "ci: remove finished one-time branch cleanup workflow"
   ]
 }
