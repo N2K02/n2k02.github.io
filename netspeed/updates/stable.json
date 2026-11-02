@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v5.0",
-  "versionName": "5.0",
-  "versionCode": 100158,
-  "apkName": "NetSpeed-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v5.0/NetSpeed-5.0.apk",
+  "tag": "netspeed-v5.1",
+  "versionName": "5.1",
+  "versionCode": 100160,
+  "apkName": "NetSpeed-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v5.1/NetSpeed-5.1.apk",
   "apkSize": 1207840,
-  "sha256": "de257cfa8b0842c9a8fc3dc5b01c13b428b967cc442130065404a625aca574a2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v5.0",
+  "sha256": "05122c6839b441e69f3761b0c774112b93fb59019c6339900f0dd1d9e7fb0c1f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v5.1",
   "notes": [
-    "ci: automatically delete merged PR branches (#31)"
+    "ci: add one-time non-main branch cleanup (#32)"
   ]
 }
