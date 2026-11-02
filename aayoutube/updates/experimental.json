@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-25-run-431",
+  "tag": "aayoutube-experimental-pr-27-run-434",
   "versionName": "6.7",
-  "versionCode": 100431,
+  "versionCode": 100434,
   "apkName": "AAYoutube-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-25-run-431/AAYoutube-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-27-run-434/AAYoutube-6.7.apk",
   "apkSize": 21264792,
-  "sha256": "50532d588045c72202855670ac315a5eae8ade3a2cbd5c7a01466d4c95c28673",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-25-run-431",
+  "sha256": "0580e7297e4ff3b754d1a756d5274c2b0ed6c3b1adf60ee80982f6d7482bda8a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-27-run-434",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
+    "ci: poll and merge only fully green Dependabot PRs",
+    "ci: automatically merge green Dependabot PRs"
   ]
 }
