@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v8.1",
-  "versionName": "8.1",
-  "versionCode": 100238,
-  "apkName": "SpeedTester-8.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.1/SpeedTester-8.1.apk",
+  "tag": "speedtester-v8.2",
+  "versionName": "8.2",
+  "versionCode": 100242,
+  "apkName": "SpeedTester-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.2/SpeedTester-8.2.apk",
   "apkSize": 1853128,
-  "sha256": "d7f9a5e1257af3cd12c5ca3e346ded01c729a93a73eeb0854ae1df5199bd2c5c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.1",
+  "sha256": "f199a92743cbf5d4c14c1a8730e2e960aa714aeaff4ba5ad5cdf732209943569",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.2",
   "notes": [
-    "Experimental: reduce Wi-Fi analyzer scanning overhead (#30)"
+    "ci: group dependency upgrades in one weekly PR (#31)"
   ]
 }
