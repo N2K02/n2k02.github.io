@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v6.1",
-  "versionName": "6.1",
-  "versionCode": 100191,
-  "apkName": "PBar-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v6.1/PBar-6.1.apk",
+  "tag": "pbar-v6.2",
+  "versionName": "6.2",
+  "versionCode": 100193,
+  "apkName": "PBar-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v6.2/PBar-6.2.apk",
   "apkSize": 1498757,
-  "sha256": "68530b389c9d29b5d7b7b57c10805e4aa7836d7a041dffab938e24d0311e00d0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v6.1",
+  "sha256": "b19d1542679dabd2ad70efc1d86524110044efd97d5a8d1541f09214cd6c810a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v6.2",
   "notes": [
-    "ci: retain latest APK releases and workflow runs (#55)"
+    "ci: remove finished one-time branch cleanup workflow (#56)"
   ]
 }
