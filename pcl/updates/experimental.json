@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-72-run-561",
-  "versionName": "6.3",
-  "versionCode": 100561,
-  "apkName": "PCL-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-72-run-561/PCL-6.3.apk",
+  "tag": "experimental-pr-74-run-567",
+  "versionName": "6.5-experimental.567",
+  "versionCode": 100567,
+  "apkName": "PCL-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-74-run-567/PCL-6.5.apk",
   "apkSize": 19966229,
-  "sha256": "78a550214722309f7c0a3cdc12c89bdbd47923f5db9b580c627cbc57d8b57f53",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-72-run-561",
+  "sha256": "993b30ca37313468a4e6115f29df1dff17a660b12cbba042bd7e10524b3dfc15",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-74-run-567",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow",
-    "ci: retain latest APK releases and workflow runs (#71)"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
