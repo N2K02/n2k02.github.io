@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-28-run-195",
-  "versionName": "4.8",
-  "versionCode": 100195,
-  "apkName": "BCam-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-28-run-195/BCam-4.8.apk",
+  "tag": "bcam-experimental-pr-29-run-197",
+  "versionName": "4.9",
+  "versionCode": 100197,
+  "apkName": "BCam-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-29-run-197/BCam-4.9.apk",
   "apkSize": 19578620,
-  "sha256": "ee8979640be9adf0df62b051e7c0f82adc05c97fd2dc44791082d07ba6e109b7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-28-run-195",
+  "sha256": "bd61f617569d704e0f03d00a62e1a8ceee07c611a6dda54f621bc9bed5957c96",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-29-run-197",
   "notes": [
-    "ci: require strict green checks for Dependabot merges"
+    "ci: delete merged PR branches safely"
   ]
 }
