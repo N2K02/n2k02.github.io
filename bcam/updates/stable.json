@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v5.1",
-  "versionName": "5.1",
-  "versionCode": 100203,
-  "apkName": "BCam-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v5.1/BCam-5.1.apk",
+  "tag": "bcam-v5.2",
+  "versionName": "5.2",
+  "versionCode": 100205,
+  "apkName": "BCam-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v5.2/BCam-5.2.apk",
   "apkSize": 1200040,
-  "sha256": "027bc1a8d26683d74d083ddf6322b7071129d26d0d0ee66482592558659c58ee",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v5.1",
+  "sha256": "4d1d763e19a201b98de6d8a1d5ffe7f8c5e2defc75ee044c7fcddeef6813c024",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v5.2",
   "notes": [
-    "ci: retain latest APK releases and workflow runs (#32)"
+    "ci: remove finished one-time branch cleanup workflow (#33)"
   ]
 }
