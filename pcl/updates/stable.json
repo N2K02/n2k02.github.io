@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v6.1",
-  "versionName": "6.1",
-  "versionCode": 100556,
-  "apkName": "PCL-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.1/PCL-6.1.apk",
+  "tag": "pcl-v6.2",
+  "versionName": "6.2",
+  "versionCode": 100558,
+  "apkName": "PCL-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.2/PCL-6.2.apk",
   "apkSize": 1521934,
-  "sha256": "593b76ab579a779e9750c60dc4432da827f5ac78a6cfac1d33781c81a6f372de",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.1",
+  "sha256": "be175829e23176272c0b4268c8c03d047ac973988dd860f0bc62738427601358",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.2",
   "notes": [
-    "ci: automatically delete merged PR branches (#68)"
+    "ci: add one-time non-main branch cleanup (#70)"
   ]
 }
