@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v5.9",
-  "versionName": "5.9",
-  "versionCode": 100186,
-  "apkName": "PBar-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.9/PBar-5.9.apk",
+  "tag": "pbar-v6.0",
+  "versionName": "6.0",
+  "versionCode": 100189,
+  "apkName": "PBar-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v6.0/PBar-6.0.apk",
   "apkSize": 1498757,
-  "sha256": "ab8c49282f5c13b71cd52ff93dd325eb45d8f8e7ebaea652116adf4ab06087fe",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.9",
+  "sha256": "b1b7b23ff76425c6c5b46a54428fcf767d2e839298b2e4c88c9510fe02707068",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v6.0",
   "notes": [
-    "ci: delete merged PR branches safely (#52)"
+    "ci: add one-time non-main branch cleanup (#54)"
   ]
 }
