@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-29-run-197",
-  "versionName": "4.9",
-  "versionCode": 100197,
-  "apkName": "BCam-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-29-run-197/BCam-4.9.apk",
+  "tag": "bcam-experimental-pr-30-run-199",
+  "versionName": "5.0",
+  "versionCode": 100199,
+  "apkName": "BCam-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-30-run-199/BCam-5.0.apk",
   "apkSize": 19578620,
-  "sha256": "bd61f617569d704e0f03d00a62e1a8ceee07c611a6dda54f621bc9bed5957c96",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-29-run-197",
+  "sha256": "26347d4a0d2657ddc37d66acdb64268c09da2160fa57b1b6b7fd0d6015ace35c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-30-run-199",
   "notes": [
-    "ci: delete merged PR branches safely"
+    "fix(ci): grant PR read access for safe merged-branch cleanup"
   ]
 }
