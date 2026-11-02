@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.8-build-342",
-  "versionName": "5.8",
-  "versionCode": 100342,
-  "apkName": "MRadio-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.8-build-342/MRadio-5.8.apk",
+  "tag": "mradio-v5.9-build-345",
+  "versionName": "5.9",
+  "versionCode": 100345,
+  "apkName": "MRadio-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.9-build-345/MRadio-5.9.apk",
   "apkSize": 2827163,
-  "sha256": "caa2d66b76e5eb020a019370af0d57668adab76ab281dc776f6d2f879849419d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.8-build-342",
+  "sha256": "23c67329043ca4a9d0a3ede4264510519f07e5e414b3e819087fcb13c3393af5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.9-build-345",
   "notes": [
-    "ci: group dependency updates in one weekly PR (#29)"
+    "ci: standardize strict green-only Dependabot auto-merge (#31)"
   ]
 }
