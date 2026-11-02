@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.9",
-  "versionName": "4.9",
-  "versionCode": 100155,
-  "apkName": "NetSpeed-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.9/NetSpeed-4.9.apk",
+  "tag": "netspeed-v5.0",
+  "versionName": "5.0",
+  "versionCode": 100158,
+  "apkName": "NetSpeed-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v5.0/NetSpeed-5.0.apk",
   "apkSize": 1207840,
-  "sha256": "a1fa5093f7ff55b00109d96f440e3000e98d972e12016fe5caf8cc458345ac06",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.9",
+  "sha256": "de257cfa8b0842c9a8fc3dc5b01c13b428b967cc442130065404a625aca574a2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v5.0",
   "notes": [
-    "ci: align NetSpeed with strict Dependabot auto-merge (#30)"
+    "ci: automatically delete merged PR branches (#31)"
   ]
 }
