@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-33-run-348",
-  "versionName": "6.0-experimental.348",
-  "versionCode": 100348,
-  "apkName": "MRadio-PR-33-da29d5a.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-33-run-348/MRadio-PR-33-da29d5a.apk",
+  "tag": "mradio-exp-pr-34-run-349",
+  "versionName": "6.0-experimental.349",
+  "versionCode": 100349,
+  "apkName": "MRadio-PR-34-0b0317a.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-34-run-349/MRadio-PR-34-0b0317a.apk",
   "apkSize": 24360574,
-  "sha256": "28659e3b35a68bc47cd1ad61504cbc318aa9f13e600386e818ffe05d67fa9df6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-33-run-348",
+  "sha256": "08e2db033b9ec8924d67e0f3c31f8babcf1b21aeeebf5f7ba998d03e365b8134",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-34-run-349",
   "notes": [
-    "fix(ci): grant PR read access for safe merged-branch cleanup"
+    "ci: add one-time non-main branch cleanup"
   ]
 }
