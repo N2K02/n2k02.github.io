@@ -1,17 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-41-run-286",
-  "versionName": "8.7-experimental.286",
-  "versionCode": 100286,
+  "tag": "speedtester-experimental-pr-40-run-289",
+  "versionName": "8.7",
+  "versionCode": 100289,
   "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-41-run-286/SpeedTester-8.7.apk",
-  "apkSize": 21591631,
-  "sha256": "03c211e3e02172f383a50253d407d5de620c439d5c29e2880613418140016b5b",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-41-run-286",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-289/SpeedTester-8.7.apk",
+  "apkSize": 21673551,
+  "sha256": "66d3d62f323421e021f7368baba1ef73a85bf0e57b38a52b5677c2f540b7896e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-289",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry",
-    "fix: prevent stale feed publication races",
-    "fix: publish update feeds through pull requests"
+    "test: update Home shortcut assertion for origin-aware Network Quality navigation",
+    "feat: complete Network Quality Settings navigation, DNS metrics, saved profiles and lifecycle safety",
+    "feat: add Network Quality Settings submenu with correct Home/Settings back navigation",
+    "test: expect explicit restricted status instead of ambiguous HTTP code",
+    "test: unmeasured segments must not show healthy findings",
+    "test: cover network callback cleanup and neutral diagnostic states",
+    "fix: invalidate stale network scores on connection changes and clean up callbacks",
+    "fix: render unmeasured network-path findings as neutral information",
+    "test: isolate endpoint restrictions, verify connectivity scoring and partial responses",
+    "test: guard immediate cancellation, network callbacks, neutral hop states and fresh results"
   ]
 }
