@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.8",
-  "versionName": "4.8",
-  "versionCode": 100153,
-  "apkName": "NetSpeed-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.8/NetSpeed-4.8.apk",
+  "tag": "netspeed-v4.9",
+  "versionName": "4.9",
+  "versionCode": 100155,
+  "apkName": "NetSpeed-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.9/NetSpeed-4.9.apk",
   "apkSize": 1207840,
-  "sha256": "33495668de7c26426dc2d5dc0c5447975f5696d2df9efa3926958087786b09a1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.8",
+  "sha256": "a1fa5093f7ff55b00109d96f440e3000e98d972e12016fe5caf8cc458345ac06",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.9",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#27)"
+    "ci: align NetSpeed with strict Dependabot auto-merge (#30)"
   ]
 }
