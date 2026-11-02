@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-31-run-157",
-  "versionName": "4.9",
-  "versionCode": 100157,
-  "apkName": "NetSpeed-4.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-31-run-157/NetSpeed-4.9.apk",
+  "tag": "netspeed-experimental-pr-32-run-159",
+  "versionName": "5.1",
+  "versionCode": 100159,
+  "apkName": "NetSpeed-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-32-run-159/NetSpeed-5.1.apk",
   "apkSize": 19557714,
-  "sha256": "ac331feb901d5ce89446b53de56240be93ec460262de377fbf4035e4ad308b10",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-31-run-157",
+  "sha256": "38a4ba70916de24ced640564a375828cd204551da53012113ea6673b76bd61d2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-32-run-159",
   "notes": [
-    "fix(ci): grant PR read access for safe branch cleanup",
-    "ci: delete merged PR branches safely",
-    "ci: align NetSpeed with strict Dependabot auto-merge (#30)"
+    "ci: add one-time non-main branch cleanup"
   ]
 }
