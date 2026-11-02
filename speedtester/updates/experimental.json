@@ -1,13 +1,13 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-40-run-317",
-  "versionName": "8.7",
+  "tag": "experimental-pr-40-run-317",
+  "versionName": "8.7-experimental.317",
   "versionCode": 100317,
   "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-317/SpeedTester-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-40-run-317/SpeedTester-8.7.apk",
   "apkSize": 25131460,
   "sha256": "1e6c4853ba3d5ddf7863c115c882d11fef605fb98beebeedffd308ff0b7e6141",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-317",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-40-run-317",
   "notes": [
     "ui: show live advanced probe stages and permit custom authorized 4K test stream",
     "test: adjust contract expectations for honest ICMP states and UDP evidence source",
