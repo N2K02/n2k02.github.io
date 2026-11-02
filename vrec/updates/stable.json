@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.5",
-  "versionName": "5.5",
-  "versionCode": 100962,
-  "apkName": "VREC-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.5/VREC-5.5.apk",
-  "apkSize": 13920312,
-  "sha256": "0a6e6050ad8a80afce6e7a53793fba2204b22a76e86362dda3f0d3e859330752",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.5",
+  "tag": "vrec-v5.6",
+  "versionName": "5.6",
+  "versionCode": 100964,
+  "apkName": "VREC-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.6/VREC-5.6.apk",
+  "apkSize": 13920316,
+  "sha256": "283da372bc32867e9dc1234247da2b61d76055f6f4fabf8ffa22b0bae01aaf38",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.6",
   "notes": [
-    "Align VREC with shared ADB verified-session reuse and await Quit transport teardown",
-    "Fix libadb private-key ownership and socket lifecycle with regression tests"
+    "ci: require strict green checks for Dependabot merges (#56)"
   ]
 }
