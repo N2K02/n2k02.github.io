@@ -1,14 +1,21 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.2-build-44",
-  "versionName": "1.2",
-  "versionCode": 100044,
-  "apkName": "LocalAdb-1.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.2-build-44/LocalAdb-1.2.apk",
+  "tag": "localadb-v1.3-build-48",
+  "versionName": "1.3",
+  "versionCode": 100048,
+  "apkName": "LocalAdb-1.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.3-build-48/LocalAdb-1.3.apk",
   "apkSize": 18560908,
-  "sha256": "d57635a57c4a91db08090bcc235949796b03d80772b374dd78ee98404e93f991",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.2-build-44",
+  "sha256": "adca64ef0983e2fd117d12d11e298acc092f42ca312df07fe761176861f5d2f0",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.3-build-48",
   "notes": [
-    "ci: group dependency updates in one weekly PR (#3)"
+    "Guarantee all LocalAdb Quit components clean up and Activity closes even after errors",
+    "Align LocalAdb Quit with awaited non-blocking ADB teardown and single-flight cleanup",
+    "Preserve requested TCP promotion when reusing verified Wireless ADB TLS",
+    "Document shared ADB socket lifecycle rules for future Android apps",
+    "Test per-session ADB key isolation, timeout teardown and healthy reconnect reuse",
+    "Reuse verified local ADB sessions during app retry and discovery",
+    "Close ADB sockets safely and retire disposable session keys after timeouts and mode changes",
+    "Isolate disposable ADB session RSA keys from persistent identity"
   ]
 }
