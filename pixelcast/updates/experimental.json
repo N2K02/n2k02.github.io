@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-26-run-148",
+  "tag": "pixelcast-experimental-pr-27-run-149",
   "versionName": "4.7",
-  "versionCode": 100148,
+  "versionCode": 100149,
   "apkName": "PixelCast-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-26-run-148/PixelCast-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-27-run-149/PixelCast-4.7.apk",
   "apkSize": 19599232,
-  "sha256": "60b5a40246bb59db37e5e3e1ce2112126852cba323c2d8ee512f09895f227506",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-26-run-148",
+  "sha256": "453dd69c043f48b31058328257548d0deacce1f548d59dece0b0c1b7a182f9fd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-27-run-149",
   "notes": [
-    "fix(ci): grant PR read access for safe merged-branch cleanup"
+    "ci: add one-time non-main branch cleanup"
   ]
 }
