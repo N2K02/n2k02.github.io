@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.9",
-  "versionName": "5.9",
-  "versionCode": 100973,
-  "apkName": "VREC-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.9/VREC-5.9.apk",
-  "apkSize": 13920316,
-  "sha256": "2ef97d4462ecb5a2007b4a1bd8b02ac296690de1652b54e65d4b5a7314587651",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.9",
+  "tag": "v6.1",
+  "versionName": "6.1",
+  "versionCode": 100979,
+  "apkName": "VREC-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.1/VREC-6.1.apk",
+  "apkSize": 13920312,
+  "sha256": "afd426b06c5a4978b10b8fa6427434cfa30cc0ade8283dd5ace4f4292496e465",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.1",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow (#61)",
-    "ci: retain latest APK releases and workflow runs (#60)"
+    "fix: use source APK releases for update feeds (#63)"
   ]
 }
