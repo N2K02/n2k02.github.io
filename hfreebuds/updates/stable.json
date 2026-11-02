@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v5.0",
-  "versionName": "5.0",
-  "versionCode": 100152,
-  "apkName": "HFreebuds-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.0/HFreebuds-5.0.apk",
+  "tag": "hfreebuds-v5.1",
+  "versionName": "5.1",
+  "versionCode": 100155,
+  "apkName": "HFreebuds-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.1/HFreebuds-5.1.apk",
   "apkSize": 1400462,
-  "sha256": "5bc8c34362cece8e37144cbfcce38896c3aa6f8aef6d2271ed81001a6ce7c55f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.0",
+  "sha256": "b3a0a7c2c46cd0eac4dad4ab9573ae6c13caf9751a112b987bb2b0045a5dcc04",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.1",
   "notes": [
-    "Experimental: reduce Bluetooth packet logging overhead (#19)"
+    "ci: group dependency upgrades in one weekly PR (#20)"
   ]
 }
