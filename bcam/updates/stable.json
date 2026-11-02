@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v4.6",
-  "versionName": "4.6",
-  "versionCode": 100188,
-  "apkName": "BCam-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.6/BCam-4.6.apk",
+  "tag": "bcam-v4.7",
+  "versionName": "4.7",
+  "versionCode": 100194,
+  "apkName": "BCam-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.7/BCam-4.7.apk",
   "apkSize": 1200040,
-  "sha256": "341f54050cc6de8f5dbabcc833c995b3bb1fa1ca4614eabcbab6cf273b694171",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.6",
+  "sha256": "eada14680b64b89cf30606210bba1b3bd06590d73a8a978785d89a8be0152070",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.7",
   "notes": [
-    "ci: group dependency upgrades in one weekly PR (#23)"
+    "ci: green-only automatic dependency PR merge (#24)"
   ]
 }
