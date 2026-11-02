@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-27-run-164",
-  "versionName": "5.5",
-  "versionCode": 100164,
-  "apkName": "HFreebuds-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-27-run-164/HFreebuds-5.5.apk",
+  "tag": "hfreebuds-experimental-pr-28-run-166",
+  "versionName": "5.6",
+  "versionCode": 100166,
+  "apkName": "HFreebuds-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-28-run-166/HFreebuds-5.6.apk",
   "apkSize": 19787083,
-  "sha256": "e133f4de5b2045111552fcd9981b6e55e1c912a212a32ac237346c70f387e831",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-27-run-164",
+  "sha256": "fc66dbc1f3046263b8a4c68d01a07b9cabda7ed16e9e1d693abc747885897f4c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-28-run-166",
   "notes": [
-    "ci: add one-time non-main branch cleanup"
+    "ci: retain latest APK releases and workflow runs"
   ]
 }
