@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.4-build-50",
-  "versionName": "1.4",
-  "versionCode": 100050,
-  "apkName": "LocalAdb-1.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.4-build-50/LocalAdb-1.4.apk",
+  "tag": "localadb-v1.5-build-52",
+  "versionName": "1.5",
+  "versionCode": 100052,
+  "apkName": "LocalAdb-1.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.5-build-52/LocalAdb-1.5.apk",
   "apkSize": 18560908,
-  "sha256": "95758c0530f800dc73804ff390573d3ca1e47eebf3d5b4056059bb1376b91aa2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.4-build-50",
+  "sha256": "d981f66a5d5f4a983b9d14461331ae623dd167af31a5a9f1139820d902e44e15",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.5-build-52",
   "notes": [
-    "ci: standardize strict green-only Dependabot auto-merge (#6)"
+    "ci: delete merged PR branches safely (#7)"
   ]
 }
