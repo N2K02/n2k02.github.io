@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v4.6",
-  "versionName": "4.6",
-  "versionCode": 100147,
-  "apkName": "PixelCast-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.6/PixelCast-4.6.apk",
+  "tag": "pixelcast-v4.7",
+  "versionName": "4.7",
+  "versionCode": 100150,
+  "apkName": "PixelCast-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.7/PixelCast-4.7.apk",
   "apkSize": 1282128,
-  "sha256": "d489c71d6953977c367d3e1c437833799102826ecb89bc87f6a45fca16313ad8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.6",
+  "sha256": "e2f07bd363ffe6c1bba166e8e0a609d970c13ee7ba4fe44785ecbaf755876444",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.7",
   "notes": [
-    "ci: delete merged PR branches safely (#25)"
+    "ci: add one-time non-main branch cleanup (#27)"
   ]
 }
