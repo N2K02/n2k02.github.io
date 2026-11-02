@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-30-run-237",
-  "versionName": "8.1",
-  "versionCode": 100237,
-  "apkName": "SpeedTester-8.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-30-run-237/SpeedTester-8.1.apk",
+  "tag": "speedtester-experimental-pr-31-run-240",
+  "versionName": "8.2",
+  "versionCode": 100240,
+  "apkName": "SpeedTester-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-31-run-240/SpeedTester-8.2.apk",
   "apkSize": 21591631,
-  "sha256": "db28a78b92c3be9185dd517b353b7120202fa9a0da7717c0cb96fc1790cca3e6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-30-run-237",
+  "sha256": "0848743690816a47788396192bdcbab3024f3585222b0cfc301447ce87678836",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-31-run-240",
   "notes": [
-    "test: update Wi-Fi scan regression for reduced auto-scan cadence",
-    "perf: reduce foreground Wi-Fi analyzer radio scans"
+    "ci: authenticate private Maven dependencies in Dependabot",
+    "ci: group all Dependabot upgrades into one weekly PR"
   ]
 }
