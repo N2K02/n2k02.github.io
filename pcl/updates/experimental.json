@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pcl-experimental-pr-68-run-555",
-  "versionName": "6.1",
-  "versionCode": 100555,
-  "apkName": "PCL-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-68-run-555/PCL-6.1.apk",
-  "apkSize": 19966225,
-  "sha256": "5b80bf02b4fe5c358fe98918774170a92c90dda5e1bfb20df49d1841643aa1f8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-68-run-555",
+  "tag": "pcl-experimental-pr-70-run-557",
+  "versionName": "6.2",
+  "versionCode": 100557,
+  "apkName": "PCL-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-experimental-pr-70-run-557/PCL-6.2.apk",
+  "apkSize": 19966229,
+  "sha256": "ed405c7e80226205da2210f0eaedff41b4c05c9f61a53adf6d526f51b8f9d8da",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-experimental-pr-70-run-557",
   "notes": [
-    "fix(ci): grant PR read access for safe branch cleanup",
-    "ci: align strict green-only Dependabot squash merge with Android repositories",
-    "ci: delete merged PR branches safely"
+    "ci: add one-time non-main branch cleanup"
   ]
 }
