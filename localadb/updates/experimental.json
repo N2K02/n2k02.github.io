@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-3-run-40",
-  "versionName": "1.1-experimental.40",
-  "versionCode": 100040,
-  "apkName": "LocalAdb-PR-3-eabb807.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-3-run-40/LocalAdb-PR-3-eabb807.apk",
+  "tag": "localadb-exp-pr-3-run-41",
+  "versionName": "1.1-experimental.41",
+  "versionCode": 100041,
+  "apkName": "LocalAdb-PR-3-aa71e95.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-3-run-41/LocalAdb-PR-3-aa71e95.apk",
   "apkSize": 39810672,
-  "sha256": "5dfcf5edc544dee1a711caef77d335be3d581b3a7f97403bdb59c1ddeb0a1800",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-3-run-40",
+  "sha256": "1d5f00ca55cba3bba8812b797d9ee9ed87188f9a694a6ce2dadd474943077dbf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-3-run-41",
   "notes": [
+    "ci: poll and merge only fully green Dependabot PRs",
     "ci: automatically merge dependency updates only after every CI check passes",
     "ci: include all Gradle dependencies in weekly grouped updates",
     "ci: group Dependabot updates into one weekly PR"
