@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v4.8",
-  "versionName": "4.8",
-  "versionCode": 100154,
-  "apkName": "PixelCast-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.8/PixelCast-4.8.apk",
+  "tag": "v5.0",
+  "versionName": "5.0",
+  "versionCode": 100160,
+  "apkName": "PixelCast-5.0.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.0/PixelCast-5.0.apk",
   "apkSize": 1282128,
-  "sha256": "ffad850c5df4d99a5e80e4347204cf5277a1fa032a43e6c3c90c87546f2dbe05",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.8",
+  "sha256": "caedf45d41a5ec1a19e80c4e0b8e170eca8d2d0256b1b7a99b759a040e82c0f1",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.0",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow (#29)",
-    "ci: retain latest APK releases and workflow runs (#28)"
+    "fix: use source APK releases for update feeds (#31)"
   ]
 }
