@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-24-run-197",
-  "versionName": "1.7",
-  "versionCode": 100197,
-  "apkName": "McpAdbAndroidLogger-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-24-run-197/McpAdbAndroidLogger-1.7.apk",
+  "tag": "mcpadbandroidlogger-experimental-pr-30-run-202",
+  "versionName": "1.8",
+  "versionCode": 100202,
+  "apkName": "McpAdbAndroidLogger-1.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-30-run-202/McpAdbAndroidLogger-1.8.apk",
   "apkSize": 24762225,
-  "sha256": "1576d203b808487328d7c9c976f6475943cd1e44ad10879e0b55112c2d8c51a3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-24-run-197",
+  "sha256": "ccc229bd331bc752e1820f0f3571a7a5bfef3441c95c2abd519245eb28696d64",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-30-run-202",
   "notes": [
+    "Shut down MCP worker pool on Stop/Quit and recreate cleanly on restart",
+    "Prevent new service requests from racing Quit; stop unconditionally after cleanup",
+    "Bound accepted MCP clients to prevent socket and worker queue exhaustion",
+    "Complete ADB Quit before Service teardown; clean tunnel process on restart",
+    "Track and close local MCP client sockets across stop/restart",
     "Use rounded Material 3 search field in Logcat application picker",
     "Consolidate Logcat filters and modernize Filters/Storage Material 3 controls",
     "Validate restored Logcat search, quick filters and visible list order",
     "Fix Logcat pager layout overlap and restore visible log list",
-    "Update compact Logcat contract for swipeable pager and tab history",
-    "Enable Home-style swipe and Back navigation across Logcat tabs",
-    "Fix Kotlin escaped quote literals in MCP audit UI contract tests",
-    "Update MCP audit UI contract tests for compact filters and overflow actions",
-    "Compact MCP audits UI with aligned filters and overflow actions",
-    "ui: show MCP source badges during on-demand log and performance reads"
+    "Update compact Logcat contract for swipeable pager and tab history"
   ]
 }
