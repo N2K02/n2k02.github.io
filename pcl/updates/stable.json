@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pcl-v6.0",
-  "versionName": "6.0",
-  "versionCode": 100551,
-  "apkName": "PCL-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.0/PCL-6.0.apk",
+  "tag": "pcl-v6.1",
+  "versionName": "6.1",
+  "versionCode": 100556,
+  "apkName": "PCL-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.1/PCL-6.1.apk",
   "apkSize": 1521934,
-  "sha256": "67fdfbe7b32cf38d4b0c4f32a83cb4f679be51801cc55667312d910a194b5d6f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.0",
+  "sha256": "593b76ab579a779e9750c60dc4432da827f5ac78a6cfac1d33781c81a6f372de",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.1",
   "notes": [
-    "Experimental: SIM-only PCL with crash-safe history, correlated call control and secure incoming UI (#64)",
-    "Bump the all-dependencies group with 6 updates (#67)"
+    "ci: automatically delete merged PR branches (#68)"
   ]
 }
