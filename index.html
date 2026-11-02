@@ -16,7 +16,14 @@
     .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;flex-wrap:wrap;margin-bottom:24px}.section-head h2{font-size:1.7rem;letter-spacing:-.04em;margin:0}.section-head p{margin:4px 0 0;color:var(--muted);font-size:.94rem}.search{background:#111b2b;color:var(--text);border:1px solid var(--line);border-radius:12px;padding:12px 15px;font:inherit;width:min(100%,300px)}.search::placeholder{color:#8c9bb2}
     .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-bottom:35px}.card[hidden]{display:none!important}.card{display:flex;flex-direction:column;gap:13px;min-height:245px;padding:25px;background:linear-gradient(150deg,#17243a,#101a2b 80%);border:1px solid var(--line);border-radius:20px;position:relative;overflow:hidden}.card:before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent);opacity:.65}.card h3{font-size:1.2rem;letter-spacing:-.025em;line-height:1.35;margin:0}.card p{color:var(--muted);font-size:.94rem;margin:0;flex:1}.status{font-size:.73rem;font-weight:800;letter-spacing:.065em;text-transform:uppercase;color:var(--mint)}.links{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:auto;padding-top:18px;border-top:1px solid var(--line)}.links a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 12px;border-radius:12px;text-align:center;font-size:.86rem;font-weight:750;line-height:1.3;text-decoration:none;border:1px solid #3b506f;background:#1b2b44;color:#deebff;transition:background .18s,border-color .18s,transform .18s}.links a:first-child:hover{background:#263c5b;border-color:#7096c7}.links a:last-child{background:linear-gradient(110deg,#89b9ff,#73e0c1);border-color:transparent;color:#091927}.links a:last-child:hover{filter:brightness(1.08)}.links a:active{transform:translateY(1px)}.links a:focus-visible{outline:3px solid var(--mint);outline-offset:3px}@media(max-width:360px){.links{grid-template-columns:1fr}}.note{padding:18px 20px;margin:0 0 52px;border:1px solid var(--line);border-radius:14px;color:var(--muted);background:#111b2a;font-size:.9rem}footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:.9rem}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}footer a{text-decoration:none;color:var(--accent)}.empty{display:none;color:var(--muted);padding:20px 0}
     @media(max-width:900px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}header.hero{padding:55px 0}}@media(max-width:600px){.wrap{width:min(100% - 28px,1160px)}.grid{grid-template-columns:1fr}.card{min-height:0;padding:22px}.section-head{align-items:stretch}.search{width:100%}header.hero{padding:42px 0 50px}.topbar{padding:18px 0}}@media(prefers-reduced-motion:no-preference){.card{transition:transform .2s,border-color .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);border-color:#4b6c95;box-shadow:0 18px 45px #0003}.button{transition:filter .2s}}
-  .card .features{margin:15px 0 20px;padding-left:20px;color:var(--muted);font-size:.94rem;line-height:1.65}.card .features li{padding-left:3px;margin:6px 0}.card .features li::marker{color:var(--mint)}.app-brand{display:flex;align-items:center;gap:14px;margin:10px 0 14px}.app-brand img{width:56px;height:56px;object-fit:contain;flex:none;border-radius:13px;background:#ffffff0a;padding:5px}.app-brand h3{margin:0!important} </style>
+  .card .features{margin:15px 0 20px;padding-left:20px;color:var(--muted);font-size:.94rem;line-height:1.65}.card .features li{padding-left:3px;margin:6px 0}.card .features li::marker{color:var(--mint)}.app-brand{display:flex;align-items:center;gap:14px;margin:10px 0 14px}.app-brand img{width:56px;height:56px;object-fit:contain;flex:none;border-radius:13px;background:#ffffff0a;padding:5px}.app-brand h3{margin:0!important} 
+    .card{background:radial-gradient(ellipse at 100% 0,color-mix(in srgb,var(--card-accent) 12%,transparent),transparent 58%),linear-gradient(150deg,#17243a,#101a2b 80%)}
+    .card:before{background:linear-gradient(90deg,var(--card-accent),var(--card-accent-2),transparent);opacity:.9}
+    .card .status{color:var(--card-accent)}.card .features li::marker{color:var(--card-accent)}
+    .card .links a:last-child{background:linear-gradient(110deg,var(--card-accent),var(--card-accent-2));border-color:transparent;color:#09131e}
+    .card .links a:first-child{border-color:color-mix(in srgb,var(--card-accent) 35%,#3b506f)}
+    .card .links a:first-child:hover{border-color:var(--card-accent)}
+</style>
 </head>
 <body>
   <nav class="topbar wrap" aria-label="Main navigation"><a class="brand" href="/">N2K<span>02.</span></a><a class="navlink" href="#projects">Browse apps ↓</a></nav>
@@ -29,52 +36,90 @@
   <main class="wrap">
     <div class="section-head"><div><h2>Android apps</h2><p>Explore the Android APK collection.</p></div><input id="project-search" class="search" type="search" placeholder="Search projects…" aria-label="Search projects" autocomplete="off"></div>
     <section id="projects" class="grid" aria-label="Projects">
-      
-      
-      <article class="card">
-        <div class="status">Camera utility</div><div class="app-brand"><img src="/assets/app-icons/bcam.svg" alt="BCam app icon" width="56" height="56" loading="lazy"><h3>BCam</h3></div>
-        <ul class="features"><li>Background video recording</li><li>Front and rear camera options</li><li>Notification recording controls</li></ul>
-        
-              <div class="links"><a href="/bcam/">Explore BCam</a><a href="/bcam/download/">Download APK</a></div>
-      </article>
-      
-      <article class="card">
-        <div class="status">Android overlay utility</div><div class="app-brand"><img src="/assets/app-icons/pbar.svg" alt="PBar — Floating Progress Bar app icon" width="56" height="56" loading="lazy"><h3>PBar — Floating Progress Bar</h3></div>
-        <ul class="features"><li>Floating media and timer progress</li><li>Custom position, size and colors</li><li>Per-app display preferences</li></ul>
-        <div class="links"><a href="/pbar/">Explore PBar</a><a href="/pbar/download/">Download APK</a></div>
-      </article>
-      <article class="card">
-        <div class="status">Network utility</div><div class="app-brand"><img src="/assets/app-icons/netspeed.svg" alt="NetSpeed app icon" width="56" height="56" loading="lazy"><h3>NetSpeed</h3></div>
-        <ul class="features"><li>Live download and upload speed</li><li>Android status-bar display</li><li>Phone-wide network activity</li></ul>
-        
-              <div class="links"><a href="/netspeed/">Explore NetSpeed</a><a href="/netspeed/download/">Download APK</a></div>
-      </article>
-      <article class="card">
-        <div class="status">Radio and Android Auto</div><div class="app-brand"><img src="/assets/app-icons/mradio.svg" alt="MRadio app icon" width="56" height="56" loading="lazy"><h3>MRadio</h3></div>
-        <ul class="features"><li>Mauritius and worldwide stations</li><li>Android Auto support</li><li>Live online radio playback</li></ul>
-        <div class="links"><a href="/mradio/">Explore mRadio</a><a href="/mradio/download/">Download APK</a></div>
-      </article>
-      <article class="card">
-        <div class="status">Earbud utility</div><div class="app-brand"><img src="/assets/app-icons/hfreebuds.svg" alt="HFreebuds app icon" width="56" height="56" loading="lazy"><h3>HFreebuds</h3></div>
-        <ul class="features"><li>Huawei FreeBuds controls</li><li>Supported earbud settings</li><li>Android companion interface</li></ul>
-        
-              <div class="links"><a href="/hfreebuds/?site=20261022">Explore HFreebuds</a><a href="/hfreebuds/download/">Download APK</a></div>
-      </article>
-      <article class="card">
-        <div class="status">Network diagnostics</div><div class="app-brand"><img src="/assets/app-icons/speedtester.svg" alt="SpeedTester app icon" width="56" height="56" loading="lazy"><h3>SpeedTester</h3></div>
-        <ul class="features"><li>Download and upload speed tests</li><li>Latency, jitter and Wi-Fi details</li><li>Saved test results</li></ul>
-        <div class="links"><a href="/speedtester/">Explore SpeedTester</a><a href="/speedtester/download/">Download APK</a></div>
-      </article>
-      
-      
-      <article class="card">
-        <div class="status">YouTube and Android Auto</div><div class="app-brand"><img src="/assets/app-icons/aayoutube.svg" alt="AAYoutube app icon" width="56" height="56" loading="lazy"><h3>AAYoutube</h3></div>
+      <article class="card" style="--card-accent:#B39DFF;--card-accent-2:#6ACBFF">
+        <div class="status">YouTube and Android Auto</div>
+        <div class="app-brand"><img src="/assets/app-icons/aayoutube.svg" alt="AAYoutube app icon" width="56" height="56" loading="lazy"><h3>AAYoutube</h3></div>
         <ul class="features"><li>YouTube WebView playback</li><li>Android media integration</li><li>Experimental Android Auto audio</li></ul>
-        
-              <div class="links"><a href="/aayoutube/">Explore AAYoutube</a><a href="/aayoutube/download/">Download APK</a></div>
+        <div class="links"><a href="/aayoutube/">App details</a><a href="/aayoutube/download/">Download latest APK</a></div>
       </article>
-      
-      
+      <article class="card" style="--card-accent:#FFB36B;--card-accent-2:#FF6F91">
+        <div class="status">Camera utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/bcam.svg" alt="BCam app icon" width="56" height="56" loading="lazy"><h3>BCam</h3></div>
+        <ul class="features"><li>Background video recording</li><li>Front and rear camera options</li><li>Notification recording controls</li></ul>
+        <div class="links"><a href="/bcam/">App details</a><a href="/bcam/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#7CE5A2;--card-accent-2:#F4D35E">
+        <div class="status">Battery widget</div>
+        <div class="app-brand"><img src="/assets/app-icons/chargewatt.svg" alt="ChargeWatt app icon" width="56" height="56" loading="lazy"><h3>ChargeWatt</h3></div>
+        <ul class="features"><li>Charging and discharging at a glance</li><li>Battery-side watts, current and voltage</li><li>Compact home-screen widget</li></ul>
+        <div class="links"><a href="/chargewatt/">App details</a><a href="/chargewatt/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#69DBD0;--card-accent-2:#A4ED87">
+        <div class="status">Earbud utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/hfreebuds.svg" alt="HFreebuds app icon" width="56" height="56" loading="lazy"><h3>HFreebuds</h3></div>
+        <ul class="features"><li>Huawei FreeBuds controls</li><li>Supported earbud settings</li><li>Android companion interface</li></ul>
+        <div class="links"><a href="/hfreebuds/">App details</a><a href="/hfreebuds/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#A78BFA;--card-accent-2:#54D6C8">
+        <div class="status">Android developer utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/localadb.svg" alt="LocalAdb app icon" width="56" height="56" loading="lazy"><h3>LocalAdb</h3></div>
+        <ul class="features"><li>On-device ADB command console</li><li>Shizuku-compatible manager</li><li>App and permission management</li></ul>
+        <div class="links"><a href="/localadb/">App details</a><a href="/localadb/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#5AD5F2;--card-accent-2:#93A3FF">
+        <div class="status">Android developer utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/mcpadbandroidlogger.svg" alt="MCP ADB Android Logger app icon" width="56" height="56" loading="lazy"><h3>MCP ADB Android Logger</h3></div>
+        <ul class="features"><li>On-device Android Logcat viewer</li><li>Search and filter system logs</li><li>Read-only MCP bridge</li></ul>
+        <div class="links"><a href="/mcpadbandroidlogger/">App details</a><a href="/mcpadbandroidlogger/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#FF7FA8;--card-accent-2:#FFBA7A">
+        <div class="status">Watch-party app</div>
+        <div class="app-brand"><img src="/assets/app-icons/movietogether.svg" alt="MovieTogether app icon" width="56" height="56" loading="lazy"><h3>MovieTogether</h3></div>
+        <ul class="features"><li>Host a movie from your phone</li><li>Invite guests on reachable networks</li><li>Shared playback controls and chat</li></ul>
+        <div class="links"><a href="/movietogether/">App details</a><a href="/movietogether/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#74E2C0;--card-accent-2:#91B8FF">
+        <div class="status">Radio and Android Auto</div>
+        <div class="app-brand"><img src="/assets/app-icons/mradio.svg" alt="MRadio app icon" width="56" height="56" loading="lazy"><h3>MRadio</h3></div>
+        <ul class="features"><li>Mauritius and worldwide stations</li><li>Android Auto support</li><li>Live online radio playback</li></ul>
+        <div class="links"><a href="/mradio/">App details</a><a href="/mradio/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#91DE72;--card-accent-2:#57C7FF">
+        <div class="status">Network utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/netspeed.svg" alt="NetSpeed app icon" width="56" height="56" loading="lazy"><h3>NetSpeed</h3></div>
+        <ul class="features"><li>Live download and upload speed</li><li>Android status-bar display</li><li>Phone-wide network activity</li></ul>
+        <div class="links"><a href="/netspeed/">App details</a><a href="/netspeed/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#75D9D1;--card-accent-2:#93B7FF">
+        <div class="status">Android overlay utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/pbar.svg" alt="PBar — Floating Progress Bar app icon" width="56" height="56" loading="lazy"><h3>PBar — Floating Progress Bar</h3></div>
+        <ul class="features"><li>Floating media and timer progress</li><li>Custom position, size and colors</li><li>Per-app display preferences</li></ul>
+        <div class="links"><a href="/pbar/">App details</a><a href="/pbar/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#82A6FF;--card-accent-2:#D098FF">
+        <div class="status">Bluetooth call companion</div>
+        <div class="app-brand"><img src="/assets/app-icons/pcl.svg" alt="PCL — Android Bluetooth Call Companion app icon" width="56" height="56" loading="lazy"><h3>PCL — Android Bluetooth Call Companion</h3></div>
+        <ul class="features"><li>Handle SIM calls from a nearby phone</li><li>Bluetooth connection to a gateway phone</li><li>Calls and audio stay on the SIM phone</li></ul>
+        <div class="links"><a href="/pcl/">App details</a><a href="/pcl/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#72B7FF;--card-accent-2:#A5F5D5">
+        <div class="status">TV casting utility</div>
+        <div class="app-brand"><img src="/assets/app-icons/pixelcast.svg" alt="PixelCast app icon" width="56" height="56" loading="lazy"><h3>PixelCast</h3></div>
+        <ul class="features"><li>Cast local media to DLNA TVs</li><li>TV discovery over Wi-Fi</li><li>Notification playback controls</li></ul>
+        <div class="links"><a href="/pixelcast/">App details</a><a href="/pixelcast/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#B6E84B;--card-accent-2:#13B8A6">
+        <div class="status">Network diagnostics</div>
+        <div class="app-brand"><img src="/assets/app-icons/speedtester.svg" alt="SpeedTester app icon" width="56" height="56" loading="lazy"><h3>SpeedTester</h3></div>
+        <ul class="features"><li>Download and upload speed tests</li><li>Latency, jitter and Wi-Fi details</li><li>Saved test results</li></ul>
+        <div class="links"><a href="/speedtester/">App details</a><a href="/speedtester/download/">Download latest APK</a></div>
+      </article>
+      <article class="card" style="--card-accent:#FF708A;--card-accent-2:#FFB36B">
+        <div class="status">Call recorder</div>
+        <div class="app-brand"><img src="/assets/app-icons/vrec.svg" alt="VRec app icon" width="56" height="56" loading="lazy"><h3>VRec</h3></div>
+        <ul class="features"><li>ADB-backed call recording</li><li>SIM and supported VoIP calls</li><li>Local recordings and call details</li></ul>
+        <div class="links"><a href="/vrec/">App details</a><a href="/vrec/download/">Download latest APK</a></div>
+      </article>
     </section>
     <p id="empty" class="empty" role="status">No projects match your search.</p>
     <div class="note">Downloads are available for apps with published APK releases. Experimental updates are offered only through supported apps.</div>
