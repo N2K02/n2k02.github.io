@@ -1,13 +1,13 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.8-build-59",
+  "tag": "v1.8",
   "versionName": "1.8",
   "versionCode": 100059,
   "apkName": "LocalAdb-1.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.8-build-59/LocalAdb-1.8.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v1.8/LocalAdb-1.8.apk",
   "apkSize": 18560908,
   "sha256": "b887761de21559a6477b8733b7a0ad4805402587a919b0515f0f99120c6babc6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.8-build-59",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v1.8",
   "notes": [
     "ci: remove completed one-time branch cleanup workflow",
     "ci: retain only latest stable/experimental APKs and build runs"
