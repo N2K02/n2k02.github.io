@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v4.3",
-  "versionName": "4.3",
-  "versionCode": 100137,
-  "apkName": "PixelCast-4.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.3/PixelCast-4.3.apk",
+  "tag": "pixelcast-v4.4",
+  "versionName": "4.4",
+  "versionCode": 100143,
+  "apkName": "PixelCast-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.4/PixelCast-4.4.apk",
   "apkSize": 1282128,
-  "sha256": "2ae006129e147e243c70fcdf9285809aa904398ec5724be128df53ff161a6295",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.3",
+  "sha256": "aaa900846f4c38c0dc6496081fb0bebf36bb79a71fea549a6e602bcfa3994e9e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.4",
   "notes": [
-    "ci: group dependency upgrades in one weekly PR (#19)"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#20)"
   ]
 }
