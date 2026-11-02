@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-28-run-337",
-  "versionName": "5.6-experimental.337",
-  "versionCode": 100337,
-  "apkName": "MRadio-PR-28-5612d57.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-28-run-337/MRadio-PR-28-5612d57.apk",
+  "tag": "mradio-exp-pr-29-run-341",
+  "versionName": "5.7-experimental.341",
+  "versionCode": 100341,
+  "apkName": "MRadio-PR-29-dec5b0f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-29-run-341/MRadio-PR-29-dec5b0f.apk",
   "apkSize": 24360574,
-  "sha256": "59103192d8b568255627c491edf3501cf028a981d9d8265c26d5808ba706b914",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-28-run-337",
+  "sha256": "0559fa6c8aa24ca0b098c0df0398f4d493a4c46b38ed80a3b66a339e6b84e4ef",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-29-run-341",
   "notes": [
-    "perf: avoid identical custom media notification rebuilds"
+    "ci: automatically merge dependency updates only after every CI check passes",
+    "ci: include all Gradle dependencies in weekly grouped updates",
+    "ci: group Dependabot updates into one weekly PR"
   ]
 }
