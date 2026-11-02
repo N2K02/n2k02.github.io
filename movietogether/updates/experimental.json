@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-19-run-105",
-  "versionName": "2.3-experimental.105",
-  "versionCode": 100105,
-  "apkName": "MovieTogether-PR-19-ffb489f.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-19-run-105/MovieTogether-PR-19-ffb489f.apk",
+  "tag": "experimental-pr-21-run-114",
+  "versionName": "2.8-experimental.114",
+  "versionCode": 100114,
+  "apkName": "MovieTogether-PR-21-077394d.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-21-run-114/MovieTogether-PR-21-077394d.apk",
   "apkSize": 26048576,
-  "sha256": "7df480bbcaa64da0a2e4d0bf34ace2b61d09dfc6b02b343c4969bbe6737f27d7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-19-run-105",
+  "sha256": "c789abd38b5a677ad9d80f1dee3cec208c2fc935bdfcf05f37eae4dac3db1f1b",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-21-run-114",
   "notes": [
-    "fix(ci): grant PR read permission to merged branch cleanup",
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry",
+    "fix: publish update feeds through pull requests (#20)",
+    "ci: remove completed one-time branch cleanup workflow",
+    "ci: retain only latest stable/experimental APKs and build runs",
+    "ci: run one-time cleanup of all non-main branches",
+    "fix(ci): grant PR read permission to merged branch cleanup (#19)",
     "ci: delete merged PR branches safely (#18)",
     "ci: require strict green checks for Dependabot merges (#17)",
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#14)",
-    "ci: group all Dependabot version updates into one PR",
-    "perf: suspend playback synchronization while room is paused (#12)",
-    "refactor: remove in-app Logs page and on-disk diagnostics",
-    "Align shared public version checks and protect existing release versions",
-    "Experimental: persistent random nickname on first launch (#10)",
-    "Add minimized playback PiP and Android conversation chat bubbles"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#14)"
   ]
 }
