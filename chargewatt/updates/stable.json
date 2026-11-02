@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "chargewatt-v1.1-build-56",
-  "versionName": "1.1",
-  "versionCode": 100056,
-  "apkName": "ChargeWatt-1.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/chargewatt-v1.1-build-56/ChargeWatt-1.1.apk",
+  "tag": "chargewatt-v1.2-build-57",
+  "versionName": "1.2",
+  "versionCode": 100057,
+  "apkName": "ChargeWatt-1.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/chargewatt-v1.2-build-57/ChargeWatt-1.2.apk",
   "apkSize": 1315719,
-  "sha256": "ab338bd751c71324f7a0229530d90fe3258ea3af09549ca618b2fc04f7d298d2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/chargewatt-v1.1-build-56",
+  "sha256": "df0ab5016302e016e1255d7a67f26a7de13f043c7888ebff0a51c9dd41b58cc1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/chargewatt-v1.2-build-57",
   "notes": [
-    "Experimental: improve USB/Qi detection and optional notification-free floating meter (#5)",
-    "ci: automatically delete merged PR branches (#3)"
+    "ci: run one-time cleanup of all non-main branches"
   ]
 }
