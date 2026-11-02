@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-24-run-189",
+  "tag": "bcam-experimental-pr-26-run-193",
   "versionName": "4.7",
-  "versionCode": 100189,
+  "versionCode": 100193,
   "apkName": "BCam-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-24-run-189/BCam-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-26-run-193/BCam-4.7.apk",
   "apkSize": 19578620,
-  "sha256": "feb3745ede2ada3aa5456f6c07308a64764975001abbfd3cfcdbb04768436070",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-24-run-189",
+  "sha256": "c5af1df8de4effe739581f52e42a4807c8be5a356234d263e5f248f5dface848",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-26-run-193",
   "notes": [
-    "ci: green-only automatic dependency PR merge"
+    "ci: poll and merge only fully green Dependabot PRs",
+    "ci: automatically merge green Dependabot PRs"
   ]
 }
