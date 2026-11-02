@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v5.3",
-  "versionName": "5.3",
-  "versionCode": 100160,
-  "apkName": "HFreebuds-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.3/HFreebuds-5.3.apk",
+  "tag": "hfreebuds-v5.4",
+  "versionName": "5.4",
+  "versionCode": 100162,
+  "apkName": "HFreebuds-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.4/HFreebuds-5.4.apk",
   "apkSize": 1400462,
-  "sha256": "a966354afb899183de516dd47aae77564d0f317bae1547f656fa26c0c4695202",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.3",
+  "sha256": "5d5e0cb267f6fcf1fb69f55d04ec10efc0e5377d60785639c8ff5ab33e800511",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.4",
   "notes": [
-    "ci: standardize strict green-only Dependabot auto-merge (#24)"
+    "ci: delete merged PR branches safely (#25)"
   ]
 }
