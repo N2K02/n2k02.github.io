@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v2.1",
-  "versionName": "2.1",
-  "versionCode": 100219,
-  "apkName": "McpAdbAndroidLogger-2.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.1/McpAdbAndroidLogger-2.1.apk",
+  "tag": "mcpadbandroidlogger-v2.2",
+  "versionName": "2.2",
+  "versionCode": 100224,
+  "apkName": "McpAdbAndroidLogger-2.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.2/McpAdbAndroidLogger-2.2.apk",
   "apkSize": 24786801,
-  "sha256": "590b8050809caba69379664f498575c72f94227590d975a6965868935ce19dcf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.1",
+  "sha256": "3ddb80d0958470236eea50dbd24ffc3b06a08e45a2d90f95a33efaecee90b062",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.2",
   "notes": [
+    "fix(adb): match VRec connection settings and recover authorized TCP sessions (#35)",
     "ci: require strict green checks for Dependabot merges (#33)",
     "build(deps): consolidate all five pending upgrades and future Dependabot PRs (#31)",
     "Fix Wrangler Preview TOML table declaration and Durable Object binding",
@@ -17,7 +18,6 @@
     "Retire failed ADB socket on shell timeout before any retry",
     "Isolate disposable ADB session keys from persistent authorized identity",
     "Use libadb socket-only disconnect and reuse healthy verified ADB sessions",
-    "ci: group Dependabot updates across all package ecosystems",
-    "Shut down MCP worker pool on Stop/Quit and recreate cleanly on restart"
+    "ci: group Dependabot updates across all package ecosystems"
   ]
 }
