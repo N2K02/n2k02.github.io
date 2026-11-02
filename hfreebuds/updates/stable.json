@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v5.5",
-  "versionName": "5.5",
-  "versionCode": 100165,
-  "apkName": "HFreebuds-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.5/HFreebuds-5.5.apk",
+  "tag": "hfreebuds-v5.6",
+  "versionName": "5.6",
+  "versionCode": 100167,
+  "apkName": "HFreebuds-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.6/HFreebuds-5.6.apk",
   "apkSize": 1400462,
-  "sha256": "c85d58bd62b1092971be4f0bede33f96c45ca83853723ccd8fb6af240919fd79",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.5",
+  "sha256": "1a7e77770a4d27c4942f0d0ac849453753d91028e9f05867c9ba3c18399dea21",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.6",
   "notes": [
-    "ci: add one-time non-main branch cleanup (#27)"
+    "ci: retain latest APK releases and workflow runs (#28)"
   ]
 }
