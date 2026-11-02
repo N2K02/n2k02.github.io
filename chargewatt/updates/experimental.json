@@ -1,0 +1,14 @@
+{
+  "channel": "experimental",
+  "tag": "chargewatt-exp-pr-1-run-20",
+  "versionName": "1.0-experimental.20",
+  "versionCode": 100020,
+  "apkName": "ChargeWatt-PR-1-71480fb.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/chargewatt-exp-pr-1-run-20/ChargeWatt-PR-1-71480fb.apk",
+  "apkSize": 1299391,
+  "sha256": "4bfd32abfdfd704f331698c028e377b3ecbd7a627f353396e9ff8f7d13558f0b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/chargewatt-exp-pr-1-run-20",
+  "notes": [
+    "Experimental test APK. Not intended for general download."
+  ]
+}
