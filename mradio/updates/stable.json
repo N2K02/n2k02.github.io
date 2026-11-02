@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mradio-v6.1-build-350",
-  "versionName": "6.1",
-  "versionCode": 100350,
-  "apkName": "MRadio-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v6.1-build-350/MRadio-6.1.apk",
+  "tag": "mradio-v6.2-build-354",
+  "versionName": "6.2",
+  "versionCode": 100354,
+  "apkName": "MRadio-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v6.2-build-354/MRadio-6.2.apk",
   "apkSize": 2827163,
-  "sha256": "7981dc230fa953040b2ba868241d0d406f7dd1755ed92c2888e09901289e7233",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v6.1-build-350",
+  "sha256": "9198bfd1eb939979f8dc678abfd5bb802d97c7c69effe8918131c5f2820ee1bb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v6.2-build-354",
   "notes": [
-    "ci: add one-time non-main branch cleanup (#34)"
+    "ci: remove finished one-time branch cleanup workflow (#36)",
+    "ci: retain latest APK releases and workflow runs (#35)"
   ]
 }
