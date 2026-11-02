@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-31-run-344",
-  "versionName": "5.8-experimental.344",
-  "versionCode": 100344,
-  "apkName": "MRadio-PR-31-17856b8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-31-run-344/MRadio-PR-31-17856b8.apk",
+  "tag": "mradio-exp-pr-32-run-346",
+  "versionName": "5.9-experimental.346",
+  "versionCode": 100346,
+  "apkName": "MRadio-PR-32-032fa0f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-32-run-346/MRadio-PR-32-032fa0f.apk",
   "apkSize": 24360574,
-  "sha256": "dfab8105a910190ac56b38cbf8ec03ff5cfc189669c2ba8801e0c4b5e874af0f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-31-run-344",
+  "sha256": "b564535de6a6b1f597cb3729a07977b3b7054406c421da089087a4901683ec58",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-32-run-346",
   "notes": [
-    "ci: require strict green checks for Dependabot merges",
-    "ci: enforce strict successful checks before Dependabot squash merge"
+    "ci: delete merged PR branches safely"
   ]
 }
