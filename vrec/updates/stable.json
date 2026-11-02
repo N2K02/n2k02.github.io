@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.7",
-  "versionName": "5.7",
-  "versionCode": 100966,
-  "apkName": "VREC-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.7/VREC-5.7.apk",
+  "tag": "vrec-v5.8",
+  "versionName": "5.8",
+  "versionCode": 100969,
+  "apkName": "VREC-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.8/VREC-5.8.apk",
   "apkSize": 13920312,
-  "sha256": "ab5b2d15c2728f422a26dddf1d0464b37787aa7eefa27e622e31d08d43950ebe",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.7",
+  "sha256": "e55fc0f116a8885c2ef29c2ff55b5883114b4b4e8866bd2e1ce2de18508b7db3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.8",
   "notes": [
-    "ci: delete merged PR branches safely (#57)"
+    "ci: add one-time non-main branch cleanup (#59)"
   ]
 }
