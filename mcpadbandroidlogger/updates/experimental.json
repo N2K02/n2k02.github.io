@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-30-run-213",
+  "tag": "mcpadbandroidlogger-experimental-pr-30-run-215",
   "versionName": "1.9",
-  "versionCode": 100213,
+  "versionCode": 100215,
   "apkName": "McpAdbAndroidLogger-1.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-30-run-213/McpAdbAndroidLogger-1.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-30-run-215/McpAdbAndroidLogger-1.9.apk",
   "apkSize": 24762225,
-  "sha256": "63cd0c1668a58a8835c14b2200f7ad1282d81d8e194aa6302939473979423e7d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-30-run-213",
+  "sha256": "3d5f9eeae514edb9b32f4dc1646634ed2d8f4cf2cd10ed007df57b027ed15685",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-30-run-215",
   "notes": [
+    "Fix Wrangler Preview TOML table declaration and Durable Object binding",
+    "Configure isolated Cloudflare Worker Previews and test Durable Object bindings",
     "Standardize disposable ADB session key and document cross-app lifecycle parity",
     "Retire failed ADB socket on shell timeout before any retry",
     "Isolate disposable ADB session keys from persistent authorized identity",
@@ -16,8 +18,6 @@
     "ci: group Dependabot updates across all package ecosystems",
     "Shut down MCP worker pool on Stop/Quit and recreate cleanly on restart",
     "Prevent new service requests from racing Quit; stop unconditionally after cleanup",
-    "Bound accepted MCP clients to prevent socket and worker queue exhaustion",
-    "Complete ADB Quit before Service teardown; clean tunnel process on restart",
-    "Track and close local MCP client sockets across stop/restart"
+    "Bound accepted MCP clients to prevent socket and worker queue exhaustion"
   ]
 }
