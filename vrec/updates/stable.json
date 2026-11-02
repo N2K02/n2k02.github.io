@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "vrec-v5.2",
-  "versionName": "5.2",
-  "versionCode": 100951,
-  "apkName": "VREC-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.2/VREC-5.2.apk",
+  "tag": "vrec-v5.3",
+  "versionName": "5.3",
+  "versionCode": 100953,
+  "apkName": "VREC-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-v5.3/VREC-5.3.apk",
   "apkSize": 13920312,
-  "sha256": "c9bdb23329dfd309f6cc2f49cd0f0aac47c30ad4879f99f49f3c2f7674af0594",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.2",
+  "sha256": "4918a8abb9fc5108166550745d1f72a317b4ee9b76bc36ce452e820eaf0b5e83",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-v5.3",
   "notes": [
-    "Experimental: reduce VRec live-call shell round trips (#49)"
+    "ci: group updates in one weekly Dependabot PR (#50)"
   ]
 }
