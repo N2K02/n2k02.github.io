@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-26-run-147",
-  "versionName": "4.7",
-  "versionCode": 100147,
-  "apkName": "NetSpeed-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-26-run-147/NetSpeed-4.7.apk",
+  "tag": "netspeed-experimental-pr-27-run-149",
+  "versionName": "4.8",
+  "versionCode": 100149,
+  "apkName": "NetSpeed-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-27-run-149/NetSpeed-4.8.apk",
   "apkSize": 19557714,
-  "sha256": "420b197793d27ea7447ec3a44ca537467925c52a111184be07584268e33bee16",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-26-run-147",
+  "sha256": "6dcb5ae46fe71d5cce250e0a2827bd7894cbead9cd8b6a8ca97847ae8df75fa2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-27-run-149",
   "notes": [
-    "ci: authenticate private Maven dependencies in Dependabot",
-    "ci: group all Dependabot upgrades into one weekly PR"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
   ]
 }
