@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-12-run-92",
-  "versionName": "1.9-experimental.92",
-  "versionCode": 100092,
-  "apkName": "MovieTogether-PR-12-22d2c4c.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-12-run-92/MovieTogether-PR-12-22d2c4c.apk",
+  "tag": "movietogether-experimental-pr-13-run-95",
+  "versionName": "2.0-experimental.95",
+  "versionCode": 100095,
+  "apkName": "MovieTogether-PR-13-45eb9ab.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-13-run-95/MovieTogether-PR-13-45eb9ab.apk",
   "apkSize": 26048576,
-  "sha256": "b4380f53ec02f8614e1e9905511ad4df95aa91ea20aae3f2c36eb809221cba19",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-12-run-92",
+  "sha256": "e2a5a1a098b72557b42fbc594f953d85e2f14478efffcc2144ca6bfcf6a92494",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-13-run-95",
   "notes": [
-    "perf: suspend playback synchronization while room is paused",
+    "ci: authenticate private Maven dependencies in Dependabot",
+    "ci: group all Dependabot upgrades into one weekly PR",
+    "perf: suspend playback synchronization while room is paused (#12)",
     "refactor: remove in-app Logs page and on-disk diagnostics",
     "Align shared public version checks and protect existing release versions",
     "Experimental: persistent random nickname on first launch (#10)",
     "Add minimized playback PiP and Android conversation chat bubbles",
     "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
     "Add shared pause attribution, in-player chat bubble and leave/rejoin flows",
-    "Align MovieTogether header brand with UI regression contract",
-    "Fix Android CI compile/lint issue in Quit navigation",
-    "Prevent regressions removing bottom Quit or restoring old settings modal"
+    "Align MovieTogether header brand with UI regression contract"
   ]
 }
