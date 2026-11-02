@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-24-run-159",
-  "versionName": "5.3",
-  "versionCode": 100159,
-  "apkName": "HFreebuds-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-24-run-159/HFreebuds-5.3.apk",
+  "tag": "hfreebuds-experimental-pr-25-run-161",
+  "versionName": "5.4",
+  "versionCode": 100161,
+  "apkName": "HFreebuds-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-25-run-161/HFreebuds-5.4.apk",
   "apkSize": 19787083,
-  "sha256": "4199722dea1bff1f5789a4a802ce4ddf932c223ecca7f800c32b0ef8ddd8eac1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-24-run-159",
+  "sha256": "faf86e0f5071689f5b2e51320efb1c9dcf4a578b77772cea3643e1ea3b4b1365",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-25-run-161",
   "notes": [
-    "ci: require strict green checks for Dependabot merges",
-    "ci: enforce strict successful checks before Dependabot squash merge"
+    "ci: delete merged PR branches safely"
   ]
 }
