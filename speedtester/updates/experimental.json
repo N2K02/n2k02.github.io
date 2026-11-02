@@ -1,16 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-40-run-273",
+  "tag": "speedtester-experimental-pr-40-run-285",
   "versionName": "8.7",
-  "versionCode": 100273,
+  "versionCode": 100285,
   "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-273/SpeedTester-8.7.apk",
-  "apkSize": 21657167,
-  "sha256": "c6e27f540fab3c90aefbce72b94aec617f73cb84c706e2d0da716158a9a547e4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-273",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-285/SpeedTester-8.7.apk",
+  "apkSize": 21673551,
+  "sha256": "e0ef4a27f55f4789a4bf901f66ebacc06c91d4c5f552dcce73d903dba4c1862c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-285",
   "notes": [
-    "feat: Network Quality page, connection diagnostics and service endpoint checks",
-    "perf: bounded network testing and network-polling optimization",
-    "test: automated coverage for quality logic and lifecycle"
+    "fix: cancel probes and invalidate results on network changes",
+    "fix: score connectivity without penalizing third-party website restrictions",
+    "ui: improve network quality diagnostics and unmeasured hop display",
+    "test: extended regression coverage"
   ]
 }
