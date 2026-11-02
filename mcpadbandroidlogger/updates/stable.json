@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v1.8",
-  "versionName": "1.8",
-  "versionCode": 100198,
-  "apkName": "McpAdbAndroidLogger-1.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.8/McpAdbAndroidLogger-1.8.apk",
+  "tag": "mcpadbandroidlogger-v1.9",
+  "versionName": "1.9",
+  "versionCode": 100206,
+  "apkName": "McpAdbAndroidLogger-1.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v1.9/McpAdbAndroidLogger-1.9.apk",
   "apkSize": 24762225,
-  "sha256": "3c163a981a32109e68d081e43a1b9b69d3c5d86898bd1cf3de9677cecd010e83",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.8",
+  "sha256": "3eaa1c2b0a14cb91b1c6041fb0dcfbd6452d8ec0eb1ebfc6b69581053ea5413a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v1.9",
   "notes": [
+    "ci: group Dependabot updates across all package ecosystems",
     "Use rounded Material 3 search field in Logcat application picker",
     "Consolidate Logcat filters and modernize Filters/Storage Material 3 controls",
     "Validate restored Logcat search, quick filters and visible list order",
@@ -17,7 +18,6 @@
     "Enable Home-style swipe and Back navigation across Logcat tabs",
     "Fix Kotlin escaped quote literals in MCP audit UI contract tests",
     "Update MCP audit UI contract tests for compact filters and overflow actions",
-    "Compact MCP audits UI with aligned filters and overflow actions",
-    "ui: show MCP source badges during on-demand log and performance reads"
+    "Compact MCP audits UI with aligned filters and overflow actions"
   ]
 }
