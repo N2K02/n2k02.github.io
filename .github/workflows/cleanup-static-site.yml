@@ -11,6 +11,11 @@ on:
           - preview
           - delete
         default: preview
+  push:
+    branches:
+      - main
+    paths:
+      - .cleanup-static-site-now
 
 permissions:
   contents: write
