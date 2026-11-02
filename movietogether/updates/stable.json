@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "movietogether-v2.3-build-102",
-  "versionName": "2.3",
-  "versionCode": 100102,
-  "apkName": "MovieTogether-2.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v2.3-build-102/MovieTogether-2.3.apk",
+  "tag": "movietogether-v2.4-build-104",
+  "versionName": "2.4",
+  "versionCode": 100104,
+  "apkName": "MovieTogether-2.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v2.4-build-104/MovieTogether-2.4.apk",
   "apkSize": 3445214,
-  "sha256": "b30c04bab8a77091511ff33e478ef964310c30fcdeea48a3c38ed7f29461dea6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v2.3-build-102",
+  "sha256": "2e1bab0d2f94e0db5cbdc3661f13ba36dd9cf6d5254c0ecb8482136fc2df47f2",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v2.4-build-104",
   "notes": [
+    "ci: delete merged PR branches safely (#18)",
     "ci: require strict green checks for Dependabot merges (#17)",
     "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#14)",
     "ci: group all Dependabot version updates into one PR",
@@ -17,7 +18,6 @@
     "Align shared public version checks and protect existing release versions",
     "Experimental: persistent random nickname on first launch (#10)",
     "Add minimized playback PiP and Android conversation chat bubbles",
-    "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
-    "Add shared pause attribution, in-player chat bubble and leave/rejoin flows"
+    "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs"
   ]
 }
