@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-46-run-173",
-  "versionName": "5.5",
-  "versionCode": 100173,
-  "apkName": "PBar-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-46-run-173/PBar-5.5.apk",
+  "tag": "pbar-experimental-pr-47-run-175",
+  "versionName": "5.6",
+  "versionCode": 100175,
+  "apkName": "PBar-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-47-run-175/PBar-5.6.apk",
   "apkSize": 19836376,
-  "sha256": "3112932af60686be486841e14ad08aa0614b7d27b58496c0365e437a84d454ff",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-46-run-173",
+  "sha256": "8530b00d4c0dc7fc6fd97b9bcdc3d19a9e804164d3ffadeec10716df4963b2bf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-47-run-175",
   "notes": [
-    "perf: stop progress redraws when Android screen turns off",
-    "perf: cap PBar continuous overlay redraw to 30 fps",
-    "perf: cap thin progress overlay redraws at 30 fps"
+    "ci: group all Dependabot upgrades into one weekly PR"
   ]
 }
