@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.6",
-  "versionName": "4.6",
-  "versionCode": 100145,
-  "apkName": "NetSpeed-4.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.6/NetSpeed-4.6.apk",
+  "tag": "netspeed-v4.7",
+  "versionName": "4.7",
+  "versionCode": 100148,
+  "apkName": "NetSpeed-4.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.7/NetSpeed-4.7.apk",
   "apkSize": 1207840,
-  "sha256": "6484dfcdedbd05bae435aa0467a63a62bfc1a7ca077d5c28d9c3db81dcb18f30",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.6",
+  "sha256": "9af36eb4b941ff2c75ea78cb4f360814cf5cb9d40017961356a56d6158eaf3d6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.7",
   "notes": [
-    "perf: skip unchanged network meter overlay redraws (#25)"
+    "ci: group dependency upgrades in one weekly PR (#26)"
   ]
 }
