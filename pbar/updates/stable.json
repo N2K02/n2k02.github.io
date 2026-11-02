@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pbar-v5.7",
-  "versionName": "5.7",
-  "versionCode": 100182,
-  "apkName": "PBar-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.7/PBar-5.7.apk",
+  "tag": "pbar-v5.8",
+  "versionName": "5.8",
+  "versionCode": 100184,
+  "apkName": "PBar-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-v5.8/PBar-5.8.apk",
   "apkSize": 1498757,
-  "sha256": "7ab8eee98e2bd76419b63b79d6217caff0eb77bddb30b1777be1d41d6aee9d62",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.7",
+  "sha256": "a2d3b731fe9cad80e7fa194314cfd92bd4efe0752c8640a1155ca84a85c9fd21",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-v5.8",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#48)"
+    "ci: standardize strict green-only Dependabot auto-merge (#51)"
   ]
 }
