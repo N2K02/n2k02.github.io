@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-26-run-163",
+  "tag": "hfreebuds-experimental-pr-27-run-164",
   "versionName": "5.5",
-  "versionCode": 100163,
+  "versionCode": 100164,
   "apkName": "HFreebuds-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-26-run-163/HFreebuds-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-27-run-164/HFreebuds-5.5.apk",
   "apkSize": 19787083,
-  "sha256": "74880e95d7b10ba464de5ba4ea6bc035798813ebddc37cdc4483e83b18388f17",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-26-run-163",
+  "sha256": "e133f4de5b2045111552fcd9981b6e55e1c912a212a32ac237346c70f387e831",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-27-run-164",
   "notes": [
-    "fix(ci): grant PR read access for safe merged-branch cleanup"
+    "ci: add one-time non-main branch cleanup"
   ]
 }
