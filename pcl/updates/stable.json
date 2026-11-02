@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "pcl-v5.9",
-  "versionName": "5.9",
-  "versionCode": 100549,
-  "apkName": "PCL-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v5.9/PCL-5.9.apk",
-  "apkSize": 19853573,
-  "sha256": "fe0348aba002f0d7af93d40dc36e07b28932d536170101f3544781b3bc8ae7a6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v5.9",
+  "tag": "pcl-v6.0",
+  "versionName": "6.0",
+  "versionCode": 100551,
+  "apkName": "PCL-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.0/PCL-6.0.apk",
+  "apkSize": 1521934,
+  "sha256": "67fdfbe7b32cf38d4b0c4f32a83cb4f679be51801cc55667312d910a194b5d6f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.0",
   "notes": [
-    "ci: group dependency upgrades in one weekly PR (#66)"
+    "Experimental: SIM-only PCL with crash-safe history, correlated call control and secure incoming UI (#64)",
+    "Bump the all-dependencies group with 6 updates (#67)"
   ]
 }
