@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-34-run-163",
-  "versionName": "5.3",
-  "versionCode": 100163,
-  "apkName": "NetSpeed-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-34-run-163/NetSpeed-5.3.apk",
+  "tag": "experimental-pr-36-run-169",
+  "versionName": "5.5-experimental.169",
+  "versionCode": 100169,
+  "apkName": "NetSpeed-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-36-run-169/NetSpeed-5.5.apk",
   "apkSize": 19557714,
-  "sha256": "d996b6fed4aba87c4931fb2eead30c7e6ea8a5f7a7187618e27ce935065eb5f0",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-34-run-163",
+  "sha256": "854d5b01f47bfbced2a27a1274d853aef7d65a1d76ab671ce0071e3229e10dba",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-36-run-169",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
