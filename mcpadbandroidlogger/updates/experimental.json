@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-24-run-186",
+  "tag": "mcpadbandroidlogger-experimental-pr-24-run-193",
   "versionName": "1.7",
-  "versionCode": 100186,
+  "versionCode": 100193,
   "apkName": "McpAdbAndroidLogger-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-24-run-186/McpAdbAndroidLogger-1.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-24-run-193/McpAdbAndroidLogger-1.7.apk",
   "apkSize": 24758129,
-  "sha256": "8b84372dd56425f1d7c5116a375abad7eab0aaf317bd53ddf1435087ac717c65",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-24-run-186",
+  "sha256": "a2a2dcccfde108fd421d63492aaceba2ba42f0c996920def328735b823562b8e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-24-run-193",
   "notes": [
+    "Update compact Logcat contract for swipeable pager and tab history",
+    "Enable Home-style swipe and Back navigation across Logcat tabs",
     "Fix Kotlin escaped quote literals in MCP audit UI contract tests",
     "Update MCP audit UI contract tests for compact filters and overflow actions",
     "Compact MCP audits UI with aligned filters and overflow actions",
@@ -16,8 +18,6 @@
     "test: match expanded Logcat metadata with new TID field",
     "fix: make Home on-demand logs card open Logs for manual refresh and latest MCP filters",
     "fix: sync latest MCP Logcat results and filters into Logs screen, repair JSON viewer build",
-    "feat: live Home badges, idle log eviction, compact logs and formatted MCP audit JSON",
-    "Fix Home tab swipes and Back navigation history (#23)",
-    "Polish portrait Home and Logcat UI; add daily MCP audit pruning (#22)"
+    "feat: live Home badges, idle log eviction, compact logs and formatted MCP audit JSON"
   ]
 }
