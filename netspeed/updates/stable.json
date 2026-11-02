@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "netspeed-v4.7",
-  "versionName": "4.7",
-  "versionCode": 100148,
-  "apkName": "NetSpeed-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.7/NetSpeed-4.7.apk",
+  "tag": "netspeed-v4.8",
+  "versionName": "4.8",
+  "versionCode": 100153,
+  "apkName": "NetSpeed-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-v4.8/NetSpeed-4.8.apk",
   "apkSize": 1207840,
-  "sha256": "9af36eb4b941ff2c75ea78cb4f360814cf5cb9d40017961356a56d6158eaf3d6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.7",
+  "sha256": "33495668de7c26426dc2d5dc0c5447975f5696d2df9efa3926958087786b09a1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-v4.8",
   "notes": [
-    "ci: group dependency upgrades in one weekly PR (#26)"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#27)"
   ]
 }
