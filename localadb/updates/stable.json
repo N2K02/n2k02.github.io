@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.5-build-52",
-  "versionName": "1.5",
-  "versionCode": 100052,
-  "apkName": "LocalAdb-1.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.5-build-52/LocalAdb-1.5.apk",
+  "tag": "localadb-v1.6-build-55",
+  "versionName": "1.6",
+  "versionCode": 100055,
+  "apkName": "LocalAdb-1.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.6-build-55/LocalAdb-1.6.apk",
   "apkSize": 18560908,
-  "sha256": "d981f66a5d5f4a983b9d14461331ae623dd167af31a5a9f1139820d902e44e15",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.5-build-52",
+  "sha256": "34602348a50ff79cc036437bf7771b6f6a28f9afadf9e4bd9e29a9e083820754",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.6-build-55",
   "notes": [
-    "ci: delete merged PR branches safely (#7)"
+    "fix(adb): align connection submenu with VRec and preserve recovery state (#8)"
   ]
 }
