@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-56-run-192",
-  "versionName": "6.2",
-  "versionCode": 100192,
-  "apkName": "PBar-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-56-run-192/PBar-6.2.apk",
+  "tag": "experimental-pr-58-run-198",
+  "versionName": "6.4-experimental.198",
+  "versionCode": 100198,
+  "apkName": "PBar-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-58-run-198/PBar-6.4.apk",
   "apkSize": 19836376,
-  "sha256": "60c9f10b19d976e23cbcfdbc4cd58291b6ced564df0eecb8fc9f89272fb2e316",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-56-run-192",
+  "sha256": "e684607c0d6cd3bb234c60342ea7bea66d712751b8e4af4457232c24a4d5be25",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-58-run-198",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
