@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v8.3",
-  "versionName": "8.3",
-  "versionCode": 100246,
-  "apkName": "SpeedTester-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.3/SpeedTester-8.3.apk",
+  "tag": "speedtester-v8.4",
+  "versionName": "8.4",
+  "versionCode": 100248,
+  "apkName": "SpeedTester-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.4/SpeedTester-8.4.apk",
   "apkSize": 1853128,
-  "sha256": "8671b1f226bdc2fd36ad6e2ee16106a3c2f1a3bd62c2d4065140ba9c3b3305ff",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.3",
+  "sha256": "06ee51be411bee2462d4b14376d6b8ba25521806eb683b236d61f5c8fc499b53",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.4",
   "notes": [
-    "ci: standardize strict green-only Dependabot auto-merge (#34)"
+    "ci: delete merged PR branches safely (#35)"
   ]
 }
