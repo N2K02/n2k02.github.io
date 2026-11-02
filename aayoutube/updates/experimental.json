@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-33-run-444",
-  "versionName": "7.1",
-  "versionCode": 100444,
-  "apkName": "AAYoutube-7.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-33-run-444/AAYoutube-7.1.apk",
+  "tag": "experimental-pr-36-run-451",
+  "versionName": "7.3-experimental.451",
+  "versionCode": 100451,
+  "apkName": "AAYoutube-7.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-36-run-451/AAYoutube-7.3.apk",
   "apkSize": 21264792,
-  "sha256": "418f03732e8ab561665044b6f6e6e380ed425a1ebf93afdf8f616fddd2f5e691",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-33-run-444",
+  "sha256": "f6cbd3af300866b1de13709e645e638ce67dc4afdc0e467c1c17495a96b7d237",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-36-run-451",
   "notes": [
-    "ci: finish one-time removal of all non-main branches"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
