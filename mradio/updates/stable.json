@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v6.0-build-347",
-  "versionName": "6.0",
-  "versionCode": 100347,
-  "apkName": "MRadio-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v6.0-build-347/MRadio-6.0.apk",
+  "tag": "mradio-v6.1-build-350",
+  "versionName": "6.1",
+  "versionCode": 100350,
+  "apkName": "MRadio-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v6.1-build-350/MRadio-6.1.apk",
   "apkSize": 2827163,
-  "sha256": "b0bd3b608836bb36a7b4ddd3af78bf4f19fa8b97606fe17a785e1a7edf259c27",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v6.0-build-347",
+  "sha256": "7981dc230fa953040b2ba868241d0d406f7dd1755ed92c2888e09901289e7233",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v6.1-build-350",
   "notes": [
-    "ci: delete merged PR branches safely (#32)"
+    "ci: add one-time non-main branch cleanup (#34)"
   ]
 }
