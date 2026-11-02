@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-34-run-221",
+  "tag": "mcpadbandroidlogger-experimental-pr-35-run-222",
   "versionName": "2.1",
-  "versionCode": 100221,
+  "versionCode": 100222,
   "apkName": "McpAdbAndroidLogger-2.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-34-run-221/McpAdbAndroidLogger-2.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-35-run-222/McpAdbAndroidLogger-2.1.apk",
   "apkSize": 24786801,
-  "sha256": "34c53adb6233fa7285aeeabb4aad6976f88ec3d57430910d81373f790290a487",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-34-run-221",
+  "sha256": "4d28337e4d7b407197862108204b9dcf5c24825b1e1ddd570828e2b74d8d5f15",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-35-run-222",
   "notes": [
-    "fix(ci): grant PR read access for safe branch cleanup",
-    "ci: delete merged PR branches safely",
-    "ci: require strict green checks for Dependabot merges (#33)",
-    "build(deps): consolidate all five pending upgrades and future Dependabot PRs (#31)",
-    "Fix Wrangler Preview TOML table declaration and Durable Object binding",
-    "Configure isolated Cloudflare Worker Previews and test Durable Object bindings",
-    "Standardize disposable ADB session key and document cross-app lifecycle parity",
-    "Retire failed ADB socket on shell timeout before any retry",
-    "Isolate disposable ADB session keys from persistent authorized identity",
-    "Use libadb socket-only disconnect and reuse healthy verified ADB sessions"
+    "test(adb): protect automatic TCP recovery and UID verification",
+    "test(adb): stale TLS and no-listener states retry automatically",
+    "test(ui): assert ADB pairing moved Home and VRec settings parity",
+    "fix(adb): permit previously authorized local TCP recovery after TLS failure",
+    "fix(adb): recover from stale TLS and verify TCP after daemon restart",
+    "fix(adb): do not misclassify stale network endpoints as revoked pairing",
+    "fix(adb): track healthy TCP and TLS sessions for watchdog reuse",
+    "ui: surface pairing and reconnect controls on Home",
+    "ui: keep Android ADB authorization on Home",
+    "ui: match VRec ADB settings and move setup to Home"
   ]
 }
