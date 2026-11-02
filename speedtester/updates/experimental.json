@@ -1,13 +1,13 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-40-run-289",
-  "versionName": "8.7",
+  "tag": "experimental-pr-40-run-289",
+  "versionName": "8.7-experimental.289",
   "versionCode": 100289,
   "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-289/SpeedTester-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-40-run-289/SpeedTester-8.7.apk",
   "apkSize": 21673551,
   "sha256": "66d3d62f323421e021f7368baba1ef73a85bf0e57b38a52b5677c2f540b7896e",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-289",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-40-run-289",
   "notes": [
     "test: update Home shortcut assertion for origin-aware Network Quality navigation",
     "feat: complete Network Quality Settings navigation, DNS metrics, saved profiles and lifecycle safety",
