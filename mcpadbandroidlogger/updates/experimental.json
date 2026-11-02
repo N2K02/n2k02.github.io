@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-33-run-218",
-  "versionName": "2.0",
-  "versionCode": 100218,
-  "apkName": "McpAdbAndroidLogger-2.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-33-run-218/McpAdbAndroidLogger-2.0.apk",
+  "tag": "mcpadbandroidlogger-experimental-pr-34-run-221",
+  "versionName": "2.1",
+  "versionCode": 100221,
+  "apkName": "McpAdbAndroidLogger-2.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-34-run-221/McpAdbAndroidLogger-2.1.apk",
   "apkSize": 24786801,
-  "sha256": "53c2370fb41eee5134345a3430ba1aef6a50c34866682540227952a5b1cfd5bf",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-33-run-218",
+  "sha256": "34c53adb6233fa7285aeeabb4aad6976f88ec3d57430910d81373f790290a487",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-34-run-221",
   "notes": [
-    "ci: require strict green checks for Dependabot merges",
+    "fix(ci): grant PR read access for safe branch cleanup",
+    "ci: delete merged PR branches safely",
+    "ci: require strict green checks for Dependabot merges (#33)",
     "build(deps): consolidate all five pending upgrades and future Dependabot PRs (#31)",
     "Fix Wrangler Preview TOML table declaration and Durable Object binding",
     "Configure isolated Cloudflare Worker Previews and test Durable Object bindings",
     "Standardize disposable ADB session key and document cross-app lifecycle parity",
     "Retire failed ADB socket on shell timeout before any retry",
     "Isolate disposable ADB session keys from persistent authorized identity",
-    "Use libadb socket-only disconnect and reuse healthy verified ADB sessions",
-    "ci: group Dependabot updates across all package ecosystems",
-    "Shut down MCP worker pool on Stop/Quit and recreate cleanly on restart"
+    "Use libadb socket-only disconnect and reuse healthy verified ADB sessions"
   ]
 }
