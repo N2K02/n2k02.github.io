@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "movietogether-v2.0-build-93",
-  "versionName": "2.0",
-  "versionCode": 100093,
-  "apkName": "MovieTogether-2.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v2.0-build-93/MovieTogether-2.0.apk",
+  "tag": "movietogether-v2.1-build-96",
+  "versionName": "2.1",
+  "versionCode": 100096,
+  "apkName": "MovieTogether-2.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-v2.1-build-96/MovieTogether-2.1.apk",
   "apkSize": 3445214,
-  "sha256": "d2a851c4e835d4342ec96dde8eeb39d7b2742af74da34d175b07554e549f90d5",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v2.0-build-93",
+  "sha256": "e9ffbb12f8837d804e22a2e6a2dd41ad7ef219f51aa8b1cea7cbe8975299d8c9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-v2.1-build-96",
   "notes": [
+    "ci: group all Dependabot version updates into one PR",
     "perf: suspend playback synchronization while room is paused (#12)",
     "refactor: remove in-app Logs page and on-disk diagnostics",
     "Align shared public version checks and protect existing release versions",
@@ -17,7 +18,6 @@
     "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs",
     "Add shared pause attribution, in-player chat bubble and leave/rejoin flows",
     "Align MovieTogether header brand with UI regression contract",
-    "Fix Android CI compile/lint issue in Quit navigation",
-    "Prevent regressions removing bottom Quit or restoring old settings modal"
+    "Fix Android CI compile/lint issue in Quit navigation"
   ]
 }
