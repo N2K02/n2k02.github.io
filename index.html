@@ -23,6 +23,9 @@
     .card .links a:last-child{background:linear-gradient(110deg,var(--card-accent),var(--card-accent-2));border-color:transparent;color:#09131e}
     .card .links a:first-child{border-color:color-mix(in srgb,var(--card-accent) 35%,#3b506f)}
     .card .links a:first-child:hover{border-color:var(--card-accent)}
+    .card--chargewatt{background:radial-gradient(ellipse at 100% 0,rgba(124,229,162,.30),transparent 62%),linear-gradient(150deg,#17243a,#101a2b 80%);border-color:rgba(124,229,162,.38)}
+    .card--movietogether{background:radial-gradient(ellipse at 100% 0,rgba(255,127,168,.30),transparent 62%),linear-gradient(150deg,#17243a,#101a2b 80%);border-color:rgba(255,127,168,.38)}
+    .card--chargewatt:hover{border-color:#7CE5A2}.card--movietogether:hover{border-color:#FF7FA8}
 </style>
 </head>
 <body>
@@ -48,7 +51,7 @@
         <ul class="features"><li>Background video recording</li><li>Front and rear camera options</li><li>Notification recording controls</li></ul>
         <div class="links"><a href="/bcam/">App details</a><a href="/bcam/download/">Download latest APK</a></div>
       </article>
-      <article class="card" style="--card-accent:#7CE5A2;--card-accent-2:#F4D35E">
+      <article class="card card--chargewatt" style="--card-accent:#7CE5A2;--card-accent-2:#F4D35E">
         <div class="status">Battery widget</div>
         <div class="app-brand"><img src="/assets/app-icons/chargewatt.svg" alt="ChargeWatt app icon" width="56" height="56" loading="lazy"><h3>ChargeWatt</h3></div>
         <ul class="features"><li>Charging and discharging at a glance</li><li>Battery-side watts, current and voltage</li><li>Compact home-screen widget</li></ul>
@@ -72,7 +75,7 @@
         <ul class="features"><li>On-device Android Logcat viewer</li><li>Search and filter system logs</li><li>Read-only MCP bridge</li></ul>
         <div class="links"><a href="/mcpadbandroidlogger/">App details</a><a href="/mcpadbandroidlogger/download/">Download latest APK</a></div>
       </article>
-      <article class="card" style="--card-accent:#FF7FA8;--card-accent-2:#FFBA7A">
+      <article class="card card--movietogether" style="--card-accent:#FF7FA8;--card-accent-2:#FFBA7A">
         <div class="status">Watch-party app</div>
         <div class="app-brand"><img src="/assets/app-icons/movietogether.svg" alt="MovieTogether app icon" width="56" height="56" loading="lazy"><h3>MovieTogether</h3></div>
         <ul class="features"><li>Host a movie from your phone</li><li>Invite guests on reachable networks</li><li>Shared playback controls and chat</li></ul>
