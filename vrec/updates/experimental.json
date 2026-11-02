@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-61-run-972",
-  "versionName": "5.9",
-  "versionCode": 100972,
-  "apkName": "VREC-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-61-run-972/VREC-5.9.apk",
+  "tag": "experimental-pr-63-run-978",
+  "versionName": "6.1-experimental.978",
+  "versionCode": 100978,
+  "apkName": "VREC-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-63-run-978/VREC-6.1.apk",
   "apkSize": 13920320,
-  "sha256": "59df89158a9c5d8b4237238ea181de52c36a6b89812e72c5ddd80a5a4c8ce1a3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-61-run-972",
+  "sha256": "17107085d727a5a53dcd9f30f2c4d57a413a8985267bd8040844be7c1406374a",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-63-run-978",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow",
-    "ci: retain latest APK releases and workflow runs (#60)"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
