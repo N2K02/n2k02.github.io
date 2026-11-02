@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-24-run-429",
-  "versionName": "6.6",
-  "versionCode": 100429,
-  "apkName": "AAYoutube-6.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-24-run-429/AAYoutube-6.6.apk",
+  "tag": "aayoutube-experimental-pr-25-run-431",
+  "versionName": "6.7",
+  "versionCode": 100431,
+  "apkName": "AAYoutube-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-25-run-431/AAYoutube-6.7.apk",
   "apkSize": 21264792,
-  "sha256": "1e11a45d02b06201f0844dce482e76520bf87c2c8f19722d72153d1a6999ed46",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-24-run-429",
+  "sha256": "50532d588045c72202855670ac315a5eae8ade3a2cbd5c7a01466d4c95c28673",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-25-run-431",
   "notes": [
-    "ci: authenticate private Maven dependencies in Dependabot",
-    "ci: group Dependabot upgrades into one weekly PR"
+    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
   ]
 }
