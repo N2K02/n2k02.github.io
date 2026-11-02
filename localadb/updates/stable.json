@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "localadb-v1.1-build-37",
-  "versionName": "1.1",
-  "versionCode": 100037,
-  "apkName": "LocalAdb-1.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.1-build-37/LocalAdb-1.1.apk",
+  "tag": "localadb-v1.2-build-44",
+  "versionName": "1.2",
+  "versionCode": 100044,
+  "apkName": "LocalAdb-1.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-v1.2-build-44/LocalAdb-1.2.apk",
   "apkSize": 18560908,
-  "sha256": "6da4b045193902fdc9116e83cdfdf816913cf0e5749eb38a03761eaad8f2059d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.1-build-37",
+  "sha256": "d57635a57c4a91db08090bcc235949796b03d80772b374dd78ee98404e93f991",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-v1.2-build-44",
   "notes": [
-    "Fix release startup crash and implement compact swipeable LocalAdb UI"
+    "ci: group dependency updates in one weekly PR (#3)"
   ]
 }
