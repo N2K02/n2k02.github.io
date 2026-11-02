@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-19-run-151",
-  "versionName": "5.0",
-  "versionCode": 100151,
-  "apkName": "HFreebuds-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-19-run-151/HFreebuds-5.0.apk",
+  "tag": "hfreebuds-experimental-pr-20-run-153",
+  "versionName": "5.1",
+  "versionCode": 100153,
+  "apkName": "HFreebuds-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-20-run-153/HFreebuds-5.1.apk",
   "apkSize": 19787083,
-  "sha256": "bdd91fe6eb71129330194c149842839542193d2539355176966b731174bbcba1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-19-run-151",
+  "sha256": "982e08312a7f4848f287cf44e3dc0f495238e53f502fc331bd4120c07641b729",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-20-run-153",
   "notes": [
-    "test: escape dollar signs in Bluetooth log source assertions",
-    "perf: make raw Bluetooth packet logs opt-in"
+    "ci: group all Dependabot upgrades into one weekly PR"
   ]
 }
