@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-51-run-954",
+  "tag": "vrec-experimental-pr-52-run-957",
   "versionName": "5.4",
-  "versionCode": 100954,
+  "versionCode": 100957,
   "apkName": "VREC-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-51-run-954/VREC-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-52-run-957/VREC-5.4.apk",
   "apkSize": 13920320,
-  "sha256": "fd0d6845bf4fdb5675a73076db41d5a08fe0373c338d8961b5221b52de03ca4f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-51-run-954",
+  "sha256": "d8a80570a84dd6efe28ed75cad1a102f94813cda39b7aac044b91cf276933b90",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-52-run-957",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
+    "ci: poll and merge only fully green Dependabot PRs",
+    "ci: automatically merge green Dependabot PRs"
   ]
 }
