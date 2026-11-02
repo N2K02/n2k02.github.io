@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "hfreebuds-v5.7",
-  "versionName": "5.7",
-  "versionCode": 100169,
-  "apkName": "HFreebuds-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-v5.7/HFreebuds-5.7.apk",
+  "tag": "v5.9",
+  "versionName": "5.9",
+  "versionCode": 100175,
+  "apkName": "HFreebuds-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v5.9/HFreebuds-5.9.apk",
   "apkSize": 1400462,
-  "sha256": "3da0aba6c641aff20cd40811fdbeab35d37eaa7eebe27e4cd9583030d5dd5b74",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-v5.7",
+  "sha256": "37b6233fa0cb6ca76d9756029b3688cb61a57f8a067740b79f59a68a7fbdbde6",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v5.9",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow (#29)"
+    "fix: use source APK releases for update feeds (#31)"
   ]
 }
