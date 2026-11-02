@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pbar-experimental-pr-48-run-178",
+  "tag": "pbar-experimental-pr-49-run-180",
   "versionName": "5.7",
-  "versionCode": 100178,
+  "versionCode": 100180,
   "apkName": "PBar-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-48-run-178/PBar-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pbar-experimental-pr-49-run-180/PBar-5.7.apk",
   "apkSize": 19836376,
-  "sha256": "528dca37b275bc1c66cdc0bffa965f6ff31999bf65d20a0a593e56705835ca0b",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-48-run-178",
+  "sha256": "e0847c1bfdf07870edf0518b2c62c62c8b0001c1ed80d770cc81a290c26e79bf",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pbar-experimental-pr-49-run-180",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
+    "ci: poll and merge only fully green Dependabot PRs",
+    "ci: automatically merge green Dependabot PRs"
   ]
 }
