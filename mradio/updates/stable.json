@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "mradio-v5.7-build-338",
-  "versionName": "5.7",
-  "versionCode": 100338,
-  "apkName": "MRadio-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.7-build-338/MRadio-5.7.apk",
+  "tag": "mradio-v5.8-build-342",
+  "versionName": "5.8",
+  "versionCode": 100342,
+  "apkName": "MRadio-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-v5.8-build-342/MRadio-5.8.apk",
   "apkSize": 2827163,
-  "sha256": "fc1e9504ee6e6be5f7c986aca3760aaafcc6ff663274836c001081f61d30efbd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.7-build-338",
+  "sha256": "caa2d66b76e5eb020a019370af0d57668adab76ab281dc776f6d2f879849419d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-v5.8-build-342",
   "notes": [
-    "perf: avoid identical custom media notification rebuilds (#28)"
+    "ci: group dependency updates in one weekly PR (#29)"
   ]
 }
