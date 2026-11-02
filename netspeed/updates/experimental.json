@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "netspeed-experimental-pr-29-run-152",
-  "versionName": "4.8",
-  "versionCode": 100152,
-  "apkName": "NetSpeed-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-29-run-152/NetSpeed-4.8.apk",
+  "tag": "netspeed-experimental-pr-30-run-154",
+  "versionName": "4.9",
+  "versionCode": 100154,
+  "apkName": "NetSpeed-4.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/netspeed-experimental-pr-30-run-154/NetSpeed-4.9.apk",
   "apkSize": 19557714,
-  "sha256": "4451cd006479a4d39bdd88752450d42ea4d1a7b84a6295ff724acb693a1b9594",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-29-run-152",
+  "sha256": "f6033a4f4029a9405bc3167a5e7e408af51e610e8e7b454e8f42f65dfc24e3ae",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/netspeed-experimental-pr-30-run-154",
   "notes": [
-    "ci: poll and merge only fully green Dependabot PRs",
-    "ci: auto-merge Dependabot upgrades after successful checks"
+    "ci: align NetSpeed with strict Dependabot auto-merge"
   ]
 }
