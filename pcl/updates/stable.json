@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "pcl-v6.2",
-  "versionName": "6.2",
-  "versionCode": 100558,
-  "apkName": "PCL-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.2/PCL-6.2.apk",
+  "tag": "pcl-v6.3",
+  "versionName": "6.3",
+  "versionCode": 100562,
+  "apkName": "PCL-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pcl-v6.3/PCL-6.3.apk",
   "apkSize": 1521934,
-  "sha256": "be175829e23176272c0b4268c8c03d047ac973988dd860f0bc62738427601358",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.2",
+  "sha256": "bf9a1874857c26fbbe2a0a6b095c7a5e31ce8d73475f9628273031deff212c4e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pcl-v6.3",
   "notes": [
-    "ci: add one-time non-main branch cleanup (#70)"
+    "ci: remove finished one-time branch cleanup workflow (#72)",
+    "ci: retain latest APK releases and workflow runs (#71)"
   ]
 }
