@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "pixelcast-v4.2",
-  "versionName": "4.2",
-  "versionCode": 100134,
-  "apkName": "PixelCast-4.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.2/PixelCast-4.2.apk",
+  "tag": "pixelcast-v4.3",
+  "versionName": "4.3",
+  "versionCode": 100137,
+  "apkName": "PixelCast-4.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-v4.3/PixelCast-4.3.apk",
   "apkSize": 1282128,
-  "sha256": "174c28fea9aa9ff8e2e928a70830c26e605028f3355c227233bdd55ad72d8928",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.2",
+  "sha256": "2ae006129e147e243c70fcdf9285809aa904398ec5724be128df53ff161a6295",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-v4.3",
   "notes": [
-    "refactor: remove in-app logs UI and disk journals; keep sanitized Logcat",
-    "Align public release version selection with all published app tags"
+    "ci: group dependency upgrades in one weekly PR (#19)"
   ]
 }
