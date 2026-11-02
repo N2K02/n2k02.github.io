@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "aayoutube-v6.7",
-  "versionName": "6.7",
-  "versionCode": 100436,
-  "apkName": "AAYoutube-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.7/AAYoutube-6.7.apk",
+  "tag": "aayoutube-v6.8",
+  "versionName": "6.8",
+  "versionCode": 100438,
+  "apkName": "AAYoutube-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-v6.8/AAYoutube-6.8.apk",
   "apkSize": 14621033,
-  "sha256": "69c06e635cc30153371ded9c988f82d487e9608eb2bec189d798f223cf1d2e2c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.7",
+  "sha256": "cdb743ba982f0d98cb62f64f368bd9b25cbae3bdc1059e0d1eb8c1c56c717be7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-v6.8",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#25)"
+    "ci: standardize strict green-only Dependabot auto-merge (#29)"
   ]
 }
