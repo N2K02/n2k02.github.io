@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-36-run-353",
-  "versionName": "6.1-experimental.353",
-  "versionCode": 100353,
-  "apkName": "MRadio-PR-36-8e50c16.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-36-run-353/MRadio-PR-36-8e50c16.apk",
+  "tag": "experimental-pr-38-run-359",
+  "versionName": "6.3-experimental.359",
+  "versionCode": 100359,
+  "apkName": "MRadio-PR-38-cef82c2.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-38-run-359/MRadio-PR-38-cef82c2.apk",
   "apkSize": 24360574,
-  "sha256": "f721ad51b37923f92b0330cdf012d5facf889830e23b6e13ec23f07390d6791a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-36-run-353",
+  "sha256": "30b9e58a0ec676c3d0c50eecd520dcba309bb78383e0139d1494b6b753f168d2",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-38-run-359",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow",
-    "ci: retain latest APK releases and workflow runs (#35)"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
