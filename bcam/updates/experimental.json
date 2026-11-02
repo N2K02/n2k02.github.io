@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-32-run-202",
-  "versionName": "5.1",
-  "versionCode": 100202,
-  "apkName": "BCam-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-32-run-202/BCam-5.1.apk",
+  "tag": "bcam-experimental-pr-33-run-204",
+  "versionName": "5.2",
+  "versionCode": 100204,
+  "apkName": "BCam-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-33-run-204/BCam-5.2.apk",
   "apkSize": 19578620,
-  "sha256": "f81f01c9aca7794eeebc3ef37994e10495580e2b4ed670300db9c6447ce34722",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-32-run-202",
+  "sha256": "33ae9761e9188f69dede8e8e1bca593ea49919c8e3300d31677d849af2579c94",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-33-run-204",
   "notes": [
-    "ci: retain latest APK releases and workflow runs"
+    "ci: remove finished one-time branch cleanup workflow"
   ]
 }
