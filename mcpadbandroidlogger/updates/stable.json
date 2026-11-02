@@ -1,13 +1,13 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v2.5",
+  "tag": "v2.5",
   "versionName": "2.5",
   "versionCode": 100228,
   "apkName": "McpAdbAndroidLogger-2.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.5/McpAdbAndroidLogger-2.5.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v2.5/McpAdbAndroidLogger-2.5.apk",
   "apkSize": 24786801,
   "sha256": "92e00510004f8fb6fcd03a0cafeff19ccd385fbb5aed009d0ed54c201459d272",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.5",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v2.5",
   "notes": [
     "ci: remove completed one-time branch cleanup workflow",
     "ci: retain only latest stable/experimental APKs and build runs",
