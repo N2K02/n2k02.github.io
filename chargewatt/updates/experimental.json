@@ -1,13 +1,13 @@
 {
   "channel": "experimental",
-  "tag": "chargewatt-exp-pr-1-run-27",
-  "versionName": "1.0-experimental.27",
-  "versionCode": 100027,
-  "apkName": "ChargeWatt-PR-1-97d191a.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/chargewatt-exp-pr-1-run-27/ChargeWatt-PR-1-97d191a.apk",
+  "tag": "chargewatt-exp-pr-1-run-35",
+  "versionName": "1.0-experimental.35",
+  "versionCode": 100035,
+  "apkName": "ChargeWatt-PR-1-3b24d8b.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/chargewatt-exp-pr-1-run-35/ChargeWatt-PR-1-3b24d8b.apk",
   "apkSize": 1315719,
-  "sha256": "2095de8b632c5e1c6a219f23519faa12bc7ac0e8a4d4b34d5dc1c1681ba1549d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/chargewatt-exp-pr-1-run-27",
+  "sha256": "07f85c43aea893802643419345908b04ec840e456d683d4cf2ed22d673fb8557",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/chargewatt-exp-pr-1-run-35",
   "notes": [
     "Experimental test APK. Not intended for general download."
   ]
