@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-36-run-249",
+  "tag": "speedtester-experimental-pr-37-run-250",
   "versionName": "8.5",
-  "versionCode": 100249,
+  "versionCode": 100250,
   "apkName": "SpeedTester-8.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-36-run-249/SpeedTester-8.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-37-run-250/SpeedTester-8.5.apk",
   "apkSize": 21591631,
-  "sha256": "084e7b644aefcb1c3cf08a47dcd001e5bdfa9912edcf57e250402ad5f98b8c04",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-36-run-249",
+  "sha256": "509bc759fc8a1005f8e3a490c9fe76b00eb736eeb8e4d7c6c6b7f759a4fdc07b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-37-run-250",
   "notes": [
-    "fix(ci): grant PR read access for safe merged-branch cleanup"
+    "ci: add one-time non-main branch cleanup"
   ]
 }
