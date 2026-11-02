@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mradio-exp-pr-35-run-351",
-  "versionName": "6.1-experimental.351",
-  "versionCode": 100351,
-  "apkName": "MRadio-PR-35-834222e.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-35-run-351/MRadio-PR-35-834222e.apk",
+  "tag": "mradio-exp-pr-36-run-353",
+  "versionName": "6.1-experimental.353",
+  "versionCode": 100353,
+  "apkName": "MRadio-PR-36-8e50c16.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mradio-exp-pr-36-run-353/MRadio-PR-36-8e50c16.apk",
   "apkSize": 24360574,
-  "sha256": "8f9b9c01ca2f84b5f139ed4f130fbc66bf81ca58e2afd483987ae586fb54e4bd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-35-run-351",
+  "sha256": "f721ad51b37923f92b0330cdf012d5facf889830e23b6e13ec23f07390d6791a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mradio-exp-pr-36-run-353",
   "notes": [
-    "ci: retain latest APK releases and workflow runs"
+    "ci: remove finished one-time branch cleanup workflow",
+    "ci: retain latest APK releases and workflow runs (#35)"
   ]
 }
