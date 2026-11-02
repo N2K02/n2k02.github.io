@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-60-run-970",
+  "tag": "vrec-experimental-pr-61-run-972",
   "versionName": "5.9",
-  "versionCode": 100970,
+  "versionCode": 100972,
   "apkName": "VREC-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-60-run-970/VREC-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-61-run-972/VREC-5.9.apk",
   "apkSize": 13920320,
-  "sha256": "e38ee8afda1eda7542b74229ac82f109ccf60a494f0e0c0068cbad228ca7ae46",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-60-run-970",
+  "sha256": "59df89158a9c5d8b4237238ea181de52c36a6b89812e72c5ddd80a5a4c8ce1a3",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-61-run-972",
   "notes": [
-    "ci: retain latest APK releases and workflow runs"
+    "ci: remove finished one-time branch cleanup workflow",
+    "ci: retain latest APK releases and workflow runs (#60)"
   ]
 }
