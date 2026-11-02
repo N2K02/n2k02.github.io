@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-35-run-222",
+  "tag": "mcpadbandroidlogger-experimental-pr-35-run-223",
   "versionName": "2.1",
-  "versionCode": 100222,
+  "versionCode": 100223,
   "apkName": "McpAdbAndroidLogger-2.1.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-35-run-222/McpAdbAndroidLogger-2.1.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-35-run-223/McpAdbAndroidLogger-2.1.apk",
   "apkSize": 24786801,
-  "sha256": "4d28337e4d7b407197862108204b9dcf5c24825b1e1ddd570828e2b74d8d5f15",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-35-run-222",
+  "sha256": "865f2c505d1696f1929f9f6cc6cc85736e1f344d25c69143a066fe0529370f4f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-35-run-223",
   "notes": [
+    "docs(adb): explain Home pairing and VRec settings; retrigger corrected Worker preview",
     "test(adb): protect automatic TCP recovery and UID verification",
     "test(adb): stale TLS and no-listener states retry automatically",
     "test(ui): assert ADB pairing moved Home and VRec settings parity",
@@ -17,7 +18,6 @@
     "fix(adb): do not misclassify stale network endpoints as revoked pairing",
     "fix(adb): track healthy TCP and TLS sessions for watchdog reuse",
     "ui: surface pairing and reconnect controls on Home",
-    "ui: keep Android ADB authorization on Home",
-    "ui: match VRec ADB settings and move setup to Home"
+    "ui: keep Android ADB authorization on Home"
   ]
 }
