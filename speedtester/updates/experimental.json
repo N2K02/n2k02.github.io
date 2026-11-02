@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-34-run-245",
-  "versionName": "8.3",
-  "versionCode": 100245,
-  "apkName": "SpeedTester-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-34-run-245/SpeedTester-8.3.apk",
+  "tag": "speedtester-experimental-pr-35-run-247",
+  "versionName": "8.4",
+  "versionCode": 100247,
+  "apkName": "SpeedTester-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-35-run-247/SpeedTester-8.4.apk",
   "apkSize": 21591631,
-  "sha256": "2f6e5857c1ee88ae6a6b941aa54e5b393bca7a6f08dc46889c0e14254278fbfa",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-34-run-245",
+  "sha256": "d73761dc990081c205ee64cefe84746332acf64225568d0214356a55a248b275",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-35-run-247",
   "notes": [
-    "ci: require strict green checks for Dependabot merges",
-    "ci: enforce strict successful checks before Dependabot squash merge"
+    "ci: delete merged PR branches safely"
   ]
 }
