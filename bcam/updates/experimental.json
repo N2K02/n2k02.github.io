@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "bcam-experimental-pr-33-run-204",
-  "versionName": "5.2",
-  "versionCode": 100204,
-  "apkName": "BCam-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-experimental-pr-33-run-204/BCam-5.2.apk",
+  "tag": "experimental-pr-35-run-210",
+  "versionName": "5.4-experimental.210",
+  "versionCode": 100210,
+  "apkName": "BCam-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-35-run-210/BCam-5.4.apk",
   "apkSize": 19578620,
-  "sha256": "33ae9761e9188f69dede8e8e1bca593ea49919c8e3300d31677d849af2579c94",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-experimental-pr-33-run-204",
+  "sha256": "a05b7510116cd74b023fb0188c9784a233e74ee2d98de57fcef7ed504c98184e",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-35-run-210",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
