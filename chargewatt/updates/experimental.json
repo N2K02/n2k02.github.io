@@ -1,24 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "chargewatt-exp-pr-5-run-55",
-  "versionName": "1.0-experimental.55",
-  "versionCode": 100055,
-  "apkName": "ChargeWatt-PR-5-7480547.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/chargewatt-exp-pr-5-run-55/ChargeWatt-PR-5-7480547.apk",
+  "tag": "experimental-pr-7-run-64",
+  "versionName": "1.5-experimental.64",
+  "versionCode": 100064,
+  "apkName": "ChargeWatt-PR-7-eb1df04.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-7-run-64/ChargeWatt-PR-7-eb1df04.apk",
   "apkSize": 1315719,
-  "sha256": "2db4fbfe09549e98d402e01604b7be16679d0d9b519d7f689929acc457f4b8ea",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/chargewatt-exp-pr-5-run-55",
+  "sha256": "110778e5d5390a1a3f4213eb00faa17b4bc47add5a994f8409a0e4e6df3e9552",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-7-run-64",
   "notes": [
-    "Merge 08aa6d4e0eeb4ab2903afe5881bf353c6aa18d80 into 67a42f7cc2c018b92df8f3898dcb34fd5e6d5bd6",
-    "docs: explain optional overlay and background limitations",
-    "test: guard overlay lifecycle, power transitions and green Qi text",
-    "feat: add floating meter toggle and overlay permission setup",
-    "fix: keep USB/Qi state fresh and support optional floating meter",
-    "fix: keep USB/Qi state fresh and support optional floating meter",
-    "fix: keep USB/Qi state fresh and support optional floating meter",
-    "fix: keep USB/Qi state fresh and support optional floating meter",
-    "fix: keep USB/Qi state fresh and support optional floating meter",
-    "fix: keep USB/Qi state fresh and support optional floating meter",
-    "feat: add notification-free optional floating ChargeWatt meter"
+    "Merge 2760bdfff24009846ff5fe23d9b5b2ea5a34f661 into 3ead4c99896b56fa79ae1941a96b170cd6976a1e",
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
