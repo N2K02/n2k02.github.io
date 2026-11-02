@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v2.4",
-  "versionName": "2.4",
-  "versionCode": 100226,
-  "apkName": "McpAdbAndroidLogger-2.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.4/McpAdbAndroidLogger-2.4.apk",
+  "tag": "mcpadbandroidlogger-v2.5",
+  "versionName": "2.5",
+  "versionCode": 100228,
+  "apkName": "McpAdbAndroidLogger-2.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.5/McpAdbAndroidLogger-2.5.apk",
   "apkSize": 24786801,
-  "sha256": "88585d66cb4a33bf632f35a8d32d3121e0c0bf32a94f85f4a053bb56fb0044eb",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.4",
+  "sha256": "92e00510004f8fb6fcd03a0cafeff19ccd385fbb5aed009d0ed54c201459d272",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.5",
   "notes": [
+    "ci: remove completed one-time branch cleanup workflow",
+    "ci: retain only latest stable/experimental APKs and build runs",
     "ci: run one-time cleanup of all non-main branches",
     "ci: automatically delete merged PR branches (#34)",
     "fix(adb): match VRec connection settings and recover authorized TCP sessions (#35)",
@@ -16,8 +18,6 @@
     "build(deps): consolidate all five pending upgrades and future Dependabot PRs (#31)",
     "Fix Wrangler Preview TOML table declaration and Durable Object binding",
     "Configure isolated Cloudflare Worker Previews and test Durable Object bindings",
-    "Standardize disposable ADB session key and document cross-app lifecycle parity",
-    "Retire failed ADB socket on shell timeout before any retry",
-    "Isolate disposable ADB session keys from persistent authorized identity"
+    "Standardize disposable ADB session key and document cross-app lifecycle parity"
   ]
 }
