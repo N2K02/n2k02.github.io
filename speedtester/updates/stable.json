@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v8.4",
-  "versionName": "8.4",
-  "versionCode": 100248,
-  "apkName": "SpeedTester-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.4/SpeedTester-8.4.apk",
+  "tag": "speedtester-v8.5",
+  "versionName": "8.5",
+  "versionCode": 100251,
+  "apkName": "SpeedTester-8.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.5/SpeedTester-8.5.apk",
   "apkSize": 1853128,
-  "sha256": "06ee51be411bee2462d4b14376d6b8ba25521806eb683b236d61f5c8fc499b53",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.4",
+  "sha256": "0db80cd20b6c2368670d6a715ea45066a48a90dee578b5fa524261ce629e32c6",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.5",
   "notes": [
-    "ci: delete merged PR branches safely (#35)"
+    "ci: add one-time non-main branch cleanup (#37)"
   ]
 }
