@@ -1,22 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-4-run-46",
-  "versionName": "1.1-experimental.46",
-  "versionCode": 100046,
-  "apkName": "LocalAdb-PR-4-e346f63.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-4-run-46/LocalAdb-PR-4-e346f63.apk",
+  "tag": "localadb-exp-pr-6-run-49",
+  "versionName": "1.3-experimental.49",
+  "versionCode": 100049,
+  "apkName": "LocalAdb-PR-6-e60ec17.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-6-run-49/LocalAdb-PR-6-e60ec17.apk",
   "apkSize": 39827056,
-  "sha256": "c46a8a36ccc0620b8cd8e8a33b51bd06651c4e3680fe976aaf8f0687394c732d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-4-run-46",
+  "sha256": "23ab12d2e831650d25db11b75f841100f3e45dc9e2a911d66e11490ceeccfb9b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-6-run-49",
   "notes": [
-    "Guarantee all LocalAdb Quit components clean up and Activity closes even after errors",
-    "Align LocalAdb Quit with awaited non-blocking ADB teardown and single-flight cleanup",
-    "ci: group dependency updates in one weekly PR (#3)",
-    "Preserve requested TCP promotion when reusing verified Wireless ADB TLS",
-    "Document shared ADB socket lifecycle rules for future Android apps",
-    "Test per-session ADB key isolation, timeout teardown and healthy reconnect reuse",
-    "Reuse verified local ADB sessions during app retry and discovery",
-    "Close ADB sockets safely and retire disposable session keys after timeouts and mode changes",
-    "Isolate disposable ADB session RSA keys from persistent identity"
+    "ci: require strict green checks for Dependabot merges",
+    "ci: enforce strict successful checks before Dependabot squash merge"
   ]
 }
