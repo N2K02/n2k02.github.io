@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-24-run-144",
-  "versionName": "4.5",
-  "versionCode": 100144,
-  "apkName": "PixelCast-4.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-24-run-144/PixelCast-4.5.apk",
+  "tag": "pixelcast-experimental-pr-25-run-146",
+  "versionName": "4.6",
+  "versionCode": 100146,
+  "apkName": "PixelCast-4.6.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-25-run-146/PixelCast-4.6.apk",
   "apkSize": 19599232,
-  "sha256": "dbf1e3089c8b0c2242dd81ddae65ab29c59c97ee4d4e4f73268f1cf9161577ec",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-24-run-144",
+  "sha256": "15e9262b3254f6981c2b770b8583405e1c6b63641b76f4ebc99a559d9b0557e8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-25-run-146",
   "notes": [
-    "ci: standardize Dependabot merge safety",
-    "ci: enforce strict successful checks before Dependabot squash merge"
+    "ci: delete merged PR branches safely"
   ]
 }
