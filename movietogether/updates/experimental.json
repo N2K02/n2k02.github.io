@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "movietogether-experimental-pr-18-run-103",
-  "versionName": "2.3-experimental.103",
-  "versionCode": 100103,
-  "apkName": "MovieTogether-PR-18-24ec324.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-18-run-103/MovieTogether-PR-18-24ec324.apk",
+  "tag": "movietogether-experimental-pr-19-run-105",
+  "versionName": "2.3-experimental.105",
+  "versionCode": 100105,
+  "apkName": "MovieTogether-PR-19-ffb489f.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/movietogether-experimental-pr-19-run-105/MovieTogether-PR-19-ffb489f.apk",
   "apkSize": 26048576,
-  "sha256": "c4fc9858ddf2e158f681b28dbf255560c13167a15018073383174708889747f7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-18-run-103",
+  "sha256": "7df480bbcaa64da0a2e4d0bf34ace2b61d09dfc6b02b343c4969bbe6737f27d7",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/movietogether-experimental-pr-19-run-105",
   "notes": [
-    "ci: delete merged PR branches safely",
+    "fix(ci): grant PR read permission to merged branch cleanup",
+    "ci: delete merged PR branches safely (#18)",
     "ci: require strict green checks for Dependabot merges (#17)",
     "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#14)",
     "ci: group all Dependabot version updates into one PR",
@@ -17,7 +18,6 @@
     "refactor: remove in-app Logs page and on-disk diagnostics",
     "Align shared public version checks and protect existing release versions",
     "Experimental: persistent random nickname on first launch (#10)",
-    "Add minimized playback PiP and Android conversation chat bubbles",
-    "Improve watch-party sync, reconnect recovery and secure proxy invitations; add tests and docs"
+    "Add minimized playback PiP and Android conversation chat bubbles"
   ]
 }
