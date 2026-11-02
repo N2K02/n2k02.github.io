@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-30-run-439",
-  "versionName": "6.9",
-  "versionCode": 100439,
-  "apkName": "AAYoutube-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-30-run-439/AAYoutube-6.9.apk",
+  "tag": "aayoutube-experimental-pr-31-run-441",
+  "versionName": "7.0",
+  "versionCode": 100441,
+  "apkName": "AAYoutube-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-31-run-441/AAYoutube-7.0.apk",
   "apkSize": 21264792,
-  "sha256": "b931a962110fb9fe8f89b6e63a8d8166745c0e06fc5061e2d46e144813027703",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-30-run-439",
+  "sha256": "593818e1963f187d7dcfe0d637d03f3365db98f632429997e77b72983d51ec75",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-31-run-441",
   "notes": [
-    "ci: delete merged PR branches safely"
+    "fix(ci): grant PR read access for safe merged-branch cleanup"
   ]
 }
