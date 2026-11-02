@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "aayoutube-experimental-pr-31-run-441",
+  "tag": "aayoutube-experimental-pr-32-run-442",
   "versionName": "7.0",
-  "versionCode": 100441,
+  "versionCode": 100442,
   "apkName": "AAYoutube-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-31-run-441/AAYoutube-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/aayoutube-experimental-pr-32-run-442/AAYoutube-7.0.apk",
   "apkSize": 21264792,
-  "sha256": "593818e1963f187d7dcfe0d637d03f3365db98f632429997e77b72983d51ec75",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-31-run-441",
+  "sha256": "73354f4999b4759f1c23e1c260c29bf5cb34890280aca5e10c4b93a89a3c6594",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/aayoutube-experimental-pr-32-run-442",
   "notes": [
-    "fix(ci): grant PR read access for safe merged-branch cleanup"
+    "ci: retain latest APK releases and workflow runs"
   ]
 }
