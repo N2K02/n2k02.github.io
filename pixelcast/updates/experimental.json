@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-28-run-151",
+  "tag": "pixelcast-experimental-pr-29-run-153",
   "versionName": "4.8",
-  "versionCode": 100151,
+  "versionCode": 100153,
   "apkName": "PixelCast-4.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-28-run-151/PixelCast-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-29-run-153/PixelCast-4.8.apk",
   "apkSize": 19599232,
-  "sha256": "7c3b57b61bbd4069be30ef3bba48441c28f78afd533c2f8238552a4cf6c0d73f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-28-run-151",
+  "sha256": "33359894e6eae0005072d90aeb222093a929fbe7a111a6aafe5c4e8ea4c3a4a4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-29-run-153",
   "notes": [
-    "ci: retain latest APK releases and workflow runs"
+    "ci: remove finished one-time branch cleanup workflow",
+    "ci: retain latest APK releases and workflow runs (#28)"
   ]
 }
