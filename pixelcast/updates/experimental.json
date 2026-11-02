@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "pixelcast-experimental-pr-20-run-138",
+  "tag": "pixelcast-experimental-pr-21-run-140",
   "versionName": "4.4",
-  "versionCode": 100138,
+  "versionCode": 100140,
   "apkName": "PixelCast-4.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-20-run-138/PixelCast-4.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/pixelcast-experimental-pr-21-run-140/PixelCast-4.4.apk",
   "apkSize": 19599232,
-  "sha256": "b3a86aa2a1fde32945df5592ea05538084f6c06b4113bd0861a9cb1a1d5033e7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-20-run-138",
+  "sha256": "a26b78cde76dae169b1163a6f3e7aee10259f78e13079908e9f68e36be49213d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/pixelcast-experimental-pr-21-run-140",
   "notes": [
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs"
+    "ci: poll and merge only fully green Dependabot PRs",
+    "ci: automatically merge green Dependabot PRs"
   ]
 }
