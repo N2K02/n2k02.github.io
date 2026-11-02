@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-39-run-254",
-  "versionName": "8.6",
-  "versionCode": 100254,
-  "apkName": "SpeedTester-8.6.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-39-run-254/SpeedTester-8.6.apk",
-  "apkSize": 21591631,
-  "sha256": "a98082c8feacde292f66500d3ccb4917ca0a2158a1236a4232437be8e14ed73f",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-39-run-254",
+  "tag": "speedtester-experimental-pr-40-run-273",
+  "versionName": "8.7",
+  "versionCode": 100273,
+  "apkName": "SpeedTester-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-273/SpeedTester-8.7.apk",
+  "apkSize": 21657167,
+  "sha256": "c6e27f540fab3c90aefbce72b94aec617f73cb84c706e2d0da716158a9a547e4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-273",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow",
-    "ci: retain latest APK releases and workflow runs (#38)"
+    "feat: Network Quality page, connection diagnostics and service endpoint checks",
+    "perf: bounded network testing and network-polling optimization",
+    "test: automated coverage for quality logic and lifecycle"
   ]
 }
