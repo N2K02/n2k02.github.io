@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v8.2",
-  "versionName": "8.2",
-  "versionCode": 100242,
-  "apkName": "SpeedTester-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.2/SpeedTester-8.2.apk",
+  "tag": "speedtester-v8.3",
+  "versionName": "8.3",
+  "versionCode": 100246,
+  "apkName": "SpeedTester-8.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.3/SpeedTester-8.3.apk",
   "apkSize": 1853128,
-  "sha256": "f199a92743cbf5d4c14c1a8730e2e960aa714aeaff4ba5ad5cdf732209943569",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.2",
+  "sha256": "8671b1f226bdc2fd36ad6e2ee16106a3c2f1a3bd62c2d4065140ba9c3b3305ff",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.3",
   "notes": [
-    "ci: group dependency upgrades in one weekly PR (#31)"
+    "ci: standardize strict green-only Dependabot auto-merge (#34)"
   ]
 }
