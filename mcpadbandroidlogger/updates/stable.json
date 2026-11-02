@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v2.2",
-  "versionName": "2.2",
-  "versionCode": 100224,
-  "apkName": "McpAdbAndroidLogger-2.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.2/McpAdbAndroidLogger-2.2.apk",
+  "tag": "mcpadbandroidlogger-v2.3",
+  "versionName": "2.3",
+  "versionCode": 100225,
+  "apkName": "McpAdbAndroidLogger-2.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.3/McpAdbAndroidLogger-2.3.apk",
   "apkSize": 24786801,
-  "sha256": "3ddb80d0958470236eea50dbd24ffc3b06a08e45a2d90f95a33efaecee90b062",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.2",
+  "sha256": "4c3735acdded0aac027e1186899aa12dd1f66e9aa66756edee4c022887c6d582",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.3",
   "notes": [
+    "ci: automatically delete merged PR branches (#34)",
     "fix(adb): match VRec connection settings and recover authorized TCP sessions (#35)",
     "ci: require strict green checks for Dependabot merges (#33)",
     "build(deps): consolidate all five pending upgrades and future Dependabot PRs (#31)",
@@ -17,7 +18,6 @@
     "Standardize disposable ADB session key and document cross-app lifecycle parity",
     "Retire failed ADB socket on shell timeout before any retry",
     "Isolate disposable ADB session keys from persistent authorized identity",
-    "Use libadb socket-only disconnect and reuse healthy verified ADB sessions",
-    "ci: group Dependabot updates across all package ecosystems"
+    "Use libadb socket-only disconnect and reuse healthy verified ADB sessions"
   ]
 }
