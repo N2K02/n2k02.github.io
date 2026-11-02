@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "hfreebuds-experimental-pr-29-run-168",
-  "versionName": "5.7",
-  "versionCode": 100168,
-  "apkName": "HFreebuds-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/hfreebuds-experimental-pr-29-run-168/HFreebuds-5.7.apk",
+  "tag": "experimental-pr-31-run-174",
+  "versionName": "5.9-experimental.174",
+  "versionCode": 100174,
+  "apkName": "HFreebuds-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-31-run-174/HFreebuds-5.9.apk",
   "apkSize": 19787083,
-  "sha256": "48efe1dd18d4ebb7c8cbd959b286af0f3463a30d13cc9281d5adb08f152b16e6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/hfreebuds-experimental-pr-29-run-168",
+  "sha256": "e58dddafec86583f210d0b4c946250481c712bc301a0abede448d314eaeec624",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-31-run-174",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry"
   ]
 }
