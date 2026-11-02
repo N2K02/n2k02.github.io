@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "vrec-experimental-pr-49-run-950",
-  "versionName": "5.2",
-  "versionCode": 100950,
-  "apkName": "VREC-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-49-run-950/VREC-5.2.apk",
+  "tag": "vrec-experimental-pr-50-run-952",
+  "versionName": "5.3",
+  "versionCode": 100952,
+  "apkName": "VREC-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/vrec-experimental-pr-50-run-952/VREC-5.3.apk",
   "apkSize": 13920320,
-  "sha256": "1906603dea77b98383ff4dfbc2a978367e7239736642861dd045fb3c4a4ad8d3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-49-run-950",
+  "sha256": "1ee6fe879447b9577849c1309272bed266dccd762d160e23cb5ebbafe7986ee1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/vrec-experimental-pr-50-run-952",
   "notes": [
-    "fix: retain helper readiness detection when live snapshot is unavailable",
-    "perf: avoid redundant authenticated loopback probe during active calls"
+    "ci: group updates in one weekly Dependabot PR"
   ]
 }
