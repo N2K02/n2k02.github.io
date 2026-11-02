@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "bcam-v4.7",
-  "versionName": "4.7",
-  "versionCode": 100194,
-  "apkName": "BCam-4.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.7/BCam-4.7.apk",
+  "tag": "bcam-v4.8",
+  "versionName": "4.8",
+  "versionCode": 100196,
+  "apkName": "BCam-4.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/bcam-v4.8/BCam-4.8.apk",
   "apkSize": 1200040,
-  "sha256": "eada14680b64b89cf30606210bba1b3bd06590d73a8a978785d89a8be0152070",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.7",
+  "sha256": "c51a70db657dff924cd464f15d99a1331e59181505ef91d8b413df16e5833384",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/bcam-v4.8",
   "notes": [
-    "ci: green-only automatic dependency PR merge (#24)"
+    "ci: require strict green checks for Dependabot merges (#28)"
   ]
 }
