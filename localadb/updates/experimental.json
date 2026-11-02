@@ -1,14 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "localadb-exp-pr-9-run-56",
-  "versionName": "1.6-experimental.56",
-  "versionCode": 100056,
-  "apkName": "LocalAdb-PR-9-c6f800d.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/localadb-exp-pr-9-run-56/LocalAdb-PR-9-c6f800d.apk",
+  "tag": "experimental-pr-10-run-63",
+  "versionName": "1.8-experimental.63",
+  "versionCode": 100063,
+  "apkName": "LocalAdb-PR-10-8cfea27.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-10-run-63/LocalAdb-PR-10-8cfea27.apk",
   "apkSize": 39827056,
-  "sha256": "9cb6b3a564839f32147cafad24764727ee6df7b2824656417aa9792f721f597d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/localadb-exp-pr-9-run-56",
+  "sha256": "9adda6aa1c873d4cb0c0f8ce1134f410f34df64bfffebf55274da48e39245a2c",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-10-run-63",
   "notes": [
-    "fix(ci): grant PR read access for safe merged-branch cleanup"
+    "fix: reuse APK repo release in public update feed",
+    "fix: make feed PR publishing safe to retry",
+    "fix: prevent stale feed publication races",
+    "fix: publish update feeds through pull requests"
   ]
 }
