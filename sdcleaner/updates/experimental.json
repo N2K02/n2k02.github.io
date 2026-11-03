@@ -1,0 +1,23 @@
+{
+  "channel": "experimental",
+  "tag": "sdcleaner-experimental-pr-2-run-8",
+  "versionName": "1.0-experimental.8",
+  "versionCode": 100008,
+  "apkName": "SDCleaner-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-2-run-8/SDCleaner-1.0.apk",
+  "apkSize": 43073292,
+  "sha256": "46ddde65ca2f44119c95e4b00f147a9c566805293c07115e86f8108c2ff9da5a",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-2-run-8",
+  "notes": [
+    "Fix Compose lint findings and isolate cleanup-only startup state",
+    "Remove Logs UI and align shared-package compile SDK with mRadio",
+    "Redesign SDCleaner navigation with shared theme, updater and APK pipeline",
+    "Fix removed drawable references and encrypted signing setup",
+    "Rebrand and clean up SDCleaner fork",
+    "Fix: Skip Android/data and obb SAF targets while root or ADB is in use",
+    "General: Log Build.VERSION.SECURITY_PATCH in the debug log header",
+    "Fix: Remove stray zero-width spaces from translations",
+    "Fix: Keep the dashboard mascot overlay up while the long press is held",
+    "General: Keep binder IPC and WorkManager init out of App field injection"
+  ]
+}
