@@ -1,17 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-10-run-68",
-  "versionName": "1.6-experimental.68",
-  "versionCode": 100068,
-  "apkName": "ChargeWatt-PR-10-e842080.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-10-run-68/ChargeWatt-PR-10-e842080.apk",
+  "tag": "experimental-pr-10-run-83",
+  "versionName": "1.6-experimental.83",
+  "versionCode": 100083,
+  "apkName": "ChargeWatt-PR-10-366f7f3.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-10-run-83/ChargeWatt-PR-10-366f7f3.apk",
   "apkSize": 1315719,
-  "sha256": "cc9f36bc9bc2eeeeefd3f578edc96fb1d92497ca027ffabcc0cd94e50e0fb6d6",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-10-run-68",
+  "sha256": "074efcae6bbbd9cc306a6cee78888fa3372fe451cf8a0ef66998e7091cb35f17",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-10-run-83",
   "notes": [
-    "Merge b9cc13aa156d700390952509584005379c39e6c3 into 91a01ad867d505246ba04d6b70a01a2c19c8358b",
-    "fix: respect battery state in wireless charging badge",
-    "fix: respect battery state in wireless charging badge",
-    "fix: respect battery state in wireless charging badge"
+    "Merge 4dcb144af7aa7dae4620ffabb5ed68289d8cb2f6 into 91a01ad867d505246ba04d6b70a01a2c19c8358b",
+    "Fix widget power state transition tests",
+    "Expand widget service shutdown regression checks",
+    "Stop sampler immediately when widget is removed",
+    "Clarify widget service sampling behavior",
+    "Fix widget service contract assertion",
+    "Replace overlay contracts with widget service lifecycle tests",
+    "Document widget-only foreground service",
+    "Remove last floating meter service hook",
+    "Remove floating power meter"
   ]
 }
