@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-10-run-89",
-  "versionName": "1.6-experimental.89",
-  "versionCode": 100089,
-  "apkName": "ChargeWatt-PR-10-a9b39e8.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-10-run-89/ChargeWatt-PR-10-a9b39e8.apk",
-  "apkSize": 1315719,
-  "sha256": "90f1d76835cec02b443a8095ca488c7f62b209a55ddf65fe7b98fd949c28d5a5",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-10-run-89",
+  "tag": "experimental-pr-10-run-91",
+  "versionName": "1.6-experimental.91",
+  "versionCode": 100091,
+  "apkName": "ChargeWatt-PR-10-2d0bb64.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-10-run-91/ChargeWatt-PR-10-2d0bb64.apk",
+  "apkSize": 1324359,
+  "sha256": "0f3064f9549964280c4bb572c73e8945032f8125cf6fc028951d8332b5927bd1",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-10-run-91",
   "notes": [
-    "Merge 24ab790917ef42484198e97ba52bef839b82550e into 91a01ad867d505246ba04d6b70a01a2c19c8358b",
+    "Merge 85046ad650fa10017b4aa75bce4342d1f97cfaef into 91a01ad867d505246ba04d6b70a01a2c19c8358b",
+    "Fix temperature formatter compile error",
+    "Replace widget status badge with icons and metadata",
     "Keep power receiver contract scoped to power events",
     "Fix startup contract test paths",
     "Add start on boot setting",
     "Add start on boot setting",
     "Add start on boot setting",
     "Add start on boot setting",
-    "Add start on boot setting",
-    "Fix widget power state transition tests",
-    "Expand widget service shutdown regression checks"
+    "Add start on boot setting"
   ]
 }
