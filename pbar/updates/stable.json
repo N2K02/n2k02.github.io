@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.4",
-  "versionName": "6.4",
-  "versionCode": 100199,
-  "apkName": "PBar-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v6.4/PBar-6.4.apk",
-  "apkSize": 1498757,
-  "sha256": "c9891d753d390674df4a524ee8c40af2d1736d1c00cc5d755966979bcb1d9c3a",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v6.4",
+  "tag": "v6.5",
+  "versionName": "6.5",
+  "versionCode": 100204,
+  "apkName": "PBar-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v6.5/PBar-6.5.apk",
+  "apkSize": 1515141,
+  "sha256": "568c183c18207b5d7ca10313cbe8ddca211fcf16f0580b43b4deb46cea87913c",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v6.5",
   "notes": [
-    "fix: use source APK releases for update feeds (#58)"
+    "Keep PBar live status details visible with badges"
   ]
 }
