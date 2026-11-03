@@ -1,15 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-36-run-169",
-  "versionName": "5.5-experimental.169",
-  "versionCode": 100169,
-  "apkName": "NetSpeed-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-36-run-169/NetSpeed-5.5.apk",
+  "tag": "experimental-pr-38-run-172",
+  "versionName": "5.6-experimental.172",
+  "versionCode": 100172,
+  "apkName": "NetSpeed-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-38-run-172/NetSpeed-5.6.apk",
   "apkSize": 19557714,
-  "sha256": "854d5b01f47bfbced2a27a1274d853aef7d65a1d76ab671ce0071e3229e10dba",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-36-run-169",
+  "sha256": "58f9a41d550de25f914c50373c4b457e8634773349aa0fce5b28705088761fff",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-38-run-172",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "Add foreground service lifecycle contract",
+    "Document foreground service overlay hosting",
+    "Clean up overlay if foreground promotion fails",
+    "Declare NetSpeed special-use foreground service",
+    "Run NetSpeed meter in sticky foreground service"
   ]
 }
