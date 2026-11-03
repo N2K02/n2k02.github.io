@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "speedtester-experimental-pr-40-run-325",
+  "tag": "speedtester-experimental-pr-40-run-326",
   "versionName": "8.7",
-  "versionCode": 100325,
+  "versionCode": 100326,
   "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-325/SpeedTester-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-experimental-pr-40-run-326/SpeedTester-8.7.apk",
   "apkSize": 25147844,
-  "sha256": "ab892eaa0b704328aceb7351dc211d8a87be68beef4105a290f5f5c33854db72",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-325",
+  "sha256": "48a1519f1e33999afe214f352d7be2456620d3216677f148b57dcc5ba3258a0b",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-experimental-pr-40-run-326",
   "notes": [
+    "test: cover Wi-Fi navigation and IO test execution",
+    "fix: execute quality test work off main thread",
+    "ui: move Wi-Fi analyzer to bottom navigation",
     "test: align contracts with off-main network fix",
     "test: expect quality navigation label",
     "ui: label network quality tab as quality",
     "test: guard against main thread network operations",
     "fix: read network state asynchronously on quality page",
     "fix: keep network snapshots and socket creation off main",
-    "test: identify TTL probe path as early route",
-    "ui: label TTL probe path as early route",
-    "fix: clarify route probe coverage in quality disclaimer",
-    "test: correct escaped menu label assertions"
+    "test: identify TTL probe path as early route"
   ]
 }
