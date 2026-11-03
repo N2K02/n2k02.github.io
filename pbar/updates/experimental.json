@@ -1,20 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-60-run-203",
-  "versionName": "6.5-experimental.203",
-  "versionCode": 100203,
-  "apkName": "PBar-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-60-run-203/PBar-6.5.apk",
+  "tag": "experimental-pr-61-run-205",
+  "versionName": "6.6-experimental.205",
+  "versionCode": 100205,
+  "apkName": "PBar-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-61-run-205/PBar-6.6.apk",
   "apkSize": 19852760,
-  "sha256": "e4f981a15e8a925072fbd51a8d44a9a26a9c3e46efb9fa9bc52b89f8767a6bf4",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-60-run-203",
+  "sha256": "f6255cc91d860a78d6ce2b7391768e3107bedb1ea996f9dcee53b3218eb41999",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-61-run-205",
   "notes": [
-    "Test always-visible live status details",
-    "Keep live status details open with colored badges",
-    "Add foreground service lifecycle contracts",
-    "Document PBar foreground service behavior",
-    "Add sticky PBar foreground service",
-    "Tie PBar foreground service to overlay lifecycle",
-    "Declare PBar special-use foreground service"
+    "Fix startup contract test paths",
+    "Add start on boot setting",
+    "Add start on boot setting",
+    "Add start on boot setting",
+    "Add start on boot setting"
   ]
 }
