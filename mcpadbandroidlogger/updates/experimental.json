@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-39-run-238",
+  "tag": "mcpadbandroidlogger-experimental-pr-39-run-253",
   "versionName": "2.5",
-  "versionCode": 100238,
+  "versionCode": 100253,
   "apkName": "McpAdbAndroidLogger-2.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-39-run-238/McpAdbAndroidLogger-2.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-39-run-253/McpAdbAndroidLogger-2.5.apk",
   "apkSize": 24786801,
-  "sha256": "6e9fb1c677909ffa951b325daa4a50c319ec01af559cc6ddc99022146a203ac1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-39-run-238",
+  "sha256": "211d4a3f84b233a4ea471c90056488c382d8b181ec8d83fa7551b72ddd69b993",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-39-run-253",
   "notes": [
-    "Align tunnel status tests with indicator colors",
-    "Correct live tunnel status assertion",
-    "Fix tunnel status indicator test string",
-    "Add live MCP tunnel status indicator",
-    "Add live MCP tunnel status indicator",
-    "Add live MCP tunnel status indicator",
-    "ci: remove completed one-time branch cleanup workflow",
-    "ci: retain only latest stable/experimental APKs and build runs",
-    "ci: run one-time cleanup of all non-main branches",
-    "ci: automatically delete merged PR branches (#34)"
+    "Cover cloud icon foreground service binding",
+    "Publish foreground service lifecycle to app state",
+    "Bind cloud indicator to foreground service state",
+    "Expose foreground service lifecycle to the UI",
+    "Remove unused status-bar notification icon asset",
+    "Remove unused status-bar notification icon asset",
+    "Remove unused status-bar notification icon asset",
+    "Remove unused status-bar notification icon asset",
+    "Remove status bar notification policy test",
+    "Remove foreground notification-specific test"
   ]
 }
