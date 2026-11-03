@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-63-run-978",
-  "versionName": "6.1-experimental.978",
-  "versionCode": 100978,
-  "apkName": "VREC-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-63-run-978/VREC-6.1.apk",
-  "apkSize": 13920320,
-  "sha256": "17107085d727a5a53dcd9f30f2c4d57a413a8985267bd8040844be7c1406374a",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-63-run-978",
+  "tag": "experimental-pr-65-run-983",
+  "versionName": "6.2-experimental.983",
+  "versionCode": 100983,
+  "apkName": "VREC-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-65-run-983/VREC-6.2.apk",
+  "apkSize": 13936704,
+  "sha256": "e3a7c96bd4a6e1237c3783ecf44227005922294353109f7ba019c1e5ba0ecc9f",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-65-run-983",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "Update import contract for cellular-only contact lookup",
+    "Reject concatenated group-title numbers and normalize number formatting",
+    "Preserve third-party call titles and collect directly observed participant numbers"
   ]
 }
