@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v8.6",
-  "versionName": "8.6",
-  "versionCode": 100255,
-  "apkName": "SpeedTester-8.6.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v8.6/SpeedTester-8.6.apk",
-  "apkSize": 1853128,
-  "sha256": "2c7220958084a9473e0adf17d4658120c9e6f748be25bd59886098e8b82974c8",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v8.6",
+  "tag": "speedtester-v8.7",
+  "versionName": "8.7",
+  "versionCode": 100327,
+  "apkName": "SpeedTester-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.7/SpeedTester-8.7.apk",
+  "apkSize": 2858547,
+  "sha256": "ececace15789e323b88d64a47eed23dd3d5ca66c7fe117f97d2e8a626e932de4",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.7",
   "notes": [
-    "ci: remove finished one-time branch cleanup workflow (#39)",
-    "ci: retain latest APK releases and workflow runs (#38)"
+    "Add Network Quality diagnostics"
   ]
 }
