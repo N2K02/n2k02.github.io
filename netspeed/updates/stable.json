@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v5.5",
-  "versionName": "5.5",
-  "versionCode": 100170,
-  "apkName": "NetSpeed-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.5/NetSpeed-5.5.apk",
-  "apkSize": 1207840,
-  "sha256": "0de715a2371db1be64a8d1f3bbc06442d14d284511b4972d0d54449bee316af6",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.5",
+  "tag": "v5.6",
+  "versionName": "5.6",
+  "versionCode": 100192,
+  "apkName": "NetSpeed-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.6/NetSpeed-5.6.apk",
+  "apkSize": 1224224,
+  "sha256": "f3d353c6adbc9275a0eb2241ba409058841a1e347fc2639a3df4e8437fcd995f",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.6",
   "notes": [
-    "fix: use source APK releases for update feeds (#36)"
+    "Fix startup contract test paths",
+    "Add start on boot setting",
+    "Add start on boot setting",
+    "Add start on boot setting",
+    "Add start on boot setting",
+    "Document two-second default interval",
+    "Test two-second default refresh interval",
+    "Set default network refresh interval to two seconds",
+    "Fix Settings submenu test string",
+    "Document Network refresh Settings submenu"
   ]
 }
