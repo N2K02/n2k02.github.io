@@ -1,15 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-58-run-198",
-  "versionName": "6.4-experimental.198",
-  "versionCode": 100198,
-  "apkName": "PBar-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-58-run-198/PBar-6.4.apk",
+  "tag": "experimental-pr-60-run-201",
+  "versionName": "6.5-experimental.201",
+  "versionCode": 100201,
+  "apkName": "PBar-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-60-run-201/PBar-6.5.apk",
   "apkSize": 19836376,
-  "sha256": "e684607c0d6cd3bb234c60342ea7bea66d712751b8e4af4457232c24a4d5be25",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-58-run-198",
+  "sha256": "f92a5b5d07d2d7b09731b9dca382edb5fa56b84003ce9f6cbc991704bc085ebc",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-60-run-201",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "Add foreground service lifecycle contracts",
+    "Document PBar foreground service behavior",
+    "Add sticky PBar foreground service",
+    "Tie PBar foreground service to overlay lifecycle",
+    "Declare PBar special-use foreground service"
   ]
 }
