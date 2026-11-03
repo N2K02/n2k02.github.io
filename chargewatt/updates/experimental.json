@@ -1,16 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-7-run-64",
-  "versionName": "1.5-experimental.64",
-  "versionCode": 100064,
-  "apkName": "ChargeWatt-PR-7-eb1df04.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-7-run-64/ChargeWatt-PR-7-eb1df04.apk",
+  "tag": "experimental-pr-10-run-68",
+  "versionName": "1.6-experimental.68",
+  "versionCode": 100068,
+  "apkName": "ChargeWatt-PR-10-e842080.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-10-run-68/ChargeWatt-PR-10-e842080.apk",
   "apkSize": 1315719,
-  "sha256": "110778e5d5390a1a3f4213eb00faa17b4bc47add5a994f8409a0e4e6df3e9552",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-7-run-64",
+  "sha256": "cc9f36bc9bc2eeeeefd3f578edc96fb1d92497ca027ffabcc0cd94e50e0fb6d6",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-10-run-68",
   "notes": [
-    "Merge 2760bdfff24009846ff5fe23d9b5b2ea5a34f661 into 3ead4c99896b56fa79ae1941a96b170cd6976a1e",
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "Merge b9cc13aa156d700390952509584005379c39e6c3 into 91a01ad867d505246ba04d6b70a01a2c19c8358b",
+    "fix: respect battery state in wireless charging badge",
+    "fix: respect battery state in wireless charging badge",
+    "fix: respect battery state in wireless charging badge"
   ]
 }
