@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-37-run-233",
-  "versionName": "2.5-experimental.233",
-  "versionCode": 100233,
+  "tag": "mcpadbandroidlogger-experimental-pr-39-run-238",
+  "versionName": "2.5",
+  "versionCode": 100238,
   "apkName": "McpAdbAndroidLogger-2.5.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-37-run-233/McpAdbAndroidLogger-2.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-39-run-238/McpAdbAndroidLogger-2.5.apk",
   "apkSize": 24786801,
-  "sha256": "0d84d98950cfb281bca38762e09ce07b6b9ea974a212ecf264c38d7cf3971d7d",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-37-run-233",
+  "sha256": "6e9fb1c677909ffa951b325daa4a50c319ec01af559cc6ddc99022146a203ac1",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-39-run-238",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry",
-    "fix: prevent stale feed publication races",
-    "fix: publish update feeds through pull requests",
+    "Align tunnel status tests with indicator colors",
+    "Correct live tunnel status assertion",
+    "Fix tunnel status indicator test string",
+    "Add live MCP tunnel status indicator",
+    "Add live MCP tunnel status indicator",
+    "Add live MCP tunnel status indicator",
     "ci: remove completed one-time branch cleanup workflow",
     "ci: retain only latest stable/experimental APKs and build runs",
     "ci: run one-time cleanup of all non-main branches",
-    "ci: automatically delete merged PR branches (#34)",
-    "fix(adb): match VRec connection settings and recover authorized TCP sessions (#35)",
-    "ci: require strict green checks for Dependabot merges (#33)"
+    "ci: automatically delete merged PR branches (#34)"
   ]
 }
