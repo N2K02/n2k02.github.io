@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-2-run-17",
-  "versionName": "1.0-experimental.17",
-  "versionCode": 100017,
+  "tag": "sdcleaner-experimental-pr-3-run-20",
+  "versionName": "1.0-experimental.20",
+  "versionCode": 100020,
   "apkName": "SDCleaner-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-2-run-17/SDCleaner-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-3-run-20/SDCleaner-1.0.apk",
   "apkSize": 43024140,
-  "sha256": "b91f3a157638ca596e0f94ac87ee88c6e88fe236cb7f3957fa3af2e3a9e238e6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-2-run-17",
+  "sha256": "b76b5a7f50586ce21a990b002393e92c1cd1c1357ff1bd7a91e0e2f81a8180cb",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-3-run-20",
   "notes": [
+    "Refresh ADB manager detection on package changes",
+    "Offer optional ADB access only when a manager is installed",
     "Use void JUnit signatures for root-disabled regression tests",
     "Complete setup device-test imports after root removal",
     "Identify setup in device tests without the removed root card",
@@ -16,8 +18,6 @@
     "Align setup ordering and regression assertions with root removal",
     "Remove helper tests added to SDCleaner; target LocalAdb instead",
     "Remove root access and root-only cleaning controls",
-    "Mock Android binder-death exception in JVM helper test",
-    "Test Shizuku helper IPC health, recovery and lease cleanup",
-    "Fix Compose lint findings and isolate cleanup-only startup state"
+    "Mock Android binder-death exception in JVM helper test"
   ]
 }
