@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-13-run-67",
-  "versionName": "1.9-experimental.67",
-  "versionCode": 100067,
-  "apkName": "LocalAdb-PR-13-ad419fc.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-13-run-67/LocalAdb-PR-13-ad419fc.apk",
-  "apkSize": 39827056,
-  "sha256": "fa7dc043808e5c47a6daca2d748f2942f1bd06829b5dcb978159566cb8157483",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-13-run-67",
+  "tag": "experimental-pr-13-run-69",
+  "versionName": "1.9-experimental.69",
+  "versionCode": 100069,
+  "apkName": "LocalAdb-PR-13-cb9cb49.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-13-run-69/LocalAdb-PR-13-cb9cb49.apk",
+  "apkSize": 39843498,
+  "sha256": "b55f0e721ae6836d887f9c13c010b215652a25e3bc11449d495e6ae08a29fa11",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-13-run-69",
   "notes": [
+    "Handle modified UTF-8 strings in APK starter verification",
+    "Fix Shizuku helper starter classpath and manager Binder handoff",
     "Add LocalHelper user-service connection self-test and regression coverage"
   ]
 }
