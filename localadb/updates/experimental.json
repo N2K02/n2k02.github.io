@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-11-run-64",
-  "versionName": "1.8-experimental.64",
-  "versionCode": 100064,
-  "apkName": "LocalAdb-PR-11-4befd16.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-11-run-64/LocalAdb-PR-11-4befd16.apk",
+  "tag": "experimental-pr-13-run-67",
+  "versionName": "1.9-experimental.67",
+  "versionCode": 100067,
+  "apkName": "LocalAdb-PR-13-ad419fc.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-13-run-67/LocalAdb-PR-13-ad419fc.apk",
   "apkSize": 39827056,
-  "sha256": "606cdfdf3cb0715cfd5c13851d79809ccbc846a8f2d490712ee32ee72d8b834c",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-11-run-64",
+  "sha256": "fa7dc043808e5c47a6daca2d748f2942f1bd06829b5dcb978159566cb8157483",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-13-run-67",
   "notes": [
-    "fix: point update feed to source APK releases"
+    "Add LocalHelper user-service connection self-test and regression coverage"
   ]
 }
