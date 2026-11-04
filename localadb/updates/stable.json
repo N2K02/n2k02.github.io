@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "v1.9",
-  "versionName": "1.9",
-  "versionCode": 100065,
-  "apkName": "LocalAdb-1.9.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v1.9/LocalAdb-1.9.apk",
-  "apkSize": 18560908,
-  "sha256": "96f36911816ce4af52e671c3bf29f779107bc390f8e99f75e4678f5211cd174a",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v1.9",
+  "tag": "v2.0",
+  "versionName": "2.0",
+  "versionCode": 100070,
+  "apkName": "LocalAdb-2.0.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.0/LocalAdb-2.0.apk",
+  "apkSize": 18577292,
+  "sha256": "14824fc04ce964c809e79c3de7d5c921f56de1924d7f0955fbfd40248b2e482f",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.0",
   "notes": [
-    "fix: point update feed to source APK releases (#11)"
+    "Handle modified UTF-8 strings in APK starter verification",
+    "Fix Shizuku helper starter classpath and manager Binder handoff",
+    "Add LocalHelper user-service connection self-test and regression coverage"
   ]
 }
