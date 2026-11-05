@@ -1,0 +1,23 @@
+{
+  "channel": "stable",
+  "tag": "sdcleaner-v1.0",
+  "versionName": "1.0",
+  "versionCode": 100062,
+  "apkName": "SDCleaner-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-v1.0/SDCleaner-1.0.apk",
+  "apkSize": 8532497,
+  "sha256": "3dc73d49a844aaa3012d2feff7f622a0204170b8c9afe2f956eb675ea2260238",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-v1.0",
+  "notes": [
+    "Complete SDCleaner purple Home UI and stable APK signing",
+    "Implement full SDCleaner Settings UI and minute-based Scheduler",
+    "Use void JUnit signatures for root-disabled regression tests",
+    "Complete setup device-test imports after root removal",
+    "Identify setup in device tests without the removed root card",
+    "Keep the shared ADB setup radio control outside removed root UI",
+    "Align setup ordering and regression assertions with root removal",
+    "Remove helper tests added to SDCleaner; target LocalAdb instead",
+    "Remove root access and root-only cleaning controls",
+    "Mock Android binder-death exception in JVM helper test"
+  ]
+}
