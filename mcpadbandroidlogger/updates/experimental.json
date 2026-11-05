@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-265",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-269",
   "versionName": "2.7",
-  "versionCode": 100265,
+  "versionCode": 100269,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-265/McpAdbAndroidLogger-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-269/McpAdbAndroidLogger-2.7.apk",
   "apkSize": 24799089,
-  "sha256": "df64b24ccd5a38cd75e5f8d5fb1cbb72b325a98104841bf45f68a87d80bebcfe",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-265",
+  "sha256": "0750e487243dfd413e23e53c566d31ccd3734df69e10ad0be4c40296d64e1b96",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-269",
   "notes": [
+    "docs: diagnose stale ChatGPT MCP tool schemas using existing status tool",
+    "ui: display live MCP tool-catalog revision and stale-client reconnect guidance",
+    "test: verify legacy device-status call proves actual MCP catalog without ADB reads",
+    "feat: expose exact installed MCP diagnostic catalog via existing device-status tool",
     "test: verify shared UID mapping does not invent app ownership",
     "fix: avoid misattributing shared-UID battery and wake lock counters",
     "fix: mark unavailable charging connection data unknown rather than unplugged",
     "fix: reflect local health reads and protect baseline visibility across stop",
     "fix: reflect local health reads and protect baseline visibility across stop",
-    "test: update MCP tool catalog counts for five read-only health endpoints",
-    "docs: explain on-demand device health and screen-off comparisons",
-    "test: cover memory PSI battery wakelock deltas MCP exposure and safe lifecycle",
-    "feat: add manual battery RAM wakelock and screen-off comparison controls",
-    "feat: connect on-demand health MCP tools to fixed ADB snapshots and cleanup"
+    "test: update MCP tool catalog counts for five read-only health endpoints"
   ]
 }
