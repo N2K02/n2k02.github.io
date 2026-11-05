@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-65-run-983",
-  "versionName": "6.2-experimental.983",
-  "versionCode": 100983,
-  "apkName": "VREC-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-65-run-983/VREC-6.2.apk",
+  "tag": "experimental-pr-66-run-986",
+  "versionName": "6.3-experimental.986",
+  "versionCode": 100986,
+  "apkName": "VREC-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-66-run-986/VREC-6.3.apk",
   "apkSize": 13936704,
-  "sha256": "e3a7c96bd4a6e1237c3783ecf44227005922294353109f7ba019c1e5ba0ecc9f",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-65-run-983",
+  "sha256": "4dceb6d27aa6171a49f50d8d469afb6559de6ca2476866e943dd25ccf411ffff",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-66-run-986",
   "notes": [
-    "Update import contract for cellular-only contact lookup",
-    "Reject concatenated group-title numbers and normalize number formatting",
-    "Preserve third-party call titles and collect directly observed participant numbers"
+    "fix(vrec): preserve verified VoIP metadata with short-call and overlap regression tests"
   ]
 }
