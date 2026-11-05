@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-276",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-281",
   "versionName": "2.7",
-  "versionCode": 100276,
+  "versionCode": 100281,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-276/McpAdbAndroidLogger-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-281/McpAdbAndroidLogger-2.7.apk",
   "apkSize": 24799089,
-  "sha256": "40f05a470fc23a6bf32fad5a8760827505bbefa2819f16d10f103eaacede0614",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-276",
+  "sha256": "b88e54eb12e0e4adf98b4a170a9dc10e48d0d7c76378c455da93d62d9d6aea86",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-281",
   "notes": [
+    "docs(oauth): explain authorization dates, duplicate recognition and safe replacement cleanup",
+    "chore(oauth): use explicit JSON client removal for Kotlin type safety",
+    "test(oauth): cover exact duplicate cleanup, token revocation and legacy timestamps",
+    "ui(oauth): show agent added date and client suffix to identify duplicate connections",
+    "feat(oauth): persist authorization dates and retire exact duplicate clients after successful reauthorization",
     "docs: clarify MCP request filters never mutate the local Logs UI",
     "test: assert local filtered rows remain visible after every MCP call",
     "test: verify all four MCP log tools leave local UI filters untouched",
     "fix: keep app Logs filters independent of MCP and show only manual refresh metadata",
-    "refactor: manual refresh metadata no longer tracks filter snapshots",
-    "refactor: retain manual request indicator without MCP-specific filter state",
-    "fix: keep remote MCP log queries independent from on-device Logs filters",
-    "docs: diagnose stale ChatGPT MCP tool schemas using existing status tool",
-    "ui: display live MCP tool-catalog revision and stale-client reconnect guidance",
-    "test: verify legacy device-status call proves actual MCP catalog without ADB reads"
+    "refactor: manual refresh metadata no longer tracks filter snapshots"
   ]
 }
