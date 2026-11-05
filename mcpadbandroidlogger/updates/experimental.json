@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-269",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-276",
   "versionName": "2.7",
-  "versionCode": 100269,
+  "versionCode": 100276,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-269/McpAdbAndroidLogger-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-276/McpAdbAndroidLogger-2.7.apk",
   "apkSize": 24799089,
-  "sha256": "0750e487243dfd413e23e53c566d31ccd3734df69e10ad0be4c40296d64e1b96",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-269",
+  "sha256": "40f05a470fc23a6bf32fad5a8760827505bbefa2819f16d10f103eaacede0614",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-276",
   "notes": [
+    "docs: clarify MCP request filters never mutate the local Logs UI",
+    "test: assert local filtered rows remain visible after every MCP call",
+    "test: verify all four MCP log tools leave local UI filters untouched",
+    "fix: keep app Logs filters independent of MCP and show only manual refresh metadata",
+    "refactor: manual refresh metadata no longer tracks filter snapshots",
+    "refactor: retain manual request indicator without MCP-specific filter state",
+    "fix: keep remote MCP log queries independent from on-device Logs filters",
     "docs: diagnose stale ChatGPT MCP tool schemas using existing status tool",
     "ui: display live MCP tool-catalog revision and stale-client reconnect guidance",
-    "test: verify legacy device-status call proves actual MCP catalog without ADB reads",
-    "feat: expose exact installed MCP diagnostic catalog via existing device-status tool",
-    "test: verify shared UID mapping does not invent app ownership",
-    "fix: avoid misattributing shared-UID battery and wake lock counters",
-    "fix: mark unavailable charging connection data unknown rather than unplugged",
-    "fix: reflect local health reads and protect baseline visibility across stop",
-    "fix: reflect local health reads and protect baseline visibility across stop",
-    "test: update MCP tool catalog counts for five read-only health endpoints"
+    "test: verify legacy device-status call proves actual MCP catalog without ADB reads"
   ]
 }
