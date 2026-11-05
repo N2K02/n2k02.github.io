@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-3-run-55",
-  "versionName": "1.0-experimental.55",
-  "versionCode": 100055,
+  "tag": "sdcleaner-experimental-pr-3-run-58",
+  "versionName": "1.0-experimental.58",
+  "versionCode": 100058,
   "apkName": "SDCleaner-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-3-run-55/SDCleaner-1.0.apk",
-  "apkSize": 43073292,
-  "sha256": "359fdb2ae296fb05ac344547c8770eb95836e3f7dba775cbfc5b28774d879f5d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-3-run-55",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-3-run-58/SDCleaner-1.0.apk",
+  "apkSize": 43089676,
+  "sha256": "acd583704d576e1f9b2130840e93072211c4ae6442c54a9c617bc3c7c151ff20",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-3-run-58",
   "notes": [
+    "Return Unit from Settings switch callbacks for Compose interop",
+    "Implement working Settings cleanup toggles matching redesigned UI",
+    "Complete scheduler enable switch, cleaning selection and functional minute-based UI",
     "test(widget): make storage ring color tests deterministic without Robolectric downloads",
     "fix(ui): reject incomplete minute fields and refresh next run after execution",
     "fix(ui): reliable custom minute entry and safe one-time-to-repeat transitions",
     "fix(scheduler): preserve one-time jobs on manual runs; refresh countdown and harden release publishing",
     "style(ui): tidy full-screen Scheduler composable structure",
     "feat(ui): full-screen branded Scheduler form with Back navigation",
-    "feat(ui): display Scheduler editor as a full navigation page",
-    "feat(ui): bind Settings scheduler hero to actual enabled schedules and next run",
-    "feat(ui): polished schedule cards with status pills, colored icon and correct next-run refresh keys",
-    "feat(ui): fully styled scheduler editor with hero, segmented modes, stepper cards and summary"
+    "feat(ui): display Scheduler editor as a full navigation page"
   ]
 }
