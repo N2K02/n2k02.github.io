@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "sdcleaner-v1.3",
-  "versionName": "1.3",
-  "versionCode": 100073,
-  "apkName": "SDCleaner-1.3.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-v1.3/SDCleaner-1.3.apk",
-  "apkSize": 8552977,
-  "sha256": "f8c36e7f0ee6bf614748aeb68d0b593214e3e34260448a1c59a60083debe9a11",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-v1.3",
+  "tag": "sdcleaner-v1.4",
+  "versionName": "1.4",
+  "versionCode": 100077,
+  "apkName": "SDCleaner-1.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-v1.4/SDCleaner-1.4.apk",
+  "apkSize": 8569361,
+  "sha256": "9a988b4b1911b95de8877f847071c2ffb50755f0d2ef83b312040f33d19ff363",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-v1.4",
   "notes": [
+    "Prefer Shizuku cache-only clearing without Accessibility overlay",
     "Compact SDCleaner Home cleaning tool cards",
     "Fix SDCleaner About version and remove Diagnostics; add cleaning-card action buttons",
     "Modernize SDCleaner with neutral Material 3 Home and scheduler UI",
@@ -17,7 +18,6 @@
     "Use void JUnit signatures for root-disabled regression tests",
     "Complete setup device-test imports after root removal",
     "Identify setup in device tests without the removed root card",
-    "Keep the shared ADB setup radio control outside removed root UI",
-    "Align setup ordering and regression assertions with root removal"
+    "Keep the shared ADB setup radio control outside removed root UI"
   ]
 }
