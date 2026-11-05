@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-5-run-68",
-  "versionName": "1.0-experimental.68",
-  "versionCode": 100068,
+  "tag": "sdcleaner-experimental-pr-6-run-70",
+  "versionName": "1.0-experimental.70",
+  "versionCode": 100070,
   "apkName": "SDCleaner-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-5-run-68/SDCleaner-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-6-run-70/SDCleaner-1.0.apk",
   "apkSize": 43138828,
-  "sha256": "253b093d5895259065dc02b5d0a544d0f0989b5963a07491940136911dcf3f56",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-5-run-68",
+  "sha256": "4dbfb039c0698fd91e77b0289b496d18b08c2b2908af3ac75f186d3b6ac6c8bd",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-6-run-70",
   "notes": [
-    "Replace violet SDCleaner with neutral Material 3 Home and real storage dashboard",
-    "Fix Material3 imports for scheduler gradient button and expandable options",
-    "Polish scheduler interval controls, summary and gradient Save styling",
-    "Import heightIn for compact scheduler run-mode controls",
-    "Match scheduler segmented icon modes and compact minute steppers to mockup",
-    "Compact Scheduler editor and prioritize timing controls while preserving cleaning options",
-    "Match compact mockup across Settings, Home and navigation with scheduling summary tests",
+    "Fix installed About version, retire Diagnostics, and add proper cleaning-card action buttons",
+    "Modernize SDCleaner with neutral Material 3 Home and scheduler UI",
     "Complete SDCleaner purple Home UI and stable APK signing",
     "Implement full SDCleaner Settings UI and minute-based Scheduler",
-    "Use void JUnit signatures for root-disabled regression tests"
+    "Use void JUnit signatures for root-disabled regression tests",
+    "Complete setup device-test imports after root removal",
+    "Identify setup in device tests without the removed root card",
+    "Keep the shared ADB setup radio control outside removed root UI",
+    "Align setup ordering and regression assertions with root removal",
+    "Remove helper tests added to SDCleaner; target LocalAdb instead"
   ]
 }
