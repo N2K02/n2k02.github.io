@@ -1,16 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-13-run-69",
-  "versionName": "1.9-experimental.69",
-  "versionCode": 100069,
-  "apkName": "LocalAdb-PR-13-cb9cb49.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-13-run-69/LocalAdb-PR-13-cb9cb49.apk",
-  "apkSize": 39843498,
-  "sha256": "b55f0e721ae6836d887f9c13c010b215652a25e3bc11449d495e6ae08a29fa11",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-13-run-69",
+  "tag": "experimental-pr-14-run-72",
+  "versionName": "2.0-experimental.72",
+  "versionCode": 100072,
+  "apkName": "LocalAdb-PR-14-ac25c40.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-14-run-72/LocalAdb-PR-14-ac25c40.apk",
+  "apkSize": 39859882,
+  "sha256": "955dddb36cd35fd75ec3542811e61acc188cdbb2a80290d403ee3e1103e667c7",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-14-run-72",
   "notes": [
-    "Handle modified UTF-8 strings in APK starter verification",
-    "Fix Shizuku helper starter classpath and manager Binder handoff",
-    "Add LocalHelper user-service connection self-test and regression coverage"
+    "fix: use explicitly typed MatrixCursor row for Kotlin 2.4 compiler",
+    "docs: explain Android Auto Shizuku installer and limitations",
+    "test: cover Android Auto installer policy, fallback, security and Home layout",
+    "fix: clear pending installer state and APK on Quit",
+    "feat: register read-only Android Auto APK provider",
+    "style: compact three Home status cards and mount Android Auto installer",
+    "style: provide Home-only compact dashboard metrics",
+    "feat: add compact Shizuku package installer Home card",
+    "feat: stage and verify Android Auto APK installations with existing Shizuku LocalHelper",
+    "feat: expose guarded Android Auto system installer through Shizuku LocalHelper"
   ]
 }
