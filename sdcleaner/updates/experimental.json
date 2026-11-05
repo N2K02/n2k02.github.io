@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-4-run-61",
-  "versionName": "1.0-experimental.61",
-  "versionCode": 100061,
+  "tag": "sdcleaner-experimental-pr-5-run-67",
+  "versionName": "1.0-experimental.67",
+  "versionCode": 100067,
   "apkName": "SDCleaner-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-4-run-61/SDCleaner-1.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-5-run-67/SDCleaner-1.0.apk",
   "apkSize": 43122444,
-  "sha256": "75b23c5c26ecc3939a41a4064970705d0a20d7d8a6257bca418b44107ca479e7",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-4-run-61",
+  "sha256": "6668b62ea6d6330606469ee2fb2920e8df6cf09220e5dd5b838fccf561c24985",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-5-run-67",
   "notes": [
-    "Validate release APK build in PR CI to prevent post-merge signing regressions",
-    "Redesign Home to match purple Settings and Scheduler, fix clean-runner release signing",
+    "Fix Material3 imports for scheduler gradient button and expandable options",
+    "Polish scheduler interval controls, summary and gradient Save styling",
+    "Import heightIn for compact scheduler run-mode controls",
+    "Match scheduler segmented icon modes and compact minute steppers to mockup",
+    "Compact Scheduler editor and prioritize timing controls while preserving cleaning options",
+    "Match compact mockup across Settings, Home and navigation with scheduling summary tests",
+    "Complete SDCleaner purple Home UI and stable APK signing",
     "Implement full SDCleaner Settings UI and minute-based Scheduler",
     "Use void JUnit signatures for root-disabled regression tests",
-    "Complete setup device-test imports after root removal",
-    "Identify setup in device tests without the removed root card",
-    "Keep the shared ADB setup radio control outside removed root UI",
-    "Align setup ordering and regression assertions with root removal",
-    "Remove helper tests added to SDCleaner; target LocalAdb instead",
-    "Remove root access and root-only cleaning controls"
+    "Complete setup device-test imports after root removal"
   ]
 }
