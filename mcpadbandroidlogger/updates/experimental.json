@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-287",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-294",
   "versionName": "2.7",
-  "versionCode": 100287,
+  "versionCode": 100294,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-287/McpAdbAndroidLogger-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-294/McpAdbAndroidLogger-2.7.apk",
   "apkSize": 24803185,
-  "sha256": "c178019760f97a1ab50bed4e10682599baade2ec6d7715332e8ae20c186ee4a8",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-287",
+  "sha256": "8e65b42396b181d9df20a5b9e49da97f946ec5dd18d0a82a4d0ad208e1789d04",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-294",
   "notes": [
+    "docs: describe privacy-safe SurfaceFlinger layer inspection and 15-tool catalog",
+    "test: include SurfaceFlinger in explicit diagnostic tool dispatch checks",
+    "test: reflect 15 read-only MCP tools and 16 including opt-in audits",
+    "test: cover privacy, attribution and bounds for SurfaceFlinger MCP diagnostic",
+    "ui: add on-demand SurfaceFlinger layers action in Performance tab",
+    "feat(server): dispatch authenticated SurfaceFlinger layer diagnostic on demand",
+    "feat(mcp): expose get_surfaceflinger_layers as a read-only 15th tool and bump catalog revision",
+    "feat: add bounded privacy-preserving SurfaceFlinger layer inspection",
     "docs: align missing PSI status with backwards-compatible response",
-    "test: preserve default unavailable PSI result",
-    "fix: preserve existing PSI unavailable status for missing metrics",
-    "docs: wakelock checkin compatibility, PSI permission limitations and compositor scope",
-    "test: cover modern Android awl/wl fields, PSI denial and safe screen-off deltas",
-    "fix: parse modern Android aggregated and per-tag wakelock counters; report PSI access failures",
-    "docs(oauth): explain authorization dates, duplicate recognition and safe replacement cleanup",
-    "chore(oauth): use explicit JSON client removal for Kotlin type safety",
-    "test(oauth): cover exact duplicate cleanup, token revocation and legacy timestamps",
-    "ui(oauth): show agent added date and client suffix to identify duplicate connections"
+    "test: preserve default unavailable PSI result"
   ]
 }
