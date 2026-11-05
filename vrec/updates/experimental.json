@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-66-run-986",
-  "versionName": "6.3-experimental.986",
-  "versionCode": 100986,
+  "tag": "experimental-pr-66-run-987",
+  "versionName": "6.3-experimental.987",
+  "versionCode": 100987,
   "apkName": "VREC-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-66-run-986/VREC-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-66-run-987/VREC-6.3.apk",
   "apkSize": 13936704,
-  "sha256": "4dceb6d27aa6171a49f50d8d469afb6559de6ca2476866e943dd25ccf411ffff",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-66-run-986",
+  "sha256": "026ee65fd3b105601e063caa0187920fa40b22133f2e161161639cd4d0a8bf79",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-66-run-987",
   "notes": [
+    "feat(vrec): track live VoIP group title transitions in recording metadata",
     "fix(vrec): preserve verified VoIP metadata with short-call and overlap regression tests"
   ]
 }
