@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-281",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-287",
   "versionName": "2.7",
-  "versionCode": 100281,
+  "versionCode": 100287,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-281/McpAdbAndroidLogger-2.7.apk",
-  "apkSize": 24799089,
-  "sha256": "b88e54eb12e0e4adf98b4a170a9dc10e48d0d7c76378c455da93d62d9d6aea86",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-281",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-287/McpAdbAndroidLogger-2.7.apk",
+  "apkSize": 24803185,
+  "sha256": "c178019760f97a1ab50bed4e10682599baade2ec6d7715332e8ae20c186ee4a8",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-287",
   "notes": [
+    "docs: align missing PSI status with backwards-compatible response",
+    "test: preserve default unavailable PSI result",
+    "fix: preserve existing PSI unavailable status for missing metrics",
+    "docs: wakelock checkin compatibility, PSI permission limitations and compositor scope",
+    "test: cover modern Android awl/wl fields, PSI denial and safe screen-off deltas",
+    "fix: parse modern Android aggregated and per-tag wakelock counters; report PSI access failures",
     "docs(oauth): explain authorization dates, duplicate recognition and safe replacement cleanup",
     "chore(oauth): use explicit JSON client removal for Kotlin type safety",
     "test(oauth): cover exact duplicate cleanup, token revocation and legacy timestamps",
-    "ui(oauth): show agent added date and client suffix to identify duplicate connections",
-    "feat(oauth): persist authorization dates and retire exact duplicate clients after successful reauthorization",
-    "docs: clarify MCP request filters never mutate the local Logs UI",
-    "test: assert local filtered rows remain visible after every MCP call",
-    "test: verify all four MCP log tools leave local UI filters untouched",
-    "fix: keep app Logs filters independent of MCP and show only manual refresh metadata",
-    "refactor: manual refresh metadata no longer tracks filter snapshots"
+    "ui(oauth): show agent added date and client suffix to identify duplicate connections"
   ]
 }
