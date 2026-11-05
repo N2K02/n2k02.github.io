@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-6-run-70",
-  "versionName": "1.0-experimental.70",
-  "versionCode": 100070,
-  "apkName": "SDCleaner-1.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-6-run-70/SDCleaner-1.0.apk",
+  "tag": "sdcleaner-experimental-pr-7-run-72",
+  "versionName": "1.2-experimental.72",
+  "versionCode": 100072,
+  "apkName": "SDCleaner-1.2.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-7-run-72/SDCleaner-1.2.apk",
   "apkSize": 43138828,
-  "sha256": "4dbfb039c0698fd91e77b0289b496d18b08c2b2908af3ac75f186d3b6ac6c8bd",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-6-run-70",
+  "sha256": "9c1eca812f9a2acff85fdde3eebb485c2ee0f23e1748622b5579a4ab238ccb87",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-7-run-72",
   "notes": [
-    "Fix installed About version, retire Diagnostics, and add proper cleaning-card action buttons",
+    "Compact four Home cleaning cards while preserving explicit scan and cleanup buttons",
+    "Fix SDCleaner About version and remove Diagnostics; add cleaning-card action buttons",
     "Modernize SDCleaner with neutral Material 3 Home and scheduler UI",
     "Complete SDCleaner purple Home UI and stable APK signing",
     "Implement full SDCleaner Settings UI and minute-based Scheduler",
@@ -17,7 +18,6 @@
     "Complete setup device-test imports after root removal",
     "Identify setup in device tests without the removed root card",
     "Keep the shared ADB setup radio control outside removed root UI",
-    "Align setup ordering and regression assertions with root removal",
-    "Remove helper tests added to SDCleaner; target LocalAdb instead"
+    "Align setup ordering and regression assertions with root removal"
   ]
 }
