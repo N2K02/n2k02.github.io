@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.7",
-  "versionName": "5.7",
-  "versionCode": 100195,
-  "apkName": "NetSpeed-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.7/NetSpeed-5.7.apk",
+  "tag": "v5.8",
+  "versionName": "5.8",
+  "versionCode": 100197,
+  "apkName": "NetSpeed-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.8/NetSpeed-5.8.apk",
   "apkSize": 1224224,
-  "sha256": "42c8d1cfebcaf4b160ad98cb3c460622ea01cef8c825684ef11dd523aa2fb787",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.7",
+  "sha256": "53c151312beb6b2713a80e3880fcafa0fab2cb795da7c759a8d96b24f6eec80e",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.8",
   "notes": [
-    "perf: pause hidden NetSpeed sampling and clean overlays (#39)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#37)"
   ]
 }
