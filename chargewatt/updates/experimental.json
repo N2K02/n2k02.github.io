@@ -1,23 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-10-run-95",
-  "versionName": "1.6-experimental.95",
-  "versionCode": 100095,
-  "apkName": "ChargeWatt-PR-10-e89bd82.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-10-run-95/ChargeWatt-PR-10-e89bd82.apk",
+  "tag": "experimental-pr-11-run-97",
+  "versionName": "1.7-experimental.97",
+  "versionCode": 100097,
+  "apkName": "ChargeWatt-PR-11-164245a.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-11-run-97/ChargeWatt-PR-11-164245a.apk",
   "apkSize": 1324359,
-  "sha256": "14573662c6d365c1ff04e3b17e32133dbdc057f73ab0aba7e8f3394a8b2a1513",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-10-run-95",
+  "sha256": "0d6c63a201f6b53155bdc0600ca8bbdf00528630db1bc2fcf68669cf1b6f7979",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-11-run-97",
   "notes": [
-    "Merge 249bd9f8e91b593edb37141b2b9125e669aa0bb9 into 91a01ad867d505246ba04d6b70a01a2c19c8358b",
-    "Update visual contract for transparent widget",
-    "Remove fill from borderless transparent widget",
-    "Make transparent widget background fully clear",
-    "Use RemoteViews-supported widget layouts",
-    "Fix temperature formatter compile error",
-    "Replace widget status badge with icons and metadata",
-    "Keep power receiver contract scoped to power events",
-    "Fix startup contract test paths",
-    "Add start on boot setting"
+    "Merge ff0fb9bd2909d613e75663899e5b940c8f148fc2 into fddc290a31226a19493af5e1d490d0336bcbb85f",
+    "test(chargewatt): preserve periodic fallback when foreground sampler absent and release sampler state on stop",
+    "perf(chargewatt): track foreground widget sampler lifecycle for fallback deduplication",
+    "perf(chargewatt): skip redundant periodic fallback readings while Activity or widget service samples"
   ]
 }
