@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "speedtester-v8.7",
-  "versionName": "8.7",
-  "versionCode": 100327,
-  "apkName": "SpeedTester-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/speedtester-v8.7/SpeedTester-8.7.apk",
+  "tag": "v8.8",
+  "versionName": "8.8",
+  "versionCode": 100329,
+  "apkName": "SpeedTester-8.8.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v8.8/SpeedTester-8.8.apk",
   "apkSize": 2858547,
-  "sha256": "ececace15789e323b88d64a47eed23dd3d5ca66c7fe117f97d2e8a626e932de4",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/speedtester-v8.7",
+  "sha256": "5b8ff7533438c7f2ad5faa9ee738e9ca267b8691037c61cd5370697d1b66ff1d",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v8.8",
   "notes": [
-    "Add Network Quality diagnostics"
+    "fix(updates): publish source APK URLs and immutable metadata (#41)"
   ]
 }
