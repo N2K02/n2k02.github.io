@@ -1,17 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-33-run-162",
-  "versionName": "5.1-experimental.162",
-  "versionCode": 100162,
-  "apkName": "PixelCast-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-33-run-162/PixelCast-5.1.apk",
-  "apkSize": 19599232,
-  "sha256": "8a6d52cfd9a76dc6b47e5e5f0b9d1851a1c8b04b3e567f648c82734e498047a7",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-33-run-162",
+  "tag": "experimental-pr-32-run-164",
+  "versionName": "5.2-experimental.164",
+  "versionCode": 100164,
+  "apkName": "PixelCast-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-32-run-164/PixelCast-5.2.apk",
+  "apkSize": 19627904,
+  "sha256": "116f31140080427fc8c5a8da38593385104631721f00baf6761e5182f1d1122e",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-32-run-164",
   "notes": [
-    "test(pixelcast): check actual transport-based polling ownership predicate",
-    "test(pixelcast): ensure adaptive UPnP polling and resources cleanup preserve casting",
-    "test(pixelcast): ensure adaptive UPnP polling and resources cleanup preserve casting",
-    "perf(pixelcast): slow TV polling when paused while retaining 1s playback and volume sync"
+    "build: pin next shared theme and updater releases",
+    "build(deps): bump the all-dependencies group with 5 updates"
   ]
 }
