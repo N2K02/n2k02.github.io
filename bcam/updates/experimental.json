@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-35-run-210",
-  "versionName": "5.4-experimental.210",
-  "versionCode": 100210,
-  "apkName": "BCam-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-35-run-210/BCam-5.4.apk",
-  "apkSize": 19578620,
-  "sha256": "a05b7510116cd74b023fb0188c9784a233e74ee2d98de57fcef7ed504c98184e",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-35-run-210",
+  "tag": "experimental-pr-36-run-213",
+  "versionName": "5.5-experimental.213",
+  "versionCode": 100213,
+  "apkName": "BCam-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-36-run-213/BCam-5.5.apk",
+  "apkSize": 19611388,
+  "sha256": "0d00da194d79138238a4473b5882af77ff817e8c1d0528afb6b292005e72a068",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-36-run-213",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "build: upgrade to newly merged shared theme 0.1.5 and updater 0.1.20",
+    "Bump the all-dependencies group with 5 updates"
   ]
 }
