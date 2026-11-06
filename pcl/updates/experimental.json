@@ -1,19 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-76-run-573",
-  "versionName": "6.6-experimental.573",
-  "versionCode": 100573,
-  "apkName": "PCL-6.6.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-76-run-573/PCL-6.6.apk",
+  "tag": "experimental-pr-75-run-576",
+  "versionName": "6.7-experimental.576",
+  "versionCode": 100576,
+  "apkName": "PCL-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-75-run-576/PCL-6.7.apk",
   "apkSize": 19966229,
-  "sha256": "0615820404eae7b96b583bd76cf42f3247cbafa51686dc48d5ef71df9c24c690",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-76-run-573",
+  "sha256": "cce596478b5843c4db4fe0b9204604af28c34d31731c61361c9f3561b8336294",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-75-run-576",
   "notes": [
-    "test(pcl): escape literal call-state interpolation in source ordering assertion",
-    "test(pcl): cover direct call callback, immediate OFFHOOK forwarding and ringtone teardown",
-    "fix(pcl): deliver Gateway OFFHOOK via TelephonyCallback and prioritize Bluetooth state packet before logging",
-    "test(pcl): verify idle traffic backoff and immediate baseline reset on link change",
-    "test(pcl): verify idle traffic backoff and immediate baseline reset on link change",
-    "perf(pcl): suspend frequent traffic samples while Bluetooth is disconnected; resume immediately on reconnect"
+    "test(updater): assert current shared updater 0.1.20 and reject superseded pin",
+    "build: pin next shared theme and updater releases",
+    "Bump actions/github-script from 7 to 9 in the all-dependencies group"
   ]
 }
