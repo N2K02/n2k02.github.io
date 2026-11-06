@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-14-run-81",
-  "versionName": "2.0-experimental.81",
-  "versionCode": 100081,
-  "apkName": "LocalAdb-PR-14-2bbbac6.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-14-run-81/LocalAdb-PR-14-2bbbac6.apk",
+  "tag": "experimental-pr-15-run-83",
+  "versionName": "2.1-experimental.83",
+  "versionCode": 100083,
+  "apkName": "LocalAdb-PR-15-2005f1d.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-15-run-83/LocalAdb-PR-15-2005f1d.apk",
   "apkSize": 39876266,
-  "sha256": "2411aed063e33f02e262193dbce9804d2a364b84d4594792e64bba6149a3602b",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-14-run-81",
+  "sha256": "5e2ae3aac934588023197a59c43a6377a5915630c75f0fc789c8e22a9501e4b8",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-15-run-83",
   "notes": [
-    "test: allow compact Stop/Restart button text attributes",
-    "fix: use supported rounded Info icon in installer details",
-    "style: show Android Auto compatibility caveat in neutral info panel",
-    "test: protect compact Home status cards and structured installer details",
-    "fix: scope expandable installer detail row weight to Row",
-    "style: replace raw installer log with expandable labeled details and compatibility note",
-    "refactor: expose structured Android Auto installation source details to UI",
-    "style: further compress Home panels and combine Shizuku controls",
-    "style: tighten Home status chips and use two-line metric tiles",
-    "fix: use explicitly typed MatrixCursor row for Kotlin 2.4 compiler"
+    "test(localadb): ensure disabled watchdog does not poll and discovery timers cancel on teardown",
+    "perf(localadb): avoid disabled watchdog and cancel stale discovery timeouts"
   ]
 }
