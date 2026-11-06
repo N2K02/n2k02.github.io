@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-90",
-  "versionName": "0.3-experimental.90",
-  "versionCode": 100090,
-  "apkName": "SEQ-PR-1-5a3cbe1.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-90/SEQ-PR-1-5a3cbe1.apk",
+  "tag": "experimental-pr-1-run-91",
+  "versionName": "0.3-experimental.91",
+  "versionCode": 100091,
+  "apkName": "SEQ-PR-1-f14252d.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-91/SEQ-PR-1-f14252d.apk",
   "apkSize": 92383957,
-  "sha256": "2be987e6e7ca7ff69682a1760b4515785701e7e99a040753527f62e184a55b18",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-90",
+  "sha256": "c3924afa09c569ac231bf6b3f61e55233f3e874c29b2ad99865dd83d02f719b5",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-91",
   "notes": [
+    "feat: detect any playing media and Android Auto without notification access",
     "feat: process all media incl. Android Auto with precision output-mix EQ",
     "test(adb): require status card and prevent SEQ diagnostics parity regressions",
     "feat(adb): add VREC-style verified UID and discovery status on SEQ diagnostics",
@@ -17,7 +18,6 @@
     "fix(adb): align SEQ timeout session ownership with VREC and LocalAdb",
     "Test PBar-style media detection, lifecycle cleanup and session safety",
     "Surface external media sessions and request Android notification access",
-    "Surface external media sessions and request Android notification access",
-    "Detect external media sessions via PBar-style notification listener"
+    "Surface external media sessions and request Android notification access"
   ]
 }
