@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-38-run-359",
-  "versionName": "6.3-experimental.359",
-  "versionCode": 100359,
-  "apkName": "MRadio-PR-38-cef82c2.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-38-run-359/MRadio-PR-38-cef82c2.apk",
-  "apkSize": 24360574,
-  "sha256": "30b9e58a0ec676c3d0c50eecd520dcba309bb78383e0139d1494b6b753f168d2",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-38-run-359",
+  "tag": "experimental-pr-39-run-362",
+  "versionName": "6.4-experimental.362",
+  "versionCode": 100362,
+  "apkName": "MRadio-PR-39-f8545af.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-39-run-362/MRadio-PR-39-f8545af.apk",
+  "apkSize": 24409726,
+  "sha256": "c0f7a13179c9aff975de5a55045e1d653992ae22deb5385a8378cfc7a50627ba",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-39-run-362",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "build: upgrade to newly merged shared theme 0.1.5 and updater 0.1.20",
+    "build(deps): bump the all-dependencies group with 7 updates"
   ]
 }
