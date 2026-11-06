@@ -1,15 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-31-run-159",
-  "versionName": "5.0-experimental.159",
-  "versionCode": 100159,
-  "apkName": "PixelCast-5.0.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-31-run-159/PixelCast-5.0.apk",
+  "tag": "experimental-pr-33-run-162",
+  "versionName": "5.1-experimental.162",
+  "versionCode": 100162,
+  "apkName": "PixelCast-5.1.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-33-run-162/PixelCast-5.1.apk",
   "apkSize": 19599232,
-  "sha256": "3c40a9058e36c2754cda89c50c194de3cee170fbd6e8bf8080585dc89b194078",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-31-run-159",
+  "sha256": "8a6d52cfd9a76dc6b47e5e5f0b9d1851a1c8b04b3e567f648c82734e498047a7",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-33-run-162",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "test(pixelcast): check actual transport-based polling ownership predicate",
+    "test(pixelcast): ensure adaptive UPnP polling and resources cleanup preserve casting",
+    "test(pixelcast): ensure adaptive UPnP polling and resources cleanup preserve casting",
+    "perf(pixelcast): slow TV polling when paused while retaining 1s playback and volume sync"
   ]
 }
