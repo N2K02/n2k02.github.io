@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-33-run-179",
-  "versionName": "6.1-experimental.179",
-  "versionCode": 100179,
+  "tag": "experimental-pr-33-run-181",
+  "versionName": "6.1-experimental.181",
+  "versionCode": 100181,
   "apkName": "HFreebuds-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-33-run-179/HFreebuds-6.1.apk",
-  "apkSize": 19819851,
-  "sha256": "4594677433ab662485e49a88236ff26453371e858e60a644402a41fc8c5b8d78",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-33-run-179",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-33-run-181/HFreebuds-6.1.apk",
+  "apkSize": 19836235,
+  "sha256": "85eef3eb7893d570391a0698b6f1e3488cf706d6efcf30f6c1b697f5cf5ae79a",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-33-run-181",
   "notes": [
+    "Keep manual refresh on connected card",
+    "Make connected battery card compact",
     "Guard earbud settings and HD audio choices",
     "Clean up earbud settings navigation",
     "Clean up earbud settings navigation"
