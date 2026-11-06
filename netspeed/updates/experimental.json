@@ -1,17 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-194",
-  "versionName": "5.7-experimental.194",
-  "versionCode": 100194,
-  "apkName": "NetSpeed-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-39-run-194/NetSpeed-5.7.apk",
-  "apkSize": 19557714,
-  "sha256": "11d4a24ad70c21a2722bb52d93f32dbe146b360f6cbaf4a34e5220857627bedf",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-39-run-194",
+  "tag": "experimental-pr-37-run-196",
+  "versionName": "5.8-experimental.196",
+  "versionCode": 100196,
+  "apkName": "NetSpeed-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-37-run-196/NetSpeed-5.8.apk",
+  "apkSize": 19590482,
+  "sha256": "678b2cd91a279ac7f63f7291bb323e5cedc193e4ba1280e7e97d3bd0e3b7ec82",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-37-run-196",
   "notes": [
-    "test: update legacy animation/sampling contract for adaptive low-power behavior",
-    "test(netspeed): cover hidden overlay sampling, service teardown, and network counter behavior",
-    "fix(netspeed): always detach overlay when foreground service is destroyed",
-    "perf(netspeed): pause hidden/fullscreen sampling and release overlay resources on stop or failed attach"
+    "build: pin next shared theme and updater releases",
+    "build(deps): bump the all-dependencies group with 5 updates"
   ]
 }
