@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v8.8",
-  "versionName": "8.8",
-  "versionCode": 100329,
-  "apkName": "SpeedTester-8.8.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v8.8/SpeedTester-8.8.apk",
-  "apkSize": 2858547,
-  "sha256": "5b8ff7533438c7f2ad5faa9ee738e9ca267b8691037c61cd5370697d1b66ff1d",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v8.8",
+  "tag": "v8.9",
+  "versionName": "8.9",
+  "versionCode": 100333,
+  "apkName": "SpeedTester-8.9.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v8.9/SpeedTester-8.9.apk",
+  "apkSize": 2904054,
+  "sha256": "a9e1b4a9bd3fb9e9b8365b8c8a653008868c10099b031f1101060ff96cce2c5c",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v8.9",
   "notes": [
-    "fix(updates): publish source APK URLs and immutable metadata (#41)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#42)"
   ]
 }
