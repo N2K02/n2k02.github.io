@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.9",
-  "versionName": "5.9",
-  "versionCode": 100175,
-  "apkName": "HFreebuds-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v5.9/HFreebuds-5.9.apk",
-  "apkSize": 1400462,
-  "sha256": "37b6233fa0cb6ca76d9756029b3688cb61a57f8a067740b79f59a68a7fbdbde6",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v5.9",
+  "tag": "v6.0",
+  "versionName": "6.0",
+  "versionCode": 100178,
+  "apkName": "HFreebuds-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.0/HFreebuds-6.0.apk",
+  "apkSize": 1384078,
+  "sha256": "12ba540d0a09c31aade02123529456ce39e34f64719a5c9d83a38850f4e5a68d",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.0",
   "notes": [
-    "fix: use source APK releases for update feeds (#31)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#32)"
   ]
 }
