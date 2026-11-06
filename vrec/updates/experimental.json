@@ -1,22 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-67-run-995",
-  "versionName": "6.3-experimental.995",
-  "versionCode": 100995,
+  "tag": "experimental-pr-64-run-997",
+  "versionName": "6.3-experimental.997",
+  "versionCode": 100997,
   "apkName": "VREC-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-67-run-995/VREC-6.3.apk",
-  "apkSize": 13936704,
-  "sha256": "5b09266313b8c6ebe28bb0549557c87bbc70e1bfe10c9eee9c3ee76fef34b634",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-67-run-995",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-64-run-997/VREC-6.3.apk",
+  "apkSize": 12839598,
+  "sha256": "8be64a08d8b0587fb602b1af963e81a3f4b49110a973a00d700b7dddd02d846a",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-64-run-997",
   "notes": [
-    "test(adb): recognize guarded manager retirement in lifecycle checks",
-    "test(adb): enforce watchdog session ownership before clearing state",
-    "fix(adb): keep stale timeout watchdog from clearing newer verified session",
-    "test(adb): require independent timeout watchdog under coroutine cancellation",
-    "fix(adb): keep bounded socket watchdog active across cancelled blocking ADB reads",
-    "fix(adb): include native openStream failure in watchdog finally and connection retirement",
-    "test(adb): enforce stream EOF retirement and deadlock-free watchdog cleanup",
-    "fix(adb): retire poisoned sessions on Stream closed and avoid reader-close watchdog deadlocks",
-    "fix: recover VoIP metadata and track group-call title changes"
+    "fix(ci): align shared-library and Material 3 ABI verification with upgraded dependencies",
+    "build: pin next shared theme and updater releases",
+    "fix: recover VoIP metadata and track group-call title changes",
+    "build(deps): bump the all-dependencies group with 6 updates"
   ]
 }
