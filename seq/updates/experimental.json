@@ -1,0 +1,23 @@
+{
+  "channel": "experimental",
+  "tag": "experimental-pr-1-run-79",
+  "versionName": "0.3-experimental.79",
+  "versionCode": 100079,
+  "apkName": "SEQ-PR-1-a667ae3.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-79/SEQ-PR-1-a667ae3.apk",
+  "apkSize": 92400341,
+  "sha256": "b75cb036cc52879142de13058446971e912215712dfbc653abd7cb859b52fd72",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-79",
+  "notes": [
+    "fix: resolve Android lint failures without disabling validation",
+    "fix: resolve Android lint failures without disabling validation",
+    "fix: resolve Android lint failures without disabling validation",
+    "fix: resolve Android lint failures without disabling validation",
+    "fix: resolve Android lint failures without disabling validation",
+    "test(adb): require independent timeout watchdog under coroutine cancellation",
+    "fix(adb): keep bounded socket watchdog active across cancelled blocking ADB reads",
+    "fix(adb): include native openStream failure in watchdog finally and connection retirement",
+    "test(adb): enforce stream EOF retirement and deadlock-free watchdog cleanup",
+    "fix(adb): retire poisoned sessions on Stream closed and avoid reader-close watchdog deadlocks"
+  ]
+}
