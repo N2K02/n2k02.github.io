@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-335",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-346",
   "versionName": "2.7",
-  "versionCode": 100335,
+  "versionCode": 100346,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-335/McpAdbAndroidLogger-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-346/McpAdbAndroidLogger-2.7.apk",
   "apkSize": 29616065,
-  "sha256": "9bc811468c8234c3ddab9bc6211acf0888d4040bc238049a2945e96cd4a04b39",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-335",
+  "sha256": "831603f193178ddc8c66a36a08c7f7f91c6f66695c816f19f2d5b373d86c5248",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-346",
   "notes": [
-    "fix(perfetto): clean partially copied shell executables even when chmod fails",
-    "fix: preserve actual Kotlin newline between watchdog comment and command wrapper",
-    "test: constrain ADB watchdog first token to privacy-safe shell prefix",
-    "privacy: ensure ADB timeout logs cannot include private Perfetto processor or trace paths",
-    "docs: document fallback processor execution as verified shell UID 2000 with immediate cleanup",
-    "test: fix literal Kotlin dollar sign in temporary processor cleanup contract",
-    "test: verify UID 2000 temporary executable fallback and noncancellable cleanup",
-    "fix(perfetto): fallback to temporary UID 2000 processor executable when app-library execution is denied",
-    "docs: explain Perfetto stage-specific failure states, checked shell exit codes and safe reports",
-    "test: use null assertion for scheduler data unavailable"
+    "docs: explain source-table limitations, memory-bounded Perfetto SQL and resilient MCP relay",
+    "chore(mcp): identify Perfetto SQL and tunnel recovery build; keep stable 17-tool schema",
+    "test(mcp): bounded worker pool retains capacity for health while trace analysis is active",
+    "test(tunnel): verify debounced offline recovery with preserved registration and no new polling",
+    "test: use literal Kotlin dollar notation for bounded Perfetto output assertion",
+    "test(perfetto): discriminate absent trace sources, invalid SQL and CLI flags; bound analysis resources",
+    "fix(tunnel): restart stalled edge after three offline heartbeats, preserving existing MCP URL",
+    "fix(tunnel): expose edge registration and debounced recovery policy without new background polling",
+    "fix(perfetto): memory-light bounded SQL queries; retry only unsupported CLI flags, not missing data tables",
+    "fix(mcp): keep local health requests responsive with bounded six-worker pool under long Perfetto calls"
   ]
 }
