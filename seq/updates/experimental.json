@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-89",
-  "versionName": "0.3-experimental.89",
-  "versionCode": 100089,
-  "apkName": "SEQ-PR-1-fc2fa26.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-89/SEQ-PR-1-fc2fa26.apk",
-  "apkSize": 92351189,
-  "sha256": "4363bb1339ab384bdbea031c766bd6867a26fab4ff620fb4c1bc46b0764842cd",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-89",
+  "tag": "experimental-pr-1-run-90",
+  "versionName": "0.3-experimental.90",
+  "versionCode": 100090,
+  "apkName": "SEQ-PR-1-5a3cbe1.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-90/SEQ-PR-1-5a3cbe1.apk",
+  "apkSize": 92383957,
+  "sha256": "2be987e6e7ca7ff69682a1760b4515785701e7e99a040753527f62e184a55b18",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-90",
   "notes": [
+    "feat: process all media incl. Android Auto with precision output-mix EQ",
     "test(adb): require status card and prevent SEQ diagnostics parity regressions",
     "feat(adb): add VREC-style verified UID and discovery status on SEQ diagnostics",
     "test(adb): reconcile SEQ power policy with VREC recovery defaults and guard TCP promotion",
@@ -17,7 +18,6 @@
     "Test PBar-style media detection, lifecycle cleanup and session safety",
     "Surface external media sessions and request Android notification access",
     "Surface external media sessions and request Android notification access",
-    "Detect external media sessions via PBar-style notification listener",
-    "Align SEQ ADB Settings with VRec minimal automatic setup parity"
+    "Detect external media sessions via PBar-style notification listener"
   ]
 }
