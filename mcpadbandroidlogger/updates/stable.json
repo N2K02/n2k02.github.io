@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "mcpadbandroidlogger-v2.8",
-  "versionName": "2.8",
-  "versionCode": 100354,
-  "apkName": "McpAdbAndroidLogger-2.8.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.8/McpAdbAndroidLogger-2.8.apk",
+  "tag": "mcpadbandroidlogger-v2.9",
+  "versionName": "2.9",
+  "versionCode": 100357,
+  "apkName": "McpAdbAndroidLogger-2.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-v2.9/McpAdbAndroidLogger-2.9.apk",
   "apkSize": 29616065,
-  "sha256": "d5149aa4772c7a7e591e49490a1beab056364b6b83fe2d401cc3d17783d95f76",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.8",
+  "sha256": "4b13b5045bd730bdf8617da2a2d57d09a3a3969d89665f01f02ccf82aaf17ea5",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-v2.9",
   "notes": [
+    "build: upgrade shared theme 0.1.5 and updater 0.1.20 (#42)",
     "Experimental: on-demand CPU, battery, memory pressure and screen-off wakelock diagnostics (#41)",
     "feat: start MCP server on boot and upgrade SDK",
     "chore: update grouped dependencies",
@@ -16,7 +17,6 @@
     "Publish foreground service lifecycle to app state",
     "Bind cloud indicator to foreground service state",
     "Expose foreground service lifecycle to the UI",
-    "Remove unused status-bar notification icon asset",
     "Remove unused status-bar notification icon asset",
     "Remove unused status-bar notification icon asset"
   ]
