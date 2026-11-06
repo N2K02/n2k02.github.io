@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-33-run-183",
-  "versionName": "6.1-experimental.183",
-  "versionCode": 100183,
+  "tag": "experimental-pr-33-run-189",
+  "versionName": "6.1-experimental.189",
+  "versionCode": 100189,
   "apkName": "HFreebuds-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-33-run-183/HFreebuds-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-33-run-189/HFreebuds-6.1.apk",
   "apkSize": 19836235,
-  "sha256": "06d424db39684d530a3f83a9ba318c4955c63ffb4ffa106d8498130667ecac92",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-33-run-183",
+  "sha256": "08b13bbbfbe94e5cb835710b67b69a5b861ed892f7bfdbf46696e8003a2d1ca7",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-33-run-189",
   "notes": [
+    "Fix image documentation formatting",
+    "Document official product images",
+    "Provide a fallback while product image is unavailable",
+    "Test device image identity validation",
+    "Expose product identity in device state",
+    "Display official image for the connected device",
+    "Display official image for the connected device",
+    "Retrieve official images using verified device identity",
     "Use explicit image loading state key",
-    "Show official FreeBuds 5 product image",
-    "Keep manual refresh on connected card",
-    "Make connected battery card compact",
-    "Guard earbud settings and HD audio choices",
-    "Clean up earbud settings navigation",
-    "Clean up earbud settings navigation"
+    "Show official FreeBuds 5 product image"
   ]
 }
