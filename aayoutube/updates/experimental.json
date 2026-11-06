@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-36-run-451",
-  "versionName": "7.3-experimental.451",
-  "versionCode": 100451,
-  "apkName": "AAYoutube-7.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-36-run-451/AAYoutube-7.3.apk",
+  "tag": "experimental-pr-37-run-454",
+  "versionName": "7.4-experimental.454",
+  "versionCode": 100454,
+  "apkName": "AAYoutube-7.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-37-run-454/AAYoutube-7.4.apk",
   "apkSize": 21264792,
-  "sha256": "f6cbd3af300866b1de13709e645e638ce67dc4afdc0e467c1c17495a96b7d237",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-36-run-451",
+  "sha256": "738b45d8a235c9cbd50f9f3ad4adc4eb67eef7a42a8c09d72ef5cb90b410253d",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-37-run-454",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "build: pin next shared theme and updater releases",
+    "Bump the all-dependencies group with 5 updates"
   ]
 }
