@@ -1,17 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v1.8",
-  "versionName": "1.8",
-  "versionCode": 100098,
-  "apkName": "ChargeWatt-1.8.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v1.8/ChargeWatt-1.8.apk",
-  "apkSize": 1324359,
-  "sha256": "d91056072173eeb3102c371ae5cb70db51585740e25c2fc374856df03a6d4638",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v1.8",
+  "tag": "v1.9",
+  "versionName": "1.9",
+  "versionCode": 100101,
+  "apkName": "ChargeWatt-1.9.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v1.9/ChargeWatt-1.9.apk",
+  "apkSize": 1328462,
+  "sha256": "7847dc6035b56a430a1deeff0db1ac530f33acb87e6d08702e82275112bac841",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v1.9",
   "notes": [
-    "Merge pull request #11 from N2K02/experimental/background-efficiency-20261106",
-    "test(chargewatt): preserve periodic fallback when foreground sampler absent and release sampler state on stop",
-    "perf(chargewatt): track foreground widget sampler lifecycle for fallback deduplication",
-    "perf(chargewatt): skip redundant periodic fallback readings while Activity or widget service samples"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#9)"
   ]
 }
