@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.4",
-  "versionName": "6.4",
-  "versionCode": 100360,
-  "apkName": "MRadio-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.4/MRadio-6.4.apk",
-  "apkSize": 2827163,
-  "sha256": "3f4fe76fca1e7483267ce1eb018e517fcfbe64f8b22f4f28f914a47f9b82bc13",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.4",
+  "tag": "v6.5",
+  "versionName": "6.5",
+  "versionCode": 100363,
+  "apkName": "MRadio-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.5/MRadio-6.5.apk",
+  "apkSize": 2810779,
+  "sha256": "f068b75c21188cb64a81ecc0550c2757ed857a904d5ded0bbba8384f47bcceb1",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.5",
   "notes": [
-    "fix: use source APK releases for update feeds (#38)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#39)"
   ]
 }
