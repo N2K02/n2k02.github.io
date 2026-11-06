@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-91",
-  "versionName": "0.3-experimental.91",
-  "versionCode": 100091,
-  "apkName": "SEQ-PR-1-f14252d.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-91/SEQ-PR-1-f14252d.apk",
-  "apkSize": 92383957,
-  "sha256": "c3924afa09c569ac231bf6b3f61e55233f3e874c29b2ad99865dd83d02f719b5",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-91",
+  "tag": "experimental-pr-1-run-92",
+  "versionName": "0.3-experimental.92",
+  "versionCode": 100092,
+  "apkName": "SEQ-PR-1-205da30.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-92/SEQ-PR-1-205da30.apk",
+  "apkSize": 92400341,
+  "sha256": "7698f73fda43f7db5509d7e0e3f12ae67f3ff50a506a310cb711427fc8a7cef9",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-92",
   "notes": [
+    "feat(sound): lookahead limiter, smart headroom, TPDF dither, loudness compensation",
     "feat: detect any playing media and Android Auto without notification access",
     "feat: process all media incl. Android Auto with precision output-mix EQ",
     "test(adb): require status card and prevent SEQ diagnostics parity regressions",
@@ -17,7 +18,6 @@
     "test(adb): verify SEQ watchdog never clears a newer ADB session",
     "fix(adb): align SEQ timeout session ownership with VREC and LocalAdb",
     "Test PBar-style media detection, lifecycle cleanup and session safety",
-    "Surface external media sessions and request Android notification access",
     "Surface external media sessions and request Android notification access"
   ]
 }
