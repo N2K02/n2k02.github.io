@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-32-run-177",
-  "versionName": "6.0-experimental.177",
-  "versionCode": 100177,
-  "apkName": "HFreebuds-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-32-run-177/HFreebuds-6.0.apk",
-  "apkSize": 19836235,
-  "sha256": "cbf3c0a137aa67f0a03eeb081179c78e6a1241900f403387cdd4d4bedaa286f0",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-32-run-177",
+  "tag": "experimental-pr-33-run-179",
+  "versionName": "6.1-experimental.179",
+  "versionCode": 100179,
+  "apkName": "HFreebuds-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-33-run-179/HFreebuds-6.1.apk",
+  "apkSize": 19819851,
+  "sha256": "4594677433ab662485e49a88236ff26453371e858e60a644402a41fc8c5b8d78",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-33-run-179",
   "notes": [
-    "build: pin next shared theme and updater releases",
-    "build(deps): bump the all-dependencies group with 8 updates"
+    "Guard earbud settings and HD audio choices",
+    "Clean up earbud settings navigation",
+    "Clean up earbud settings navigation"
   ]
 }
