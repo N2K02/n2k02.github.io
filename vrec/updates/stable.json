@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.3",
-  "versionName": "6.3",
-  "versionCode": 100998,
-  "apkName": "VREC-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.3/VREC-6.3.apk",
+  "tag": "v6.4",
+  "versionName": "6.4",
+  "versionCode": 101000,
+  "apkName": "VREC-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.4/VREC-6.4.apk",
   "apkSize": 12839590,
-  "sha256": "e3cb1acdcd164758b24ccca5238890c6c7ad50cec14c7c47099cff595bf73732",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.3",
+  "sha256": "c7a5783421673d9b9ab65842bfe3680b4b4a982ff28d740231e7ebc584a65568",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.4",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#64)",
-    "fix: recover VoIP metadata and track group-call title changes"
+    "Experimental: harden direct ADB stream recovery and bounded shutdown (#67)"
   ]
 }
