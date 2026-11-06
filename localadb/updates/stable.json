@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v2.1",
-  "versionName": "2.1",
-  "versionCode": 100082,
-  "apkName": "LocalAdb-2.1.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.1/LocalAdb-2.1.apk",
-  "apkSize": 18593676,
-  "sha256": "4df1129a37690489ed917e47de6173b28efd7f61f33e7ac3eb2e238faf3eea57",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.1",
+  "tag": "v2.2",
+  "versionName": "2.2",
+  "versionCode": 100095,
+  "apkName": "LocalAdb-2.2.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.2/LocalAdb-2.2.apk",
+  "apkSize": 17495646,
+  "sha256": "24a8db94bcf32ff67ea5bec11b175d38e6b5842c55de9e35275cb9bc691fe08c",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.2",
   "notes": [
-    "feat: compact Home and improve Shizuku Android Auto installer"
+    "Experimental: Avoid unnecessary watchdog work and cancel stale mDNS discovery timers (#15)",
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#12)"
   ]
 }
