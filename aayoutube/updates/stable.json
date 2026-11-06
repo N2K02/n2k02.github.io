@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.3",
-  "versionName": "7.3",
-  "versionCode": 100452,
-  "apkName": "AAYoutube-7.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.3/AAYoutube-7.3.apk",
+  "tag": "v7.4",
+  "versionName": "7.4",
+  "versionCode": 100455,
+  "apkName": "AAYoutube-7.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.4/AAYoutube-7.4.apk",
   "apkSize": 14621033,
-  "sha256": "29f575041e8769ffe21797f9f644c4820ff919e6b028e50dea331a4dfe4b0513",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.3",
+  "sha256": "814ebcb0df8c99b4c6e7f9fb63e1e0c787b949f9201330b5e7da45710e68d29b",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.4",
   "notes": [
-    "fix: use source APK releases for update feeds (#36)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#37)"
   ]
 }
