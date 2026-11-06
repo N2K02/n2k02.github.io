@@ -1,23 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-38-run-191",
-  "versionName": "5.6-experimental.191",
-  "versionCode": 100191,
-  "apkName": "NetSpeed-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-38-run-191/NetSpeed-5.6.apk",
+  "tag": "experimental-pr-39-run-194",
+  "versionName": "5.7-experimental.194",
+  "versionCode": 100194,
+  "apkName": "NetSpeed-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-39-run-194/NetSpeed-5.7.apk",
   "apkSize": 19557714,
-  "sha256": "33a76e6bb186247ae4968a354d00cf24bf4061db94c60be4d7017167ede0c651",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-38-run-191",
+  "sha256": "11d4a24ad70c21a2722bb52d93f32dbe146b360f6cbaf4a34e5220857627bedf",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-39-run-194",
   "notes": [
-    "Fix startup contract test paths",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Document two-second default interval",
-    "Test two-second default refresh interval",
-    "Set default network refresh interval to two seconds",
-    "Fix Settings submenu test string",
-    "Document Network refresh Settings submenu"
+    "test: update legacy animation/sampling contract for adaptive low-power behavior",
+    "test(netspeed): cover hidden overlay sampling, service teardown, and network counter behavior",
+    "fix(netspeed): always detach overlay when foreground service is destroyed",
+    "perf(netspeed): pause hidden/fullscreen sampling and release overlay resources on stop or failed attach"
   ]
 }
