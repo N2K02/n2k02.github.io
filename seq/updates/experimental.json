@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-92",
-  "versionName": "0.3-experimental.92",
-  "versionCode": 100092,
-  "apkName": "SEQ-PR-1-205da30.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-92/SEQ-PR-1-205da30.apk",
-  "apkSize": 92400341,
-  "sha256": "7698f73fda43f7db5509d7e0e3f12ae67f3ff50a506a310cb711427fc8a7cef9",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-92",
+  "tag": "experimental-pr-1-run-93",
+  "versionName": "0.3-experimental.93",
+  "versionCode": 100093,
+  "apkName": "SEQ-PR-1-cf4bb35.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-93/SEQ-PR-1-cf4bb35.apk",
+  "apkSize": 88120019,
+  "sha256": "d74245c3886480c0cdb2397d4745fb79c67588ed90f7100c14e663acb5b0ad55",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-93",
   "notes": [
+    "feat: SEQ Auto — automatic sound engine, settings clutter removed",
     "feat(sound): lookahead limiter, smart headroom, TPDF dither, loudness compensation",
     "feat: detect any playing media and Android Auto without notification access",
     "feat: process all media incl. Android Auto with precision output-mix EQ",
@@ -17,7 +18,6 @@
     "test(adb): reconcile SEQ power policy with VREC recovery defaults and guard TCP promotion",
     "test(adb): verify SEQ watchdog never clears a newer ADB session",
     "fix(adb): align SEQ timeout session ownership with VREC and LocalAdb",
-    "Test PBar-style media detection, lifecycle cleanup and session safety",
-    "Surface external media sessions and request Android notification access"
+    "Test PBar-style media detection, lifecycle cleanup and session safety"
   ]
 }
