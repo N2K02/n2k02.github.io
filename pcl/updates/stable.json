@@ -1,14 +1,19 @@
 {
   "channel": "stable",
-  "tag": "v6.5",
-  "versionName": "6.5",
-  "versionCode": 100568,
-  "apkName": "PCL-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v6.5/PCL-6.5.apk",
-  "apkSize": 1521934,
-  "sha256": "c40168257def8e1321f274d4f70b6481432528073a6f865ea62231de65e3d4dd",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v6.5",
+  "tag": "v6.6",
+  "versionName": "6.6",
+  "versionCode": 100574,
+  "apkName": "PCL-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v6.6/PCL-6.6.apk",
+  "apkSize": 1521930,
+  "sha256": "d860a5cd7b43f609ebe39956b48af80bffbfb0d344db2fa43d14b4603d6aedc7",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v6.6",
   "notes": [
-    "fix: use source APK releases for update feeds (#74)"
+    "test(pcl): escape literal call-state interpolation in source ordering assertion",
+    "test(pcl): cover direct call callback, immediate OFFHOOK forwarding and ringtone teardown",
+    "fix(pcl): deliver Gateway OFFHOOK via TelephonyCallback and prioritize Bluetooth state packet before logging",
+    "test(pcl): verify idle traffic backoff and immediate baseline reset on link change",
+    "test(pcl): verify idle traffic backoff and immediate baseline reset on link change",
+    "perf(pcl): suspend frequent traffic samples while Bluetooth is disconnected; resume immediately on reconnect"
   ]
 }
