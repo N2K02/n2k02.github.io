@@ -1,18 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.6",
-  "versionName": "6.6",
-  "versionCode": 100206,
-  "apkName": "PBar-6.6.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v6.6/PBar-6.6.apk",
+  "tag": "v6.7",
+  "versionName": "6.7",
+  "versionCode": 100209,
+  "apkName": "PBar-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v6.7/PBar-6.7.apk",
   "apkSize": 1515141,
-  "sha256": "418c3d88bd32aa45871eea652cf17baef633721e0351afa1ae7679d2853000a7",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v6.6",
+  "sha256": "6e5e08cef9155fcb1f90fd6052a85cc6cb1a497fc2d97333212a08ea9c29df99",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v6.7",
   "notes": [
-    "Fix startup contract test paths",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Add start on boot setting"
+    "perf: reduce PBar background CPU, GPU redraw and timer wakeups (#62)"
   ]
 }
