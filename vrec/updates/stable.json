@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v6.2",
-  "versionName": "6.2",
-  "versionCode": 100984,
-  "apkName": "VREC-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.2/VREC-6.2.apk",
-  "apkSize": 13936696,
-  "sha256": "d07e7278e967c1f688f46d76fe3a56ed95900e9658adc0de49611f3502c8d1e2",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.2",
+  "tag": "v6.3",
+  "versionName": "6.3",
+  "versionCode": 100998,
+  "apkName": "VREC-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.3/VREC-6.3.apk",
+  "apkSize": 12839590,
+  "sha256": "e3cb1acdcd164758b24ccca5238890c6c7ad50cec14c7c47099cff595bf73732",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.3",
   "notes": [
-    "Preserve third-party call names and list participant numbers (#65)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#64)",
+    "fix: recover VoIP metadata and track group-call title changes"
   ]
 }
