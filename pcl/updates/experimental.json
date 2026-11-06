@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-74-run-567",
-  "versionName": "6.5-experimental.567",
-  "versionCode": 100567,
-  "apkName": "PCL-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-74-run-567/PCL-6.5.apk",
+  "tag": "experimental-pr-76-run-570",
+  "versionName": "6.6-experimental.570",
+  "versionCode": 100570,
+  "apkName": "PCL-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-76-run-570/PCL-6.6.apk",
   "apkSize": 19966229,
-  "sha256": "993b30ca37313468a4e6115f29df1dff17a660b12cbba042bd7e10524b3dfc15",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-74-run-567",
+  "sha256": "c1fc123f23a07feec72542c8e57d6d6d55d964bbdb1a1e07753bd922898c7452",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-76-run-570",
   "notes": [
-    "fix: reuse APK repo release in public update feed",
-    "fix: make feed PR publishing safe to retry"
+    "test(pcl): verify idle traffic backoff and immediate baseline reset on link change",
+    "test(pcl): verify idle traffic backoff and immediate baseline reset on link change",
+    "perf(pcl): suspend frequent traffic samples while Bluetooth is disconnected; resume immediately on reconnect"
   ]
 }
