@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-9-run-97",
-  "versionName": "1.4-experimental.97",
-  "versionCode": 100097,
+  "tag": "sdcleaner-experimental-pr-9-run-102",
+  "versionName": "1.4-experimental.102",
+  "versionCode": 100102,
   "apkName": "SDCleaner-1.4.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-9-run-97/SDCleaner-1.4.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-9-run-102/SDCleaner-1.4.apk",
   "apkSize": 57189512,
-  "sha256": "fbac45f3511cfc4104dd61a798e510977dcb5404fe0c3e499901884271f70746",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-9-run-97",
+  "sha256": "f95264f9fd7fef3abee5743e805d23a36e00dee26e17974136fc46db1d532e44",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-9-run-102",
   "notes": [
+    "Match scheduler quiet-notification test to notifyResult signature",
+    "Drain canceled scheduled tasks before worker exits and test multi-run idle lifecycle",
+    "Allow screen sleep during scheduler-only cleaning; retain manual task behavior",
+    "Log WorkManager stop reasons and clean up scheduler imports after structured cancellation",
+    "Bound scheduler execution and setup waits; cancel scoped tool jobs; harden WorkManager cleanup",
     "Pin host Conscrypt 2.5.2 for Robolectric XDH HTTPS compatibility",
     "Fix all Robolectric tests: use host Conscrypt JNI instead of Android ABI native provider",
     "Fix DashboardDiscardTest for ADB-only AppCleaner state",
     "Restore package settings intent extension used by inventory setup",
-    "Preserve active setup UI tests and remove cases for deleted Shizuku/Accessibility cards",
-    "Fix Hilt KSP errors from deleted Shizuku and scheduler advisor bindings",
-    "Track partial-clean warnings; prune daily run history and remove unused Scheduler card",
-    "Fix two-flow Scheduler Settings combine overload after Accessibility removal",
-    "Allow early quiet TaskWorker exit with a block-bodied suspending function",
-    "Keep scheduled background cleans quiet by preventing redundant foreground task monitor"
+    "Preserve active setup UI tests and remove cases for deleted Shizuku/Accessibility cards"
   ]
 }
