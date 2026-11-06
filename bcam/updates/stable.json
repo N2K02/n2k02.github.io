@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.4",
-  "versionName": "5.4",
-  "versionCode": 100211,
-  "apkName": "BCam-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.4/BCam-5.4.apk",
+  "tag": "v5.5",
+  "versionName": "5.5",
+  "versionCode": 100214,
+  "apkName": "BCam-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.5/BCam-5.5.apk",
   "apkSize": 1200040,
-  "sha256": "d6547a59fd3b189f18ad9408967c9f03357965cce2961996f5b046910635fb55",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.4",
+  "sha256": "7bb9affdb365da076494f1f5bd38d2c991f9dbf8105e21910f8c618364b2785e",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.5",
   "notes": [
-    "fix: use source APK releases for update feeds (#35)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#36)"
   ]
 }
