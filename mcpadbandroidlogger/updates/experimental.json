@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-41-run-346",
+  "tag": "mcpadbandroidlogger-experimental-pr-41-run-350",
   "versionName": "2.7",
-  "versionCode": 100346,
+  "versionCode": 100350,
   "apkName": "McpAdbAndroidLogger-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-346/McpAdbAndroidLogger-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-41-run-350/McpAdbAndroidLogger-2.7.apk",
   "apkSize": 29616065,
-  "sha256": "831603f193178ddc8c66a36a08c7f7f91c6f66695c816f19f2d5b373d86c5248",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-346",
+  "sha256": "7a054f0f16643ef3249eaebd7e944766ff7f848ee9052805e4be637df947f949",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-41-run-350",
   "notes": [
+    "fix(adb): keep bounded socket watchdog active across cancelled blocking ADB reads",
+    "fix(adb): include native openStream failure in watchdog finally and connection retirement",
+    "test(adb): enforce stream EOF retirement and deadlock-free watchdog cleanup",
+    "fix(adb): retire poisoned sessions on Stream closed and avoid reader-close watchdog deadlocks",
     "docs: explain source-table limitations, memory-bounded Perfetto SQL and resilient MCP relay",
     "chore(mcp): identify Perfetto SQL and tunnel recovery build; keep stable 17-tool schema",
     "test(mcp): bounded worker pool retains capacity for health while trace analysis is active",
     "test(tunnel): verify debounced offline recovery with preserved registration and no new polling",
     "test: use literal Kotlin dollar notation for bounded Perfetto output assertion",
-    "test(perfetto): discriminate absent trace sources, invalid SQL and CLI flags; bound analysis resources",
-    "fix(tunnel): restart stalled edge after three offline heartbeats, preserving existing MCP URL",
-    "fix(tunnel): expose edge registration and debounced recovery policy without new background polling",
-    "fix(perfetto): memory-light bounded SQL queries; retry only unsupported CLI flags, not missing data tables",
-    "fix(mcp): keep local health requests responsive with bounded six-worker pool under long Perfetto calls"
+    "test(perfetto): discriminate absent trace sources, invalid SQL and CLI flags; bound analysis resources"
   ]
 }
