@@ -1,18 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-61-run-205",
-  "versionName": "6.6-experimental.205",
-  "versionCode": 100205,
-  "apkName": "PBar-6.6.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-61-run-205/PBar-6.6.apk",
+  "tag": "experimental-pr-62-run-208",
+  "versionName": "6.7-experimental.208",
+  "versionCode": 100208,
+  "apkName": "PBar-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-62-run-208/PBar-6.7.apk",
   "apkSize": 19852760,
-  "sha256": "f6255cc91d860a78d6ce2b7391768e3107bedb1ea996f9dcee53b3218eb41999",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-61-run-205",
+  "sha256": "2003719b27d2d9451b57558ae3cf5dc0612969de46bcade321e16f35880114d6",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-62-run-208",
   "notes": [
-    "Fix startup contract test paths",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Add start on boot setting",
-    "Add start on boot setting"
+    "test: update legacy animation/sampling contract for adaptive low-power behavior",
+    "test(pbar): verify timer pacing for short, long, complete, and invalid durations",
+    "perf(pbar): update timer only on meaningful percentage changes and stop stale timers",
+    "perf(pbar): calculate next meaningful timer progress report instead of polling every second",
+    "test(pbar): cover adaptive redraw, media callbacks, fullscreen and shutdown cleanup",
+    "test(pbar): cover adaptive redraw, media callbacks, fullscreen and shutdown cleanup",
+    "perf(pbar): suppress duplicate accessibility fullscreen broadcasts and reset on teardown",
+    "perf(pbar): dynamically pace overlay frames without reducing progress accuracy",
+    "perf(pbar): add pure adaptive frame pacing for progress overlays",
+    "perf(pbar): eliminate media polling, coalesce callbacks, and fully clean up listener disconnect"
   ]
 }
