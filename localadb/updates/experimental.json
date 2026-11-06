@@ -1,16 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-12-run-91",
-  "versionName": "2.1-experimental.91",
-  "versionCode": 100091,
-  "apkName": "LocalAdb-PR-12-301f134.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-12-run-91/LocalAdb-PR-12-301f134.apk",
+  "tag": "experimental-pr-15-run-94",
+  "versionName": "2.1-experimental.94",
+  "versionCode": 100094,
+  "apkName": "LocalAdb-PR-15-710f9d7.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-15-run-94/LocalAdb-PR-15-710f9d7.apk",
   "apkSize": 39503286,
-  "sha256": "493fcc0ad98df412ba8cb675dffdecc01d3bede76402e1d8626b4c6952e7cefa",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-12-run-91",
+  "sha256": "aa074f24eec5568652451170b3465f0f95de6ea9bb8be227f77cd2c8c00982c2",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-15-run-94",
   "notes": [
-    "fix(ci): preserve verified Gradle wrapper bootstrap when wrapper JAR is not committed",
-    "build: pin next shared theme and updater releases",
-    "chore(deps): bump the all-dependencies group with 10 updates"
+    "fix(ci): pin current verified MRadio Gradle wrapper JAR checksum",
+    "test(adb): revalidate stream recovery with shared-library upgrades on main",
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#12)",
+    "test(adb): recognize guarded manager retirement in lifecycle checks",
+    "test(adb): enforce watchdog session ownership before clearing state",
+    "fix(adb): keep stale timeout watchdog from clearing newer verified session",
+    "test(adb): require independent timeout watchdog under coroutine cancellation",
+    "fix(adb): keep bounded socket watchdog active across cancelled blocking ADB reads",
+    "test(adb): enforce stream EOF retirement and deadlock-free watchdog cleanup",
+    "fix(adb): retire poisoned sessions on Stream closed and avoid reader-close watchdog deadlocks"
   ]
 }
