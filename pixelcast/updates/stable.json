@@ -1,17 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.1",
-  "versionName": "5.1",
-  "versionCode": 100163,
-  "apkName": "PixelCast-5.1.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.1/PixelCast-5.1.apk",
-  "apkSize": 1282128,
-  "sha256": "bd16e11d72f61890d48442195f6f86a1663bd4499f6c35f91e9b83030fab39d0",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.1",
+  "tag": "v5.2",
+  "versionName": "5.2",
+  "versionCode": 100165,
+  "apkName": "PixelCast-5.2.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.2/PixelCast-5.2.apk",
+  "apkSize": 1278032,
+  "sha256": "178a0e0d45c8525d51042bd1f70231032f610a38bbd477ac844eec221d665d17",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.2",
   "notes": [
-    "test(pixelcast): check actual transport-based polling ownership predicate",
-    "test(pixelcast): ensure adaptive UPnP polling and resources cleanup preserve casting",
-    "test(pixelcast): ensure adaptive UPnP polling and resources cleanup preserve casting",
-    "perf(pixelcast): slow TV polling when paused while retaining 1s playback and volume sync"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#32)"
   ]
 }
