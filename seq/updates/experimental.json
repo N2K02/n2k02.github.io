@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-94",
-  "versionName": "0.3-experimental.94",
-  "versionCode": 100094,
-  "apkName": "SEQ-PR-1-64f74a7.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-94/SEQ-PR-1-64f74a7.apk",
+  "tag": "experimental-pr-1-run-96",
+  "versionName": "0.3-experimental.96",
+  "versionCode": 100096,
+  "apkName": "SEQ-PR-1-3679a54.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-96/SEQ-PR-1-3679a54.apk",
   "apkSize": 87300058,
-  "sha256": "783a67c8d4db70d433fc4bbc897e51489679feffb9b045b3ca857418c96e94dc",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-94",
+  "sha256": "e280faf1de8b5729ced94e9ac4e6c7e07069448f03b666908516c17325fb8c9a",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-96",
   "notes": [
+    "ui(seq): show exactly two VREC-style cards in ADB submenu",
+    "ui(seq): reserve connection details for Diagnostics, keep ADB submenu two-card",
+    "ui(seq): add dedicated ADB connection submenu under Settings",
     "refactor: remove music library and SEQ's own playback stack",
     "feat: SEQ Auto — automatic sound engine, settings clutter removed",
     "feat(sound): lookahead limiter, smart headroom, TPDF dither, loudness compensation",
     "feat: detect any playing media and Android Auto without notification access",
     "feat: process all media incl. Android Auto with precision output-mix EQ",
     "test(adb): require status card and prevent SEQ diagnostics parity regressions",
-    "feat(adb): add VREC-style verified UID and discovery status on SEQ diagnostics",
-    "test(adb): reconcile SEQ power policy with VREC recovery defaults and guard TCP promotion",
-    "test(adb): verify SEQ watchdog never clears a newer ADB session",
-    "fix(adb): align SEQ timeout session ownership with VREC and LocalAdb"
+    "feat(adb): add VREC-style verified UID and discovery status on SEQ diagnostics"
   ]
 }
