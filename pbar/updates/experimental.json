@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-63-run-212",
-  "versionName": "6.9-experimental.212",
-  "versionCode": 100212,
+  "tag": "experimental-pr-63-run-213",
+  "versionName": "6.9-experimental.213",
+  "versionCode": 100213,
   "apkName": "PBar-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-63-run-212/PBar-6.9.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-63-run-213/PBar-6.9.apk",
   "apkSize": 19885528,
-  "sha256": "cf9869a8bba5b9b706bcef8a59ed1b179cfa94ef7f70dba516c288deb0d90f3a",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-63-run-212",
+  "sha256": "e32c2b4dd277395726a04e4156e9dd3ac67dc0f48f5eafbdecb46d981660b9ce",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-63-run-213",
   "notes": [
+    "Avoid stale listener state after extreme saver kills PBar process",
     "Restore PBar notification overlay after extreme battery saver"
   ]
 }
