@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-104",
-  "versionName": "2.2-experimental.104",
-  "versionCode": 100104,
-  "apkName": "LocalAdb-PR-16-7ad29e0.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-104/LocalAdb-PR-16-7ad29e0.apk",
-  "apkSize": 39601590,
-  "sha256": "1c341602a3988fda099b6e3b817186aacfe16fa59cb77211e2b16776d52b681e",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-104",
+  "tag": "experimental-pr-16-run-110",
+  "versionName": "2.2-experimental.110",
+  "versionCode": 100110,
+  "apkName": "LocalAdb-PR-16-6c644c3.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-110/LocalAdb-PR-16-6c644c3.apk",
+  "apkSize": 39568822,
+  "sha256": "2338c6dace7d96c68298d4e46d5e594a8c504cfbd5022266b980ccf9986676bb",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-110",
   "notes": [
+    "fix(localadb): retain Shizuku Binder recovery without duplicate ADB watchdog",
+    "fix(adb): publish verified UID before LocalAdb Shizuku startup callback",
+    "test(localadb): replace copied transport assertions with shared-core lifecycle contracts",
+    "test(localadb): verify shared shell, permission hooks and singleton shutdown",
+    "feat(adb): replace LocalAdb duplicate transport and screens with shared core",
+    "feat(adb): route LocalAdb connection lifecycle through singleton shared core",
     "test(adb): verify upgraded shared core package version",
     "build(adb): pin published shared ADB core 0.1.2",
     "fix(build): add shared ADB Maven repo to pair list, not lambda parameters",
-    "feat(adb): integrate shared ADB core 0.1.1 and preserve authorized identity",
-    "fix(adb-ui): refresh Accessibility availability after returning from Android Settings",
-    "test(adb): assert VRec rounded card styles instead of legacy constructor",
-    "ui(adb): match VREC card internal spacing without extra heading spacer",
-    "ui(localadb): match VREC rounded cards, typography and clickable toggle rows",
-    "ui(localadb): show TCP action feedback in VREC-style security card",
-    "ui(localadb): align ADB submenu spacing and two-card presentation with VREC"
+    "feat(adb): integrate shared ADB core 0.1.1 and preserve authorized identity"
   ]
 }
