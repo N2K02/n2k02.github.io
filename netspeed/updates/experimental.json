@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-37-run-196",
-  "versionName": "5.8-experimental.196",
-  "versionCode": 100196,
-  "apkName": "NetSpeed-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-37-run-196/NetSpeed-5.8.apk",
+  "tag": "experimental-pr-40-run-198",
+  "versionName": "5.9-experimental.198",
+  "versionCode": 100198,
+  "apkName": "NetSpeed-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-40-run-198/NetSpeed-5.9.apk",
   "apkSize": 19590482,
-  "sha256": "678b2cd91a279ac7f63f7291bb323e5cedc193e4ba1280e7e97d3bd0e3b7ec82",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-37-run-196",
+  "sha256": "e3d17882d4458cd09b91e75c1ece1ba6c52a4f85f35c24596afb733c96e855b9",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-40-run-198",
   "notes": [
-    "build: pin next shared theme and updater releases",
-    "build(deps): bump the all-dependencies group with 5 updates"
+    "Fix NetSpeed overlay-position settings and restore meter after battery saver"
   ]
 }
