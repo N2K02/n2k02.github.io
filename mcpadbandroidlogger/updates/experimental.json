@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-43-run-364",
+  "tag": "mcpadbandroidlogger-experimental-pr-43-run-367",
   "versionName": "2.9",
-  "versionCode": 100364,
+  "versionCode": 100367,
   "apkName": "McpAdbAndroidLogger-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-364/McpAdbAndroidLogger-2.9.apk",
-  "apkSize": 29620161,
-  "sha256": "447a9e25304fbd08a01541fb7caa0f3a805b9fb1c4c54654f56af10dccf3e9e2",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-364",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-367/McpAdbAndroidLogger-2.9.apk",
+  "apkSize": 29620217,
+  "sha256": "c31bcdc301ca4a4988010159fb91e4db215c45ad6aefcce23d88b0c6a1e8e70f",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-367",
   "notes": [
+    "fix(adb): preserve Unit return type for MCP manual Stop adapter",
+    "fix(build): add shared ADB Maven repo to pair list, not lambda parameters",
+    "feat(adb): integrate shared ADB core 0.1.1 and preserve authorized identity",
     "fix(adb-ui): refresh Accessibility grant state on return",
     "fix(adb-ui): resolve FontWeight import in VRec parity card",
     "ui(adb): match VREC card internal spacing without extra heading spacer",
     "ui(mcp): place security action feedback inside VREC-style security card",
     "fix(mcp): qualify ADB card font weight for compilation",
     "ui(mcp): match VREC ADB card radius, colors, typography and row touch targets",
-    "ui(mcp): match VREC ADB submenu card and accessibility button styles",
-    "build: upgrade shared theme 0.1.5 and updater 0.1.20 (#42)",
-    "Experimental: on-demand CPU, battery, memory pressure and screen-off wakelock diagnostics (#41)",
-    "feat: start MCP server on boot and upgrade SDK"
+    "ui(mcp): match VREC ADB submenu card and accessibility button styles"
   ]
 }
