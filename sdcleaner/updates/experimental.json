@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-10-run-180",
-  "versionName": "1.5-experimental.180",
-  "versionCode": 100180,
+  "tag": "sdcleaner-experimental-pr-10-run-181",
+  "versionName": "1.5-experimental.181",
+  "versionCode": 100181,
   "apkName": "SDCleaner-1.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-10-run-180/SDCleaner-1.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-10-run-181/SDCleaner-1.5.apk",
   "apkSize": 57255127,
-  "sha256": "fd1c732dc39eaff00150a6caf47fb944efe0c4c3ea53e7d4330019c0e435f7f6",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-10-run-180",
+  "sha256": "7f710e5b6c959f11149116babdb8fa7883824eb46a2f085a11814e9169af0f77",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-10-run-181",
   "notes": [
+    "ui(sdcleaner): match VREC plain card headings and 10dp spacing",
     "ui(sdcleaner): match VREC clickable setting rows and keep manual setup in diagnostics",
     "ui(sdcleaner): align preference card radius and heading typography with VREC",
     "ui(sdcleaner): lead with VREC two-card ADB settings and collapse connection diagnostics",
@@ -17,7 +18,6 @@
     "Fix ADB cache cleaning: use device-wide trim instead of hanging pm clear --cache-only",
     "Experimental: direct ADB, no Accessibility, quiet Scheduler with daily history (#9)",
     "Prefer Shizuku cache-only clearing without Accessibility overlay",
-    "Compact SDCleaner Home cleaning tool cards",
-    "Fix SDCleaner About version and remove Diagnostics; add cleaning-card action buttons"
+    "Compact SDCleaner Home cleaning tool cards"
   ]
 }
