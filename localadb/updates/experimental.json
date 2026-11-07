@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-110",
-  "versionName": "2.2-experimental.110",
-  "versionCode": 100110,
-  "apkName": "LocalAdb-PR-16-6c644c3.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-110/LocalAdb-PR-16-6c644c3.apk",
+  "tag": "experimental-pr-16-run-112",
+  "versionName": "2.2-experimental.112",
+  "versionCode": 100112,
+  "apkName": "LocalAdb-PR-16-827a7c5.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-112/LocalAdb-PR-16-827a7c5.apk",
   "apkSize": 39568822,
-  "sha256": "2338c6dace7d96c68298d4e46d5e594a8c504cfbd5022266b980ccf9986676bb",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-110",
+  "sha256": "32243d362d52530104ff1368733d6edfb9d4e1c8e4a5bafcdcedf44451737a81",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-112",
   "notes": [
+    "test(localadb): update shared core regression pin to 0.1.3",
+    "build(adb): align LocalAdb with shared ADB Core 0.1.3",
     "fix(localadb): retain Shizuku Binder recovery without duplicate ADB watchdog",
     "fix(adb): publish verified UID before LocalAdb Shizuku startup callback",
     "test(localadb): replace copied transport assertions with shared-core lifecycle contracts",
@@ -16,8 +18,6 @@
     "feat(adb): replace LocalAdb duplicate transport and screens with shared core",
     "feat(adb): route LocalAdb connection lifecycle through singleton shared core",
     "test(adb): verify upgraded shared core package version",
-    "build(adb): pin published shared ADB core 0.1.2",
-    "fix(build): add shared ADB Maven repo to pair list, not lambda parameters",
-    "feat(adb): integrate shared ADB core 0.1.1 and preserve authorized identity"
+    "build(adb): pin published shared ADB core 0.1.2"
   ]
 }
