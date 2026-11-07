@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-43-run-380",
+  "tag": "mcpadbandroidlogger-experimental-pr-43-run-381",
   "versionName": "2.9",
-  "versionCode": 100380,
+  "versionCode": 100381,
   "apkName": "McpAdbAndroidLogger-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-380/McpAdbAndroidLogger-2.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-381/McpAdbAndroidLogger-2.9.apk",
   "apkSize": 29628409,
-  "sha256": "da0dc215ff1efaef874b8c99f1b7ac53fe976e972b243648383e2c62dc13fc7a",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-380",
+  "sha256": "1dc57b0ed184f92d9e8e3fc6c669644b0c011226bc4920b26a756fbcbe2ea0d9",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-381",
   "notes": [
+    "build(adb): align MCP Logger with shared ADB Core 0.1.3",
     "feat(adb): replace MCP Home pairing card with canonical shared setup page",
     "fix(adb): re-acquire recovery after manual Stop and sync OS watchdog preference",
     "feat(adb): use canonical shared Settings page and preserve MCP secure-settings opt-out",
@@ -17,7 +18,6 @@
     "fix(adb): retain shared recovery for boot-started MCP foreground service",
     "test(adb): protect MCP shared-runtime command, recovery and Quit cutover",
     "fix(adb): prevent duplicate MCP watchdog alongside shared core",
-    "feat(adb): route MCP privileged commands through shared verified shell",
-    "feat(adb): delegate MCP pairing, discovery, retry and shutdown to shared core"
+    "feat(adb): route MCP privileged commands through shared verified shell"
   ]
 }
