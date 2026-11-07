@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-37-run-454",
-  "versionName": "7.4-experimental.454",
-  "versionCode": 100454,
-  "apkName": "AAYoutube-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-37-run-454/AAYoutube-7.4.apk",
+  "tag": "experimental-pr-38-run-456",
+  "versionName": "7.5-experimental.456",
+  "versionCode": 100456,
+  "apkName": "AAYoutube-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-38-run-456/AAYoutube-7.5.apk",
   "apkSize": 21264792,
-  "sha256": "738b45d8a235c9cbd50f9f3ad4adc4eb67eef7a42a8c09d72ef5cb90b410253d",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-37-run-454",
+  "sha256": "b353d83859b5ad9004215857d90cb150c89b20f473d06cf4714a29f61ce93746",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-38-run-456",
   "notes": [
-    "build: pin next shared theme and updater releases",
-    "Bump the all-dependencies group with 5 updates"
+    "test(car): guard fullscreen-to-mini and Home navigation",
+    "fix(car): preserve video in mini player on Home, Back and swipe"
   ]
 }
