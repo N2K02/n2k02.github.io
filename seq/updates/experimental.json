@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-109",
-  "versionName": "0.3-experimental.109",
-  "versionCode": 100109,
-  "apkName": "SEQ-PR-1-159dd9e.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-109/SEQ-PR-1-159dd9e.apk",
+  "tag": "experimental-pr-1-run-111",
+  "versionName": "0.3-experimental.111",
+  "versionCode": 100111,
+  "apkName": "SEQ-PR-1-eb91e3b.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-111/SEQ-PR-1-eb91e3b.apk",
   "apkSize": 88693862,
-  "sha256": "d3bb1194cc0994918bf9f72a97b7dfef19afd93e061845c3ad64d7d426dd03ab",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-109",
+  "sha256": "a63af5059a5df84b35602d6564c42e6385f9df13951e9e5c65c44a8f51b8a564",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-111",
   "notes": [
+    "test(adb): verify upgraded shared core package version",
+    "build(adb): pin published shared ADB core 0.1.2",
     "Improve live EQ updates, backend recovery, and A/B isolation",
     "Fix SEQ projection detection, gain transitions, and response preview",
     "Add SEQ studio EQ controls and output presets",
@@ -16,8 +18,6 @@
     "feat(adb): pin shared core 0.1.1 and preserve legacy authorization during migration",
     "Show ADB connection controls only in ADB settings",
     "Test the existing verified TCP shutdown action",
-    "Use public Android playback callback API",
-    "Apply SEQ audio mockup and wire manual tuning controls",
-    "Improve SEQ output routing and safe EQ fallback"
+    "Use public Android playback callback API"
   ]
 }
