@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-40-run-198",
-  "versionName": "5.9-experimental.198",
-  "versionCode": 100198,
+  "tag": "experimental-pr-40-run-199",
+  "versionName": "5.9-experimental.199",
+  "versionCode": 100199,
   "apkName": "NetSpeed-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-40-run-198/NetSpeed-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-40-run-199/NetSpeed-5.9.apk",
   "apkSize": 19590482,
-  "sha256": "e3d17882d4458cd09b91e75c1ece1ba6c52a4f85f35c24596afb733c96e855b9",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-40-run-198",
+  "sha256": "91715b56ca0f79c2f46c832164536bab565995e7802333434b3390a5e3f9f345",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-40-run-199",
   "notes": [
+    "Unify power recovery eligibility and diagnostics with PBar",
     "Fix NetSpeed overlay-position settings and restore meter after battery saver"
   ]
 }
