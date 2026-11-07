@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.8",
-  "versionName": "6.8",
-  "versionCode": 100211,
-  "apkName": "PBar-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v6.8/PBar-6.8.apk",
+  "tag": "v6.9",
+  "versionName": "6.9",
+  "versionCode": 100215,
+  "apkName": "PBar-6.9.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v6.9/PBar-6.9.apk",
   "apkSize": 1498757,
-  "sha256": "c517d932b96a94579e94bca933eca45c80d46086202b6b820206fc1c30da47b6",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v6.8",
+  "sha256": "cbe82c9a8add21caf2207269873c3a7aff8156efc8191a53a46b5916dff2821e",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v6.9",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#59)"
+    "Restore PBar after charging or disabling extreme battery saver (#63)"
   ]
 }
