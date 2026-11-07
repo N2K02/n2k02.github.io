@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-59-run-210",
-  "versionName": "6.8-experimental.210",
-  "versionCode": 100210,
-  "apkName": "PBar-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-59-run-210/PBar-6.8.apk",
+  "tag": "experimental-pr-63-run-212",
+  "versionName": "6.9-experimental.212",
+  "versionCode": 100212,
+  "apkName": "PBar-6.9.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-63-run-212/PBar-6.9.apk",
   "apkSize": 19885528,
-  "sha256": "ff52149ea6bc8ce7d10abf8441b61dbaa9bc280277340b96d92f2c0288d6603f",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-59-run-210",
+  "sha256": "cf9869a8bba5b9b706bcef8a59ed1b179cfa94ef7f70dba516c288deb0d90f3a",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-63-run-212",
   "notes": [
-    "build: pin next shared theme and updater releases",
-    "Bump the all-dependencies group with 6 updates"
+    "Restore PBar notification overlay after extreme battery saver"
   ]
 }
