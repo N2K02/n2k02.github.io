@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-108",
-  "versionName": "0.3-experimental.108",
-  "versionCode": 100108,
-  "apkName": "SEQ-PR-1-41af3d4.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-108/SEQ-PR-1-41af3d4.apk",
+  "tag": "experimental-pr-1-run-109",
+  "versionName": "0.3-experimental.109",
+  "versionCode": 100109,
+  "apkName": "SEQ-PR-1-159dd9e.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-109/SEQ-PR-1-159dd9e.apk",
   "apkSize": 88693862,
-  "sha256": "0e0ca49dbf6b23a0e8be435eb9b7f149dd2e833ce3852523348b7c12ed894bc2",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-108",
+  "sha256": "d3bb1194cc0994918bf9f72a97b7dfef19afd93e061845c3ad64d7d426dd03ab",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-109",
   "notes": [
+    "Improve live EQ updates, backend recovery, and A/B isolation",
     "Fix SEQ projection detection, gain transitions, and response preview",
     "Add SEQ studio EQ controls and output presets",
     "Offer 10-band and 31-band manual equalizer layouts",
@@ -17,7 +18,6 @@
     "Test the existing verified TCP shutdown action",
     "Use public Android playback callback API",
     "Apply SEQ audio mockup and wire manual tuning controls",
-    "Improve SEQ output routing and safe EQ fallback",
-    "ui(seq): add VREC-equivalent TCP shutdown action and security feedback"
+    "Improve SEQ output routing and safe EQ fallback"
   ]
 }
