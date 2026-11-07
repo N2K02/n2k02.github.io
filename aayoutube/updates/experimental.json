@@ -1,21 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-38-run-462",
-  "versionName": "7.5-experimental.462",
-  "versionCode": 100462,
+  "tag": "experimental-pr-38-run-469",
+  "versionName": "7.5-experimental.469",
+  "versionCode": 100469,
   "apkName": "AAYoutube-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-38-run-462/AAYoutube-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-38-run-469/AAYoutube-7.5.apk",
   "apkSize": 21264792,
-  "sha256": "b5cac86891bc4352dfeb0c282aef30f9be15e72ccbfa9771542b47cb80de6439",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-38-run-462",
+  "sha256": "2a495c6f9065d7e00be3f05861dbf527f7561e22ac9048c554cdaf1ba8ac5ad0",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-38-run-469",
   "notes": [
+    "test(perf): align legacy background DOM timing contract with new throttle",
+    "test(lyrics): guard derived line-state recomposition",
+    "test(perf): verify background reporting and throttling guards",
+    "perf(web): suppress background-only periodic UI position reports",
+    "perf(lyrics): recompose lyric text only when active line changes",
+    "test(perf): guard background DOM throttling and playback recovery",
+    "perf(web): skip background visual DOM work while retaining playback recovery",
     "test(phone): assert safe area inside stable WebPane",
     "fix(phone): inset WebView content while retaining stable WebPane contract",
-    "test(phone): guard YouTube status bar safe area",
-    "fix(phone): keep YouTube header below status bar like mRadio",
-    "fix(car): focus search WebView only after editable tap",
-    "fix(car): forward search typing to Chromium input connection",
-    "test(car): guard fullscreen-to-mini and Home navigation",
-    "fix(car): preserve video in mini player on Home, Back and swipe"
+    "test(phone): guard YouTube status bar safe area"
   ]
 }
