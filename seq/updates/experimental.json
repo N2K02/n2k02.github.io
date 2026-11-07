@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-107",
-  "versionName": "0.3-experimental.107",
-  "versionCode": 100107,
-  "apkName": "SEQ-PR-1-bb5de97.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-107/SEQ-PR-1-bb5de97.apk",
-  "apkSize": 87828525,
-  "sha256": "f5235fd80ccea62e05de753a672c9db2d54bfb0ddb3aa3abbd666586910e31a5",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-107",
+  "tag": "experimental-pr-1-run-108",
+  "versionName": "0.3-experimental.108",
+  "versionCode": 100108,
+  "apkName": "SEQ-PR-1-41af3d4.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-108/SEQ-PR-1-41af3d4.apk",
+  "apkSize": 88693862,
+  "sha256": "0e0ca49dbf6b23a0e8be435eb9b7f149dd2e833ce3852523348b7c12ed894bc2",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-108",
   "notes": [
+    "Fix SEQ projection detection, gain transitions, and response preview",
     "Add SEQ studio EQ controls and output presets",
     "Offer 10-band and 31-band manual equalizer layouts",
     "feat(adb): pin shared core 0.1.1 and preserve legacy authorization during migration",
@@ -17,7 +18,6 @@
     "Use public Android playback callback API",
     "Apply SEQ audio mockup and wire manual tuning controls",
     "Improve SEQ output routing and safe EQ fallback",
-    "ui(seq): add VREC-equivalent TCP shutdown action and security feedback",
-    "ui(seq): remove extra ADB preference header icons and match VREC labels"
+    "ui(seq): add VREC-equivalent TCP shutdown action and security feedback"
   ]
 }
