@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-15-run-94",
-  "versionName": "2.1-experimental.94",
-  "versionCode": 100094,
-  "apkName": "LocalAdb-PR-15-710f9d7.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-15-run-94/LocalAdb-PR-15-710f9d7.apk",
+  "tag": "experimental-pr-16-run-96",
+  "versionName": "2.2-experimental.96",
+  "versionCode": 100096,
+  "apkName": "LocalAdb-PR-16-bae93ed.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-96/LocalAdb-PR-16-bae93ed.apk",
   "apkSize": 39503286,
-  "sha256": "aa074f24eec5568652451170b3465f0f95de6ea9bb8be227f77cd2c8c00982c2",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-15-run-94",
+  "sha256": "227d32982b0e6c807cf5ae93afaac095530377e4d17b24079d0cdc745b65b2e6",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-96",
   "notes": [
-    "fix(ci): pin current verified MRadio Gradle wrapper JAR checksum",
-    "test(adb): revalidate stream recovery with shared-library upgrades on main",
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#12)",
-    "test(adb): recognize guarded manager retirement in lifecycle checks",
-    "test(adb): enforce watchdog session ownership before clearing state",
-    "fix(adb): keep stale timeout watchdog from clearing newer verified session",
-    "test(adb): require independent timeout watchdog under coroutine cancellation",
-    "fix(adb): keep bounded socket watchdog active across cancelled blocking ADB reads",
-    "test(adb): enforce stream EOF retirement and deadlock-free watchdog cleanup",
-    "fix(adb): retire poisoned sessions on Stream closed and avoid reader-close watchdog deadlocks"
+    "ui(localadb): show TCP action feedback in VREC-style security card",
+    "ui(localadb): align ADB submenu spacing and two-card presentation with VREC"
   ]
 }
