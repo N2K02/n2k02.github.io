@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.0",
-  "versionName": "6.0",
-  "versionCode": 100178,
-  "apkName": "HFreebuds-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.0/HFreebuds-6.0.apk",
-  "apkSize": 1384078,
-  "sha256": "12ba540d0a09c31aade02123529456ce39e34f64719a5c9d83a38850f4e5a68d",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.0",
+  "tag": "v6.1",
+  "versionName": "6.1",
+  "versionCode": 100202,
+  "apkName": "HFreebuds-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.1/HFreebuds-6.1.apk",
+  "apkSize": 1400462,
+  "sha256": "e6579faf774a4f5e66017a93f7e94e63df655e415c11c04eed9c7bfa27935a69",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.1",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#32)"
+    "Improve disconnected UI and earbud settings (#33)"
   ]
 }
