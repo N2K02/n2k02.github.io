@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-97",
-  "versionName": "0.3-experimental.97",
-  "versionCode": 100097,
-  "apkName": "SEQ-PR-1-24ccef5.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-97/SEQ-PR-1-24ccef5.apk",
+  "tag": "experimental-pr-1-run-98",
+  "versionName": "0.3-experimental.98",
+  "versionCode": 100098,
+  "apkName": "SEQ-PR-1-270f389.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-98/SEQ-PR-1-270f389.apk",
   "apkSize": 87300058,
-  "sha256": "a6e5942cd25792098cb4800f796ed8a31c020558615e4cd164a4b11a4f967720",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-97",
+  "sha256": "999a02c12248032bc605d41c79a367ddc1879429ced1477b4d3c52a55daf4844",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-98",
   "notes": [
+    "ui(seq): remove extra ADB preference header icons and match VREC labels",
     "ui(seq): align ADB cards and clickable settings rows with VREC",
     "ui(seq): show exactly two VREC-style cards in ADB submenu",
     "ui(seq): reserve connection details for Diagnostics, keep ADB submenu two-card",
@@ -17,7 +18,6 @@
     "feat: SEQ Auto — automatic sound engine, settings clutter removed",
     "feat(sound): lookahead limiter, smart headroom, TPDF dither, loudness compensation",
     "feat: detect any playing media and Android Auto without notification access",
-    "feat: process all media incl. Android Auto with precision output-mix EQ",
-    "test(adb): require status card and prevent SEQ diagnostics parity regressions"
+    "feat: process all media incl. Android Auto with precision output-mix EQ"
   ]
 }
