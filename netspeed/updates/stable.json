@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.8",
-  "versionName": "5.8",
-  "versionCode": 100197,
-  "apkName": "NetSpeed-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.8/NetSpeed-5.8.apk",
+  "tag": "v5.9",
+  "versionName": "5.9",
+  "versionCode": 100200,
+  "apkName": "NetSpeed-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.9/NetSpeed-5.9.apk",
   "apkSize": 1224224,
-  "sha256": "53c151312beb6b2713a80e3880fcafa0fab2cb795da7c759a8d96b24f6eec80e",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.8",
+  "sha256": "7d0587d170a3c99c325baadbde1b93034fce316eb3627c982a0c8056ff47fc41",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.9",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#37)"
+    "Restore NetSpeed after extreme power saver and expose overlay position (#40)"
   ]
 }
