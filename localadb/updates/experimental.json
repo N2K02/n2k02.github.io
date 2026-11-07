@@ -1,14 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-96",
-  "versionName": "2.2-experimental.96",
-  "versionCode": 100096,
-  "apkName": "LocalAdb-PR-16-bae93ed.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-96/LocalAdb-PR-16-bae93ed.apk",
+  "tag": "experimental-pr-16-run-100",
+  "versionName": "2.2-experimental.100",
+  "versionCode": 100100,
+  "apkName": "LocalAdb-PR-16-6308cf9.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-100/LocalAdb-PR-16-6308cf9.apk",
   "apkSize": 39503286,
-  "sha256": "227d32982b0e6c807cf5ae93afaac095530377e4d17b24079d0cdc745b65b2e6",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-96",
+  "sha256": "f5e709a800811136052a111e01306d07ddc57ea60fba8fc24e6a9748f3b8029e",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-100",
   "notes": [
+    "fix(adb-ui): refresh Accessibility availability after returning from Android Settings",
+    "test(adb): assert VRec rounded card styles instead of legacy constructor",
+    "ui(adb): match VREC card internal spacing without extra heading spacer",
+    "ui(localadb): match VREC rounded cards, typography and clickable toggle rows",
     "ui(localadb): show TCP action feedback in VREC-style security card",
     "ui(localadb): align ADB submenu spacing and two-card presentation with VREC"
   ]
