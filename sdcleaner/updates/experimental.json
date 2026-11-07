@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-10-run-177",
-  "versionName": "1.5-experimental.177",
-  "versionCode": 100177,
+  "tag": "sdcleaner-experimental-pr-10-run-178",
+  "versionName": "1.5-experimental.178",
+  "versionCode": 100178,
   "apkName": "SDCleaner-1.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-10-run-177/SDCleaner-1.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-10-run-178/SDCleaner-1.5.apk",
   "apkSize": 57255127,
-  "sha256": "ad664e4437a200bfb782d55470ad33ca801d710a762f95219d5f54e48188d822",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-10-run-177",
+  "sha256": "078c601b59f8549c5422451e3da9ca7d04e9e29a459b662938d2c9711941143c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-10-run-178",
   "notes": [
+    "ui(sdcleaner): lead with VREC two-card ADB settings and collapse connection diagnostics",
     "Fix flaky TaskManagerTest: submit scoped work from a real dispatcher",
     "Fix Cancel and Quit doing nothing while cleaning runs",
     "Fix ADB cache cleaning: use device-wide trim instead of hanging pm clear --cache-only",
@@ -17,7 +18,6 @@
     "Compact SDCleaner Home cleaning tool cards",
     "Fix SDCleaner About version and remove Diagnostics; add cleaning-card action buttons",
     "Modernize SDCleaner with neutral Material 3 Home and scheduler UI",
-    "Complete SDCleaner purple Home UI and stable APK signing",
-    "Implement full SDCleaner Settings UI and minute-based Scheduler"
+    "Complete SDCleaner purple Home UI and stable APK signing"
   ]
 }
