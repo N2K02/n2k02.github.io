@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-38-run-456",
-  "versionName": "7.5-experimental.456",
-  "versionCode": 100456,
+  "tag": "experimental-pr-38-run-458",
+  "versionName": "7.5-experimental.458",
+  "versionCode": 100458,
   "apkName": "AAYoutube-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-38-run-456/AAYoutube-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-38-run-458/AAYoutube-7.5.apk",
   "apkSize": 21264792,
-  "sha256": "b353d83859b5ad9004215857d90cb150c89b20f473d06cf4714a29f61ce93746",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-38-run-456",
+  "sha256": "32601bade924f5d31f99d354a77370c5de0e69471bbc01a55c423778dec1c405",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-38-run-458",
   "notes": [
+    "fix(car): focus search WebView only after editable tap",
+    "fix(car): forward search typing to Chromium input connection",
     "test(car): guard fullscreen-to-mini and Home navigation",
     "fix(car): preserve video in mini player on Home, Back and swipe"
   ]
