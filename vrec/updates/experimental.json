@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-68-run-1001",
-  "versionName": "6.5-experimental.1001",
-  "versionCode": 101001,
+  "tag": "experimental-pr-68-run-1003",
+  "versionName": "6.5-experimental.1003",
+  "versionCode": 101003,
   "apkName": "VREC-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1001/VREC-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1003/VREC-6.5.apk",
   "apkSize": 12840190,
-  "sha256": "bce61b80c7a1f94ec0dec0a21b2616dfd4b4102cceec4b7ec17ee53d2ff44b9c",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1001",
+  "sha256": "cd8d3303edd1a275c8da526d98d3f73d56955da062850abeea27f866cb52db2d",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1003",
   "notes": [
+    "test(adb): verify upgraded shared core package version",
+    "build(adb): pin published shared ADB core 0.1.2",
     "feat(adb): pin shared ADB core 0.1.1 and preserve VRec identity and preferences"
   ]
 }
