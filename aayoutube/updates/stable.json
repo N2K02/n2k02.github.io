@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.4",
-  "versionName": "7.4",
-  "versionCode": 100455,
-  "apkName": "AAYoutube-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.4/AAYoutube-7.4.apk",
+  "tag": "v7.5",
+  "versionName": "7.5",
+  "versionCode": 100470,
+  "apkName": "AAYoutube-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.5/AAYoutube-7.5.apk",
   "apkSize": 14621033,
-  "sha256": "814ebcb0df8c99b4c6e7f9fb63e1e0c787b949f9201330b5e7da45710e68d29b",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.4",
+  "sha256": "99d92a79ac6c2d144adf77114bd3188ea282191fd1fe135aac4b207dbd18c213",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.5",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#37)"
+    "Fix Android Auto video Home and fullscreen-to-mini navigation (#38)"
   ]
 }
