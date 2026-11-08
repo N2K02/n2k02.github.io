@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-119",
-  "versionName": "2.2-experimental.119",
-  "versionCode": 100119,
-  "apkName": "LocalAdb-PR-16-7f332d9.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-119/LocalAdb-PR-16-7f332d9.apk",
+  "tag": "experimental-pr-16-run-120",
+  "versionName": "2.2-experimental.120",
+  "versionCode": 100120,
+  "apkName": "LocalAdb-PR-16-bfe4a8f.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-120/LocalAdb-PR-16-bfe4a8f.apk",
   "apkSize": 39568822,
-  "sha256": "99eccee610a556dfd0f1155736824653ac90a269e3cd19cf4fa4bd5f2028300a",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-119",
+  "sha256": "9402a771ac59135bcadadb32a0b3eac6f006a7b383e6cd3a3d89e8d83463fe49",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-120",
   "notes": [
+    "build(adb): adopt validated shared core 0.1.6 and update tests",
     "test(adb): align LocalAdb shared-core version guard with published release",
     "test(adb): assert published shared core 0.1.5 pin",
     "build(adb): pin published shared core 0.1.5 across unified apps",
@@ -17,7 +18,6 @@
     "feat(localadb): delegate pairing and Android 17 permission logic to shared core",
     "fix(adb): request Android 17 local network runtime grant before auto discovery",
     "test(localadb): update shared core regression pin to 0.1.3",
-    "build(adb): align LocalAdb with shared ADB Core 0.1.3",
-    "fix(localadb): retain Shizuku Binder recovery without duplicate ADB watchdog"
+    "build(adb): align LocalAdb with shared ADB Core 0.1.3"
   ]
 }
