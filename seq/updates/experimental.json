@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-134",
-  "versionName": "0.3-experimental.134",
-  "versionCode": 100134,
-  "apkName": "SEQ-PR-1-4bf29c1.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-134/SEQ-PR-1-4bf29c1.apk",
-  "apkSize": 88595558,
-  "sha256": "1c6a0921e0052b9ca8daf9ff44d699b359e23a71b5627348adba6bca2f1e9b86",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-134",
+  "tag": "experimental-pr-2-run-136",
+  "versionName": "0.4-experimental.136",
+  "versionCode": 100136,
+  "apkName": "SEQ-PR-2-e8c39fb.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-136/SEQ-PR-2-e8c39fb.apk",
+  "apkSize": 88611942,
+  "sha256": "34d4d4e0523dc66ce535282a0d9d5bc1182d90feb9aa68d556fd4050aee0bc42",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-136",
   "notes": [
+    "Test smooth DSP transitions, headroom and cancellation on shutdown",
+    "Update loudness and preamp assertions for conservative clipping protection",
+    "Fix nullable limiter state check in smooth EQ transition",
+    "SEQ: default 10-band editing and Natural Smooth Deep Bass Immersive controls",
+    "SEQ: smooth live global EQ transitions and test sound headroom",
+    "SEQ sound foundations: four safe tonal modes, automatic headroom and refined bass",
     "test(adb): guard SEQ boot-vs-watchdog recovery separation",
     "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
     "fix(adb): separate SEQ boot policy from ongoing watchdog recovery",
-    "fix(adb): permit SEQ same-boot foreground recovery with boot startup disabled",
-    "test(adb): guard manual Stop across Android activity recreation",
-    "fix(adb): do not reset manual Stop on activity recreation",
-    "test(adb): preserve SEQ manual Stop across Settings navigation",
-    "fix(adb): prevent SEQ Settings navigation from clearing manual Stop",
-    "test(adb): ensure SEQ startup errors remain visible in Logs",
-    "fix(adb): log SEQ boot and watchdog recovery failures"
+    "fix(adb): permit SEQ same-boot foreground recovery with boot startup disabled"
   ]
 }
