@@ -1,12 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-147",
-  "versionName": "0.4-experimental.147",
-  "versionCode": 100147,
-  "apkName": "SEQ-PR-2-df57581.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-147/SEQ-PR-2-df57581.apk",
+  "tag": "experimental-pr-2-run-149",
+  "versionName": "0.4-experimental.149",
+  "versionCode": 100149,
+  "apkName": "SEQ-PR-2-91c8a91.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-149/SEQ-PR-2-91c8a91.apk",
   "apkSize": 88693921,
-  "sha256": "ca2897609503872cd0db7cca20deaa1c50e750477ccd0709d2257c69868539bd",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-147",
-  "notes": []
+  "sha256": "26db9acf8e2af19f86ddd3eab4e6a18fa00787748f09b0c503372792e41ed4b7",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-149",
+  "notes": [
+    "Correct routing-lab contract parser to inspect the quoted command",
+    "SEQ: test read-only routing lab and duplicate-playback guard; make Logcat safe in JVM tests",
+    "SEQ: emit privacy-safe audio engine and routing state events to Logcat",
+    "SEQ routing lab: explicit read-only ADB capability probe and bounded audio diagnostics",
+    "SEQ: refresh live headphone correction and response immediately on AutoEQ import",
+    "SEQ: upgrade PCM peak guard to 4x windowed-sinc with 16-frame lookahead",
+    "SEQ: introduce isolated low-latency PCM FIR/peak-guard core and exclusive-route safety policy",
+    "SEQ: add Advanced Audio page with live AutoEQ/PEQ editor and compressor controls",
+    "SEQ: activate route-specific parametric correction and optional 3-band MBC processing",
+    "SEQ: add validated AutoEQ profile storage and compressor settings"
+  ]
 }
