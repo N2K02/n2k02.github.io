@@ -1,0 +1,23 @@
+{
+  "channel": "stable",
+  "tag": "v0.4",
+  "versionName": "0.4",
+  "versionCode": 100135,
+  "apkName": "SEQ-0.4.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/v0.4/SEQ-0.4.apk",
+  "apkSize": 15337775,
+  "sha256": "1829251b9f6e1fe5939eecf50de69d13564a0649d125aeb60b683a012047ead0",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/v0.4",
+  "notes": [
+    "test(adb): guard SEQ boot-vs-watchdog recovery separation",
+    "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
+    "fix(adb): separate SEQ boot policy from ongoing watchdog recovery",
+    "fix(adb): permit SEQ same-boot foreground recovery with boot startup disabled",
+    "test(adb): guard manual Stop across Android activity recreation",
+    "fix(adb): do not reset manual Stop on activity recreation",
+    "test(adb): preserve SEQ manual Stop across Settings navigation",
+    "fix(adb): prevent SEQ Settings navigation from clearing manual Stop",
+    "test(adb): ensure SEQ startup errors remain visible in Logs",
+    "fix(adb): log SEQ boot and watchdog recovery failures"
+  ]
+}
