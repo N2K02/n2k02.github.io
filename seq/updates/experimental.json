@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-126",
-  "versionName": "0.3-experimental.126",
-  "versionCode": 100126,
-  "apkName": "SEQ-PR-1-6720346.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-126/SEQ-PR-1-6720346.apk",
+  "tag": "experimental-pr-1-run-130",
+  "versionName": "0.3-experimental.130",
+  "versionCode": 100130,
+  "apkName": "SEQ-PR-1-379d6cd.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-130/SEQ-PR-1-379d6cd.apk",
   "apkSize": 88579174,
-  "sha256": "75b36344921840427aaf6879666c6863ee6e5cdd0e03a016215ca5dc8fd43cac",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-126",
+  "sha256": "31b67537ceabe790ef93d49dfd11fe58e3aaf7b404e3d858b2eb4535859aff87",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-130",
   "notes": [
+    "test(adb): guard manual Stop across Android activity recreation",
+    "fix(adb): do not reset manual Stop on activity recreation",
+    "test(adb): preserve SEQ manual Stop across Settings navigation",
+    "fix(adb): prevent SEQ Settings navigation from clearing manual Stop",
     "test(adb): ensure SEQ startup errors remain visible in Logs",
     "fix(adb): log SEQ boot and watchdog recovery failures",
     "test(adb): protect SEQ foreground ownership during worker cleanup",
     "fix(adb): SEQ worker must preserve foreground ADB connection",
     "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow",
-    "build(adb): adopt validated shared core 0.1.6 and update tests",
-    "test(adb): assert published shared core 0.1.5 pin",
-    "feat(seq): canonical automatic ADB Home setup; delete duplicate NSD engine, await safe Quit, use core 0.1.5",
-    "test(seq): replace legacy socket/UI assertions with shared ADB core regression contracts",
-    "refactor(seq): use shared ADB discovery, lifecycle, Settings pages and pairing reader"
+    "build(adb): adopt validated shared core 0.1.6 and update tests"
   ]
 }
