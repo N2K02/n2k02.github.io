@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-130",
-  "versionName": "0.3-experimental.130",
-  "versionCode": 100130,
-  "apkName": "SEQ-PR-1-379d6cd.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-130/SEQ-PR-1-379d6cd.apk",
-  "apkSize": 88579174,
-  "sha256": "31b67537ceabe790ef93d49dfd11fe58e3aaf7b404e3d858b2eb4535859aff87",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-130",
+  "tag": "experimental-pr-1-run-134",
+  "versionName": "0.3-experimental.134",
+  "versionCode": 100134,
+  "apkName": "SEQ-PR-1-4bf29c1.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-134/SEQ-PR-1-4bf29c1.apk",
+  "apkSize": 88595558,
+  "sha256": "1c6a0921e0052b9ca8daf9ff44d699b359e23a71b5627348adba6bca2f1e9b86",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-134",
   "notes": [
+    "test(adb): guard SEQ boot-vs-watchdog recovery separation",
+    "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
+    "fix(adb): separate SEQ boot policy from ongoing watchdog recovery",
+    "fix(adb): permit SEQ same-boot foreground recovery with boot startup disabled",
     "test(adb): guard manual Stop across Android activity recreation",
     "fix(adb): do not reset manual Stop on activity recreation",
     "test(adb): preserve SEQ manual Stop across Settings navigation",
     "fix(adb): prevent SEQ Settings navigation from clearing manual Stop",
     "test(adb): ensure SEQ startup errors remain visible in Logs",
-    "fix(adb): log SEQ boot and watchdog recovery failures",
-    "test(adb): protect SEQ foreground ownership during worker cleanup",
-    "fix(adb): SEQ worker must preserve foreground ADB connection",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow",
-    "build(adb): adopt validated shared core 0.1.6 and update tests"
+    "fix(adb): log SEQ boot and watchdog recovery failures"
   ]
 }
