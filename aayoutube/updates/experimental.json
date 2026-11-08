@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-478",
-  "versionName": "7.6-experimental.478",
-  "versionCode": 100478,
+  "tag": "experimental-pr-39-run-482",
+  "versionName": "7.6-experimental.482",
+  "versionCode": 100482,
   "apkName": "AAYoutube-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-478/AAYoutube-7.6.apk",
-  "apkSize": 21264792,
-  "sha256": "e3a3cc242d569e587b7ad959909f29c76e3650c6a7975f8262729c74e13295e6",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-478",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-482/AAYoutube-7.6.apk",
+  "apkSize": 21281176,
+  "sha256": "52fdef4dfef92d9e663c22346bb1e65c61260c75ae89c6d71bea2d76d2d72846",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-482",
   "notes": [
+    "test(ipc): require epoch validation for transport acknowledgements",
+    "fix(youtube): match AABrowser script-managed ad requests without blocking player streams",
+    "fix(media): acknowledge explicit PAUSE and STOP across IPC epochs before dropping pending intent",
+    "fix(media): persist explicit Pause/Stop through WebView Messenger outages",
     "fix(car playback): use YouTube media-session Play handler and refresh idle-freeze parity tests",
     "fix(playback): preserve manual pause intent through IPC reconnect and renderer failure",
     "test(car): update stale pause-protection assertion for continuous recovery",
     "test(js): distinguish explicit lyric pause and unexpected foreground interruption",
     "fix(player): distinguish explicit gestures from automatic foreground page pauses",
-    "test(js): verify trusted YouTube pauses and car interruption recovery",
-    "fix(player): preserve direct foreground page pauses as deliberate intent",
-    "test(player): correct Kotlin quoted string assertions",
-    "test(player): cover manual-pause priority, sustained recovery and idle shutdown",
-    "fix(power): continue recovery without overriding disabled background playback"
+    "test(js): verify trusted YouTube pauses and car interruption recovery"
   ]
 }
