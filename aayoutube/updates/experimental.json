@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-501",
-  "versionName": "7.6-experimental.501",
-  "versionCode": 100501,
+  "tag": "experimental-pr-39-run-505",
+  "versionName": "7.6-experimental.505",
+  "versionCode": 100505,
   "apkName": "AAYoutube-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-501/AAYoutube-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-505/AAYoutube-7.6.apk",
   "apkSize": 21285272,
-  "sha256": "d84fef5f1112905584a333ff7074616ba899fd73a730186707f723024d84b595",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-501",
+  "sha256": "4a2becd3ac17a5239cee53671375e94ee1cbcbc855d4a1ebb0d65369aaa90e23",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-505",
   "notes": [
+    "test(web): align restored URL validation contract with parsed Uri",
+    "fix(pip): standard-size phone PiP minimum, full-player source hint and safe URL restore",
+    "test(web): isolate host validation for JVM tests and always clear browse session",
+    "fix(web): validate saved YouTube domains and ignore stale sign-out callbacks",
     "test(lifecycle): consolidate clean release path and update pause contract",
     "fix(media): reopen last selection when live WebView is on a non-player page",
     "fix(web): reject stale page reports after full or SPA navigation",
     "fix(media): restore a missing WebView on Play and retain live Quit ownership across handoffs",
     "test(car): align SDK lifecycle and explicit Pause contracts with reviewed implementation",
-    "fix(car): remove unsupported Activity APIs from legacy projection Quit",
-    "fix(media): clear stale playback on full YouTube document navigation",
-    "test(playback): no stale auto-resume after leaving YouTube watch page",
-    "fix(playback): never auto-resume stale video after leaving watch route",
-    "test(js): exercise Pause and Play before YouTube creates video element"
+    "fix(car): remove unsupported Activity APIs from legacy projection Quit"
   ]
 }
