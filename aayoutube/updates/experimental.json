@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-497",
-  "versionName": "7.6-experimental.497",
-  "versionCode": 100497,
+  "tag": "experimental-pr-39-run-501",
+  "versionName": "7.6-experimental.501",
+  "versionCode": 100501,
   "apkName": "AAYoutube-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-497/AAYoutube-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-501/AAYoutube-7.6.apk",
   "apkSize": 21285272,
-  "sha256": "710c09f4c99e80af008c77b161f5b7720c0e2e075579284db2510675328a36dd",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-497",
+  "sha256": "d84fef5f1112905584a333ff7074616ba899fd73a730186707f723024d84b595",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-501",
   "notes": [
+    "test(lifecycle): consolidate clean release path and update pause contract",
+    "fix(media): reopen last selection when live WebView is on a non-player page",
+    "fix(web): reject stale page reports after full or SPA navigation",
+    "fix(media): restore a missing WebView on Play and retain live Quit ownership across handoffs",
     "test(car): align SDK lifecycle and explicit Pause contracts with reviewed implementation",
     "fix(car): remove unsupported Activity APIs from legacy projection Quit",
     "fix(media): clear stale playback on full YouTube document navigation",
     "test(playback): no stale auto-resume after leaving YouTube watch page",
     "fix(playback): never auto-resume stale video after leaving watch route",
-    "test(js): exercise Pause and Play before YouTube creates video element",
-    "fix(js): manual Pause cancels pending autoplay; native Play survives player initialization",
-    "test(js): model real DOM closest() results in trusted player gesture",
-    "test(js): flush queued page reports and bind simulated media events",
-    "fix(quit): car-only shutdown fallback, stale phone callback cleanup and true media Pause state"
+    "test(js): exercise Pause and Play before YouTube creates video element"
   ]
 }
