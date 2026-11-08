@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-482",
-  "versionName": "7.6-experimental.482",
-  "versionCode": 100482,
+  "tag": "experimental-pr-39-run-485",
+  "versionName": "7.6-experimental.485",
+  "versionCode": 100485,
   "apkName": "AAYoutube-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-482/AAYoutube-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-485/AAYoutube-7.6.apk",
   "apkSize": 21281176,
-  "sha256": "52fdef4dfef92d9e663c22346bb1e65c61260c75ae89c6d71bea2d76d2d72846",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-482",
+  "sha256": "4f2d44e649cde99be80889bcf2a543aca25394b77343ae04c30fc10c9745d0c3",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-485",
   "notes": [
+    "test(playback): align recovery-intent contract with incoming snapshot parameter",
+    "fix(car): restore unexpected playback recovery after projection window replacement",
+    "fix(player): retain buffering recovery and foreground priority; correlate manual-pause ACKs by request",
     "test(ipc): require epoch validation for transport acknowledgements",
     "fix(youtube): match AABrowser script-managed ad requests without blocking player streams",
     "fix(media): acknowledge explicit PAUSE and STOP across IPC epochs before dropping pending intent",
     "fix(media): persist explicit Pause/Stop through WebView Messenger outages",
     "fix(car playback): use YouTube media-session Play handler and refresh idle-freeze parity tests",
     "fix(playback): preserve manual pause intent through IPC reconnect and renderer failure",
-    "test(car): update stale pause-protection assertion for continuous recovery",
-    "test(js): distinguish explicit lyric pause and unexpected foreground interruption",
-    "fix(player): distinguish explicit gestures from automatic foreground page pauses",
-    "test(js): verify trusted YouTube pauses and car interruption recovery"
+    "test(car): update stale pause-protection assertion for continuous recovery"
   ]
 }
