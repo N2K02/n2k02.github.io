@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-10-run-223",
-  "versionName": "1.5-experimental.223",
-  "versionCode": 100223,
+  "tag": "sdcleaner-experimental-pr-10-run-225",
+  "versionName": "1.5-experimental.225",
+  "versionCode": 100225,
   "apkName": "SDCleaner-1.5.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-10-run-223/SDCleaner-1.5.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-10-run-225/SDCleaner-1.5.apk",
   "apkSize": 57632042,
-  "sha256": "1745b0fd02fb23a7cab08cf423b3cf51bc819f9fe2aa848a002c991274d392a1",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-10-run-223",
+  "sha256": "c62b4579222ee7ec049b8a7e1fe2c0bae74f812f257c8a6433bb84964c97be5c",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-10-run-225",
   "notes": [
+    "test(sdcleaner): require compact live ADB badge instead of Home setup card",
+    "ui(sdcleaner): replace ADB Home card with live shell UID badge in storage header",
     "test(adb): ensure SDCleaner boot worker preserves foreground owner",
     "fix(adb): do not tear down SDCleaner foreground ADB after boot recovery",
     "fix(adb): expose SDCleaner foreground owner to boot cleanup",
@@ -16,8 +18,6 @@
     "fix(adb): preserve explicit Stop when SDCleaner Settings opens",
     "test(adb): align Kotlin toolchain contract with published core 0.1.7",
     "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow",
-    "build(adb): adopt validated shared core 0.1.6 and update tests",
-    "test(adb): assert published shared core 0.1.5 pin",
-    "build(adb): pin published shared core 0.1.5 across unified apps"
+    "build(adb): adopt validated shared core 0.1.6 and update tests"
   ]
 }
