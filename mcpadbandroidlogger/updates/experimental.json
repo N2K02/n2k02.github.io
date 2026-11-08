@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-43-run-381",
+  "tag": "mcpadbandroidlogger-experimental-pr-43-run-389",
   "versionName": "2.9",
-  "versionCode": 100381,
+  "versionCode": 100389,
   "apkName": "McpAdbAndroidLogger-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-381/McpAdbAndroidLogger-2.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-389/McpAdbAndroidLogger-2.9.apk",
   "apkSize": 29628409,
-  "sha256": "1dc57b0ed184f92d9e8e3fc6c669644b0c011226bc4920b26a756fbcbe2ea0d9",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-381",
+  "sha256": "208663ca948ab8a04a6168258143f1d4487e016094729243a096eca5bc7b9f1e",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-389",
   "notes": [
+    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow",
+    "build(adb): adopt validated shared core 0.1.6 and update tests",
+    "ci(mcp): preserve minified R8 mapping and identify recursive stack-overflow method",
+    "test(adb): assert published shared core 0.1.5 pin",
+    "ci(mcp): pin shared ADB 0.1.5 and show first crash frames for R8 diagnosis",
+    "test(mcp): assert automatic shared pairing reader instead of legacy code reader",
+    "build(adb): upgrade to automatic-pairing shared core 0.1.4",
+    "feat(mcp): share automatic system pairing reader and remove app manual pairing flow",
     "build(adb): align MCP Logger with shared ADB Core 0.1.3",
-    "feat(adb): replace MCP Home pairing card with canonical shared setup page",
-    "fix(adb): re-acquire recovery after manual Stop and sync OS watchdog preference",
-    "feat(adb): use canonical shared Settings page and preserve MCP secure-settings opt-out",
-    "test(adb): check shared core shutdown rather than removed legacy teardown",
-    "test(adb): boot foreground service retains shared core until Quit",
-    "fix(adb): retain shared recovery for boot-started MCP foreground service",
-    "test(adb): protect MCP shared-runtime command, recovery and Quit cutover",
-    "fix(adb): prevent duplicate MCP watchdog alongside shared core",
-    "feat(adb): route MCP privileged commands through shared verified shell"
+    "feat(adb): replace MCP Home pairing card with canonical shared setup page"
   ]
 }
