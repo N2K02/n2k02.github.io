@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-1-run-120",
-  "versionName": "0.3-experimental.120",
-  "versionCode": 100120,
-  "apkName": "SEQ-PR-1-c871e24.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-120/SEQ-PR-1-c871e24.apk",
+  "tag": "experimental-pr-1-run-121",
+  "versionName": "0.3-experimental.121",
+  "versionCode": 100121,
+  "apkName": "SEQ-PR-1-07c5709.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-1-run-121/SEQ-PR-1-07c5709.apk",
   "apkSize": 88579174,
-  "sha256": "fdfa2ab1865c60f96fbd137c519219fa1cd672ca4675a6625a69dd2dc66b4006",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-120",
+  "sha256": "d65f9442b83a501ae0fbb81067d3aa630eff7853f43d5da574883ba9ed454a80",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-1-run-121",
   "notes": [
+    "build(adb): adopt validated shared core 0.1.6 and update tests",
     "test(adb): assert published shared core 0.1.5 pin",
     "feat(seq): canonical automatic ADB Home setup; delete duplicate NSD engine, await safe Quit, use core 0.1.5",
     "test(seq): replace legacy socket/UI assertions with shared ADB core regression contracts",
@@ -17,7 +18,6 @@
     "feat(seq): centralize shell transport and preserve saved authorization in shared core",
     "build(adb): pin shared automatic pairing core 0.1.4",
     "Show detected player branding and smooth tuning across outputs",
-    "build(adb): align SEQ with shared ADB Core 0.1.3",
-    "test(adb): verify upgraded shared core package version"
+    "build(adb): align SEQ with shared ADB Core 0.1.3"
   ]
 }
