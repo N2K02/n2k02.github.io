@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-68-run-1015",
-  "versionName": "6.5-experimental.1015",
-  "versionCode": 101015,
+  "tag": "experimental-pr-68-run-1017",
+  "versionName": "6.5-experimental.1017",
+  "versionCode": 101017,
   "apkName": "VREC-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1015/VREC-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1017/VREC-6.5.apk",
   "apkSize": 12856598,
-  "sha256": "b9409ba782176d82da5f608ec6d351266e6325d0a40abe6110296e63c40dad59",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1015",
+  "sha256": "b850212324787d2c94df260ebbfe1b41531fe6069ce3165dc7bf7ebde3a4ea2e",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1017",
   "notes": [
+    "test(adb): guard manual Stop across Android activity recreation",
+    "fix(adb): do not reset manual Stop on activity recreation",
     "fix(vrec): remove stale legacy test assumptions and adopt crash-safe shared ADB 0.1.7",
     "fix(vrec): use already imported diagnostics icon to resolve Kotlin compilation",
     "build(adb): adopt validated shared core 0.1.6 and update tests",
@@ -16,8 +18,6 @@
     "feat(vrec): canonical shared ADB Settings and Diagnostics; preserve recording and secure permission hooks",
     "fix(vrec): repair migrated contract tests after legacy transport removal",
     "test(adb): assert published shared core 0.1.5 pin",
-    "test(vrec): complete shared core contract migration and pin published 0.1.5",
-    "test(vrec): migrate legacy transport contracts and support pairing port from Settings dialog",
-    "refactor(vrec): route ADB transport and automatic discovery through shared core, retain capture lifecycle"
+    "test(vrec): complete shared core contract migration and pin published 0.1.5"
   ]
 }
