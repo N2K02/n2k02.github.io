@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-509",
-  "versionName": "7.6-experimental.509",
-  "versionCode": 100509,
+  "tag": "experimental-pr-39-run-512",
+  "versionName": "7.6-experimental.512",
+  "versionCode": 100512,
   "apkName": "AAYoutube-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-509/AAYoutube-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-512/AAYoutube-7.6.apk",
   "apkSize": 21285272,
-  "sha256": "16e4c6293ffee03057ae0dee74c91a1823104422d6cfca02ff42ce2dcd5ea239",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-509",
+  "sha256": "30263f7828aa3c96eb8089106879587f54db70f3e58148ec3570e19d43cb5911",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-512",
   "notes": [
+    "fix(lyrics): hide previous lyrics at click navigation before media metadata updates",
+    "test(lyrics): update header contract for selected-video-only lookup and synchronous reset",
+    "fix(lyrics): show overlay only for fully resolved current selected video",
     "fix(lifecycle): restore shared WebView timers on player release and recreation",
     "fix(media): reject stale playback reports from a replaced YouTube watch ID",
     "test(route): treat query as separate from parsed Uri path",
     "fix(pip,media): capture full-player hint before PiP CSS and clear old video on route changes",
     "test(web): align restored URL validation contract with parsed Uri",
     "fix(pip): standard-size phone PiP minimum, full-player source hint and safe URL restore",
-    "test(web): isolate host validation for JVM tests and always clear browse session",
-    "fix(web): validate saved YouTube domains and ignore stale sign-out callbacks",
-    "test(lifecycle): consolidate clean release path and update pause contract",
-    "fix(media): reopen last selection when live WebView is on a non-player page"
+    "test(web): isolate host validation for JVM tests and always clear browse session"
   ]
 }
