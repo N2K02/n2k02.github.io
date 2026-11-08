@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-508",
-  "versionName": "7.6-experimental.508",
-  "versionCode": 100508,
+  "tag": "experimental-pr-39-run-509",
+  "versionName": "7.6-experimental.509",
+  "versionCode": 100509,
   "apkName": "AAYoutube-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-508/AAYoutube-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-39-run-509/AAYoutube-7.6.apk",
   "apkSize": 21285272,
-  "sha256": "9d0a09feae9f65a23c6b8a7a7e0cc10357fe66e6f415878b656f7c23c1d007e7",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-508",
+  "sha256": "16e4c6293ffee03057ae0dee74c91a1823104422d6cfca02ff42ce2dcd5ea239",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-39-run-509",
   "notes": [
+    "fix(lifecycle): restore shared WebView timers on player release and recreation",
     "fix(media): reject stale playback reports from a replaced YouTube watch ID",
     "test(route): treat query as separate from parsed Uri path",
     "fix(pip,media): capture full-player hint before PiP CSS and clear old video on route changes",
@@ -17,7 +18,6 @@
     "test(web): isolate host validation for JVM tests and always clear browse session",
     "fix(web): validate saved YouTube domains and ignore stale sign-out callbacks",
     "test(lifecycle): consolidate clean release path and update pause contract",
-    "fix(media): reopen last selection when live WebView is on a non-player page",
-    "fix(web): reject stale page reports after full or SPA navigation"
+    "fix(media): reopen last selection when live WebView is on a non-player page"
   ]
 }
