@@ -1,18 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-68-run-1005",
-  "versionName": "6.5-experimental.1005",
-  "versionCode": 101005,
+  "tag": "experimental-pr-68-run-1015",
+  "versionName": "6.5-experimental.1015",
+  "versionCode": 101015,
   "apkName": "VREC-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1005/VREC-6.5.apk",
-  "apkSize": 12840214,
-  "sha256": "ea059dcf3c1b1a207b9ae1fbf70dcdfc94082ba4604a009b123e86145fd94120",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1005",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1015/VREC-6.5.apk",
+  "apkSize": 12856598,
+  "sha256": "b9409ba782176d82da5f608ec6d351266e6325d0a40abe6110296e63c40dad59",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1015",
   "notes": [
-    "build(adb): pin shared automatic pairing core 0.1.4",
-    "build(adb): align VRec with shared ADB Core 0.1.3",
-    "test(adb): verify upgraded shared core package version",
-    "build(adb): pin published shared ADB core 0.1.2",
-    "feat(adb): pin shared ADB core 0.1.1 and preserve VRec identity and preferences"
+    "fix(vrec): remove stale legacy test assumptions and adopt crash-safe shared ADB 0.1.7",
+    "fix(vrec): use already imported diagnostics icon to resolve Kotlin compilation",
+    "build(adb): adopt validated shared core 0.1.6 and update tests",
+    "fix(vrec): use available Material icon for shared ADB diagnostics",
+    "feat(vrec): canonical shared ADB Settings and Diagnostics; preserve recording and secure permission hooks",
+    "fix(vrec): repair migrated contract tests after legacy transport removal",
+    "test(adb): assert published shared core 0.1.5 pin",
+    "test(vrec): complete shared core contract migration and pin published 0.1.5",
+    "test(vrec): migrate legacy transport contracts and support pairing port from Settings dialog",
+    "refactor(vrec): route ADB transport and automatic discovery through shared core, retain capture lifecycle"
   ]
 }
