@@ -1,15 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v2.2",
-  "versionName": "2.2",
-  "versionCode": 100095,
-  "apkName": "LocalAdb-2.2.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.2/LocalAdb-2.2.apk",
+  "tag": "v2.3",
+  "versionName": "2.3",
+  "versionCode": 100130,
+  "apkName": "LocalAdb-2.3.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.3/LocalAdb-2.3.apk",
   "apkSize": 17495646,
-  "sha256": "24a8db94bcf32ff67ea5bec11b175d38e6b5842c55de9e35275cb9bc691fe08c",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.2",
+  "sha256": "08628352c6acc3cd8ef77f66f83aced1a0abdd210950f8088910a11a0c2ccaaf",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.3",
   "notes": [
-    "Experimental: Avoid unnecessary watchdog work and cancel stale mDNS discovery timers (#15)",
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#12)"
+    "test(adb): enforce permission gating and fresh-launch manual Stop safety",
+    "test(adb): guard manual Stop across Android activity recreation",
+    "fix(adb): keep manual Stop during LocalAdb activity recreation",
+    "test(adb): boot startup works with watchdog disabled",
+    "fix(adb): start LocalAdb at boot independently of watchdog toggle",
+    "test(adb): cover LocalAdb disabled boot and foreground recovery policy",
+    "fix(adb): honor disabled Start on boot until foreground launch",
+    "fix(adb): honor disabled Start on boot until foreground launch",
+    "fix(adb): gate LocalAdb recovery on boot setting or foreground launch this boot",
+    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
   ]
 }
