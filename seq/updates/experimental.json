@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-138",
-  "versionName": "0.4-experimental.138",
-  "versionCode": 100138,
-  "apkName": "SEQ-PR-2-dc99597.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-138/SEQ-PR-2-dc99597.apk",
+  "tag": "experimental-pr-2-run-139",
+  "versionName": "0.4-experimental.139",
+  "versionCode": 100139,
+  "apkName": "SEQ-PR-2-9cb60ff.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-139/SEQ-PR-2-9cb60ff.apk",
   "apkSize": 88611942,
-  "sha256": "a1230360d308bd184771fbe722a598b273a954b075203056af359a35500b589a",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-138",
+  "sha256": "1d3966454f5d5d528bbc3189eaee63fe8db8a9a98307af18148ebde0a82e508e",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-139",
   "notes": [
+    "SEQ: show live ADB badge on first Home card; remove Diagnostics submenu",
     "Guard against R8 WorkManager startup crash in experimental release builds",
     "Fix release startup crash: preserve WorkManager Room constructors under R8",
     "Test smooth DSP transitions, headroom and cancellation on shutdown",
@@ -17,7 +18,6 @@
     "SEQ: default 10-band editing and Natural Smooth Deep Bass Immersive controls",
     "SEQ: smooth live global EQ transitions and test sound headroom",
     "SEQ sound foundations: four safe tonal modes, automatic headroom and refined bass",
-    "test(adb): guard SEQ boot-vs-watchdog recovery separation",
-    "test(adb): SEQ same-boot foreground recovery and cold-boot gating"
+    "test(adb): guard SEQ boot-vs-watchdog recovery separation"
   ]
 }
