@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-139",
-  "versionName": "0.4-experimental.139",
-  "versionCode": 100139,
-  "apkName": "SEQ-PR-2-9cb60ff.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-139/SEQ-PR-2-9cb60ff.apk",
-  "apkSize": 88611942,
-  "sha256": "1d3966454f5d5d528bbc3189eaee63fe8db8a9a98307af18148ebde0a82e508e",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-139",
+  "tag": "experimental-pr-2-run-142",
+  "versionName": "0.4-experimental.142",
+  "versionCode": 100142,
+  "apkName": "SEQ-PR-2-47cdbfd.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-142/SEQ-PR-2-47cdbfd.apk",
+  "apkSize": 88677478,
+  "sha256": "e9d6fd2038dc014cb39630058c72970033651616cedbc642d2cd6d2adbf04371",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-142",
   "notes": [
+    "SEQ: add Advanced Audio page with live AutoEQ/PEQ editor and compressor controls",
+    "SEQ: activate route-specific parametric correction and optional 3-band MBC processing",
+    "SEQ: add validated AutoEQ profile storage and compressor settings",
     "SEQ: show live ADB badge on first Home card; remove Diagnostics submenu",
     "Guard against R8 WorkManager startup crash in experimental release builds",
     "Fix release startup crash: preserve WorkManager Room constructors under R8",
     "Test smooth DSP transitions, headroom and cancellation on shutdown",
     "Update loudness and preamp assertions for conservative clipping protection",
     "Fix nullable limiter state check in smooth EQ transition",
-    "SEQ: default 10-band editing and Natural Smooth Deep Bass Immersive controls",
-    "SEQ: smooth live global EQ transitions and test sound headroom",
-    "SEQ sound foundations: four safe tonal modes, automatic headroom and refined bass",
-    "test(adb): guard SEQ boot-vs-watchdog recovery separation"
+    "SEQ: default 10-band editing and Natural Smooth Deep Bass Immersive controls"
   ]
 }
