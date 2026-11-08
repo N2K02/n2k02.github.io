@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.3",
-  "versionName": "2.3",
-  "versionCode": 100130,
-  "apkName": "LocalAdb-2.3.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.3/LocalAdb-2.3.apk",
-  "apkSize": 17495646,
-  "sha256": "08628352c6acc3cd8ef77f66f83aced1a0abdd210950f8088910a11a0c2ccaaf",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.3",
+  "tag": "v2.4",
+  "versionName": "2.4",
+  "versionCode": 100132,
+  "apkName": "LocalAdb-2.4.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.4/LocalAdb-2.4.apk",
+  "apkSize": 17512030,
+  "sha256": "dcb8086412a21946a9802a37a8e1c5032916f31fa56e84b42ec33a2c453d9a02",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.4",
   "notes": [
-    "test(adb): enforce permission gating and fresh-launch manual Stop safety",
-    "test(adb): guard manual Stop across Android activity recreation",
-    "fix(adb): keep manual Stop during LocalAdb activity recreation",
-    "test(adb): boot startup works with watchdog disabled",
-    "fix(adb): start LocalAdb at boot independently of watchdog toggle",
-    "test(adb): cover LocalAdb disabled boot and foreground recovery policy",
-    "fix(adb): honor disabled Start on boot until foreground launch",
-    "fix(adb): honor disabled Start on boot until foreground launch",
-    "fix(adb): gate LocalAdb recovery on boot setting or foreground launch this boot",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
+    "Wait for verified ADB UID 2000 before Shizuku helper initialization (#17)"
   ]
 }
