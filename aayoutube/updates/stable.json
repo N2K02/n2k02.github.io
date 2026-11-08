@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v7.5",
-  "versionName": "7.5",
-  "versionCode": 100470,
-  "apkName": "AAYoutube-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.5/AAYoutube-7.5.apk",
-  "apkSize": 14621033,
-  "sha256": "99d92a79ac6c2d144adf77114bd3188ea282191fd1fe135aac4b207dbd18c213",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.5",
+  "tag": "v7.6",
+  "versionName": "7.6",
+  "versionCode": 100513,
+  "apkName": "AAYoutube-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.6/AAYoutube-7.6.apk",
+  "apkSize": 14625129,
+  "sha256": "6d942f95d34f5f5121d4b530ee4bd6f2c609582c06f22f1a7a4704a6109dcf28",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.6",
   "notes": [
-    "Fix Android Auto video Home and fullscreen-to-mini navigation (#38)"
+    "fix(lyrics): hide previous lyrics at click navigation before media metadata updates",
+    "test(lyrics): update header contract for selected-video-only lookup and synchronous reset",
+    "fix(lyrics): show overlay only for fully resolved current selected video",
+    "fix(lifecycle): restore shared WebView timers on player release and recreation",
+    "fix(media): reject stale playback reports from a replaced YouTube watch ID",
+    "test(route): treat query as separate from parsed Uri path",
+    "fix(pip,media): capture full-player hint before PiP CSS and clear old video on route changes",
+    "test(web): align restored URL validation contract with parsed Uri",
+    "fix(pip): standard-size phone PiP minimum, full-player source hint and safe URL restore",
+    "test(web): isolate host validation for JVM tests and always clear browse session"
   ]
 }
