@@ -1,23 +1,12 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-142",
-  "versionName": "0.4-experimental.142",
-  "versionCode": 100142,
-  "apkName": "SEQ-PR-2-47cdbfd.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-142/SEQ-PR-2-47cdbfd.apk",
-  "apkSize": 88677478,
-  "sha256": "e9d6fd2038dc014cb39630058c72970033651616cedbc642d2cd6d2adbf04371",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-142",
-  "notes": [
-    "SEQ: add Advanced Audio page with live AutoEQ/PEQ editor and compressor controls",
-    "SEQ: activate route-specific parametric correction and optional 3-band MBC processing",
-    "SEQ: add validated AutoEQ profile storage and compressor settings",
-    "SEQ: show live ADB badge on first Home card; remove Diagnostics submenu",
-    "Guard against R8 WorkManager startup crash in experimental release builds",
-    "Fix release startup crash: preserve WorkManager Room constructors under R8",
-    "Test smooth DSP transitions, headroom and cancellation on shutdown",
-    "Update loudness and preamp assertions for conservative clipping protection",
-    "Fix nullable limiter state check in smooth EQ transition",
-    "SEQ: default 10-band editing and Natural Smooth Deep Bass Immersive controls"
-  ]
+  "tag": "experimental-pr-2-run-147",
+  "versionName": "0.4-experimental.147",
+  "versionCode": 100147,
+  "apkName": "SEQ-PR-2-df57581.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-147/SEQ-PR-2-df57581.apk",
+  "apkSize": 88693921,
+  "sha256": "ca2897609503872cd0db7cca20deaa1c50e750477ccd0709d2257c69868539bd",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-147",
+  "notes": []
 }
