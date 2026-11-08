@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-129",
-  "versionName": "2.2-experimental.129",
-  "versionCode": 100129,
-  "apkName": "LocalAdb-PR-16-da85bef.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-16-run-129/LocalAdb-PR-16-da85bef.apk",
+  "tag": "experimental-pr-17-run-131",
+  "versionName": "2.3-experimental.131",
+  "versionCode": 100131,
+  "apkName": "LocalAdb-PR-17-79b6961.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-17-run-131/LocalAdb-PR-17-79b6961.apk",
   "apkSize": 39568822,
-  "sha256": "5122b7ef46cb59f2fd5076394723dc53b167ab0ae942c90d8044f81a7ad02ec0",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-16-run-129",
+  "sha256": "696ac65b1d44616d1f8735f0f5125d6ae4466bbf0fc7e3fe44f56301e821a404",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-17-run-131",
   "notes": [
-    "test(adb): enforce permission gating and fresh-launch manual Stop safety",
-    "test(adb): guard manual Stop across Android activity recreation",
-    "fix(adb): keep manual Stop during LocalAdb activity recreation",
-    "test(adb): boot startup works with watchdog disabled",
-    "fix(adb): start LocalAdb at boot independently of watchdog toggle",
-    "test(adb): cover LocalAdb disabled boot and foreground recovery policy",
-    "fix(adb): honor disabled Start on boot until foreground launch",
-    "fix(adb): honor disabled Start on boot until foreground launch",
-    "fix(adb): gate LocalAdb recovery on boot setting or foreground launch this boot",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
+    "Add UID 2000 readiness and helper lifecycle regression checks",
+    "Await verified ADB and live Shizuku UID before helper bind; harden cancellation cleanup",
+    "Gate Shizuku start and restart on verified ADB UID 2000"
   ]
 }
