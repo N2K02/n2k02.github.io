@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-43-run-392",
+  "tag": "mcpadbandroidlogger-experimental-pr-43-run-394",
   "versionName": "2.9",
-  "versionCode": 100392,
+  "versionCode": 100394,
   "apkName": "McpAdbAndroidLogger-2.9.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-392/McpAdbAndroidLogger-2.9.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-43-run-394/McpAdbAndroidLogger-2.9.apk",
   "apkSize": 29628409,
-  "sha256": "a0130db141acdfe02b9c8304bec11605d3d6d38195a96a5d8e1886fa61508402",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-392",
+  "sha256": "a86074c0aa5036677d20d636198b1103a4bfafaf8441aa2dab18b802c1ae1860",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-43-run-394",
   "notes": [
+    "test(adb): guard manual Stop across Android activity recreation",
+    "fix(adb): do not reset manual Stop on activity recreation",
     "test(adb): boot receiver only accepts expected broadcasts",
     "refactor(adb): expose boot action policy for executable unit tests",
     "fix(adb): ignore unrelated broadcasts during MCP boot startup",
@@ -16,8 +18,6 @@
     "build(adb): adopt validated shared core 0.1.6 and update tests",
     "ci(mcp): preserve minified R8 mapping and identify recursive stack-overflow method",
     "test(adb): assert published shared core 0.1.5 pin",
-    "ci(mcp): pin shared ADB 0.1.5 and show first crash frames for R8 diagnosis",
-    "test(mcp): assert automatic shared pairing reader instead of legacy code reader",
-    "build(adb): upgrade to automatic-pairing shared core 0.1.4"
+    "ci(mcp): pin shared ADB 0.1.5 and show first crash frames for R8 diagnosis"
   ]
 }
