@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.3",
-  "versionName": "5.3",
-  "versionCode": 100167,
-  "apkName": "PixelCast-5.3.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.3/PixelCast-5.3.apk",
+  "tag": "v5.4",
+  "versionName": "5.4",
+  "versionCode": 100169,
+  "apkName": "PixelCast-5.4.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.4/PixelCast-5.4.apk",
   "apkSize": 1278032,
-  "sha256": "4cc3ef95b16ec1b0441b3b2451ca8417df357967771473a475ae9e47155e5a8c",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.3",
+  "sha256": "9dd7a23d1eceb36a6d23be3c306a3913d93991cdcf3b10ff6d8b02e26b8deba3",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.4",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#34)"
+    "Use shared expressive updater 0.1.32 in experimental build (#35)"
   ]
 }
