@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v3.2",
-  "versionName": "3.2",
-  "versionCode": 100127,
-  "apkName": "MovieTogether-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.2/MovieTogether-3.2.apk",
+  "tag": "v3.3",
+  "versionName": "3.3",
+  "versionCode": 100129,
+  "apkName": "MovieTogether-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.3/MovieTogether-3.3.apk",
   "apkSize": 3473789,
-  "sha256": "4fa6af5c9521723f236ca0f196f403ee8792417e63e577c80b2b11d880cc7bdc",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.2",
+  "sha256": "e6e093ebc0c63299242e1a68133df7f9a84f2acd88f88e34d296cb243fab74b0",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.3",
   "notes": [
+    "Resolve releases from app repository, not website tags (#26)",
     "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
     "Experimental: update shared updater to 0.1.30 (#24)",
     "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
@@ -17,7 +18,6 @@
     "ci: remove completed one-time branch cleanup workflow",
     "ci: retain only latest stable/experimental APKs and build runs",
     "ci: run one-time cleanup of all non-main branches",
-    "fix(ci): grant PR read permission to merged branch cleanup (#19)",
-    "ci: delete merged PR branches safely (#18)"
+    "fix(ci): grant PR read permission to merged branch cleanup (#19)"
   ]
 }
