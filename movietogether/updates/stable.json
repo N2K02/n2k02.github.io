@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v3.0",
-  "versionName": "3.0",
-  "versionCode": 100122,
-  "apkName": "MovieTogether-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.0/MovieTogether-3.0.apk",
-  "apkSize": 3457405,
-  "sha256": "16d882dcd9e809c622ca8d2ceae01491683b307fcf0b0f583cc1941bcffd908e",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.0",
+  "tag": "v3.1",
+  "versionName": "3.1",
+  "versionCode": 100125,
+  "apkName": "MovieTogether-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.1/MovieTogether-3.1.apk",
+  "apkSize": 3473789,
+  "sha256": "fb66e16428f0d01c9873870c64a572bee34596619462ba1cc8a7c242b62a44de",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.1",
   "notes": [
+    "Experimental: update shared updater to 0.1.30 (#24)",
     "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
     "fix: use source APK releases for update feeds (#21)",
     "fix: publish update feeds through pull requests (#20)",
@@ -17,7 +18,6 @@
     "ci: run one-time cleanup of all non-main branches",
     "fix(ci): grant PR read permission to merged branch cleanup (#19)",
     "ci: delete merged PR branches safely (#18)",
-    "ci: require strict green checks for Dependabot merges (#17)",
-    "ci: green-only auto-merge for Dependabot and grouped dependency PRs (#14)"
+    "ci: require strict green checks for Dependabot merges (#17)"
   ]
 }
