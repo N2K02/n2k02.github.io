@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "sdcleaner-v1.7",
-  "versionName": "1.7",
-  "versionCode": 100236,
-  "apkName": "SDCleaner-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-v1.7/SDCleaner-1.7.apk",
-  "apkSize": 20428735,
-  "sha256": "d865bfd05b11da205727eee034ce11f5417d76a3e5a6cce1976f1009c95504d3",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-v1.7",
+  "tag": "sdcleaner-v1.8",
+  "versionName": "1.8",
+  "versionCode": 100239,
+  "apkName": "SDCleaner-1.8.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-v1.8/SDCleaner-1.8.apk",
+  "apkSize": 20445119,
+  "sha256": "de2048ab3cf9f425aa69bdae08aab804bb743be35e193f0b2174949cb963c464",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-v1.8",
   "notes": [
+    "Experimental: update shared updater to 0.1.30 (#12)",
     "fix: reduce idle wakeups and make boot recovery idempotent (#11)",
     "test(sdcleaner): require compact live ADB badge instead of Home setup card",
     "ui(sdcleaner): replace ADB Home card with live shell UID badge in storage header",
@@ -17,7 +18,6 @@
     "fix(adb): expose SDCleaner foreground owner to boot cleanup",
     "test(adb): guard manual Stop against Settings-triggered reconnect",
     "fix(adb): preserve explicit Stop when SDCleaner Settings opens",
-    "test(adb): align Kotlin toolchain contract with published core 0.1.7",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
+    "test(adb): align Kotlin toolchain contract with published core 0.1.7"
   ]
 }
