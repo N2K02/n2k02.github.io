@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.8",
-  "versionName": "6.8",
-  "versionCode": 100372,
-  "apkName": "MRadio-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.8/MRadio-6.8.apk",
+  "tag": "v6.9",
+  "versionName": "6.9",
+  "versionCode": 100374,
+  "apkName": "MRadio-6.9.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.9/MRadio-6.9.apk",
   "apkSize": 2810779,
-  "sha256": "dd260179103ab9690036f24df086ac38b98148c1f3ce93576e28acc838980978",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.8",
+  "sha256": "8d541e8bdd2403fb22e9744819106c949c50dc674aaac7cd32228536b9af5211",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.9",
   "notes": [
-    "Experimental: prevent Huawei volume buttons from waking stopped radio (#42)"
+    "Resolve releases from app repository, not website tags (#43)"
   ]
 }
