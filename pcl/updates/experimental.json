@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-78-run-581",
-  "versionName": "6.9-experimental.581",
-  "versionCode": 100581,
-  "apkName": "PCL-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-78-run-581/PCL-6.9.apk",
+  "tag": "experimental-pr-79-run-583",
+  "versionName": "7.0-experimental.583",
+  "versionCode": 100583,
+  "apkName": "PCL-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-79-run-583/PCL-7.0.apk",
   "apkSize": 19998925,
-  "sha256": "ba3bc0273650232a85d6afbaf9a2256789d21c00633e95107d7979e6e645b317",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-78-run-581",
+  "sha256": "b81e92ce83972c42f0ec8a165f281bc60b123bef99b4a16c5fc43da9c89cfc25",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-79-run-583",
   "notes": [
-    "Update regression test to require shared updater 0.1.32",
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
