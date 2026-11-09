@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "sdcleaner-v1.9",
-  "versionName": "1.9",
-  "versionCode": 100241,
-  "apkName": "SDCleaner-1.9.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/sdcleaner-v1.9/SDCleaner-1.9.apk",
+  "tag": "sdcleaner-v2.0",
+  "versionName": "2.0",
+  "versionCode": 100243,
+  "apkName": "SDCleaner-2.0.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/sdcleaner-v2.0/SDCleaner-2.0.apk",
   "apkSize": 20445119,
-  "sha256": "1b592ed7ab9292d14b7b868867b286784b115e50410e19627356f4de67fbfff9",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/sdcleaner-v1.9",
+  "sha256": "fb1fe7d7bd16d683ca70cec53d92f7c8ea3aa8b425f85eb664e6276a0aef48ea",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/sdcleaner-v2.0",
   "notes": [
+    "Redesign Scheduler with compact schedule-first layout (#14)",
     "Stop APK publishing to website repository (#13)",
     "Experimental: update shared updater to 0.1.30 (#12)",
     "fix: reduce idle wakeups and make boot recovery idempotent (#11)",
@@ -17,7 +18,6 @@
     "test(adb): ensure SDCleaner boot worker preserves foreground owner",
     "fix(adb): do not tear down SDCleaner foreground ADB after boot recovery",
     "fix(adb): expose SDCleaner foreground owner to boot cleanup",
-    "test(adb): guard manual Stop against Settings-triggered reconnect",
-    "fix(adb): preserve explicit Stop when SDCleaner Settings opens"
+    "test(adb): guard manual Stop against Settings-triggered reconnect"
   ]
 }
