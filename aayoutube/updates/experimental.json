@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-42-run-535",
-  "versionName": "7.9-experimental.535",
-  "versionCode": 100535,
+  "tag": "experimental-pr-42-run-539",
+  "versionName": "7.9-experimental.539",
+  "versionCode": 100539,
   "apkName": "AAYoutube-7.9.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-42-run-535/AAYoutube-7.9.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-42-run-539/AAYoutube-7.9.apk",
   "apkSize": 21367172,
-  "sha256": "cabf9eef2bb76eec2ecdc3569f805725d2e9f18fd59ac1b15be9c8140269687f",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-42-run-535",
+  "sha256": "9b78132e3939b1834ead733dc53ee04224814fccf4fedc715a2c961460ab5a30",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-42-run-539",
   "notes": [
+    "test: shared phone and car media overlay blocks repeated taps with timeout",
+    "test: overlay media controls unlock only on meaningful player state transitions",
+    "fix: drive overlay transport button re-enable from real playback identity",
+    "fix: drive overlay transport button re-enable from real playback identity",
+    "fix: disable overlay transport controls until playback acknowledgement or bounded timeout",
     "fix: preserve existing Pause contract while cancelling outstanding skip fallback",
     "test: exercise stuck skip handlers, rapid presses, cancellation and Previous restart in Node VM",
     "fix: restore preview unmute guard and repair transport fallback JS syntax",
     "fix: correct JavaScript skip fallback route guard syntax",
-    "test: pending skips across buffering and changing queues",
-    "fix: forward actual playback state to transport confirmation",
-    "fix: confirm skips only on playing snapshot and prefer fresh queue",
-    "test: restart semantics and pending-skip timeout behavior",
-    "fix: attribute YouTube queue responses to originating watch route and ignore stale Up next",
-    "fix: deactivate transport tracing after confirmation, cancellation and timeout"
+    "test: pending skips across buffering and changing queues"
   ]
 }
