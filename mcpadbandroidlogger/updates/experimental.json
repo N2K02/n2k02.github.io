@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-45-run-526",
-  "versionName": "3.1-experimental.526",
-  "versionCode": 100526,
+  "tag": "experimental-pr-45-run-533",
+  "versionName": "3.1-experimental.533",
+  "versionCode": 100533,
   "apkName": "McpAdbAndroidLogger-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-45-run-526/McpAdbAndroidLogger-3.1.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-45-run-533/McpAdbAndroidLogger-3.1.apk",
   "apkSize": 29640697,
-  "sha256": "04e35b3319d8687e4c2e7f32d3afb3aedf206f84ca136fa9cd3d00c18e9fee47",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-45-run-526",
+  "sha256": "51bd340e3ceb80cb085cdb0e39aa87810c98eb79299cddd2f8d2586f9bf57a9b",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-45-run-533",
   "notes": [
+    "Align OnDemandLogcatTest.kt with structured MCP tool failures",
+    "Align LocalMcpProtocolTest.kt with structured MCP tool failures",
+    "Distinguish diagnostic busy, deadline and general failures with safe error codes",
+    "Audit structured MCP diagnostic failures as errors",
+    "Add dispatch regression coverage for all 27 tools and structured error contracts",
+    "Expose explicit Perfetto event coverage and fallback instead of implied full success",
+    "Bound concurrent ADB diagnostics and enforce tool execution deadlines",
+    "Return structured recoverable MCP tool failures instead of generic internal errors",
     "Verify source GitHub release APK exists before publishing metadata",
-    "Test source-repository version resolution instead of website tags",
-    "Stop website APK publishing and resolve versions from app releases",
-    "Stop website APK publishing and resolve versions from app releases",
-    "Experimental: configurable diagnostic Logcat profiles and MCP filters (#44)",
-    "test(adb): guard manual Stop across Android activity recreation",
-    "fix(adb): do not reset manual Stop on activity recreation",
-    "test(adb): boot receiver only accepts expected broadcasts",
-    "refactor(adb): expose boot action policy for executable unit tests",
-    "fix(adb): ignore unrelated broadcasts during MCP boot startup"
+    "Test source-repository version resolution instead of website tags"
   ]
 }
