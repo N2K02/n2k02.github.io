@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.6",
-  "versionName": "5.6",
-  "versionCode": 100216,
-  "apkName": "BCam-5.6.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.6/BCam-5.6.apk",
+  "tag": "v5.7",
+  "versionName": "5.7",
+  "versionCode": 100218,
+  "apkName": "BCam-5.7.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.7/BCam-5.7.apk",
   "apkSize": 1200040,
-  "sha256": "d88e6d07a30896c191741c614f923e1051e420650b64a74265366701c45bc214",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.6",
+  "sha256": "aab56adbcf359cabc843c74287dd01cb8959cc8332ff477f0b9db8d4e3bf16a0",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.7",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#37)"
+    "Use shared expressive updater 0.1.32 in experimental build (#38)"
   ]
 }
