@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "sdcleaner-experimental-pr-12-run-237",
-  "versionName": "1.7-experimental.237",
-  "versionCode": 100237,
+  "tag": "sdcleaner-experimental-pr-12-run-238",
+  "versionName": "1.7-experimental.238",
+  "versionCode": 100238,
   "apkName": "SDCleaner-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-12-run-237/SDCleaner-1.7.apk",
-  "apkSize": 57648406,
-  "sha256": "5098dfd2e17ff6399bec894592213fab693e933ddded8bb39dbcb06dd469850d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-12-run-237",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/sdcleaner-experimental-pr-12-run-238/SDCleaner-1.7.apk",
+  "apkSize": 57664790,
+  "sha256": "6ac9834f514ba73904e1b19205c8abfe077fd12e77fdda5a950262a7eef08413",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/sdcleaner-experimental-pr-12-run-238",
   "notes": [
+    "Upgrade shared Material 3 Expressive updater to 0.1.32 in existing experimental PR",
     "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery",
     "fix: reduce idle wakeups and make boot recovery idempotent (#11)",
     "test(sdcleaner): require compact live ADB badge instead of Home setup card",
@@ -17,7 +18,6 @@
     "fix(adb): do not tear down SDCleaner foreground ADB after boot recovery",
     "fix(adb): expose SDCleaner foreground owner to boot cleanup",
     "test(adb): guard manual Stop against Settings-triggered reconnect",
-    "fix(adb): preserve explicit Stop when SDCleaner Settings opens",
-    "test(adb): align Kotlin toolchain contract with published core 0.1.7"
+    "fix(adb): preserve explicit Stop when SDCleaner Settings opens"
   ]
 }
