@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.2",
-  "versionName": "6.2",
-  "versionCode": 100204,
-  "apkName": "HFreebuds-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.2/HFreebuds-6.2.apk",
+  "tag": "v6.3",
+  "versionName": "6.3",
+  "versionCode": 100206,
+  "apkName": "HFreebuds-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.3/HFreebuds-6.3.apk",
   "apkSize": 1400462,
-  "sha256": "789bc9249a14581f0e4a15746514b528032fb8682220137cd037d5c7b2016e7d",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.2",
+  "sha256": "ad463faa832efe2491dc7c031dacfab6f557a8c63ba3dccda3a103fd0181489c",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.3",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#34)"
+    "Use shared expressive updater 0.1.32 in experimental build (#35)"
   ]
 }
