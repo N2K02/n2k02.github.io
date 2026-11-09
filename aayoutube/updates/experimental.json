@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-40-run-514",
-  "versionName": "7.7-experimental.514",
-  "versionCode": 100514,
-  "apkName": "AAYoutube-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-40-run-514/AAYoutube-7.7.apk",
-  "apkSize": 21346692,
-  "sha256": "cced1c48cea27aafe9b15faabe9d9cd2ea8e17da5ab00146c198ccdceef9d8ff",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-40-run-514",
+  "tag": "experimental-pr-41-run-516",
+  "versionName": "7.8-experimental.516",
+  "versionCode": 100516,
+  "apkName": "AAYoutube-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-41-run-516/AAYoutube-7.8.apk",
+  "apkSize": 21363076,
+  "sha256": "f2b2d6cc2788e23d4ba01214e08cbc0b8b59aa57e957c79f47c693102b6a69c5",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-41-run-516",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
