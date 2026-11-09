@@ -1,14 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-35-run-205",
-  "versionName": "6.3-experimental.205",
-  "versionCode": 100205,
-  "apkName": "HFreebuds-6.3.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-35-run-205/HFreebuds-6.3.apk",
+  "tag": "experimental-pr-36-run-208",
+  "versionName": "6.4-experimental.208",
+  "versionCode": 100208,
+  "apkName": "HFreebuds-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-36-run-208/HFreebuds-6.4.apk",
   "apkSize": 19885367,
-  "sha256": "3c78cd2e4386889a2c946f21f4af9345f0b327df98e4c1a06f6ebb5d0ebe9454",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-35-run-205",
+  "sha256": "433bfc9cbfd52c6fc2d4448099a0621c9aaa7219eac7f3fa7152ee718c4a2bdb",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-36-run-208",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Match canonical HFreebuds repository casing in version tests",
+    "Match canonical HFreebuds repository casing in version tests",
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
