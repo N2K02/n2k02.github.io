@@ -1,18 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-42-run-332",
-  "versionName": "8.8-experimental.332",
-  "versionCode": 100332,
-  "apkName": "SpeedTester-8.8.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-42-run-332/SpeedTester-8.8.apk",
-  "apkSize": 25774963,
-  "sha256": "19a4cbe4629adcc9fbf80368ad87b8fb6c774a1d2672372adcd7bc0813732372",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-42-run-332",
+  "tag": "experimental-pr-43-run-334",
+  "versionName": "9.0-experimental.334",
+  "versionCode": 100334,
+  "apkName": "SpeedTester-9.0.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-43-run-334/SpeedTester-9.0.apk",
+  "apkSize": 25791347,
+  "sha256": "0444e81ee1b285dd5c569cf8265569bd4ebe9a9faaffff5e8809f3b358fdb2cc",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-43-run-334",
   "notes": [
-    "ci: use Gradle 9.8.2 compatible with Android Gradle Plugin 9.5",
-    "ci: use Gradle 9.8.2 compatible with Android Gradle Plugin 9.5",
-    "ci: use Gradle 9.8.2 compatible with Android Gradle Plugin 9.5",
-    "build: advance SDK 37, AGP 9.5, Kotlin 2.4 and shared libraries retaining SpeedTester source and update-feed fixes",
-    "fix(updates): publish source APK URLs and immutable metadata (#41)"
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
 }
