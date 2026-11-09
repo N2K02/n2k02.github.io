@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-41-run-366",
-  "versionName": "6.6-experimental.366",
-  "versionCode": 100366,
-  "apkName": "MRadio-PR-41-66ee400.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-41-run-366/MRadio-PR-41-66ee400.apk",
+  "tag": "experimental-pr-42-run-368",
+  "versionName": "6.7-experimental.368",
+  "versionCode": 100368,
+  "apkName": "MRadio-PR-42-49d1f85.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-42-run-368/MRadio-PR-42-49d1f85.apk",
   "apkSize": 24458858,
-  "sha256": "792a50a00b0ef0a9af16925766c25b69e53236d51cd6bfeb10dd9f6427a5d6ad",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-41-run-366",
+  "sha256": "ac7bff7426f3a6ce5f6945d762482503a150861e449c6a0844cc9c1e375e94eb",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-42-run-368",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Test Huawei volume and resume policy",
+    "Add Huawei radio resume policy",
+    "Guard Huawei background media resumption and ignore volume media events"
   ]
 }
