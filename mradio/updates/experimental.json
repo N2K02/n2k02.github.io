@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-40-run-364",
-  "versionName": "6.5-experimental.364",
-  "versionCode": 100364,
-  "apkName": "MRadio-PR-40-6624372.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-40-run-364/MRadio-PR-40-6624372.apk",
-  "apkSize": 24442474,
-  "sha256": "70f38319de8614aac8cc518bb815794c69eb2efe28f21a4f5fca374532c73bd2",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-40-run-364",
+  "tag": "experimental-pr-41-run-366",
+  "versionName": "6.6-experimental.366",
+  "versionCode": 100366,
+  "apkName": "MRadio-PR-41-66ee400.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-41-run-366/MRadio-PR-41-66ee400.apk",
+  "apkSize": 24458858,
+  "sha256": "792a50a00b0ef0a9af16925766c25b69e53236d51cd6bfeb10dd9f6427a5d6ad",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-41-run-366",
   "notes": [
-    "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery"
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
