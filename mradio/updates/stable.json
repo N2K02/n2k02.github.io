@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.7",
-  "versionName": "6.7",
-  "versionCode": 100367,
-  "apkName": "MRadio-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.7/MRadio-6.7.apk",
+  "tag": "v6.8",
+  "versionName": "6.8",
+  "versionCode": 100372,
+  "apkName": "MRadio-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.8/MRadio-6.8.apk",
   "apkSize": 2810779,
-  "sha256": "3996310e2fc56e1ba4125e3cabab1882e580c46f0e5ac98c0e31b2c170bbb3c7",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.7",
+  "sha256": "dd260179103ab9690036f24df086ac38b98148c1f3ce93576e28acc838980978",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.8",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build (#41)"
+    "Experimental: prevent Huawei volume buttons from waking stopped radio (#42)"
   ]
 }
