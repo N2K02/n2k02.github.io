@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.7",
-  "versionName": "5.7",
-  "versionCode": 100218,
-  "apkName": "BCam-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.7/BCam-5.7.apk",
+  "tag": "v5.8",
+  "versionName": "5.8",
+  "versionCode": 100220,
+  "apkName": "BCam-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.8/BCam-5.8.apk",
   "apkSize": 1200040,
-  "sha256": "aab56adbcf359cabc843c74287dd01cb8959cc8332ff477f0b9db8d4e3bf16a0",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.7",
+  "sha256": "ca2d18352cae5ecadb37aba1c7bc47bb5d363e58b7b9072de49c63ba7830e3a5",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.8",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build (#38)"
+    "Resolve releases from app repository, not website tags (#39)"
   ]
 }
