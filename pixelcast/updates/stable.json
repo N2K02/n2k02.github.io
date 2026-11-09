@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.4",
-  "versionName": "5.4",
-  "versionCode": 100169,
-  "apkName": "PixelCast-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.4/PixelCast-5.4.apk",
+  "tag": "v5.5",
+  "versionName": "5.5",
+  "versionCode": 100171,
+  "apkName": "PixelCast-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.5/PixelCast-5.5.apk",
   "apkSize": 1278032,
-  "sha256": "9dd7a23d1eceb36a6d23be3c306a3913d93991cdcf3b10ff6d8b02e26b8deba3",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.4",
+  "sha256": "a2f7926bb295da992e8f0d62e4930ee3d6c639d14b0ba5dd4ce2d4b0094d483d",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.5",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build (#35)"
+    "Resolve releases from app repository, not website tags (#36)"
   ]
 }
