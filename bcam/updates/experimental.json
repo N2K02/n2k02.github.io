@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-38-run-217",
-  "versionName": "5.7-experimental.217",
-  "versionCode": 100217,
-  "apkName": "BCam-5.7.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-38-run-217/BCam-5.7.apk",
+  "tag": "experimental-pr-39-run-219",
+  "versionName": "5.8-experimental.219",
+  "versionCode": 100219,
+  "apkName": "BCam-5.8.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-39-run-219/BCam-5.8.apk",
   "apkSize": 19660520,
-  "sha256": "39364ac01e7eb442627275682ae90f1aba04061e24c377d0f7a38c488932d489",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-38-run-217",
+  "sha256": "652b39d85a0e07c9055c6a42c1bba445ef56098356af8ff9f94ef896a9b21989",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-39-run-219",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
