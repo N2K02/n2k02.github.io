@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-45-run-338",
-  "versionName": "9.2-experimental.338",
-  "versionCode": 100338,
-  "apkName": "SpeedTester-9.2.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-45-run-338/SpeedTester-9.2.apk",
+  "tag": "experimental-pr-46-run-340",
+  "versionName": "9.3-experimental.340",
+  "versionCode": 100340,
+  "apkName": "SpeedTester-9.3.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-46-run-340/SpeedTester-9.3.apk",
   "apkSize": 25791347,
-  "sha256": "0f3d3eb8b9e329eeb66845f765f452681d4c11baa255535df2101f22df218ee9",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-45-run-338",
+  "sha256": "211cadf092c9deb99d63bdf3095468e040aa8e13d2088e087ba0f1167d3ad4ae",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-46-run-340",
   "notes": [
-    "UI: distinguish Speed, Quality and Wi-Fi navigation icons"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
