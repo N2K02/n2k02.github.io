@@ -72,50 +72,6 @@
     </section>
   </main>
   <footer><div class="wrap"><span>mRadio · An independent N2K02 project</span><a href="/mradio/">About mRadio</a></div></footer>
-  <script>
-  (() => {
-    'use strict';
-    // The public website reads stable metadata only. Experimental builds stay in-app.
-    const endpoint = '/mradio/updates/stable.json';
-    const version = document.getElementById('version');
-    const details = document.getElementById('details');
-    const download = document.getElementById('download');
-    const note = document.getElementById('note');
-    const unavailable = (message) => {
-      version.textContent = 'mRadio stable download';
-      details.textContent = message;
-      download.textContent = 'Download not available yet';
-      download.removeAttribute('href');
-      download.setAttribute('aria-disabled', 'true');
-      download.setAttribute('tabindex', '-1');
-      note.textContent = 'Only stable signed APKs appear here. Experimental builds are available only through the app update settings.';
-    };
-    fetch(endpoint, {cache:'no-store'})
-      .then(response => {
-        if (response.status === 404) { unavailable('No stable APK has been published yet'); return null; }
-        if (!response.ok) throw new Error('Update information unavailable');
-        return response.json();
-      })
-      .then(release => {
-        if (!release) return;
-        const apkUrl = typeof release.apkUrl === 'string' ? release.apkUrl : '';
-        const parsedUrl = (() => { try { return new URL(apkUrl); } catch { return null; } })();
-        if (release.channel !== 'stable' || !parsedUrl || parsedUrl.protocol !== 'https:' ||
-            parsedUrl.hostname !== 'github.com' || !parsedUrl.pathname.endsWith('.apk') ||
-            !Number.isInteger(release.versionCode) || release.versionCode < 1) {
-          unavailable('Stable APK information is temporarily unavailable');
-          return;
-        }
-        version.textContent = 'mRadio ' + (release.versionName || 'latest');
-        const mb = Number.isFinite(release.apkSize) ? (release.apkSize / (1024 * 1024)).toFixed(1) : '';
-        details.textContent = 'Android 8.0+ · APK' + (mb ? ' · ' + mb + ' MB' : '');
-        download.textContent = '↓ Download APK';
-        download.href = apkUrl;
-        download.removeAttribute('aria-disabled');
-        download.removeAttribute('tabindex');
-      })
-      .catch(() => unavailable('Could not check the latest stable release'));
-  })();
-  </script>
+  <script src="/assets/js/stable-download.js" data-repo="N2K02/MRadio"></script>
 </body>
 </html>

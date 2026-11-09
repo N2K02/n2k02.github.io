@@ -40,34 +40,6 @@ a{color:inherit}a:focus-visible{outline:3px solid var(--a);outline-offset:4px}.w
 </main>
 <footer>© N2K02 · Independent Android apps</footer>
 </div>
-<script>
-(function(){
-  'use strict';
-  const version=document.getElementById('version');
-  const details=document.getElementById('details');
-  const link=document.getElementById('download');
-  const notes=document.getElementById('notes');
-  fetch('/movietogether/updates/stable.json',{cache:'no-store'})
-    .then(r=>{if(!r.ok)throw Error('Stable manifest unavailable');return r.json()})
-    .then(m=>{
-      if(m.channel!=='stable'||!Number.isInteger(m.versionCode)||m.versionCode<1||typeof m.apkUrl!=='string')
-        throw Error('Invalid stable manifest');
-      const url=new URL(m.apkUrl);
-      if(url.protocol!=='https:'||url.hostname!=='github.com'||!url.pathname.endsWith('.apk'))
-        throw Error('Unsafe stable APK URL');
-      version.textContent='MovieTogether '+String(m.versionName||'latest');
-      details.textContent='Stable APK'+(Number.isFinite(m.apkSize)?' · '+(m.apkSize/1048576).toFixed(1)+' MB':'');
-      link.href=url.href;
-      link.removeAttribute('aria-disabled');
-      link.textContent='↓ Download stable APK';
-      notes.textContent=Array.isArray(m.notes)?m.notes.slice(0,4).filter(n=>typeof n==='string').join(' · '):'';
-    })
-    .catch(()=>{
-      version.textContent='Stable APK not available';
-      details.textContent='Please check again after a release has been published.';
-      notes.textContent='';
-    });
-})();
-</script>
+<script src="/assets/js/stable-download.js" data-repo="N2K02/MovieTogether"></script>
 </body>
 </html>
