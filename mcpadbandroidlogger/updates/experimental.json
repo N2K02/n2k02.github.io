@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-44-run-490",
+  "tag": "mcpadbandroidlogger-experimental-pr-44-run-494",
   "versionName": "3.0",
-  "versionCode": 100490,
+  "versionCode": 100494,
   "apkName": "McpAdbAndroidLogger-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-490/McpAdbAndroidLogger-3.0.apk",
-  "apkSize": 29624313,
-  "sha256": "95563c8754459976a713e8cf0a5582afac3b71f2c66bbaba07a87fb8e0c7940d",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-490",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-494/McpAdbAndroidLogger-3.0.apk",
+  "apkSize": 29628409,
+  "sha256": "9182f4f087b0d58220ca205fe65d735fa85e81a200bacfd3b4856c78c9d3bf40",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-494",
   "notes": [
+    "Update ADB Home navigation contract to compact connection tile",
+    "Keep clear manual searches label in compact Home redesign",
+    "Test compact Home hierarchy, single connection overview, and manual/MCP separation",
+    "Rebuild Home with compact connection cards, focused manual Logs CTA and MCP activity summary",
     "Avoid false audio activity detection from package name containing player or record",
     "Parse multi-line service/JobScheduler records without mixing other packages",
     "Document expanded on-demand services/audio/jobs/thermal MCP diagnostics",
     "Document expanded on-demand services/audio/jobs/thermal MCP diagnostics",
     "Test four safe on-demand ADB summaries and exact MCP dispatch contracts",
-    "test(adb): lock fixed libadb device-name identity and prevent recursive getters",
-    "Align SurfaceFlinger MCP catalog test with four added tools",
-    "Update MCP catalog regression tests for 25 on-demand diagnostic tools",
-    "Update MCP catalog regression tests for 25 on-demand diagnostic tools",
-    "Update MCP catalog regression tests for 25 on-demand diagnostic tools"
+    "test(adb): lock fixed libadb device-name identity and prevent recursive getters"
   ]
 }
