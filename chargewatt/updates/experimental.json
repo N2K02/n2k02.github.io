@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-9-run-100",
-  "versionName": "1.8-experimental.100",
-  "versionCode": 100100,
-  "apkName": "ChargeWatt-PR-9-3f36f03.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-9-run-100/ChargeWatt-PR-9-3f36f03.apk",
-  "apkSize": 1328462,
-  "sha256": "da65fa818e7aafaf9302c0673c67de0fb0575ce36de4f861a37b07a6046dff8c",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-9-run-100",
+  "tag": "experimental-pr-12-run-103",
+  "versionName": "1.9-experimental.103",
+  "versionCode": 100103,
+  "apkName": "ChargeWatt-PR-12-7c34a8f.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-12-run-103/ChargeWatt-PR-12-7c34a8f.apk",
+  "apkSize": 1344846,
+  "sha256": "93d262d248b2c05a6934a803e9f97f3a788b6c9450ab9bd34e89b66e06390db6",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-12-run-103",
   "notes": [
-    "Merge f7b548b37d8651ecd1bc2a6ff3d46b3be84d3020 into b2708aa543aef1aaf29af66438e47a71278cc0c3",
-    "fix(ci): update shared-library version contract to the newly pinned releases",
-    "build: pin next shared theme and updater releases",
-    "Merge pull request #11 from N2K02/experimental/background-efficiency-20261106",
-    "test(chargewatt): preserve periodic fallback when foreground sampler absent and release sampler state on stop",
-    "perf(chargewatt): track foreground widget sampler lifecycle for fallback deduplication",
-    "perf(chargewatt): skip redundant periodic fallback readings while Activity or widget service samples",
-    "Merge pull request #10 from N2K02/experimental/fix-stale-wireless-charging-state",
-    "Update visual contract for transparent widget",
-    "Remove fill from borderless transparent widget"
+    "Merge e85d87d2bafe1aab0c6c3cf493f2b59d8ca80ba0 into 0d3e19f6022122e2a89800ef3b55422b0051c353",
+    "Align shared-library verification gate with published updater 0.1.30",
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
 }
