@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.5",
-  "versionName": "6.5",
-  "versionCode": 101026,
-  "apkName": "VREC-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.5/VREC-6.5.apk",
+  "tag": "v6.6",
+  "versionName": "6.6",
+  "versionCode": 101028,
+  "apkName": "VREC-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.6/VREC-6.6.apk",
   "apkSize": 12840206,
-  "sha256": "20bd41cc68fd30242aa11e7a4e8234bf010ffb0c2bb4ea740c1eff8d4c602526",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.5",
+  "sha256": "dab1d54f3f3fdba8c8b074bed80c551ca7f07c85f91b47332a851480dec5981f",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.6",
   "notes": [
-    "test(vrec): align UI contracts with compact Home and diagnostics removal",
-    "test(vrec): align UI contracts with compact Home and diagnostics removal",
-    "test(vrec): align UI contracts with compact Home and diagnostics removal",
-    "test(vrec): protect compact Home controls and expandable port diagnostics",
-    "ui(vrec): collapse detailed ADB port diagnostics on Home by default",
-    "ui(vrec): reduce system status card and action row height",
-    "ui(vrec): compact Home header and recording cards while preserving controls",
-    "test(vrec): prevent redundant ADB diagnostics submenu regression",
-    "ui(vrec): remove redundant ADB diagnostics Settings submenu",
-    "test(adb): guard manual Stop across Android activity recreation"
+    "test(adb): guard fixed getDeviceName callback and shared ADB core version (#69)"
   ]
 }
