@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-69-run-1027",
-  "versionName": "6.6-experimental.1027",
-  "versionCode": 101027,
-  "apkName": "VREC-6.6.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-69-run-1027/VREC-6.6.apk",
-  "apkSize": 12840210,
-  "sha256": "abdb7458cf335a7d182ecfe3395f3643720e3cffba19e9e5acb180d0b4094d0e",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-69-run-1027",
+  "tag": "experimental-pr-70-run-1030",
+  "versionName": "6.7-experimental.1030",
+  "versionCode": 101030,
+  "apkName": "VREC-6.7.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-70-run-1030/VREC-6.7.apk",
+  "apkSize": 12856598,
+  "sha256": "64577bbe42cc297b8b6a68a4f0bf44a65bcee14cb93ed06f9c8f7ad53550abd9",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-70-run-1030",
   "notes": [
-    "test(adb): guard fixed getDeviceName callback and shared ADB core version"
+    "Update shared updater dependency guard regression test to 0.1.30",
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
 }
