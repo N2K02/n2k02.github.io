@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.9",
-  "versionName": "6.9",
-  "versionCode": 100582,
-  "apkName": "PCL-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v6.9/PCL-6.9.apk",
-  "apkSize": 1538318,
-  "sha256": "9f06585adc3118e1563a471e98ca16db592aa043e2efa40952838d3c3dc9a6b6",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v6.9",
+  "tag": "v7.0",
+  "versionName": "7.0",
+  "versionCode": 100584,
+  "apkName": "PCL-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.0/PCL-7.0.apk",
+  "apkSize": 1538314,
+  "sha256": "751dd768bbd6583f7e52b3ea239b520da0b7bfac46a28c092066567525f0b8e2",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.0",
   "notes": [
-    "Experimental: shared Material 3 Expressive updater 0.1.32 (#78)"
+    "Resolve releases from app repository, not website tags (#79)"
   ]
 }
