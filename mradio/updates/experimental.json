@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-362",
-  "versionName": "6.4-experimental.362",
-  "versionCode": 100362,
-  "apkName": "MRadio-PR-39-f8545af.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-39-run-362/MRadio-PR-39-f8545af.apk",
-  "apkSize": 24409726,
-  "sha256": "c0f7a13179c9aff975de5a55045e1d653992ae22deb5385a8378cfc7a50627ba",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-39-run-362",
+  "tag": "experimental-pr-40-run-364",
+  "versionName": "6.5-experimental.364",
+  "versionCode": 100364,
+  "apkName": "MRadio-PR-40-6624372.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-40-run-364/MRadio-PR-40-6624372.apk",
+  "apkSize": 24442474,
+  "sha256": "70f38319de8614aac8cc518bb815794c69eb2efe28f21a4f5fca374532c73bd2",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-40-run-364",
   "notes": [
-    "build: upgrade to newly merged shared theme 0.1.5 and updater 0.1.20",
-    "build(deps): bump the all-dependencies group with 7 updates"
+    "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery"
   ]
 }
