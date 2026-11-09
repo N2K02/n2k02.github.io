@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.6",
-  "versionName": "2.6",
-  "versionCode": 100139,
-  "apkName": "LocalAdb-2.6.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.6/LocalAdb-2.6.apk",
+  "tag": "v2.7",
+  "versionName": "2.7",
+  "versionCode": 100141,
+  "apkName": "LocalAdb-2.7.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.7/LocalAdb-2.7.apk",
   "apkSize": 17512030,
-  "sha256": "773530b410628518daf44c23daa3783139a87638f7cbe74048c771f0543d5edc",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.6",
+  "sha256": "dd5c7ae3d90346c5199f634e4f05751de8371c62387dac7068ef329c75898db1",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.7",
   "notes": [
-    "Experimental: update shared updater to 0.1.30 (#19)"
+    "Resolve releases from app repository, not website tags (#20)"
   ]
 }
