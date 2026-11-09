@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.2",
-  "versionName": "5.2",
-  "versionCode": 100165,
-  "apkName": "PixelCast-5.2.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.2/PixelCast-5.2.apk",
+  "tag": "v5.3",
+  "versionName": "5.3",
+  "versionCode": 100167,
+  "apkName": "PixelCast-5.3.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.3/PixelCast-5.3.apk",
   "apkSize": 1278032,
-  "sha256": "178a0e0d45c8525d51042bd1f70231032f610a38bbd477ac844eec221d665d17",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.2",
+  "sha256": "4cc3ef95b16ec1b0441b3b2451ca8417df357967771473a475ae9e47155e5a8c",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.3",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#32)"
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#34)"
   ]
 }
