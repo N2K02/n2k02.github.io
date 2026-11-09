@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-334",
-  "versionName": "9.0-experimental.334",
-  "versionCode": 100334,
-  "apkName": "SpeedTester-9.0.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-43-run-334/SpeedTester-9.0.apk",
+  "tag": "experimental-pr-44-run-336",
+  "versionName": "9.1-experimental.336",
+  "versionCode": 100336,
+  "apkName": "SpeedTester-9.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-44-run-336/SpeedTester-9.1.apk",
   "apkSize": 25791347,
-  "sha256": "0444e81ee1b285dd5c569cf8265569bd4ebe9a9faaffff5e8809f3b358fdb2cc",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-43-run-334",
+  "sha256": "6c65d583a8312fcbc2f41b4b7464f605a102adc3276d138e574949d3fc32cedd",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-44-run-336",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
