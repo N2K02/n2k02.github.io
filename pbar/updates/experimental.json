@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-64-run-216",
-  "versionName": "7.0-experimental.216",
-  "versionCode": 100216,
-  "apkName": "PBar-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-64-run-216/PBar-7.0.apk",
+  "tag": "experimental-pr-65-run-218",
+  "versionName": "7.1-experimental.218",
+  "versionCode": 100218,
+  "apkName": "PBar-7.1.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-65-run-218/PBar-7.1.apk",
   "apkSize": 19918276,
-  "sha256": "dc14dd501468740109a6c9b27416622fb60c698ec8c776bf234cfba244580a7c",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-64-run-216",
+  "sha256": "0ae3d023405b753e53d23c1c471119eb5d62584842868addafd4f6eba8bcdced",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-65-run-218",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
