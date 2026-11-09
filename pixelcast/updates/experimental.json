@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-35-run-168",
-  "versionName": "5.4-experimental.168",
-  "versionCode": 100168,
-  "apkName": "PixelCast-5.4.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-35-run-168/PixelCast-5.4.apk",
+  "tag": "experimental-pr-36-run-170",
+  "versionName": "5.5-experimental.170",
+  "versionCode": 100170,
+  "apkName": "PixelCast-5.5.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-36-run-170/PixelCast-5.5.apk",
   "apkSize": 19677036,
-  "sha256": "56afa122dd303f3b8abeefeffd647483927fbb237bdf6fe59dc458dcb74a7830",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-35-run-168",
+  "sha256": "0aa73f7dd538190a3062f8979568024d0e702be9198c8052e926a8589f3c03d0",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-36-run-170",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
