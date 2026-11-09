@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.4",
-  "versionName": "2.4",
-  "versionCode": 100132,
-  "apkName": "LocalAdb-2.4.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.4/LocalAdb-2.4.apk",
+  "tag": "v2.5",
+  "versionName": "2.5",
+  "versionCode": 100134,
+  "apkName": "LocalAdb-2.5.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.5/LocalAdb-2.5.apk",
   "apkSize": 17512030,
-  "sha256": "dcb8086412a21946a9802a37a8e1c5032916f31fa56e84b42ec33a2c453d9a02",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.4",
+  "sha256": "1192d8d9cf983ea647704f5438114915a624ff2a70a0b39ec3decb5587ba6a0f",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.5",
   "notes": [
-    "Wait for verified ADB UID 2000 before Shizuku helper initialization (#17)"
+    "test(adb): guard fixed getDeviceName callback and shared ADB core version (#18)"
   ]
 }
