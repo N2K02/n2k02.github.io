@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-34-run-203",
-  "versionName": "6.2-experimental.203",
-  "versionCode": 100203,
-  "apkName": "HFreebuds-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-34-run-203/HFreebuds-6.2.apk",
+  "tag": "experimental-pr-35-run-205",
+  "versionName": "6.3-experimental.205",
+  "versionCode": 100205,
+  "apkName": "HFreebuds-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-35-run-205/HFreebuds-6.3.apk",
   "apkSize": 19885367,
-  "sha256": "ab3e4410b497dc73b35656ca9f023607831ff3e56b8db6e6a1f542adb84a3360",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-34-run-203",
+  "sha256": "3c78cd2e4386889a2c946f21f4af9345f0b327df98e4c1a06f6ebb5d0ebe9454",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-35-run-205",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
