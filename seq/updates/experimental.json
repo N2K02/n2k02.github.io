@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-159",
-  "versionName": "0.4-experimental.159",
-  "versionCode": 100159,
-  "apkName": "SEQ-PR-2-2aee483.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-159/SEQ-PR-2-2aee483.apk",
+  "tag": "experimental-pr-2-run-160",
+  "versionName": "0.4-experimental.160",
+  "versionCode": 100160,
+  "apkName": "SEQ-PR-2-f7d1a89.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-160/SEQ-PR-2-f7d1a89.apk",
   "apkSize": 88743053,
-  "sha256": "7648c0a63267ece1a45c223d6c5af39eeb80362f3acb2036789aaa6dda9f9971",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-159",
+  "sha256": "c60fe084c84eba2df3096a735349559c3f795722c831d73c7c1e6b7162ba0859",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-160",
   "notes": [
+    "Upgrade shared Material 3 Expressive updater to 0.1.32 in existing experimental PR",
     "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery",
     "test(seq): verify optional ADB status without onboarding card",
     "fix(seq): migrate hidden legacy modes to automatic all-media tuning",
@@ -17,7 +18,6 @@
     "feat(seq): autosave EQ per detected output without profile management",
     "fix(seq): remove obsolete analyzer state reference from simple home",
     "test(seq): protect autosave, factory reset, and uncluttered home",
-    "feat(seq): simplify one-screen auto-saving equalizer and factory reset",
-    "test(adb): guard fixed getDeviceName callback and shared ADB core version"
+    "feat(seq): simplify one-screen auto-saving equalizer and factory reset"
   ]
 }
