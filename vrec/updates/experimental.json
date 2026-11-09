@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-70-run-1030",
-  "versionName": "6.7-experimental.1030",
-  "versionCode": 101030,
-  "apkName": "VREC-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-70-run-1030/VREC-6.7.apk",
+  "tag": "experimental-pr-71-run-1032",
+  "versionName": "6.8-experimental.1032",
+  "versionCode": 101032,
+  "apkName": "VREC-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-71-run-1032/VREC-6.8.apk",
   "apkSize": 12856598,
-  "sha256": "64577bbe42cc297b8b6a68a4f0bf44a65bcee14cb93ed06f9c8f7ad53550abd9",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-70-run-1030",
+  "sha256": "7b862be368efd96931634c4d13a5b9fc4eb225f7b538ff1188869554eef14bcf",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-71-run-1032",
   "notes": [
-    "Update shared updater dependency guard regression test to 0.1.30",
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
+    "Update regression test to require shared updater 0.1.32",
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
