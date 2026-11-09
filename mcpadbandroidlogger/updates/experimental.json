@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-44-run-520",
+  "tag": "mcpadbandroidlogger-experimental-pr-44-run-523",
   "versionName": "3.0",
-  "versionCode": 100520,
+  "versionCode": 100523,
   "apkName": "McpAdbAndroidLogger-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-520/McpAdbAndroidLogger-3.0.apk",
-  "apkSize": 29632505,
-  "sha256": "130010f4c84613bd6391c02188046673d751f1b2ea07b761eb52684e92456d0c",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-520",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-523/McpAdbAndroidLogger-3.0.apk",
+  "apkSize": 29636601,
+  "sha256": "f096504c7e1bdb531a26f841255cbfbf6c40f5232275bf5a5ff73af80b7ee4db",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-523",
   "notes": [
+    "Integrate expressive updater UI 0.1.31 in MCP Logger experimental build only",
+    "Update shared updater dependency guard regression test to 0.1.30",
+    "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery",
     "Document on-demand crash triage, capability discovery and structured audio/job evidence",
     "Add crash triage, capability discovery, audio and jobs diagnostic regression coverage",
     "Update 27-tool MCP catalog expectations after diagnostic additions",
     "Update 27-tool MCP catalog expectations after diagnostic additions",
     "Update 27-tool MCP catalog expectations after diagnostic additions",
     "Update 27-tool MCP catalog expectations after diagnostic additions",
-    "Update 27-tool MCP catalog expectations after diagnostic additions",
-    "Add structured package-scoped audio and JobScheduler restriction evidence",
-    "Route capability discovery to verified fixed read-only ADB snapshot",
-    "Expose crash triage and diagnostic service capability discovery as MCP tools"
+    "Update 27-tool MCP catalog expectations after diagnostic additions"
   ]
 }
