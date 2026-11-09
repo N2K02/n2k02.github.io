@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-68-run-1025",
-  "versionName": "6.5-experimental.1025",
-  "versionCode": 101025,
-  "apkName": "VREC-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-68-run-1025/VREC-6.5.apk",
-  "apkSize": 12840214,
-  "sha256": "78126e2e6267bd074d9566608a7d630dfbf5e04b1561d1db57328181cdcf8c75",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-68-run-1025",
+  "tag": "experimental-pr-69-run-1027",
+  "versionName": "6.6-experimental.1027",
+  "versionCode": 101027,
+  "apkName": "VREC-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-69-run-1027/VREC-6.6.apk",
+  "apkSize": 12840210,
+  "sha256": "abdb7458cf335a7d182ecfe3395f3643720e3cffba19e9e5acb180d0b4094d0e",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-69-run-1027",
   "notes": [
-    "test(vrec): align UI contracts with compact Home and diagnostics removal",
-    "test(vrec): align UI contracts with compact Home and diagnostics removal",
-    "test(vrec): align UI contracts with compact Home and diagnostics removal",
-    "test(vrec): protect compact Home controls and expandable port diagnostics",
-    "ui(vrec): collapse detailed ADB port diagnostics on Home by default",
-    "ui(vrec): reduce system status card and action row height",
-    "ui(vrec): compact Home header and recording cards while preserving controls",
-    "test(vrec): prevent redundant ADB diagnostics submenu regression",
-    "ui(vrec): remove redundant ADB diagnostics Settings submenu",
-    "test(adb): guard manual Stop across Android activity recreation"
+    "test(adb): guard fixed getDeviceName callback and shared ADB core version"
   ]
 }
