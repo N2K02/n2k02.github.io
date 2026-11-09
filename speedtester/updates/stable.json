@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.1",
-  "versionName": "9.1",
-  "versionCode": 100337,
-  "apkName": "SpeedTester-9.1.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.1/SpeedTester-9.1.apk",
+  "tag": "v9.2",
+  "versionName": "9.2",
+  "versionCode": 100339,
+  "apkName": "SpeedTester-9.2.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.2/SpeedTester-9.2.apk",
   "apkSize": 2904054,
-  "sha256": "b15d6b5f284c8b820e6d9de3539298c649fe7090effb34136e2dc6a08732a1a6",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.1",
+  "sha256": "6b744dabacd09899d445d9f8637ab82e5b06e8f7fdcfa8c14af81b6801207455",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.2",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build (#44)"
+    "UI: distinguish Speed, Quality and Wi-Fi navigation icons (#45)"
   ]
 }
