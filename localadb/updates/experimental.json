@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-18-run-133",
-  "versionName": "2.4-experimental.133",
-  "versionCode": 100133,
-  "apkName": "LocalAdb-PR-18-6b3f0ae.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-18-run-133/LocalAdb-PR-18-6b3f0ae.apk",
-  "apkSize": 39568822,
-  "sha256": "c9fed8f40ad458afc468d846f3fd896ff36ebb814992059462c7ce6ac0a05469",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-18-run-133",
+  "tag": "experimental-pr-19-run-136",
+  "versionName": "2.5-experimental.136",
+  "versionCode": 100136,
+  "apkName": "LocalAdb-PR-19-0700b59.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-19-run-136/LocalAdb-PR-19-0700b59.apk",
+  "apkSize": 39617954,
+  "sha256": "b002a05daf7dd309163553d6f887b561cf039b02ef5fdcc7c63e424a18ebbf3e",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-19-run-136",
   "notes": [
-    "test(adb): guard fixed getDeviceName callback and shared ADB core version"
+    "Update updater version regression contracts for 0.1.30",
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
 }
