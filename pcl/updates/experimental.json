@@ -1,16 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-75-run-576",
-  "versionName": "6.7-experimental.576",
-  "versionCode": 100576,
-  "apkName": "PCL-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-75-run-576/PCL-6.7.apk",
-  "apkSize": 19966229,
-  "sha256": "cce596478b5843c4db4fe0b9204604af28c34d31731c61361c9f3561b8336294",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-75-run-576",
+  "tag": "experimental-pr-77-run-579",
+  "versionName": "6.8-experimental.579",
+  "versionCode": 100579,
+  "apkName": "PCL-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-77-run-579/PCL-6.8.apk",
+  "apkSize": 19998925,
+  "sha256": "20f4669b9854bc048c0733eeecc459625914bfeb9b94ed27316f620d4f6d3867",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-77-run-579",
   "notes": [
-    "test(updater): assert current shared updater 0.1.20 and reject superseded pin",
-    "build: pin next shared theme and updater releases",
-    "Bump actions/github-script from 7 to 9 in the all-dependencies group"
+    "Update updater version regression contracts for 0.1.30",
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
 }
