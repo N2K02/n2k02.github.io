@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.1",
-  "versionName": "6.1",
-  "versionCode": 100202,
-  "apkName": "HFreebuds-6.1.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.1/HFreebuds-6.1.apk",
+  "tag": "v6.2",
+  "versionName": "6.2",
+  "versionCode": 100204,
+  "apkName": "HFreebuds-6.2.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.2/HFreebuds-6.2.apk",
   "apkSize": 1400462,
-  "sha256": "e6579faf774a4f5e66017a93f7e94e63df655e415c11c04eed9c7bfa27935a69",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.1",
+  "sha256": "789bc9249a14581f0e4a15746514b528032fb8682220137cd037d5c7b2016e7d",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.2",
   "notes": [
-    "Improve disconnected UI and earbud settings (#33)"
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#34)"
   ]
 }
