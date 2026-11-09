@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v3.1",
-  "versionName": "3.1",
-  "versionCode": 100525,
-  "apkName": "McpAdbAndroidLogger-3.1.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.1/McpAdbAndroidLogger-3.1.apk",
+  "tag": "v3.2",
+  "versionName": "3.2",
+  "versionCode": 100534,
+  "apkName": "McpAdbAndroidLogger-3.2.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.2/McpAdbAndroidLogger-3.2.apk",
   "apkSize": 29640697,
-  "sha256": "8257571cf3ca175ca24bf35ab0c2c00ff341d5e9538355c54decab108c50082b",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.1",
+  "sha256": "28761c644a1b55d3aaad2fe94d0cd2ab32e0debdf676cf33e2be2bde8ae911e1",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.2",
   "notes": [
+    "Stop APK publishing to website repository (#45)",
     "Experimental: configurable diagnostic Logcat profiles and MCP filters (#44)",
     "test(adb): guard manual Stop across Android activity recreation",
     "fix(adb): do not reset manual Stop on activity recreation",
@@ -17,7 +18,6 @@
     "fix(adb): ignore unrelated broadcasts during MCP boot startup",
     "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow",
     "build(adb): adopt validated shared core 0.1.6 and update tests",
-    "ci(mcp): preserve minified R8 mapping and identify recursive stack-overflow method",
-    "test(adb): assert published shared core 0.1.5 pin"
+    "ci(mcp): preserve minified R8 mapping and identify recursive stack-overflow method"
   ]
 }
