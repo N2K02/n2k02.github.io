@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-12-run-238",
-  "versionName": "1.7-experimental.238",
-  "versionCode": 100238,
-  "apkName": "SDCleaner-1.7.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-12-run-238/SDCleaner-1.7.apk",
+  "tag": "experimental-pr-14-run-242",
+  "versionName": "1.9-experimental.242",
+  "versionCode": 100242,
+  "apkName": "SDCleaner-1.9.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-14-run-242/SDCleaner-1.9.apk",
   "apkSize": 57664790,
-  "sha256": "6ac9834f514ba73904e1b19205c8abfe077fd12e77fdda5a950262a7eef08413",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-12-run-238",
+  "sha256": "9cba6144b46f8993fc2289e5760f4683a0f5e84551ea1ed9c6251331a83cfb9c",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-14-run-242",
   "notes": [
-    "Upgrade shared Material 3 Expressive updater to 0.1.32 in existing experimental PR",
-    "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery",
+    "ui(scheduler): keep schedule toggle visible and collapse advanced actions",
+    "ui(scheduler): show schedules first and collapse history and diagnostics",
+    "Stop APK publishing to website repository (#13)",
+    "Experimental: update shared updater to 0.1.30 (#12)",
     "fix: reduce idle wakeups and make boot recovery idempotent (#11)",
     "test(sdcleaner): require compact live ADB badge instead of Home setup card",
     "ui(sdcleaner): replace ADB Home card with live shell UID badge in storage header",
     "test(adb): ensure SDCleaner boot worker preserves foreground owner",
     "fix(adb): do not tear down SDCleaner foreground ADB after boot recovery",
-    "fix(adb): expose SDCleaner foreground owner to boot cleanup",
-    "test(adb): guard manual Stop against Settings-triggered reconnect",
-    "fix(adb): preserve explicit Stop when SDCleaner Settings opens"
+    "fix(adb): expose SDCleaner foreground owner to boot cleanup"
   ]
 }
