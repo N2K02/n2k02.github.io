@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-44-run-336",
-  "versionName": "9.1-experimental.336",
-  "versionCode": 100336,
-  "apkName": "SpeedTester-9.1.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-44-run-336/SpeedTester-9.1.apk",
+  "tag": "experimental-pr-45-run-338",
+  "versionName": "9.2-experimental.338",
+  "versionCode": 100338,
+  "apkName": "SpeedTester-9.2.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-45-run-338/SpeedTester-9.2.apk",
   "apkSize": 25791347,
-  "sha256": "6c65d583a8312fcbc2f41b4b7464f605a102adc3276d138e574949d3fc32cedd",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-44-run-336",
+  "sha256": "0f3d3eb8b9e329eeb66845f765f452681d4c11baa255535df2101f22df218ee9",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-45-run-338",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "UI: distinguish Speed, Quality and Wi-Fi navigation icons"
   ]
 }
