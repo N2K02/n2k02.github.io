@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-19-run-136",
-  "versionName": "2.5-experimental.136",
-  "versionCode": 100136,
-  "apkName": "LocalAdb-PR-19-0700b59.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-19-run-136/LocalAdb-PR-19-0700b59.apk",
+  "tag": "experimental-pr-19-run-138",
+  "versionName": "2.5-experimental.138",
+  "versionCode": 100138,
+  "apkName": "LocalAdb-PR-19-7e0a7d3.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-19-run-138/LocalAdb-PR-19-7e0a7d3.apk",
   "apkSize": 39617954,
-  "sha256": "b002a05daf7dd309163553d6f887b561cf039b02ef5fdcc7c63e424a18ebbf3e",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-19-run-136",
+  "sha256": "599df168c460a8c987dbd4da6f57d0965c30fe3e7e4ad5ba9a84dbf4cf989396",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-19-run-138",
   "notes": [
+    "Update LocalAdb updater version regression contract to 0.1.32",
+    "Upgrade shared Material 3 Expressive updater to 0.1.32 in existing experimental PR",
     "Update updater version regression contracts for 0.1.30",
     "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
