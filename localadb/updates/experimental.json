@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-17-run-131",
-  "versionName": "2.3-experimental.131",
-  "versionCode": 100131,
-  "apkName": "LocalAdb-PR-17-79b6961.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-17-run-131/LocalAdb-PR-17-79b6961.apk",
+  "tag": "experimental-pr-18-run-133",
+  "versionName": "2.4-experimental.133",
+  "versionCode": 100133,
+  "apkName": "LocalAdb-PR-18-6b3f0ae.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-18-run-133/LocalAdb-PR-18-6b3f0ae.apk",
   "apkSize": 39568822,
-  "sha256": "696ac65b1d44616d1f8735f0f5125d6ae4466bbf0fc7e3fe44f56301e821a404",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-17-run-131",
+  "sha256": "c9fed8f40ad458afc468d846f3fd896ff36ebb814992059462c7ce6ac0a05469",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-18-run-133",
   "notes": [
-    "Add UID 2000 readiness and helper lifecycle regression checks",
-    "Await verified ADB and live Shizuku UID before helper bind; harden cancellation cleanup",
-    "Gate Shizuku start and restart on verified ADB UID 2000"
+    "test(adb): guard fixed getDeviceName callback and shared ADB core version"
   ]
 }
