@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.5",
-  "versionName": "5.5",
-  "versionCode": 100214,
-  "apkName": "BCam-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.5/BCam-5.5.apk",
+  "tag": "v5.6",
+  "versionName": "5.6",
+  "versionCode": 100216,
+  "apkName": "BCam-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.6/BCam-5.6.apk",
   "apkSize": 1200040,
-  "sha256": "7bb9affdb365da076494f1f5bd38d2c991f9dbf8105e21910f8c618364b2785e",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.5",
+  "sha256": "d88e6d07a30896c191741c614f923e1051e420650b64a74265366701c45bc214",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.6",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#36)"
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#37)"
   ]
 }
