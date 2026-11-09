@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-41-run-201",
-  "versionName": "6.0-experimental.201",
-  "versionCode": 100201,
-  "apkName": "NetSpeed-6.0.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-41-run-201/NetSpeed-6.0.apk",
-  "apkSize": 19623230,
-  "sha256": "99e7a6a58925a3a8bc76c11b9defb07e2c5481766e4656308a5f2c5c04f4d707",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-41-run-201",
+  "tag": "experimental-pr-42-run-203",
+  "versionName": "6.1-experimental.203",
+  "versionCode": 100203,
+  "apkName": "NetSpeed-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-42-run-203/NetSpeed-6.1.apk",
+  "apkSize": 19639614,
+  "sha256": "ac3e894df0911f07edd2bdf84ea70160d83cf96fd6c67f0ca629e22b916a8861",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-42-run-203",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
+    "Use shared expressive updater 0.1.32 in experimental build"
   ]
 }
