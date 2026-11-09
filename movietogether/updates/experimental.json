@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-25-run-126",
-  "versionName": "3.1-experimental.126",
-  "versionCode": 100126,
-  "apkName": "MovieTogether-PR-25-ab628ae.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-25-run-126/MovieTogether-PR-25-ab628ae.apk",
+  "tag": "experimental-pr-26-run-128",
+  "versionName": "3.2-experimental.128",
+  "versionCode": 100128,
+  "apkName": "MovieTogether-PR-26-4e1b022.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-26-run-128/MovieTogether-PR-26-4e1b022.apk",
   "apkSize": 26249163,
-  "sha256": "b0401e78425e08f85ff7cce018bd40fdea469c27a1ea436969e438b07ae2ecb4",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-25-run-126",
+  "sha256": "e9dbb73b6b443b849d30ff8e673e22d6557da8277fe64ae7d05f553529a5dbc4",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-26-run-128",
   "notes": [
-    "Update regression test to require shared updater 0.1.32",
-    "Use shared expressive updater 0.1.32 in experimental build",
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only",
+    "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
     "Experimental: update shared updater to 0.1.30 (#24)",
     "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
     "fix: use source APK releases for update feeds (#21)",
     "fix: publish update feeds through pull requests (#20)",
     "ci: remove completed one-time branch cleanup workflow",
     "ci: retain only latest stable/experimental APKs and build runs",
-    "ci: run one-time cleanup of all non-main branches",
-    "fix(ci): grant PR read permission to merged branch cleanup (#19)"
+    "ci: run one-time cleanup of all non-main branches"
   ]
 }
