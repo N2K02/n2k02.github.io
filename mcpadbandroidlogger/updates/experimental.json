@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-44-run-494",
+  "tag": "mcpadbandroidlogger-experimental-pr-44-run-500",
   "versionName": "3.0",
-  "versionCode": 100494,
+  "versionCode": 100500,
   "apkName": "McpAdbAndroidLogger-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-494/McpAdbAndroidLogger-3.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-500/McpAdbAndroidLogger-3.0.apk",
   "apkSize": 29628409,
-  "sha256": "9182f4f087b0d58220ca205fe65d735fa85e81a200bacfd3b4856c78c9d3bf40",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-494",
+  "sha256": "9046eab338c19c9323274ef567c8cccef5c7f776c6c101429061f4b6c23a8d21",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-500",
   "notes": [
+    "Test MCP reset isolation, in-flight request preservation, and next read counters",
+    "Add Home layout regression test for independent MCP reset button",
+    "Add Reset MCP statistics button to Home MCP activity card",
+    "Add independent Home-only MCP statistics reset without affecting in-flight tools",
+    "Regression test for spacing between Logs idle state and Search action",
+    "Separate Logs Idle status and Search button with responsive toolbar spacing",
     "Update ADB Home navigation contract to compact connection tile",
     "Keep clear manual searches label in compact Home redesign",
     "Test compact Home hierarchy, single connection overview, and manual/MCP separation",
-    "Rebuild Home with compact connection cards, focused manual Logs CTA and MCP activity summary",
-    "Avoid false audio activity detection from package name containing player or record",
-    "Parse multi-line service/JobScheduler records without mixing other packages",
-    "Document expanded on-demand services/audio/jobs/thermal MCP diagnostics",
-    "Document expanded on-demand services/audio/jobs/thermal MCP diagnostics",
-    "Test four safe on-demand ADB summaries and exact MCP dispatch contracts",
-    "test(adb): lock fixed libadb device-name identity and prevent recursive getters"
+    "Rebuild Home with compact connection cards, focused manual Logs CTA and MCP activity summary"
   ]
 }
