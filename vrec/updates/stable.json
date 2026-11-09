@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.7",
-  "versionName": "6.7",
-  "versionCode": 101031,
-  "apkName": "VREC-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.7/VREC-6.7.apk",
+  "tag": "v6.8",
+  "versionName": "6.8",
+  "versionCode": 101033,
+  "apkName": "VREC-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.8/VREC-6.8.apk",
   "apkSize": 12856590,
-  "sha256": "d98914ecb982c6a8db0ad372af54746609d9341397af7e34a8fa60346f0995da",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.7",
+  "sha256": "11ab41c890e453887956b4c55c59d5a9886e8e9602ad94d2dbaa7fecf6c124e8",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.8",
   "notes": [
-    "Experimental: update shared updater to 0.1.30 (#70)"
+    "Experimental: shared Material 3 Expressive updater 0.1.32 (#71)"
   ]
 }
