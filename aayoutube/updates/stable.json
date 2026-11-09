@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.7",
-  "versionName": "7.7",
-  "versionCode": 100515,
-  "apkName": "AAYoutube-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.7/AAYoutube-7.7.apk",
+  "tag": "v7.8",
+  "versionName": "7.8",
+  "versionCode": 100517,
+  "apkName": "AAYoutube-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.8/AAYoutube-7.8.apk",
   "apkSize": 14690666,
-  "sha256": "2e300fdcb0788576368fef409755adee4f9e5abe1c9db347ad5aa24b4847df81",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.7",
+  "sha256": "1e49f7704088b3674f18f4ce8b50b7e46f08d7bfa1b1c26e87f949af146ac081",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.8",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#40)"
+    "Use shared expressive updater 0.1.32 in experimental build (#41)"
   ]
 }
