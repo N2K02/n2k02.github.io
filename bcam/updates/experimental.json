@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-36-run-213",
-  "versionName": "5.5-experimental.213",
-  "versionCode": 100213,
-  "apkName": "BCam-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-36-run-213/BCam-5.5.apk",
-  "apkSize": 19611388,
-  "sha256": "0d00da194d79138238a4473b5882af77ff817e8c1d0528afb6b292005e72a068",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-36-run-213",
+  "tag": "experimental-pr-37-run-215",
+  "versionName": "5.6-experimental.215",
+  "versionCode": 100215,
+  "apkName": "BCam-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-37-run-215/BCam-5.6.apk",
+  "apkSize": 19644136,
+  "sha256": "e3c45842f00888e96bd2a9fc79404d6ddd0ad96669192fd4ffdc3a4720690be4",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-37-run-215",
   "notes": [
-    "build: upgrade to newly merged shared theme 0.1.5 and updater 0.1.20",
-    "Bump the all-dependencies group with 5 updates"
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads"
   ]
 }
