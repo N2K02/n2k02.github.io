@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.9",
-  "versionName": "5.9",
-  "versionCode": 100200,
-  "apkName": "NetSpeed-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v5.9/NetSpeed-5.9.apk",
+  "tag": "v6.0",
+  "versionName": "6.0",
+  "versionCode": 100202,
+  "apkName": "NetSpeed-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v6.0/NetSpeed-6.0.apk",
   "apkSize": 1224224,
-  "sha256": "7d0587d170a3c99c325baadbde1b93034fce316eb3627c982a0c8056ff47fc41",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v5.9",
+  "sha256": "aa2a06c7517b781e87987179a14e9ac52d939d88cad51e90d3cb1326b060798c",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v6.0",
   "notes": [
-    "Restore NetSpeed after extreme power saver and expose overlay position (#40)"
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#41)"
   ]
 }
