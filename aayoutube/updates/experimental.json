@@ -1,19 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-542",
-  "versionName": "8.0-experimental.542",
-  "versionCode": 100542,
-  "apkName": "AAYoutube-8.0.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-43-run-542/AAYoutube-8.0.apk",
+  "tag": "experimental-pr-44-run-544",
+  "versionName": "8.1-experimental.544",
+  "versionCode": 100544,
+  "apkName": "AAYoutube-8.1.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-44-run-544/AAYoutube-8.1.apk",
   "apkSize": 21367172,
-  "sha256": "baf0ab8fb7ff374ebc1dd3c45272832b81ab3cded1bf244cb0eaac4c8de838d8",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-43-run-542",
+  "sha256": "694eba83c9ba518a114baac6de03d82976277ba44834cffa00e112ec5a91ee01",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-44-run-544",
   "notes": [
-    "test: update existing transport contract for readiness gate",
-    "test: cover navigation loading controls and lyrics flash regression",
-    "test: expect explicit per-video lyrics visibility",
-    "fix: gate transport on active video and prevent automatic lyrics flash",
-    "fix: gate transport on active video and prevent automatic lyrics flash",
-    "fix: gate transport on active video and prevent automatic lyrics flash"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
