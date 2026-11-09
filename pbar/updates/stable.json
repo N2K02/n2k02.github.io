@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.1",
-  "versionName": "7.1",
-  "versionCode": 100219,
-  "apkName": "PBar-7.1.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.1/PBar-7.1.apk",
+  "tag": "v7.2",
+  "versionName": "7.2",
+  "versionCode": 100221,
+  "apkName": "PBar-7.2.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.2/PBar-7.2.apk",
   "apkSize": 1515141,
-  "sha256": "ab425cbb944e7ff15e86b7733cdad89530d04e7e3fbd4d3a128c09bd6a048979",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.1",
+  "sha256": "2e79a8af4c2bc6592ff088a9fe2c62cd6508096a88269ee649b7054e2c114eb4",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.2",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build (#65)"
+    "Resolve releases from app repository, not website tags (#66)"
   ]
 }
