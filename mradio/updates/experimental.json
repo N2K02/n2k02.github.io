@@ -1,20 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-42-run-371",
-  "versionName": "6.7-experimental.371",
-  "versionCode": 100371,
-  "apkName": "MRadio-PR-42-63bcee7.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-42-run-371/MRadio-PR-42-63bcee7.apk",
+  "tag": "experimental-pr-43-run-373",
+  "versionName": "6.8-experimental.373",
+  "versionCode": 100373,
+  "apkName": "MRadio-PR-43-e696622.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-43-run-373/MRadio-PR-43-e696622.apk",
   "apkSize": 24458858,
-  "sha256": "f96f25d74be7aa05972a9fbb78f74c1e5d4acfce87ae79f8496bca0541ff875c",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-42-run-371",
+  "sha256": "327fb8696dcc381fe80475d16ee86bb61b8006892ad4721bb38dbb56d43f98dc",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-43-run-373",
   "notes": [
-    "Reuse tested Huawei manufacturer detection for playback diagnostics",
-    "Record Huawei playback activation and media-button source for device diagnosis",
-    "Cover Huawei Bluetooth, Auto and system UI resumption regressions",
-    "Limit OEM playback-resumption block to Huawei System UI",
-    "Test Huawei volume and resume policy",
-    "Add Huawei radio resume policy",
-    "Guard Huawei background media resumption and ignore volume media events"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
