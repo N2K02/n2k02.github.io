@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.7",
-  "versionName": "6.7",
-  "versionCode": 100577,
-  "apkName": "PCL-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v6.7/PCL-6.7.apk",
-  "apkSize": 1521930,
-  "sha256": "ea8f42568831abc92e3a83e25d8bc43e5c0b4202f9ebde4de2362c17eb35c0ad",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v6.7",
+  "tag": "v6.8",
+  "versionName": "6.8",
+  "versionCode": 100580,
+  "apkName": "PCL-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v6.8/PCL-6.8.apk",
+  "apkSize": 1521934,
+  "sha256": "7cea2a91cb195e865117214333be89527ada2130fe6094a2b3e180ad609e125b",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v6.8",
   "notes": [
-    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#75)"
+    "Experimental: update shared updater to 0.1.30 (#77)"
   ]
 }
