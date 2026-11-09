@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-161",
-  "versionName": "0.4-experimental.161",
-  "versionCode": 100161,
-  "apkName": "SEQ-PR-2-6984caf.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-161/SEQ-PR-2-6984caf.apk",
+  "tag": "experimental-pr-2-run-162",
+  "versionName": "0.4-experimental.162",
+  "versionCode": 100162,
+  "apkName": "SEQ-PR-2-caea179.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-162/SEQ-PR-2-caea179.apk",
   "apkSize": 88743053,
-  "sha256": "020aacf6e47a646e915077ae7b89bb1ca5f4537b8bcff90686875c8708d97c84",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-161",
+  "sha256": "2809b3b072b32c0d79a0870b52cfd88efa36ee9db86894a1f590e5291b5f150c",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-162",
   "notes": [
+    "Add SEQ shared updater 0.1.32 and guarded installation regression tests",
     "Resolve stable versions from app releases only",
     "Resolve stable versions from app releases only",
     "Upgrade shared Material 3 Expressive updater to 0.1.32 in existing experimental PR",
@@ -17,7 +18,6 @@
     "fix(seq): migrate hidden legacy modes to automatic all-media tuning",
     "test(seq): align media UI contracts with zero-setup home",
     "ui(seq): indicate automatic per-output sound tuning",
-    "feat(seq): autosave EQ per detected output without profile management",
-    "fix(seq): remove obsolete analyzer state reference from simple home"
+    "feat(seq): autosave EQ per detected output without profile management"
   ]
 }
