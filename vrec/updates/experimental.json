@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-71-run-1032",
-  "versionName": "6.8-experimental.1032",
-  "versionCode": 101032,
-  "apkName": "VREC-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-71-run-1032/VREC-6.8.apk",
+  "tag": "experimental-pr-72-run-1034",
+  "versionName": "6.9-experimental.1034",
+  "versionCode": 101034,
+  "apkName": "VREC-6.9.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-72-run-1034/VREC-6.9.apk",
   "apkSize": 12856598,
-  "sha256": "7b862be368efd96931634c4d13a5b9fc4eb225f7b538ff1188869554eef14bcf",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-71-run-1032",
+  "sha256": "7b7f54fa8acb79f9ca5eff6914fa59c6ea18720f1fddd7eb4ac2c952986fca89",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-72-run-1034",
   "notes": [
-    "Update regression test to require shared updater 0.1.32",
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Resolve stable versions from app releases only",
+    "Resolve stable versions from app releases only"
   ]
 }
