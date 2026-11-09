@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v7.8",
-  "versionName": "7.8",
-  "versionCode": 100517,
-  "apkName": "AAYoutube-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.8/AAYoutube-7.8.apk",
+  "tag": "v7.9",
+  "versionName": "7.9",
+  "versionCode": 100540,
+  "apkName": "AAYoutube-7.9.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v7.9/AAYoutube-7.9.apk",
   "apkSize": 14690666,
-  "sha256": "1e49f7704088b3674f18f4ce8b50b7e46f08d7bfa1b1c26e87f949af146ac081",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.8",
+  "sha256": "fcf2f4db23740ac30c7c10d9debf18be4b84e382e04fda9ef0f7666c53d6940e",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v7.9",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build (#41)"
+    "test: shared phone and car media overlay blocks repeated taps with timeout",
+    "test: overlay media controls unlock only on meaningful player state transitions",
+    "fix: drive overlay transport button re-enable from real playback identity",
+    "fix: drive overlay transport button re-enable from real playback identity",
+    "fix: disable overlay transport controls until playback acknowledgement or bounded timeout",
+    "fix: preserve existing Pause contract while cancelling outstanding skip fallback",
+    "test: exercise stuck skip handlers, rapid presses, cancellation and Previous restart in Node VM",
+    "fix: restore preview unmute guard and repair transport fallback JS syntax",
+    "fix: correct JavaScript skip fallback route guard syntax",
+    "test: pending skips across buffering and changing queues"
   ]
 }
