@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-2-run-149",
-  "versionName": "0.4-experimental.149",
-  "versionCode": 100149,
-  "apkName": "SEQ-PR-2-91c8a91.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-149/SEQ-PR-2-91c8a91.apk",
+  "tag": "experimental-pr-2-run-150",
+  "versionName": "0.4-experimental.150",
+  "versionCode": 100150,
+  "apkName": "SEQ-PR-2-b0bdb2f.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-2-run-150/SEQ-PR-2-b0bdb2f.apk",
   "apkSize": 88693921,
-  "sha256": "26db9acf8e2af19f86ddd3eab4e6a18fa00787748f09b0c503372792e41ed4b7",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-149",
+  "sha256": "ca5cbd3dae2f23d2568b01fd2890243e8446f08b0e1e494b4b4be19419db7770",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-2-run-150",
   "notes": [
+    "test(adb): guard fixed getDeviceName callback and shared ADB core version",
     "Correct routing-lab contract parser to inspect the quoted command",
     "SEQ: test read-only routing lab and duplicate-playback guard; make Logcat safe in JVM tests",
     "SEQ: emit privacy-safe audio engine and routing state events to Logcat",
@@ -17,7 +18,6 @@
     "SEQ: upgrade PCM peak guard to 4x windowed-sinc with 16-frame lookahead",
     "SEQ: introduce isolated low-latency PCM FIR/peak-guard core and exclusive-route safety policy",
     "SEQ: add Advanced Audio page with live AutoEQ/PEQ editor and compressor controls",
-    "SEQ: activate route-specific parametric correction and optional 3-band MBC processing",
-    "SEQ: add validated AutoEQ profile storage and compressor settings"
+    "SEQ: activate route-specific parametric correction and optional 3-band MBC processing"
   ]
 }
