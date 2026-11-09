@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "mcpadbandroidlogger-experimental-pr-44-run-473",
+  "tag": "mcpadbandroidlogger-experimental-pr-44-run-490",
   "versionName": "3.0",
-  "versionCode": 100473,
+  "versionCode": 100490,
   "apkName": "McpAdbAndroidLogger-3.0.apk",
-  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-473/McpAdbAndroidLogger-3.0.apk",
+  "apkUrl": "https://github.com/N2K02/n2k02.github.io/releases/download/mcpadbandroidlogger-experimental-pr-44-run-490/McpAdbAndroidLogger-3.0.apk",
   "apkSize": 29624313,
-  "sha256": "21ba0aea82a208839ca43c5ba1e68e7c032ee9bfc15178f7e071fc51f06addef",
-  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-473",
+  "sha256": "95563c8754459976a713e8cf0a5582afac3b71f2c66bbaba07a87fb8e0c7940d",
+  "pageUrl": "https://github.com/N2K02/n2k02.github.io/releases/tag/mcpadbandroidlogger-experimental-pr-44-run-490",
   "notes": [
-    "Update SurfaceFlinger tests for MCP-only performance and expanded tool catalog",
-    "Update SurfaceFlinger tests for MCP-only performance and expanded tool catalog",
-    "Repair HTTP response CRLF escapes corrupted in Kotlin MCP server source",
-    "Fix missing MCP tool catalog list parenthesis breaking Kotlin compilation",
-    "Test numeric UID state parser and unsupported-response fallback",
-    "Add optional UID process-state snapshot to app runtime diagnostics with safe fallback",
-    "Fix Kotlin visibility leak from public service API to internal Logcat options",
-    "Fix invalid escaped newline in MonitorState declaration",
-    "Align README with manual Logs, Audits navigation and on-demand 21-tool MCP diagnostics",
-    "Document AppOps MCP diagnostic capability and remaining roadmap"
+    "Avoid false audio activity detection from package name containing player or record",
+    "Parse multi-line service/JobScheduler records without mixing other packages",
+    "Document expanded on-demand services/audio/jobs/thermal MCP diagnostics",
+    "Document expanded on-demand services/audio/jobs/thermal MCP diagnostics",
+    "Test four safe on-demand ADB summaries and exact MCP dispatch contracts",
+    "test(adb): lock fixed libadb device-name identity and prevent recursive getters",
+    "Align SurfaceFlinger MCP catalog test with four added tools",
+    "Update MCP catalog regression tests for 25 on-demand diagnostic tools",
+    "Update MCP catalog regression tests for 25 on-demand diagnostic tools",
+    "Update MCP catalog regression tests for 25 on-demand diagnostic tools"
   ]
 }
