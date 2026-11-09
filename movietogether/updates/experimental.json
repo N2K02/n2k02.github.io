@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-23-run-121",
-  "versionName": "2.9-experimental.121",
-  "versionCode": 100121,
-  "apkName": "MovieTogether-PR-23-572b3e1.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-23-run-121/MovieTogether-PR-23-572b3e1.apk",
-  "apkSize": 26204127,
-  "sha256": "7eda36f08cf8ae743dce049f747103ff37c813585167cc16b69bdaed0282460d",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-23-run-121",
+  "tag": "experimental-pr-24-run-124",
+  "versionName": "3.0-experimental.124",
+  "versionCode": 100124,
+  "apkName": "MovieTogether-PR-24-92b1af6.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-24-run-124/MovieTogether-PR-24-92b1af6.apk",
+  "apkSize": 26249163,
+  "sha256": "580e4603da323972cc3b8a5bb64fc23cce5a3e212153c41d1428b42c2ca30791",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-24-run-124",
   "notes": [
-    "fix(lint): register conversation shortcut off the Activity main thread",
-    "fix(android): guard framework Person/MessagingStyle on API 28+ with legacy notification fallback",
-    "test(updater): assert current shared updater 0.1.20 and reject superseded pin",
-    "build: pin next shared theme and updater releases",
-    "build(deps): bump the all-dependencies group with 8 updates",
+    "Update updater version regression contracts for 0.1.30",
+    "Upgrade shared updater to 0.1.30 for resilient APK downloads",
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
     "fix: use source APK releases for update feeds (#21)",
     "fix: publish update feeds through pull requests (#20)",
     "ci: remove completed one-time branch cleanup workflow",
     "ci: retain only latest stable/experimental APKs and build runs",
-    "ci: run one-time cleanup of all non-main branches"
+    "ci: run one-time cleanup of all non-main branches",
+    "fix(ci): grant PR read permission to merged branch cleanup (#19)",
+    "ci: delete merged PR branches safely (#18)"
   ]
 }
