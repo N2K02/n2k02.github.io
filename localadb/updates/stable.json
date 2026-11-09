@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.5",
-  "versionName": "2.5",
-  "versionCode": 100134,
-  "apkName": "LocalAdb-2.5.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.5/LocalAdb-2.5.apk",
+  "tag": "v2.6",
+  "versionName": "2.6",
+  "versionCode": 100139,
+  "apkName": "LocalAdb-2.6.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.6/LocalAdb-2.6.apk",
   "apkSize": 17512030,
-  "sha256": "1192d8d9cf983ea647704f5438114915a624ff2a70a0b39ec3decb5587ba6a0f",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.5",
+  "sha256": "773530b410628518daf44c23daa3783139a87638f7cbe74048c771f0543d5edc",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.6",
   "notes": [
-    "test(adb): guard fixed getDeviceName callback and shared ADB core version (#18)"
+    "Experimental: update shared updater to 0.1.30 (#19)"
   ]
 }
