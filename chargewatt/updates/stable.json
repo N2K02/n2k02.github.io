@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v1.9",
-  "versionName": "1.9",
-  "versionCode": 100101,
-  "apkName": "ChargeWatt-1.9.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v1.9/ChargeWatt-1.9.apk",
-  "apkSize": 1328462,
-  "sha256": "7847dc6035b56a430a1deeff0db1ac530f33acb87e6d08702e82275112bac841",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v1.9",
+  "tag": "v2.0",
+  "versionName": "2.0",
+  "versionCode": 100104,
+  "apkName": "ChargeWatt-2.0.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.0/ChargeWatt-2.0.apk",
+  "apkSize": 1344846,
+  "sha256": "19ee2b9ed6697e10d9c0490b2ea4987853a8974789378f6e0ba36058af3962d0",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.0",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#9)"
+    "Experimental: update shared updater to 0.1.30 (#12)"
   ]
 }
