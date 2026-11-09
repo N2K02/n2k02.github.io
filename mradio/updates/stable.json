@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.5",
-  "versionName": "6.5",
-  "versionCode": 100363,
-  "apkName": "MRadio-6.5.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.5/MRadio-6.5.apk",
+  "tag": "v6.6",
+  "versionName": "6.6",
+  "versionCode": 100365,
+  "apkName": "MRadio-6.6.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.6/MRadio-6.6.apk",
   "apkSize": 2810779,
-  "sha256": "f068b75c21188cb64a81ecc0550c2757ed857a904d5ded0bbba8384f47bcceb1",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.5",
+  "sha256": "c68333fd758c702b87fb86e6f53c6f076493468a71ec99f9a2475fbf2e5d6d44",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.6",
   "notes": [
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#39)"
+    "Update shared updater to 0.1.30 with resilient APK downloads and 504 recovery (#40)"
   ]
 }
