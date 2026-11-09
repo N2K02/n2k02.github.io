@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.0",
-  "versionName": "9.0",
-  "versionCode": 100335,
-  "apkName": "SpeedTester-9.0.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.0/SpeedTester-9.0.apk",
+  "tag": "v9.1",
+  "versionName": "9.1",
+  "versionCode": 100337,
+  "apkName": "SpeedTester-9.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.1/SpeedTester-9.1.apk",
   "apkSize": 2904054,
-  "sha256": "4d9149cddea7b3ae84821406b2673ae732d75ee69d1b4b15114b533e0b00ae78",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.0",
+  "sha256": "b15d6b5f284c8b820e6d9de3539298c649fe7090effb34136e2dc6a08732a1a6",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.1",
   "notes": [
-    "Upgrade shared updater to 0.1.30 for resilient APK downloads (#43)"
+    "Use shared expressive updater 0.1.32 in experimental build (#44)"
   ]
 }
