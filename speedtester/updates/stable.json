@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.2",
-  "versionName": "9.2",
-  "versionCode": 100339,
-  "apkName": "SpeedTester-9.2.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.2/SpeedTester-9.2.apk",
+  "tag": "v9.3",
+  "versionName": "9.3",
+  "versionCode": 100341,
+  "apkName": "SpeedTester-9.3.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.3/SpeedTester-9.3.apk",
   "apkSize": 2904054,
-  "sha256": "6b744dabacd09899d445d9f8637ab82e5b06e8f7fdcfa8c14af81b6801207455",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.2",
+  "sha256": "6ac3291ec1e5da30ab7f618c56eea9c5c3877a9466e9a016a8b1a683297003fe",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.3",
   "notes": [
-    "UI: distinguish Speed, Quality and Wi-Fi navigation icons (#45)"
+    "Resolve releases from app repository, not website tags (#46)"
   ]
 }
