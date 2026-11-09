@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-41-run-516",
-  "versionName": "7.8-experimental.516",
-  "versionCode": 100516,
-  "apkName": "AAYoutube-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-41-run-516/AAYoutube-7.8.apk",
+  "tag": "experimental-pr-42-run-518",
+  "versionName": "7.9-experimental.518",
+  "versionCode": 100518,
+  "apkName": "AAYoutube-7.9.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-42-run-518/AAYoutube-7.9.apk",
   "apkSize": 21363076,
-  "sha256": "f2b2d6cc2788e23d4ba01214e08cbc0b8b59aa57e957c79f47c693102b6a69c5",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-41-run-516",
+  "sha256": "bab4bba6d0bed61168c7dcfbcec5967857f6f3b706b352c0a1f5dba7402e125b",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-42-run-518",
   "notes": [
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "test: cover steering wheel transport queue navigation",
+    "fix: guard native transport against stale YouTube queue",
+    "fix: prefer native queue for Android Auto skip controls"
   ]
 }
