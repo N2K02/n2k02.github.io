@@ -1,14 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-22-run-143",
-  "versionName": "2.7-experimental.143",
-  "versionCode": 100143,
-  "apkName": "LocalAdb-PR-22-f196d91.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-22-run-143/LocalAdb-PR-22-f196d91.apk",
-  "apkSize": 39617954,
-  "sha256": "045026f3af3c49c0e547ad048027785c9db07b594b25ed859dbb87aacc209d8f",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-22-run-143",
+  "tag": "experimental-pr-22-run-149",
+  "versionName": "2.7-experimental.149",
+  "versionCode": 100149,
+  "apkName": "LocalAdb-PR-22-0a90b6e.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-22-run-149/LocalAdb-PR-22-0a90b6e.apk",
+  "apkSize": 39634338,
+  "sha256": "5b99b4d476d4c44be501fdb78390f968ce4074f4b86d8b0161abfa145bf1837b",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-22-run-149",
   "notes": [
+    "Make authenticated START resume Shizuku after explicit STOP",
+    "Add Shizuku intent authentication and manifest regression tests",
+    "Initialize automation token without composition state mutation",
+    "Show opt-in token management in expanded Shizuku card",
+    "Register external authenticated Shizuku automation broadcasts",
+    "Add opt-in token-authenticated Shizuku start/stop broadcast receiver",
     "Test Shizuku controls are collapsed by default",
     "Make Shizuku manager compact and collapsed by default"
   ]
