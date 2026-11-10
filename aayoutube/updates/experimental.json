@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-697",
-  "versionName": "8.2-experimental.697",
-  "versionCode": 100697,
+  "tag": "experimental-pr-46-run-699",
+  "versionName": "8.2-experimental.699",
+  "versionCode": 100699,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-697/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-699/AAYoutube-8.2.apk",
   "apkSize": 21518786,
-  "sha256": "d7c4c5cd9993454a3a22a77201b080d3d30f9c3f4e8e948ced775e8042e27622",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-697",
+  "sha256": "cafa14fc73c10e39d59f4daf5ea9422665b588aa1e35a85addedaaa23027185f",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-699",
   "notes": [
+    "test: fullscreen keeps the touch-to-show overlay menu",
+    "fix: stale play/pause state, overlay menu in fullscreen, landscape expand",
     "fix: leaving fullscreen in landscape shows the watch page",
     "feat: landscape swipe down / Back shows watch page, then mini player",
     "feat: fill the screen with the video when the phone is rotated on a watch page",
@@ -16,8 +18,6 @@
     "perf: keep native audio path while EQ is on but Flat + 3D Off",
     "ui: remove status line and details text from equalizer sheet",
     "refactor: remove ADB DUMP session tracking; in-player DSP needs no grant",
-    "test: status bridge now carries measured latency",
-    "fix: EQ review findings - idle suspend, clean off, fades, hysteresis, no logs",
-    "fix: stop in-player EQ audio dropouts by wiring only active DSP stages"
+    "test: status bridge now carries measured latency"
   ]
 }
