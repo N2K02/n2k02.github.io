@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.7",
-  "versionName": "2.7",
-  "versionCode": 100141,
-  "apkName": "LocalAdb-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.7/LocalAdb-2.7.apk",
+  "tag": "v2.8",
+  "versionName": "2.8",
+  "versionCode": 100155,
+  "apkName": "LocalAdb-2.8.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.8/LocalAdb-2.8.apk",
   "apkSize": 17512030,
-  "sha256": "dd5c7ae3d90346c5199f634e4f05751de8371c62387dac7068ef329c75898db1",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.7",
+  "sha256": "782cb8285e3b3eea6982067405d77c46a2a31e0b90ced983a1985a8c2f7b1005",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.8",
   "notes": [
-    "Resolve releases from app repository, not website tags (#20)"
+    "Shizuku manager: compact metrics and authenticated intent controls"
   ]
 }
