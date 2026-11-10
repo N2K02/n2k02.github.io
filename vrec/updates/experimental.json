@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-73-run-1112",
-  "versionName": "7.0-experimental.1112",
-  "versionCode": 101112,
+  "tag": "experimental-pr-73-run-1116",
+  "versionName": "7.0-experimental.1116",
+  "versionCode": 101116,
   "apkName": "VREC-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1112/VREC-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1116/VREC-7.0.apk",
   "apkSize": 12873182,
-  "sha256": "ca141451962da480c178a66fd2a14e1b5d29b9bb54f6b4b89fcb581f97d1402e",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1112",
+  "sha256": "b68d7a376a241c79dea5c8f9196dbfc9d8e226ae8ebaeb58ec762665d22cf71d",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1116",
   "notes": [
+    "Update Home dashboard test for responsive compact status badges",
+    "Escape literal badge template interpolation in UI contract test",
+    "Add UI regression tests for compact responsive VRec status badges",
+    "Compact VRec dashboard system health into responsive accessible status badges",
     "Test background waveform generation on completed imports and versioned persisted cache",
     "Load persistent waveform cache instantly, generate on demand only if missing, backfill older recordings",
     "Queue waveform cache job immediately after successful shell recording import",
     "Add unique battery-aware WorkManager waveform jobs for finalized audio",
     "Persist waveform peaks in versioned atomic disk cache keyed to exact recording revision",
-    "Update waveform UI regression test for rounded tappable scrubber",
-    "Replace flat line and duplicate slider with compact rounded interactive waveform scrubber",
-    "Decode real PCM after compressed-audio seeks; avoid returning flat fake waveforms",
-    "Add guards against toggling live calls and unhandled watcher-health failures",
-    "Handle watcher-health query failures without crashing settings UI"
+    "Update waveform UI regression test for rounded tappable scrubber"
   ]
 }
