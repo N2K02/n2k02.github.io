@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-696",
-  "versionName": "8.2-experimental.696",
-  "versionCode": 100696,
+  "tag": "experimental-pr-46-run-697",
+  "versionName": "8.2-experimental.697",
+  "versionCode": 100697,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-696/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-697/AAYoutube-8.2.apk",
   "apkSize": 21518786,
-  "sha256": "b1901066a013ce66e242219a096a54a102103eaf239478da658243fb68cb557e",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-696",
+  "sha256": "d7c4c5cd9993454a3a22a77201b080d3d30f9c3f4e8e948ced775e8042e27622",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-697",
   "notes": [
+    "fix: leaving fullscreen in landscape shows the watch page",
     "feat: landscape swipe down / Back shows watch page, then mini player",
     "feat: fill the screen with the video when the phone is rotated on a watch page",
     "fix: recover black mini player and PiP pictures",
@@ -17,7 +18,6 @@
     "refactor: remove ADB DUMP session tracking; in-player DSP needs no grant",
     "test: status bridge now carries measured latency",
     "fix: EQ review findings - idle suspend, clean off, fades, hysteresis, no logs",
-    "fix: stop in-player EQ audio dropouts by wiring only active DSP stages",
-    "feat: run mRadio EQ DSP inside the YouTube player via Web Audio"
+    "fix: stop in-player EQ audio dropouts by wiring only active DSP stages"
   ]
 }
