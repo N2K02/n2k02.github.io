@@ -1,21 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-22-run-149",
-  "versionName": "2.7-experimental.149",
-  "versionCode": 100149,
-  "apkName": "LocalAdb-PR-22-0a90b6e.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-22-run-149/LocalAdb-PR-22-0a90b6e.apk",
+  "tag": "experimental-pr-22-run-154",
+  "versionName": "2.7-experimental.154",
+  "versionCode": 100154,
+  "apkName": "LocalAdb-PR-22-c36393c.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-22-run-154/LocalAdb-PR-22-c36393c.apk",
   "apkSize": 39634338,
-  "sha256": "5b99b4d476d4c44be501fdb78390f968ce4074f4b86d8b0161abfa145bf1837b",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-22-run-149",
+  "sha256": "832dc0256b1445de043e315f6bd1dc1ac54e7bc35e6742b454a2d861e8a705e7",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-22-run-154",
   "notes": [
+    "Test Shizuku status metrics stay visible with actions collapsed",
+    "Keep Shizuku Binder Shell Clients Grants cards visible when collapsed",
+    "Test expanded-card instructions and copyable intent commands",
+    "Render actual line breaks in intent setup instructions",
+    "Add collapsible Shizuku intent instructions with copyable commands",
     "Make authenticated START resume Shizuku after explicit STOP",
     "Add Shizuku intent authentication and manifest regression tests",
     "Initialize automation token without composition state mutation",
     "Show opt-in token management in expanded Shizuku card",
-    "Register external authenticated Shizuku automation broadcasts",
-    "Add opt-in token-authenticated Shizuku start/stop broadcast receiver",
-    "Test Shizuku controls are collapsed by default",
-    "Make Shizuku manager compact and collapsed by default"
+    "Register external authenticated Shizuku automation broadcasts"
   ]
 }
