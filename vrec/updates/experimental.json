@@ -1,15 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-72-run-1034",
-  "versionName": "6.9-experimental.1034",
-  "versionCode": 101034,
-  "apkName": "VREC-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-72-run-1034/VREC-6.9.apk",
-  "apkSize": 12856598,
-  "sha256": "7b7f54fa8acb79f9ca5eff6914fa59c6ea18720f1fddd7eb4ac2c952986fca89",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-72-run-1034",
+  "tag": "experimental-pr-73-run-1088",
+  "versionName": "7.0-experimental.1088",
+  "versionCode": 101088,
+  "apkName": "VREC-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1088/VREC-7.0.apk",
+  "apkSize": 12873182,
+  "sha256": "0644e2c53cc3366d18b2799422d40745d92bdf4da5001e799e3d9792bc6b95bd",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1088",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "Fix recovery serialization regression test after disabling routine call-log scans",
+    "Test background playback service, audio focus, privacy, and lifecycle contracts",
+    "Stop playback if Android rejects required foreground playback service",
+    "Expose playback foreground-service launch failures to caller",
+    "Pause recording playback on call interruptions and release Android audio focus",
+    "Keep periodic recovery cheap: watcher status only, call history on manual self-test",
+    "Make call history gap audit opt-in per health check to avoid periodic call log scanning",
+    "Avoid exposing caller filenames on lockscreen; stop orphan playback on service destruction",
+    "Correct Recently Deleted wording and require confirmation for irreversible deletion",
+    "Update serialized recovery test for health-gated recovery within the same mutex"
   ]
 }
