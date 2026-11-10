@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-687",
-  "versionName": "8.2-experimental.687",
-  "versionCode": 100687,
+  "tag": "experimental-pr-46-run-688",
+  "versionName": "8.2-experimental.688",
+  "versionCode": 100688,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-687/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-688/AAYoutube-8.2.apk",
   "apkSize": 21535170,
-  "sha256": "5a5b0d48fcdcd367568b2b2a3732423ef72c3f23aa3e2ba2d23c357ab48aca85",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-687",
+  "sha256": "054300c4020771a0d48eb8336db1b0829942c2fb85736dc8c2f610a7504a7cf3",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-688",
   "notes": [
+    "fix: stop in-player EQ audio dropouts by wiring only active DSP stages",
     "feat: run mRadio EQ DSP inside the YouTube player via Web Audio",
     "test: guard pause teardown and bounded session scanner on slow devices",
     "fix: avoid false audio-session discovery failures during slow dumpsys teardown",
@@ -17,7 +18,6 @@
     "diag: include applied EQ curve in coalesced native-effect success logs",
     "docs: document compact equalizer UI, audio trace signals and dual-process GitHub comparison",
     "test compatibility: retain exact ADB grant command inside collapsed EQ details",
-    "test: reject unexpected preset text in equalizer logs",
-    "privacy: whitelist EQ preset labels before writing diagnostics"
+    "test: reject unexpected preset text in equalizer logs"
   ]
 }
