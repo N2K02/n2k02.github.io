@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-232",
-  "versionName": "0.5-experimental.232",
-  "versionCode": 100232,
-  "apkName": "SEQ-PR-3-20b7f42.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-232/SEQ-PR-3-20b7f42.apk",
-  "apkSize": 88824973,
-  "sha256": "7857c9cfee69fd87c97e4f4dfb1f8764be6c33c367ec97ca35b80dc08533ec7a",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-232",
+  "tag": "experimental-pr-3-run-233",
+  "versionName": "0.5-experimental.233",
+  "versionCode": 100233,
+  "apkName": "SEQ-PR-3-352991c.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-233/SEQ-PR-3-352991c.apk",
+  "apkSize": 88972488,
+  "sha256": "6a9cf8b9ed2655e7b5811b12990ecce1963d784ac3efb4032465bf81011f46fc",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-233",
   "notes": [
+    "SEQ DSP: RootlessBrennanDSP-style capture engine as the default for all media",
     "Test native-first backend selection and duplicate playback safeguards",
     "Add safe native-first automatic engine selection policy",
     "Document BrennanDSP feature mapping, GPL licensing, safe PCM prerequisites and device tests",
@@ -17,7 +18,6 @@
     "Require non-null MediaProjection before registering callback and configuring audio capture",
     "Document user-consented third-party PCM probe, feature scope, and safe fallback",
     "Distinguish PCM activity from silent captured buffers",
-    "Use SDK-safe MediaProjection token extraction and remove unused import",
-    "Test consent-gated playback capture probe, foreground service, shutdown and no PCM replay"
+    "Use SDK-safe MediaProjection token extraction and remove unused import"
   ]
 }
