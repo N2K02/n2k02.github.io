@@ -1,15 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-44-run-544",
-  "versionName": "8.1-experimental.544",
-  "versionCode": 100544,
-  "apkName": "AAYoutube-8.1.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-44-run-544/AAYoutube-8.1.apk",
-  "apkSize": 21367172,
-  "sha256": "694eba83c9ba518a114baac6de03d82976277ba44834cffa00e112ec5a91ee01",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-44-run-544",
+  "tag": "experimental-pr-46-run-571",
+  "versionName": "8.2-experimental.571",
+  "versionCode": 100571,
+  "apkName": "AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-571/AAYoutube-8.2.apk",
+  "apkSize": 21399940,
+  "sha256": "25d3fe09861371088a613da50a2dd8843e3a82b30deea80d50c52a63eae9c568",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-571",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "fix: reject delayed decoder telemetry from a superseded car host",
+    "test: cover experimental decoder telemetry in in-memory status",
+    "feat: simulate Android Auto dashboard insets in car preview",
+    "docs: document surface metrics, headless preview and experimental limits",
+    "feat: surface opt-in decoder frame telemetry on experimental screen",
+    "feat: report decoded/dropped Chromium video frames in opt-in car diagnostics",
+    "feat: add privacy-safe Chromium decoder telemetry and reflect fallback mode",
+    "test: add ADB screenshot script for headless car viewport preview",
+    "test: open car preview directly in debug builds for repeatable screenshots",
+    "test: cover car video geometry, gestures and session diagnostics"
   ]
 }
