@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-691",
-  "versionName": "8.2-experimental.691",
-  "versionCode": 100691,
+  "tag": "experimental-pr-46-run-692",
+  "versionName": "8.2-experimental.692",
+  "versionCode": 100692,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-691/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-692/AAYoutube-8.2.apk",
   "apkSize": 21518786,
-  "sha256": "ee56b7d4fbb686d0ee9b26f9028d344c5e1c2c82275e280b0845b4917320369e",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-691",
+  "sha256": "30a23604fdfc2e675b703a290e23c54c0b7a17da693317ff294dd406463381ed",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-692",
   "notes": [
+    "ui: remove status line and details text from equalizer sheet",
     "refactor: remove ADB DUMP session tracking; in-player DSP needs no grant",
     "test: status bridge now carries measured latency",
     "fix: EQ review findings - idle suspend, clean off, fades, hysteresis, no logs",
@@ -17,7 +18,6 @@
     "test: guard pause teardown and bounded session scanner on slow devices",
     "fix: avoid false audio-session discovery failures during slow dumpsys teardown",
     "fix: fully release audio effect ownership on pause and route handoff",
-    "ui: distinguish initialized EQ engine from unverified audible effects",
-    "diag: include applied EQ curve in coalesced native-effect success logs"
+    "ui: distinguish initialized EQ engine from unverified audible effects"
   ]
 }
