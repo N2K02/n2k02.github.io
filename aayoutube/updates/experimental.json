@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-688",
-  "versionName": "8.2-experimental.688",
-  "versionCode": 100688,
+  "tag": "experimental-pr-46-run-690",
+  "versionName": "8.2-experimental.690",
+  "versionCode": 100690,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-688/AAYoutube-8.2.apk",
-  "apkSize": 21535170,
-  "sha256": "054300c4020771a0d48eb8336db1b0829942c2fb85736dc8c2f610a7504a7cf3",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-688",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-690/AAYoutube-8.2.apk",
+  "apkSize": 21518786,
+  "sha256": "ae016c477a8dabb9e6f47adc9899b7503f6963351945199e2226c9580a7e9079",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-690",
   "notes": [
+    "test: status bridge now carries measured latency",
+    "fix: EQ review findings - idle suspend, clean off, fades, hysteresis, no logs",
     "fix: stop in-player EQ audio dropouts by wiring only active DSP stages",
     "feat: run mRadio EQ DSP inside the YouTube player via Web Audio",
     "test: guard pause teardown and bounded session scanner on slow devices",
@@ -16,8 +18,6 @@
     "fix: fully release audio effect ownership on pause and route handoff",
     "ui: distinguish initialized EQ engine from unverified audible effects",
     "diag: include applied EQ curve in coalesced native-effect success logs",
-    "docs: document compact equalizer UI, audio trace signals and dual-process GitHub comparison",
-    "test compatibility: retain exact ADB grant command inside collapsed EQ details",
-    "test: reject unexpected preset text in equalizer logs"
+    "docs: document compact equalizer UI, audio trace signals and dual-process GitHub comparison"
   ]
 }
