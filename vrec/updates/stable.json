@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v6.9",
-  "versionName": "6.9",
-  "versionCode": 101035,
-  "apkName": "VREC-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v6.9/VREC-6.9.apk",
-  "apkSize": 12856590,
-  "sha256": "44ec0b06214a72dbd9708426351ef98a0b02b6de2d3fbdf23b5b112e552a3ec2",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v6.9",
+  "tag": "v7.0",
+  "versionName": "7.0",
+  "versionCode": 101137,
+  "apkName": "VREC-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.0/VREC-7.0.apk",
+  "apkSize": 12873342,
+  "sha256": "e9445c131841b2a8e75253bc0bf3b3af0752dd7b2b5d951a264f3f3d1a030062",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.0",
   "notes": [
-    "Resolve releases from app repository, not website tags (#72)"
+    "Keep cellular call completion safe if Android denies live VoIP audio inspection",
+    "Expose active shell VoIP watcher for verified cellular-to-VoIP handoff",
+    "Test VoIP channel-level diagnostics and avoid false certainty about either participant",
+    "Notify when saved VoIP audio may be missing one channel, preserving original recording",
+    "Classify uncertain VoIP channel capture quality without falsely claiming both sides",
+    "Regression tests for VoIP handoff, monotonic PCM timestamps, microphone safety and supported apps",
+    "Resume verified Telegram Viber or Meet call after cellular call ends",
+    "Align VoIP timestamps to monotonic audio clock and protect caller mic on failed privacy checks",
+    "Update ADB recovery UI contract after intentional removal of duplicate port card",
+    "Keep recording duration visible on narrow screens without text overflow"
   ]
 }
