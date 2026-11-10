@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-73-run-1104",
-  "versionName": "7.0-experimental.1104",
-  "versionCode": 101104,
+  "tag": "experimental-pr-73-run-1107",
+  "versionName": "7.0-experimental.1107",
+  "versionCode": 101107,
   "apkName": "VREC-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1104/VREC-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1107/VREC-7.0.apk",
   "apkSize": 12873182,
-  "sha256": "6ee470faf19b9980a7d2c9280d1e4f23f5d5139138373de5962e89d751d624ba",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1104",
+  "sha256": "c3f264543fe9c19b2f22059909ed27217a2c2b6ab0bf09344e583a4dbfcc7c31",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1107",
   "notes": [
+    "Update waveform UI regression test for rounded tappable scrubber",
+    "Replace flat line and duplicate slider with compact rounded interactive waveform scrubber",
+    "Decode real PCM after compressed-audio seeks; avoid returning flat fake waveforms",
     "Add guards against toggling live calls and unhandled watcher-health failures",
     "Handle watcher-health query failures without crashing settings UI",
     "Protect active call capture from Quick Settings master-toggle changes",
     "Fix escaped template literal in compact library regression test",
     "Test recording notification call source, direction, date and unknown package privacy",
     "Update playback privacy contract for detailed private notification and generic public version",
-    "Supply saved caller, source, direction and date to playback media notification",
-    "Add tested caller-safe notification subtitle with source, direction and date",
-    "Show caller and call details in media notification with private lockscreen version",
-    "Explain unsupported waveform formats rather than silently omitting preview"
+    "Supply saved caller, source, direction and date to playback media notification"
   ]
 }
