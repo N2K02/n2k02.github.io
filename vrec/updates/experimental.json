@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-73-run-1107",
-  "versionName": "7.0-experimental.1107",
-  "versionCode": 101107,
+  "tag": "experimental-pr-73-run-1112",
+  "versionName": "7.0-experimental.1112",
+  "versionCode": 101112,
   "apkName": "VREC-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1107/VREC-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1112/VREC-7.0.apk",
   "apkSize": 12873182,
-  "sha256": "c3f264543fe9c19b2f22059909ed27217a2c2b6ab0bf09344e583a4dbfcc7c31",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1107",
+  "sha256": "ca141451962da480c178a66fd2a14e1b5d29b9bb54f6b4b89fcb581f97d1402e",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1112",
   "notes": [
+    "Test background waveform generation on completed imports and versioned persisted cache",
+    "Load persistent waveform cache instantly, generate on demand only if missing, backfill older recordings",
+    "Queue waveform cache job immediately after successful shell recording import",
+    "Add unique battery-aware WorkManager waveform jobs for finalized audio",
+    "Persist waveform peaks in versioned atomic disk cache keyed to exact recording revision",
     "Update waveform UI regression test for rounded tappable scrubber",
     "Replace flat line and duplicate slider with compact rounded interactive waveform scrubber",
     "Decode real PCM after compressed-audio seeks; avoid returning flat fake waveforms",
     "Add guards against toggling live calls and unhandled watcher-health failures",
-    "Handle watcher-health query failures without crashing settings UI",
-    "Protect active call capture from Quick Settings master-toggle changes",
-    "Fix escaped template literal in compact library regression test",
-    "Test recording notification call source, direction, date and unknown package privacy",
-    "Update playback privacy contract for detailed private notification and generic public version",
-    "Supply saved caller, source, direction and date to playback media notification"
+    "Handle watcher-health query failures without crashing settings UI"
   ]
 }
