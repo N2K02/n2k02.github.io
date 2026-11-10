@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-73-run-1122",
-  "versionName": "7.0-experimental.1122",
-  "versionCode": 101122,
+  "tag": "experimental-pr-73-run-1128",
+  "versionName": "7.0-experimental.1128",
+  "versionCode": 101128,
   "apkName": "VREC-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1122/VREC-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1128/VREC-7.0.apk",
   "apkSize": 12873182,
-  "sha256": "3229446c1e06aa8de743d50f037b7233ffc51f4d68029de3419914972a4ddf18",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1122",
+  "sha256": "2dc74f1a91f7e88fcfe3f3e50a66facb15515555be9aa8991199bec5fa748ce5",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1128",
   "notes": [
+    "Update ADB recovery UI contract after intentional removal of duplicate port card",
+    "Keep recording duration visible on narrow screens without text overflow",
+    "Test recording duration displayed compactly alongside date",
+    "Show recording duration beside date in each compact library row",
+    "Update Home dashboard regression test to assert duplicate ADB ports card removed",
+    "Remove duplicate ADB ports card from Home dashboard",
     "Assert compact global recording row and inline manual action without changing capture controls",
     "Condense global recording toggle and align manual recording action beside description",
     "Add regression tests for default-collapsed permissions dashboard",
-    "Collapse Android permissions by default with expandable summary header",
-    "Test centered layout for wrapped system-status badges",
-    "Center wrapped system status badges on every row",
-    "Update Home dashboard test for responsive compact status badges",
-    "Escape literal badge template interpolation in UI contract test",
-    "Add UI regression tests for compact responsive VRec status badges",
-    "Compact VRec dashboard system health into responsive accessible status badges"
+    "Collapse Android permissions by default with expandable summary header"
   ]
 }
