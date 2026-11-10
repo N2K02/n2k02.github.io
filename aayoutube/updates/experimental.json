@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-683",
-  "versionName": "8.2-experimental.683",
-  "versionCode": 100683,
+  "tag": "experimental-pr-46-run-686",
+  "versionName": "8.2-experimental.686",
+  "versionCode": 100686,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-683/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-686/AAYoutube-8.2.apk",
   "apkSize": 21514628,
-  "sha256": "6327ae3479a198d56a1d7c45c9c8af8fc3efce64635dc0fa0b625dca3f4fef61",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-683",
+  "sha256": "939561846942dc66b94ec80ba57331091de4b16339ca76784969416e0f8f6f97",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-686",
   "notes": [
+    "test: guard pause teardown and bounded session scanner on slow devices",
+    "fix: avoid false audio-session discovery failures during slow dumpsys teardown",
+    "fix: fully release audio effect ownership on pause and route handoff",
     "ui: distinguish initialized EQ engine from unverified audible effects",
     "diag: include applied EQ curve in coalesced native-effect success logs",
     "docs: document compact equalizer UI, audio trace signals and dual-process GitHub comparison",
     "test compatibility: retain exact ADB grant command inside collapsed EQ details",
     "test: reject unexpected preset text in equalizer logs",
     "privacy: whitelist EQ preset labels before writing diagnostics",
-    "test: avoid accidental Kotlin string interpolation in source-contract assertions",
-    "test: cover concise equalizer UI and privacy-safe debounced audio diagnostics",
-    "test: require privacy-safe session scan logs while prohibiting raw audio dump logging",
-    "fix: update equalizer status when first audio session scan returns no match"
+    "test: avoid accidental Kotlin string interpolation in source-contract assertions"
   ]
 }
