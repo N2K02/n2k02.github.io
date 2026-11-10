@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-20-run-140",
-  "versionName": "2.6-experimental.140",
-  "versionCode": 100140,
-  "apkName": "LocalAdb-PR-20-63cc1b4.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-20-run-140/LocalAdb-PR-20-63cc1b4.apk",
+  "tag": "experimental-pr-22-run-143",
+  "versionName": "2.7-experimental.143",
+  "versionCode": 100143,
+  "apkName": "LocalAdb-PR-22-f196d91.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-22-run-143/LocalAdb-PR-22-f196d91.apk",
   "apkSize": 39617954,
-  "sha256": "2de138c7ee3157d9af239309abc96cfe3509a4f2a81bb02ed1656c11a9ad4c0f",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-20-run-140",
+  "sha256": "045026f3af3c49c0e547ad048027785c9db07b594b25ed859dbb87aacc209d8f",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-22-run-143",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "Test Shizuku controls are collapsed by default",
+    "Make Shizuku manager compact and collapsed by default"
   ]
 }
