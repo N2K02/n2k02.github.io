@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-23-run-192",
-  "versionName": "2.8-experimental.192",
-  "versionCode": 100192,
-  "apkName": "LocalAdb-PR-23-06d11e0.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-192/LocalAdb-PR-23-06d11e0.apk",
+  "tag": "experimental-pr-23-run-198",
+  "versionName": "2.8-experimental.198",
+  "versionCode": 100198,
+  "apkName": "LocalAdb-PR-23-88e68e0.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-198/LocalAdb-PR-23-88e68e0.apk",
   "apkSize": 39667106,
-  "sha256": "8bbd2df6fa23c4c5e780a8bcec5eeee6abfc43c279c209de1461fd0618fda78a",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-192",
+  "sha256": "6a0a8870db494fedfdb9d4ea1c12d76f9af288440219db9ffc5445d3e90f918f",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-198",
   "notes": [
+    "fix: preserve all direct installer Binder transactions in R8 release builds",
+    "test: verify dedicated Binder handshake and separation from Android Auto helper",
+    "fix: retain dedicated direct installer entry point in minified builds",
+    "refactor: restore Android Auto-only helper; separate direct installer service",
+    "fix: bind dedicated direct installer and validate shell UID and protocol before streaming",
+    "fix: isolate direct APK install in dedicated Shizuku Binder service with protocol handshake",
     "test: cover red failure panel, adaptive metadata and upgraded direct-install helper",
     "ui: show red installation failure panel and declutter long APK version details",
     "ui: track installation errors separately from informational dialog text",
-    "fix: upgrade direct-install helper protocol to invalidate stale Shizuku service",
-    "refactor: remove obsolete generic shell-launch route; retain Android Auto isolation",
-    "refactor: remove obsolete generic shell-launch route; retain Android Auto isolation",
-    "test: assert direct ADB Install and Native install paths",
-    "refactor: remove obsolete ADB-assisted verification dialog flow",
-    "refactor: remove obsolete ADB-assisted verification dialog flow",
-    "ui: primary Install uses ADB; secondary action is Native install"
+    "fix: upgrade direct-install helper protocol to invalidate stale Shizuku service"
   ]
 }
