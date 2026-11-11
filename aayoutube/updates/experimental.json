@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-703",
-  "versionName": "8.2-experimental.703",
-  "versionCode": 100703,
+  "tag": "experimental-pr-46-run-704",
+  "versionName": "8.2-experimental.704",
+  "versionCode": 100704,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-703/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-704/AAYoutube-8.2.apk",
   "apkSize": 21539266,
-  "sha256": "cb05b6b7f58ad82ae6244861f60da697dc10119ebcad3695b197c05e5b299e0b",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-703",
+  "sha256": "e2fcbadbe463e8eed0bfda158354b4c3fcf524e304e18d56e1089a6ba4a7db23",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-704",
   "notes": [
+    "perf: release the hidden browse WebView under memory pressure",
     "fix: YouTube shows Play while playing; black mini player/PiP",
     "perf: cap the phone screen at 60 Hz while a video plays",
     "fix: review findings in player options, watchdog and transitions",
@@ -17,7 +18,6 @@
     "fix: stale play/pause state, overlay menu in fullscreen, landscape expand",
     "fix: leaving fullscreen in landscape shows the watch page",
     "feat: landscape swipe down / Back shows watch page, then mini player",
-    "feat: fill the screen with the video when the phone is rotated on a watch page",
-    "fix: recover black mini player and PiP pictures"
+    "feat: fill the screen with the video when the phone is rotated on a watch page"
   ]
 }
