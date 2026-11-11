@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-708",
-  "versionName": "8.2-experimental.708",
-  "versionCode": 100708,
-  "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-708/AAYoutube-8.2.apk",
+  "tag": "experimental-pr-47-run-711",
+  "versionName": "8.3-experimental.711",
+  "versionCode": 100711,
+  "apkName": "AAYoutube-8.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-711/AAYoutube-8.3.apk",
   "apkSize": 21539266,
-  "sha256": "e6cfc0d4528b6af55107b21b65c6a24a7a7c682645dff81210d148b35d9b5a91",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-708",
+  "sha256": "8c3290c5b80eae88da5ce891aa113d32b9f1c55879d35270ebfcbdd9405d1893",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-711",
   "notes": [
-    "perf: replace convolution reverb with mRadio-style comb reverb",
-    "feat: video format choice (AV1 / VP9 / H.264), AV1 default on Pixel",
-    "perf: balance background saver - 360p after 60 s hidden",
-    "perf: background battery saver with safeguards, on by default",
-    "perf: release the hidden browse WebView under memory pressure",
-    "fix: YouTube shows Play while playing; black mini player/PiP",
-    "perf: cap the phone screen at 60 Hz while a video plays",
-    "fix: review findings in player options, watchdog and transitions",
-    "feat: player options (speed, seek length, captions, loop, hide clutter) and smooth mode fades",
-    "test: fullscreen keeps the touch-to-show overlay menu"
+    "Update contract tests for landscape top-centre padding",
+    "Landscape: video controls always top-centre; side setting disabled in landscape"
   ]
 }
