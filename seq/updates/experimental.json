@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-234",
-  "versionName": "0.5-experimental.234",
-  "versionCode": 100234,
-  "apkName": "SEQ-PR-3-e4ad718.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-234/SEQ-PR-3-e4ad718.apk",
+  "tag": "experimental-pr-3-run-236",
+  "versionName": "0.5-experimental.236",
+  "versionCode": 100236,
+  "apkName": "SEQ-PR-3-39ba0f5.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-236/SEQ-PR-3-39ba0f5.apk",
   "apkSize": 88972488,
-  "sha256": "2fa7f7053a45480a1853c1700dae9543556d53e38f66733aa90e1ae50e1a7442",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-234",
+  "sha256": "93e00a2aaa5b78a4e9ed09b6ba2b07f2806ddef5b65e7cb31173047b9b62d934",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-236",
   "notes": [
+    "perf: SEQ Auto analyzer pauses once the balance has settled",
+    "perf: SEQ DSP threads wait for work instead of polling",
     "SEQ DSP review fixes",
     "SEQ DSP: RootlessBrennanDSP-style capture engine as the default for all media",
     "Test native-first backend selection and duplicate playback safeguards",
@@ -16,8 +18,6 @@
     "Document BrennanDSP feature mapping, GPL licensing, safe PCM prerequisites and device tests",
     "Test exclusive routing evidence gate, bounded PCM transport, Hall/8D processing and safe teardown",
     "Make power-of-two PCM ring-buffer validation explicit",
-    "Require non-null MediaProjection before registering callback and configuring audio capture",
-    "Document user-consented third-party PCM probe, feature scope, and safe fallback",
-    "Distinguish PCM activity from silent captured buffers"
+    "Require non-null MediaProjection before registering callback and configuring audio capture"
   ]
 }
