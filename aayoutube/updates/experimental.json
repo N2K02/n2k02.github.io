@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-712",
-  "versionName": "8.3-experimental.712",
-  "versionCode": 100712,
+  "tag": "experimental-pr-47-run-713",
+  "versionName": "8.3-experimental.713",
+  "versionCode": 100713,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-712/AAYoutube-8.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-713/AAYoutube-8.3.apk",
   "apkSize": 21543362,
-  "sha256": "531788aae72fee035243a285acea487447c63744986348a62451b8262038dda5",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-712",
+  "sha256": "601fe688b8d64b88b9f5baeb7f0d8e09fae9058ed20d7737e00cd5d7ed332d76",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-713",
   "notes": [
+    "Landscape: no audio gap entering fullscreen; expand collapsed playlist",
     "Fix black video on second mini player / PiP entry",
     "Update contract tests for landscape top-centre padding",
     "Landscape: video controls always top-centre; side setting disabled in landscape"
