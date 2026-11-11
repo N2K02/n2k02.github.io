@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-23-run-209",
-  "versionName": "2.8-experimental.209",
-  "versionCode": 100209,
-  "apkName": "LocalAdb-PR-23-35ec400.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-209/LocalAdb-PR-23-35ec400.apk",
+  "tag": "experimental-pr-23-run-216",
+  "versionName": "2.8-experimental.216",
+  "versionCode": 100216,
+  "apkName": "LocalAdb-PR-23-e9899dd.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-216/LocalAdb-PR-23-e9899dd.apk",
   "apkSize": 39667106,
-  "sha256": "b8360f760c8351650d3ce2474378080e878ed4c9dcd93b6e7668d3583ad7f231",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-209",
+  "sha256": "d7af740708b571daf0bc4666133189935a67262de7abda85d1b244d8adb5ec3f",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-216",
   "notes": [
+    "diagnostics: capture safe package manager error details for Home direct installer",
+    "test: verify Home Shizuku direct install and native system installer remain separate",
+    "ui: add direct Install and explicit Native install fallback to existing Shizuku card",
+    "feat: direct Shizuku installation in existing Home package installer with native fallback",
+    "test: ensure direct installer reuses Shizuku package preflight",
+    "feat: reuse Home Shizuku installer preflight for direct APK installation",
+    "refactor: expose existing Shizuku installer signing/version checks to direct APK flow",
     "fix: declare concrete APK session ID and verify commit before clearing session",
     "fix: use non-null session ID throughout package installer transaction",
-    "test: verify generated Shizuku AIDL and session lifecycle without raw Binder calls",
-    "feat: call generated AIDL installer interface instead of manual transact",
-    "feat: replace custom Binder transaction with AIDL Stub and shell install sessions",
-    "build: enable AIDL generation for Shizuku installer",
-    "feat: add Shizuku-compatible generated AIDL contract for APK installer",
-    "test: cover shared Binder command protocol and wide single-row installer actions",
-    "ui: wider expressive APK dialog with one aligned action row and compact app details",
-    "fix: send direct APK install through validated first Binder transaction operation"
+    "test: verify generated Shizuku AIDL and session lifecycle without raw Binder calls"
   ]
 }
