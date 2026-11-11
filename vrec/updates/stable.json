@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.1",
-  "versionName": "7.1",
-  "versionCode": 101139,
-  "apkName": "VREC-7.1.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.1/VREC-7.1.apk",
-  "apkSize": 12873170,
-  "sha256": "2057198f5cebe97deac257057ec595bae7008cc2548335c09d55bbef0a057633",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.1",
+  "tag": "v7.2",
+  "versionName": "7.2",
+  "versionCode": 101158,
+  "apkName": "VREC-7.2.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.2/VREC-7.2.apk",
+  "apkSize": 12873682,
+  "sha256": "1a155654ecaf8055fc76750df1e6f827c246aa16d2a5dbe332ef6cd58fc3ac16",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.2",
   "notes": [
-    "Restore v6.8 call capture: VoIP opt-in, shell capture code, settings toggles"
+    "VRec: recording settings, VOICE_CALL-only capture and regression hardening"
   ]
 }
