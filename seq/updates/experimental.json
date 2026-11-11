@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-237",
-  "versionName": "0.5-experimental.237",
-  "versionCode": 100237,
-  "apkName": "SEQ-PR-3-5a88b82.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-237/SEQ-PR-3-5a88b82.apk",
-  "apkSize": 88972488,
-  "sha256": "dbd6140906684d1a52ca2d115fb86515e420216b30074e85e9a10194d33dc149",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-237",
+  "tag": "experimental-pr-3-run-239",
+  "versionName": "0.5-experimental.239",
+  "versionCode": 100239,
+  "apkName": "SEQ-PR-3-663374d.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-239/SEQ-PR-3-663374d.apk",
+  "apkSize": 88988872,
+  "sha256": "71ba54b4f8fdeec55f1b46e5a8b7fc1b9d47d52c861ed01b57003d13b02d9e84",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-239",
   "notes": [
+    "test(seq): guard audio diagnostics submenu separation",
+    "feat(seq): add Audio diagnostics settings submenu",
+    "refactor(seq): move audio probes out of ADB connection",
     "fix: SEQ mRadio presets use mRadio's real filter curve",
     "perf: SEQ Auto analyzer pauses once the balance has settled",
     "perf: SEQ DSP threads wait for work instead of polling",
     "SEQ DSP review fixes",
     "SEQ DSP: RootlessBrennanDSP-style capture engine as the default for all media",
     "Test native-first backend selection and duplicate playback safeguards",
-    "Add safe native-first automatic engine selection policy",
-    "Document BrennanDSP feature mapping, GPL licensing, safe PCM prerequisites and device tests",
-    "Test exclusive routing evidence gate, bounded PCM transport, Hall/8D processing and safe teardown",
-    "Make power-of-two PCM ring-buffer validation explicit"
+    "Add safe native-first automatic engine selection policy"
   ]
 }
