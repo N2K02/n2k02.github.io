@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.9",
-  "versionName": "6.9",
-  "versionCode": 100374,
-  "apkName": "MRadio-6.9.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v6.9/MRadio-6.9.apk",
+  "tag": "v7.0",
+  "versionName": "7.0",
+  "versionCode": 100377,
+  "apkName": "MRadio-7.0.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.0/MRadio-7.0.apk",
   "apkSize": 2810779,
-  "sha256": "8d541e8bdd2403fb22e9744819106c949c50dc674aaac7cd32228536b9af5211",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v6.9",
+  "sha256": "7fdb8b9014a943ca4f39b4785bb857c318092a9eb572fe92f900f49df146962d",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.0",
   "notes": [
-    "Resolve releases from app repository, not website tags (#43)"
+    "perf: 8D orbit pan at block rate (~16x fewer sin/cos)"
   ]
 }
