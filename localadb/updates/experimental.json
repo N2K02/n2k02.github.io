@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-23-run-239",
-  "versionName": "2.8-experimental.239",
-  "versionCode": 100239,
-  "apkName": "LocalAdb-PR-23-86248a5.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-239/LocalAdb-PR-23-86248a5.apk",
+  "tag": "experimental-pr-24-run-248",
+  "versionName": "2.8-experimental.248",
+  "versionCode": 100248,
+  "apkName": "LocalAdb-PR-24-dcce6fb.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-24-run-248/LocalAdb-PR-24-dcce6fb.apk",
   "apkSize": 39699874,
-  "sha256": "0298a9fefae8e1d5a8006c69e0d6fbe7fcf7f52767ded7c40f4e0a61118fbfa3",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-239",
+  "sha256": "53007766d888915dd01d64a07b3319bcf07f42fe2d9dd28abef998a16fb08221",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-24-run-248",
   "notes": [
-    "test: cover independent installer result badges and visible native installer button",
-    "ui: add meaningful installer-result badge and prominent Native install button",
-    "ui-state: track installation result separately from Shizuku connection readiness",
-    "test: match refactored centralized installer session creation policy",
-    "ui: show APK installer provenance readback below messages, before actions",
-    "fix: remove malformed source-readback UI accidentally placed inside title Text",
-    "diagnostics: log direct installation failure reason and normalize source-readback lines",
-    "fix: clear previous source attribution when starting a new native or direct install",
-    "test: require accurate wording when Android reports no installer of record",
-    "fix: distinguish absent installer readback from a recorded installer"
+    "test: align native installer regression assertions with compact UI",
+    "feat: direct Shizuku APK installation and improved installer UI"
   ]
 }
