@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-23-run-202",
-  "versionName": "2.8-experimental.202",
-  "versionCode": 100202,
-  "apkName": "LocalAdb-PR-23-f83861d.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-202/LocalAdb-PR-23-f83861d.apk",
+  "tag": "experimental-pr-23-run-209",
+  "versionName": "2.8-experimental.209",
+  "versionCode": 100209,
+  "apkName": "LocalAdb-PR-23-35ec400.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-209/LocalAdb-PR-23-35ec400.apk",
   "apkSize": 39667106,
-  "sha256": "9ef0101e0a8e0295241cbe04d0170b6300c46573b178d7b693bda860fe8c7286",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-202",
+  "sha256": "b8360f760c8351650d3ce2474378080e878ed4c9dcd93b6e7668d3583ad7f231",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-209",
   "notes": [
+    "fix: declare concrete APK session ID and verify commit before clearing session",
+    "fix: use non-null session ID throughout package installer transaction",
+    "test: verify generated Shizuku AIDL and session lifecycle without raw Binder calls",
+    "feat: call generated AIDL installer interface instead of manual transact",
+    "feat: replace custom Binder transaction with AIDL Stub and shell install sessions",
+    "build: enable AIDL generation for Shizuku installer",
+    "feat: add Shizuku-compatible generated AIDL contract for APK installer",
     "test: cover shared Binder command protocol and wide single-row installer actions",
     "ui: wider expressive APK dialog with one aligned action row and compact app details",
-    "fix: send direct APK install through validated first Binder transaction operation",
-    "fix: unify direct installer handshake and install under verified Binder transaction",
-    "fix: preserve all direct installer Binder transactions in R8 release builds",
-    "test: verify dedicated Binder handshake and separation from Android Auto helper",
-    "fix: retain dedicated direct installer entry point in minified builds",
-    "refactor: restore Android Auto-only helper; separate direct installer service",
-    "fix: bind dedicated direct installer and validate shell UID and protocol before streaming",
-    "fix: isolate direct APK install in dedicated Shizuku Binder service with protocol handshake"
+    "fix: send direct APK install through validated first Binder transaction operation"
   ]
 }
