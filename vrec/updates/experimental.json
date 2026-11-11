@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-75-run-1138",
-  "versionName": "7.1-experimental.1138",
-  "versionCode": 101138,
-  "apkName": "VREC-7.1.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-75-run-1138/VREC-7.1.apk",
+  "tag": "experimental-pr-76-run-1140",
+  "versionName": "7.2-experimental.1140",
+  "versionCode": 101140,
+  "apkName": "VREC-7.2.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-76-run-1140/VREC-7.2.apk",
   "apkSize": 12873182,
-  "sha256": "99291ff7699eb0dd91e387d951d6d16c28edb2984a8ff68f7e3a1aeb27da822c",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-75-run-1138",
+  "sha256": "c0b649f8e9f25c992c7ad61c680987582621b371db5750c38962bd1aaa362e3f",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-76-run-1140",
   "notes": [
-    "Restore v6.8 call capture: VoIP opt-in, shell capture code, settings toggles"
+    "Redesign Recording settings with themed Material 3 cards and compact selectors"
   ]
 }
