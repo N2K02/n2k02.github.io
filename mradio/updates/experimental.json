@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-373",
-  "versionName": "6.8-experimental.373",
-  "versionCode": 100373,
-  "apkName": "MRadio-PR-43-e696622.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-43-run-373/MRadio-PR-43-e696622.apk",
+  "tag": "experimental-pr-45-run-376",
+  "versionName": "6.9-experimental.376",
+  "versionCode": 100376,
+  "apkName": "MRadio-PR-45-6543a08.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-45-run-376/MRadio-PR-45-6543a08.apk",
   "apkSize": 24458858,
-  "sha256": "327fb8696dcc381fe80475d16ee86bb61b8006892ad4721bb38dbb56d43f98dc",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-43-run-373",
+  "sha256": "b600929769b90ea9403881121a63e451d8be5ccdd5369fc4a18ec4cccd9fcb99",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-45-run-376",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "perf: 8D orbit pan at block rate (~16x fewer sin/cos)"
   ]
 }
