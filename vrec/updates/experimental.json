@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-73-run-1136",
-  "versionName": "7.0-experimental.1136",
-  "versionCode": 101136,
-  "apkName": "VREC-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-73-run-1136/VREC-7.0.apk",
-  "apkSize": 12873358,
-  "sha256": "56cd4bbb6c6cb4c5e6832ad600a7f208fd7f7c6167d99633c185d26ad5c9bc40",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-73-run-1136",
+  "tag": "experimental-pr-75-run-1138",
+  "versionName": "7.1-experimental.1138",
+  "versionCode": 101138,
+  "apkName": "VREC-7.1.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-75-run-1138/VREC-7.1.apk",
+  "apkSize": 12873182,
+  "sha256": "99291ff7699eb0dd91e387d951d6d16c28edb2984a8ff68f7e3a1aeb27da822c",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-75-run-1138",
   "notes": [
-    "Keep cellular call completion safe if Android denies live VoIP audio inspection",
-    "Expose active shell VoIP watcher for verified cellular-to-VoIP handoff",
-    "Test VoIP channel-level diagnostics and avoid false certainty about either participant",
-    "Notify when saved VoIP audio may be missing one channel, preserving original recording",
-    "Classify uncertain VoIP channel capture quality without falsely claiming both sides",
-    "Regression tests for VoIP handoff, monotonic PCM timestamps, microphone safety and supported apps",
-    "Resume verified Telegram Viber or Meet call after cellular call ends",
-    "Align VoIP timestamps to monotonic audio clock and protect caller mic on failed privacy checks",
-    "Update ADB recovery UI contract after intentional removal of duplicate port card",
-    "Keep recording duration visible on narrow screens without text overflow"
+    "Restore v6.8 call capture: VoIP opt-in, shell capture code, settings toggles"
   ]
 }
