@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v8.1",
-  "versionName": "8.1",
-  "versionCode": 100545,
-  "apkName": "AAYoutube-8.1.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.1/AAYoutube-8.1.apk",
-  "apkSize": 14690666,
-  "sha256": "d35c229f968a1b2c8a8eba8c3647bfcaf2015bf40aeee8f3f7583356e084dfd7",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.1",
+  "tag": "v8.2",
+  "versionName": "8.2",
+  "versionCode": 100709,
+  "apkName": "AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.2/AAYoutube-8.2.apk",
+  "apkSize": 14813608,
+  "sha256": "2ddfb975fbf2176f2cd811156abb378b407bed5dcfd8dc8621a8bd63071cfb51",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.2",
   "notes": [
-    "Resolve releases from app repository, not website tags (#44)"
+    "perf: replace convolution reverb with mRadio-style comb reverb",
+    "feat: video format choice (AV1 / VP9 / H.264), AV1 default on Pixel",
+    "perf: balance background saver - 360p after 60 s hidden",
+    "perf: background battery saver with safeguards, on by default",
+    "perf: release the hidden browse WebView under memory pressure",
+    "fix: YouTube shows Play while playing; black mini player/PiP",
+    "perf: cap the phone screen at 60 Hz while a video plays",
+    "fix: review findings in player options, watchdog and transitions",
+    "feat: player options (speed, seek length, captions, loop, hide clutter) and smooth mode fades",
+    "test: fullscreen keeps the touch-to-show overlay menu"
   ]
 }
