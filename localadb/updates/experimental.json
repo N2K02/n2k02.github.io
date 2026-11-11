@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-23-run-236",
-  "versionName": "2.8-experimental.236",
-  "versionCode": 100236,
-  "apkName": "LocalAdb-PR-23-531a198.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-236/LocalAdb-PR-23-531a198.apk",
-  "apkSize": 39683490,
-  "sha256": "fdcdba63c39b206e42fc15af12b081ef4a926bd5bbc2d4f822e8e7c869aa5f37",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-236",
+  "tag": "experimental-pr-23-run-239",
+  "versionName": "2.8-experimental.239",
+  "versionCode": 100239,
+  "apkName": "LocalAdb-PR-23-86248a5.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-23-run-239/LocalAdb-PR-23-86248a5.apk",
+  "apkSize": 39699874,
+  "sha256": "0298a9fefae8e1d5a8006c69e0d6fbe7fcf7f52767ded7c40f4e0a61118fbfa3",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-23-run-239",
   "notes": [
+    "test: cover independent installer result badges and visible native installer button",
+    "ui: add meaningful installer-result badge and prominent Native install button",
+    "ui-state: track installation result separately from Shizuku connection readiness",
     "test: match refactored centralized installer session creation policy",
     "ui: show APK installer provenance readback below messages, before actions",
     "fix: remove malformed source-readback UI accidentally placed inside title Text",
     "diagnostics: log direct installation failure reason and normalize source-readback lines",
     "fix: clear previous source attribution when starting a new native or direct install",
     "test: require accurate wording when Android reports no installer of record",
-    "fix: distinguish absent installer readback from a recorded installer",
-    "test: assert Home direct installer exposes opt-in Play record and verified source fields",
-    "test: cover optional Play installer policy, allowlisted shell args and honest provenance readback",
-    "test: cover shared Play installer toggle, AIDL argument, readback and native fallback"
+    "fix: distinguish absent installer readback from a recorded installer"
   ]
 }
