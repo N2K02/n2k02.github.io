@@ -1,14 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-76-run-1140",
-  "versionName": "7.2-experimental.1140",
-  "versionCode": 101140,
+  "tag": "experimental-pr-76-run-1157",
+  "versionName": "7.2-experimental.1157",
+  "versionCode": 101157,
   "apkName": "VREC-7.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-76-run-1140/VREC-7.2.apk",
-  "apkSize": 12873182,
-  "sha256": "c0b649f8e9f25c992c7ad61c680987582621b371db5750c38962bd1aaa362e3f",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-76-run-1140",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-76-run-1157/VREC-7.2.apk",
+  "apkSize": 12873690,
+  "sha256": "4207cab8af82db7841bb82143058dafcec936284d09dab1253a9adcaf13f4089",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-76-run-1157",
   "notes": [
-    "Redesign Recording settings with themed Material 3 cards and compact selectors"
+    "Update ADB settings test for removed audio source submenu",
+    "Update regression assertions for fixed VOICE_CALL source and removed submenu",
+    "Restore Recording page composables after removing source selector",
+    "Test source-zero handshakes, bounded retry, mode and call safety",
+    "Expand PCM audio health tests for clipping, silence and long calls",
+    "Correct CI shell continuation for CallStates tests",
+    "Correct CI shell continuation for CallStates tests",
+    "Run SIM lifecycle regression test in CI and pull-request validation",
+    "Run SIM lifecycle regression test in CI and pull-request validation",
+    "Test shell SIM call lifecycle, false IDLE and call overlap"
   ]
 }
