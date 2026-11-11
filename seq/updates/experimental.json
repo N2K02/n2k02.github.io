@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-236",
-  "versionName": "0.5-experimental.236",
-  "versionCode": 100236,
-  "apkName": "SEQ-PR-3-39ba0f5.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-236/SEQ-PR-3-39ba0f5.apk",
+  "tag": "experimental-pr-3-run-237",
+  "versionName": "0.5-experimental.237",
+  "versionCode": 100237,
+  "apkName": "SEQ-PR-3-5a88b82.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-237/SEQ-PR-3-5a88b82.apk",
   "apkSize": 88972488,
-  "sha256": "93e00a2aaa5b78a4e9ed09b6ba2b07f2806ddef5b65e7cb31173047b9b62d934",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-236",
+  "sha256": "dbd6140906684d1a52ca2d115fb86515e420216b30074e85e9a10194d33dc149",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-237",
   "notes": [
+    "fix: SEQ mRadio presets use mRadio's real filter curve",
     "perf: SEQ Auto analyzer pauses once the balance has settled",
     "perf: SEQ DSP threads wait for work instead of polling",
     "SEQ DSP review fixes",
@@ -17,7 +18,6 @@
     "Add safe native-first automatic engine selection policy",
     "Document BrennanDSP feature mapping, GPL licensing, safe PCM prerequisites and device tests",
     "Test exclusive routing evidence gate, bounded PCM transport, Hall/8D processing and safe teardown",
-    "Make power-of-two PCM ring-buffer validation explicit",
-    "Require non-null MediaProjection before registering callback and configuring audio capture"
+    "Make power-of-two PCM ring-buffer validation explicit"
   ]
 }
