@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-701",
-  "versionName": "8.2-experimental.701",
-  "versionCode": 100701,
+  "tag": "experimental-pr-46-run-702",
+  "versionName": "8.2-experimental.702",
+  "versionCode": 100702,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-701/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-702/AAYoutube-8.2.apk",
   "apkSize": 21539266,
-  "sha256": "5b7caf30033bda7f325614fd660da5617d47d6acb4744711914d6a3aac6865b9",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-701",
+  "sha256": "54b1576a88256f833155bf520e789268848f3a4bdfc9d90569b600a23cc19217",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-702",
   "notes": [
+    "perf: cap the phone screen at 60 Hz while a video plays",
     "fix: review findings in player options, watchdog and transitions",
     "feat: player options (speed, seek length, captions, loop, hide clutter) and smooth mode fades",
     "test: fullscreen keeps the touch-to-show overlay menu",
@@ -17,7 +18,6 @@
     "feat: landscape swipe down / Back shows watch page, then mini player",
     "feat: fill the screen with the video when the phone is rotated on a watch page",
     "fix: recover black mini player and PiP pictures",
-    "perf: keep native audio path while EQ is on but Flat + 3D Off",
-    "ui: remove status line and details text from equalizer sheet"
+    "perf: keep native audio path while EQ is on but Flat + 3D Off"
   ]
 }
