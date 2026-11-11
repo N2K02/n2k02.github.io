@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-705",
-  "versionName": "8.2-experimental.705",
-  "versionCode": 100705,
+  "tag": "experimental-pr-46-run-706",
+  "versionName": "8.2-experimental.706",
+  "versionCode": 100706,
   "apkName": "AAYoutube-8.2.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-705/AAYoutube-8.2.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-46-run-706/AAYoutube-8.2.apk",
   "apkSize": 21539266,
-  "sha256": "308884fc4586cd605b95fe0c284aca79a347e1485378721cb70792ea62d0ddd2",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-705",
+  "sha256": "0429357f3dc0593938cc6843c055a269c31e13027aeef808fa182c54212c6209",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-46-run-706",
   "notes": [
+    "perf: balance background saver - 360p after 60 s hidden",
     "perf: background battery saver with safeguards, on by default",
     "perf: release the hidden browse WebView under memory pressure",
     "fix: YouTube shows Play while playing; black mini player/PiP",
@@ -17,7 +18,6 @@
     "feat: player options (speed, seek length, captions, loop, hide clutter) and smooth mode fades",
     "test: fullscreen keeps the touch-to-show overlay menu",
     "fix: stale play/pause state, overlay menu in fullscreen, landscape expand",
-    "fix: leaving fullscreen in landscape shows the watch page",
-    "feat: landscape swipe down / Back shows watch page, then mini player"
+    "fix: leaving fullscreen in landscape shows the watch page"
   ]
 }
