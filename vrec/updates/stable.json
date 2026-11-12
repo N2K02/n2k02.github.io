@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v7.2",
-  "versionName": "7.2",
-  "versionCode": 101158,
-  "apkName": "VREC-7.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.2/VREC-7.2.apk",
-  "apkSize": 12873682,
-  "sha256": "1a155654ecaf8055fc76750df1e6f827c246aa16d2a5dbe332ef6cd58fc3ac16",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.2",
+  "tag": "v7.3",
+  "versionName": "7.3",
+  "versionCode": 101162,
+  "apkName": "VREC-7.3.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.3/VREC-7.3.apk",
+  "apkSize": 12890062,
+  "sha256": "a7756cffc7345f1de3fd1b693ca6ea906c461a2de76597cf741a2f889e73c479",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.3",
   "notes": [
-    "VRec: recording settings, VOICE_CALL-only capture and regression hardening"
+    "Align Material 3 ABI guard with dependency update (#77)",
+    "build(deps): bump the all-dependencies group with 5 updates (#74)"
   ]
 }
