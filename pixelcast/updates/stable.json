@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.5",
-  "versionName": "5.5",
-  "versionCode": 100171,
-  "apkName": "PixelCast-5.5.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.5/PixelCast-5.5.apk",
+  "tag": "v5.6",
+  "versionName": "5.6",
+  "versionCode": 100173,
+  "apkName": "PixelCast-5.6.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.6/PixelCast-5.6.apk",
   "apkSize": 1278032,
-  "sha256": "a2f7926bb295da992e8f0d62e4930ee3d6c639d14b0ba5dd4ce2d4b0094d483d",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.5",
+  "sha256": "4946bb02a5543f3adc279b290cf9b1a7c0fdc9030ddda11e213e1ec233c91c7c",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.6",
   "notes": [
-    "Resolve releases from app repository, not website tags (#36)"
+    "build(deps): bump the all-dependencies group with 4 updates (#37)"
   ]
 }
