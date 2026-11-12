@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "v3.2",
-  "versionName": "3.2",
-  "versionCode": 100534,
-  "apkName": "McpAdbAndroidLogger-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.2/McpAdbAndroidLogger-3.2.apk",
-  "apkSize": 29640697,
-  "sha256": "28761c644a1b55d3aaad2fe94d0cd2ab32e0debdf676cf33e2be2bde8ae911e1",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.2",
+  "tag": "v3.3",
+  "versionName": "3.3",
+  "versionCode": 100538,
+  "apkName": "McpAdbAndroidLogger-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.3/McpAdbAndroidLogger-3.3.apk",
+  "apkSize": 29644793,
+  "sha256": "06bb5357ca1153c3305eb23f1d4d82790a46c39d3357349a1232c762393fe9e2",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.3",
   "notes": [
+    "fix: align shared library guard with updated theme pin (#47)",
+    "chore: bump the all-dependencies group with 5 updates (#46)",
     "Stop APK publishing to website repository (#45)",
     "Experimental: configurable diagnostic Logcat profiles and MCP filters (#44)",
     "test(adb): guard manual Stop across Android activity recreation",
@@ -16,8 +18,6 @@
     "test(adb): boot receiver only accepts expected broadcasts",
     "refactor(adb): expose boot action policy for executable unit tests",
     "fix(adb): ignore unrelated broadcasts during MCP boot startup",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow",
-    "build(adb): adopt validated shared core 0.1.6 and update tests",
-    "ci(mcp): preserve minified R8 mapping and identify recursive stack-overflow method"
+    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
   ]
 }
