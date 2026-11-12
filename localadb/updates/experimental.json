@@ -1,15 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-24-run-248",
-  "versionName": "2.8-experimental.248",
-  "versionCode": 100248,
-  "apkName": "LocalAdb-PR-24-dcce6fb.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-24-run-248/LocalAdb-PR-24-dcce6fb.apk",
+  "tag": "experimental-pr-25-run-252",
+  "versionName": "2.8-experimental.252",
+  "versionCode": 100252,
+  "apkName": "LocalAdb-PR-25-8d0324d.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-25-run-252/LocalAdb-PR-25-8d0324d.apk",
   "apkSize": 39699874,
-  "sha256": "53007766d888915dd01d64a07b3319bcf07f42fe2d9dd28abef998a16fb08221",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-24-run-248",
+  "sha256": "01c5813a86916f1327355b4acb3a516721210bc32d9de55abe8f7fd3cc1f8684",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-25-run-252",
   "notes": [
-    "test: align native installer regression assertions with compact UI",
+    "test: align shared theme regression pin with dependency update",
+    "fix: restore checksum-pinned Gradle wrapper bootstrap",
+    "build(deps): bump the all-dependencies group with 6 updates (#21)",
+    "test: align native installer regression assertions with compact UI (#24)",
     "feat: direct Shizuku APK installation and improved installer UI"
   ]
 }
