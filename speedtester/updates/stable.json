@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.3",
-  "versionName": "9.3",
-  "versionCode": 100341,
-  "apkName": "SpeedTester-9.3.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.3/SpeedTester-9.3.apk",
+  "tag": "v9.4",
+  "versionName": "9.4",
+  "versionCode": 100343,
+  "apkName": "SpeedTester-9.4.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.4/SpeedTester-9.4.apk",
   "apkSize": 2904054,
-  "sha256": "6ac3291ec1e5da30ab7f618c56eea9c5c3877a9466e9a016a8b1a683297003fe",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.3",
+  "sha256": "7ad478da148a488b39d69c6e3f1c88ffaeed08d22651f954d7331e6052cb08ed",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.4",
   "notes": [
-    "Resolve releases from app repository, not website tags (#46)"
+    "build(deps): bump the all-dependencies group with 2 updates (#47)"
   ]
 }
