@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.8",
-  "versionName": "5.8",
-  "versionCode": 100220,
-  "apkName": "BCam-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.8/BCam-5.8.apk",
+  "tag": "v5.9",
+  "versionName": "5.9",
+  "versionCode": 100222,
+  "apkName": "BCam-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.9/BCam-5.9.apk",
   "apkSize": 1200040,
-  "sha256": "ca2d18352cae5ecadb37aba1c7bc47bb5d363e58b7b9072de49c63ba7830e3a5",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.8",
+  "sha256": "4b4072a5050a244844b7841fa37647406c1f51d69b70c61bd20ea0f452b4eace",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.9",
   "notes": [
-    "Resolve releases from app repository, not website tags (#39)"
+    "Bump the all-dependencies group with 4 updates (#40)"
   ]
 }
