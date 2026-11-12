@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.4",
-  "versionName": "6.4",
-  "versionCode": 100209,
-  "apkName": "HFreebuds-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.4/HFreebuds-6.4.apk",
+  "tag": "v6.5",
+  "versionName": "6.5",
+  "versionCode": 100211,
+  "apkName": "HFreebuds-6.5.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.5/HFreebuds-6.5.apk",
   "apkSize": 1400462,
-  "sha256": "0d74c9fb89adfdeb83ceddf5cfe3343072106a00f22993f578a0ec3d2a9ef47a",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.4",
+  "sha256": "4a37f6115d1d50ae45924ae3f11d1fa184c4dc8d7ac789cafa4296197efa8d06",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.5",
   "notes": [
-    "Resolve releases from app repository, not website tags (#36)"
+    "build(deps): bump the all-dependencies group with 4 updates (#37)"
   ]
 }
