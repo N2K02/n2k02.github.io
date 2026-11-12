@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-13-run-105",
-  "versionName": "2.0-experimental.105",
-  "versionCode": 100105,
-  "apkName": "ChargeWatt-PR-13-9dbe6f4.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-13-run-105/ChargeWatt-PR-13-9dbe6f4.apk",
+  "tag": "experimental-pr-15-run-109",
+  "versionName": "2.1-experimental.109",
+  "versionCode": 100109,
+  "apkName": "ChargeWatt-PR-15-b6af378.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-15-run-109/ChargeWatt-PR-15-b6af378.apk",
   "apkSize": 1344846,
-  "sha256": "81b84c246a54231b36cc14f19cb59b436b00cd92c0a868e1038822ef1c254058",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-13-run-105",
+  "sha256": "f47d643ce7a172ba9fb13e87fa67184dd5905c65e6a0269d18b52ac7992d0778",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-15-run-109",
   "notes": [
-    "Merge e6d614c2860eb826befb92dbed15a0d90d12da41 into 68772669aa0efc444c4abf9d83a39e13c48dcd76",
-    "Use shared expressive updater 0.1.32 in experimental build"
+    "Merge 927194d7ae7d5b634bee9dcb862fd376e2696b8f into 5c97d24217a268d6b40d5e1ea34cffc9e08236fa",
+    "fix: align shared library guard with updated theme pin"
   ]
 }
