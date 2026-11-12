@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.2",
-  "versionName": "6.2",
-  "versionCode": 100206,
-  "apkName": "NetSpeed-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v6.2/NetSpeed-6.2.apk",
+  "tag": "v6.3",
+  "versionName": "6.3",
+  "versionCode": 100208,
+  "apkName": "NetSpeed-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v6.3/NetSpeed-6.3.apk",
   "apkSize": 1240608,
-  "sha256": "6e4daa5e9dc97d0f12499949e655e81f3d12a98a1bbd8396eeef36ed75de74ec",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v6.2",
+  "sha256": "0f075fac5ef3ae8b43895505ce6e2f73616a51a2b45994dba03da2e70a238171",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v6.3",
   "notes": [
-    "Resolve releases from app repository, not website tags (#43)"
+    "build(deps): bump the all-dependencies group with 4 updates (#44)"
   ]
 }
