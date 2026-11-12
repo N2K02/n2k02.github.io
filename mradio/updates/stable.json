@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.0",
-  "versionName": "7.0",
-  "versionCode": 100377,
-  "apkName": "MRadio-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.0/MRadio-7.0.apk",
+  "tag": "v7.1",
+  "versionName": "7.1",
+  "versionCode": 100378,
+  "apkName": "MRadio-7.1.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.1/MRadio-7.1.apk",
   "apkSize": 2810779,
-  "sha256": "7fdb8b9014a943ca4f39b4785bb857c318092a9eb572fe92f900f49df146962d",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.0",
+  "sha256": "98daa68a38ea7bb60c85ee36056b86e5d3c89a5d71ec0d84c55be40e288cf3bb",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.1",
   "notes": [
-    "perf: 8D orbit pan at block rate (~16x fewer sin/cos)"
+    "build(deps): bump the all-dependencies group with 4 updates (#44)"
   ]
 }
