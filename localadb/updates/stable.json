@@ -1,14 +1,17 @@
 {
   "channel": "stable",
-  "tag": "v2.8",
-  "versionName": "2.8",
-  "versionCode": 100155,
-  "apkName": "LocalAdb-2.8.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.8/LocalAdb-2.8.apk",
-  "apkSize": 17512030,
-  "sha256": "782cb8285e3b3eea6982067405d77c46a2a31e0b90ced983a1985a8c2f7b1005",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.8",
+  "tag": "v2.9",
+  "versionName": "2.9",
+  "versionCode": 100253,
+  "apkName": "LocalAdb-2.9.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v2.9/LocalAdb-2.9.apk",
+  "apkSize": 17544798,
+  "sha256": "2a29449f2802266c530ed416f62d43cfdeb171a51916ad0777b6c75dcee08c2b",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v2.9",
   "notes": [
-    "Shizuku manager: compact metrics and authenticated intent controls"
+    "Fix Gradle wrapper bootstrap after dependency update (#25)",
+    "build(deps): bump the all-dependencies group with 6 updates (#21)",
+    "test: align native installer regression assertions with compact UI (#24)",
+    "feat: direct Shizuku APK installation and improved installer UI"
   ]
 }
