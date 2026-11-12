@@ -1,23 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-76-run-1157",
-  "versionName": "7.2-experimental.1157",
-  "versionCode": 101157,
-  "apkName": "VREC-7.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-76-run-1157/VREC-7.2.apk",
-  "apkSize": 12873690,
-  "sha256": "4207cab8af82db7841bb82143058dafcec936284d09dab1253a9adcaf13f4089",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-76-run-1157",
+  "tag": "experimental-pr-77-run-1161",
+  "versionName": "7.3-experimental.1161",
+  "versionCode": 101161,
+  "apkName": "VREC-7.3.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-77-run-1161/VREC-7.3.apk",
+  "apkSize": 12890074,
+  "sha256": "8c4f5b5dd921ce0c68bc79e58833141ad758f57765ab4dd08abe13b3fffd5ece",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-77-run-1161",
   "notes": [
-    "Update ADB settings test for removed audio source submenu",
-    "Update regression assertions for fixed VOICE_CALL source and removed submenu",
-    "Restore Recording page composables after removing source selector",
-    "Test source-zero handshakes, bounded retry, mode and call safety",
-    "Expand PCM audio health tests for clipping, silence and long calls",
-    "Correct CI shell continuation for CallStates tests",
-    "Correct CI shell continuation for CallStates tests",
-    "Run SIM lifecycle regression test in CI and pull-request validation",
-    "Run SIM lifecycle regression test in CI and pull-request validation",
-    "Test shell SIM call lifecycle, false IDLE and call overlap"
+    "test: align shared theme regression pin with dependency update",
+    "fix: align Material 3 ABI guard with updated dependency",
+    "build(deps): bump the all-dependencies group with 5 updates (#74)"
   ]
 }
