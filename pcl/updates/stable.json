@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.0",
-  "versionName": "7.0",
-  "versionCode": 100584,
-  "apkName": "PCL-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.0/PCL-7.0.apk",
+  "tag": "v7.1",
+  "versionName": "7.1",
+  "versionCode": 100586,
+  "apkName": "PCL-7.1.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.1/PCL-7.1.apk",
   "apkSize": 1538314,
-  "sha256": "751dd768bbd6583f7e52b3ea239b520da0b7bfac46a28c092066567525f0b8e2",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.0",
+  "sha256": "b6cfe375efba3603116fcbcb4f293e9421a1baa32a485574a3ad9cb097b33540",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.1",
   "notes": [
-    "Resolve releases from app repository, not website tags (#79)"
+    "chore(deps): bump the all-dependencies group with 3 updates (#80)"
   ]
 }
