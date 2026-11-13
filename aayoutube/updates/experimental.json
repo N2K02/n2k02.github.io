@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-730",
-  "versionName": "8.3-experimental.730",
-  "versionCode": 100730,
+  "tag": "experimental-pr-47-run-731",
+  "versionName": "8.3-experimental.731",
+  "versionCode": 100731,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-730/AAYoutube-8.3.apk",
-  "apkSize": 21500997,
-  "sha256": "68209251ea35d730b3e341b85ae7d622bc07752c277ff82549738b28a0ec64c2",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-730",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-731/AAYoutube-8.3.apk",
+  "apkSize": 21559746,
+  "sha256": "9c89cf3ee05892b5dcc258c0f8ecfeb038ddd8e5b4895c7faed1d1e08feb08a0",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-731",
   "notes": [
+    "Revert AndroidX car surface runtime: back to the AABrowser projection SDK",
     "Fix car surface ownership, enable GPU presentation and update obsolete service assertions",
     "Replace legacy AA video SDK with AndroidX surface runtime and remove duplicate entries",
     "Home from fullscreen opens the mini player; YouTube-app behaviour tests",
@@ -17,7 +18,6 @@
     "Fullscreen button toggles filled video <-> watch page (landscape, Android Auto)",
     "Fix black mini player on Android Auto: video layer rebuild could stay hidden",
     "Move edge drag to its own file: touch-reveal must never consume",
-    "Drag the floating controls along their edge",
-    "Background saver: 144p instead of 360p"
+    "Drag the floating controls along their edge"
   ]
 }
