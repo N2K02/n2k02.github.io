@@ -1,15 +1,18 @@
 {
   "channel": "stable",
-  "tag": "v7.3",
-  "versionName": "7.3",
-  "versionCode": 101162,
-  "apkName": "VREC-7.3.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.3/VREC-7.3.apk",
-  "apkSize": 12890062,
-  "sha256": "a7756cffc7345f1de3fd1b693ca6ea906c461a2de76597cf741a2f889e73c479",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.3",
+  "tag": "v7.4",
+  "versionName": "7.4",
+  "versionCode": 101168,
+  "apkName": "VREC-7.4.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.4/VREC-7.4.apk",
+  "apkSize": 12893950,
+  "sha256": "237418a642b7ec72cdd469c19a06423a1c21818e5cd9d244ea02ede4ba7d71d9",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.4",
   "notes": [
-    "Align Material 3 ABI guard with dependency update (#77)",
-    "build(deps): bump the all-dependencies group with 5 updates (#74)"
+    "Docs: credit JemRec as the shell helper's source; scrcpy as its embedded runtime",
+    "Publish bounded live VoIP helper health independent of Logcat retention",
+    "Pace incomplete VoIP mic blocks after reader failure to prevent timestamp runaway",
+    "VoIP: wait boundedly for full mic blocks instead of zero-filling on jitter",
+    "Recover quiet VoIP microphone with bounded source fallbacks and persistent evidence"
   ]
 }
