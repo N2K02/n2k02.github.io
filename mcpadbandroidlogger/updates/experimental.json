@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-537",
-  "versionName": "3.2-experimental.537",
-  "versionCode": 100537,
-  "apkName": "McpAdbAndroidLogger-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-47-run-537/McpAdbAndroidLogger-3.2.apk",
-  "apkSize": 29644793,
-  "sha256": "d53d401c7a49186f8d67bd263adb8ac2567ea942bd999190252d806625c1fade",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-47-run-537",
+  "tag": "experimental-pr-48-run-540",
+  "versionName": "3.3-experimental.540",
+  "versionCode": 100540,
+  "apkName": "McpAdbAndroidLogger-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-48-run-540/McpAdbAndroidLogger-3.3.apk",
+  "apkSize": 29648889,
+  "sha256": "717792ad61fe3b581b66b43fde43426ec36d3d91ce1a7c214f0989069f09da4f",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-48-run-540",
   "notes": [
-    "fix: align shared library guard with updated theme pin",
+    "Use fresh helper evidence without requiring a dumpsys audio read",
+    "Read fresh VRec helper diagnostics and accept safe bare Logcat tags",
+    "fix: align shared library guard with updated theme pin (#47)",
     "chore: bump the all-dependencies group with 5 updates (#46)",
     "Stop APK publishing to website repository (#45)",
     "Experimental: configurable diagnostic Logcat profiles and MCP filters (#44)",
     "test(adb): guard manual Stop across Android activity recreation",
     "fix(adb): do not reset manual Stop on activity recreation",
     "test(adb): boot receiver only accepts expected broadcasts",
-    "refactor(adb): expose boot action policy for executable unit tests",
-    "fix(adb): ignore unrelated broadcasts during MCP boot startup",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
+    "refactor(adb): expose boot action policy for executable unit tests"
   ]
 }
