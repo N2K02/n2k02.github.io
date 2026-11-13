@@ -1,16 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-77-run-1161",
-  "versionName": "7.3-experimental.1161",
-  "versionCode": 101161,
-  "apkName": "VREC-7.3.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-77-run-1161/VREC-7.3.apk",
-  "apkSize": 12890074,
-  "sha256": "8c4f5b5dd921ce0c68bc79e58833141ad758f57765ab4dd08abe13b3fffd5ece",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-77-run-1161",
+  "tag": "experimental-pr-78-run-1163",
+  "versionName": "7.4-experimental.1163",
+  "versionCode": 101163,
+  "apkName": "VREC-7.4.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-78-run-1163/VREC-7.4.apk",
+  "apkSize": 12892290,
+  "sha256": "fb6ca29d7ca3d4d55bc1390eebdec726ee8446a30f76c19ef281db8bf1c61c63",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-78-run-1163",
   "notes": [
-    "test: align shared theme regression pin with dependency update",
-    "fix: align Material 3 ABI guard with updated dependency",
-    "build(deps): bump the all-dependencies group with 5 updates (#74)"
+    "Recover quiet VoIP microphone with bounded source fallbacks and persistent evidence"
   ]
 }
