@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-78-run-1164",
-  "versionName": "7.4-experimental.1164",
-  "versionCode": 101164,
+  "tag": "experimental-pr-78-run-1165",
+  "versionName": "7.4-experimental.1165",
+  "versionCode": 101165,
   "apkName": "VREC-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-78-run-1164/VREC-7.4.apk",
-  "apkSize": 12892634,
-  "sha256": "0efcf5bc893bd3becb5e2f85735734f51e10b26e7d91c6ebd5f6395d399c7b3a",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-78-run-1164",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-78-run-1165/VREC-7.4.apk",
+  "apkSize": 12893090,
+  "sha256": "da1775aec30576db3c230a255880d1c49e4230d81306a4a3372d2cb429dbf8d2",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-78-run-1165",
   "notes": [
+    "Pace incomplete VoIP mic blocks after reader failure to prevent timestamp runaway",
     "VoIP: wait boundedly for full mic blocks instead of zero-filling on jitter",
     "Recover quiet VoIP microphone with bounded source fallbacks and persistent evidence"
   ]
