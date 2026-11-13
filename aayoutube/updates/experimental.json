@@ -1,22 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-718",
-  "versionName": "8.3-experimental.718",
-  "versionCode": 100718,
+  "tag": "experimental-pr-47-run-723",
+  "versionName": "8.3-experimental.723",
+  "versionCode": 100723,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-718/AAYoutube-8.3.apk",
-  "apkSize": 21543362,
-  "sha256": "838a6cd9f0089226e1e13eb33a5712857252e694a21162482b4441526cc33988",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-718",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-723/AAYoutube-8.3.apk",
+  "apkSize": 21559746,
+  "sha256": "ca5396c5b99f4eb6e44af6fee53ab681c92b8acb65920460fbb1530dfbe4a57c",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-723",
   "notes": [
+    "Move edge drag to its own file: touch-reveal must never consume",
+    "Drag the floating controls along their edge",
+    "Background saver: 144p instead of 360p",
+    "Remove audio-only background mode: WebView keeps decoding video",
+    "Revert \"Audio only: switch instantly when the app leaves the screen\"",
+    "Revert \"Fix AudioOnly contract test substring\"",
     "Fix AudioOnly contract test substring",
     "Audio only: switch instantly when the app leaves the screen",
     "Audio only in background (no PiP / car): stop decoding the unseen video",
-    "Update saver JS test: app off-screen state now enables the 360p saver",
-    "Battery: saver works when WebView stays 'visible'; 60 Hz during video",
-    "Landscape: no audio gap entering fullscreen; expand collapsed playlist",
-    "Fix black video on second mini player / PiP entry",
-    "Update contract tests for landscape top-centre padding",
-    "Landscape: video controls always top-centre; side setting disabled in landscape"
+    "Update saver JS test: app off-screen state now enables the 360p saver"
   ]
 }
