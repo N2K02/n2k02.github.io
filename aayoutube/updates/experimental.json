@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-728",
-  "versionName": "8.3-experimental.728",
-  "versionCode": 100728,
+  "tag": "experimental-pr-47-run-730",
+  "versionName": "8.3-experimental.730",
+  "versionCode": 100730,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-728/AAYoutube-8.3.apk",
-  "apkSize": 21559746,
-  "sha256": "2f78476101411b1812882c54bb46afed28725ae3f8ddd8e2882297aeae7f0390",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-728",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-730/AAYoutube-8.3.apk",
+  "apkSize": 21500997,
+  "sha256": "68209251ea35d730b3e341b85ae7d622bc07752c277ff82549738b28a0ec64c2",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-730",
   "notes": [
+    "Fix car surface ownership, enable GPU presentation and update obsolete service assertions",
+    "Replace legacy AA video SDK with AndroidX surface runtime and remove duplicate entries",
     "Home from fullscreen opens the mini player; YouTube-app behaviour tests",
     "Remove video layer rebuild: it blacked out mini player and PiP",
     "Update fill-layout contract test for the car watch-page mode",
@@ -16,8 +18,6 @@
     "Fix black mini player on Android Auto: video layer rebuild could stay hidden",
     "Move edge drag to its own file: touch-reveal must never consume",
     "Drag the floating controls along their edge",
-    "Background saver: 144p instead of 360p",
-    "Remove audio-only background mode: WebView keeps decoding video",
-    "Revert \"Audio only: switch instantly when the app leaves the screen\""
+    "Background saver: 144p instead of 360p"
   ]
 }
