@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-78-run-1163",
-  "versionName": "7.4-experimental.1163",
-  "versionCode": 101163,
+  "tag": "experimental-pr-78-run-1164",
+  "versionName": "7.4-experimental.1164",
+  "versionCode": 101164,
   "apkName": "VREC-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-78-run-1163/VREC-7.4.apk",
-  "apkSize": 12892290,
-  "sha256": "fb6ca29d7ca3d4d55bc1390eebdec726ee8446a30f76c19ef281db8bf1c61c63",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-78-run-1163",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-78-run-1164/VREC-7.4.apk",
+  "apkSize": 12892634,
+  "sha256": "0efcf5bc893bd3becb5e2f85735734f51e10b26e7d91c6ebd5f6395d399c7b3a",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-78-run-1164",
   "notes": [
+    "VoIP: wait boundedly for full mic blocks instead of zero-filling on jitter",
     "Recover quiet VoIP microphone with bounded source fallbacks and persistent evidence"
   ]
 }
