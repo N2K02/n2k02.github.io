@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-724",
-  "versionName": "8.3-experimental.724",
-  "versionCode": 100724,
+  "tag": "experimental-pr-47-run-726",
+  "versionName": "8.3-experimental.726",
+  "versionCode": 100726,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-724/AAYoutube-8.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-726/AAYoutube-8.3.apk",
   "apkSize": 21559746,
-  "sha256": "5d5f2b980548b5602a3d1d84d01c36ba340b1f24a2420edabcff6a80f28a93ff",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-724",
+  "sha256": "7f9a2548120fc731d2e63615731dcaa223dd2eeac4e7db07062126afe76ecd08",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-726",
   "notes": [
+    "Update fill-layout contract test for the car watch-page mode",
+    "Fullscreen button toggles filled video <-> watch page (landscape, Android Auto)",
     "Fix black mini player on Android Auto: video layer rebuild could stay hidden",
     "Move edge drag to its own file: touch-reveal must never consume",
     "Drag the floating controls along their edge",
@@ -16,8 +18,6 @@
     "Remove audio-only background mode: WebView keeps decoding video",
     "Revert \"Audio only: switch instantly when the app leaves the screen\"",
     "Revert \"Fix AudioOnly contract test substring\"",
-    "Fix AudioOnly contract test substring",
-    "Audio only: switch instantly when the app leaves the screen",
-    "Audio only in background (no PiP / car): stop decoding the unseen video"
+    "Fix AudioOnly contract test substring"
   ]
 }
