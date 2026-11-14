@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-15-run-246",
-  "versionName": "2.0-experimental.246",
-  "versionCode": 100246,
+  "tag": "experimental-pr-15-run-249",
+  "versionName": "2.0-experimental.249",
+  "versionCode": 100249,
   "apkName": "SDCleaner-2.0.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-15-run-246/SDCleaner-2.0.apk",
-  "apkSize": 57664790,
-  "sha256": "8a3c53eeae5f8e41362979a4e993d594d59bd64b77afda73658b8044444b45eb",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-15-run-246",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-15-run-249/SDCleaner-2.0.apk",
+  "apkSize": 57632022,
+  "sha256": "147b59893fead47d89b3f1cac9e5cc21efc0c2d224ff5304437d93493a1f85b8",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-15-run-249",
   "notes": [
+    "Fix obsolete diagnostics test after simplifying Scheduler subscriptions",
+    "Remove scheduler diagnostics card and allow deleting saved run history",
+    "Simplify scheduler to interval and cleaning options without name or separate delay",
     "Use one automatic schedule with six-hour defaults and simpler timing options",
     "Redesign scheduler with next cleanup, visible history and direct editing",
     "Redesign Scheduler with compact schedule-first layout (#14)",
     "Stop APK publishing to website repository (#13)",
     "Experimental: update shared updater to 0.1.30 (#12)",
     "fix: reduce idle wakeups and make boot recovery idempotent (#11)",
-    "test(sdcleaner): require compact live ADB badge instead of Home setup card",
-    "ui(sdcleaner): replace ADB Home card with live shell UID badge in storage header",
-    "test(adb): ensure SDCleaner boot worker preserves foreground owner",
-    "fix(adb): do not tear down SDCleaner foreground ADB after boot recovery"
+    "test(sdcleaner): require compact live ADB badge instead of Home setup card"
   ]
 }
