@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-79-run-1169",
-  "versionName": "7.5-experimental.1169",
-  "versionCode": 101169,
+  "tag": "experimental-pr-79-run-1170",
+  "versionName": "7.5-experimental.1170",
+  "versionCode": 101170,
   "apkName": "VREC-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1169/VREC-7.5.apk",
-  "apkSize": 12897994,
-  "sha256": "a3939a5f27aedf8b2fcef4d103bd7ca680fac20645a779e778083a195e0f5fa1",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1169",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1170/VREC-7.5.apk",
+  "apkSize": 12899274,
+  "sha256": "2a000d7ab8236fa344c771de58b6737f9bacb273c2aa06fcdf5dd85764e5ca5a",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1170",
   "notes": [
+    "Harden end-of-call confirmation, dual-SIM ordering, headset following",
     "Experimental: dual-SIM call detection, SIM/VoIP hand-over and headset mic following"
   ]
 }
