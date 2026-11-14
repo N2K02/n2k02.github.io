@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-205",
-  "versionName": "6.2-experimental.205",
-  "versionCode": 100205,
-  "apkName": "NetSpeed-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-43-run-205/NetSpeed-6.2.apk",
-  "apkSize": 19639614,
-  "sha256": "bc467e548415b7256c012cb8b4eca0e5d434a536291602ab3e65e50c07dc3629",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-43-run-205",
+  "tag": "experimental-pr-45-run-209",
+  "versionName": "6.4-experimental.209",
+  "versionCode": 100209,
+  "apkName": "NetSpeed-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-45-run-209/NetSpeed-6.4.apk",
+  "apkSize": 19639688,
+  "sha256": "9ebdf0f28a59fff24dca469eae1adbdc3df46969348c5fa8474f586343abc8d0",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-45-run-209",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "Fix transparent status bar and notification icons; add regression checks"
   ]
 }
