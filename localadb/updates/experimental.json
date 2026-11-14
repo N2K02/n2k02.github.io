@@ -1,18 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-25-run-252",
-  "versionName": "2.8-experimental.252",
-  "versionCode": 100252,
-  "apkName": "LocalAdb-PR-25-8d0324d.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-25-run-252/LocalAdb-PR-25-8d0324d.apk",
+  "tag": "experimental-pr-26-run-254",
+  "versionName": "2.9-experimental.254",
+  "versionCode": 100254,
+  "apkName": "LocalAdb-PR-26-958f33f.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-26-run-254/LocalAdb-PR-26-958f33f.apk",
   "apkSize": 39699874,
-  "sha256": "01c5813a86916f1327355b4acb3a516721210bc32d9de55abe8f7fd3cc1f8684",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-25-run-252",
+  "sha256": "347bbfa21262d0a51721a25dea95d084eda442223f7368a38c69a887f12c138f",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-26-run-254",
   "notes": [
-    "test: align shared theme regression pin with dependency update",
-    "fix: restore checksum-pinned Gradle wrapper bootstrap",
-    "build(deps): bump the all-dependencies group with 6 updates (#21)",
-    "test: align native installer regression assertions with compact UI (#24)",
-    "feat: direct Shizuku APK installation and improved installer UI"
+    "Add regression test for standalone installer dismissal",
+    "Close standalone installer without launching LocalADB home",
+    "Isolate external APK installer from LocalADB main task"
   ]
 }
