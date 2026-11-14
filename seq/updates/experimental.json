@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-239",
-  "versionName": "0.5-experimental.239",
-  "versionCode": 100239,
-  "apkName": "SEQ-PR-3-663374d.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-239/SEQ-PR-3-663374d.apk",
+  "tag": "experimental-pr-3-run-242",
+  "versionName": "0.5-experimental.242",
+  "versionCode": 100242,
+  "apkName": "SEQ-PR-3-01c2e8d.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-242/SEQ-PR-3-01c2e8d.apk",
   "apkSize": 88988872,
-  "sha256": "71ba54b4f8fdeec55f1b46e5a8b7fc1b9d47d52c861ed01b57003d13b02d9e84",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-239",
+  "sha256": "d6e9aba9090da9aa9bec884011e6253c941ab88b53862df34fe6f60b5543ddbe",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-242",
   "notes": [
+    "Reserve boosted-plan gain before fading the new DSP plan in",
+    "Preserve music fidelity across Concert and equalizer presets",
     "test(seq): guard audio diagnostics submenu separation",
     "feat(seq): add Audio diagnostics settings submenu",
     "refactor(seq): move audio probes out of ADB connection",
@@ -16,8 +18,6 @@
     "perf: SEQ Auto analyzer pauses once the balance has settled",
     "perf: SEQ DSP threads wait for work instead of polling",
     "SEQ DSP review fixes",
-    "SEQ DSP: RootlessBrennanDSP-style capture engine as the default for all media",
-    "Test native-first backend selection and duplicate playback safeguards",
-    "Add safe native-first automatic engine selection policy"
+    "SEQ DSP: RootlessBrennanDSP-style capture engine as the default for all media"
   ]
 }
