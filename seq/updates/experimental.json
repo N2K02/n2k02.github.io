@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-242",
-  "versionName": "0.5-experimental.242",
-  "versionCode": 100242,
-  "apkName": "SEQ-PR-3-01c2e8d.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-242/SEQ-PR-3-01c2e8d.apk",
+  "tag": "experimental-pr-3-run-243",
+  "versionName": "0.5-experimental.243",
+  "versionCode": 100243,
+  "apkName": "SEQ-PR-3-4361dd7.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-243/SEQ-PR-3-4361dd7.apk",
   "apkSize": 88988872,
-  "sha256": "d6e9aba9090da9aa9bec884011e6253c941ab88b53862df34fe6f60b5543ddbe",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-242",
+  "sha256": "3649dbceaf2346a59f68aa86b5f5ba614e732c75a8dde596d0575b593aaa68fe",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-243",
   "notes": [
+    "Switch DSP plans at the fade boundary within audio blocks",
     "Reserve boosted-plan gain before fading the new DSP plan in",
     "Preserve music fidelity across Concert and equalizer presets",
     "test(seq): guard audio diagnostics submenu separation",
@@ -17,7 +18,6 @@
     "fix: SEQ mRadio presets use mRadio's real filter curve",
     "perf: SEQ Auto analyzer pauses once the balance has settled",
     "perf: SEQ DSP threads wait for work instead of polling",
-    "SEQ DSP review fixes",
-    "SEQ DSP: RootlessBrennanDSP-style capture engine as the default for all media"
+    "SEQ DSP review fixes"
   ]
 }
