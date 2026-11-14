@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-45-run-376",
-  "versionName": "6.9-experimental.376",
-  "versionCode": 100376,
-  "apkName": "MRadio-PR-45-6543a08.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-45-run-376/MRadio-PR-45-6543a08.apk",
+  "tag": "experimental-pr-46-run-380",
+  "versionName": "7.1-experimental.380",
+  "versionCode": 100380,
+  "apkName": "MRadio-PR-46-871c45f.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-46-run-380/MRadio-PR-46-871c45f.apk",
   "apkSize": 24458858,
-  "sha256": "b600929769b90ea9403881121a63e451d8be5ccdd5369fc4a18ec4cccd9fcb99",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-45-run-376",
+  "sha256": "95049fa870bdb945b166c0da3c4f6bdb75ac6b4e84a0f3b03aaa57f7ad460fba",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-46-run-380",
   "notes": [
-    "perf: 8D orbit pan at block rate (~16x fewer sin/cos)"
+    "Restore biquad math imports after limiter cleanup",
+    "Preserve music fidelity across Concert and equalizer presets"
   ]
 }
