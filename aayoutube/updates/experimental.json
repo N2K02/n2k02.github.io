@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-737",
-  "versionName": "8.3-experimental.737",
-  "versionCode": 100737,
+  "tag": "experimental-pr-47-run-741",
+  "versionName": "8.3-experimental.741",
+  "versionCode": 100741,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-737/AAYoutube-8.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-741/AAYoutube-8.3.apk",
   "apkSize": 21559746,
-  "sha256": "99059d32b9e945095018ab6b72a5abd4972372c5968e8fb49978d33ac4e02e93",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-737",
+  "sha256": "0a9ffa2fcfaf708c1bef34215364133f1969d4d0bb26fa8f3c97598a3ac79e6c",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-741",
   "notes": [
+    "test(android-auto): escape interpolation in source contract assertion",
+    "test(android-auto): cover car VIEW categories and privacy-safe entry diagnostics",
+    "feat(android-auto): log car Activity entry and display routing without private URLs",
+    "fix(android-auto): match AABrowser car categories on browsable activity entry",
     "docs(android-auto): explain one-build AABrowser discovery experiment and limitations",
     "fix(android-auto): preserve phone launcher app label with direct car activity",
     "test(android-auto): guard AABrowser activity categories and separate music",
     "feat(android-auto): diagnose AABrowser-style activity discovery without launcher alias",
     "fix(android-auto): align automotive descriptors with AABrowser media metadata",
-    "fix(android-auto): align automotive descriptors with AABrowser media metadata",
-    "feat(android-auto): expose MainActivity directly with AABrowser car launcher categories",
-    "Revert AndroidX car surface runtime: back to the AABrowser projection SDK",
-    "Fix car surface ownership, enable GPU presentation and update obsolete service assertions",
-    "Replace legacy AA video SDK with AndroidX surface runtime and remove duplicate entries"
+    "fix(android-auto): align automotive descriptors with AABrowser media metadata"
   ]
 }
