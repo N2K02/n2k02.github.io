@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-789",
-  "versionName": "8.4-experimental.789",
-  "versionCode": 100789,
+  "tag": "experimental-pr-48-run-792",
+  "versionName": "8.4-experimental.792",
+  "versionCode": 100792,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-789/AAYoutube-8.4.apk",
-  "apkSize": 21592514,
-  "sha256": "e6bf2e5700b64601511217cc06a9c0ce7a1016a6c0ba4d5c74a5b5110d5854a4",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-789",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-792/AAYoutube-8.4.apk",
+  "apkSize": 21608898,
+  "sha256": "8527006e7c3bd2d355bf74967659d94f8f1b8936ce1fead9e8a9a1fb67ca0a9e",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-792",
   "notes": [
+    "Test timer preferences restoration, invalid values and auto-save without auto-start",
+    "Auto-save timer duration and unit on change, restore on reopening",
+    "Persist sleep timer duration and unit without restoring active countdown",
     "Test rounded centered timer control and bounded one-step adjustments",
     "Add rounded centered sleep timer input with plus and minus controls",
     "Add bounded plus/minus adjustment policy for sleep timer",
     "Test four installer cards, visibility and installed badge behavior",
     "Refresh installed installer badges when returning to AAYouTube",
     "Add UnknownAuto as fourth installation option with package detection",
-    "Declare the four supported installer package IDs for Android visibility",
-    "Detect installed installers and replace Open action with Installed badge",
-    "Assert installation help omits Video visibility card and button",
-    "Remove Video visibility card and report button from installation help"
+    "Declare the four supported installer package IDs for Android visibility"
   ]
 }
