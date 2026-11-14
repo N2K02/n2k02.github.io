@@ -1,0 +1,56 @@
+name: Synchronize legacy update metadata and deploy Pages
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: legacy-update-bridge
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Test bridge
+        run: python3 -m unittest discover -s scripts -p 'test_sync_legacy_updates.py'
+      - name: Synchronize metadata from public app releases
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync_legacy_updates.py
+      - name: Validate static website
+        run: python3 scripts/verify_static_site.py
+      - name: Commit changed metadata
+        if: github.event_name != 'pull_request'
+        run: |
+          set -euo pipefail
+          git add -- '*/updates/*.json'
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Sync legacy update metadata [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: prepare
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy website and update feeds
+        id: deploy
+        uses: actions/deploy-pages@v4

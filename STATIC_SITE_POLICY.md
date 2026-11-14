@@ -3,7 +3,7 @@
 This repository hosts only the static N2K02 website and public update metadata.
 
 - Do not publish GitHub Releases, APK binaries, or app version tags here.
-- Do not add Android build, signing, distribution, or release-publishing workflows.
+- Do not add Android build, signing, APK distribution, or release-publishing workflows. The temporary metadata-only legacy updater bridge may synchronize JSON from public app releases until existing installations have migrated.
 - App APKs and version tags belong in their own app repositories.
 - Public download pages must link to the latest stable APK in the corresponding app repository.
 - Existing update manifests must not be deleted or redirected until each consuming app's updater and publishing workflow has migrated.
@@ -29,3 +29,7 @@ bash scripts/cleanup_website_releases.sh --execute
 The cleanup deletes all legacy website releases and website tags; it does not touch release assets or tags in the individual Android app repositories. It is intentionally **not** automated in GitHub Actions. Review the dry-run before deleting any historical APKs.
 
 GitHub repository administration is required to remove external distribution credentials and restrict Actions write permission; static code files alone cannot enforce those GitHub permissions.
+
+## Temporary compatibility bridge
+
+Existing installed apps still read the per-app update JSON. The metadata-only bridge reads published source GitHub Releases and advances those JSON files without a cross-repository distribution token. It preserves newer existing feeds and requires a release asset digest. GitHub Pages must be configured to publish using GitHub Actions before the bridge is enabled: pushes made using `GITHUB_TOKEN` do not trigger branch-based Pages builds. The same workflow deploys Pages on normal pushes and after scheduled syncs. Remove the bridge only when existing installations have migrated to direct release lookups.

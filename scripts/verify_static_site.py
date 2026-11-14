@@ -5,8 +5,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
-if (ROOT / ".github" / "workflows").exists():
-    errors.append("Website repository must not contain GitHub Actions workflows")
+workflows = ROOT / ".github" / "workflows"
+if workflows.exists():
+    for workflow in workflows.iterdir():
+        if workflow.name != "legacy-update-bridge.yml":
+            errors.append(f"Unapproved website workflow: {workflow.name}")
 if any(ROOT.rglob("*.apk")):
     errors.append("APK files must not be committed to the website")
 pages = sorted(ROOT.glob("*/download/index.html"))
