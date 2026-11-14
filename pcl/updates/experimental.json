@@ -1,14 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-81-run-587",
-  "versionName": "7.2-experimental.587",
-  "versionCode": 100587,
+  "tag": "experimental-pr-81-run-589",
+  "versionName": "experimental-pr-81-run-589",
+  "versionCode": 100589,
   "apkName": "PCL-7.2.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-81-run-587/PCL-7.2.apk",
-  "apkSize": 19999611,
-  "sha256": "37eda491e555f31310c88842c021e4c5345a4baef6611f35670e52c48c6f4c73",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-81-run-587",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-81-run-589/PCL-7.2.apk",
+  "apkSize": 19999607,
+  "sha256": "d2a8a096831fc6a934987ffb6f3995b9163d7b3a9a53977b8a83acc9e315b0ef",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-81-run-589",
   "notes": [
+    "Complete token-free public release updater migration",
+    "refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
     "Fix transparent status bar and notification icons; add regression checks"
   ]
 }

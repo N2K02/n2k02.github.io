@@ -1,14 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-45-run-209",
-  "versionName": "6.4-experimental.209",
-  "versionCode": 100209,
+  "tag": "experimental-pr-45-run-211",
+  "versionName": "experimental-pr-45-run-211",
+  "versionCode": 100211,
   "apkName": "NetSpeed-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-45-run-209/NetSpeed-6.4.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-45-run-211/NetSpeed-6.4.apk",
   "apkSize": 19639688,
-  "sha256": "9ebdf0f28a59fff24dca469eae1adbdc3df46969348c5fa8474f586343abc8d0",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-45-run-209",
+  "sha256": "e29cf7c638d09e9595128fa850d41aebb59d6852d228c9e8d487908ea2f61873",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-45-run-211",
   "notes": [
+    "Complete token-free public release updater migration",
+    "refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
     "Fix transparent status bar and notification icons; add regression checks"
   ]
 }
