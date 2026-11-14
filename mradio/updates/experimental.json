@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-380",
-  "versionName": "7.1-experimental.380",
-  "versionCode": 100380,
-  "apkName": "MRadio-PR-46-871c45f.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-46-run-380/MRadio-PR-46-871c45f.apk",
+  "tag": "experimental-pr-46-run-381",
+  "versionName": "7.1-experimental.381",
+  "versionCode": 100381,
+  "apkName": "MRadio-PR-46-cdfaeed.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-46-run-381/MRadio-PR-46-cdfaeed.apk",
   "apkSize": 24458858,
-  "sha256": "95049fa870bdb945b166c0da3c4f6bdb75ac6b4e84a0f3b03aaa57f7ad460fba",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-46-run-380",
+  "sha256": "00f3c90890fbee5adb7248ca780135f19c0d2dd2afd5acefd72ef9c7cbeaf33f",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-46-run-381",
   "notes": [
+    "Prepare preset headroom off the audio thread",
     "Restore biquad math imports after limiter cleanup",
     "Preserve music fidelity across Concert and equalizer presets"
   ]
