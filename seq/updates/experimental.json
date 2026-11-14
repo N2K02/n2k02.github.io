@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-243",
-  "versionName": "0.5-experimental.243",
-  "versionCode": 100243,
-  "apkName": "SEQ-PR-3-4361dd7.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-243/SEQ-PR-3-4361dd7.apk",
-  "apkSize": 88988872,
-  "sha256": "3649dbceaf2346a59f68aa86b5f5ba614e732c75a8dde596d0575b593aaa68fe",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-243",
+  "tag": "experimental-pr-3-run-245",
+  "versionName": "0.5-experimental.245",
+  "versionCode": 100245,
+  "apkName": "SEQ-PR-3-ecfa176.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-245/SEQ-PR-3-ecfa176.apk",
+  "apkSize": 88988946,
+  "sha256": "8bf099b62e63e11eedb59bc5742e0482301b68e9e7a4a4841e4ca983a86a700d",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-245",
   "notes": [
+    "Fix transparent status bar and notification icons; add regression checks",
+    "Reserve narrow correction peaks and enforce linked limiter ceilings",
     "Switch DSP plans at the fade boundary within audio blocks",
     "Reserve boosted-plan gain before fading the new DSP plan in",
     "Preserve music fidelity across Concert and equalizer presets",
@@ -16,8 +18,6 @@
     "feat(seq): add Audio diagnostics settings submenu",
     "refactor(seq): move audio probes out of ADB connection",
     "fix: SEQ mRadio presets use mRadio's real filter curve",
-    "perf: SEQ Auto analyzer pauses once the balance has settled",
-    "perf: SEQ DSP threads wait for work instead of polling",
-    "SEQ DSP review fixes"
+    "perf: SEQ Auto analyzer pauses once the balance has settled"
   ]
 }
