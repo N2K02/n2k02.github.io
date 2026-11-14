@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-66-run-220",
-  "versionName": "7.2-experimental.220",
-  "versionCode": 100220,
-  "apkName": "PBar-7.2.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-66-run-220/PBar-7.2.apk",
-  "apkSize": 19918276,
-  "sha256": "8fd873adea3f5935c0fcc1138be843d396a42e05e34058e19b28c90b8a04ee0d",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-66-run-220",
+  "tag": "experimental-pr-68-run-224",
+  "versionName": "7.4-experimental.224",
+  "versionCode": 100224,
+  "apkName": "PBar-7.4.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-68-run-224/PBar-7.4.apk",
+  "apkSize": 19918350,
+  "sha256": "ccc61ba111b783d47772b6cb90fbffbc19f6a40cdeffb814173f23f8ee6ce288",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-68-run-224",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "Fix transparent status bar and notification icons; add regression checks"
   ]
 }
