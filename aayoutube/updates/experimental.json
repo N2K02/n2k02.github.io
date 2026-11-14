@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-779",
-  "versionName": "8.4-experimental.779",
-  "versionCode": 100779,
+  "tag": "experimental-pr-48-run-786",
+  "versionName": "8.4-experimental.786",
+  "versionCode": 100786,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-779/AAYoutube-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-786/AAYoutube-8.4.apk",
   "apkSize": 21592514,
-  "sha256": "61f5a78577fb1c44ce95c5a686e8424dba95a9fdd3fa2c0854dee21b8f2fd2f8",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-779",
+  "sha256": "7bff2830dff10a659c74d35b38ee58064c53d2be94c3f303837751626d5ee249",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-786",
   "notes": [
+    "Test four installer cards, visibility and installed badge behavior",
+    "Refresh installed installer badges when returning to AAYouTube",
+    "Add UnknownAuto as fourth installation option with package detection",
+    "Declare the four supported installer package IDs for Android visibility",
+    "Detect installed installers and replace Open action with Installed badge",
+    "Assert installation help omits Video visibility card and button",
+    "Remove Video visibility card and report button from installation help",
     "Update installation help regression test for card layout and removed update section",
     "Redesign Android Auto installation help as compact Material 3 cards",
-    "Escape literal timer variable in Kotlin notification regression assertion",
-    "Test notification sleep countdown rounding, cancel action and compact controls",
-    "Refresh media notification on minute changes and handle sleep timer cancel action",
-    "Show sleep timer minutes and Cancel action in existing media notification",
-    "Notify media UI only on sleep timer minute transitions",
-    "Match actual alternative installer update guidance in contract test",
-    "Update Settings contract test for Sleep Timer and installation submenu",
-    "Update Settings contract test for Sleep Timer and installation submenu"
+    "Escape literal timer variable in Kotlin notification regression assertion"
   ]
 }
