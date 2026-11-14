@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-786",
-  "versionName": "8.4-experimental.786",
-  "versionCode": 100786,
+  "tag": "experimental-pr-48-run-789",
+  "versionName": "8.4-experimental.789",
+  "versionCode": 100789,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-786/AAYoutube-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-789/AAYoutube-8.4.apk",
   "apkSize": 21592514,
-  "sha256": "7bff2830dff10a659c74d35b38ee58064c53d2be94c3f303837751626d5ee249",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-786",
+  "sha256": "e6bf2e5700b64601511217cc06a9c0ce7a1016a6c0ba4d5c74a5b5110d5854a4",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-789",
   "notes": [
+    "Test rounded centered timer control and bounded one-step adjustments",
+    "Add rounded centered sleep timer input with plus and minus controls",
+    "Add bounded plus/minus adjustment policy for sleep timer",
     "Test four installer cards, visibility and installed badge behavior",
     "Refresh installed installer badges when returning to AAYouTube",
     "Add UnknownAuto as fourth installation option with package detection",
     "Declare the four supported installer package IDs for Android visibility",
     "Detect installed installers and replace Open action with Installed badge",
     "Assert installation help omits Video visibility card and button",
-    "Remove Video visibility card and report button from installation help",
-    "Update installation help regression test for card layout and removed update section",
-    "Redesign Android Auto installation help as compact Material 3 cards",
-    "Escape literal timer variable in Kotlin notification regression assertion"
+    "Remove Video visibility card and report button from installation help"
   ]
 }
