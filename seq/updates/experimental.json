@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-245",
-  "versionName": "0.5-experimental.245",
-  "versionCode": 100245,
-  "apkName": "SEQ-PR-3-ecfa176.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-245/SEQ-PR-3-ecfa176.apk",
+  "tag": "experimental-pr-3-run-246",
+  "versionName": "0.5-experimental.246",
+  "versionCode": 100246,
+  "apkName": "SEQ-PR-3-c290e66.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-246/SEQ-PR-3-c290e66.apk",
   "apkSize": 88988946,
-  "sha256": "8bf099b62e63e11eedb59bc5742e0482301b68e9e7a4a4841e4ca983a86a700d",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-245",
+  "sha256": "e2005d449b6a265b8c16d9f9af2aa6c7b45e6223241767fb380b309774c04ef9",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-246",
   "notes": [
+    "Remove idle polling and preserve stereo with smooth efficient 8D",
     "Fix transparent status bar and notification icons; add regression checks",
     "Reserve narrow correction peaks and enforce linked limiter ceilings",
     "Switch DSP plans at the fade boundary within audio blocks",
@@ -17,7 +18,6 @@
     "test(seq): guard audio diagnostics submenu separation",
     "feat(seq): add Audio diagnostics settings submenu",
     "refactor(seq): move audio probes out of ADB connection",
-    "fix: SEQ mRadio presets use mRadio's real filter curve",
-    "perf: SEQ Auto analyzer pauses once the balance has settled"
+    "fix: SEQ mRadio presets use mRadio's real filter curve"
   ]
 }
