@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-28-run-132",
-  "versionName": "3.4-experimental.132",
-  "versionCode": 100132,
-  "apkName": "MovieTogether-PR-28-1b4194f.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-28-run-132/MovieTogether-PR-28-1b4194f.apk",
+  "tag": "experimental-pr-28-run-134",
+  "versionName": "experimental-pr-28-run-134",
+  "versionCode": 100134,
+  "apkName": "MovieTogether-PR-28-e3dfede.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-28-run-134/MovieTogether-PR-28-e3dfede.apk",
   "apkSize": 26253333,
-  "sha256": "83f0646e1f7811b251f1ca8c3a8c6a25ab3277cc7d00afe0e712033836cef560",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-28-run-132",
+  "sha256": "d1f6f4c32f6102680a4b841ca8561f6fc138f8e7a16a1478c4821ffea467bd39",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-28-run-134",
   "notes": [
+    "Complete token-free public release updater migration",
+    "refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
     "Fix transparent status bar and notification icons; add regression checks",
     "build(deps): bump the all-dependencies group with 3 updates (#27)",
     "Resolve releases from app repository, not website tags (#26)",
     "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
     "Experimental: update shared updater to 0.1.30 (#24)",
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
-    "fix: use source APK releases for update feeds (#21)",
-    "fix: publish update feeds through pull requests (#20)",
-    "ci: remove completed one-time branch cleanup workflow",
-    "ci: retain only latest stable/experimental APKs and build runs"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)"
   ]
 }

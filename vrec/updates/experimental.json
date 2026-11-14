@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-79-run-1178",
-  "versionName": "7.5-experimental.1178",
-  "versionCode": 101178,
+  "tag": "experimental-pr-79-run-1180",
+  "versionName": "experimental-pr-79-run-1180",
+  "versionCode": 101180,
   "apkName": "VREC-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1178/VREC-7.5.apk",
-  "apkSize": 12900918,
-  "sha256": "1d05b6008aca948ec07c5b9315d63c0a067c5c785b15864a8f2bea97aeadec30",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1178",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1180/VREC-7.5.apk",
+  "apkSize": 12900922,
+  "sha256": "bb9f106e8b09cf8c26a90534b5d07480e7281ad2998a42213fe85600798cd432",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1180",
   "notes": [
+    "Complete token-free public release updater migration",
+    "refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
+    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
     "Fix transparent status bar and notification icons; add regression checks",
     "Test that silent VoIP PCM does not force microphone source switching",
     "Avoid restarting VoIP microphone for normal zero-sample silence",
     "Test transient audio-mode exits and uncertain Telecom call termination",
     "Confirm uncertain SIM call termination before stopping capture",
-    "Log monotonic call detection-to-capture latency for SIM and VoIP diagnostics",
-    "Ignore the default SIM watch's stale state when it returns to use",
-    "Confirm call end against telecom; SIM watch readiness",
-    "Harden end-of-call confirmation, dual-SIM ordering, headset following",
-    "Experimental: dual-SIM call detection, SIM/VoIP hand-over and headset mic following"
+    "Log monotonic call detection-to-capture latency for SIM and VoIP diagnostics"
   ]
 }

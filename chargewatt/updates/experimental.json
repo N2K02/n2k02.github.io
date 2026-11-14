@@ -1,15 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-111",
-  "versionName": "2.2-experimental.111",
-  "versionCode": 100111,
-  "apkName": "ChargeWatt-PR-16-76f7a84.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-16-run-111/ChargeWatt-PR-16-76f7a84.apk",
+  "tag": "experimental-pr-16-run-113",
+  "versionName": "experimental-pr-16-run-113",
+  "versionCode": 100113,
+  "apkName": "ChargeWatt-PR-16-f45586c.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-16-run-113/ChargeWatt-PR-16-f45586c.apk",
   "apkSize": 1344902,
-  "sha256": "895c5568c35eb8d6341de57a3f7a204d897bf3c3b571b7654e200cc8777ab912",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-16-run-111",
+  "sha256": "cc45a8988abe6d783a1341289d07eaed9cbec1820d469d2625932e887f96cfcd",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-16-run-113",
   "notes": [
-    "Merge 2b7c70220c0839f1ff82e5bf9a94c78c5fd82048 into 1486f089602fdbd9ef6d08e588ac3850e97c1afb",
+    "Merge cec7494682be976515491939c6e8550d5270cf21 into 1486f089602fdbd9ef6d08e588ac3850e97c1afb",
+    "Complete token-free public release updater migration",
+    "refactor(updater): migrate fully to public GitHub Releases",
+    "[skip ci] refactor(updater): migrate fully to public GitHub Releases",
+    "[skip ci] refactor(updater): migrate fully to public GitHub Releases",
+    "[skip ci] refactor(updater): migrate fully to public GitHub Releases",
     "Fix transparent status bar and notification icons; add regression checks"
   ]
 }

@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-16-run-252",
-  "versionName": "2.0-experimental.252",
-  "versionCode": 100252,
-  "apkName": "SDCleaner-2.0.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-16-run-252/SDCleaner-2.0.apk",
-  "apkSize": 57636192,
-  "sha256": "29d549e17ecb39782399f83a7c68aeb7363d4c7592370bea1e342d0f3846ad12",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-16-run-252",
+  "tag": "experimental-pr-16-run-253",
+  "versionName": "experimental-pr-16-run-253",
+  "versionCode": 100253,
+  "apkName": "SDCleaner-2.1.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-16-run-253/SDCleaner-2.1.apk",
+  "apkSize": 57652576,
+  "sha256": "815bddb57977d247e5285068dd596d277cd934e3faa05fcb815c3cd03deaa608",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-16-run-253",
   "notes": [
+    "Complete token-free public release updater migration",
     "Fix transparent status bar and notification icons; add regression checks",
     "Add custom interval stepper with rounded centered number field",
     "Fix obsolete diagnostics test after simplifying Scheduler subscriptions",
@@ -17,7 +18,6 @@
     "Use one automatic schedule with six-hour defaults and simpler timing options",
     "Redesign scheduler with next cleanup, visible history and direct editing",
     "Redesign Scheduler with compact schedule-first layout (#14)",
-    "Stop APK publishing to website repository (#13)",
-    "Experimental: update shared updater to 0.1.30 (#12)"
+    "Stop APK publishing to website repository (#13)"
   ]
 }
