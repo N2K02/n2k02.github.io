@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-3-run-249",
-  "versionName": "experimental-pr-3-run-249",
-  "versionCode": 100249,
-  "apkName": "SEQ-PR-3-268406e.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-249/SEQ-PR-3-268406e.apk",
+  "tag": "experimental-pr-3-run-250",
+  "versionName": "experimental-pr-3-run-250",
+  "versionCode": 100250,
+  "apkName": "SEQ-PR-3-5ccbf0b.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-3-run-250/SEQ-PR-3-5ccbf0b.apk",
   "apkSize": 89005330,
-  "sha256": "976502ebbd82e249dc4f516a863eb818217bfef77a26dc7f16f097722158cef8",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-249",
+  "sha256": "5caced8149ac381b35bae70c86cb0f16f3cf0a111d8010c94cc8d57a69dbe840",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-3-run-250",
   "notes": [
+    "Use updater 0.1.35 for verified historical releases",
     "Align SEQ updater policy test with public release adapter 0.1.34",
     "Complete token-free public release updater migration",
     "refactor(updater): remove legacy distribution manifest and token",
@@ -17,7 +18,6 @@
     "[skip ci] refactor(updater): remove legacy distribution manifest and token",
     "Remove idle polling and preserve stereo with smooth efficient 8D",
     "Fix transparent status bar and notification icons; add regression checks",
-    "Reserve narrow correction peaks and enforce linked limiter ceilings",
-    "Switch DSP plans at the fade boundary within audio blocks"
+    "Reserve narrow correction peaks and enforce linked limiter ceilings"
   ]
 }

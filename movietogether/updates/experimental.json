@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-28-run-134",
-  "versionName": "experimental-pr-28-run-134",
-  "versionCode": 100134,
-  "apkName": "MovieTogether-PR-28-e3dfede.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-28-run-134/MovieTogether-PR-28-e3dfede.apk",
-  "apkSize": 26253333,
-  "sha256": "d1f6f4c32f6102680a4b841ca8561f6fc138f8e7a16a1478c4821ffea467bd39",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-28-run-134",
+  "tag": "experimental-pr-28-run-135",
+  "versionName": "experimental-pr-28-run-135",
+  "versionCode": 100135,
+  "apkName": "MovieTogether-PR-28-48ed10c.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-28-run-135/MovieTogether-PR-28-48ed10c.apk",
+  "apkSize": 26269717,
+  "sha256": "fe7393cee3fd0a5a33f6d40717d0c57ff6a635d74b6c23eec2ac704b1dba9228",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-28-run-135",
   "notes": [
+    "Use updater 0.1.35 for verified historical releases",
     "Complete token-free public release updater migration",
     "refactor(updater): use GitHub Releases without distribution token",
     "[skip ci] refactor(updater): use GitHub Releases without distribution token",
@@ -17,7 +18,6 @@
     "build(deps): bump the all-dependencies group with 3 updates (#27)",
     "Resolve releases from app repository, not website tags (#26)",
     "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
-    "Experimental: update shared updater to 0.1.30 (#24)",
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)"
+    "Experimental: update shared updater to 0.1.30 (#24)"
   ]
 }

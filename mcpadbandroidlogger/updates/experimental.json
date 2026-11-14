@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-543",
-  "versionName": "experimental-pr-48-run-543",
-  "versionCode": 100543,
+  "tag": "experimental-pr-48-run-544",
+  "versionName": "experimental-pr-48-run-544",
+  "versionCode": 100544,
   "apkName": "McpAdbAndroidLogger-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-48-run-543/McpAdbAndroidLogger-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-48-run-544/McpAdbAndroidLogger-3.3.apk",
   "apkSize": 29648889,
-  "sha256": "1d84f6bcafcc1392538c5ce3eb37014091b1b596634c66a58aab8b8cdd337d86",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-48-run-543",
+  "sha256": "cdfa15da22df7f492c65e0300147822f58e6e325cf7dd69952df2cd7eeddf227",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-48-run-544",
   "notes": [
+    "Use updater 0.1.35 for verified historical releases",
     "Complete token-free public release updater migration",
     "fix(ci): approve updater 0.1.34 in shared-library version guard",
     "refactor(updater): use GitHub Releases without distribution token",
@@ -17,7 +18,6 @@
     "Use fresh helper evidence without requiring a dumpsys audio read",
     "Read fresh VRec helper diagnostics and accept safe bare Logcat tags",
     "fix: align shared library guard with updated theme pin (#47)",
-    "chore: bump the all-dependencies group with 5 updates (#46)",
-    "Stop APK publishing to website repository (#45)"
+    "chore: bump the all-dependencies group with 5 updates (#46)"
   ]
 }

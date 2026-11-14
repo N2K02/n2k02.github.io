@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-387",
-  "versionName": "experimental-pr-46-run-387",
-  "versionCode": 100387,
-  "apkName": "MRadio-PR-46-9404ba4.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-46-run-387/MRadio-PR-46-9404ba4.apk",
+  "tag": "experimental-pr-46-run-388",
+  "versionName": "experimental-pr-46-run-388",
+  "versionCode": 100388,
+  "apkName": "MRadio-PR-46-e69aef6.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-46-run-388/MRadio-PR-46-e69aef6.apk",
   "apkSize": 24475316,
-  "sha256": "d7ec7104b1a2f1ea21a8899c81baa755412604bf6789398b3f2e795d2ae8c17b",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-46-run-387",
+  "sha256": "22d6b3f3037fca03570a5daef1ec9c0c5c72ee344e590c5d18b70206b340f12e",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-46-run-388",
   "notes": [
+    "Use updater 0.1.35 for verified historical releases",
     "Complete token-free public release updater migration",
     "Restore exact Flat bypass when a pending preset is cancelled",
     "refactor(updater): GitHub Releases dual-channel migration",
@@ -17,7 +18,6 @@
     "Verify multitone fidelity, impulse peaks and retired spatial tails",
     "Fix transparent status bar and notification icons; add regression checks",
     "Recover cleanly from corrupt PCM and flush inaudible filter tails",
-    "Prepare preset headroom off the audio thread",
-    "Restore biquad math imports after limiter cleanup"
+    "Prepare preset headroom off the audio thread"
   ]
 }
