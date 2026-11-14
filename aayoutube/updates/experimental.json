@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-792",
-  "versionName": "8.4-experimental.792",
-  "versionCode": 100792,
+  "tag": "experimental-pr-48-run-798",
+  "versionName": "8.4-experimental.798",
+  "versionCode": 100798,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-792/AAYoutube-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-798/AAYoutube-8.4.apk",
   "apkSize": 21608898,
-  "sha256": "8527006e7c3bd2d355bf74967659d94f8f1b8936ce1fead9e8a9a1fb67ca0a9e",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-792",
+  "sha256": "794d8822906cb62ea936879782625ca1bf5ce91561340a74b34262e12a7a01ed",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-798",
   "notes": [
+    "Test draggable chip navigation and removal of timer notification UI",
+    "Display tappable sleep timer chip above AAYouTube phone UI",
+    "Add draggable in-app sleep countdown chip with tap-to-open Settings",
+    "Restore unmodified media playback notification and drop timer-specific service action",
+    "Remove sleep timer countdown and Cancel action from media notification",
+    "Expose minute-granularity timer state for lightweight in-app countdown chip",
     "Test timer preferences restoration, invalid values and auto-save without auto-start",
     "Auto-save timer duration and unit on change, restore on reopening",
     "Persist sleep timer duration and unit without restoring active countdown",
-    "Test rounded centered timer control and bounded one-step adjustments",
-    "Add rounded centered sleep timer input with plus and minus controls",
-    "Add bounded plus/minus adjustment policy for sleep timer",
-    "Test four installer cards, visibility and installed badge behavior",
-    "Refresh installed installer badges when returning to AAYouTube",
-    "Add UnknownAuto as fourth installation option with package detection",
-    "Declare the four supported installer package IDs for Android visibility"
+    "Test rounded centered timer control and bounded one-step adjustments"
   ]
 }
