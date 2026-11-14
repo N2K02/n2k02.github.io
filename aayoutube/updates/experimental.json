@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-810",
-  "versionName": "8.4-experimental.810",
-  "versionCode": 100810,
+  "tag": "experimental-pr-48-run-811",
+  "versionName": "8.4-experimental.811",
+  "versionCode": 100811,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-810/AAYoutube-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-811/AAYoutube-8.4.apk",
   "apkSize": 21608898,
-  "sha256": "04455b171cffa0d0ea708a25fc614f7a7eb73fc717aae2860f52995c4a9e02a0",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-810",
+  "sha256": "23c26764a485f616cf0d5b2e1392d5d51f0822170eb9ecb6e4e1270aac6764bf",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-811",
   "notes": [
+    "Fix preset ramp headroom before applying EQ boosts",
     "Cover anonymous video-center Play and unrelated tap behavior",
     "Recognize YouTube video-area resume gestures before reapplying explicit pause",
     "Test Sleep Timer chip uses same surface style as floating navigation controls",
@@ -17,7 +18,6 @@
     "Regression-test Play after explicit Pause via generic YouTube center overlay",
     "Fix center-control resume gesture and revert aggressive player-state resync",
     "Preserve music fidelity across Concert and equalizer presets",
-    "Test media notification Play/Pause sync and YouTube center control recovery",
-    "Test YouTube cued center button resync without overriding pause"
+    "Test media notification Play/Pause sync and YouTube center control recovery"
   ]
 }
