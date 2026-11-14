@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-79-run-1171",
-  "versionName": "7.5-experimental.1171",
-  "versionCode": 101171,
+  "tag": "experimental-pr-79-run-1172",
+  "versionName": "7.5-experimental.1172",
+  "versionCode": 101172,
   "apkName": "VREC-7.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1171/VREC-7.5.apk",
-  "apkSize": 12899998,
-  "sha256": "98ee097211fcd3eed3b9cbc49185e850b7f07c9af82dd07bdd2999e3e3bf8cb6",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1171",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1172/VREC-7.5.apk",
+  "apkSize": 12900126,
+  "sha256": "57ea97c9d713ce1e63050712c395f820048d1dab087720206000426f60abbe50",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1172",
   "notes": [
+    "Ignore the default SIM watch's stale state when it returns to use",
     "Confirm call end against telecom; SIM watch readiness",
     "Harden end-of-call confirmation, dual-SIM ordering, headset following",
     "Experimental: dual-SIM call detection, SIM/VoIP hand-over and headset mic following"
