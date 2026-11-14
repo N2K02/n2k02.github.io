@@ -1,15 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-15-run-109",
-  "versionName": "2.1-experimental.109",
-  "versionCode": 100109,
-  "apkName": "ChargeWatt-PR-15-b6af378.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-15-run-109/ChargeWatt-PR-15-b6af378.apk",
-  "apkSize": 1344846,
-  "sha256": "f47d643ce7a172ba9fb13e87fa67184dd5905c65e6a0269d18b52ac7992d0778",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-15-run-109",
+  "tag": "experimental-pr-16-run-111",
+  "versionName": "2.2-experimental.111",
+  "versionCode": 100111,
+  "apkName": "ChargeWatt-PR-16-76f7a84.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-16-run-111/ChargeWatt-PR-16-76f7a84.apk",
+  "apkSize": 1344902,
+  "sha256": "895c5568c35eb8d6341de57a3f7a204d897bf3c3b571b7654e200cc8777ab912",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-16-run-111",
   "notes": [
-    "Merge 927194d7ae7d5b634bee9dcb862fd376e2696b8f into 5c97d24217a268d6b40d5e1ea34cffc9e08236fa",
-    "fix: align shared library guard with updated theme pin"
+    "Merge 2b7c70220c0839f1ff82e5bf9a94c78c5fd82048 into 1486f089602fdbd9ef6d08e588ac3850e97c1afb",
+    "Fix transparent status bar and notification icons; add regression checks"
   ]
 }
