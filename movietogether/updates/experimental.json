@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-26-run-128",
-  "versionName": "3.2-experimental.128",
-  "versionCode": 100128,
-  "apkName": "MovieTogether-PR-26-4e1b022.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-26-run-128/MovieTogether-PR-26-4e1b022.apk",
-  "apkSize": 26249163,
-  "sha256": "e9dbb73b6b443b849d30ff8e673e22d6557da8277fe64ae7d05f553529a5dbc4",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-26-run-128",
+  "tag": "experimental-pr-28-run-132",
+  "versionName": "3.4-experimental.132",
+  "versionCode": 100132,
+  "apkName": "MovieTogether-PR-28-1b4194f.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/experimental-pr-28-run-132/MovieTogether-PR-28-1b4194f.apk",
+  "apkSize": 26253333,
+  "sha256": "83f0646e1f7811b251f1ca8c3a8c6a25ab3277cc7d00afe0e712033836cef560",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/experimental-pr-28-run-132",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only",
+    "Fix transparent status bar and notification icons; add regression checks",
+    "build(deps): bump the all-dependencies group with 3 updates (#27)",
+    "Resolve releases from app repository, not website tags (#26)",
     "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
     "Experimental: update shared updater to 0.1.30 (#24)",
     "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
     "fix: use source APK releases for update feeds (#21)",
     "fix: publish update feeds through pull requests (#20)",
     "ci: remove completed one-time branch cleanup workflow",
-    "ci: retain only latest stable/experimental APKs and build runs",
-    "ci: run one-time cleanup of all non-main branches"
+    "ci: retain only latest stable/experimental APKs and build runs"
   ]
 }
