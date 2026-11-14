@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-772",
-  "versionName": "8.4-experimental.772",
-  "versionCode": 100772,
+  "tag": "experimental-pr-48-run-777",
+  "versionName": "8.4-experimental.777",
+  "versionCode": 100777,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-772/AAYoutube-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-777/AAYoutube-8.4.apk",
   "apkSize": 21592514,
-  "sha256": "26f816674282d278d8edf3652057417c9c13a92a4d051fc48c40f8e8eb8b6183",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-772",
+  "sha256": "5989c2f135e61fc4367797e65a317517f46dc6542a79155a3f72956ec883b532",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-777",
   "notes": [
+    "Escape literal timer variable in Kotlin notification regression assertion",
+    "Test notification sleep countdown rounding, cancel action and compact controls",
+    "Refresh media notification on minute changes and handle sleep timer cancel action",
+    "Show sleep timer minutes and Cancel action in existing media notification",
+    "Notify media UI only on sleep timer minute transitions",
     "Match actual alternative installer update guidance in contract test",
     "Update Settings contract test for Sleep Timer and installation submenu",
     "Update Settings contract test for Sleep Timer and installation submenu",
     "Update Settings contract test for Sleep Timer and installation submenu",
-    "Update Settings contract test for Sleep Timer and installation submenu",
-    "Test installation popup on each new installed version",
-    "Show installation guide once per new installed version unless opted out",
-    "Fix Compose rememberSaveable import blocking experimental APK build",
-    "Test Sleep Timer full shutdown and clean up regression",
-    "Explain that Sleep Timer quits the app to conserve battery"
+    "Update Settings contract test for Sleep Timer and installation submenu"
   ]
 }
