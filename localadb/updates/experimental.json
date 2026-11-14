@@ -1,16 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-26-run-254",
-  "versionName": "2.9-experimental.254",
-  "versionCode": 100254,
-  "apkName": "LocalAdb-PR-26-958f33f.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-26-run-254/LocalAdb-PR-26-958f33f.apk",
-  "apkSize": 39699874,
-  "sha256": "347bbfa21262d0a51721a25dea95d084eda442223f7368a38c69a887f12c138f",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-26-run-254",
+  "tag": "experimental-pr-26-run-270",
+  "versionName": "2.9-experimental.270",
+  "versionCode": 100270,
+  "apkName": "LocalAdb-PR-26-1534c4d.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-26-run-270/LocalAdb-PR-26-1534c4d.apk",
+  "apkSize": 39716258,
+  "sha256": "f5fa0215181eba33757476585f3896533e8e81292847ad24d454969c8fc07201",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-26-run-270",
   "notes": [
-    "Add regression test for standalone installer dismissal",
-    "Close standalone installer without launching LocalADB home",
-    "Isolate external APK installer from LocalADB main task"
+    "Resolve Android lint on legacy internal receiver registration",
+    "Fix outdated Close regression test and cover no-dim dialog behavior",
+    "Disable background dim on floating APK installer activity",
+    "Remove dimming scrim from APK installation popup",
+    "Test permission and channel notification diagnostics",
+    "Explain blocked install notifications in installer and link Android notification settings",
+    "Log effective APK notification availability at foreground start and completion",
+    "Test Open with APK installer uses translucent dialog host",
+    "Make external APK installer translucent over originating app",
+    "Make external APK installer translucent over originating app"
   ]
 }
