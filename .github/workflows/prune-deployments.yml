@@ -1,0 +1,35 @@
+name: Review old Pages deployments
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Choose dry-run first; delete only after reviewing its result
+        type: choice
+        options: [dry-run, delete]
+        default: dry-run
+        required: true
+      confirmation:
+        description: Type DELETE to run delete mode
+        type: string
+        default: ''
+        required: false
+permissions:
+  contents: read
+  deployments: write
+concurrency:
+  group: prune-pages-deployments
+  cancel-in-progress: false
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+      - name: Test deployment retention rules
+        run: python3 -m unittest discover -s scripts -p 'test_prune_deployments.py'
+      - name: Review or delete old inactive deployment records
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLEANUP_MODE: ${{ inputs.mode }}
+          DELETE_CONFIRMATION: ${{ inputs.confirmation }}
+        run: python3 scripts/prune_deployments.py

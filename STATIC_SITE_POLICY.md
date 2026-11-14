@@ -33,3 +33,5 @@ GitHub repository administration is required to remove external distribution cre
 ## Temporary compatibility bridge
 
 Existing installed apps still read the per-app update JSON. The metadata-only bridge reads published source GitHub Releases and advances those JSON files without a cross-repository distribution token. It preserves newer existing feeds and requires a release asset digest. GitHub Pages must be configured to publish using GitHub Actions before the bridge is enabled: pushes made using `GITHUB_TOKEN` do not trigger branch-based Pages builds. The same workflow deploys Pages on normal pushes and after scheduled syncs. Remove the bridge only when existing installations have migrated to direct release lookups.
+
+A manual-only maintenance workflow can review and clean up inactive GitHub Pages deployment records; it does not publish APKs or app releases.
