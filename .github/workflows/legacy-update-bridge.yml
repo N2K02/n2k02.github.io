@@ -25,6 +25,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/sync_legacy_updates.py
+      - name: Test stable APK download behavior
+        run: node scripts/test_stable_download.cjs
       - name: Validate static website
         run: python3 scripts/verify_static_site.py
       - name: Commit changed metadata
