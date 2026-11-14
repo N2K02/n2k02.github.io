@@ -1,18 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-78-run-1167",
-  "versionName": "7.4-experimental.1167",
-  "versionCode": 101167,
-  "apkName": "VREC-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-78-run-1167/VREC-7.4.apk",
-  "apkSize": 12893962,
-  "sha256": "8f60afaffea266c59d4f5f3a1594bfb9bd2925bb3f94d0ef381dd943fb3e83af",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-78-run-1167",
+  "tag": "experimental-pr-79-run-1169",
+  "versionName": "7.5-experimental.1169",
+  "versionCode": 101169,
+  "apkName": "VREC-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-79-run-1169/VREC-7.5.apk",
+  "apkSize": 12897994,
+  "sha256": "a3939a5f27aedf8b2fcef4d103bd7ca680fac20645a779e778083a195e0f5fa1",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-79-run-1169",
   "notes": [
-    "Docs: credit JemRec as the shell helper's source; scrcpy as its embedded runtime",
-    "Publish bounded live VoIP helper health independent of Logcat retention",
-    "Pace incomplete VoIP mic blocks after reader failure to prevent timestamp runaway",
-    "VoIP: wait boundedly for full mic blocks instead of zero-filling on jitter",
-    "Recover quiet VoIP microphone with bounded source fallbacks and persistent evidence"
+    "Experimental: dual-SIM call detection, SIM/VoIP hand-over and headset mic following"
   ]
 }
