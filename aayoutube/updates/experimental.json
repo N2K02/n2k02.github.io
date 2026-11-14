@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-813",
-  "versionName": "8.4-experimental.813",
-  "versionCode": 100813,
+  "tag": "experimental-pr-48-run-814",
+  "versionName": "8.4-experimental.814",
+  "versionCode": 100814,
   "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-813/AAYoutube-8.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-814/AAYoutube-8.4.apk",
   "apkSize": 21613068,
-  "sha256": "748f40e6be18b865ed8068ebef9a240759b09f904d46a13733024a447f840507",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-813",
+  "sha256": "e5c7f2ddae555a571ecdf2fa95d2ba47864bbd044b6b6f597d07bc4729f01762",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-814",
   "notes": [
+    "Keep idle equalizer suspended across unrelated media and hidden pages",
     "Fix transparent status bar and notification icons; add regression checks",
     "Calibrate live EQ headroom at the browser sample rate",
     "Fix preset ramp headroom before applying EQ boosts",
@@ -17,7 +18,6 @@
     "Test Sleep Timer chip uses same surface style as floating navigation controls",
     "Match Sleep Timer chip background and elevation to navigation overlay",
     "Align playback regression contract with safe center Play gesture recovery",
-    "Regression-test Play after explicit Pause via generic YouTube center overlay",
-    "Fix center-control resume gesture and revert aggressive player-state resync"
+    "Regression-test Play after explicit Pause via generic YouTube center overlay"
   ]
 }
