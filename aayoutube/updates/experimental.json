@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-742",
-  "versionName": "8.3-experimental.742",
-  "versionCode": 100742,
+  "tag": "experimental-pr-47-run-743",
+  "versionName": "8.3-experimental.743",
+  "versionCode": 100743,
   "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-742/AAYoutube-8.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-47-run-743/AAYoutube-8.3.apk",
   "apkSize": 21559746,
-  "sha256": "3e2dff54ca0d4fe34a1dcd38e4f608ac2a3afd2b3426f78adcc7b86b6679c01d",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-742",
+  "sha256": "bdb43cefd40c206fa59b1e8701e4bfc46086b8a4ae3e8c602e690f80ed86479a",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-47-run-743",
   "notes": [
+    "Run everything in one process, as AABrowser does",
     "Android Auto registration: match AABrowser's actual manifest and descriptor",
     "test(android-auto): escape interpolation in source contract assertion",
     "test(android-auto): cover car VIEW categories and privacy-safe entry diagnostics",
@@ -17,7 +18,6 @@
     "docs(android-auto): explain one-build AABrowser discovery experiment and limitations",
     "fix(android-auto): preserve phone launcher app label with direct car activity",
     "test(android-auto): guard AABrowser activity categories and separate music",
-    "feat(android-auto): diagnose AABrowser-style activity discovery without launcher alias",
-    "fix(android-auto): align automotive descriptors with AABrowser media metadata"
+    "feat(android-auto): diagnose AABrowser-style activity discovery without launcher alias"
   ]
 }
