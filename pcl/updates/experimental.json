@@ -1,19 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-81-run-590",
-  "versionName": "experimental-pr-81-run-590",
-  "versionCode": 100590,
-  "apkName": "PCL-7.2.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-81-run-590/PCL-7.2.apk",
+  "tag": "experimental-pr-83-run-600",
+  "versionName": "experimental-pr-83-run-600",
+  "versionCode": 100600,
+  "apkName": "PCL-7.4-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-83-run-600/PCL-7.4-experimental.2.apk",
   "apkSize": 19999607,
-  "sha256": "c4a8d5f123ed1076e38965c9e4ab4ff0a2d237590d7229d0b2f779bfa7cb313b",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-81-run-590",
+  "sha256": "89b05a473e62d78ba5acac7a0a8ae9d4b8fe6db095c1d0afa5dda1b9a8c368b1",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-83-run-600",
   "notes": [
-    "Use updater 0.1.35 for verified historical releases",
-    "Complete token-free public release updater migration",
-    "refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "Fix transparent status bar and notification icons; add regression checks"
+    "test: approve shared updater 0.1.36 in dependency contract",
+    "deps: ship dynamic installed-version updater 0.1.36",
+    "ci: consistent App-nextVersion-experimental.N names and APK assets",
+    "ci: standardized experimental version, filename and sequence",
+    "ci: stable APK versionCode must exceed earlier experimental releases",
+    "ci: allocate version codes above earlier experimental and stable APKs",
+    "ci: preserve reusable branches after merged PRs",
+    "ci: build exact merged main commit on automated merges"
   ]
 }

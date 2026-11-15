@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v3.3",
-  "versionName": "3.3",
-  "versionCode": 100538,
-  "apkName": "McpAdbAndroidLogger-3.3.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.3/McpAdbAndroidLogger-3.3.apk",
-  "apkSize": 29644793,
-  "sha256": "06bb5357ca1153c3305eb23f1d4d82790a46c39d3357349a1232c762393fe9e2",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.3",
+  "tag": "v3.5",
+  "versionName": "v3.5",
+  "versionCode": 100557,
+  "apkName": "McpAdbAndroidLogger-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.5/McpAdbAndroidLogger-3.5.apk",
+  "apkSize": 29652985,
+  "sha256": "f44f8bf1221fd531024beb53859e5a23c2cd8f252bcf3dcc391bea2127b3072e",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.5",
   "notes": [
+    "CI: standard App-version-experimental.N APK naming (#50)",
+    "CI: publish stable APK after automated main merges (#49)",
+    "Merge experimental updates and public release updater",
     "fix: align shared library guard with updated theme pin (#47)",
     "chore: bump the all-dependencies group with 5 updates (#46)",
     "Stop APK publishing to website repository (#45)",
     "Experimental: configurable diagnostic Logcat profiles and MCP filters (#44)",
     "test(adb): guard manual Stop across Android activity recreation",
     "fix(adb): do not reset manual Stop on activity recreation",
-    "test(adb): boot receiver only accepts expected broadcasts",
-    "refactor(adb): expose boot action policy for executable unit tests",
-    "fix(adb): ignore unrelated broadcasts during MCP boot startup",
-    "fix(adb): adopt core 0.1.7, eliminating release-only libadb stack overflow"
+    "test(adb): boot receiver only accepts expected broadcasts"
   ]
 }

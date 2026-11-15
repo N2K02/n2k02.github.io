@@ -1,15 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.2",
-  "versionName": "2.2",
-  "versionCode": 100110,
-  "apkName": "ChargeWatt-2.2.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.2/ChargeWatt-2.2.apk",
-  "apkSize": 1344846,
-  "sha256": "d65c3c5baf74b6b20313dd18ab24dab9629d5ac9f4913c94427ef654debc8ada",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.2",
+  "tag": "v2.5",
+  "versionName": "v2.5",
+  "versionCode": 100126,
+  "apkName": "ChargeWatt-2.5.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.5/ChargeWatt-2.5.apk",
+  "apkSize": 1344902,
+  "sha256": "01aae4684ceddbc25663dcd845fc25ae2caa4ee6c76625109c531e286ff4f7a0",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.5",
   "notes": [
-    "fix: align shared library guard with updated theme pin (#15)",
-    "chore(deps): bump the all-dependencies group with 3 updates (#14)"
+    "CI: standardized stable and experimental APK release names (#18)"
   ]
 }

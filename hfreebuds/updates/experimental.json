@@ -1,17 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-36-run-208",
-  "versionName": "6.4-experimental.208",
-  "versionCode": 100208,
-  "apkName": "HFreebuds-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-36-run-208/HFreebuds-6.4.apk",
-  "apkSize": 19885367,
-  "sha256": "433bfc9cbfd52c6fc2d4448099a0621c9aaa7219eac7f3fa7152ee718c4a2bdb",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-36-run-208",
+  "tag": "experimental-pr-40-run-220",
+  "versionName": "experimental-pr-40-run-220",
+  "versionCode": 100220,
+  "apkName": "HFreebuds-6.7-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-40-run-220/HFreebuds-6.7-experimental.2.apk",
+  "apkSize": 19901751,
+  "sha256": "e2c675f70f89a17f71e33411b8caccafb3a71a7e99abd422c9637225199dcd32",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-40-run-220",
   "notes": [
-    "Match canonical HFreebuds repository casing in version tests",
-    "Match canonical HFreebuds repository casing in version tests",
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "deps: pin n2k02updater 0.1.36 with live package metadata",
+    "ci: upload renamed experimental APK artifact rather than stale stable filename",
+    "ci: consistent App-nextVersion-experimental.N names and APK assets",
+    "ci: standardized experimental version, filename and sequence",
+    "ci: stable versionCode must exceed all earlier experimental releases",
+    "ci: allocate version codes above prior stable and experimental APKs",
+    "ci: stop deleting merged experimental and development branches",
+    "ci: build latest main after trusted automated merges; preserve skip ci"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.1",
-  "versionName": "7.1",
-  "versionCode": 100378,
-  "apkName": "MRadio-7.1.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.1/MRadio-7.1.apk",
-  "apkSize": 2810779,
-  "sha256": "98daa68a38ea7bb60c85ee36056b86e5d3c89a5d71ec0d84c55be40e288cf3bb",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.1",
+  "tag": "v7.3",
+  "versionName": "v7.3",
+  "versionCode": 100398,
+  "apkName": "MRadio-7.3.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.3/MRadio-7.3.apk",
+  "apkSize": 2810835,
+  "sha256": "4e286aaeb0a735569837264949ce38b44ef83aefc58b7a42a4bf0fd653b48207",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.3",
   "notes": [
-    "build(deps): bump the all-dependencies group with 4 updates (#44)"
+    "CI: standard App-version-experimental.N APK naming (#48)"
   ]
 }

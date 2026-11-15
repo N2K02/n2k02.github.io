@@ -1,15 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-340",
-  "versionName": "9.3-experimental.340",
-  "versionCode": 100340,
-  "apkName": "SpeedTester-9.3.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-46-run-340/SpeedTester-9.3.apk",
+  "tag": "experimental-pr-50-run-352",
+  "versionName": "experimental-pr-50-run-352",
+  "versionCode": 100352,
+  "apkName": "SpeedTester-9.6-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-50-run-352/SpeedTester-9.6-experimental.2.apk",
   "apkSize": 25791347,
-  "sha256": "211cadf092c9deb99d63bdf3095468e040aa8e13d2088e087ba0f1167d3ad4ae",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-46-run-340",
+  "sha256": "4357b9b570e8e166477fb33beaaab429a43e040066fb2b76fe3d53c7851cc5b2",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-50-run-352",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "deps: ship dynamic installed-version updater 0.1.36",
+    "ci: upload renamed experimental APK artifact rather than stale stable filename",
+    "ci: consistent App-nextVersion-experimental.N names and APK assets",
+    "ci: standardized experimental version, filename and sequence",
+    "ci: stable APK versionCode must exceed earlier experimental releases",
+    "ci: allocate version codes above earlier experimental and stable APKs",
+    "ci: preserve reusable branches after merged PRs",
+    "ci: build latest main after trusted automated merges; preserve skip ci"
   ]
 }

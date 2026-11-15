@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.3",
-  "versionName": "7.3",
-  "versionCode": 100223,
-  "apkName": "PBar-7.3.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.3/PBar-7.3.apk",
-  "apkSize": 1515141,
-  "sha256": "eae48bf302ea21027c6731e83f5648a45481af18ad995c12d364964cc413f0ce",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.3",
+  "tag": "v7.6",
+  "versionName": "v7.6",
+  "versionCode": 100238,
+  "apkName": "PBar-7.6.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.6/PBar-7.6.apk",
+  "apkSize": 1515197,
+  "sha256": "bc33566c38bc43ef9071f3dc017f2205d0bf9512708341828e6fb2a81e951066",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.6",
   "notes": [
-    "Bump the all-dependencies group with 3 updates (#67)"
+    "CI: standardized stable and experimental APK release names (#70)"
   ]
 }

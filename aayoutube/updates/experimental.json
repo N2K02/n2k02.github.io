@@ -1,23 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-48-run-816",
-  "versionName": "experimental-pr-48-run-816",
-  "versionCode": 100816,
-  "apkName": "AAYoutube-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-48-run-816/AAYoutube-8.4.apk",
+  "tag": "experimental-pr-52-run-835",
+  "versionName": "experimental-pr-52-run-835",
+  "versionCode": 100835,
+  "apkName": "AAYoutube-8.7-experimental.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-52-run-835/AAYoutube-8.7-experimental.3.apk",
   "apkSize": 21613068,
-  "sha256": "e5e024665b1ca92d0180d64bb45b91b2cfdc7256f0d35df1d45670552d9da36f",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-48-run-816",
+  "sha256": "1f7c1f2788a7f2a4bfd1f1b61fd3d30d9821ccfc85e8c8a8d25ee56ce3b69fca",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-52-run-835",
   "notes": [
-    "Complete token-free public release updater migration",
-    "refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "Keep idle equalizer suspended across unrelated media and hidden pages",
-    "Fix transparent status bar and notification icons; add regression checks",
-    "Calibrate live EQ headroom at the browser sample rate",
-    "Fix preset ramp headroom before applying EQ boosts",
-    "Cover anonymous video-center Play and unrelated tap behavior",
-    "Recognize YouTube video-area resume gestures before reapplying explicit pause"
+    "deps: pin n2k02updater 0.1.36 with live package metadata",
+    "ci: upload renamed experimental APK artifact rather than stale stable filename",
+    "ci: current main release automation plus standardized experimental names",
+    "ci: standardize experimental version and build number labels",
+    "ci: check out exact merged SHA for post-merge APK build",
+    "ci: build trusted main commit after PR merge",
+    "ci: preserve merged development branches"
   ]
 }

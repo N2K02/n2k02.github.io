@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v3.4",
-  "versionName": "3.4",
-  "versionCode": 100131,
-  "apkName": "MovieTogether-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.4/MovieTogether-3.4.apk",
-  "apkSize": 3473789,
-  "sha256": "77b316bb0f85dcc5c635a96f0604524ee829ce5c9ef026472e17492f9d0ee2f7",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.4",
+  "tag": "v3.7",
+  "versionName": "v3.7",
+  "versionCode": 100147,
+  "apkName": "MovieTogether-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.7/MovieTogether-3.7.apk",
+  "apkSize": 3477941,
+  "sha256": "4a719d5db2f0f78aaaa5a9c9d93d2b63c847b91fac74aea82011bfbe3c6842cb",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.7",
   "notes": [
+    "CI: standardized stable and experimental APK release names (#30)",
+    "CI: ensure stable APK build after automated main merge (#29)",
+    "Merge experimental updates and public release updater",
     "build(deps): bump the all-dependencies group with 3 updates (#27)",
     "Resolve releases from app repository, not website tags (#26)",
     "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
     "Experimental: update shared updater to 0.1.30 (#24)",
     "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
     "fix: use source APK releases for update feeds (#21)",
-    "fix: publish update feeds through pull requests (#20)",
-    "ci: remove completed one-time branch cleanup workflow",
-    "ci: retain only latest stable/experimental APKs and build runs",
-    "ci: run one-time cleanup of all non-main branches"
+    "fix: publish update feeds through pull requests (#20)"
   ]
 }

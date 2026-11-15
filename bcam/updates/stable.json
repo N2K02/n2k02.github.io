@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.9",
-  "versionName": "5.9",
-  "versionCode": 100222,
-  "apkName": "BCam-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v5.9/BCam-5.9.apk",
+  "tag": "v6.1",
+  "versionName": "v6.1",
+  "versionCode": 100233,
+  "apkName": "BCam-6.1.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v6.1/BCam-6.1.apk",
   "apkSize": 1200040,
-  "sha256": "4b4072a5050a244844b7841fa37647406c1f51d69b70c61bd20ea0f452b4eace",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v5.9",
+  "sha256": "3437131218de286730872067b968473feff47e2cca03526a23931af630bbac39",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v6.1",
   "notes": [
-    "Bump the all-dependencies group with 4 updates (#40)"
+    "CI: standard App-version-experimental.N APK naming (#43)"
   ]
 }

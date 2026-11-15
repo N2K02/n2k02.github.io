@@ -1,15 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-39-run-219",
-  "versionName": "5.8-experimental.219",
-  "versionCode": 100219,
-  "apkName": "BCam-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-39-run-219/BCam-5.8.apk",
+  "tag": "experimental-pr-43-run-231",
+  "versionName": "experimental-pr-43-run-231",
+  "versionCode": 100231,
+  "apkName": "BCam-6.1-experimental.3.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-43-run-231/BCam-6.1-experimental.3.apk",
   "apkSize": 19660520,
-  "sha256": "652b39d85a0e07c9055c6a42c1bba445ef56098356af8ff9f94ef896a9b21989",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-39-run-219",
+  "sha256": "10f77a54b36ff2efbbbbd808de3c99b6aabbddda25ed140325774dcebacbe9b0",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-43-run-231",
   "notes": [
-    "Resolve stable versions from app releases only",
-    "Resolve stable versions from app releases only"
+    "deps: pin n2k02updater 0.1.36 with live package metadata",
+    "ci: upload renamed experimental APK artifact rather than stale stable filename",
+    "ci: consistent App-nextVersion-experimental.N names and APK assets",
+    "ci: standardized experimental version, filename and sequence",
+    "ci: stable versionCode must exceed all earlier experimental releases",
+    "ci: allocate version codes above prior stable and experimental APKs",
+    "ci: stop deleting merged experimental and development branches",
+    "ci: build latest main after trusted automated merges; preserve skip ci"
   ]
 }

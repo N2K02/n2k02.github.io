@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v8.3",
-  "versionName": "8.3",
-  "versionCode": 100750,
-  "apkName": "AAYoutube-8.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.3/AAYoutube-8.3.apk",
-  "apkSize": 14834088,
-  "sha256": "8514bd8a7524bf4c210768edde5cc16daacb2db1f2fae919ff9402a2abc56f24",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.3",
+  "tag": "v8.7",
+  "versionName": "v8.7",
+  "versionCode": 100837,
+  "apkName": "AAYoutube-8.7.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.7/AAYoutube-8.7.apk",
+  "apkSize": 14866912,
+  "sha256": "239d8b9c29c9359b57958a5f6c1b91a89d9d885e5c5604ebefd33ad681d4ca6d",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.7",
   "notes": [
-    "Merge AAYouTube experimental Android Auto and playback improvements"
+    "CI: standard App-version-experimental.N APK naming (#52)"
   ]
 }

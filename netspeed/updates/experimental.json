@@ -1,19 +1,22 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-45-run-212",
-  "versionName": "experimental-pr-45-run-212",
-  "versionCode": 100212,
-  "apkName": "NetSpeed-6.4.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-45-run-212/NetSpeed-6.4.apk",
+  "tag": "experimental-pr-47-run-221",
+  "versionName": "experimental-pr-47-run-221",
+  "versionCode": 100221,
+  "apkName": "NetSpeed-6.5-experimental.3.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-47-run-221/NetSpeed-6.5-experimental.3.apk",
   "apkSize": 19639688,
-  "sha256": "c517e51c4532507779d2a9cffc19b570564a2224723d477c575dc709e344cc13",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-45-run-212",
+  "sha256": "daa538e98e60ec917d0fcabf2fa2cbab84dbb84d176db65a6305590c0feaac01",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-47-run-221",
   "notes": [
-    "Use updater 0.1.35 for verified historical releases",
-    "Complete token-free public release updater migration",
-    "refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "Fix transparent status bar and notification icons; add regression checks"
+    "deps: pin n2k02updater 0.1.36 with live package metadata",
+    "ci: upload renamed experimental APK artifact rather than stale stable filename",
+    "ci: standard next-stable experimental sequence and APK naming",
+    "ci: consistent app-version-experimental.N release titles, APK filenames and Android versionName",
+    "ci: standardize experimental version and build number labels",
+    "ci: ensure stable APK versionCode exceeds published experimental builds",
+    "ci: allocate APK version codes above prior stable and experimental releases",
+    "ci: stop deleting merged experimental and development branches",
+    "ci: build merged main SHA after automated PR merges"
   ]
 }

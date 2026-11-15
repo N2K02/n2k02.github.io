@@ -1,23 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-388",
-  "versionName": "experimental-pr-46-run-388",
-  "versionCode": 100388,
-  "apkName": "MRadio-PR-46-e69aef6.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-46-run-388/MRadio-PR-46-e69aef6.apk",
+  "tag": "experimental-pr-48-run-396",
+  "versionName": "experimental-pr-48-run-396",
+  "versionCode": 100396,
+  "apkName": "MRadio-7.3-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-48-run-396/MRadio-7.3-experimental.2.apk",
   "apkSize": 24475316,
-  "sha256": "22d6b3f3037fca03570a5daef1ec9c0c5c72ee344e590c5d18b70206b340f12e",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-46-run-388",
+  "sha256": "1abe573c24a847c02950fabeb0e59f8c38bbbbad3766ee05796a34ff5de33557",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-48-run-396",
   "notes": [
-    "Use updater 0.1.35 for verified historical releases",
-    "Complete token-free public release updater migration",
-    "Restore exact Flat bypass when a pending preset is cancelled",
-    "refactor(updater): GitHub Releases dual-channel migration",
-    "[skip ci] refactor(updater): GitHub Releases dual-channel migration",
-    "[skip ci] refactor(updater): GitHub Releases dual-channel migration",
-    "Verify multitone fidelity, impulse peaks and retired spatial tails",
-    "Fix transparent status bar and notification icons; add regression checks",
-    "Recover cleanly from corrupt PCM and flush inaudible filter tails",
-    "Prepare preset headroom off the audio thread"
+    "deps: pin n2k02updater 0.1.36 with live package metadata",
+    "ci: standard next-stable experimental sequence and APK naming",
+    "ci: consistent app-version-experimental.N release titles, APK filenames and Android versionName",
+    "ci: standardize experimental version and build number labels",
+    "ci: ensure stable APK versionCode exceeds published experimental builds",
+    "ci: allocate APK version codes above prior stable and experimental releases",
+    "ci: stop deleting merged experimental and development branches",
+    "ci: build merged main SHA after automated PR merges"
   ]
 }

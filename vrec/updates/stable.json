@@ -1,18 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.4",
-  "versionName": "7.4",
-  "versionCode": 101168,
-  "apkName": "VREC-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.4/VREC-7.4.apk",
-  "apkSize": 12893950,
-  "sha256": "237418a642b7ec72cdd469c19a06423a1c21818e5cd9d244ea02ede4ba7d71d9",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.4",
+  "tag": "v7.7",
+  "versionName": "v7.7",
+  "versionCode": 101194,
+  "apkName": "VREC-7.7.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.7/VREC-7.7.apk",
+  "apkSize": 12900906,
+  "sha256": "7721f5fbfdc59c08800c3d773b51c6adaa896e8559a39f84f153c06f91474695",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.7",
   "notes": [
-    "Docs: credit JemRec as the shell helper's source; scrcpy as its embedded runtime",
-    "Publish bounded live VoIP helper health independent of Logcat retention",
-    "Pace incomplete VoIP mic blocks after reader failure to prevent timestamp runaway",
-    "VoIP: wait boundedly for full mic blocks instead of zero-filling on jitter",
-    "Recover quiet VoIP microphone with bounded source fallbacks and persistent evidence"
+    "CI: standard App-version-experimental.N APK naming (#82)"
   ]
 }

@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "sdcleaner-v2.1",
-  "versionName": "2.1",
-  "versionCode": 100251,
-  "apkName": "SDCleaner-2.1.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/sdcleaner-v2.1/SDCleaner-2.1.apk",
+  "tag": "sdcleaner-v2.2",
+  "versionName": "sdcleaner-v2.2",
+  "versionCode": 100255,
+  "apkName": "SDCleaner-2.2.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/sdcleaner-v2.2/SDCleaner-2.2.apk",
   "apkSize": 20371391,
-  "sha256": "ed4ad355ec1c0069cdf58c74e998fcd61d11c42608d12feb7449b4e320ba3c26",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/sdcleaner-v2.1",
+  "sha256": "5956c253991e6d25af63595ecf0f975d2ede104825705d88485f48d0686e0235",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/sdcleaner-v2.2",
   "notes": [
+    "Merge experimental updates and public release updater",
     "Add custom interval stepper with rounded centered number field",
     "Fix obsolete diagnostics test after simplifying Scheduler subscriptions",
     "Remove scheduler diagnostics card and allow deleting saved run history",
@@ -17,7 +18,6 @@
     "Redesign scheduler with next cleanup, visible history and direct editing",
     "Redesign Scheduler with compact schedule-first layout (#14)",
     "Stop APK publishing to website repository (#13)",
-    "Experimental: update shared updater to 0.1.30 (#12)",
-    "fix: reduce idle wakeups and make boot recovery idempotent (#11)"
+    "Experimental: update shared updater to 0.1.30 (#12)"
   ]
 }

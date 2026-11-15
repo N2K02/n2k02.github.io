@@ -1,19 +1,21 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-68-run-227",
-  "versionName": "experimental-pr-68-run-227",
-  "versionCode": 100227,
-  "apkName": "PBar-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-68-run-227/PBar-7.4.apk",
+  "tag": "experimental-pr-70-run-237",
+  "versionName": "experimental-pr-70-run-237",
+  "versionCode": 100237,
+  "apkName": "PBar-7.6-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-70-run-237/PBar-7.6-experimental.2.apk",
   "apkSize": 19918350,
-  "sha256": "aecd8a167fdb85ebd7dd8aa142a68fd35b2f6a8f2e34bb81e3f869e8d8fad199",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-68-run-227",
+  "sha256": "31ee68b6d34d386622bccd1a94d94173588f21ce9582a018f74e3c9ce4e74d3b",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-70-run-237",
   "notes": [
-    "Use updater 0.1.35 for verified historical releases",
-    "Complete token-free public release updater migration",
-    "refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "[skip ci] refactor(updater): use GitHub Releases without distribution token",
-    "Fix transparent status bar and notification icons; add regression checks"
+    "deps: ship dynamic installed-version updater 0.1.36",
+    "ci: preserve correct signed artifact filename on experimental builds",
+    "ci: consistent App-nextVersion-experimental.N names and APK assets",
+    "ci: standardized experimental version, filename and sequence",
+    "ci: stable APK versionCode must exceed earlier experimental releases",
+    "ci: allocate version codes above earlier experimental and stable APKs",
+    "ci: preserve reusable branches after merged PRs",
+    "ci: build exact merged main commit on automated merges"
   ]
 }

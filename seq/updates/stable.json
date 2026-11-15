@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v0.5",
-  "versionName": "0.5",
-  "versionCode": 100163,
-  "apkName": "SEQ-0.5.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/v0.5/SEQ-0.5.apk",
-  "apkSize": 15067439,
-  "sha256": "e8ba29ba9e49caabd8feaf5f60f9eb556b99315846425a07facbec06dd3aa614",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/v0.5",
+  "tag": "v0.7",
+  "versionName": "v0.7",
+  "versionCode": 100260,
+  "apkName": "SEQ-0.7.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/v0.7/SEQ-0.7.apk",
+  "apkSize": 15165799,
+  "sha256": "7dbd31a87873060a0383cfe59a139a13e059b814b2b30faaab7b7ac97d19db1d",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/v0.7",
   "notes": [
+    "CI: sequential experimental APK naming and correct embedded versionCode (#5)",
+    "CI: build stable APK after automated merges (#4)",
+    "Merge experimental updates and public release updater",
     "Experimental SEQ: smoother DSP, safe headroom, 10-band controls and sound modes (#2)",
     "test(adb): guard SEQ boot-vs-watchdog recovery separation",
     "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
     "fix(adb): separate SEQ boot policy from ongoing watchdog recovery",
     "fix(adb): permit SEQ same-boot foreground recovery with boot startup disabled",
     "test(adb): guard manual Stop across Android activity recreation",
-    "fix(adb): do not reset manual Stop on activity recreation",
-    "test(adb): preserve SEQ manual Stop across Settings navigation",
-    "fix(adb): prevent SEQ Settings navigation from clearing manual Stop",
-    "test(adb): ensure SEQ startup errors remain visible in Logs"
+    "fix(adb): do not reset manual Stop on activity recreation"
   ]
 }
