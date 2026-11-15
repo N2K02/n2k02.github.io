@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-52-run-835",
-  "versionName": "experimental-pr-52-run-835",
-  "versionCode": 100835,
-  "apkName": "AAYoutube-8.7-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-52-run-835/AAYoutube-8.7-experimental.3.apk",
-  "apkSize": 21613068,
-  "sha256": "1f7c1f2788a7f2a4bfd1f1b61fd3d30d9821ccfc85e8c8a8d25ee56ce3b69fca",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-52-run-835",
+  "tag": "experimental-pr-53-run-844",
+  "versionName": "experimental-pr-53-run-844",
+  "versionCode": 100844,
+  "apkName": "AAYoutube-8.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-53-run-844/AAYoutube-8.8-experimental.1.apk",
+  "apkSize": 21629452,
+  "sha256": "a7c225ba2a2a2607275a037075c34ee2428c35e07a0ff61c8eeb58190daf7411",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-53-run-844",
   "notes": [
-    "deps: pin n2k02updater 0.1.36 with live package metadata",
-    "ci: upload renamed experimental APK artifact rather than stale stable filename",
-    "ci: current main release automation plus standardized experimental names",
-    "ci: standardize experimental version and build number labels",
-    "ci: check out exact merged SHA for post-merge APK build",
-    "ci: build trusted main commit after PR merge",
-    "ci: preserve merged development branches"
+    "test(emui): align lifecycle contracts with safe task removal and idle cleanup",
+    "test(emui): align lifecycle contracts with safe task removal and idle cleanup",
+    "test(emui): cover task removal and bounded playback recovery after system kill",
+    "fix(emui): restore recent playback when Android recreates killed media service",
+    "fix(emui): preserve media service on Recents removal and allow sticky system restart",
+    "test(media): explicit Pause and Stop cancel recovery and release CPU wake lock",
+    "fix(media): cancel playback recovery immediately on explicit Pause and Stop",
+    "test(playback): cover wake lock ownership, native probes, and user pause",
+    "fix(playback): keep screen-off WebView audio awake and probe recovery natively",
+    "fix(playback): keep screen-off WebView audio awake and probe recovery natively"
   ]
 }

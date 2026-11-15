@@ -1,20 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-29-run-325",
-  "versionName": "experimental-pr-29-run-325",
-  "versionCode": 100325,
-  "apkName": "LocalAdb-3.2-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-29-run-325/LocalAdb-3.2-experimental.2.apk",
+  "tag": "experimental-pr-30-run-330",
+  "versionName": "experimental-pr-30-run-330",
+  "versionCode": 100330,
+  "apkName": "LocalAdb-3.3-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-30-run-330/LocalAdb-3.3-experimental.1.apk",
   "apkSize": 39732729,
-  "sha256": "7bf955bca3e6ed17b25eb09059c5380d0517e7d5300e9a679f2d75bde9ce94b9",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-29-run-325",
+  "sha256": "72a1dc9252a24149d40c8e778cc95716f9e925f13a790ee4aca79f7a88bb93bc",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-30-run-330",
   "notes": [
+    "Align automatic Play attribution regression test with optional Play availability",
+    "Fix installer attribution Source model missing after UI preference cleanup",
+    "Update installer UI and progress regression tests",
+    "Update installer UI and progress regression tests",
+    "Refine APK install UI and concise progress: DirectApkInstallService.kt",
+    "Refine APK install UI and concise progress: DirectInstallAttribution.kt",
+    "Refine APK install UI and concise progress: AndroidAutoInstallerCard.kt",
+    "Refine APK install UI and concise progress: ApkInstallActivity.kt",
     "test: expect shared updater 0.1.36 after rollout",
-    "deps: pin n2k02updater 0.1.36 with live package metadata",
-    "ci: current main release automation plus standardized experimental names",
-    "ci: standardize experimental version and build number labels",
-    "ci: check out exact merged SHA for post-merge APK build",
-    "ci: build trusted main commit after PR merge",
-    "ci: preserve merged development branches"
+    "deps: pin n2k02updater 0.1.36 with live package metadata"
   ]
 }

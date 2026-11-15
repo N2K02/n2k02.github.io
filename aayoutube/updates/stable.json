@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v8.7",
-  "versionName": "v8.7",
-  "versionCode": 100837,
-  "apkName": "AAYoutube-8.7.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.7/AAYoutube-8.7.apk",
+  "tag": "v8.8",
+  "versionName": "v8.8",
+  "versionCode": 100846,
+  "apkName": "AAYoutube-8.8.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.8/AAYoutube-8.8.apk",
   "apkSize": 14866912,
-  "sha256": "239d8b9c29c9359b57958a5f6c1b91a89d9d885e5c5604ebefd33ad681d4ca6d",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.7",
+  "sha256": "de82fc0264d6b68ef4d9ef26130fc56b17038b718b2c1075dfbc97284c99457e",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.8",
   "notes": [
-    "CI: standard App-version-experimental.N APK naming (#52)"
+    "test(emui): align lifecycle contracts with safe task removal and idle cleanup",
+    "test(emui): align lifecycle contracts with safe task removal and idle cleanup",
+    "test(emui): cover task removal and bounded playback recovery after system kill",
+    "fix(emui): restore recent playback when Android recreates killed media service",
+    "fix(emui): preserve media service on Recents removal and allow sticky system restart",
+    "test(media): explicit Pause and Stop cancel recovery and release CPU wake lock",
+    "fix(media): cancel playback recovery immediately on explicit Pause and Stop",
+    "test(playback): cover wake lock ownership, native probes, and user pause",
+    "fix(playback): keep screen-off WebView audio awake and probe recovery natively",
+    "fix(playback): keep screen-off WebView audio awake and probe recovery natively"
   ]
 }
