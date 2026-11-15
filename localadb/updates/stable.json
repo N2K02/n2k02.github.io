@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v3.2",
-  "versionName": "v3.2",
-  "versionCode": 100327,
-  "apkName": "LocalAdb-3.2.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.2/LocalAdb-3.2.apk",
+  "tag": "v3.3",
+  "versionName": "v3.3",
+  "versionCode": 100341,
+  "apkName": "LocalAdb-3.3.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.3/LocalAdb-3.3.apk",
   "apkSize": 17561238,
-  "sha256": "7bf7ad2b5f9722f3b79eb4e2f9550dbaf046e848e4605355b7312b27828dd21b",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.2",
+  "sha256": "9d1075dd5b65c17ddd8c1fd6224d0aad2636c05c262da25ff5be27a3634428a0",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.3",
   "notes": [
-    "CI: standard App-version-experimental.N APK naming (#29)"
+    "Escape Kotlin literal in notification regression test",
+    "Regression test live foreground APK notification stage updates",
+    "Refresh live foreground APK install notification for every installation stage",
+    "Test scrollable installer activity and Material 3 background action",
+    "Style background installation action as full-width Material 3 tonal button",
+    "Make live installer log scrollable with recent entries visible",
+    "Keep complete installer activity history in scrollable timeline",
+    "Test installed APK version and selected APK comparison",
+    "Show installed-to-target APK version comparison in installer",
+    "Show installed-to-target APK version comparison in installer"
   ]
 }
