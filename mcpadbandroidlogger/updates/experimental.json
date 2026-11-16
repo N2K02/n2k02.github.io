@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-53-run-615",
-  "versionName": "experimental-pr-53-run-615",
-  "versionCode": 100615,
-  "apkName": "McpAdbAndroidLogger-3.8-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-53-run-615/McpAdbAndroidLogger-3.8-experimental.3.apk",
+  "tag": "experimental-pr-53-run-619",
+  "versionName": "experimental-pr-53-run-619",
+  "versionCode": 100619,
+  "apkName": "McpAdbAndroidLogger-3.8-experimental.4.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-53-run-619/McpAdbAndroidLogger-3.8-experimental.4.apk",
   "apkSize": 29669369,
-  "sha256": "50e9fe82effc170341243c2ec9bb87d5ef596cd5ff097302addf246acb8a1e45",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-53-run-615",
+  "sha256": "2d4fc516b09852eaa8ab31e03112cce3520244c5f69dc5c2e45bc95c8f2b9869",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-53-run-619",
   "notes": [
+    "Add manual Shizuku status refresh and clarify default-on preference",
+    "Test dedicated Shizuku submenu, default-enabled setting and shared ADB UI isolation",
+    "Honor disabled Shizuku preference and Quit on delayed permission callbacks",
+    "Move optional Shizuku controls into dedicated Settings submenu; keep shared ADB UI unchanged",
+    "Add app-specific Shizuku settings subpage with standard back navigation",
+    "Respect enabled-by-default Shizuku preference and unbind immediately when disabled",
+    "Add app-only Shizuku preference enabled by default without implicit permission grant",
     "Cover timeout exclusion from automatic shell reconnect and replay",
     "Do not replay timed-out sockets as recoverable disconnects",
-    "Document root cause of missing Shizuku Binder, remediation and field validation",
-    "Classify timeout cancellation as timeout before generic coroutine cancellation",
-    "Test privacy-preserving ADB failure classification and recovery telemetry",
-    "Escape Gradle manifest placeholder in Kotlin source contract test",
-    "Regression-test Shizuku provider delivery, server restart and manifest protection",
-    "Test strict no-replay rules for compound and piped shell writes",
-    "Prevent replay of compound shell commands even when prefixed by a read operation",
-    "Instrument error classifications and successful safe replays in ADB transport"
+    "Document root cause of missing Shizuku Binder, remediation and field validation"
   ]
 }
