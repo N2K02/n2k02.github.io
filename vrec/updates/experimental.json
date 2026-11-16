@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-83-run-1195",
-  "versionName": "experimental-pr-83-run-1195",
-  "versionCode": 101195,
-  "apkName": "VREC-7.8-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-83-run-1195/VREC-7.8-experimental.1.apk",
-  "apkSize": 12900914,
-  "sha256": "23bef98d94de65372577e20826e72b5395679549bc673ab324a055e4fb8ec6b9",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-83-run-1195",
+  "tag": "experimental-pr-83-run-1198",
+  "versionName": "experimental-pr-83-run-1198",
+  "versionCode": 101198,
+  "apkName": "VREC-7.8-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-83-run-1198/VREC-7.8-experimental.2.apk",
+  "apkSize": 12901070,
+  "sha256": "2b6379d3e0d87ec2ff32de88a8284348514c774831e08393ca8742d6ff63abf7",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-83-run-1198",
   "notes": [
+    "Declare official Shizuku client API and secure Binder provider",
+    "Declare official Shizuku client API and secure Binder provider",
+    "Integrate Shizuku submenu into Settings navigation",
+    "Add consistent modern Shizuku connection and authorization settings page",
     "Update shared ADB adapter version contract to 0.1.8",
     "Pin published ADB Core 0.1.8 and update regression contract",
     "Pin published ADB Core 0.1.8 and update regression contract",
     "Pin published ADB Core 0.1.8 and update regression contract",
     "test: expect shared updater 0.1.36 after rollout",
-    "deps: pin n2k02updater 0.1.36 with live package metadata",
-    "ci: current main release automation plus standardized experimental names",
-    "ci: experimental App-nextVersion-experimental.N names and APKs",
-    "ci: standard experimental release naming with per-version sequence",
-    "ci: check out exact merged SHA for post-merge APK build"
+    "deps: pin n2k02updater 0.1.36 with live package metadata"
   ]
 }

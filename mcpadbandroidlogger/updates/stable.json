@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v3.7",
-  "versionName": "v3.7",
-  "versionCode": 100565,
-  "apkName": "McpAdbAndroidLogger-3.7.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.7/McpAdbAndroidLogger-3.7.apk",
-  "apkSize": 29652985,
-  "sha256": "07ed303d89356cba9552ea81b20f898058f99d79d7501c191466801de90eb7d3",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.7",
+  "tag": "v3.8",
+  "versionName": "v3.8",
+  "versionCode": 100644,
+  "apkName": "McpAdbAndroidLogger-3.8.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/v3.8/McpAdbAndroidLogger-3.8.apk",
+  "apkSize": 29673465,
+  "sha256": "d1f61535653e02b42c48c3b00e3a76648963691ac4d4454a9d0dad52a3addb44",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/v3.8",
   "notes": [
+    "Fix Shizuku diagnostics and ADB transport reliability (#53)",
     "Test WebView nested sandbox process CPU and conservative codec PID attribution",
     "Correct Kotlin raw regex escaping for Logcat PID correlation",
     "Recognize nested WebView renderer names and correlate codec lifecycle by bounded PID",
@@ -17,7 +18,6 @@
     "Update MCP catalog count assertions for new profiler",
     "Update MCP catalog count assertions for new profiler",
     "Update MCP catalog count assertions for new profiler",
-    "Update MCP catalog count assertions for new profiler",
-    "Require exact package for decoder surface profiling"
+    "Update MCP catalog count assertions for new profiler"
   ]
 }

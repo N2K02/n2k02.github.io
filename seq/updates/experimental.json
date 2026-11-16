@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-6-run-261",
-  "versionName": "experimental-pr-6-run-261",
-  "versionCode": 100261,
-  "apkName": "SEQ-0.8-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-6-run-261/SEQ-0.8-experimental.1.apk",
-  "apkSize": 89021714,
-  "sha256": "fbc4f3854e7f7d7087e1cc205279d0fc5a9bebdc1b50f958307ae05514930d4c",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-6-run-261",
+  "tag": "experimental-pr-6-run-264",
+  "versionName": "experimental-pr-6-run-264",
+  "versionCode": 100264,
+  "apkName": "SEQ-0.8-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-6-run-264/SEQ-0.8-experimental.2.apk",
+  "apkSize": 89120018,
+  "sha256": "5b18d2b6ec5981f707510cc566a6916eeb6dc6a821daab20dba0acea13504def",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-6-run-264",
   "notes": [
+    "Declare official Shizuku client API and secure Binder provider",
+    "Declare official Shizuku client API and secure Binder provider",
+    "Integrate Shizuku submenu into Settings navigation",
+    "Add consistent modern Shizuku connection and authorization settings page",
     "Pin published ADB Core 0.1.8 and update regression version checks",
     "Pin published ADB Core 0.1.8 and update regression version checks",
     "Pin published ADB Core 0.1.8 and update regression version checks",
     "CI: sequential experimental APK naming and correct embedded versionCode (#5)",
     "CI: build stable APK after automated merges (#4)",
-    "Merge experimental updates and public release updater",
-    "Experimental SEQ: smoother DSP, safe headroom, 10-band controls and sound modes (#2)",
-    "test(adb): guard SEQ boot-vs-watchdog recovery separation",
-    "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
-    "fix(adb): separate SEQ boot policy from ongoing watchdog recovery"
+    "Merge experimental updates and public release updater"
   ]
 }
