@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-5-run-258",
-  "versionName": "experimental-pr-5-run-258",
-  "versionCode": 100258,
-  "apkName": "SEQ-0.7-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-5-run-258/SEQ-0.7-experimental.2.apk",
-  "apkSize": 89005330,
-  "sha256": "5c7bb6f4dd3ee40489d5da34db589f6c1975cd7ba1ea977e8308d7de7692c2f6",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-5-run-258",
+  "tag": "experimental-pr-6-run-261",
+  "versionName": "experimental-pr-6-run-261",
+  "versionCode": 100261,
+  "apkName": "SEQ-0.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-6-run-261/SEQ-0.8-experimental.1.apk",
+  "apkSize": 89021714,
+  "sha256": "fbc4f3854e7f7d7087e1cc205279d0fc5a9bebdc1b50f958307ae05514930d4c",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-6-run-261",
   "notes": [
-    "test: approve shared updater 0.1.36 in dependency contract",
-    "deps: ship dynamic installed-version updater 0.1.36",
-    "fix: SEQ Gradle uses allocated versionCode and standardized experimental number",
-    "ci: sequence experimental names and pass allocated versionCode to SEQ Gradle",
-    "ci: consistent experimental naming and per-version sequence",
+    "Pin published ADB Core 0.1.8 and update regression version checks",
+    "Pin published ADB Core 0.1.8 and update regression version checks",
+    "Pin published ADB Core 0.1.8 and update regression version checks",
+    "CI: sequential experimental APK naming and correct embedded versionCode (#5)",
     "CI: build stable APK after automated merges (#4)",
     "Merge experimental updates and public release updater",
     "Experimental SEQ: smoother DSP, safe headroom, 10-band controls and sound modes (#2)",
     "test(adb): guard SEQ boot-vs-watchdog recovery separation",
-    "test(adb): SEQ same-boot foreground recovery and cold-boot gating"
+    "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
+    "fix(adb): separate SEQ boot policy from ongoing watchdog recovery"
   ]
 }
