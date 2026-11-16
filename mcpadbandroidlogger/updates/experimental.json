@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-53-run-619",
-  "versionName": "experimental-pr-53-run-619",
-  "versionCode": 100619,
-  "apkName": "McpAdbAndroidLogger-3.8-experimental.4.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-53-run-619/McpAdbAndroidLogger-3.8-experimental.4.apk",
-  "apkSize": 29669369,
-  "sha256": "2d4fc516b09852eaa8ab31e03112cce3520244c5f69dc5c2e45bc95c8f2b9869",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-53-run-619",
+  "tag": "experimental-pr-53-run-624",
+  "versionName": "experimental-pr-53-run-624",
+  "versionCode": 100624,
+  "apkName": "McpAdbAndroidLogger-3.8-experimental.5.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-53-run-624/McpAdbAndroidLogger-3.8-experimental.5.apk",
+  "apkSize": 29673465,
+  "sha256": "9e8d34cc2eb1ac7146b483e0eede7ee47fc88acd8539685be13a6c7dff0d94bb",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-53-run-624",
   "notes": [
+    "Add regression tests for minified Shizuku UserService keep rules and bind timeout",
+    "Show Shizuku bind lifecycle instead of generic service-not-connected label",
+    "Expose precise Shizuku service lifecycle and bounded bind timeout in MCP capabilities",
+    "Track Shizuku bind callback, disconnected and timeout states without private logs",
+    "Keep reflectively launched Shizuku UserService and Binder stubs in minified APK",
     "Add manual Shizuku status refresh and clarify default-on preference",
     "Test dedicated Shizuku submenu, default-enabled setting and shared ADB UI isolation",
     "Honor disabled Shizuku preference and Quit on delayed permission callbacks",
     "Move optional Shizuku controls into dedicated Settings submenu; keep shared ADB UI unchanged",
-    "Add app-specific Shizuku settings subpage with standard back navigation",
-    "Respect enabled-by-default Shizuku preference and unbind immediately when disabled",
-    "Add app-only Shizuku preference enabled by default without implicit permission grant",
-    "Cover timeout exclusion from automatic shell reconnect and replay",
-    "Do not replay timed-out sockets as recoverable disconnects",
-    "Document root cause of missing Shizuku Binder, remediation and field validation"
+    "Add app-specific Shizuku settings subpage with standard back navigation"
   ]
 }
