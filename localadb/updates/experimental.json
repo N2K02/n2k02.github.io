@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-31-run-350",
-  "versionName": "experimental-pr-31-run-350",
-  "versionCode": 100350,
-  "apkName": "LocalAdb-3.4-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-31-run-350/LocalAdb-3.4-experimental.1.apk",
+  "tag": "experimental-pr-31-run-356",
+  "versionName": "experimental-pr-31-run-356",
+  "versionCode": 100356,
+  "apkName": "LocalAdb-3.4-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-31-run-356/LocalAdb-3.4-experimental.2.apk",
   "apkSize": 39749113,
-  "sha256": "5584c05ab451cebb932e2014cdb1c7c5b0d2816db803dd251de0892adaa7419b",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-31-run-350",
+  "sha256": "5da127e99b3aa6754954236066fdd02c3f0529f21bfb039b743a97ff45e5d18c",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-31-run-356",
   "notes": [
+    "Update shared ADB adapter version contract to 0.1.8",
+    "Pin published ADB Core 0.1.8 and update regression contract",
+    "Pin published ADB Core 0.1.8 and update regression contract",
+    "Pin published ADB Core 0.1.8 and update regression contract",
+    "Update installer regression test after removing comparison button",
+    "Remove completed AABrowser vs AAYouTube comparison UI from LocalADB",
     "Update legacy native-button assertions to new Android Auto and Direct ADB labels",
     "Align Home installer regression tests with AA install and Direct ADB actions",
     "Test trusted OEM package installer resolution and self-install loop prevention",
-    "Avoid APK handling loops by resolving only verified system/OEM installer components",
-    "Test Binder-to-UserService-to-system installer fallbacks and safe launch sequencing",
-    "Fall back from Shizuku installer helper to confirmed OEM system installer only on failed launch",
-    "Fallback from protected Binder installer launch to validated shell command with timeout",
-    "Restrict dynamic APK URI grants to genuine system installer handlers",
-    "Clarify diagnostics cannot determine Android Auto approval",
-    "Test Android Auto installer UI selection, read-only comparison and bounded verification"
+    "Avoid APK handling loops by resolving only verified system/OEM installer components"
   ]
 }

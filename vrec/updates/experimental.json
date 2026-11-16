@@ -1,21 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-82-run-1192",
-  "versionName": "experimental-pr-82-run-1192",
-  "versionCode": 101192,
-  "apkName": "VREC-7.7-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-82-run-1192/VREC-7.7-experimental.2.apk",
+  "tag": "experimental-pr-83-run-1195",
+  "versionName": "experimental-pr-83-run-1195",
+  "versionCode": 101195,
+  "apkName": "VREC-7.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-83-run-1195/VREC-7.8-experimental.1.apk",
   "apkSize": 12900914,
-  "sha256": "7e1b2c64d642b14ffee30c4be50cacf209afea13e8617ae68c1eb24149c8fd1f",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-82-run-1192",
+  "sha256": "23bef98d94de65372577e20826e72b5395679549bc673ab324a055e4fb8ec6b9",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-83-run-1195",
   "notes": [
+    "Update shared ADB adapter version contract to 0.1.8",
+    "Pin published ADB Core 0.1.8 and update regression contract",
+    "Pin published ADB Core 0.1.8 and update regression contract",
+    "Pin published ADB Core 0.1.8 and update regression contract",
     "test: expect shared updater 0.1.36 after rollout",
     "deps: pin n2k02updater 0.1.36 with live package metadata",
     "ci: current main release automation plus standardized experimental names",
     "ci: experimental App-nextVersion-experimental.N names and APKs",
     "ci: standard experimental release naming with per-version sequence",
-    "ci: check out exact merged SHA for post-merge APK build",
-    "ci: build trusted main commit after PR merge",
-    "ci: preserve merged development branches"
+    "ci: check out exact merged SHA for post-merge APK build"
   ]
 }
