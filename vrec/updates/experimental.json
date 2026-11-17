@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-83-run-1223",
-  "versionName": "experimental-pr-83-run-1223",
-  "versionCode": 101223,
-  "apkName": "VREC-7.8-experimental.4.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-83-run-1223/VREC-7.8-experimental.4.apk",
-  "apkSize": 12642296,
-  "sha256": "e22947b1603339474c0a2b4492d6edb4aedbd47ca7bbaf9c6c9fffbd110f4b38",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-83-run-1223",
+  "tag": "experimental-pr-83-run-1229",
+  "versionName": "experimental-pr-83-run-1229",
+  "versionCode": 101229,
+  "apkName": "VREC-7.8-experimental.5.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-83-run-1229/VREC-7.8-experimental.5.apk",
+  "apkSize": 12625908,
+  "sha256": "43e27ba1c01bca2e9911a064f48f1ee302030012dbaac43994701343fade099f",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-83-run-1229",
   "notes": [
+    "Fix VREC Home navigation regression contract for Shizuku status card",
+    "Check Shizuku Home card's state-dependent panel border",
+    "Update VREC Home contracts for Shizuku dashboard redesign",
+    "Update VREC Home contracts for Shizuku dashboard redesign",
+    "Replace obsolete wireless ADB Home setup with compact Shizuku connection dashboard",
+    "Add compact live Shizuku status and permission card to VREC Home",
     "Add regression checks preventing legacy adb-core dependency and imports",
     "Preserve Shizuku user-service reflective constructor in R8 release builds",
     "Correct Shizuku-only regression assertions and test source lookup",
-    "Correct Shizuku-only regression assertions and test source lookup",
-    "Correct Shizuku-only regression assertions and test source lookup",
-    "Fix unit-test compilation after replacing TCP assertions with Shizuku checks",
-    "Remove obsolete n2k02AdbCoreLibrary Maven repository mapping",
-    "Update VREC helper, recovery, accessibility and UI contract tests for Shizuku-only access",
-    "Replace legacy wireless TCP and shared ADB library contract assertions with Shizuku-only regression checks",
-    "Keep VREC call-metadata accessibility only; remove obsolete wireless pairing-code surveillance"
+    "Correct Shizuku-only regression assertions and test source lookup"
   ]
 }
