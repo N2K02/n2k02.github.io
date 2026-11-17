@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-6-run-286",
-  "versionName": "experimental-pr-6-run-286",
-  "versionCode": 100286,
-  "apkName": "SEQ-0.8-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-6-run-286/SEQ-0.8-experimental.3.apk",
+  "tag": "experimental-pr-6-run-287",
+  "versionName": "experimental-pr-6-run-287",
+  "versionCode": 100287,
+  "apkName": "SEQ-0.8-experimental.4.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-pr-6-run-287/SEQ-0.8-experimental.4.apk",
   "apkSize": 88738702,
-  "sha256": "aa28a7587822e192eee3fa7620eb68fb1f77c7b1aa59637af15fa5df3f990ad8",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-6-run-286",
+  "sha256": "46678f9655dbe1ea9cbb9a79db6435469194cc2e639486cd385de3b527a4b312",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-pr-6-run-287",
   "notes": [
+    "Add regression checks preventing legacy adb-core dependency and imports",
     "Preserve Shizuku user-service reflective constructor in R8 release builds",
     "Correct Shizuku-only regression assertions and test source lookup",
     "Assert SEQ never enables legacy TCP transport in Shizuku-only mode",
@@ -17,7 +18,6 @@
     "Fix SEQ Shizuku-only contract test manifest path",
     "Remove obsolete ADB pairing accessibility service, registration and settings stub; retain Shizuku only",
     "Replace obsolete shared-core and pairing UI test expectations with Shizuku-only regression checks",
-    "Replace old adb.core package with app-owned Shizuku session APIs",
-    "Show LocalADB GitHub Releases action when ADB Shizuku permission is missing"
+    "Replace old adb.core package with app-owned Shizuku session APIs"
   ]
 }
