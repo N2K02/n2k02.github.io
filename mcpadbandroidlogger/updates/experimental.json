@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-53-run-642",
-  "versionName": "experimental-pr-53-run-642",
-  "versionCode": 100642,
-  "apkName": "McpAdbAndroidLogger-3.8-experimental.8.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-53-run-642/McpAdbAndroidLogger-3.8-experimental.8.apk",
-  "apkSize": 29673465,
-  "sha256": "c0537df86c95dcadf54121c6df7b1db8cb54b287eeb84bf45ec81745ff9ab738",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-53-run-642",
+  "tag": "experimental-pr-54-run-32",
+  "versionName": "experimental-pr-54-run-32",
+  "versionCode": 100645,
+  "apkName": "McpAdbAndroidLogger-3.9-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-54-run-32/McpAdbAndroidLogger-3.9-experimental.1.apk",
+  "apkSize": 29468272,
+  "sha256": "bd1e96a44c0a21001f739209d934cc722e078c222616f21b4fa14e8e15fe264f",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-54-run-32",
   "notes": [
-    "Document required latest-head APK validation after adb-core 0.1.8 upgrade",
-    "Update existing experimental MCP PR to published ADB Core 0.1.8",
-    "Update existing experimental MCP PR to published ADB Core 0.1.8",
-    "Update existing experimental MCP PR to published ADB Core 0.1.8",
-    "Regress isolated Shizuku audio read, fixed command safety, and fallback",
-    "Describe added fixed read-only Shizuku audio diagnostic",
-    "Describe added fixed read-only Shizuku audio diagnostic",
-    "Prefer isolated authorized Shizuku for audio snapshots and retain ADB fallback",
-    "Run bounded dumpsys audio in isolated Shizuku UserService instead of the shared ADB shell",
-    "Expose fixed read-only audio snapshot through the authorized Shizuku backend"
+    "Publish signed experimental APKs to GitHub Releases so updater detects versions after 3.8"
   ]
 }

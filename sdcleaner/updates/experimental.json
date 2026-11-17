@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-18-run-312",
-  "versionName": "experimental-pr-18-run-312",
-  "versionCode": 100312,
-  "apkName": "SDCleaner-2.4-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-18-run-312/SDCleaner-2.4-experimental.2.apk",
+  "tag": "experimental-pr-18-run-317",
+  "versionName": "experimental-pr-18-run-317",
+  "versionCode": 100317,
+  "apkName": "SDCleaner-2.4-experimental.3.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-pr-18-run-317/SDCleaner-2.4-experimental.3.apk",
   "apkSize": 43024115,
-  "sha256": "0f3e4f9651c9ced8bef83119ff60c8d0e063726b19027403698467c9dfb2240f",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-18-run-312",
+  "sha256": "3cbeb469cb356af22357e932ee3ad2cea5b4c091d4efd543863ba72725d08639",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-pr-18-run-317",
   "notes": [
+    "Fix obsolete service-state assertion after SEQ-style ADB status update",
+    "Match SEQ ADB settings visual palette and three-card layout in SDCleaner",
+    "Align SDCleaner Shizuku status regression tests with SEQ verification criteria",
+    "Remove obsolete user-service readiness from SEQ-style ADB connection status",
+    "Match SEQ shell-ready criteria: live server, granted permission, UID 2000",
+    "Align SDCleaner ADB page with SEQ and probe live Shizuku link before cached availability",
     "Fix Kotlin test string escape for removed legacy ADB preferences",
     "Update SDCleaner regression test for Shizuku-only startup without legacy wireless ADB worker",
     "Unregister obsolete ADB boot receiver; leave existing scheduler boot support intact",
-    "Remove old ADB boot and wireless-debugging restoration; LocalADB owns Shizuku server lifecycle",
-    "Remove old ADB boot and wireless-debugging restoration; LocalADB owns Shizuku server lifecycle",
-    "Drop obsolete libadb, RSA and TLS libraries after Shizuku-only migration",
-    "Fix Kotlin quoting in Shizuku option regression test",
-    "Remove SDCleaner ADB socket test references and verify native Shizuku shell checks",
-    "Update Shizuku-only regression tests after removing obsolete ADB socket and pairing code",
-    "Update Shizuku-only regression tests after removing obsolete ADB socket and pairing code"
+    "Remove old ADB boot and wireless-debugging restoration; LocalADB owns Shizuku server lifecycle"
   ]
 }
