@@ -1,23 +1,17 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-83-run-1230",
-  "versionName": "experimental-pr-83-run-1230",
-  "versionCode": 101230,
-  "apkName": "VREC-7.8-experimental.6.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-pr-83-run-1230/VREC-7.8-experimental.6.apk",
-  "apkSize": 12625912,
-  "sha256": "683d21c075514ad0fb1925ea066bc044f192e8b0e94409fccce262c54dec9a6d",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-pr-83-run-1230",
+  "tag": "experimental-adb-pr-85-run-1237",
+  "versionName": "experimental-adb-pr-85-run-1237",
+  "versionCode": 101237,
+  "apkName": "VREC-ADB-7.8-experimental.1237.apk.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-85-run-1237/VREC-ADB-7.8-experimental.1237.apk.apk",
+  "apkSize": 12900914,
+  "sha256": "8e1b1a7c8d9109abbfe8963830acd5f803627fd73d6cab6030d4f03830b1998b",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-85-run-1237",
   "notes": [
-    "Remove LocalADB Shizuku subtitle from VREC Home access card",
-    "Fix VREC Home navigation regression contract for Shizuku status card",
-    "Check Shizuku Home card's state-dependent panel border",
-    "Update VREC Home contracts for Shizuku dashboard redesign",
-    "Update VREC Home contracts for Shizuku dashboard redesign",
-    "Replace obsolete wireless ADB Home setup with compact Shizuku connection dashboard",
-    "Add compact live Shizuku status and permission card to VREC Home",
-    "Add regression checks preventing legacy adb-core dependency and imports",
-    "Preserve Shizuku user-service reflective constructor in R8 release builds",
-    "Correct Shizuku-only regression assertions and test source lookup"
+    "docs: identify independent ADB experimental APK track",
+    "test: support independent ADB and Shizuku stable release channels",
+    "ci: isolate branch concurrency and use complete version lineage",
+    "ci: split adb release and experimental APK channel"
   ]
 }
