@@ -1,14 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-54-run-32",
-  "versionName": "experimental-pr-54-run-32",
-  "versionCode": 100645,
-  "apkName": "McpAdbAndroidLogger-3.9-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-pr-54-run-32/McpAdbAndroidLogger-3.9-experimental.1.apk",
-  "apkSize": 29468272,
-  "sha256": "bd1e96a44c0a21001f739209d934cc722e078c222616f21b4fa14e8e15fe264f",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-pr-54-run-32",
+  "tag": "experimental-shizuku-pr-54-run-677",
+  "versionName": "experimental-shizuku-pr-54-run-677",
+  "versionCode": 100677,
+  "apkName": "McpAdbAndroidLogger-SHIZUKU-4.0-experimental.677.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-shizuku-pr-54-run-677/McpAdbAndroidLogger-SHIZUKU-4.0-experimental.677.apk",
+  "apkSize": 29464176,
+  "sha256": "a06af56bd525be25ea10a0856564c27542b8934d73d74d8e69693ab3a495d4f5",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-shizuku-pr-54-run-677",
   "notes": [
-    "Publish signed experimental APKs to GitHub Releases so updater detects versions after 3.8"
+    "fix: publish exactly one .apk extension per architecture release",
+    "fix: publish exactly one .apk extension per architecture release",
+    "test: accept track-specific stable publishers",
+    "test: approve newly published track-aware updater 0.1.38",
+    "test: approve newly published track-aware updater 0.1.38",
+    "build: consume published track-aware updater 0.1.38",
+    "feat: pin shizuku experimental updater channel",
+    "build: use tested architecture-aware updater 0.1.38",
+    "feat: pin in-app updates to shizuku APK releases",
+    "ci: align experimental APK publishing with shizuku architecture"
   ]
 }
