@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-shizuku-pr-83-run-1262",
-  "versionName": "experimental-shizuku-pr-83-run-1262",
-  "versionCode": 101262,
-  "apkName": "VREC-SHIZUKU-8.0-experimental.1262.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-shizuku-pr-83-run-1262/VREC-SHIZUKU-8.0-experimental.1262.apk",
-  "apkSize": 12625908,
-  "sha256": "92cfb76498e748a3ad4650de90916050c77c5c34930d163995b92991be700d24",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-shizuku-pr-83-run-1262",
+  "tag": "experimental-adb-pr-85-run-1268",
+  "versionName": "experimental-adb-pr-85-run-1268",
+  "versionCode": 101268,
+  "apkName": "VREC-ADB-8.1-experimental.1268.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-85-run-1268/VREC-ADB-8.1-experimental.1268.apk",
+  "apkSize": 12900914,
+  "sha256": "761e3304124100ae95522b1d5395e31f9a3a27999fe8639733ccea0d1c3fec09",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-85-run-1268",
   "notes": [
+    "fix(ci): use published Kotlin Android Gradle plugin 2.4.20",
+    "fix(experimental): enforce integrated ADB updates and correct APK publication",
+    "fix(experimental): enforce integrated ADB updates and correct APK publication",
+    "fix(release): upload actual signed stable APK asset",
+    "fix(updater): isolate integrated ADB stable and experimental releases",
     "fix: VREC release file name with single .apk extension",
     "fix: VREC release file name with single .apk extension",
     "fix: publish exactly one .apk extension per architecture release",
     "fix: publish exactly one .apk extension per architecture release",
-    "test: accept architecture-scoped stable publisher contracts",
-    "test: keep shared library regression check aligned with updater 0.1.38",
-    "test: keep shared library regression check aligned with updater 0.1.38",
-    "build: consume published track-aware updater 0.1.38",
-    "feat: pin shizuku experimental updater channel",
-    "build: use tested architecture-aware updater 0.1.38"
+    "test: accept architecture-scoped stable publisher contracts"
   ]
 }
