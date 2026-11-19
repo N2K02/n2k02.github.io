@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-7-run-323",
-  "versionName": "experimental-adb-pr-7-run-323",
-  "versionCode": 100323,
-  "apkName": "SEQ-ADB-0.8-experimental.9.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-323/SEQ-ADB-0.8-experimental.9.apk",
+  "tag": "experimental-adb-pr-7-run-327",
+  "versionName": "experimental-adb-pr-7-run-327",
+  "versionCode": 200000327,
+  "apkName": "SEQ-ADB-0.8-experimental.10.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-327/SEQ-ADB-0.8-experimental.10.apk",
   "apkSize": 89005330,
-  "sha256": "5427fb4874bfb72e4edb9fbcea0d626ba018174b5538b22976bbf920dce08e92",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-adb-pr-7-run-323",
+  "sha256": "c5da8ca3a12e0fe00052057489d89aa09a36283d07c1b108c8f4f866e4d263dd",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-adb-pr-7-run-327",
   "notes": [
+    "Reserve higher ADB version codes for safe legacy experimental migration",
+    "Index architecture APKs from GitHub Releases and preserve published assets",
     "security(experimental): inherit merged-PR-only stable release gate",
     "security(release): stable builds only on merged PR events; disable manual bypass",
     "docs(security): PR-only ADB/Shizuku branch rules and release gates",
@@ -16,8 +18,6 @@
     "test(release): enforce ADB/Shizuku APK filename convention",
     "test(release): enforce ADB/Shizuku APK filename convention",
     "test: accept architecture-scoped stable publisher contracts",
-    "test: approve newly published track-aware updater 0.1.38",
-    "test: approve newly published track-aware updater 0.1.38",
-    "build: consume published track-aware updater 0.1.38"
+    "test: approve newly published track-aware updater 0.1.38"
   ]
 }

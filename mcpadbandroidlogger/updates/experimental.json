@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-56-run-691",
-  "versionName": "experimental-adb-pr-56-run-691",
-  "versionCode": 100691,
-  "apkName": "McpAdbAndroidLogger-ADB-4.3-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-adb-pr-56-run-691/McpAdbAndroidLogger-ADB-4.3-experimental.2.apk",
+  "tag": "experimental-adb-pr-56-run-699",
+  "versionName": "experimental-adb-pr-56-run-699",
+  "versionCode": 200000699,
+  "apkName": "McpAdbAndroidLogger-ADB-4.3-experimental.5.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-adb-pr-56-run-699/McpAdbAndroidLogger-ADB-4.3-experimental.5.apk",
   "apkSize": 29669369,
-  "sha256": "2611d313ba8dcd194a4ee9ab3b6224455005400054a1756930d0586c5b3514de",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-adb-pr-56-run-691",
+  "sha256": "707e92c2fbf7fd40c123945e685abc90e2b29089cbbcdf3b3647870fa993f88b",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-adb-pr-56-run-699",
   "notes": [
+    "Gate stable APK builds on exact approved merges for each architecture",
+    "Reserve higher ADB version codes for safe legacy experimental migration",
+    "Index architecture APKs from GitHub Releases and preserve published assets",
     "security(experimental): inherit merged-PR-only stable release gate",
     "security(release): stable builds only on merged PR events; disable manual bypass",
     "docs(security): PR-only ADB/Shizuku branch rules and release gates",
     "security(release): never publish stable APK on direct branch push",
     "fix(versioning): accept architecture-qualified stable tags in experiment naming",
     "fix(versioning): accept architecture-qualified stable tags in experiment naming",
-    "fix(release): enforce architecture-qualified experimental and stable APK names",
-    "fix(release): enforce architecture-qualified experimental and stable APK names",
-    "fix: publish exactly one .apk extension per architecture release",
-    "fix: publish exactly one .apk extension per architecture release"
+    "fix(release): enforce architecture-qualified experimental and stable APK names"
   ]
 }
