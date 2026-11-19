@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-19-run-377",
-  "versionName": "experimental-adb-pr-19-run-377",
-  "versionCode": 100377,
-  "apkName": "SDCleaner-ADB-2.4-experimental.6.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-adb-pr-19-run-377/SDCleaner-ADB-2.4-experimental.6.apk",
+  "tag": "experimental-adb-pr-19-run-385",
+  "versionName": "experimental-adb-pr-19-run-385",
+  "versionCode": 100385,
+  "apkName": "SDCleaner-ADB-2.4-experimental.7.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-adb-pr-19-run-385/SDCleaner-ADB-2.4-experimental.7.apk",
   "apkSize": 57652576,
-  "sha256": "28c9d39b95cfa05119f8b79cb3e1a90975614768f508e6c0eb9d1498d54e0cc0",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-adb-pr-19-run-377",
+  "sha256": "44422aa568be6cf310f26c49d4cf5eee95b77f0a75959fb5352868348c84e771",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-adb-pr-19-run-385",
   "notes": [
+    "security(experimental): inherit merged-PR-only stable release gate",
+    "security(release): merged PR only, no manual stable bypass",
+    "docs(security): PR-only ADB/Shizuku branch rules and release gates",
+    "security(release): never publish stable APK on direct branch push",
     "fix(versioning): accept architecture-qualified stable tags in experiment naming",
     "fix(versioning): accept architecture-qualified stable tags in experiment naming",
     "fix(release): enforce architecture-qualified experimental and stable APK names",
     "fix(release): enforce architecture-qualified experimental and stable APK names",
     "fix: architecture-specific APK gets exactly one file extension",
-    "fix: publish exactly one .apk extension per architecture release",
-    "test: accept track-specific stable publishers",
-    "build: consume published track-aware updater 0.1.38",
-    "feat: pin adb experimental updater channel",
-    "build: use tested architecture-aware updater 0.1.38"
+    "fix: publish exactly one .apk extension per architecture release"
   ]
 }
