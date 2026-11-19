@@ -10,6 +10,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+ADB_BRIDGE_APPS = {'McpAdbAndroidLogger', 'SDCleaner', 'SEQ', 'VREC'}
 APPS = ('AAYoutube','BCam','ChargeWatt','HFreebuds','LocalAdb','MRadio',
         'McpAdbAndroidLogger','MovieTogether','NetSpeed','PBar','PCL',
         'PixelCast','SDCleaner','SEQ','SpeedTester','VREC')
@@ -22,6 +23,17 @@ def manifest(repo, release, channel):
     tag = release.get('tag_name', '')
     if not isinstance(tag, str) or not tag:
         return None
+    adb_asset = None
+    if repo in ADB_BRIDGE_APPS:
+        if channel == 'experimental':
+            if not re.fullmatch(r'experimental-adb-pr-\d+-run-\d+', tag):
+                return None
+            adb_asset = rf'{re.escape(repo)}-ADB-\d+\.\d+-experimental\.\d+\.apk'
+        else:
+            version = re.fullmatch(r'adb-(?:sdcleaner-)?v(\d+\.\d+)', tag)
+            if not version:
+                return None
+            adb_asset = re.escape(f'{repo}-ADB-{version[1]}.apk')
     found = CODE.search(release.get('body') or '')
     fallback = EXPERIMENTAL.fullmatch(tag) if channel == 'experimental' else None
     code = int(found.group(1)) if found else (100000 + int(fallback.group(1)) if fallback else 0)
@@ -31,6 +43,8 @@ def manifest(repo, release, channel):
         name, url, digest = (asset.get(k, '') for k in ('name','browser_download_url','digest'))
         expected = f'https://github.com/N2K02/{repo}/releases/download/'
         if not (isinstance(name, str) and name.lower().endswith('.apk') and isinstance(url, str) and url.startswith(expected) and isinstance(digest, str) and re.fullmatch(r'sha256:[0-9a-fA-F]{64}', digest)):
+            continue
+        if adb_asset and (not re.fullmatch(adb_asset, name) or url != f'{expected}{tag}/{name}'):
             continue
         size = asset.get('size')
         if not isinstance(size, int) or size <= 0:
@@ -45,7 +59,7 @@ def select(repo, releases, channel):
     candidates = [value for item in releases if (value := manifest(repo, item, channel))]
     return max(candidates, key=lambda x: x['versionCode'], default=None)
 
-def update(path, value):
+def update(path, value, adb_bridge=False):
     if value is None:
         return False
     try:
@@ -54,7 +68,12 @@ def update(path, value):
         old = {}
     # Never regress an installed client or replace an equal version with other bytes.
     old_code = old.get('versionCode', 0)
-    if isinstance(old_code, int) and old_code >= value['versionCode']:
+    old_tag = str(old.get('tag', '')).lower()
+    old_name = str(old.get('apkName', '')).lower()
+    wrong_track = adb_bridge and (
+        old_tag.startswith(('shizuku-', 'experimental-shizuku-')) or '-shizuku-' in old_name
+    )
+    if not wrong_track and isinstance(old_code, int) and old_code >= value['versionCode']:
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n')
@@ -81,9 +100,11 @@ def sync(repo, token):
         raise ValueError('Unexpected release list')
     base = ROOT / repo.lower() / 'updates'
     changes = []
-    for channel, value in [('stable', manifest(repo, stable, 'stable')),
+    adb_bridge = repo in ADB_BRIDGE_APPS
+    stable_value = select(repo, [stable, *(releases or [])], 'stable') if adb_bridge else manifest(repo, stable, 'stable')
+    for channel, value in [('stable', stable_value),
                            ('experimental', select(repo, releases or [], 'experimental'))]:
-        if update(base / (channel + '.json'), value):
+        if update(base / (channel + '.json'), value, adb_bridge=adb_bridge):
             changes.append(channel)
     return changes
 

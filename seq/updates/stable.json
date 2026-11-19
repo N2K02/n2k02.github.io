@@ -1,23 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v0.7",
-  "versionName": "v0.7",
-  "versionCode": 100260,
-  "apkName": "SEQ-0.7.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/v0.7/SEQ-0.7.apk",
+  "tag": "adb-v0.9",
+  "versionName": "adb-v0.9",
+  "versionCode": 100308,
+  "apkName": "SEQ-ADB-0.9.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/adb-v0.9/SEQ-ADB-0.9.apk",
   "apkSize": 15165799,
-  "sha256": "7dbd31a87873060a0383cfe59a139a13e059b814b2b30faaab7b7ac97d19db1d",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/v0.7",
+  "sha256": "9492b94ea37ded21c58cc4aeb7ec42d3b4f8e4ee9f5ce01353164bcdb0191b99",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/adb-v0.9",
   "notes": [
+    "test: approve newly published track-aware updater 0.1.38",
+    "build: use tested architecture-aware updater 0.1.38",
+    "feat: pin in-app updates to adb APK releases",
+    "docs: cross-track bug propagation, release and updater safety policy",
+    "test: support independent ADB and Shizuku stable release channels",
+    "ci: isolate branch concurrency and use complete version lineage",
+    "ci: split adb release and experimental APK channel",
     "CI: sequential experimental APK naming and correct embedded versionCode (#5)",
     "CI: build stable APK after automated merges (#4)",
-    "Merge experimental updates and public release updater",
-    "Experimental SEQ: smoother DSP, safe headroom, 10-band controls and sound modes (#2)",
-    "test(adb): guard SEQ boot-vs-watchdog recovery separation",
-    "test(adb): SEQ same-boot foreground recovery and cold-boot gating",
-    "fix(adb): separate SEQ boot policy from ongoing watchdog recovery",
-    "fix(adb): permit SEQ same-boot foreground recovery with boot startup disabled",
-    "test(adb): guard manual Stop across Android activity recreation",
-    "fix(adb): do not reset manual Stop on activity recreation"
+    "Merge experimental updates and public release updater"
   ]
 }

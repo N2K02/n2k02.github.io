@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-shizuku-pr-54-run-685",
-  "versionName": "experimental-shizuku-pr-54-run-685",
-  "versionCode": 100685,
-  "apkName": "McpAdbAndroidLogger-SHIZUKU-4.3-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-shizuku-pr-54-run-685/McpAdbAndroidLogger-SHIZUKU-4.3-experimental.1.apk",
-  "apkSize": 29464176,
-  "sha256": "ee3aec37ab6dffc3bcb9a429ad1c6a7d106e5e5e65088e728edddf5ac7c8ad1d",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-shizuku-pr-54-run-685",
+  "tag": "experimental-adb-pr-56-run-691",
+  "versionName": "experimental-adb-pr-56-run-691",
+  "versionCode": 100691,
+  "apkName": "McpAdbAndroidLogger-ADB-4.3-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-adb-pr-56-run-691/McpAdbAndroidLogger-ADB-4.3-experimental.2.apk",
+  "apkSize": 29669369,
+  "sha256": "2611d313ba8dcd194a4ee9ab3b6224455005400054a1756930d0586c5b3514de",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/experimental-adb-pr-56-run-691",
   "notes": [
-    "fix(shizuku): parse variant-specific stable release tags",
-    "ci(shizuku): sync release naming and publish checks from main-shizuku",
+    "security(experimental): inherit merged-PR-only stable release gate",
+    "security(release): stable builds only on merged PR events; disable manual bypass",
+    "docs(security): PR-only ADB/Shizuku branch rules and release gates",
+    "security(release): never publish stable APK on direct branch push",
+    "fix(versioning): accept architecture-qualified stable tags in experiment naming",
     "fix(versioning): accept architecture-qualified stable tags in experiment naming",
     "fix(release): enforce architecture-qualified experimental and stable APK names",
+    "fix(release): enforce architecture-qualified experimental and stable APK names",
     "fix: publish exactly one .apk extension per architecture release",
-    "fix: publish exactly one .apk extension per architecture release",
-    "test: accept track-specific stable publishers",
-    "test: approve newly published track-aware updater 0.1.38",
-    "test: approve newly published track-aware updater 0.1.38",
-    "build: consume published track-aware updater 0.1.38"
+    "fix: publish exactly one .apk extension per architecture release"
   ]
 }
