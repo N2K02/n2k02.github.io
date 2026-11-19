@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-19-run-370",
-  "versionName": "experimental-adb-pr-19-run-370",
-  "versionCode": 100370,
-  "apkName": "SDCleaner-2.4-experimental.5.apk",
-  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-adb-pr-19-run-370/SDCleaner-2.4-experimental.5.apk",
+  "tag": "experimental-adb-pr-19-run-377",
+  "versionName": "experimental-adb-pr-19-run-377",
+  "versionCode": 100377,
+  "apkName": "SDCleaner-ADB-2.4-experimental.6.apk",
+  "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-adb-pr-19-run-377/SDCleaner-ADB-2.4-experimental.6.apk",
   "apkSize": 57652576,
-  "sha256": "d370f9ad269d73fc6bcea3f0b49fc88ea2bb91239b2b977a987d87c8f50d5d35",
-  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-adb-pr-19-run-370",
+  "sha256": "28c9d39b95cfa05119f8b79cb3e1a90975614768f508e6c0eb9d1498d54e0cc0",
+  "pageUrl": "https://github.com/N2K02/SDCleaner/releases/tag/experimental-adb-pr-19-run-377",
   "notes": [
+    "fix(versioning): accept architecture-qualified stable tags in experiment naming",
+    "fix(versioning): accept architecture-qualified stable tags in experiment naming",
+    "fix(release): enforce architecture-qualified experimental and stable APK names",
+    "fix(release): enforce architecture-qualified experimental and stable APK names",
     "fix: architecture-specific APK gets exactly one file extension",
     "fix: publish exactly one .apk extension per architecture release",
     "test: accept track-specific stable publishers",
     "build: consume published track-aware updater 0.1.38",
     "feat: pin adb experimental updater channel",
-    "build: use tested architecture-aware updater 0.1.38",
-    "feat: pin in-app updates to adb APK releases",
-    "ci: align experimental APK publishing with adb architecture",
-    "docs: cross-track bug propagation, release and updater safety policy",
-    "docs: identify independent ADB experimental APK track"
+    "build: use tested architecture-aware updater 0.1.38"
   ]
 }
