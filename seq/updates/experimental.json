@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-shizuku-pr-6-run-313",
-  "versionName": "experimental-shizuku-pr-6-run-313",
-  "versionCode": 100313,
-  "apkName": "SEQ-SHIZUKU-0.8-experimental.6.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-313/SEQ-SHIZUKU-0.8-experimental.6.apk",
-  "apkSize": 88738702,
-  "sha256": "d9dd9c9a4f169ac1ecbb25247e7e4317b4213d6eecdc81aa2af7c9e594051278",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-shizuku-pr-6-run-313",
+  "tag": "experimental-adb-pr-7-run-316",
+  "versionName": "experimental-adb-pr-7-run-316",
+  "versionCode": 100316,
+  "apkName": "SEQ-ADB-0.8-experimental.7.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-316/SEQ-ADB-0.8-experimental.7.apk",
+  "apkSize": 89005330,
+  "sha256": "2f77aabc164ef9212ef029d1889e48b40aba31ce800199988773bf43ee72fe74",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-adb-pr-7-run-316",
   "notes": [
+    "test(release): enforce ADB/Shizuku APK filename convention",
+    "test(release): enforce ADB/Shizuku APK filename convention",
     "test: accept architecture-scoped stable publisher contracts",
     "test: approve newly published track-aware updater 0.1.38",
     "test: approve newly published track-aware updater 0.1.38",
     "build: consume published track-aware updater 0.1.38",
-    "feat: pin shizuku experimental updater channel",
+    "feat: pin adb experimental updater channel",
     "build: use tested architecture-aware updater 0.1.38",
-    "feat: pin in-app updates to shizuku APK releases",
-    "ci: use shizuku architecture-scoped experimental APK publishing",
-    "docs: cross-track bug propagation, release and updater safety policy",
-    "ci: trigger independent Shizuku experimental APK validation"
+    "feat: pin in-app updates to adb APK releases",
+    "ci: use adb architecture-scoped experimental APK publishing"
   ]
 }

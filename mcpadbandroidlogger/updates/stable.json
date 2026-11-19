@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "adb-v4.1",
-  "versionName": "adb-v4.1",
-  "versionCode": 100674,
-  "apkName": "McpAdbAndroidLogger-ADB-4.1.apk",
-  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/adb-v4.1/McpAdbAndroidLogger-ADB-4.1.apk",
+  "tag": "adb-v4.2",
+  "versionName": "adb-v4.2",
+  "versionCode": 100681,
+  "apkName": "McpAdbAndroidLogger-ADB-4.2.apk",
+  "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/adb-v4.2/McpAdbAndroidLogger-ADB-4.2.apk",
   "apkSize": 29669369,
-  "sha256": "5919f0d8e3f9ac63718f79043b619d490f74f8f04be59b7217a0eed70d4a79b2",
-  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/adb-v4.1",
+  "sha256": "ff73389bfe22c756574942b3f7394504b8b3f6d23209c94d44a3ad3809709e1b",
+  "pageUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/tag/adb-v4.2",
   "notes": [
+    "fix(versioning): accept architecture-qualified stable tags in experiment naming",
+    "fix(release): enforce architecture-qualified experimental and stable APK names",
     "fix: publish exactly one .apk extension per architecture release",
     "test: approve newly published track-aware updater 0.1.38",
     "build: use tested architecture-aware updater 0.1.38",
@@ -16,8 +18,6 @@
     "docs: cross-track bug propagation, release and updater safety policy",
     "test: support independent ADB and Shizuku stable release channels",
     "ci: isolate branch concurrency and use complete version lineage",
-    "ci: split adb release and experimental APK channel",
-    "Fix Shizuku diagnostics and ADB transport reliability (#53)",
-    "Test WebView nested sandbox process CPU and conservative codec PID attribution"
+    "ci: split adb release and experimental APK channel"
   ]
 }
