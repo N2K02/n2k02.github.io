@@ -34,4 +34,34 @@ class LegacyBridgeTest(unittest.TestCase):
             self.assertTrue(update(p, value)); self.assertFalse(update(p, value))
             self.assertEqual('a'*64, json.loads(p.read_text())['sha256'])
 
+    def test_legacy_adb_endpoints_ignore_other_architectures_and_bad_name(self):
+        def variant(track, code, experimental=False):
+            tag = f'experimental-{track}-pr-4-run-12' if experimental else f'{track}-v1.0'
+            release = self.release(tag, code, experimental)
+            suffix = '-experimental.1' if experimental else ''
+            name = f'VREC-{track.upper()}-1.0{suffix}.apk'
+            release['assets'][0].update(
+                name=name,
+                browser_download_url=f'https://github.com/N2K02/VREC/releases/download/{tag}/{name}',
+            )
+            return release
+
+        for channel in ('stable', 'experimental'):
+            experimental = channel == 'experimental'
+            adb = variant('adb', 100122, experimental)
+            shizuku = variant('shizuku', 100123, experimental)
+            self.assertEqual(100122, select('VREC', [shizuku, adb], channel)['versionCode'])
+            self.assertIsNone(select('VREC', [shizuku], channel))
+            adb['assets'][0]['name'] += '.apk'
+            self.assertIsNone(select('VREC', [adb], channel))
+
+    def test_fix_wrong_track_even_when_adb_download_has_lower_code(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / 'experimental.json'
+            p.write_text(json.dumps({'tag': 'experimental-shizuku-pr-4-run-12', 'versionCode': 100124}))
+            adb = {'tag': 'experimental-adb-pr-5-run-11', 'versionCode': 100123}
+            self.assertTrue(update(p, adb, adb_bridge=True))
+            self.assertEqual(adb, json.loads(p.read_text()))
+            self.assertFalse(update(p, dict(adb, versionCode=100122), adb_bridge=True))
+
 if __name__ == '__main__': unittest.main()

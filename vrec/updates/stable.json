@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v7.7",
-  "versionName": "v7.7",
-  "versionCode": 101194,
-  "apkName": "VREC-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/v7.7/VREC-7.7.apk",
-  "apkSize": 12900906,
-  "sha256": "7721f5fbfdc59c08800c3d773b51c6adaa896e8559a39f84f153c06f91474695",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/v7.7",
+  "tag": "adb-v8.1",
+  "versionName": "adb-v8.1",
+  "versionCode": 101265,
+  "apkName": "VREC-ADB-8.1.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.1/VREC-ADB-8.1.apk",
+  "apkSize": 12900910,
+  "sha256": "beb21258c498cd0c4e14b7b2d379a55a01d0a164f4ef2c6cf6ac3f4c5acab1fa",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/adb-v8.1",
   "notes": [
-    "CI: standard App-version-experimental.N APK naming (#82)"
+    "fix(release): upload actual signed stable APK asset",
+    "fix(updater): isolate integrated ADB stable and experimental releases",
+    "fix: VREC release file name with single .apk extension",
+    "fix: publish exactly one .apk extension per architecture release",
+    "test: keep shared library regression check aligned with updater 0.1.38",
+    "build: use tested architecture-aware updater 0.1.38",
+    "feat: pin in-app updates to adb APK releases",
+    "docs: cross-track bug propagation, release and updater safety policy",
+    "test: support independent ADB and Shizuku stable release channels",
+    "ci: isolate branch concurrency and use complete version lineage"
   ]
 }
