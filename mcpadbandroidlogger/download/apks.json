@@ -1,0 +1,18 @@
+{
+  "stable": {
+    "adb": {
+      "tag": "adb-v4.2",
+      "apkName": "McpAdbAndroidLogger-ADB-4.2.apk",
+      "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/adb-v4.2/McpAdbAndroidLogger-ADB-4.2.apk"
+    },
+    "shizuku": null
+  },
+  "experimental": {
+    "adb": {
+      "tag": "experimental-adb-pr-56-run-699",
+      "apkName": "McpAdbAndroidLogger-ADB-4.3-experimental.5.apk",
+      "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-adb-pr-56-run-699/McpAdbAndroidLogger-ADB-4.3-experimental.5.apk"
+    },
+    "shizuku": null
+  }
+}

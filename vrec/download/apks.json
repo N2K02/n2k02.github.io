@@ -1,0 +1,18 @@
+{
+  "stable": {
+    "adb": null,
+    "shizuku": {
+      "tag": "shizuku-v8.2",
+      "apkName": "VREC-SHIZUKU-8.2.apk",
+      "apkUrl": "https://github.com/N2K02/VREC/releases/download/shizuku-v8.2/VREC-SHIZUKU-8.2.apk"
+    }
+  },
+  "experimental": {
+    "adb": null,
+    "shizuku": {
+      "tag": "experimental-shizuku-pr-83-run-1284",
+      "apkName": "VREC-SHIZUKU-7.8-experimental.12.apk",
+      "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-shizuku-pr-83-run-1284/VREC-SHIZUKU-7.8-experimental.12.apk"
+    }
+  }
+}

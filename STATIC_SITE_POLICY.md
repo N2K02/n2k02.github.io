@@ -5,7 +5,7 @@ This repository hosts only the static N2K02 website and public update metadata.
 - Do not publish GitHub Releases, APK binaries, or app version tags here.
 - Do not add Android build, signing, APK distribution, or release-publishing workflows. The temporary metadata-only legacy updater bridge may synchronize JSON from public app releases until existing installations have migrated.
 - App APKs and version tags belong in their own app repositories.
-- Public download pages must link to the latest stable APK in the corresponding app repository.
+- Public download pages link directly to the corresponding app repository. Dual-architecture pages show Stable and Experimental choices from the generated download catalog and leave unavailable choices disabled. Legacy update metadata remains independent of the website catalog.
 - Existing update manifests must not be deleted or redirected until each consuming app's updater and publishing workflow has migrated.
 - GitHub Pages deployment may continue through GitHub's built-in Pages deployment or an approved Pages-only workflow.
 
@@ -17,7 +17,7 @@ Before removing legacy releases and tags, migrate and verify all external app pu
 
 ## Validation and legacy cleanup
 
-Run `python3 scripts/verify_static_site.py` after any website change. The 15 download pages use `/assets/js/stable-download.js`, which resolves the current stable source-repository APK at page load. In-app update JSON feeds remain for compatibility, but their APK URLs must point to the corresponding app's own releases.
+Run `python3 scripts/verify_static_site.py` after any website change. Single-architecture pages use `/assets/js/stable-download.js`. Dual-architecture pages use `/assets/js/architecture-downloads.js` with the adjacent `apks.json` refreshed by the website deployment workflow. In-app update JSON feeds remain for compatibility, but their APK URLs must point to the corresponding app's own releases.
 
 After merging the SDCleaner, McpAdbAndroidLogger and other source-version PRs, use GitHub CLI authenticated as a repository administrator:
 

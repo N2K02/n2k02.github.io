@@ -2,7 +2,8 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from sync_legacy_updates import manifest, select, update
+from unittest.mock import patch
+from sync_legacy_updates import manifest, select, sync_download_catalog, update
 
 class LegacyBridgeTest(unittest.TestCase):
     def release(self, tag, code=None, pre=False):
@@ -63,5 +64,33 @@ class LegacyBridgeTest(unittest.TestCase):
             self.assertTrue(update(p, adb, adb_bridge=True))
             self.assertEqual(adb, json.loads(p.read_text()))
             self.assertFalse(update(p, dict(adb, versionCode=100122), adb_bridge=True))
+
+    def test_download_catalog_clears_removed_assets_without_changing_legacy_selection(self):
+        stable_adb = self.release('adb-v0.9', 100307)
+        stable_shizuku = self.release('shizuku-v1.0', 100315)
+        experimental_adb = self.release('experimental-adb-pr-7-run-327', 200000327, True)
+        for release, name in (
+            (stable_adb, 'SEQ-ADB-0.9.apk'),
+            (stable_shizuku, 'SEQ-SHIZUKU-1.0.apk'),
+            (experimental_adb, 'SEQ-ADB-0.8-experimental.10.apk'),
+        ):
+            release['assets'][0].update(
+                name=name,
+                browser_download_url=f"https://github.com/N2K02/SEQ/releases/download/{release['tag_name']}/{name}",
+            )
+
+        with tempfile.TemporaryDirectory() as d, patch('sync_legacy_updates.ROOT', Path(d)):
+            path = Path(d) / 'seq' / 'download' / 'apks.json'
+            path.parent.mkdir(parents=True)
+            self.assertTrue(sync_download_catalog('SEQ', [stable_adb, stable_shizuku, experimental_adb]))
+            catalog = json.loads(path.read_text())
+            self.assertEqual('SEQ-ADB-0.9.apk', catalog['stable']['adb']['apkName'])
+            self.assertEqual('SEQ-SHIZUKU-1.0.apk', catalog['stable']['shizuku']['apkName'])
+            self.assertEqual('SEQ-ADB-0.8-experimental.10.apk', catalog['experimental']['adb']['apkName'])
+            self.assertIsNone(catalog['experimental']['shizuku'])
+            self.assertTrue(sync_download_catalog('SEQ', [stable_shizuku]))
+            self.assertIsNone(json.loads(path.read_text())['stable']['adb'])
+            self.assertFalse(sync_download_catalog('SEQ', [stable_shizuku]))
+        self.assertEqual('adb-v0.9', select('SEQ', [stable_shizuku, stable_adb], 'stable')['tag'])
 
 if __name__ == '__main__': unittest.main()

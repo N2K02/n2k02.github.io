@@ -17,23 +17,24 @@ APPS = ('AAYoutube','BCam','ChargeWatt','HFreebuds','LocalAdb','MRadio',
 CODE = re.compile(r'^\s*Version code:\s*(\d+)\s*$', re.I | re.M)
 EXPERIMENTAL = re.compile(r'^experimental-pr-\d+-run-(\d+)$', re.I)
 
-def manifest(repo, release, channel):
+def manifest(repo, release, channel, track=None):
     if not isinstance(release, dict) or release.get('draft') or bool(release.get('prerelease')) != (channel == 'experimental'):
         return None
     tag = release.get('tag_name', '')
     if not isinstance(tag, str) or not tag:
         return None
-    adb_asset = None
-    if repo in ADB_BRIDGE_APPS:
+    track = track or ("adb" if repo in ADB_BRIDGE_APPS else None)
+    expected_asset = None
+    if track:
         if channel == 'experimental':
-            if not re.fullmatch(r'experimental-adb-pr-\d+-run-\d+', tag):
+            if not re.fullmatch(rf'experimental-{track}-pr-\d+-run-\d+', tag):
                 return None
-            adb_asset = rf'{re.escape(repo)}-ADB-\d+\.\d+-experimental\.\d+\.apk'
+            expected_asset = rf'{re.escape(repo)}-{track.upper()}-\d+\.\d+-experimental\.\d+\.apk'
         else:
-            version = re.fullmatch(r'adb-(?:sdcleaner-)?v(\d+\.\d+)', tag)
+            version = re.fullmatch(rf'{track}-(?:sdcleaner-)?v(\d+\.\d+)', tag)
             if not version:
                 return None
-            adb_asset = re.escape(f'{repo}-ADB-{version[1]}.apk')
+            expected_asset = re.escape(f'{repo}-{track.upper()}-{version[1]}.apk')
     found = CODE.search(release.get('body') or '')
     fallback = EXPERIMENTAL.fullmatch(tag) if channel == 'experimental' else None
     code = int(found.group(1)) if found else (100000 + int(fallback.group(1)) if fallback else 0)
@@ -44,7 +45,7 @@ def manifest(repo, release, channel):
         expected = f'https://github.com/N2K02/{repo}/releases/download/'
         if not (isinstance(name, str) and name.lower().endswith('.apk') and isinstance(url, str) and url.startswith(expected) and isinstance(digest, str) and re.fullmatch(r'sha256:[0-9a-fA-F]{64}', digest)):
             continue
-        if adb_asset and (not re.fullmatch(adb_asset, name) or url != f'{expected}{tag}/{name}'):
+        if expected_asset and (not re.fullmatch(expected_asset, name) or url != f'{expected}{tag}/{name}'):
             continue
         size = asset.get('size')
         if not isinstance(size, int) or size <= 0:
@@ -55,8 +56,8 @@ def manifest(repo, release, channel):
                     pageUrl=f'https://github.com/N2K02/{repo}/releases/tag/{tag}', notes=notes)
     return None
 
-def select(repo, releases, channel):
-    candidates = [value for item in releases if (value := manifest(repo, item, channel))]
+def select(repo, releases, channel, track=None):
+    candidates = [value for item in releases if (value := manifest(repo, item, channel, track))]
     return max(candidates, key=lambda x: x['versionCode'], default=None)
 
 def update(path, value, adb_bridge=False):
@@ -93,6 +94,22 @@ def api(path, token):
             return None
         raise
 
+def sync_download_catalog(repo, releases):
+    catalog = {}
+    for channel in ("stable", "experimental"):
+        catalog[channel] = {}
+        for track in ("adb", "shizuku"):
+            asset = select(repo, releases, channel, track)
+            catalog[channel][track] = (
+                {key: asset[key] for key in ("tag", "apkName", "apkUrl")} if asset else None
+            )
+    path = ROOT / repo.lower() / "download" / "apks.json"
+    content = json.dumps(catalog, indent=2) + "\n"
+    if path.exists() and path.read_text() == content:
+        return False
+    path.write_text(content)
+    return True
+
 def sync(repo, token):
     stable = api(f'repos/N2K02/{repo}/releases/latest', token)
     releases = api(f'repos/N2K02/{repo}/releases?per_page=100', token)
@@ -101,6 +118,20 @@ def sync(repo, token):
     base = ROOT / repo.lower() / 'updates'
     changes = []
     adb_bridge = repo in ADB_BRIDGE_APPS
+    if adb_bridge:
+        # Stable assets may be older than the first page of experimental builds.
+        page = releases or []
+        for number in range(2, 21):
+            if len(page) < 100:
+                break
+            page = api(f'repos/N2K02/{repo}/releases?per_page=100&page={number}', token)
+            if not isinstance(page, list):
+                raise ValueError('Unexpected release list page')
+            releases.extend(page)
+        if len(page) == 100:
+            raise ValueError('Could not scan all releases')
+        if sync_download_catalog(repo, [stable, *(releases or [])]):
+            changes.append('downloads')
     stable_value = select(repo, [stable, *(releases or [])], 'stable') if adb_bridge else manifest(repo, stable, 'stable')
     for channel, value in [('stable', stable_value),
                            ('experimental', select(repo, releases or [], 'experimental'))]:

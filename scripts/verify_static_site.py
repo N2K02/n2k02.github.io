@@ -17,8 +17,16 @@ if not pages:
     errors.append("No app download pages found")
 for page in pages:
     src = page.read_text(encoding="utf-8")
-    if "/assets/js/stable-download.js" not in src or 'data-repo="N2K02/' not in src:
+    architecture_page = "/assets/js/architecture-downloads.js" in src
+    if ('data-repo="N2K02/' not in src or
+        not (architecture_page or "/assets/js/stable-download.js" in src)):
         errors.append(f"{page.relative_to(ROOT)} must resolve its source GitHub stable release")
+    if architecture_page:
+        catalog = json.loads(page.with_name("apks.json").read_text())
+        for channel in ("stable", "experimental"):
+            for track in ("adb", "shizuku"):
+                if f'id="{channel}-{track}"' not in src or track not in catalog[channel]:
+                    errors.append(f"{page.relative_to(ROOT)} lacks {channel} {track}")
 for manifest in ROOT.glob("*/updates/*.json"):
     try:
         data = json.loads(manifest.read_text(encoding="utf-8"))
