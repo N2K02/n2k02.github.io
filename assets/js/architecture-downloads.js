@@ -4,28 +4,20 @@
   if (!/^N2K02\/[A-Za-z0-9_-]+$/.test(repository)) return;
   const app = repository.split('/')[1];
   const base = 'https://github.com/' + repository + '/releases/download/';
-  const esc = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
-  function isValid(asset, channel, track) {
-    if (!asset || typeof asset.tag !== 'string' || typeof asset.apkName !== 'string') return false;
+  function isValid(asset, track) {
+    if (!asset || typeof asset.tag !== 'string') return false;
     const stable = new RegExp('^' + track + '-(?:sdcleaner-)?v(\\d+\\.\\d+)$').exec(asset.tag);
-    const prefix = app + '-' + track.toUpperCase() + '-';
-    const rightFile = channel === 'stable'
-      ? stable && asset.apkName === prefix + stable[1] + '.apk'
-      : new RegExp('^experimental-' + track + '-pr-\\d+-run-\\d+$').test(asset.tag) &&
-        new RegExp('^' + esc(prefix) + '\\d+\\.\\d+-experimental\\.\\d+\\.apk$').test(asset.apkName);
-    return rightFile && asset.apkUrl === base + asset.tag + '/' + asset.apkName;
+    const filename = stable && app + '-' + track.toUpperCase() + '-' + stable[1] + '.apk';
+    return filename && asset.apkName === filename && asset.apkUrl === base + asset.tag + '/' + filename;
   }
 
-  const channelSelect = document.getElementById('release-channel');
   const status = document.getElementById('download-status');
 
   function show(catalog) {
-    const channel = channelSelect?.value ?? 'stable';
     for (const [track, label] of [['adb', 'ADB'], ['shizuku', 'Shizuku']]) {
       const link = document.getElementById('download-' + track);
-      const asset = catalog?.[channel]?.[track];
-      if (isValid(asset, channel, track)) {
+      const asset = catalog?.stable?.[track];
+      if (isValid(asset, track)) {
         link.href = asset.apkUrl;
         link.textContent = 'Download ' + label;
         link.removeAttribute('aria-disabled');
@@ -44,10 +36,6 @@
     })
     .then(catalog => {
       show(catalog);
-      if (channelSelect) {
-        channelSelect.addEventListener('change', () => show(catalog));
-        channelSelect.disabled = false;
-      }
       status.textContent = '';
     }, () => {
       show(null);

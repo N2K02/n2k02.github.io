@@ -1,25 +1,3 @@
-.apk-channel {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: .5rem 1rem;
-  margin-bottom: 1.25rem;
-}
-
-.apk-channel select {
-  border: 1px solid currentColor;
-  border-radius: .5rem;
-  padding: .4rem .75rem;
-  background: #141a2e;
-  color: inherit;
-  font: inherit;
-}
-
-.apk-channel select:focus-visible {
-  outline: 2px solid var(--a);
-  outline-offset: 3px;
-}
-
 .apk-options {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
