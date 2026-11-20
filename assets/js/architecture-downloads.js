@@ -26,7 +26,7 @@
 
   if (mainStable === 'shizuku' && repository === 'N2K02/SDCleaner') {
     const link = document.getElementById('download-shizuku');
-    // Only the main release workflow publishes the unqualified sdcleaner-v tag.
+    // Track-qualified tags preserve updater compatibility. Only main builds carry the source marker.
     fetch('https://api.github.com/repos/' + repository + '/releases?per_page=100', {cache: 'no-store'})
       .then(response => {
         if (!response.ok) throw Error('Release list unavailable');
@@ -34,8 +34,9 @@
       })
       .then(releases => {
         for (const release of releases) {
-          const version = /^sdcleaner-v(\d+\.\d+)$/.exec(release.tag_name);
-          if (!version || release.draft || release.prerelease) continue;
+          const version = /^shizuku-sdcleaner-v(\d+\.\d+)$/.exec(release.tag_name);
+          if (!version || release.draft || release.prerelease ||
+              !/^Source branch: main$/m.test(release.body || '')) continue;
           const filename = app + '-SHIZUKU-' + version[1] + '.apk';
           const url = base + release.tag_name + '/' + filename;
           if (release.assets?.some(asset => asset.name === filename && asset.browser_download_url === url)) {

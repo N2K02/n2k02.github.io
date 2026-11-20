@@ -105,14 +105,14 @@ async function check(response) {
     makeRelease('adb-sdcleaner-v2.5', 'SDCleaner-ADB-2.5.apk'),
     makeRelease('sdcleaner-v2.3', 'SDCleaner-2.3.apk'),
     makeRelease('shizuku-sdcleaner-v2.6', 'SDCleaner-SHIZUKU-2.6.apk'),
-    makeRelease('sdcleaner-v2.7', 'SDCleaner-SHIZUKU-2.7.apk', true),
+    {...makeRelease('shizuku-sdcleaner-v2.7', 'SDCleaner-SHIZUKU-2.7.apk', true), body: 'Source branch: main'},
   ];
   const missing = await checkCatalog({ok: true, json: async () => otherReleases}, true);
   assert.equal(missing['download-shizuku'].href, '');
   assert.equal(missing['download-shizuku'].attributes['aria-disabled'], 'true');
   assert.match(missing['download-status'].textContent, /currently unavailable/);
 
-  const canonical = makeRelease('sdcleaner-v2.6', 'SDCleaner-SHIZUKU-2.6.apk');
+  const canonical = {...makeRelease('shizuku-sdcleaner-v2.8', 'SDCleaner-SHIZUKU-2.8.apk'), body: 'Version code: 100400\nSource branch: main'};
   const available = await checkCatalog({ok: true, json: async () => [...otherReleases, canonical]}, true);
   assert.equal(available['download-shizuku'].href, canonical.assets[0].browser_download_url);
   assert.equal(available['download-shizuku'].attributes['aria-disabled'], undefined);
