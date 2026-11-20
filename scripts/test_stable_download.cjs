@@ -44,7 +44,7 @@ async function check(response) {
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/adb-v0.9/SEQ-ADB-0.9.apk'};
   const experimental = {tag: 'experimental-shizuku-pr-6-run-328', apkName: 'SEQ-SHIZUKU-0.8-experimental.10.apk',
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-328/SEQ-SHIZUKU-0.8-experimental.10.apk'};
-  async function checkCatalog(response) {
+  async function checkCatalog(response, hasSelector = true) {
     const elements = Object.fromEntries(ids.map(id => [id, {
       href: '', textContent: '', attributes: {'aria-disabled': 'true'},
       setAttribute(name, value) { this.attributes[name] = value; },
@@ -60,6 +60,7 @@ async function check(response) {
       assert.equal(event, 'change');
       channel.change = value => { channel.value = value; callback(); };
     };
+    if (!hasSelector) delete elements['release-channel'];
     vm.runInNewContext(resolver, {
       document: {currentScript: {dataset: {repo: 'N2K02/SEQ'}}, getElementById: id => elements[id]},
       fetch: async url => { assert.equal(url, 'apks.json'); return response; },
@@ -88,6 +89,13 @@ async function check(response) {
   assert.equal(adb.href, stable.apkUrl);
   assert.equal(shizuku.href, '');
   assert.equal(shizuku.attributes['aria-disabled'], 'true');
+  const stableOnly = await checkCatalog({ok:true, json:async () => ({
+    stable: {adb: stable},
+    experimental: {shizuku: experimental},
+  })}, false);
+  assert.equal(stableOnly['download-adb'].href, stable.apkUrl);
+  assert.equal(stableOnly['download-shizuku'].href, '');
+  assert.equal(stableOnly['download-shizuku'].attributes['aria-disabled'], 'true');
   const bad = await checkCatalog({ok:true, json:async () => ({
     stable: {adb: {...stable, apkUrl: stable.apkUrl + '.apk'}},
   })});

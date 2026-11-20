@@ -26,8 +26,11 @@ for page in pages:
         for track in ("adb", "shizuku"):
             if src.count(f'id="download-{track}"') != 1 or f'id="{track}-description"' not in src:
                 errors.append(f"{page.relative_to(ROOT)} lacks a single {track} download with a description")
+        has_selector = 'id="release-channel"' in src
+        if page.parent.parent.name == "sdcleaner" and has_selector:
+            errors.append("SDCleaner must display stable downloads only")
         for channel in ("stable", "experimental"):
-            if f'value="{channel}"' not in src or set(catalog.get(channel, {})) != {"adb", "shizuku"}:
+            if (has_selector and f'value="{channel}"' not in src) or set(catalog.get(channel, {})) != {"adb", "shizuku"}:
                 errors.append(f"{page.relative_to(ROOT)} lacks the {channel} APK choices")
 for manifest in ROOT.glob("*/updates/*.json"):
     try:
