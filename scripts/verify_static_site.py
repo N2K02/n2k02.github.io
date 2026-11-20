@@ -23,10 +23,12 @@ for page in pages:
         errors.append(f"{page.relative_to(ROOT)} must resolve its source GitHub stable release")
     if architecture_page:
         catalog = json.loads(page.with_name("apks.json").read_text())
+        for track in ("adb", "shizuku"):
+            if src.count(f'id="download-{track}"') != 1 or f'id="{track}-description"' not in src:
+                errors.append(f"{page.relative_to(ROOT)} lacks a single {track} download with a description")
         for channel in ("stable", "experimental"):
-            for track in ("adb", "shizuku"):
-                if f'id="{channel}-{track}"' not in src or track not in catalog[channel]:
-                    errors.append(f"{page.relative_to(ROOT)} lacks {channel} {track}")
+            if f'value="{channel}"' not in src or set(catalog.get(channel, {})) != {"adb", "shizuku"}:
+                errors.append(f"{page.relative_to(ROOT)} lacks the {channel} APK choices")
 for manifest in ROOT.glob("*/updates/*.json"):
     try:
         data = json.loads(manifest.read_text(encoding="utf-8"))
