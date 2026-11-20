@@ -21,7 +21,7 @@
   const status = document.getElementById('download-status');
 
   function show(catalog) {
-    const channel = channelSelect.value;
+    const channel = channelSelect?.value ?? 'stable';
     for (const [track, label] of [['adb', 'ADB'], ['shizuku', 'Shizuku']]) {
       const link = document.getElementById('download-' + track);
       const asset = catalog?.[channel]?.[track];
@@ -43,9 +43,11 @@
       return response.json();
     })
     .then(catalog => {
-      channelSelect.addEventListener('change', () => show(catalog));
       show(catalog);
-      channelSelect.disabled = false;
+      if (channelSelect) {
+        channelSelect.addEventListener('change', () => show(catalog));
+        channelSelect.disabled = false;
+      }
       status.textContent = '';
     }, () => {
       show(null);
