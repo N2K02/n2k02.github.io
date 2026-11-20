@@ -39,12 +39,12 @@ async function check(response) {
 
 (async () => {
   const resolver = fs.readFileSync('assets/js/architecture-downloads.js', 'utf8');
-  const ids = ['download-adb', 'download-shizuku', 'release-channel', 'download-status'];
+  const ids = ['download-adb', 'download-shizuku', 'download-status'];
   const stable = {tag: 'adb-v0.9', apkName: 'SEQ-ADB-0.9.apk',
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/adb-v0.9/SEQ-ADB-0.9.apk'};
   const experimental = {tag: 'experimental-shizuku-pr-6-run-328', apkName: 'SEQ-SHIZUKU-0.8-experimental.10.apk',
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-328/SEQ-SHIZUKU-0.8-experimental.10.apk'};
-  async function checkCatalog(response, hasSelector = true) {
+  async function checkCatalog(response) {
     const elements = Object.fromEntries(ids.map(id => [id, {
       href: '', textContent: '', attributes: {'aria-disabled': 'true'},
       setAttribute(name, value) { this.attributes[name] = value; },
@@ -53,14 +53,6 @@ async function check(response) {
         if (name === 'href') this.href = '';
       },
     }]));
-    const channel = elements['release-channel'];
-    channel.value = 'stable';
-    channel.disabled = true;
-    channel.addEventListener = (event, callback) => {
-      assert.equal(event, 'change');
-      channel.change = value => { channel.value = value; callback(); };
-    };
-    if (!hasSelector) delete elements['release-channel'];
     vm.runInNewContext(resolver, {
       document: {currentScript: {dataset: {repo: 'N2K02/SEQ'}}, getElementById: id => elements[id]},
       fetch: async url => { assert.equal(url, 'apks.json'); return response; },
@@ -68,42 +60,36 @@ async function check(response) {
     await new Promise(resolve => setImmediate(resolve));
     return elements;
   }
+  const shizukuStable = {tag: 'shizuku-v1.0', apkName: 'SEQ-SHIZUKU-1.0.apk',
+    apkUrl: 'https://github.com/N2K02/SEQ/releases/download/shizuku-v1.0/SEQ-SHIZUKU-1.0.apk'};
   const valid = await checkCatalog({ok:true, json:async () => ({
-    stable: {adb: stable, shizuku: experimental},
-    experimental: {adb: stable, shizuku: experimental},
-  })});
-  const adb = valid['download-adb'];
-  const shizuku = valid['download-shizuku'];
-  const channel = valid['release-channel'];
-  assert.equal(channel.disabled, false);
-  assert.equal(adb.href, stable.apkUrl);
-  assert.equal(adb.textContent, 'Download ADB');
-  assert.equal(adb.attributes['aria-disabled'], undefined);
-  assert.equal(shizuku.attributes['aria-disabled'], 'true');
-  channel.change('experimental');
-  assert.equal(shizuku.href, experimental.apkUrl);
-  assert.equal(shizuku.textContent, 'Download Shizuku');
-  assert.equal(adb.href, '');
-  assert.equal(adb.attributes['aria-disabled'], 'true');
-  channel.change('stable');
-  assert.equal(adb.href, stable.apkUrl);
-  assert.equal(shizuku.href, '');
-  assert.equal(shizuku.attributes['aria-disabled'], 'true');
-  const stableOnly = await checkCatalog({ok:true, json:async () => ({
-    stable: {adb: stable},
+    stable: {adb: stable, shizuku: shizukuStable},
     experimental: {shizuku: experimental},
-  })}, false);
-  assert.equal(stableOnly['download-adb'].href, stable.apkUrl);
-  assert.equal(stableOnly['download-shizuku'].href, '');
-  assert.equal(stableOnly['download-shizuku'].attributes['aria-disabled'], 'true');
+  })});
+  for (const [id, asset, label] of [
+    ['download-adb', stable, 'ADB'],
+    ['download-shizuku', shizukuStable, 'Shizuku'],
+  ]) {
+    assert.equal(valid[id].href, asset.apkUrl);
+    assert.equal(valid[id].textContent, 'Download ' + label);
+    assert.equal(valid[id].attributes['aria-disabled'], undefined);
+  }
+  for (const stableSelection of [{adb: stable}, {adb: stable, shizuku: experimental}]) {
+    const stableOnly = await checkCatalog({ok:true, json:async () => ({
+      stable: stableSelection,
+      experimental: {shizuku: experimental},
+    })});
+    assert.equal(stableOnly['download-adb'].href, stable.apkUrl);
+    assert.equal(stableOnly['download-shizuku'].href, '');
+    assert.equal(stableOnly['download-shizuku'].attributes['aria-disabled'], 'true');
+  }
   const bad = await checkCatalog({ok:true, json:async () => ({
     stable: {adb: {...stable, apkUrl: stable.apkUrl + '.apk'}},
   })});
   assert.equal(bad['download-adb'].href, '');
   assert.equal(bad['download-adb'].attributes['aria-disabled'], 'true');
   const offline = await checkCatalog({ok:false});
-  assert.equal(offline['release-channel'].disabled, true);
   assert.equal(offline['download-adb'].href, '');
   assert.match(offline['download-status'].textContent, /could not be loaded/);
-  console.log('Two-button download behavior passed: channel switching, stale link removal, invalid URLs, and offline fallback.');
+  console.log('Two-button download behavior passed: stable choices, experimental rejection, invalid URLs, and offline fallback.');
 })().catch(error => { console.error(error); process.exitCode = 1; });
