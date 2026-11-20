@@ -9,9 +9,9 @@
   },
   "experimental": {
     "adb": {
-      "tag": "experimental-adb-pr-19-run-391",
-      "apkName": "SDCleaner-ADB-2.6-experimental.1.apk",
-      "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-adb-pr-19-run-391/SDCleaner-ADB-2.6-experimental.1.apk"
+      "tag": "experimental-adb-pr-19-run-396",
+      "apkName": "SDCleaner-ADB-2.6-experimental.2.apk",
+      "apkUrl": "https://github.com/N2K02/SDCleaner/releases/download/experimental-adb-pr-19-run-396/SDCleaner-ADB-2.6-experimental.2.apk"
     },
     "shizuku": {
       "tag": "experimental-shizuku-pr-18-run-390",
