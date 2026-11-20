@@ -17,24 +17,24 @@
     return rightFile && asset.apkUrl === base + asset.tag + '/' + asset.apkName;
   }
 
-  function show(catalog, offline) {
-    const status = document.getElementById('download-status');
-    for (const channel of ['stable', 'experimental']) {
-      for (const track of ['adb', 'shizuku']) {
-        const link = document.getElementById(channel + '-' + track);
-        const label = (channel === 'stable' ? 'Stable' : 'Experimental') + ' ' +
-          (track === 'adb' ? 'ADB' : 'Shizuku');
-        const asset = catalog?.[channel]?.[track];
-        if (isValid(asset, channel, track)) {
-          link.href = asset.apkUrl;
-          link.textContent = '↓ Download ' + label;
-          link.removeAttribute('aria-disabled');
-        } else {
-          link.textContent = label + ' unavailable';
-        }
+  const channelSelect = document.getElementById('release-channel');
+  const status = document.getElementById('download-status');
+
+  function show(catalog) {
+    const channel = channelSelect.value;
+    for (const [track, label] of [['adb', 'ADB'], ['shizuku', 'Shizuku']]) {
+      const link = document.getElementById('download-' + track);
+      const asset = catalog?.[channel]?.[track];
+      if (isValid(asset, channel, track)) {
+        link.href = asset.apkUrl;
+        link.textContent = 'Download ' + label;
+        link.removeAttribute('aria-disabled');
+      } else {
+        link.removeAttribute('href');
+        link.setAttribute('aria-disabled', 'true');
+        link.textContent = label + ' unavailable';
       }
     }
-    status.textContent = offline ? 'The APK list could not be loaded. See all GitHub releases below.' : '';
   }
 
   fetch('apks.json', {cache: 'no-store'})
@@ -42,5 +42,13 @@
       if (!response.ok) throw Error('APK list unavailable');
       return response.json();
     })
-    .then(catalog => show(catalog, false), () => show(null, true));
+    .then(catalog => {
+      channelSelect.addEventListener('change', () => show(catalog));
+      show(catalog);
+      channelSelect.disabled = false;
+      status.textContent = '';
+    }, () => {
+      show(null);
+      status.textContent = 'The APK list could not be loaded. See all GitHub releases below.';
+    });
 })();
