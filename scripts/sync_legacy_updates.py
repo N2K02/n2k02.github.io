@@ -10,10 +10,10 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ADB_BRIDGE_APPS = {'McpAdbAndroidLogger', 'SDCleaner', 'SEQ', 'VREC'}
+ADB_BRIDGE_APPS = {'McpAdbAndroidLogger', 'SEQ', 'VREC'}
 APPS = ('AAYoutube','BCam','ChargeWatt','HFreebuds','LocalAdb','MRadio',
         'McpAdbAndroidLogger','MovieTogether','NetSpeed','PBar','PCL',
-        'PixelCast','SDCleaner','SEQ','SpeedTester','VREC')
+        'PixelCast','SEQ','SpeedTester','VREC')
 CODE = re.compile(r'^\s*Version code:\s*(\d+)\s*$', re.I | re.M)
 EXPERIMENTAL = re.compile(r'^experimental-pr-\d+-run-(\d+)$', re.I)
 
@@ -31,7 +31,7 @@ def manifest(repo, release, channel, track=None):
                 return None
             expected_asset = rf'{re.escape(repo)}-{track.upper()}-\d+\.\d+-experimental\.\d+\.apk'
         else:
-            version = re.fullmatch(rf'{track}-(?:sdcleaner-)?v(\d+\.\d+)', tag)
+            version = re.fullmatch(rf'{track}-v(\d+\.\d+)', tag)
             if not version:
                 return None
             expected_asset = re.escape(f'{repo}-{track.upper()}-{version[1]}.apk')

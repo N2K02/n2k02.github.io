@@ -19,7 +19,7 @@ Before removing legacy releases and tags, migrate and verify all external app pu
 
 Run `python3 scripts/verify_static_site.py` after any website change. Single-architecture pages use `/assets/js/stable-download.js`. Dual-architecture pages use `/assets/js/architecture-downloads.js` with the adjacent `apks.json` refreshed by the website deployment workflow. In-app update JSON feeds remain for compatibility, but their APK URLs must point to the corresponding app's own releases.
 
-After merging the SDCleaner, McpAdbAndroidLogger and other source-version PRs, use GitHub CLI authenticated as a repository administrator:
+After merging the McpAdbAndroidLogger and other source-version PRs, use GitHub CLI authenticated as a repository administrator:
 
 ```bash
 bash scripts/cleanup_website_releases.sh --dry-run
