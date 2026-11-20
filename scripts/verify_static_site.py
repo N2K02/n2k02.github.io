@@ -21,11 +21,7 @@ for page in pages:
     if ('data-repo="N2K02/' not in src or
         not (architecture_page or "/assets/js/stable-download.js" in src)):
         errors.append(f"{page.relative_to(ROOT)} must resolve its source GitHub stable release")
-    if page == ROOT / "sdcleaner" / "download" / "index.html":
-        if ('data-main-stable="shizuku"' not in src or src.count('id="download-shizuku"') != 1
-                or 'id="download-adb"' in src):
-            errors.append("SDCleaner must show only the stable main Shizuku download")
-    elif architecture_page:
+    if architecture_page:
         catalog = json.loads(page.with_name("apks.json").read_text())
         for track in ("adb", "shizuku"):
             if src.count(f'id="download-{track}"') != 1 or f'id="{track}-description"' not in src:

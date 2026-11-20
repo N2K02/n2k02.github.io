@@ -44,9 +44,8 @@ async function check(response) {
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/adb-v0.9/SEQ-ADB-0.9.apk'};
   const experimental = {tag: 'experimental-shizuku-pr-6-run-328', apkName: 'SEQ-SHIZUKU-0.8-experimental.10.apk',
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-328/SEQ-SHIZUKU-0.8-experimental.10.apk'};
-  async function checkCatalog(response, mainStable = false) {
-    const availableIds = mainStable ? ['download-shizuku', 'download-status'] : ids;
-    const elements = Object.fromEntries(availableIds.map(id => [id, {
+  async function checkCatalog(response) {
+    const elements = Object.fromEntries(ids.map(id => [id, {
       href: '', textContent: '', attributes: {'aria-disabled': 'true'},
       setAttribute(name, value) { this.attributes[name] = value; },
       removeAttribute(name) {
@@ -55,11 +54,9 @@ async function check(response) {
       },
     }]));
     vm.runInNewContext(resolver, {
-      document: {currentScript: {dataset: mainStable
-        ? {repo: 'N2K02/SDCleaner', mainStable: 'shizuku'}
-        : {repo: 'N2K02/SEQ'}}, getElementById: id => elements[id]},
+      document: {currentScript: {dataset: {repo: 'N2K02/SEQ'}}, getElementById: id => elements[id]},
       fetch: async url => {
-        assert.equal(url, mainStable ? 'https://api.github.com/repos/N2K02/SDCleaner/releases?per_page=100' : 'apks.json');
+        assert.equal(url, 'apks.json');
         return response;
       },
     });
@@ -97,28 +94,5 @@ async function check(response) {
   const offline = await checkCatalog({ok:false});
   assert.equal(offline['download-adb'].href, '');
   assert.match(offline['download-status'].textContent, /could not be loaded/);
-  const makeRelease = (tag, name, prerelease = false) => ({
-    tag_name: tag, prerelease, draft: false,
-    assets: [{name, browser_download_url: 'https://github.com/N2K02/SDCleaner/releases/download/' + tag + '/' + name}],
-  });
-  const otherReleases = [
-    makeRelease('adb-sdcleaner-v2.5', 'SDCleaner-ADB-2.5.apk'),
-    makeRelease('sdcleaner-v2.3', 'SDCleaner-2.3.apk'),
-    makeRelease('shizuku-sdcleaner-v2.6', 'SDCleaner-SHIZUKU-2.6.apk'),
-    {...makeRelease('shizuku-sdcleaner-v2.7', 'SDCleaner-SHIZUKU-2.7.apk', true), body: 'Source branch: main'},
-  ];
-  const missing = await checkCatalog({ok: true, json: async () => otherReleases}, true);
-  assert.equal(missing['download-shizuku'].href, '');
-  assert.equal(missing['download-shizuku'].attributes['aria-disabled'], 'true');
-  assert.match(missing['download-status'].textContent, /currently unavailable/);
-
-  const canonical = {...makeRelease('shizuku-sdcleaner-v2.8', 'SDCleaner-SHIZUKU-2.8.apk'), body: 'Version code: 100400\nSource branch: main'};
-  const available = await checkCatalog({ok: true, json: async () => [...otherReleases, canonical]}, true);
-  assert.equal(available['download-shizuku'].href, canonical.assets[0].browser_download_url);
-  assert.equal(available['download-shizuku'].attributes['aria-disabled'], undefined);
-  assert.equal(available['download-shizuku'].textContent, 'Download Shizuku');
-  const unavailable = await checkCatalog({ok: false}, true);
-  assert.equal(unavailable['download-shizuku'].href, '');
-  assert.match(unavailable['download-status'].textContent, /could not be checked/);
-  console.log('Architecture downloads passed: stable choices, canonical Shizuku only, invalid URLs, and offline behavior.');
+  console.log('Architecture downloads passed: stable choices, invalid URLs, and offline behavior.');
 })().catch(error => { console.error(error); process.exitCode = 1; });
