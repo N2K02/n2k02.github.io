@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-31-run-361",
-  "versionName": "experimental-pr-31-run-361",
-  "versionCode": 100361,
-  "apkName": "LocalAdb-3.4-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-31-run-361/LocalAdb-3.4-experimental.3.apk",
+  "tag": "experimental-pr-31-run-364",
+  "versionName": "experimental-pr-31-run-364",
+  "versionCode": 100364,
+  "apkName": "LocalAdb-3.4-experimental.4.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-31-run-364/LocalAdb-3.4-experimental.4.apk",
   "apkSize": 39749113,
-  "sha256": "de9a627a693d3528ce7dede751ea9143c3e4e674079c5525355cd707f8b9390b",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-31-run-361",
+  "sha256": "56621b2c1680a9a15315f7c9319aa40e4ae9f246453fa55a9ebdb80a41f15542",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-31-run-364",
   "notes": [
+    "Check installer details against recorded source fields",
+    "Show Shizuku launch errors and document installer choices",
+    "Make Android Auto Shizuku installation explicit and verify outcomes",
     "Update collapsed manager contract for renamed ADB heading",
     "Align UI contract tests with ADB user-facing label",
     "Fix CI APK build by installing pinned Gradle without missing wrapper JAR",
     "UI: display ADB instead of Shizuku in LocalAdb labels",
     "UI: display ADB instead of Shizuku in LocalAdb labels",
     "Update shared ADB adapter version contract to 0.1.8",
-    "Pin published ADB Core 0.1.8 and update regression contract",
-    "Pin published ADB Core 0.1.8 and update regression contract",
-    "Pin published ADB Core 0.1.8 and update regression contract",
-    "Update installer regression test after removing comparison button"
+    "Pin published ADB Core 0.1.8 and update regression contract"
   ]
 }
