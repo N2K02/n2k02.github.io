@@ -13,9 +13,9 @@
   },
   "experimental": {
     "adb": {
-      "tag": "experimental-adb-pr-88-run-1358",
-      "apkName": "VREC-ADB-8.3-experimental.7.apk",
-      "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-88-run-1358/VREC-ADB-8.3-experimental.7.apk"
+      "tag": "experimental-adb-pr-91-run-1365",
+      "apkName": "VREC-ADB-8.3-experimental.8.apk",
+      "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-91-run-1365/VREC-ADB-8.3-experimental.8.apk"
     },
     "shizuku": {
       "tag": "experimental-shizuku-pr-89-run-1359",

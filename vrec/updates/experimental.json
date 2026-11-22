@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-88-run-1358",
-  "versionName": "experimental-adb-pr-88-run-1358",
-  "versionCode": 101358,
-  "apkName": "VREC-ADB-8.3-experimental.7.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-88-run-1358/VREC-ADB-8.3-experimental.7.apk",
-  "apkSize": 12901798,
-  "sha256": "90e39c73e1f06a11a1d996bba76d683cacf85934350e80e9c986438f189d438e",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-88-run-1358",
+  "tag": "experimental-adb-pr-91-run-1365",
+  "versionName": "experimental-adb-pr-91-run-1365",
+  "versionCode": 101365,
+  "apkName": "VREC-ADB-8.3-experimental.8.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-91-run-1365/VREC-ADB-8.3-experimental.8.apk",
+  "apkSize": 12901802,
+  "sha256": "6cd0c1b3e7487ce088a7bbd8922ed163ee7eb64cc9606a5a397cd72c32a67720",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-91-run-1365",
   "notes": [
+    "Guard deterministic Ogg writer across API levels with regression contract",
+    "Test privacy-safe import failure reasons and retry warning",
+    "Update muxer finalization contract for unified Ogg writer",
+    "Show privacy-safe audio import error category in recording warning",
+    "Classify audio import failures safely without exposing personal data",
+    "Use one deterministic tested Ogg muxer for ADB captures on all Android versions",
     "Report failed shell cleanup accurately for both saved and discarded captures",
     "Accept legal empty final Ogg pages and bound continued-packet memory",
     "Replace corrupt existing Ogg even when its metadata sidecar is valid",
-    "Guard Ogg verification, delete acknowledgement and timing in end-to-end contracts",
-    "Propagate coroutine cancellation through recorder control and health checks",
-    "Test Ogg CRC corruption, truncation, EOS and trailing garbage rejection",
-    "Test Opus TOC frame durations and invalid packet counts",
-    "Use genuine 20ms Opus TOC values in legacy Ogg timing test",
-    "Save metadata using measured Opus packet durations instead of 20ms per packet",
-    "Timestamp Ogg samples using actual Opus TOC durations"
+    "Guard Ogg verification, delete acknowledgement and timing in end-to-end contracts"
   ]
 }
