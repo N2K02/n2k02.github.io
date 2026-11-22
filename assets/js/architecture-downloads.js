@@ -1,13 +1,23 @@
 (() => {
   'use strict';
-  const {repo: repository} = document.currentScript.dataset;
+  const {repo: repository, catalog: catalogPath = 'apks.json'} = document.currentScript.dataset;
   if (!/^N2K02\/[A-Za-z0-9_-]+$/.test(repository)) return;
   const app = repository.split('/')[1];
   const base = 'https://github.com/' + repository + '/releases/download/';
-  function isValid(asset, track) {
+  function isValid(asset, track, channel) {
     if (!asset || typeof asset.tag !== 'string') return false;
-    const stable = new RegExp('^' + track + '-v(\\d+\\.\\d+)$').exec(asset.tag);
-    const filename = stable && app + '-' + track.toUpperCase() + '-' + stable[1] + '.apk';
+    const prefix = app + '-' + track.toUpperCase() + '-';
+    let filename;
+    if (channel === 'stable') {
+      const version = new RegExp('^' + track + '-v(\\d+\\.\\d+)$').exec(asset.tag);
+      if (!version) return false;
+      filename = prefix + version[1] + '.apk';
+    } else {
+      if (!new RegExp('^experimental-' + track + '-pr-\\d+-run-\\d+$').test(asset.tag)) return false;
+      if (typeof asset.apkName !== 'string' || !asset.apkName.startsWith(prefix) ||
+          !/^\d+\.\d+-experimental\.\d+\.apk$/.test(asset.apkName.slice(prefix.length))) return false;
+      filename = asset.apkName;
+    }
     return filename && asset.apkName === filename && asset.apkUrl === base + asset.tag + '/' + filename;
   }
 
@@ -28,11 +38,17 @@
     for (const [track, label] of [['adb', 'ADB'], ['shizuku', 'Shizuku']]) {
       const link = document.getElementById('download-' + track);
       const asset = catalog?.stable?.[track];
-      setLink(link, label, isValid(asset, track) ? asset.apkUrl : undefined);
+      setLink(link, label, isValid(asset, track, 'stable') ? asset.apkUrl : undefined);
+      const experimentalLink = document.getElementById('download-experimental-' + track);
+      if (experimentalLink) {
+        const experimental = catalog?.experimental?.[track];
+        setLink(experimentalLink, label,
+          isValid(experimental, track, 'experimental') ? experimental.apkUrl : undefined);
+      }
     }
   }
 
-  fetch('apks.json', {cache: 'no-store'})
+  fetch(catalogPath, {cache: 'no-store'})
     .then(response => {
       if (!response.ok) throw Error('APK list unavailable');
       return response.json();
@@ -42,6 +58,6 @@
       status.textContent = '';
     }, () => {
       show(null);
-      status.textContent = 'The APK list could not be loaded. See all GitHub releases below.';
+      status.textContent = 'The APK list could not be loaded. Use the GitHub release links on this page.';
     });
 })();

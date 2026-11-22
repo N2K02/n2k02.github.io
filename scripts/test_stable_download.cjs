@@ -44,8 +44,10 @@ async function check(response) {
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/adb-v0.9/SEQ-ADB-0.9.apk'};
   const experimental = {tag: 'experimental-shizuku-pr-6-run-328', apkName: 'SEQ-SHIZUKU-0.8-experimental.10.apk',
     apkUrl: 'https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-328/SEQ-SHIZUKU-0.8-experimental.10.apk'};
-  async function checkCatalog(response) {
-    const elements = Object.fromEntries(ids.map(id => [id, {
+  async function checkCatalog(response, landing = false) {
+    const downloadIds = landing ? [...ids, 'download-experimental-adb', 'download-experimental-shizuku'] : ids;
+    const catalogPath = landing ? '/vrec/download/apks.json' : 'apks.json';
+    const elements = Object.fromEntries(downloadIds.map(id => [id, {
       href: '', textContent: '', attributes: {'aria-disabled': 'true'},
       setAttribute(name, value) { this.attributes[name] = value; },
       removeAttribute(name) {
@@ -54,9 +56,9 @@ async function check(response) {
       },
     }]));
     vm.runInNewContext(resolver, {
-      document: {currentScript: {dataset: {repo: 'N2K02/SEQ'}}, getElementById: id => elements[id]},
+      document: {currentScript: {dataset: {repo: 'N2K02/SEQ', ...(landing ? {catalog: catalogPath} : {})}}, getElementById: id => elements[id]},
       fetch: async url => {
-        assert.equal(url, 'apks.json');
+        assert.equal(url, catalogPath);
         return response;
       },
     });
@@ -91,6 +93,18 @@ async function check(response) {
   })});
   assert.equal(bad['download-adb'].href, '');
   assert.equal(bad['download-adb'].attributes['aria-disabled'], 'true');
+  const landing = await checkCatalog({ok:true, json:async () => ({
+    stable: {adb: stable},
+    experimental: {adb: experimental, shizuku: experimental},
+  })}, true);
+  assert.equal(landing['download-adb'].href, stable.apkUrl);
+  assert.equal(landing['download-experimental-shizuku'].href, experimental.apkUrl);
+  assert.equal(landing['download-experimental-adb'].attributes['aria-disabled'], 'true');
+  const homepage = fs.readFileSync('vrec/index.html', 'utf8');
+  assert.match(homepage, /data-catalog="\/vrec\/download\/apks\.json"/);
+  for (const id of [...ids, 'download-experimental-adb', 'download-experimental-shizuku']) {
+    assert.ok(homepage.includes('id="' + id + '"'), id + ' missing on VREC home');
+  }
   const offline = await checkCatalog({ok:false});
   assert.equal(offline['download-adb'].href, '');
   assert.match(offline['download-status'].textContent, /could not be loaded/);
