@@ -1,15 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-53-run-371",
-  "versionName": "experimental-pr-53-run-371",
-  "versionCode": 100371,
-  "apkName": "SpeedTester-9.8-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-53-run-371/SpeedTester-9.8-experimental.1.apk",
+  "tag": "experimental-pr-54-run-374",
+  "versionName": "experimental-pr-54-run-374",
+  "versionCode": 100374,
+  "apkName": "SpeedTester-9.9-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-54-run-374/SpeedTester-9.9-experimental.1.apk",
   "apkSize": 25807731,
-  "sha256": "dd6a5353401c971a16cdbc0b6dedfb3d7ab7f3ed224fdd6bff93aca6b38fb63a",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-53-run-371",
+  "sha256": "2db29e44db2f9363e95739373b6af1ce8619f807735a7eb4e9e593557dab9b8d",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-54-run-374",
   "notes": [
-    "Test gauge resets to zero while completed result cards retain speeds",
-    "Return speedometer needle to zero when speed test completes"
+    "Test warm-up interpolation, sustained peak and upload accounting across link speeds",
+    "Measure fixed warm-up and sustained peaks; adapt confirmed upload request sizes",
+    "Add fixed-boundary throughput aggregation and adaptive upload sizing"
   ]
 }

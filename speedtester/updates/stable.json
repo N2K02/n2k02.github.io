@@ -1,15 +1,16 @@
 {
   "channel": "stable",
-  "tag": "v9.8",
-  "versionName": "v9.8",
-  "versionCode": 100373,
-  "apkName": "SpeedTester-9.8.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.8/SpeedTester-9.8.apk",
+  "tag": "v9.9",
+  "versionName": "v9.9",
+  "versionCode": 100375,
+  "apkName": "SpeedTester-9.9.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.9/SpeedTester-9.9.apk",
   "apkSize": 2920438,
-  "sha256": "f580fdb234987f04d3bd41b95f2dba562effbd33afa65c3dfc58c06d1991d42e",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.8",
+  "sha256": "4d85349493545be2d8c83a0282e91fb2def88a782a23431ae6d923eb0c24ebbc",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.9",
   "notes": [
-    "Test gauge resets to zero while completed result cards retain speeds",
-    "Return speedometer needle to zero when speed test completes"
+    "Test warm-up interpolation, sustained peak and upload accounting across link speeds",
+    "Measure fixed warm-up and sustained peaks; adapt confirmed upload request sizes",
+    "Add fixed-boundary throughput aggregation and adaptive upload sizing"
   ]
 }
