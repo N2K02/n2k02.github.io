@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-85-run-1295",
-  "versionName": "experimental-adb-pr-85-run-1295",
-  "versionCode": 101295,
-  "apkName": "VREC-ADB-8.3-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-85-run-1295/VREC-ADB-8.3-experimental.2.apk",
+  "tag": "experimental-adb-pr-88-run-1301",
+  "versionName": "experimental-adb-pr-88-run-1301",
+  "versionCode": 101301,
+  "apkName": "VREC-ADB-8.3-experimental.4.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-88-run-1301/VREC-ADB-8.3-experimental.4.apk",
   "apkSize": 12901098,
-  "sha256": "5fb736bd221c31c75b961f8b7d837f152cf295366244efb929cec2d77cf8835e",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-85-run-1295",
+  "sha256": "c659cb2849ae600e17408a6e10f7e982bb5b6842ea34c1ff3371f1dff3ebb37f",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-88-run-1301",
   "notes": [
+    "Preserve VRec shell recordings when APK import fails",
     "Fix VRec Quit and watcher diagnostics on integrated ADB",
     "Preserve complete VREC lint, test and R8 diagnostics",
     "Gate stable APK builds on exact approved merges for each architecture",
@@ -17,7 +18,6 @@
     "Validate tracked release metadata, checksums and signing",
     "security(experimental): inherit merged-PR-only stable release gate",
     "security(release): stable builds only on merged PR events; disable manual bypass",
-    "docs(security): PR-only ADB/Shizuku branch rules and release gates",
-    "security(release): never publish stable APK on direct branch push"
+    "docs(security): PR-only ADB/Shizuku branch rules and release gates"
   ]
 }
