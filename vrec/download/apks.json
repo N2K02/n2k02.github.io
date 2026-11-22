@@ -1,14 +1,14 @@
 {
   "stable": {
     "adb": {
-      "tag": "adb-v8.1",
-      "apkName": "VREC-ADB-8.1.apk",
-      "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.1/VREC-ADB-8.1.apk"
+      "tag": "adb-v8.2",
+      "apkName": "VREC-ADB-8.2.apk",
+      "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.2/VREC-ADB-8.2.apk"
     },
     "shizuku": {
-      "tag": "shizuku-v8.2",
-      "apkName": "VREC-SHIZUKU-8.2.apk",
-      "apkUrl": "https://github.com/N2K02/VREC/releases/download/shizuku-v8.2/VREC-SHIZUKU-8.2.apk"
+      "tag": "shizuku-v8.3",
+      "apkName": "VREC-SHIZUKU-8.3.apk",
+      "apkUrl": "https://github.com/N2K02/VREC/releases/download/shizuku-v8.3/VREC-SHIZUKU-8.3.apk"
     }
   },
   "experimental": {

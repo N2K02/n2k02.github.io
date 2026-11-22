@@ -1,22 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-85-run-605",
-  "versionName": "experimental-pr-85-run-605",
-  "versionCode": 100605,
-  "apkName": "PCL-7.5-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-85-run-605/PCL-7.5-experimental.1.apk",
-  "apkSize": 20016015,
-  "sha256": "af5996d786e8a694f77ffa17fb027d12e4a50f9936413d9587396c432df2def3",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-85-run-605",
+  "tag": "experimental-pr-85-run-609",
+  "versionName": "experimental-pr-85-run-609",
+  "versionCode": 100609,
+  "apkName": "PCL-7.5-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-85-run-609/PCL-7.5-experimental.2.apk",
+  "apkSize": 20016011,
+  "sha256": "894f50fabbcc79fa47ab36cfff048e75456f296b8bf3562bd19fd93ab7b9d994",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-85-run-609",
   "notes": [
+    "Cover periodic Bluetooth safety check and legacy ring deadline",
+    "Check Bluetooth availability every second while Remote ringtone is active",
+    "Fail closed when Bluetooth is disabled even if disconnect broadcast is missed",
+    "Test three-second Remote ring confirmation window and stale responses",
+    "Stop unconfirmed Remote ringing within three seconds",
     "Verify ring cleanup and reject expired notification actions",
     "test: approve shared updater 0.1.36 in dependency contract",
     "deps: ship dynamic installed-version updater 0.1.36",
     "ci: consistent App-nextVersion-experimental.N names and APK assets",
-    "ci: standardized experimental version, filename and sequence",
-    "ci: stable APK versionCode must exceed earlier experimental releases",
-    "ci: allocate version codes above earlier experimental and stable APKs",
-    "ci: preserve reusable branches after merged PRs",
-    "ci: build exact merged main commit on automated merges"
+    "ci: standardized experimental version, filename and sequence"
   ]
 }
