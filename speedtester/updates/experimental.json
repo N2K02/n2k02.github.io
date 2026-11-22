@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-52-run-368",
-  "versionName": "experimental-pr-52-run-368",
-  "versionCode": 100368,
-  "apkName": "SpeedTester-9.7-experimental.4.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-52-run-368/SpeedTester-9.7-experimental.4.apk",
+  "tag": "experimental-pr-53-run-371",
+  "versionName": "experimental-pr-53-run-371",
+  "versionCode": 100371,
+  "apkName": "SpeedTester-9.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-53-run-371/SpeedTester-9.8-experimental.1.apk",
   "apkSize": 25807731,
-  "sha256": "004ea97afddcec4fe864a1a2d954e68a2ccd1467a9b9776872eb2d2cd2e68098",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-52-run-368",
+  "sha256": "dd6a5353401c971a16cdbc0b6dedfb3d7ab7f3ed224fdd6bff93aca6b38fb63a",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-53-run-371",
   "notes": [
-    "Align regression assertions with current cancellation and Canvas implementation",
-    "Align regression assertions with current cancellation and Canvas implementation",
-    "Log stalled gauge updates and missing loaded-latency measurements",
-    "Regression-test cancellation before and during network switch",
-    "Ensure measurement cleanup runs when cancellation races startup",
-    "Cancel speed tests on network changes and clarify upload gauge semantics",
-    "Add race-safe network-change cancellation for speed tests",
-    "Bound concurrent server latency probes during discovery",
-    "Render gauge with compatible Canvas path across Android versions",
-    "Test phase shutdown continues after cancellation callback failure"
+    "Test gauge resets to zero while completed result cards retain speeds",
+    "Return speedometer needle to zero when speed test completes"
   ]
 }
