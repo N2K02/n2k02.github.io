@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v9.6",
-  "versionName": "v9.6",
-  "versionCode": 100354,
-  "apkName": "SpeedTester-9.6.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.6/SpeedTester-9.6.apk",
-  "apkSize": 2904054,
-  "sha256": "ee745d68696f01b04e677a66f2668fd66d5ef7aa5adc285e7159dd1101fb9e14",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.6",
+  "tag": "v9.7",
+  "versionName": "v9.7",
+  "versionCode": 100370,
+  "apkName": "SpeedTester-9.7.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.7/SpeedTester-9.7.apk",
+  "apkSize": 2920438,
+  "sha256": "53e1cd509b17fd4b4447d8a37195a2cb12faaa100e36e8e5a42f152cfdec0cec",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.7",
   "notes": [
-    "CI: standardized stable and experimental APK release names (#50)"
+    "Align regression assertions with current cancellation and Canvas implementation",
+    "Align regression assertions with current cancellation and Canvas implementation",
+    "Log stalled gauge updates and missing loaded-latency measurements",
+    "Regression-test cancellation before and during network switch",
+    "Ensure measurement cleanup runs when cancellation races startup",
+    "Cancel speed tests on network changes and clarify upload gauge semantics",
+    "Add race-safe network-change cancellation for speed tests",
+    "Bound concurrent server latency probes during discovery",
+    "Render gauge with compatible Canvas path across Android versions",
+    "Test phase shutdown continues after cancellation callback failure"
   ]
 }
