@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-31-run-376",
-  "versionName": "experimental-pr-31-run-376",
-  "versionCode": 100376,
-  "apkName": "LocalAdb-3.4-experimental.7.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-31-run-376/LocalAdb-3.4-experimental.7.apk",
-  "apkSize": 39765497,
-  "sha256": "3e26591f74b8fdf7eccf7c30e232d392b0bb06eaf6c5cedbdf033fa70fc219ba",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-31-run-376",
+  "tag": "experimental-pr-33-run-379",
+  "versionName": "experimental-pr-33-run-379",
+  "versionCode": 100379,
+  "apkName": "LocalAdb-3.5-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-33-run-379/LocalAdb-3.5-experimental.1.apk",
+  "apkSize": 39781881,
+  "sha256": "1860eec7cd91815193ccbb5e8aa195ace13779f687e4ed89358a83c38b9debe7",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-33-run-379",
   "notes": [
-    "test: align installer UI assertions with clarified labels",
-    "ui: clarify LocalADB installation methods and avoid ambiguous AA label",
-    "test: cover synchronous installer locking, active session retention and version verification",
-    "fix: guard installer launches synchronously and verify direct install version reliably",
-    "fix: exclude active APK install session from stale file cleanup",
-    "test: enforce single Shizuku installer launch per attempt",
-    "fix: allow at most one Shizuku system-installer launch per selection",
-    "test: prevent queued second installer prompt following Binder launch",
-    "fix: prevent duplicate Android installer prompt after Binder launch",
-    "test: guard concurrent installer output draining and bounded timeout"
+    "Keep Shizuku alive: adbd-restart guard, pairing expiry, Wi-Fi-loss shield"
   ]
 }
