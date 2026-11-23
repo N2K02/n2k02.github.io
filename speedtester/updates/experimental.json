@@ -1,16 +1,20 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-54-run-374",
-  "versionName": "experimental-pr-54-run-374",
-  "versionCode": 100374,
-  "apkName": "SpeedTester-9.9-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-54-run-374/SpeedTester-9.9-experimental.1.apk",
+  "tag": "experimental-pr-55-run-377",
+  "versionName": "experimental-pr-55-run-377",
+  "versionCode": 100377,
+  "apkName": "SpeedTester-10.0-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-377/SpeedTester-10.0-experimental.1.apk",
   "apkSize": 25807731,
-  "sha256": "2db29e44db2f9363e95739373b6af1ce8619f807735a7eb4e9e593557dab9b8d",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-54-run-374",
+  "sha256": "c9b65aa0c45a514cd32ee689a211c427fbfa66aa8586fa602f56ca19458c7097",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-377",
   "notes": [
-    "Test warm-up interpolation, sustained peak and upload accounting across link speeds",
-    "Measure fixed warm-up and sustained peaks; adapt confirmed upload request sizes",
-    "Add fixed-boundary throughput aggregation and adaptive upload sizing"
+    "Test insufficient confirmations are rejected, including failed and interrupted uploads",
+    "Verify upload transfer completion ratio before publishing Mbps results",
+    "Reject upload results dominated by failed or unconfirmed transfers",
+    "Regression test delayed upload responses and live transferred-byte rates",
+    "Clarify live upload readings measure transmitted data, not response timing",
+    "Calculate upload throughput from transmitted bytes while validating server responses",
+    "Distinguish real-time transferred bytes from upload HTTP confirmations"
   ]
 }
