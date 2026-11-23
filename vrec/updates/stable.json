@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "adb-v8.5",
-  "versionName": "adb-v8.5",
-  "versionCode": 101408,
-  "apkName": "VREC-ADB-8.5.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.5/VREC-ADB-8.5.apk",
-  "apkSize": 12918482,
-  "sha256": "2972563fcead734d5f0d5d47211581b952543d0395ee4ab8744f6b5764147165",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/adb-v8.5",
+  "tag": "adb-v8.6",
+  "versionName": "adb-v8.6",
+  "versionCode": 101415,
+  "apkName": "VREC-ADB-8.6.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.6/VREC-ADB-8.6.apk",
+  "apkSize": 12918554,
+  "sha256": "2fd7dd3174b7974235b70633d83367309bba63b48b6f7fc4c2ded0b5f3b4732a",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/adb-v8.6",
   "notes": [
+    "ADB: add \"Survive Wi-Fi loss\" switch next to \"Keep pairing past 7 days\"",
+    "Remove the Logs submenu from Settings",
     "Adopt JemRec's resilience fixes; drop ineffective cgroup escape",
     "Keep the ADB recording helper alive across adbd restarts",
     "Update cleanup safety assertion for bounded idempotent retry behavior",
@@ -16,8 +18,6 @@
     "Test idempotent shell cleanup for duplicate requests and lost ACKs",
     "Make shell recording deletion idempotent after lost cleanup ACK",
     "Guard durability bounded cleanup retries metadata preservation and long-import efficiency",
-    "Test verified one-pass import path and preservation of personal recording edits",
-    "Avoid redundant full-file Ogg scan during long recording import",
-    "Update settings contract for privacy-safe bounded in-memory Logs submenu"
+    "Test verified one-pass import path and preservation of personal recording edits"
   ]
 }
