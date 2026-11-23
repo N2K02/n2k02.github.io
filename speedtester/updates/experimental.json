@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-55-run-382",
-  "versionName": "experimental-pr-55-run-382",
-  "versionCode": 100382,
-  "apkName": "SpeedTester-10.0-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-382/SpeedTester-10.0-experimental.2.apk",
+  "tag": "experimental-pr-55-run-385",
+  "versionName": "experimental-pr-55-run-385",
+  "versionCode": 100385,
+  "apkName": "SpeedTester-10.0-experimental.3.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-385/SpeedTester-10.0-experimental.3.apk",
   "apkSize": 25807731,
-  "sha256": "77f0d4513b95d61548a40d7ab6ff94d48f262ce8ed63fb2fb31c8723e4b741fb",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-382",
+  "sha256": "5560d02f4595012a6787b863bc5df04578a817e81d7d57abe69df4711c605b4f",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-385",
   "notes": [
+    "Test failed throughput workers and missing TCP latency without changing legacy rate accounting",
+    "Avoid misleading partial throughput results and tolerate blocked TCP latency probes",
+    "Add measurable failure and optional latency reliability policy",
     "Prevent regressions to restored classic download and upload calculations",
     "Remove superseded adaptive throughput calculation and tests",
     "Remove superseded adaptive throughput calculation and tests",
     "Restore regression tests for original speed accounting",
     "Restore original transfer byte accounting",
     "Restore original download and upload rate calculations from pre-measurement changes",
-    "Test insufficient confirmations are rejected, including failed and interrupted uploads",
-    "Verify upload transfer completion ratio before publishing Mbps results",
-    "Reject upload results dominated by failed or unconfirmed transfers",
-    "Regression test delayed upload responses and live transferred-byte rates"
+    "Test insufficient confirmations are rejected, including failed and interrupted uploads"
   ]
 }
