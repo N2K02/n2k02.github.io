@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v3.4",
-  "versionName": "v3.4",
-  "versionCode": 100378,
-  "apkName": "LocalAdb-3.4.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.4/LocalAdb-3.4.apk",
-  "apkSize": 17561238,
-  "sha256": "d667c856fcef79b1658a07ae8e1b25077f23da751f146b231ac6b924e2f31ebd",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.4",
+  "tag": "v3.5",
+  "versionName": "v3.5",
+  "versionCode": 100381,
+  "apkName": "LocalAdb-3.5.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.5/LocalAdb-3.5.apk",
+  "apkSize": 17577622,
+  "sha256": "b01eaf1aa47fada4e389fe3c3c6799a1b4659663d7c4c2040405cd8b2611b2f8",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.5",
   "notes": [
-    "test: align installer UI assertions with clarified labels",
-    "ui: clarify LocalADB installation methods and avoid ambiguous AA label",
-    "test: cover synchronous installer locking, active session retention and version verification",
-    "fix: guard installer launches synchronously and verify direct install version reliably",
-    "fix: exclude active APK install session from stale file cleanup",
-    "test: enforce single Shizuku installer launch per attempt",
-    "fix: allow at most one Shizuku system-installer launch per selection",
-    "test: prevent queued second installer prompt following Binder launch",
-    "fix: prevent duplicate Android installer prompt after Binder launch",
-    "test: guard concurrent installer output draining and bounded timeout"
+    "Keep Shizuku alive: adbd-restart guard, pairing expiry, Wi-Fi-loss shield"
   ]
 }

@@ -1,14 +1,16 @@
 {
   "channel": "stable",
-  "tag": "adb-v8.4",
-  "versionName": "adb-v8.4",
-  "versionCode": 101401,
-  "apkName": "VREC-ADB-8.4.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.4/VREC-ADB-8.4.apk",
-  "apkSize": 12901774,
-  "sha256": "7ca17822b64966aee32d410e111bff2fe418cca8f4deae668978d047d9c2427d",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/adb-v8.4",
+  "tag": "adb-v8.5",
+  "versionName": "adb-v8.5",
+  "versionCode": 101408,
+  "apkName": "VREC-ADB-8.5.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/adb-v8.5/VREC-ADB-8.5.apk",
+  "apkSize": 12918482,
+  "sha256": "2972563fcead734d5f0d5d47211581b952543d0395ee4ab8744f6b5764147165",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/adb-v8.5",
   "notes": [
+    "Adopt JemRec's resilience fixes; drop ineffective cgroup escape",
+    "Keep the ADB recording helper alive across adbd restarts",
     "Update cleanup safety assertion for bounded idempotent retry behavior",
     "Fix Java shell daemon declaration after idempotent delete comment",
     "Test idempotent shell cleanup for duplicate requests and lost ACKs",
@@ -16,8 +18,6 @@
     "Guard durability bounded cleanup retries metadata preservation and long-import efficiency",
     "Test verified one-pass import path and preservation of personal recording edits",
     "Avoid redundant full-file Ogg scan during long recording import",
-    "Update settings contract for privacy-safe bounded in-memory Logs submenu",
-    "Test bounded in-memory diagnostic retention and exclusion of private fields",
-    "Restore privacy-safe Settings Logs submenu with refresh and clear controls"
+    "Update settings contract for privacy-safe bounded in-memory Logs submenu"
   ]
 }
