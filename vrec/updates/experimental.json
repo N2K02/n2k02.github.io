@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-93-run-1398",
-  "versionName": "experimental-adb-pr-93-run-1398",
-  "versionCode": 101398,
-  "apkName": "VREC-ADB-8.3-experimental.10.apk",
-  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-93-run-1398/VREC-ADB-8.3-experimental.10.apk",
+  "tag": "experimental-adb-pr-95-run-1404",
+  "versionName": "experimental-adb-pr-95-run-1404",
+  "versionCode": 101404,
+  "apkName": "VREC-ADB-8.3-experimental.11.apk",
+  "apkUrl": "https://github.com/N2K02/VREC/releases/download/experimental-adb-pr-95-run-1404/VREC-ADB-8.3-experimental.11.apk",
   "apkSize": 12901782,
-  "sha256": "27d31cd60bb9b8f8ae7218ad85687f885ea0450622eef67f9f89e33b0ee43673",
-  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-93-run-1398",
+  "sha256": "e38f8f9961cc728a31eff71217b5d8ee97510ea12904c49a18910ed56e890962",
+  "pageUrl": "https://github.com/N2K02/VREC/releases/tag/experimental-adb-pr-95-run-1404",
   "notes": [
+    "Keep the ADB recording helper alive across adbd restarts",
     "Update cleanup safety assertion for bounded idempotent retry behavior",
     "Fix Java shell daemon declaration after idempotent delete comment",
     "Test idempotent shell cleanup for duplicate requests and lost ACKs",
@@ -17,7 +18,6 @@
     "Test verified one-pass import path and preservation of personal recording edits",
     "Avoid redundant full-file Ogg scan during long recording import",
     "Update settings contract for privacy-safe bounded in-memory Logs submenu",
-    "Test bounded in-memory diagnostic retention and exclusion of private fields",
-    "Restore privacy-safe Settings Logs submenu with refresh and clear controls"
+    "Test bounded in-memory diagnostic retention and exclusion of private fields"
   ]
 }
