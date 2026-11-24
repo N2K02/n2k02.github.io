@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.7",
-  "versionName": "v7.7",
-  "versionCode": 100243,
-  "apkName": "PBar-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.7/PBar-7.7.apk",
-  "apkSize": 1515197,
-  "sha256": "0a3665bf0a78df43011ceda30feb3ff88861f484986632b52e361fd966293e88",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.7",
+  "tag": "v7.8",
+  "versionName": "v7.8",
+  "versionCode": 100246,
+  "apkName": "PBar-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.8/PBar-7.8.apk",
+  "apkSize": 1543972,
+  "sha256": "dd3e08dc155426a8696ab091f923888c0ad0f0ef6b7b221f2452eed882e00fd4",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.8",
   "notes": [
-    "Bump actions/setup-python from 6 to 7 in the all-dependencies group (#71)"
+    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#72)"
   ]
 }

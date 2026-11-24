@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.9",
-  "versionName": "v5.9",
-  "versionCode": 100187,
-  "apkName": "PixelCast-5.9.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.9/PixelCast-5.9.apk",
-  "apkSize": 1278032,
-  "sha256": "2a29c942e69248c57a49c4c8c6b0e7704a63eb247e64b560910b1ee099485aa9",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.9",
+  "tag": "v6.0",
+  "versionName": "v6.0",
+  "versionCode": 100190,
+  "apkName": "PixelCast-6.0.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v6.0/PixelCast-6.0.apk",
+  "apkSize": 1302711,
+  "sha256": "a2d4f7a4cee59ddf236a28898e49a914f35e3bd97c28de88932329a48d204a3b",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v6.0",
   "notes": [
-    "build(deps): bump the all-dependencies group with 2 updates (#41)"
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility (#42)"
   ]
 }

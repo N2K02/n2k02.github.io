@@ -1,21 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-70-run-237",
-  "versionName": "experimental-pr-70-run-237",
-  "versionCode": 100237,
-  "apkName": "PBar-7.6-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-70-run-237/PBar-7.6-experimental.2.apk",
-  "apkSize": 19918350,
-  "sha256": "31ee68b6d34d386622bccd1a94d94173588f21ce9582a018f74e3c9ce4e74d3b",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-70-run-237",
+  "tag": "experimental-pr-72-run-244",
+  "versionName": "experimental-pr-72-run-244",
+  "versionCode": 100244,
+  "apkName": "PBar-7.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-72-run-244/PBar-7.8-experimental.1.apk",
+  "apkSize": 20635364,
+  "sha256": "48b960a7d40936bbb161371d607b5b967b460dd9cfdbda35f65e6297453fd1c1",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-72-run-244",
   "notes": [
-    "deps: ship dynamic installed-version updater 0.1.36",
-    "ci: preserve correct signed artifact filename on experimental builds",
-    "ci: consistent App-nextVersion-experimental.N names and APK assets",
-    "ci: standardized experimental version, filename and sequence",
-    "ci: stable APK versionCode must exceed earlier experimental releases",
-    "ci: allocate version codes above earlier experimental and stable APKs",
-    "ci: preserve reusable branches after merged PRs",
-    "ci: build exact merged main commit on automated merges"
+    "fix(deps): replay Dependabot upgrades against current main",
+    "fix(deps): replay Dependabot upgrades against current main"
   ]
 }

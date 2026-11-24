@@ -1,23 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v8.9",
-  "versionName": "v8.9",
-  "versionCode": 100923,
-  "apkName": "AAYoutube-8.9.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v8.9/AAYoutube-8.9.apk",
-  "apkSize": 15997554,
-  "sha256": "ceac9933cacec8d79a41acddaf628dcfdc5f3c14d4cf85dd5d60c70b65c8b273",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v8.9",
+  "tag": "v9.0",
+  "versionName": "v9.0",
+  "versionCode": 100983,
+  "apkName": "AAYoutube-9.0.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.0/AAYoutube-9.0.apk",
+  "apkSize": 16558809,
+  "sha256": "d366d6b04378f0096e43df6608d8035a50baa0434ad8ab7f89334394e6acf00d",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.0",
   "notes": [
-    "Scope car video regression tests to projection and navigation",
-    "Fix AndroidX car media session callback signature",
-    "Add Android Auto installer diagnostics and YouTube sharing",
-    "Regression tests for independent AndroidX media template and legacy video entries",
-    "Pin AndroidX Car App 1.8 RC for media template host",
-    "Register supported Android Auto media CarAppService without altering legacy video service",
-    "Declare modern AndroidX car media template alongside projection and music",
-    "Add supported AndroidX car media template service separate from video projection",
-    "Update playback regression contract for explicit pause and audio focus safeguards",
-    "Update playback regression contract for explicit pause and audio focus safeguards"
+    "Fix playback hardening and WebView security regressions (#56)"
   ]
 }

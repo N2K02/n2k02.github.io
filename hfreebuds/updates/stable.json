@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.8",
-  "versionName": "v6.8",
-  "versionCode": 100225,
-  "apkName": "HFreebuds-6.8.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.8/HFreebuds-6.8.apk",
-  "apkSize": 1400462,
-  "sha256": "e0f5d8453c2c66d672a8ea65b0a4ab3c7a8fff8f06a05588f13b459a8d9e7d2c",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.8",
+  "tag": "v6.9",
+  "versionName": "v6.9",
+  "versionCode": 100228,
+  "apkName": "HFreebuds-6.9.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.9/HFreebuds-6.9.apk",
+  "apkSize": 1421045,
+  "sha256": "1fd78df606660de7435f00e1a94dbfbb71328629e714d5fe702555ebca1c5c18",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.9",
   "notes": [
-    "build(deps): bump the all-dependencies group with 2 updates (#41)"
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility (#42)"
   ]
 }

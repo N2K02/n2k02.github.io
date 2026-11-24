@@ -1,21 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-231",
-  "versionName": "experimental-pr-43-run-231",
-  "versionCode": 100231,
-  "apkName": "BCam-6.1-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-43-run-231/BCam-6.1-experimental.3.apk",
-  "apkSize": 19660520,
-  "sha256": "10f77a54b36ff2efbbbbd808de3c99b6aabbddda25ed140325774dcebacbe9b0",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-43-run-231",
+  "tag": "experimental-pr-45-run-237",
+  "versionName": "experimental-pr-45-run-237",
+  "versionCode": 100237,
+  "apkName": "BCam-6.3-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-45-run-237/BCam-6.3-experimental.1.apk",
+  "apkSize": 20328271,
+  "sha256": "4cd16d25b902408949c1ebe44d707f79f90382f97304abf13ec7eaa90760c805",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-45-run-237",
   "notes": [
-    "deps: pin n2k02updater 0.1.36 with live package metadata",
-    "ci: upload renamed experimental APK artifact rather than stale stable filename",
-    "ci: consistent App-nextVersion-experimental.N names and APK assets",
-    "ci: standardized experimental version, filename and sequence",
-    "ci: stable versionCode must exceed all earlier experimental releases",
-    "ci: allocate version codes above prior stable and experimental APKs",
-    "ci: stop deleting merged experimental and development branches",
-    "ci: build latest main after trusted automated merges; preserve skip ci"
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility"
   ]
 }

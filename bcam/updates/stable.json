@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.2",
-  "versionName": "v6.2",
-  "versionCode": 100236,
-  "apkName": "BCam-6.2.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v6.2/BCam-6.2.apk",
-  "apkSize": 1200040,
-  "sha256": "817abe44bde0c7d4d6e3c37d8afae5bff395f1db91227177f1cda443524b8e26",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v6.2",
+  "tag": "v6.3",
+  "versionName": "v6.3",
+  "versionCode": 100239,
+  "apkName": "BCam-6.3.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/v6.3/BCam-6.3.apk",
+  "apkSize": 1224719,
+  "sha256": "17656705d2f6666884e94cee42f3b9924168f5e36d2b32c1ec0513399cfcc2e5",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/v6.3",
   "notes": [
-    "Bump the all-dependencies group with 2 updates (#44)"
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility (#45)"
   ]
 }

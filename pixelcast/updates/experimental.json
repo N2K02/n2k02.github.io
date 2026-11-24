@@ -1,21 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-40-run-182",
-  "versionName": "experimental-pr-40-run-182",
-  "versionCode": 100182,
-  "apkName": "PixelCast-5.8-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-40-run-182/PixelCast-5.8-experimental.3.apk",
-  "apkSize": 19677036,
-  "sha256": "c8f8c2cd36a3d6e5ad6893d7eda971f63bbad663fa4219e31bc50f5bb55cff3e",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-40-run-182",
+  "tag": "experimental-pr-42-run-188",
+  "versionName": "experimental-pr-42-run-188",
+  "versionCode": 100188,
+  "apkName": "PixelCast-6.0-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-42-run-188/PixelCast-6.0-experimental.1.apk",
+  "apkSize": 20344787,
+  "sha256": "1fa2b6ccb40094876ba0a76c7f515db334dd857e9d423ea5fd6b5797722af92f",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-42-run-188",
   "notes": [
-    "deps: ship dynamic installed-version updater 0.1.36",
-    "ci: upload renamed experimental APK artifact rather than stale stable filename",
-    "ci: consistent App-nextVersion-experimental.N names and APK assets",
-    "ci: standardized experimental version, filename and sequence",
-    "ci: stable APK versionCode must exceed earlier experimental releases",
-    "ci: allocate version codes above earlier experimental and stable APKs",
-    "ci: stop deleting merged experimental and development branches",
-    "ci: build latest main after trusted automated merges; preserve skip ci"
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility"
   ]
 }

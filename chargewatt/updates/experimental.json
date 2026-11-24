@@ -1,22 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-18-run-124",
-  "versionName": "experimental-pr-18-run-124",
-  "versionCode": 100124,
-  "apkName": "ChargeWatt-2.5-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-18-run-124/ChargeWatt-2.5-experimental.2.apk",
-  "apkSize": 1344902,
-  "sha256": "6f4b3737694bbf0d2332118cf3322c7e6ef36611ba2f129a7165cfa2cf4c174e",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-18-run-124",
+  "tag": "experimental-pr-20-run-131",
+  "versionName": "experimental-pr-20-run-131",
+  "versionCode": 100131,
+  "apkName": "ChargeWatt-2.6-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-20-run-131/ChargeWatt-2.6-experimental.1.apk",
+  "apkSize": 1365485,
+  "sha256": "f2df39eec40a2926f52ef2f7103e4467bffb64b536a5d927f2cf16c3b5d81826",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-20-run-131",
   "notes": [
-    "Merge dbe4b118449730c66028cdea37124faa1e40eebe into e4204b95f3371599db9cea2cc2d4bb6f82bc878b",
-    "test: approve verified updater package version 0.1.36",
-    "deps: ship dynamic installed-version updater 0.1.36",
-    "ci: standard next-stable experimental sequence and APK naming",
-    "ci: standardized experimental version, filename and sequence",
-    "ci: stable APK versionCode must exceed earlier experimental releases",
-    "ci: allocate version codes above earlier experimental and stable APKs",
-    "ci: preserve reusable branches after merged PRs",
-    "ci: build exact merged main commit on automated merges"
+    "Merge ef06f64ed2030783a30b2b11f3b5c44e33ef21b0 into 6f06f4f624fac2b95391cf8eafb95921c239dca5",
+    "fix(test): align shared package compatibility guard with approved versions",
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility"
   ]
 }

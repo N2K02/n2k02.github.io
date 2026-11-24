@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-adb-pr-7-run-327",
-  "versionName": "experimental-adb-pr-7-run-327",
-  "versionCode": 200000327,
-  "apkName": "SEQ-ADB-0.8-experimental.10.apk",
-  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-327/SEQ-ADB-0.8-experimental.10.apk",
-  "apkSize": 89005330,
-  "sha256": "c5da8ca3a12e0fe00052057489d89aa09a36283d07c1b108c8f4f866e4d263dd",
-  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-adb-pr-7-run-327",
+  "tag": "experimental-adb-pr-7-run-337",
+  "versionName": "experimental-adb-pr-7-run-337",
+  "versionCode": 200000337,
+  "apkName": "SEQ-ADB-1.0-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-337/SEQ-ADB-1.0-experimental.1.apk",
+  "apkSize": 90717458,
+  "sha256": "bd1e23493945dc1dc3ae927f3dbef92481e89047a20f123d56ffc89ae8fe94a5",
+  "pageUrl": "https://github.com/N2K02/SEQ/releases/tag/experimental-adb-pr-7-run-337",
   "notes": [
+    "test(deps): pin shared updater 0.1.39 in SEQ contract",
+    "fix(ci): accept ADB and Shizuku release tags in experimental naming tests",
+    "chore(deps): update shared packages and Compose SDK on experimental branch",
+    "Gate stable APK builds on exact approved merges for each architecture",
     "Reserve higher ADB version codes for safe legacy experimental migration",
     "Index architecture APKs from GitHub Releases and preserve published assets",
     "security(experimental): inherit merged-PR-only stable release gate",
     "security(release): stable builds only on merged PR events; disable manual bypass",
     "docs(security): PR-only ADB/Shizuku branch rules and release gates",
-    "security(release): never publish stable APK on direct branch push",
-    "test(release): enforce ADB/Shizuku APK filename convention",
-    "test(release): enforce ADB/Shizuku APK filename convention",
-    "test: accept architecture-scoped stable publisher contracts",
-    "test: approve newly published track-aware updater 0.1.38"
+    "security(release): never publish stable APK on direct branch push"
   ]
 }

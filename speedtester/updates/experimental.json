@@ -1,23 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-55-run-396",
-  "versionName": "experimental-pr-55-run-396",
-  "versionCode": 100396,
-  "apkName": "SpeedTester-10.0-experimental.4.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-396/SpeedTester-10.0-experimental.4.apk",
-  "apkSize": 25824115,
-  "sha256": "39d10e53684be22f1ac8a5baa9bda8ec2ff29a94a9bfd0c637ffadde0ee0d091",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-396",
+  "tag": "experimental-pr-51-run-399",
+  "versionName": "experimental-pr-51-run-399",
+  "versionCode": 100399,
+  "apkName": "SpeedTester-10.0-experimental.6.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-51-run-399/SpeedTester-10.0-experimental.6.apk",
+  "apkSize": 26422131,
+  "sha256": "dd0a0f29ad1d436bc11e0a3145797faaf89dc817ffe67336acfb55ecf34cfb9a",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-51-run-399",
   "notes": [
-    "Test safe redaction of network addresses without losing measurement metrics",
-    "Redact MAC addresses and IPv4 values from troubleshooting logs",
-    "Import Compose saveable state support for persisted filters",
-    "Import Compose saveable state support for persisted filters",
-    "Import Compose saveable state support for persisted filters",
-    "Test persistent history filtering by network and server without affecting results",
-    "Filter speed history by test server and retain history filters on screen recreation",
-    "Refresh Network Quality history on return and filter saved results by network type",
-    "Test MHz-based Wi-Fi overlap and channel width across 2.4, 5 and 6 GHz",
-    "Explain channel overlap estimates and stale Android Wi-Fi scans"
+    "chore(deps): align shared updater and Compose/SDK runtime compatibility",
+    "fix(deps): replay dependency update on current main and trigger validation"
   ]
 }

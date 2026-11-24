@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.4",
-  "versionName": "v7.4",
-  "versionCode": 100402,
-  "apkName": "MRadio-7.4.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.4/MRadio-7.4.apk",
-  "apkSize": 2810835,
-  "sha256": "c5948c8125cff632aa081ac5d28e3024a90519ca1876dd23ffa971c56afa015b",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.4",
+  "tag": "v7.5",
+  "versionName": "v7.5",
+  "versionCode": 100405,
+  "apkName": "MRadio-7.5.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.5/MRadio-7.5.apk",
+  "apkSize": 2851898,
+  "sha256": "068751049857c5c97ec12248264e2c6bf2768c663d9e93b4705a93e6a7ca998a",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.5",
   "notes": [
-    "build(deps): bump actions/setup-python (#49)"
+    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#50)"
   ]
 }

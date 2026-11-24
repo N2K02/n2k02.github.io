@@ -1,14 +1,18 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-33-run-379",
-  "versionName": "experimental-pr-33-run-379",
-  "versionCode": 100379,
-  "apkName": "LocalAdb-3.5-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-33-run-379/LocalAdb-3.5-experimental.1.apk",
-  "apkSize": 39781881,
-  "sha256": "1860eec7cd91815193ccbb5e8aa195ace13779f687e4ed89358a83c38b9debe7",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-33-run-379",
+  "tag": "experimental-pr-32-run-385",
+  "versionName": "experimental-pr-32-run-385",
+  "versionCode": 100385,
+  "apkName": "LocalAdb-3.6-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-32-run-385/LocalAdb-3.6-experimental.2.apk",
+  "apkSize": 40531552,
+  "sha256": "2e0822c8e1a52e8465891abe51c5ebb9dedf8610e3ee580cc218822efa70b7e0",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-32-run-385",
   "notes": [
-    "Keep Shizuku alive: adbd-restart guard, pairing expiry, Wi-Fi-loss shield"
+    "test(deps): update shared package assertions",
+    "chore(deps): align shared updater and Compose/SDK runtime compatibility",
+    "test(deps): update approved theme regression assertion",
+    "fix(deps): replay dependency update on current main and trigger validation",
+    "fix(deps): replay dependency update on current main and trigger validation"
   ]
 }

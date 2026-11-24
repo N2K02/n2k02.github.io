@@ -13,14 +13,14 @@
   },
   "experimental": {
     "adb": {
-      "tag": "experimental-adb-pr-7-run-327",
-      "apkName": "SEQ-ADB-0.8-experimental.10.apk",
-      "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-327/SEQ-ADB-0.8-experimental.10.apk"
+      "tag": "experimental-adb-pr-7-run-337",
+      "apkName": "SEQ-ADB-1.0-experimental.1.apk",
+      "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-337/SEQ-ADB-1.0-experimental.1.apk"
     },
     "shizuku": {
-      "tag": "experimental-shizuku-pr-6-run-328",
-      "apkName": "SEQ-SHIZUKU-0.8-experimental.10.apk",
-      "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-328/SEQ-SHIZUKU-0.8-experimental.10.apk"
+      "tag": "experimental-shizuku-pr-6-run-336",
+      "apkName": "SEQ-SHIZUKU-1.0-experimental.1.apk",
+      "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-336/SEQ-SHIZUKU-1.0-experimental.1.apk"
     }
   }
 }
