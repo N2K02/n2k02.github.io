@@ -1,16 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.9",
-  "versionName": "v9.9",
-  "versionCode": 100375,
-  "apkName": "SpeedTester-9.9.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v9.9/SpeedTester-9.9.apk",
-  "apkSize": 2920438,
-  "sha256": "4d85349493545be2d8c83a0282e91fb2def88a782a23431ae6d923eb0c24ebbc",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v9.9",
+  "tag": "v10.0",
+  "versionName": "v10.0",
+  "versionCode": 100401,
+  "apkName": "SpeedTester-10.0.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v10.0/SpeedTester-10.0.apk",
+  "apkSize": 2949110,
+  "sha256": "6b503841d61cb05d57808b8b125564c426b18eac3eb81046f4795202a4905a6f",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v10.0",
   "notes": [
-    "Test warm-up interpolation, sustained peak and upload accounting across link speeds",
-    "Measure fixed warm-up and sustained peaks; adapt confirmed upload request sizes",
-    "Add fixed-boundary throughput aggregation and adaptive upload sizing"
+    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#51)"
   ]
 }

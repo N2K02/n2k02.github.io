@@ -1,14 +1,15 @@
 {
   "channel": "stable",
-  "tag": "v3.8",
-  "versionName": "v3.8",
-  "versionCode": 100150,
-  "apkName": "MovieTogether-3.8.apk",
-  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.8/MovieTogether-3.8.apk",
-  "apkSize": 3477941,
-  "sha256": "55ddab9a8f3e9caad589cae3a2cc56149b505a0a76806ccace573833806616fb",
-  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.8",
+  "tag": "v3.9",
+  "versionName": "v3.9",
+  "versionCode": 100153,
+  "apkName": "MovieTogether-3.9.apk",
+  "apkUrl": "https://github.com/N2K02/MovieTogether/releases/download/v3.9/MovieTogether-3.9.apk",
+  "apkSize": 3502620,
+  "sha256": "7e0bad85364972685575ce5acee8e43065b330e2d910f5d7a1dc94333b08338c",
+  "pageUrl": "https://github.com/N2K02/MovieTogether/releases/tag/v3.9",
   "notes": [
+    "chore(deps): upgrade N2K02 theme and updater packages (#32)",
     "build(deps): bump the all-dependencies group with 4 updates (#31)",
     "CI: standardized stable and experimental APK release names (#30)",
     "CI: ensure stable APK build after automated main merge (#29)",
@@ -17,7 +18,6 @@
     "Resolve releases from app repository, not website tags (#26)",
     "Experimental: shared Material 3 Expressive updater 0.1.32 (#25)",
     "Experimental: update shared updater to 0.1.30 (#24)",
-    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)",
-    "fix: use source APK releases for update feeds (#21)"
+    "Bump the \"all-dependencies\" group with 2 updates across multiple ecosystems (#23)"
   ]
 }
