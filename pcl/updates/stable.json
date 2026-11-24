@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.6",
-  "versionName": "v7.6",
-  "versionCode": 100625,
-  "apkName": "PCL-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.6/PCL-7.6.apk",
+  "tag": "v7.7",
+  "versionName": "v7.7",
+  "versionCode": 100628,
+  "apkName": "PCL-7.7.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.7/PCL-7.7.apk",
   "apkSize": 1571345,
-  "sha256": "9f779badbea315df45b16e2faec7f4cbdceed860b63248d53426a30356c57122",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.6",
+  "sha256": "145dfb9cb538ce674f2c56ffb0a200edc834b364cf2ad7b441811ab38848ecce",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.7",
   "notes": [
-    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#86)"
+    "fix(deps): replay dependency update on current main and trigger validation"
   ]
 }

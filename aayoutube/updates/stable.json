@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.0",
-  "versionName": "v9.0",
-  "versionCode": 100983,
-  "apkName": "AAYoutube-9.0.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.0/AAYoutube-9.0.apk",
+  "tag": "v9.1",
+  "versionName": "v9.1",
+  "versionCode": 100985,
+  "apkName": "AAYoutube-9.1.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.1/AAYoutube-9.1.apk",
   "apkSize": 16558809,
-  "sha256": "d366d6b04378f0096e43df6608d8035a50baa0434ad8ab7f89334394e6acf00d",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.0",
+  "sha256": "640e17d935f786dea4fd042b0d25015f78797a11bfe22e6c7308384c37887ca8",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.1",
   "notes": [
-    "Fix playback hardening and WebView security regressions (#56)"
+    "fix(deps): replay dependency update on current main and trigger validation"
   ]
 }
