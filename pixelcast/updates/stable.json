@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v5.8",
-  "versionName": "v5.8",
-  "versionCode": 100184,
-  "apkName": "PixelCast-5.8.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.8/PixelCast-5.8.apk",
+  "tag": "v5.9",
+  "versionName": "v5.9",
+  "versionCode": 100187,
+  "apkName": "PixelCast-5.9.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/v5.9/PixelCast-5.9.apk",
   "apkSize": 1278032,
-  "sha256": "346bd54f27748f9c088d8b7bb1355ce05dfe0cf4bc1894624a0389572b9d469e",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.8",
+  "sha256": "2a29c942e69248c57a49c4c8c6b0e7704a63eb247e64b560910b1ee099485aa9",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/v5.9",
   "notes": [
-    "CI: standardized stable and experimental APK release names (#40)"
+    "build(deps): bump the all-dependencies group with 2 updates (#41)"
   ]
 }

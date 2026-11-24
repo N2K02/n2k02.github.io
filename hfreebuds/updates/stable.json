@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.7",
-  "versionName": "v6.7",
-  "versionCode": 100222,
-  "apkName": "HFreebuds-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.7/HFreebuds-6.7.apk",
+  "tag": "v6.8",
+  "versionName": "v6.8",
+  "versionCode": 100225,
+  "apkName": "HFreebuds-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v6.8/HFreebuds-6.8.apk",
   "apkSize": 1400462,
-  "sha256": "70ca193c92416826760b5f96059726f5b9a604c951b4ab9f888ac0ca4de6dd1a",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.7",
+  "sha256": "e0f5d8453c2c66d672a8ea65b0a4ab3c7a8fff8f06a05588f13b459a8d9e7d2c",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v6.8",
   "notes": [
-    "CI: standard App-version-experimental.N APK naming (#40)"
+    "build(deps): bump the all-dependencies group with 2 updates (#41)"
   ]
 }
