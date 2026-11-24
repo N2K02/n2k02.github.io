@@ -1,14 +1,18 @@
 {
   "channel": "stable",
-  "tag": "v3.5",
-  "versionName": "v3.5",
-  "versionCode": 100381,
-  "apkName": "LocalAdb-3.5.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.5/LocalAdb-3.5.apk",
-  "apkSize": 17577622,
-  "sha256": "b01eaf1aa47fada4e389fe3c3c6799a1b4659663d7c4c2040405cd8b2611b2f8",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.5",
+  "tag": "v3.6",
+  "versionName": "v3.6",
+  "versionCode": 100387,
+  "apkName": "LocalAdb-3.6.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.6/LocalAdb-3.6.apk",
+  "apkSize": 17606398,
+  "sha256": "55da820269ea4045594d6bf8b0ded8a81b1c578aa5cf66c06c23a68966bf09bf",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.6",
   "notes": [
-    "Keep Shizuku alive: adbd-restart guard, pairing expiry, Wi-Fi-loss shield"
+    "test(deps): update shared package assertions",
+    "chore(deps): align shared updater and Compose/SDK runtime compatibility",
+    "test(deps): update approved theme regression assertion",
+    "fix(deps): replay dependency update on current main and trigger validation",
+    "fix(deps): replay dependency update on current main and trigger validation"
   ]
 }
