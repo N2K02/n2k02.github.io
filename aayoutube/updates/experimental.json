@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-56-run-963",
-  "versionName": "experimental-pr-56-run-963",
-  "versionCode": 100963,
-  "apkName": "AAYoutube-9.0-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-56-run-963/AAYoutube-9.0-experimental.3.apk",
+  "tag": "experimental-pr-56-run-964",
+  "versionName": "experimental-pr-56-run-964",
+  "versionCode": 100964,
+  "apkName": "AAYoutube-9.0-experimental.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-56-run-964/AAYoutube-9.0-experimental.4.apk",
   "apkSize": 23267998,
-  "sha256": "3a8d9051a4da43ef578d28be64257b3845b4f50ce8af91decd3b33e31a436155",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-56-run-963",
+  "sha256": "c97504de5b1d04447e581c4ca9fd310c6319a59d5681e97e8195806f13da524a",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-56-run-964",
   "notes": [
+    "fix: clear PiP state when car projection takes ownership of the WebView",
     "test: fix remaining NAVIGATION assertion in integration contract test",
     "test: update car tests to allow FullscreenCarService NAVIGATION registration",
     "Reapply \"fix: add missing Surface import; remove unused handler/Window imports\"",
@@ -17,7 +18,6 @@
     "Revert \"fix: add missing Surface import; remove unused handler/Window imports\"",
     "fix: add missing Surface import; remove unused handler/Window imports",
     "Add FullscreenCarService: NavigationTemplate + VirtualDisplay projection",
-    "test: verify PiP Next refresh when page visibility is hidden",
-    "fix: keep PiP decoder surface watchdog active when document visibility is hidden"
+    "test: verify PiP Next refresh when page visibility is hidden"
   ]
 }
