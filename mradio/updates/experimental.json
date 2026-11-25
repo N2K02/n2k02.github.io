@@ -1,16 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-50-run-403",
-  "versionName": "experimental-pr-50-run-403",
-  "versionCode": 100403,
-  "apkName": "MRadio-7.5-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-50-run-403/MRadio-7.5-experimental.1.apk",
-  "apkSize": 25106203,
-  "sha256": "c59d6227bdd62966de476bb1c945eae910ebdb5d53c877e31bc76b431a37264e",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-50-run-403",
+  "tag": "experimental-pr-51-run-416",
+  "versionName": "experimental-pr-51-run-416",
+  "versionCode": 100416,
+  "apkName": "MRadio-7.6-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-51-run-416/MRadio-7.6-experimental.1.apk",
+  "apkSize": 25073435,
+  "sha256": "7aea6a2dbc6b746a35d5ff54105700bbf1f3b4b884037564e49ae0ea5fc92d2f",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-51-run-416",
   "notes": [
-    "fix(deps): replay Dependabot upgrades against current main",
-    "fix(deps): replay Dependabot upgrades against current main",
-    "fix(deps): replay Dependabot upgrades against current main"
+    "Fix build regression while preserving current playback contracts",
+    "Test active audio processing across every possible buffer split",
+    "Recover from invalid legacy preference value type",
+    "Test migration of legacy audio settings and idempotence",
+    "Enable real JSON parsing in JVM preference tests",
+    "Use isolated normalization preference migration",
+    "Extract normalization preference migration codec",
+    "Test stream reset, invalid samples and rapid toggles",
+    "Reduce normalization overhead and smooth new-stream recovery",
+    "Reduce normalization overhead and smooth new-stream recovery"
   ]
 }
