@@ -1,14 +1,17 @@
 {
   "channel": "stable",
-  "tag": "v2.5",
-  "versionName": "v2.5",
-  "versionCode": 100126,
-  "apkName": "ChargeWatt-2.5.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.5/ChargeWatt-2.5.apk",
-  "apkSize": 1344902,
-  "sha256": "01aae4684ceddbc25663dcd845fc25ae2caa4ee6c76625109c531e286ff4f7a0",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.5",
+  "tag": "v2.6",
+  "versionName": "v2.6",
+  "versionCode": 100132,
+  "apkName": "ChargeWatt-2.6.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.6/ChargeWatt-2.6.apk",
+  "apkSize": 1365485,
+  "sha256": "76df2fae732b788f3fc4de3221a54874f6903b26c1645367a57fa10acbbcdb6c",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.6",
   "notes": [
-    "CI: standardized stable and experimental APK release names (#18)"
+    "Merge pull request #20 from N2K02/experimental-shared-package-upgrade",
+    "fix(test): align shared package compatibility guard with approved versions",
+    "chore(deps): upgrade shared theme/updater and Android Compose compatibility",
+    "chore(deps): bump dev.n2k02:theme (#19)"
   ]
 }
