@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1084",
-  "versionName": "experimental-pr-57-run-1084",
-  "versionCode": 101084,
-  "apkName": "AAYoutube-9.2-experimental.16.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1084/AAYoutube-9.2-experimental.16.apk",
+  "tag": "experimental-pr-57-run-1085",
+  "versionName": "experimental-pr-57-run-1085",
+  "versionCode": 101085,
+  "apkName": "AAYoutube-9.2-experimental.17.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1085/AAYoutube-9.2-experimental.17.apk",
   "apkSize": 24050795,
-  "sha256": "ec7dbd94ab817ca0e66285ec2d2f84c15f7038d67cbb8d9fb046f601022b96e7",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1084",
+  "sha256": "b22acd7590bcb234de05bae388d9c68b404e541e5ae3e83f8ba252c088e1e490",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1085",
   "notes": [
+    "Phone player: swipe-down to mini needs a tracked downward drag; taps and page shifts never minimise",
     "Phone copy gives way to low memory and system trim requests (device was at 8.9% free RAM with heavy swap)",
     "Stats test: steady-state sync count label",
     "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints",
@@ -17,7 +18,6 @@
     "Restore smooth native phone playback; distinguish mute capability and recover transient mirror failures",
     "Protect retained renderer from repeated binds and reduce secondary rendering under sustained process pressure",
     "Use bounded shared-frame preview in projected small windows and enforce renderer verification deadline",
-    "Preserve retained car renderer with bounded verified display trials; avoid duplicate timestamp seeks",
-    "Acknowledge queued mirror navigation and remove obsolete tap tracking"
+    "Preserve retained car renderer with bounded verified display trials; avoid duplicate timestamp seeks"
   ]
 }
