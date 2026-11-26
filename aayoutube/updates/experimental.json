@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1054",
-  "versionName": "experimental-pr-57-run-1054",
-  "versionCode": 101054,
-  "apkName": "AAYoutube-9.2-experimental.4.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1054/AAYoutube-9.2-experimental.4.apk",
-  "apkSize": 23956167,
-  "sha256": "592a94288b9f2651034d93e4b2659c746bc149f8088f993d66a835876c08821e",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1054",
+  "tag": "experimental-pr-57-run-1056",
+  "versionName": "experimental-pr-57-run-1056",
+  "versionCode": 101056,
+  "apkName": "AAYoutube-9.2-experimental.5.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1056/AAYoutube-9.2-experimental.5.apk",
+  "apkSize": 23988935,
+  "sha256": "da765dac02962c6badf8ffaadee9baf8fd1f0262559e1f4be7d07b824ffafe5a",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1056",
   "notes": [
+    "Projected playback: reuse retained renderer, YouTube-like phone player, sync and diagnostics",
+    "Phone: Home button switches to mini player (CarSyncedWatch) instead of bottom bar",
     "Fix 6 failing contract tests from carAudioRetained + audioOnly changes",
     "Add handoff retention and preview pacing regression contracts",
     "Test retained music playback preserves current stream and honors pause",
@@ -16,8 +18,6 @@
     "Keep audio-mode playback watchdog without unnecessary video quality and diagnostic work",
     "Reduce preview readback frequency and reject audio-only captures",
     "Keep phone browsing independent during audio handoff; stop preview captures outside active video",
-    "Retain active audio document after video exit and trace actual playback clock across handoffs",
-    "Test independent phone navigation, shared video selection and isolated PiP",
-    "Update regression contracts for independent phone browsing and PiP"
+    "Retain active audio document after video exit and trace actual playback clock across handoffs"
   ]
 }
