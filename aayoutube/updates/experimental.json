@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1085",
-  "versionName": "experimental-pr-57-run-1085",
-  "versionCode": 101085,
-  "apkName": "AAYoutube-9.2-experimental.17.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1085/AAYoutube-9.2-experimental.17.apk",
+  "tag": "experimental-pr-57-run-1088",
+  "versionName": "experimental-pr-57-run-1088",
+  "versionCode": 101088,
+  "apkName": "AAYoutube-9.2-experimental.20.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1088/AAYoutube-9.2-experimental.20.apk",
   "apkSize": 24050795,
-  "sha256": "b22acd7590bcb234de05bae388d9c68b404e541e5ae3e83f8ba252c088e1e490",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1085",
+  "sha256": "f890c56d96b6d4ccca009971c30dacd838842b17ac40ff22e74c7f6a15fe48f5",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1088",
   "notes": [
+    "Bound silent handoff timeout and primary clock mismatches; preserve case-sensitive navigation and safe timestamps",
+    "Verify mirror seeks against their media element and bound correction recovery; preserve handoff deadline",
+    "Review follow-up: memory pressure from Android's signals (no false suspension), show phone video within 1 s, PiP 360p, memory checkpoint off the UI thread and throttled memory check, swipe survives scroll take-over, call/ringtone hold test",
     "Phone player: swipe-down to mini needs a tracked downward drag; taps and page shifts never minimise",
     "Phone copy gives way to low memory and system trim requests (device was at 8.9% free RAM with heavy swap)",
     "Stats test: steady-state sync count label",
     "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints",
     "Phone mirror: runtime mute failure is a retryable failure cleared by Retry and projection end; no per-sync set allocation; accurate state docs",
     "Separate mirror navigation and fullscreen ownership; test cookie and renderer trial state machines",
-    "Restore smooth native phone playback; distinguish mute capability and recover transient mirror failures",
-    "Protect retained renderer from repeated binds and reduce secondary rendering under sustained process pressure",
-    "Use bounded shared-frame preview in projected small windows and enforce renderer verification deadline",
-    "Preserve retained car renderer with bounded verified display trials; avoid duplicate timestamp seeks"
+    "Restore smooth native phone playback; distinguish mute capability and recover transient mirror failures"
   ]
 }
