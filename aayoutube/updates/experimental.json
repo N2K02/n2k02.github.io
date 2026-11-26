@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1069",
-  "versionName": "experimental-pr-57-run-1069",
-  "versionCode": 101069,
-  "apkName": "AAYoutube-9.2-experimental.12.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1069/AAYoutube-9.2-experimental.12.apk",
-  "apkSize": 24013931,
-  "sha256": "3d439ac37ebfa36bda137f1cd77633291cf90f32a1f7d88457ce5183124cecc8",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1069",
+  "tag": "experimental-pr-57-run-1072",
+  "versionName": "experimental-pr-57-run-1072",
+  "versionCode": 101072,
+  "apkName": "AAYoutube-9.2-experimental.13.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1072/AAYoutube-9.2-experimental.13.apk",
+  "apkSize": 24030315,
+  "sha256": "029dc12c712c862e93617617acbbf8c9392309cf0bd99c4299ebffc8b0782a45",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1072",
   "notes": [
+    "Bind phone fullscreen to activity lifecycle and enforce startup mirror quality",
+    "Bound session reset and mirror recovery; release suspended renderer, preserve navigation and prioritize primary playback",
+    "Harden projected phone playback: native mute, suspension recovery, document dispatch, navigation and account lifecycle",
     "Android Auto entries: blue ring icon for music, green for video (phone launcher icon unchanged)",
     "Load gate: resume at reduced quality for a second calm period",
     "Mirror round 3: load gate before load/sync, no hidden renderer recreation, per-document bridge auth, intent-based navigation, latency-compensated clock, gesture hardening, frame isolation, common fallback, sign-out suspension",
     "Update the mirror action contract for Next/Previous",
     "mediaClock is internal (EngineClock is internal)",
     "Mirror round 2: request-sequenced sync with engine identity/health, gesture consumption, Next/Prev forwarding, hidden-document state, idle decoder release, load-adaptive quality, phone browse navigation fix, honest logging",
-    "Keep the background probe directly after the snapshot update (contract)",
-    "Phone mirror: hard mute, stale-callback guards, immediate follow, crash-loop cap, tap-only selection, aggregated diagnostics, behavioural tests",
-    "Update car fit-button contract for the shared rail sizing",
-    "Car Settings on the rail; reduce phone/browse redraw and sync work; pause-storm diagnostics"
+    "Keep the background probe directly after the snapshot update (contract)"
   ]
 }
