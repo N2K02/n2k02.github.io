@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1063",
-  "versionName": "experimental-pr-57-run-1063",
-  "versionCode": 101063,
-  "apkName": "AAYoutube-9.2-experimental.9.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1063/AAYoutube-9.2-experimental.9.apk",
-  "apkSize": 23993093,
-  "sha256": "f5e51ce79f1f8f3a04895ccf7cf2226302d3c4720ba06cf9f81f47c0244262db",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1063",
+  "tag": "experimental-pr-57-run-1066",
+  "versionName": "experimental-pr-57-run-1066",
+  "versionCode": 101066,
+  "apkName": "AAYoutube-9.2-experimental.10.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1066/AAYoutube-9.2-experimental.10.apk",
+  "apkSize": 24009477,
+  "sha256": "d9463673521e9f8577f428686c116551cf409e8e11b865a041947af1229de841",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1066",
   "notes": [
+    "Update the mirror action contract for Next/Previous",
+    "mediaClock is internal (EngineClock is internal)",
+    "Mirror round 2: request-sequenced sync with engine identity/health, gesture consumption, Next/Prev forwarding, hidden-document state, idle decoder release, load-adaptive quality, phone browse navigation fix, honest logging",
     "Keep the background probe directly after the snapshot update (contract)",
     "Phone mirror: hard mute, stale-callback guards, immediate follow, crash-loop cap, tap-only selection, aggregated diagnostics, behavioural tests",
     "Update car fit-button contract for the shared rail sizing",
     "Car Settings on the rail; reduce phone/browse redraw and sync work; pause-storm diagnostics",
     "Phone player: swipe down on the video opens the phone mini-player",
     "Update mini progress ticker contract for the visibility gate",
-    "Phone shows the original YouTube player during Android Auto; fix review findings",
-    "Projected playback: reuse retained renderer, YouTube-like phone player, sync and diagnostics",
-    "Phone: Home button switches to mini player (CarSyncedWatch) instead of bottom bar",
-    "Fix 6 failing contract tests from carAudioRetained + audioOnly changes"
+    "Phone shows the original YouTube player during Android Auto; fix review findings"
   ]
 }
