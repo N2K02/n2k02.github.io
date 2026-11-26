@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-55-run-410",
-  "versionName": "experimental-pr-55-run-410",
-  "versionCode": 100410,
-  "apkName": "SpeedTester-10.1-experimental.3.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-410/SpeedTester-10.1-experimental.3.apk",
+  "tag": "experimental-pr-55-run-411",
+  "versionName": "experimental-pr-55-run-411",
+  "versionCode": 100411,
+  "apkName": "SpeedTester-10.1-experimental.4.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-411/SpeedTester-10.1-experimental.4.apk",
   "apkSize": 2949110,
-  "sha256": "69489a440fabc3ecdbadc7401c808a9880f7196ba7135935bccfbef12707eb6a",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-410",
+  "sha256": "a5e225aa25976b2be7dc911f87db95b05075251fad30478e47e9e6a713ce57ae",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-411",
   "notes": [
+    "Export data throughput in history CSV",
     "Fix upload stream scaling, upload data rate tail and phase-wide loaded latency",
     "Report trimmed line-rate speed like Ookla/LibreSpeed, keep data throughput",
     "Fix pre-existing lint errors blocking the experimental APK",
@@ -17,7 +18,6 @@
     "Print complete lint diagnostics in CI logs",
     "Guard cellular signal API on Android 8",
     "Preserve complete lint reports for failed CI diagnosis",
-    "Guard Wi-Fi transport info on Android 8 and 9",
-    "Validate exact PR head with lint and signed release APK"
+    "Guard Wi-Fi transport info on Android 8 and 9"
   ]
 }

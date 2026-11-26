@@ -1,14 +1,23 @@
 {
   "channel": "stable",
-  "tag": "v10.0",
-  "versionName": "v10.0",
-  "versionCode": 100401,
-  "apkName": "SpeedTester-10.0.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v10.0/SpeedTester-10.0.apk",
+  "tag": "v10.1",
+  "versionName": "v10.1",
+  "versionCode": 100412,
+  "apkName": "SpeedTester-10.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v10.1/SpeedTester-10.1.apk",
   "apkSize": 2949110,
-  "sha256": "6b503841d61cb05d57808b8b125564c426b18eac3eb81046f4795202a4905a6f",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v10.0",
+  "sha256": "3c73e02209987cdddbb16fdd7f03062bfabb4ade4d2c1365318a0e2d8b9aabcc",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v10.1",
   "notes": [
-    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#51)"
+    "Export data throughput in history CSV",
+    "Fix upload stream scaling, upload data rate tail and phase-wide loaded latency",
+    "Report trimmed line-rate speed like Ookla/LibreSpeed, keep data throughput",
+    "Fix pre-existing lint errors blocking the experimental APK",
+    "Use a clearly-above-threshold growth sample in stream scaling test",
+    "Scale download/upload connections adaptively so fast Wi-Fi lines are filled",
+    "Print complete lint diagnostics in CI logs",
+    "Guard cellular signal API on Android 8",
+    "Preserve complete lint reports for failed CI diagnosis",
+    "Guard Wi-Fi transport info on Android 8 and 9"
   ]
 }
