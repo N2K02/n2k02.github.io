@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1088",
-  "versionName": "experimental-pr-57-run-1088",
-  "versionCode": 101088,
-  "apkName": "AAYoutube-9.2-experimental.20.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1088/AAYoutube-9.2-experimental.20.apk",
-  "apkSize": 24050795,
-  "sha256": "f890c56d96b6d4ccca009971c30dacd838842b17ac40ff22e74c7f6a15fe48f5",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1088",
+  "tag": "experimental-pr-57-run-1089",
+  "versionName": "experimental-pr-57-run-1089",
+  "versionCode": 101089,
+  "apkName": "AAYoutube-9.2-experimental.21.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1089/AAYoutube-9.2-experimental.21.apk",
+  "apkSize": 24071275,
+  "sha256": "c56631d1e826cfa5aa2d548e93cb87299c6afbe2001221d156511d467a34ff11",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1089",
   "notes": [
+    "Adaptive performance engine: central level with hysteresis drives secondary quality, page work, bounded wake lock and diagnostics",
     "Bound silent handoff timeout and primary clock mismatches; preserve case-sensitive navigation and safe timestamps",
     "Verify mirror seeks against their media element and bound correction recovery; preserve handoff deadline",
     "Review follow-up: memory pressure from Android's signals (no false suspension), show phone video within 1 s, PiP 360p, memory checkpoint off the UI thread and throttled memory check, swipe survives scroll take-over, call/ringtone hold test",
@@ -17,7 +18,6 @@
     "Stats test: steady-state sync count label",
     "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints",
     "Phone mirror: runtime mute failure is a retryable failure cleared by Retry and projection end; no per-sync set allocation; accurate state docs",
-    "Separate mirror navigation and fullscreen ownership; test cookie and renderer trial state machines",
-    "Restore smooth native phone playback; distinguish mute capability and recover transient mirror failures"
+    "Separate mirror navigation and fullscreen ownership; test cookie and renderer trial state machines"
   ]
 }
