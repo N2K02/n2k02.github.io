@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1089",
-  "versionName": "experimental-pr-57-run-1089",
-  "versionCode": 101089,
-  "apkName": "AAYoutube-9.2-experimental.21.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1089/AAYoutube-9.2-experimental.21.apk",
+  "tag": "experimental-pr-57-run-1090",
+  "versionName": "experimental-pr-57-run-1090",
+  "versionCode": 101090,
+  "apkName": "AAYoutube-9.2-experimental.22.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1090/AAYoutube-9.2-experimental.22.apk",
   "apkSize": 24071275,
-  "sha256": "c56631d1e826cfa5aa2d548e93cb87299c6afbe2001221d156511d467a34ff11",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1089",
+  "sha256": "80efc7f16705e2d59d59ebfd3fbfc2ee993b7ccf679d0ae322daa1cb353afde1",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1090",
   "notes": [
+    "Performance follow-ups: media-clock stall detection, engine session lifecycle, sustained mini sizing, pane recomposition, earlier hidden release, accurate diagnostics",
     "Adaptive performance engine: central level with hysteresis drives secondary quality, page work, bounded wake lock and diagnostics",
     "Bound silent handoff timeout and primary clock mismatches; preserve case-sensitive navigation and safe timestamps",
     "Verify mirror seeks against their media element and bound correction recovery; preserve handoff deadline",
@@ -17,7 +18,6 @@
     "Phone copy gives way to low memory and system trim requests (device was at 8.9% free RAM with heavy swap)",
     "Stats test: steady-state sync count label",
     "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints",
-    "Phone mirror: runtime mute failure is a retryable failure cleared by Retry and projection end; no per-sync set allocation; accurate state docs",
-    "Separate mirror navigation and fullscreen ownership; test cookie and renderer trial state machines"
+    "Phone mirror: runtime mute failure is a retryable failure cleared by Retry and projection end; no per-sync set allocation; accurate state docs"
   ]
 }
