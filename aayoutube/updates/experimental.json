@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1058",
-  "versionName": "experimental-pr-57-run-1058",
-  "versionCode": 101058,
-  "apkName": "AAYoutube-9.2-experimental.6.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1058/AAYoutube-9.2-experimental.6.apk",
-  "apkSize": 23972613,
-  "sha256": "fc87c68b2b836d5b8718ff0c6c90a8ea7ab18935700a7593e2f4f3b5a1a43c39",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1058",
+  "tag": "experimental-pr-57-run-1061",
+  "versionName": "experimental-pr-57-run-1061",
+  "versionCode": 101061,
+  "apkName": "AAYoutube-9.2-experimental.8.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1061/AAYoutube-9.2-experimental.8.apk",
+  "apkSize": 23993093,
+  "sha256": "b91fb41bc4008045cb2e39d16e6748d95d57fdcc8a7650e5203308dfb7e7f77f",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1061",
   "notes": [
+    "Update car fit-button contract for the shared rail sizing",
+    "Car Settings on the rail; reduce phone/browse redraw and sync work; pause-storm diagnostics",
+    "Phone player: swipe down on the video opens the phone mini-player",
     "Update mini progress ticker contract for the visibility gate",
     "Phone shows the original YouTube player during Android Auto; fix review findings",
     "Projected playback: reuse retained renderer, YouTube-like phone player, sync and diagnostics",
     "Phone: Home button switches to mini player (CarSyncedWatch) instead of bottom bar",
     "Fix 6 failing contract tests from carAudioRetained + audioOnly changes",
     "Add handoff retention and preview pacing regression contracts",
-    "Test retained music playback preserves current stream and honors pause",
-    "Wire retained audio mode to page, preserve recovery and avoid quality changes during music playback",
-    "Keep audio-mode playback watchdog without unnecessary video quality and diagnostic work",
-    "Reduce preview readback frequency and reject audio-only captures"
+    "Test retained music playback preserves current stream and honors pause"
   ]
 }
