@@ -1,23 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1081",
-  "versionName": "experimental-pr-57-run-1081",
-  "versionCode": 101081,
-  "apkName": "AAYoutube-9.2-experimental.15.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1081/AAYoutube-9.2-experimental.15.apk",
-  "apkSize": 24030315,
-  "sha256": "5e457b61aea5443fb071cba4385727014871801d6acf44f37223bb13a80e2895",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1081",
+  "tag": "experimental-pr-57-run-1084",
+  "versionName": "experimental-pr-57-run-1084",
+  "versionCode": 101084,
+  "apkName": "AAYoutube-9.2-experimental.16.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1084/AAYoutube-9.2-experimental.16.apk",
+  "apkSize": 24050795,
+  "sha256": "ec7dbd94ab817ca0e66285ec2d2f84c15f7038d67cbb8d9fb046f601022b96e7",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1084",
   "notes": [
+    "Phone copy gives way to low memory and system trim requests (device was at 8.9% free RAM with heavy swap)",
+    "Stats test: steady-state sync count label",
+    "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints",
     "Phone mirror: runtime mute failure is a retryable failure cleared by Retry and projection end; no per-sync set allocation; accurate state docs",
     "Separate mirror navigation and fullscreen ownership; test cookie and renderer trial state machines",
     "Restore smooth native phone playback; distinguish mute capability and recover transient mirror failures",
     "Protect retained renderer from repeated binds and reduce secondary rendering under sustained process pressure",
     "Use bounded shared-frame preview in projected small windows and enforce renderer verification deadline",
     "Preserve retained car renderer with bounded verified display trials; avoid duplicate timestamp seeks",
-    "Acknowledge queued mirror navigation and remove obsolete tap tracking",
-    "Harden phone link acceptance, authoritative pause, fullscreen exit sequencing and measured quality limits",
-    "Serialize cookie clearing and reset navigation; bound primary clock failures and outstanding sync requests",
-    "Bind phone fullscreen to activity lifecycle and enforce startup mirror quality"
+    "Acknowledge queued mirror navigation and remove obsolete tap tracking"
   ]
 }
