@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.1",
-  "versionName": "v9.1",
-  "versionCode": 100985,
-  "apkName": "AAYoutube-9.1.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.1/AAYoutube-9.1.apk",
-  "apkSize": 16558809,
-  "sha256": "640e17d935f786dea4fd042b0d25015f78797a11bfe22e6c7308384c37887ca8",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.1",
+  "tag": "v9.3",
+  "versionName": "v9.3",
+  "versionCode": 101094,
+  "apkName": "AAYoutube-9.3.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.3/AAYoutube-9.3.apk",
+  "apkSize": 16636857,
+  "sha256": "4f7e19adbdeb61af517002a56955baaa9423fd88aa0a1905e2d4a1064ed1905f",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.3",
   "notes": [
-    "fix(deps): replay dependency update on current main and trigger validation"
+    "Rebuild, no code changes"
   ]
 }

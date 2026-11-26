@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-57-run-1090",
-  "versionName": "experimental-pr-57-run-1090",
-  "versionCode": 101090,
-  "apkName": "AAYoutube-9.2-experimental.22.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1090/AAYoutube-9.2-experimental.22.apk",
+  "tag": "experimental-pr-57-run-1091",
+  "versionName": "experimental-pr-57-run-1091",
+  "versionCode": 101091,
+  "apkName": "AAYoutube-9.2-experimental.23.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-57-run-1091/AAYoutube-9.2-experimental.23.apk",
   "apkSize": 24071275,
-  "sha256": "80efc7f16705e2d59d59ebfd3fbfc2ee993b7ccf679d0ae322daa1cb353afde1",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1090",
+  "sha256": "1075208390c46abdfcdb3d073d2deb7f4e9b3b8aac32b4fd076e6d8a8aef3740",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-57-run-1091",
   "notes": [
+    "Exact stall-release deadline, timer-driven mini sizing with retry, bounded frame callbacks",
     "Performance follow-ups: media-clock stall detection, engine session lifecycle, sustained mini sizing, pane recomposition, earlier hidden release, accurate diagnostics",
     "Adaptive performance engine: central level with hysteresis drives secondary quality, page work, bounded wake lock and diagnostics",
     "Bound silent handoff timeout and primary clock mismatches; preserve case-sensitive navigation and safe timestamps",
@@ -17,7 +18,6 @@
     "Phone player: swipe-down to mini needs a tracked downward drag; taps and page shifts never minimise",
     "Phone copy gives way to low memory and system trim requests (device was at 8.9% free RAM with heavy swap)",
     "Stats test: steady-state sync count label",
-    "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints",
-    "Phone mirror: runtime mute failure is a retryable failure cleared by Retry and projection end; no per-sync set allocation; accurate state docs"
+    "Phone sync phases with verified seeks, small projected quality ceiling, no black phone while the car buffers, video-only from document start, faster handoff resume, handoff dedupe/clock check, memory and surface checkpoints"
   ]
 }

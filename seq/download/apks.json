@@ -18,9 +18,9 @@
       "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-adb-pr-7-run-337/SEQ-ADB-1.0-experimental.1.apk"
     },
     "shizuku": {
-      "tag": "experimental-shizuku-pr-6-run-336",
-      "apkName": "SEQ-SHIZUKU-1.0-experimental.1.apk",
-      "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-6-run-336/SEQ-SHIZUKU-1.0-experimental.1.apk"
+      "tag": "experimental-shizuku-pr-11-run-348",
+      "apkName": "SEQ-SHIZUKU-1.0-experimental.2.apk",
+      "apkUrl": "https://github.com/N2K02/SEQ/releases/download/experimental-shizuku-pr-11-run-348/SEQ-SHIZUKU-1.0-experimental.2.apk"
     }
   }
 }
