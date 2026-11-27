@@ -1,18 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-32-run-385",
-  "versionName": "experimental-pr-32-run-385",
-  "versionCode": 100385,
-  "apkName": "LocalAdb-3.6-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-32-run-385/LocalAdb-3.6-experimental.2.apk",
+  "tag": "experimental-pr-34-run-388",
+  "versionName": "experimental-pr-34-run-388",
+  "versionCode": 100388,
+  "apkName": "LocalAdb-3.7-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/experimental-pr-34-run-388/LocalAdb-3.7-experimental.1.apk",
   "apkSize": 40531552,
-  "sha256": "2e0822c8e1a52e8465891abe51c5ebb9dedf8610e3ee580cc218822efa70b7e0",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-32-run-385",
+  "sha256": "8965052ab966028d36b2cf306d7b8ab6900d61544cffc38023dc9db5da9df2f4",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/experimental-pr-34-run-388",
   "notes": [
-    "test(deps): update shared package assertions",
-    "chore(deps): align shared updater and Compose/SDK runtime compatibility",
-    "test(deps): update approved theme regression assertion",
-    "fix(deps): replay dependency update on current main and trigger validation",
-    "fix(deps): replay dependency update on current main and trigger validation"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

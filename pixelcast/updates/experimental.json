@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-42-run-188",
-  "versionName": "experimental-pr-42-run-188",
-  "versionCode": 100188,
-  "apkName": "PixelCast-6.0-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-42-run-188/PixelCast-6.0-experimental.1.apk",
+  "tag": "experimental-pr-43-run-191",
+  "versionName": "experimental-pr-43-run-191",
+  "versionCode": 100191,
+  "apkName": "PixelCast-6.1-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-43-run-191/PixelCast-6.1-experimental.1.apk",
   "apkSize": 20344787,
-  "sha256": "1fa2b6ccb40094876ba0a76c7f515db334dd857e9d423ea5fd6b5797722af92f",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-42-run-188",
+  "sha256": "71a078c1e306e82d282093217452ed34f28269c94a7a6904bb86bb05bc9d7f1c",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-43-run-191",
   "notes": [
-    "chore(deps): upgrade shared theme/updater and Android Compose compatibility"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

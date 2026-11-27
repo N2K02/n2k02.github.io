@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-49-run-227",
-  "versionName": "experimental-pr-49-run-227",
-  "versionCode": 100227,
-  "apkName": "NetSpeed-6.7-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-49-run-227/NetSpeed-6.7-experimental.1.apk",
+  "tag": "experimental-pr-50-run-230",
+  "versionName": "experimental-pr-50-run-230",
+  "versionCode": 100230,
+  "apkName": "NetSpeed-6.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-50-run-230/NetSpeed-6.8-experimental.1.apk",
   "apkSize": 20307439,
-  "sha256": "bac81d04e36c2cbeb0262963e260db059e8f9244a263e2a45edc089a37cc3dd2",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-49-run-227",
+  "sha256": "f70c3c6a25d56b3e980af24bbbc198d53bb0ebc8bb1896d333ae6cd58a53af65",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-50-run-230",
   "notes": [
-    "chore(deps): upgrade shared theme/updater and Android Compose compatibility"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

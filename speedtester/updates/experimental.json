@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-55-run-411",
-  "versionName": "experimental-pr-55-run-411",
-  "versionCode": 100411,
-  "apkName": "SpeedTester-10.1-experimental.4.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-55-run-411/SpeedTester-10.1-experimental.4.apk",
+  "tag": "experimental-pr-56-run-414",
+  "versionName": "experimental-pr-56-run-414",
+  "versionCode": 100414,
+  "apkName": "SpeedTester-10.2-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-56-run-414/SpeedTester-10.2-experimental.1.apk",
   "apkSize": 2949110,
-  "sha256": "a5e225aa25976b2be7dc911f87db95b05075251fad30478e47e9e6a713ce57ae",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-55-run-411",
+  "sha256": "db59333845ef61fea6516f78f821c079957b8fc20761b41a95e7393619647051",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-56-run-414",
   "notes": [
-    "Export data throughput in history CSV",
-    "Fix upload stream scaling, upload data rate tail and phase-wide loaded latency",
-    "Report trimmed line-rate speed like Ookla/LibreSpeed, keep data throughput",
-    "Fix pre-existing lint errors blocking the experimental APK",
-    "Use a clearly-above-threshold growth sample in stream scaling test",
-    "Scale download/upload connections adaptively so fast Wi-Fi lines are filled",
-    "Print complete lint diagnostics in CI logs",
-    "Guard cellular signal API on Android 8",
-    "Preserve complete lint reports for failed CI diagnosis",
-    "Guard Wi-Fi transport info on Android 8 and 9"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

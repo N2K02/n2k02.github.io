@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-84-run-626",
-  "versionName": "experimental-pr-84-run-626",
-  "versionCode": 100626,
-  "apkName": "PCL-7.6-experimental.2.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-84-run-626/PCL-7.6-experimental.2.apk",
-  "apkSize": 20409077,
-  "sha256": "93c454b4f94c543adf0fc9335baf218f265132284452e8b1f9e7a92d1708de4f",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-84-run-626",
+  "tag": "experimental-pr-87-run-629",
+  "versionName": "experimental-pr-87-run-629",
+  "versionCode": 100629,
+  "apkName": "PCL-7.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-87-run-629/PCL-7.8-experimental.1.apk",
+  "apkSize": 20409073,
+  "sha256": "dfab4eb33eeed22f09229e8bd940511f283d6f56f3888d4d2b668cc901254b00",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-87-run-629",
   "notes": [
-    "fix(deps): replay dependency update on current main and trigger validation",
-    "Bump the \"all-dependencies\" group with 1 update across multiple ecosystems (#86)"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

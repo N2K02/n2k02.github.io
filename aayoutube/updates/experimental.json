@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-58-run-1118",
-  "versionName": "experimental-pr-58-run-1118",
-  "versionCode": 101118,
-  "apkName": "AAYoutube-9.2-experimental.27.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-58-run-1118/AAYoutube-9.2-experimental.27.apk",
-  "apkSize": 27008302,
-  "sha256": "ff5f1fbac49350c19c748fccec5a54930b9169b71916a8fe8565ddc036ef0032",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-58-run-1118",
+  "tag": "experimental-pr-59-run-1119",
+  "versionName": "experimental-pr-59-run-1119",
+  "versionCode": 101119,
+  "apkName": "AAYoutube-9.2-experimental.28.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-59-run-1119/AAYoutube-9.2-experimental.28.apk",
+  "apkSize": 24071275,
+  "sha256": "458bd3e3854ebd967d6587b864dadd3d677cfbbfd334cbdd7e732742fb83cbb2",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-59-run-1119",
   "notes": [
-    "test: match hold/recovery contracts to quality-reload deferral and typed recovery runnables",
-    "Fix recursive type inference in playback recovery callbacks",
-    "Validate frame-drop telemetry before throttling and ignore hidden rendering skips",
-    "Defer residual-audio focus judgement during background quality reloads",
-    "Fail fast on rejected SABR sessions and suppress repeated native attempts",
-    "Verify actual web playback independently of ownership marker",
-    "Protect SABR session data and cancel stale transport requests",
-    "Harden playback ownership and repair regression contracts",
-    "Add opt-in on-device SABR session bootstrap and direct audio fallback",
-    "Integrate pinned SABR transport for authorized audio-only DASH sessions"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

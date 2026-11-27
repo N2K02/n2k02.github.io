@@ -1,23 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-51-run-416",
-  "versionName": "experimental-pr-51-run-416",
-  "versionCode": 100416,
-  "apkName": "MRadio-7.6-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-51-run-416/MRadio-7.6-experimental.1.apk",
+  "tag": "experimental-pr-52-run-419",
+  "versionName": "experimental-pr-52-run-419",
+  "versionCode": 100419,
+  "apkName": "MRadio-7.7-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/experimental-pr-52-run-419/MRadio-7.7-experimental.1.apk",
   "apkSize": 25073435,
-  "sha256": "7aea6a2dbc6b746a35d5ff54105700bbf1f3b4b884037564e49ae0ea5fc92d2f",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-51-run-416",
+  "sha256": "4960e0261fc9877f95b31ca878e34b3040bde9033943c098196536ed992a9c34",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/experimental-pr-52-run-419",
   "notes": [
-    "Fix build regression while preserving current playback contracts",
-    "Test active audio processing across every possible buffer split",
-    "Recover from invalid legacy preference value type",
-    "Test migration of legacy audio settings and idempotence",
-    "Enable real JSON parsing in JVM preference tests",
-    "Use isolated normalization preference migration",
-    "Extract normalization preference migration codec",
-    "Test stream reset, invalid samples and rapid toggles",
-    "Reduce normalization overhead and smooth new-stream recovery",
-    "Reduce normalization overhead and smooth new-stream recovery"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }

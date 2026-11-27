@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.6",
-  "versionName": "v7.6",
-  "versionCode": 100418,
-  "apkName": "MRadio-7.6.apk",
-  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.6/MRadio-7.6.apk",
+  "tag": "v7.7",
+  "versionName": "v7.7",
+  "versionCode": 100421,
+  "apkName": "MRadio-7.7.apk",
+  "apkUrl": "https://github.com/N2K02/MRadio/releases/download/v7.7/MRadio-7.7.apk",
   "apkSize": 2765882,
-  "sha256": "6131839b203d07ab5e9a99d28996e65eeb7f3039a4b60905343e7c29e4b1e5f8",
-  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.6",
+  "sha256": "11f9fb7bd085800a1fa0522c7cf9746ba9c800f2446bfa27542766bfc85ed52d",
+  "pageUrl": "https://github.com/N2K02/MRadio/releases/tag/v7.7",
   "notes": [
-    "Remove built-in equalizer and simplify audio playback (#51)"
+    "ci: daily APK, artifact, run, tag and cache retention (#52)"
   ]
 }

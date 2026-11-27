@@ -1,15 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-72-run-244",
-  "versionName": "experimental-pr-72-run-244",
-  "versionCode": 100244,
-  "apkName": "PBar-7.8-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-72-run-244/PBar-7.8-experimental.1.apk",
+  "tag": "experimental-pr-73-run-247",
+  "versionName": "experimental-pr-73-run-247",
+  "versionCode": 100247,
+  "apkName": "PBar-7.9-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-73-run-247/PBar-7.9-experimental.1.apk",
   "apkSize": 20635364,
-  "sha256": "48b960a7d40936bbb161371d607b5b967b460dd9cfdbda35f65e6297453fd1c1",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-72-run-244",
+  "sha256": "90e1d851052a78250c74002c82adbbd1a89e37300285dcd3b585b3a243643b65",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-73-run-247",
   "notes": [
-    "fix(deps): replay Dependabot upgrades against current main",
-    "fix(deps): replay Dependabot upgrades against current main"
+    "ci: daily APK, artifact, run, tag and cache retention"
   ]
 }
