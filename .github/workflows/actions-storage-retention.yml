@@ -1,15 +1,21 @@
-name: Actions storage retention
+name: Daily storage maintenance
 on:
   push:
     branches: [main]
     paths: ['.github/workflows/actions-storage-retention.yml']
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Report candidates without deleting
+        type: boolean
+        default: false
   schedule:
-    - cron: '51 4 * * *'
+    - cron: '32 2 * * *'
 permissions:
   actions: write
-  contents: read
+  contents: write
   pull-requests: read
+  packages: read
 concurrency:
   group: actions-storage-retention
   cancel-in-progress: false
@@ -18,46 +24,149 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
-      - uses: actions/github-script@v9
+      - name: Preserve current builds; prune obsolete storage
+        uses: actions/github-script@v9
         with:
+          retries: 3
           script: |
             const assert = require('node:assert/strict');
             const {owner,repo}=context.repo;
+            const dry=context.payload.inputs?.dry_run==='true' || context.payload.inputs?.dry_run===true;
             const wait=()=>new Promise(r=>setTimeout(r,200));
-            const open=await github.paginate(github.rest.pulls.list,{owner,repo,state:'open',per_page:100});
-            const heads=new Set(open.map(p=>p.head.sha));
-            const branches=new Set(open.map(p=>p.head.ref));
-            const group=r=>{
-              const b=r.head_branch||'';
-              const track=/shizuku/i.test(b)?'shizuku':/(?:^|[-/])adb(?:[-/]|$)/i.test(b)?'adb':'default';
-              const lane=r.event==='pull_request'||/experimental/i.test(b)?'experimental':/^v\d/i.test(b)?'tag':'stable';
-              return r.workflow_id+':'+(branches.has(b)?b:lane+':'+track);
+            const now=Date.now(), day=86400000;
+            const parse=tag=>{
+              let m=/^experimental-(?:(adb|shizuku)-)?pr-(\d+)-run-(\d+)$/.exec(tag);
+              if(m)return {channel:'experimental',track:m[1]||'legacy',pr:Number(m[2]),number:Number(m[3])};
+              m=/^(?:(adb|shizuku)-)?(?:sdcleaner-)?v(\d+(?:\.\d+)+)$/.exec(tag);
+              return m?{channel:'stable',track:m[1]||'legacy',version:m[2]}:null;
             };
-            assert.equal(group({workflow_id:1,head_branch:'main',event:'push'}),'1:stable:default');
-            assert.equal(group({workflow_id:1,head_branch:'experimental/a',event:'push'}),branches.has('experimental/a')?'1:experimental/a':'1:experimental:default');
+            const key=p=>p.channel+':'+p.track;
+            const classify=r=>{
+              const p=parse(r.tag_name);
+              if(!p||r.draft||r.prerelease!==(p.channel==='experimental'))return null;
+              const prefix=repo.toUpperCase()+'-'+(p.track==='legacy'?'':p.track.toUpperCase()+'-');
+              const assets=(r.assets||[]).filter(a=>a.name.toUpperCase().startsWith(prefix)&&a.name.toLowerCase().endsWith('.apk')&&(p.track!=='legacy'||! /-(ADB|SHIZUKU)-/i.test(a.name))&&a.state==='uploaded'&&a.size>0&&/^sha256:[a-f0-9]{64}$/.test(a.digest||''));
+              const codes=[...(r.body||'').matchAll(/^Version code:[ \t]*(\d+)\s*$/gmi)];
+              if(assets.length!==1||codes.length!==1||Number(codes[0][1])<=0)return null;
+              return {...p,code:Number(codes[0][1]),time:Date.parse(r.published_at||r.created_at)};
+            };
+            const lane=r=>{
+              const b=r.head_branch||'';
+              const track=/shizuku/i.test(b)?'shizuku':/(?:^|[-/])adb(?:[-/]|$)/i.test(b)?'adb':'legacy';
+              const channel=r.event==='pull_request'||r.event==='pull_request_target'||/experimental/i.test(b)?'experimental':/^v\d/i.test(b)?'tag':'stable';
+              return channel+':'+track;
+            };
+            const stale=(c,protectedRefs)=>!protectedRefs.has(c.ref)&&Number.isFinite(Date.parse(c.last_accessed_at))&&now-Date.parse(c.last_accessed_at)>14*day;
+            assert.equal(key(parse('experimental-adb-pr-7-run-337')),'experimental:adb');
+            assert.equal(key(parse('shizuku-v1.0')),'stable:shizuku');
+            assert.equal(parse('downloads-stable'),null);
+            assert.equal(lane({head_branch:'main-adb',event:'push'}),'stable:adb');
+            assert.equal(lane({head_branch:'experimental/shizuku',event:'push'}),'experimental:shizuku');
+            assert.equal(stale({ref:'refs/heads/main',last_accessed_at:'2000-01-01'},new Set(['refs/heads/main'])),false);
+            assert.equal(stale({ref:'refs/heads/obsolete',last_accessed_at:'2000-01-01'},new Set()),true);
+            const open=await github.paginate(github.rest.pulls.list,{owner,repo,state:'open',per_page:100});
+            const activePRs=new Set(open.map(p=>p.number));
+            const heads=new Set(open.map(p=>p.head.sha));
+            const activeBranches=new Set(open.map(p=>p.head.ref));
+            const protectedRefs=new Set(['refs/heads/main','refs/heads/master','refs/heads/main-adb','refs/heads/main-shizuku']);
+            for(const p of open){protectedRefs.add('refs/heads/'+p.head.ref);protectedRefs.add('refs/pull/'+p.number+'/merge');}
+            const releases=await github.paginate(github.rest.repos.listReleases,{owner,repo,per_page:100});
+            const buckets=new Map(), keep=new Set(), byTag=new Map(releases.map(r=>[r.tag_name,r]));
+            for(const r of releases){
+              const p=classify(r);
+              if(!p){keep.add(r.id);continue;}
+              if(!buckets.has(key(p)))buckets.set(key(p),[]);
+              buckets.get(key(p)).push({r,p});
+            }
+            for(const b of buckets.values()){
+              b.sort((a,b)=>b.p.code-a.p.code||b.p.time-a.p.time);
+              keep.add(b[0].r.id);
+              // Retain the newest run/version marker even if version codes changed.
+              const newest=[...b].sort((a,b)=>(b.p.number||0)-(a.p.number||0)||b.p.time-a.p.time)[0];
+              keep.add(newest.r.id);
+              const seen=new Set();
+              for(const {r,p} of b)if(activePRs.has(p.pr)&&!seen.has(p.pr)){keep.add(r.id);seen.add(p.pr);}
+            }
+            try{keep.add((await github.rest.repos.getLatestRelease({owner,repo})).data.id);}
+            catch(e){if(e.status!==404)throw e;}
+            // Preserve canonical download links transitively, including grouped releases.
+            let changed=true;
+            while(changed){
+              changed=false;
+              for(const r of releases.filter(r=>keep.has(r.id))){
+                for(const m of (r.body||'').matchAll(/\/releases\/(?:download|tag)\/([^/\s)]+)/g)){
+                  const x=byTag.get(m[1]);if(x&&!keep.has(x.id)){keep.add(x.id);changed=true;}
+                }
+              }
+            }
+            // Keep active and latest successful runs in each workflow and release track.
             const runs=await github.paginate(github.rest.actions.listWorkflowRunsForRepo,{owner,repo,per_page:100});
             runs.sort((a,b)=>Date.parse(b.created_at)-Date.parse(a.created_at));
-            const keep=new Set([context.runId]),latest=new Set(),green=new Set();
+            const keepRuns=new Set([context.runId]),latest=new Set(),green=new Set();
+            const retainedNumbers=new Set(releases.filter(r=>keep.has(r.id)).map(r=>parse(r.tag_name)?.number).filter(Boolean));
             for(const r of runs){
-              if(r.status!=='completed'||heads.has(r.head_sha)){keep.add(r.id);continue;}
-              const k=group(r);
-              if(!latest.has(k)){latest.add(k);keep.add(r.id);}
-              if(r.conclusion==='success'&&!green.has(k)){green.add(k);keep.add(r.id);}
+              if(r.status!=='completed'||heads.has(r.head_sha)){keepRuns.add(r.id);if(r.head_branch)protectedRefs.add('refs/heads/'+r.head_branch);continue;}
+              const k=r.workflow_id+':'+(activeBranches.has(r.head_branch)?r.head_branch:lane(r));
+              if(!latest.has(k)){latest.add(k);keepRuns.add(r.id);}
+              if(r.conclusion==='success'&&!green.has(k)){green.add(k);keepRuns.add(r.id);}
+              if(retainedNumbers.has(r.run_number)&&/build|apk|ci|release/i.test(r.name+' '+r.path))keepRuns.add(r.id);
             }
-            const obsolete=new Set(runs.filter(r=>r.status==='completed'&&!keep.has(r.id)).map(r=>r.id));
+            if(repo==='Manual-Sales'){
+              const builds=runs.filter(r=>r.name==='Windows portable build'&&r.status==='completed'&&r.conclusion==='success');
+              const stable=builds.find(r=>/^v\d+\.\d+/.test(r.head_branch||''))||builds.find(r=>r.head_branch==='main');
+              const experimental=builds.find(r=>/^experimental(?:\/|$)/i.test(r.head_branch||''));
+              if(stable&&experimental){
+                for(const r of runs)if(r.name==='Windows portable build'&&r.status==='completed'&&!heads.has(r.head_sha)&&r.id!==stable.id&&r.id!==experimental.id)keepRuns.delete(r.id);
+                keepRuns.add(stable.id);keepRuns.add(experimental.id);
+              }
+            }
+            const obsolete=new Set(runs.filter(r=>r.status==='completed'&&!keepRuns.has(r.id)).map(r=>r.id));
             const artifacts=await github.paginate(github.rest.actions.listArtifactsForRepo,{owner,repo,per_page:100});
-            let count=0,bytes=0,deleted=0;
+            let removedArtifacts=0,bytes=0,removedRuns=0,removedReleases=0,removedTags=0,removedCaches=0,cacheBytes=0;
+            const remove=async(fn,id)=>{
+              if(dry)return true;
+              try{await fn();return true;}
+              catch(e){if(![404,409,422,500,502,503,504].includes(e.status))throw e;core.warning(id+' skipped: '+e.status);return false;}
+              finally{await wait();}
+            };
             for(const a of artifacts){
-              if(!obsolete.has(a.workflow_run?.id)||count>=1000)continue;
-              try{await github.rest.actions.deleteArtifact({owner,repo,artifact_id:a.id});count++;bytes+=a.size_in_bytes||0;}
-              catch(e){if(![404,500,502,503].includes(e.status))throw e;core.warning('Artifact '+a.id+' skipped: '+e.status);}
-              await wait();
+              if(!obsolete.has(a.workflow_run?.id)||removedArtifacts>=1000)continue;
+              if(await remove(()=>github.rest.actions.deleteArtifact({owner,repo,artifact_id:a.id}),'artifact '+a.id)){removedArtifacts++;bytes+=a.size_in_bytes||0;}
             }
+            const activeBuild=runs.some(r=>r.id!==context.runId&&r.status!=='completed'&&/build|apk|ci|release/i.test(r.name+' '+r.path));
+            // Never delete a sole channel or unrecognized release. Stable tags remain
+            // permanent version high-water marks. Non-APK releases are untouched.
+            const tracked=['adb','shizuku'].some(t=>buckets.has('stable:'+t)||buckets.has('experimental:'+t));
+            const ready=tracked?['stable:adb','stable:shizuku','experimental:adb','experimental:shizuku'].every(k=>buckets.has(k)):buckets.has('stable:legacy')&&buckets.has('experimental:legacy');
+            if(ready&&!activeBuild){
+              for(const r of releases){
+                const p=classify(r);
+                if(keep.has(r.id)||!p||!buckets.has((p.channel==='stable'?'experimental':'stable')+':'+p.track)||removedReleases>=150)continue;
+                if(await remove(()=>github.rest.repos.deleteRelease({owner,repo,release_id:r.id}),'release '+r.tag_name))removedReleases++;
+              }
+              const live=dry?releases:await github.paginate(github.rest.repos.listReleases,{owner,repo,per_page:100});
+              const liveTags=new Set(live.map(r=>r.tag_name));
+              const maxima=new Map();
+              for(const r of live){const p=parse(r.tag_name);if(p?.channel==='experimental'&&!r.draft)maxima.set(p.track,Math.max(maxima.get(p.track)||0,p.number));}
+              const tags=await github.paginate(github.rest.repos.listTags,{owner,repo,per_page:100});
+              for(const t of tags){
+                const p=parse(t.name);
+                if(p?.channel!=='experimental'||liveTags.has(t.name)||activePRs.has(p.pr)||p.number>=(maxima.get(p.track)||0)||removedTags>=300)continue;
+                if(await remove(()=>github.rest.git.deleteRef({owner,repo,ref:'tags/'+t.name}),'tag '+t.name))removedTags++;
+              }
+            }else core.info('APK releases/tags unchanged: missing verified channel or active build.');
             for(const id of obsolete){
-              if(deleted>=500)break;
-              try{await github.rest.actions.deleteWorkflowRun({owner,repo,run_id:id});deleted++;}
-              catch(e){if(![404,500,502,503].includes(e.status))throw e;core.warning('Run '+id+' skipped: '+e.status);}
-              await wait();
+              if(removedRuns>=500)break;
+              if(await remove(()=>github.rest.actions.deleteWorkflowRun({owner,repo,run_id:id}),'run '+id))removedRuns++;
             }
-            core.info('Kept runs: '+keep.size+'; deleted runs: '+deleted+'; deleted artifacts: '+count+'; artifact bytes: '+bytes);
-            // Release assets, tags, published packages, deployments and caches are unchanged.
+            // Only evict old, inactive-reference caches; never flush current caches.
+            try{
+              const caches=await github.paginate(github.rest.actions.getActionsCacheList,{owner,repo,per_page:100});
+              for(const c of caches){
+                if(!stale(c,protectedRefs)||removedCaches>=200)continue;
+                if(await remove(()=>github.rest.actions.deleteActionsCacheById({owner,repo,cache_id:c.id}),'cache '+c.id)){removedCaches++;cacheBytes+=c.size_in_bytes||0;}
+              }
+            }catch(e){core.warning('Cache inventory unavailable: '+e.message);}
+            core.info('Published packages are retained: cross-repository consumers may pin any version.');
+            core.info('Retained APK releases: '+releases.filter(r=>keep.has(r.id)).map(r=>r.tag_name).join(', '));
+            core.info((dry?'DRY RUN candidates: ':'Deleted: ')+'artifacts='+removedArtifacts+' ('+bytes+' bytes), runs='+removedRuns+', APK releases='+removedReleases+', experimental tags='+removedTags+', caches='+removedCaches+' ('+cacheBytes+' bytes)');
