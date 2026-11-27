@@ -1,14 +1,23 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-60-run-1122",
-  "versionName": "experimental-pr-60-run-1122",
-  "versionCode": 101122,
-  "apkName": "AAYoutube-9.4-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-60-run-1122/AAYoutube-9.4-experimental.1.apk",
-  "apkSize": 24071275,
-  "sha256": "a5bb3f4deaed2d9731fb53372a6eab2c230be20a9df1a6437ff6d61e1f3ff61a",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-60-run-1122",
+  "tag": "experimental-pr-58-run-1125",
+  "versionName": "experimental-pr-58-run-1125",
+  "versionCode": 101125,
+  "apkName": "AAYoutube-9.5-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-58-run-1125/AAYoutube-9.5-experimental.1.apk",
+  "apkSize": 27008302,
+  "sha256": "f245d8af6fba60d48b520c7993881592bc6a8b7f298ae20519fbd56e11c99c29",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-58-run-1125",
   "notes": [
-    "ci: expire temporary shared-library verification APKs after seven days"
+    "Fix Android Auto cold-start updater crash and guard optional updater UI",
+    "test: match hold/recovery contracts to quality-reload deferral and typed recovery runnables",
+    "Fix recursive type inference in playback recovery callbacks",
+    "Validate frame-drop telemetry before throttling and ignore hidden rendering skips",
+    "Defer residual-audio focus judgement during background quality reloads",
+    "Fail fast on rejected SABR sessions and suppress repeated native attempts",
+    "Verify actual web playback independently of ownership marker",
+    "Protect SABR session data and cancel stale transport requests",
+    "Harden playback ownership and repair regression contracts",
+    "Add opt-in on-device SABR session bootstrap and direct audio fallback"
   ]
 }
