@@ -8,7 +8,7 @@ errors = []
 workflows = ROOT / ".github" / "workflows"
 if workflows.exists():
     for workflow in workflows.iterdir():
-        if workflow.name not in {"legacy-update-bridge.yml", "prune-deployments.yml"}:
+        if workflow.name not in {"legacy-update-bridge.yml", "prune-deployments.yml", "actions-storage-retention.yml"}:
             errors.append(f"Unapproved website workflow: {workflow.name}")
 if any(ROOT.rglob("*.apk")):
     errors.append("APK files must not be committed to the website")
