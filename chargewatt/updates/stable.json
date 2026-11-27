@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v2.7",
-  "versionName": "v2.7",
-  "versionCode": 100136,
-  "apkName": "ChargeWatt-2.7.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.7/ChargeWatt-2.7.apk",
+  "tag": "v2.8",
+  "versionName": "v2.8",
+  "versionCode": 100138,
+  "apkName": "ChargeWatt-2.8.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/v2.8/ChargeWatt-2.8.apk",
   "apkSize": 1365485,
-  "sha256": "8a1572e9000059431311b603e4bff563c19ebc905f51d46c4e4222006a05e12b",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.7",
+  "sha256": "f8b8df2927c7af82e9b2b652367c422c423475ab360bb8ed9ae1dc8f0c7db5f4",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/v2.8",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention (#21)"
+    "ci: expire transient verification artifacts after seven days (#22)"
   ]
 }

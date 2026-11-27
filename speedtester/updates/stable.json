@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v10.2",
-  "versionName": "v10.2",
-  "versionCode": 100416,
-  "apkName": "SpeedTester-10.2.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v10.2/SpeedTester-10.2.apk",
+  "tag": "v10.3",
+  "versionName": "v10.3",
+  "versionCode": 100419,
+  "apkName": "SpeedTester-10.3.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/v10.3/SpeedTester-10.3.apk",
   "apkSize": 2949110,
-  "sha256": "bea6c2ee9cc19e11d4a71ac6519207dae05c2618ceb83b94646792a4d8b1e4d5",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v10.2",
+  "sha256": "046f9b2c2e30d085309b5b13250080b554e469841c4ac8a67f5e62e142f1b74f",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/v10.3",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention (#56)"
+    "CI: limit temporary artifact retention (#57)"
   ]
 }

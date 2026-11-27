@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.0",
-  "versionName": "v7.0",
-  "versionCode": 100231,
-  "apkName": "HFreebuds-7.0.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v7.0/HFreebuds-7.0.apk",
+  "tag": "v7.1",
+  "versionName": "v7.1",
+  "versionCode": 100234,
+  "apkName": "HFreebuds-7.1.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/v7.1/HFreebuds-7.1.apk",
   "apkSize": 1421045,
-  "sha256": "2c384fabe70ad0b4205d241bb0e73fc3eb8078824fd1777dd61f693f45e4375e",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v7.0",
+  "sha256": "c5f91e7e3d8a31bc83c79038a37897a21670186b7b65ad2c39914693e9c4d949",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/v7.1",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention (#43)"
+    "ci: expire temporary shared-library verification APKs after seven days (#44)"
   ]
 }

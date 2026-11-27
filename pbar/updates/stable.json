@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.9",
-  "versionName": "v7.9",
-  "versionCode": 100249,
-  "apkName": "PBar-7.9.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v7.9/PBar-7.9.apk",
+  "tag": "v8.0",
+  "versionName": "v8.0",
+  "versionCode": 100252,
+  "apkName": "PBar-8.0.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/v8.0/PBar-8.0.apk",
   "apkSize": 1543972,
-  "sha256": "5ba8a712b04ea9f0be7178a6be8bb325f862423f130767c4220a85b426d54f47",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v7.9",
+  "sha256": "a3333ed9b03f3fa13c49658d3c03daf121af100a584b05a1bf0fc5cf40f41d11",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/v8.0",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention (#73)"
+    "ci: expire temporary shared-library verification APKs after seven days (#74)"
   ]
 }

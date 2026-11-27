@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v9.3",
-  "versionName": "v9.3",
-  "versionCode": 101121,
-  "apkName": "AAYoutube-9.3.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.3/AAYoutube-9.3.apk",
+  "tag": "v9.4",
+  "versionName": "v9.4",
+  "versionCode": 101124,
+  "apkName": "AAYoutube-9.4.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/v9.4/AAYoutube-9.4.apk",
   "apkSize": 16636857,
-  "sha256": "5a6ef49edf347235eee5109e59305093be2829aae118979b21b7a89e557ebfd4",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.3",
+  "sha256": "6c42508880eba54c982874aa5385dbb8fa1b803e087e33c60008e7c07e8bfaa5",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/v9.4",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention (#59)"
+    "ci: expire temporary shared-library verification APKs after seven days (#60)"
   ]
 }

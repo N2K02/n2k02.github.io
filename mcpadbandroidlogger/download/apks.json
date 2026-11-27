@@ -6,9 +6,9 @@
       "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/adb-v4.3/McpAdbAndroidLogger-ADB-4.3.apk"
     },
     "shizuku": {
-      "tag": "shizuku-v4.3",
-      "apkName": "McpAdbAndroidLogger-SHIZUKU-4.3.apk",
-      "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/shizuku-v4.3/McpAdbAndroidLogger-SHIZUKU-4.3.apk"
+      "tag": "shizuku-v4.4",
+      "apkName": "McpAdbAndroidLogger-SHIZUKU-4.4.apk",
+      "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/shizuku-v4.4/McpAdbAndroidLogger-SHIZUKU-4.4.apk"
     }
   },
   "experimental": {

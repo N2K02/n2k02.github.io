@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.8",
-  "versionName": "v7.8",
-  "versionCode": 100631,
-  "apkName": "PCL-7.8.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.8/PCL-7.8.apk",
+  "tag": "v7.9",
+  "versionName": "v7.9",
+  "versionCode": 100634,
+  "apkName": "PCL-7.9.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.9/PCL-7.9.apk",
   "apkSize": 1571345,
-  "sha256": "d3ecf4567b95ebe10be2a63a73f0c93d2d296c96c6a40e4680893e8a69baa423",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.8",
+  "sha256": "723e8ef1dee0af6fa31bc979be108bb8c1232ae1ea7b278e6c544b92eb3c47d8",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.9",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention (#87)"
+    "ci: expire temporary shared-library verification APKs after seven days (#88)"
   ]
 }
