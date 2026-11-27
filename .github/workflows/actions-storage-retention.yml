@@ -1,0 +1,63 @@
+name: Actions storage retention
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/actions-storage-retention.yml']
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4 * * *'
+permissions:
+  actions: write
+  contents: read
+  pull-requests: read
+concurrency:
+  group: actions-storage-retention
+  cancel-in-progress: false
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/github-script@v9
+        with:
+          script: |
+            const assert = require('node:assert/strict');
+            const {owner,repo}=context.repo;
+            const wait=()=>new Promise(r=>setTimeout(r,200));
+            const open=await github.paginate(github.rest.pulls.list,{owner,repo,state:'open',per_page:100});
+            const heads=new Set(open.map(p=>p.head.sha));
+            const branches=new Set(open.map(p=>p.head.ref));
+            const group=r=>{
+              const b=r.head_branch||'';
+              const track=/shizuku/i.test(b)?'shizuku':/(?:^|[-/])adb(?:[-/]|$)/i.test(b)?'adb':'default';
+              const lane=r.event==='pull_request'||/experimental/i.test(b)?'experimental':/^v\d/i.test(b)?'tag':'stable';
+              return r.workflow_id+':'+(branches.has(b)?b:lane+':'+track);
+            };
+            assert.equal(group({workflow_id:1,head_branch:'main',event:'push'}),'1:stable:default');
+            assert.equal(group({workflow_id:1,head_branch:'experimental/a',event:'push'}),branches.has('experimental/a')?'1:experimental/a':'1:experimental:default');
+            const runs=await github.paginate(github.rest.actions.listWorkflowRunsForRepo,{owner,repo,per_page:100});
+            runs.sort((a,b)=>Date.parse(b.created_at)-Date.parse(a.created_at));
+            const keep=new Set([context.runId]),latest=new Set(),green=new Set();
+            for(const r of runs){
+              if(r.status!=='completed'||heads.has(r.head_sha)){keep.add(r.id);continue;}
+              const k=group(r);
+              if(!latest.has(k)){latest.add(k);keep.add(r.id);}
+              if(r.conclusion==='success'&&!green.has(k)){green.add(k);keep.add(r.id);}
+            }
+            const obsolete=new Set(runs.filter(r=>r.status==='completed'&&!keep.has(r.id)).map(r=>r.id));
+            const artifacts=await github.paginate(github.rest.actions.listArtifactsForRepo,{owner,repo,per_page:100});
+            let count=0,bytes=0,deleted=0;
+            for(const a of artifacts){
+              if(!obsolete.has(a.workflow_run?.id)||count>=1000)continue;
+              try{await github.rest.actions.deleteArtifact({owner,repo,artifact_id:a.id});count++;bytes+=a.size_in_bytes||0;}
+              catch(e){if(![404,500,502,503].includes(e.status))throw e;core.warning('Artifact '+a.id+' skipped: '+e.status);}
+              await wait();
+            }
+            for(const id of obsolete){
+              if(deleted>=500)break;
+              try{await github.rest.actions.deleteWorkflowRun({owner,repo,run_id:id});deleted++;}
+              catch(e){if(![404,500,502,503].includes(e.status))throw e;core.warning('Run '+id+' skipped: '+e.status);}
+              await wait();
+            }
+            core.info('Kept runs: '+keep.size+'; deleted runs: '+deleted+'; deleted artifacts: '+count+'; artifact bytes: '+bytes);
+            // Release assets, tags, published packages, deployments and caches are unchanged.
