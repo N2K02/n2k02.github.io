@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-56-run-414",
-  "versionName": "experimental-pr-56-run-414",
-  "versionCode": 100414,
-  "apkName": "SpeedTester-10.2-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-56-run-414/SpeedTester-10.2-experimental.1.apk",
+  "tag": "experimental-pr-57-run-417",
+  "versionName": "experimental-pr-57-run-417",
+  "versionCode": 100417,
+  "apkName": "SpeedTester-10.3-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-57-run-417/SpeedTester-10.3-experimental.1.apk",
   "apkSize": 2949110,
-  "sha256": "db59333845ef61fea6516f78f821c079957b8fc20761b41a95e7393619647051",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-56-run-414",
+  "sha256": "0623afd652679f079eadeb3a9f5fb8decc25de7ff82227856d59dc4066dfa813",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-57-run-417",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire transient verification artifacts after seven days",
+    "ci: expire transient verification artifacts after seven days"
   ]
 }

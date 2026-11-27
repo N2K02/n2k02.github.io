@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-59-run-1119",
-  "versionName": "experimental-pr-59-run-1119",
-  "versionCode": 101119,
-  "apkName": "AAYoutube-9.2-experimental.28.apk",
-  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-59-run-1119/AAYoutube-9.2-experimental.28.apk",
+  "tag": "experimental-pr-60-run-1122",
+  "versionName": "experimental-pr-60-run-1122",
+  "versionCode": 101122,
+  "apkName": "AAYoutube-9.4-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/AAYoutube/releases/download/experimental-pr-60-run-1122/AAYoutube-9.4-experimental.1.apk",
   "apkSize": 24071275,
-  "sha256": "458bd3e3854ebd967d6587b864dadd3d677cfbbfd334cbdd7e732742fb83cbb2",
-  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-59-run-1119",
+  "sha256": "a5bb3f4deaed2d9731fb53372a6eab2c230be20a9df1a6437ff6d61e1f3ff61a",
+  "pageUrl": "https://github.com/N2K02/AAYoutube/releases/tag/experimental-pr-60-run-1122",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days"
   ]
 }

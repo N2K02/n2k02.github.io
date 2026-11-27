@@ -1,18 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v3.6",
-  "versionName": "v3.6",
-  "versionCode": 100387,
-  "apkName": "LocalAdb-3.6.apk",
-  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.6/LocalAdb-3.6.apk",
+  "tag": "v3.7",
+  "versionName": "v3.7",
+  "versionCode": 100390,
+  "apkName": "LocalAdb-3.7.apk",
+  "apkUrl": "https://github.com/N2K02/LocalAdb/releases/download/v3.7/LocalAdb-3.7.apk",
   "apkSize": 17606398,
-  "sha256": "55da820269ea4045594d6bf8b0ded8a81b1c578aa5cf66c06c23a68966bf09bf",
-  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.6",
+  "sha256": "f608521fbb377ac465593e0b032a1f9f649a206a2dc03206606eeb77c1a50328",
+  "pageUrl": "https://github.com/N2K02/LocalAdb/releases/tag/v3.7",
   "notes": [
-    "test(deps): update shared package assertions",
-    "chore(deps): align shared updater and Compose/SDK runtime compatibility",
-    "test(deps): update approved theme regression assertion",
-    "fix(deps): replay dependency update on current main and trigger validation",
-    "fix(deps): replay dependency update on current main and trigger validation"
+    "ci: daily APK, artifact, run, tag and cache retention (#34)"
   ]
 }

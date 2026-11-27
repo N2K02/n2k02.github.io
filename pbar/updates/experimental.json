@@ -1,14 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-73-run-247",
-  "versionName": "experimental-pr-73-run-247",
-  "versionCode": 100247,
-  "apkName": "PBar-7.9-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-73-run-247/PBar-7.9-experimental.1.apk",
+  "tag": "experimental-pr-74-run-250",
+  "versionName": "experimental-pr-74-run-250",
+  "versionCode": 100250,
+  "apkName": "PBar-7.9-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/PBar/releases/download/experimental-pr-74-run-250/PBar-7.9-experimental.2.apk",
   "apkSize": 20635364,
-  "sha256": "90e1d851052a78250c74002c82adbbd1a89e37300285dcd3b585b3a243643b65",
-  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-73-run-247",
+  "sha256": "adc74802f5b0138e337aa8962ba3f46256cc969e487c92c1c4950946d879de6f",
+  "pageUrl": "https://github.com/N2K02/PBar/releases/tag/experimental-pr-74-run-250",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days",
+    "ci: daily APK, artifact, run, tag and cache retention (#73)"
   ]
 }

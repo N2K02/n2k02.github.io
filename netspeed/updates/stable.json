@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v6.7",
-  "versionName": "v6.7",
-  "versionCode": 100229,
-  "apkName": "NetSpeed-6.7.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v6.7/NetSpeed-6.7.apk",
+  "tag": "v6.8",
+  "versionName": "v6.8",
+  "versionCode": 100232,
+  "apkName": "NetSpeed-6.8.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/v6.8/NetSpeed-6.8.apk",
   "apkSize": 1265343,
-  "sha256": "d98afbc44fafd8256b2cd0dd16c1c0dc75ebaf15130368db162ed62b834977d2",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v6.7",
+  "sha256": "7baefb995d35d2da09564c58ef96409fb77ad2a7ce2ab5f292497a27882732b2",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/v6.8",
   "notes": [
-    "chore(deps): upgrade shared theme/updater and Android Compose compatibility (#49)"
+    "ci: daily APK, artifact, run, tag and cache retention (#50)"
   ]
 }

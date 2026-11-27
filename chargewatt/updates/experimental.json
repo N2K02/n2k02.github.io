@@ -1,16 +1,15 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-20-run-131",
-  "versionName": "experimental-pr-20-run-131",
-  "versionCode": 100131,
-  "apkName": "ChargeWatt-2.6-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-20-run-131/ChargeWatt-2.6-experimental.1.apk",
+  "tag": "experimental-pr-22-run-137",
+  "versionName": "experimental-pr-22-run-137",
+  "versionCode": 100137,
+  "apkName": "ChargeWatt-2.8-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/ChargeWatt/releases/download/experimental-pr-22-run-137/ChargeWatt-2.8-experimental.1.apk",
   "apkSize": 1365485,
-  "sha256": "f2df39eec40a2926f52ef2f7103e4467bffb64b536a5d927f2cf16c3b5d81826",
-  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-20-run-131",
+  "sha256": "0824be425f693c1a400d70da9c141e74ddf477a8207331e58a3a1da72ce6af1d",
+  "pageUrl": "https://github.com/N2K02/ChargeWatt/releases/tag/experimental-pr-22-run-137",
   "notes": [
-    "Merge ef06f64ed2030783a30b2b11f3b5c44e33ef21b0 into 6f06f4f624fac2b95391cf8eafb95921c239dca5",
-    "fix(test): align shared package compatibility guard with approved versions",
-    "chore(deps): upgrade shared theme/updater and Android Compose compatibility"
+    "Merge 3a0b148fd46ac88ff60cc10dee31e02fcadad20c into bc039900c12fef467e6b3ad2e25c9454876cd5a6",
+    "ci: expire transient verification artifacts after seven days"
   ]
 }

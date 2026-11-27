@@ -1,14 +1,14 @@
 {
   "channel": "stable",
-  "tag": "v7.7",
-  "versionName": "v7.7",
-  "versionCode": 100628,
-  "apkName": "PCL-7.7.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.7/PCL-7.7.apk",
+  "tag": "v7.8",
+  "versionName": "v7.8",
+  "versionCode": 100631,
+  "apkName": "PCL-7.8.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/v7.8/PCL-7.8.apk",
   "apkSize": 1571345,
-  "sha256": "145dfb9cb538ce674f2c56ffb0a200edc834b364cf2ad7b441811ab38848ecce",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.7",
+  "sha256": "d3ecf4567b95ebe10be2a63a73f0c93d2d296c96c6a40e4680893e8a69baa423",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/v7.8",
   "notes": [
-    "fix(deps): replay dependency update on current main and trigger validation"
+    "ci: daily APK, artifact, run, tag and cache retention (#87)"
   ]
 }

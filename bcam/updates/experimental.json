@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-46-run-240",
-  "versionName": "experimental-pr-46-run-240",
-  "versionCode": 100240,
-  "apkName": "BCam-6.4-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-46-run-240/BCam-6.4-experimental.1.apk",
+  "tag": "experimental-pr-47-run-243",
+  "versionName": "experimental-pr-47-run-243",
+  "versionCode": 100243,
+  "apkName": "BCam-6.5-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-47-run-243/BCam-6.5-experimental.1.apk",
   "apkSize": 20328271,
-  "sha256": "f3383425d8b7fd4ccd3cf972db28b6b8643ae511770d8579e2b8f22b37b57e2b",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-46-run-240",
+  "sha256": "e426e51a5353adc7daed0a7066b59bdee2d771ba0ae3225f54235262ecf5fd08",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-47-run-243",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days"
   ]
 }

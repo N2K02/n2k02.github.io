@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-229",
-  "versionName": "experimental-pr-43-run-229",
-  "versionCode": 100229,
-  "apkName": "HFreebuds-7.0-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-43-run-229/HFreebuds-7.0-experimental.1.apk",
+  "tag": "experimental-pr-44-run-232",
+  "versionName": "experimental-pr-44-run-232",
+  "versionCode": 100232,
+  "apkName": "HFreebuds-7.1-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/HFreebuds/releases/download/experimental-pr-44-run-232/HFreebuds-7.1-experimental.1.apk",
   "apkSize": 20536734,
-  "sha256": "9a99f667d8909836e30f4553d76ba6bcb858b70af84f8955894300acf2ff1c9d",
-  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-43-run-229",
+  "sha256": "7dd2ef7181b21d668badf84bf9385bc865a38f44ade8fedd5397c9ef9a8ca71c",
+  "pageUrl": "https://github.com/N2K02/HFreebuds/releases/tag/experimental-pr-44-run-232",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days"
   ]
 }

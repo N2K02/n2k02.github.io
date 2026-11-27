@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-87-run-629",
-  "versionName": "experimental-pr-87-run-629",
-  "versionCode": 100629,
-  "apkName": "PCL-7.8-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-87-run-629/PCL-7.8-experimental.1.apk",
+  "tag": "experimental-pr-88-run-632",
+  "versionName": "experimental-pr-88-run-632",
+  "versionCode": 100632,
+  "apkName": "PCL-7.9-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PCL/releases/download/experimental-pr-88-run-632/PCL-7.9-experimental.1.apk",
   "apkSize": 20409073,
-  "sha256": "dfab4eb33eeed22f09229e8bd940511f283d6f56f3888d4d2b668cc901254b00",
-  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-87-run-629",
+  "sha256": "25acb91782414f97be762bea744690eba17316b15e7100e4aadaae8edebb7afb",
+  "pageUrl": "https://github.com/N2K02/PCL/releases/tag/experimental-pr-88-run-632",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days"
   ]
 }

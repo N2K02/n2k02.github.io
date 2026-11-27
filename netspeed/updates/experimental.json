@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-50-run-230",
-  "versionName": "experimental-pr-50-run-230",
-  "versionCode": 100230,
-  "apkName": "NetSpeed-6.8-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-50-run-230/NetSpeed-6.8-experimental.1.apk",
+  "tag": "experimental-pr-51-run-233",
+  "versionName": "experimental-pr-51-run-233",
+  "versionCode": 100233,
+  "apkName": "NetSpeed-6.9-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/NetSpeed/releases/download/experimental-pr-51-run-233/NetSpeed-6.9-experimental.1.apk",
   "apkSize": 20307439,
-  "sha256": "f70c3c6a25d56b3e980af24bbbc198d53bb0ebc8bb1896d333ae6cd58a53af65",
-  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-50-run-230",
+  "sha256": "5295f75fb9ed95d8105ec2b26e3507cd8e22d8ee2eeb77b25b66e245f13639e5",
+  "pageUrl": "https://github.com/N2K02/NetSpeed/releases/tag/experimental-pr-51-run-233",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days"
   ]
 }

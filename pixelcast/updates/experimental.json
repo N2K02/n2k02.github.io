@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-43-run-191",
-  "versionName": "experimental-pr-43-run-191",
-  "versionCode": 100191,
-  "apkName": "PixelCast-6.1-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-43-run-191/PixelCast-6.1-experimental.1.apk",
+  "tag": "experimental-pr-44-run-194",
+  "versionName": "experimental-pr-44-run-194",
+  "versionCode": 100194,
+  "apkName": "PixelCast-6.2-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/PixelCast/releases/download/experimental-pr-44-run-194/PixelCast-6.2-experimental.1.apk",
   "apkSize": 20344787,
-  "sha256": "71a078c1e306e82d282093217452ed34f28269c94a7a6904bb86bb05bc9d7f1c",
-  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-43-run-191",
+  "sha256": "4fc8ca725e3e7cba7b69eae9795db77e0361cbccdb5d4719d1e171fa34c3b997",
+  "pageUrl": "https://github.com/N2K02/PixelCast/releases/tag/experimental-pr-44-run-194",
   "notes": [
-    "ci: daily APK, artifact, run, tag and cache retention"
+    "ci: expire temporary shared-library verification APKs after seven days"
   ]
 }
