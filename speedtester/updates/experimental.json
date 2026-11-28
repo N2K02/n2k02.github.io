@@ -1,14 +1,16 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-58-run-421",
-  "versionName": "experimental-pr-58-run-421",
-  "versionCode": 100421,
-  "apkName": "SpeedTester-10.4-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-58-run-421/SpeedTester-10.4-experimental.1.apk",
+  "tag": "experimental-pr-58-run-423",
+  "versionName": "experimental-pr-58-run-423",
+  "versionCode": 100423,
+  "apkName": "SpeedTester-10.4-experimental.2.apk",
+  "apkUrl": "https://github.com/N2K02/SpeedTester/releases/download/experimental-pr-58-run-423/SpeedTester-10.4-experimental.2.apk",
   "apkSize": 2949110,
-  "sha256": "a70e3805a62321995105a36d3da77b7dcb6c615f0487525bdc97b61a54a2cee4",
-  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-58-run-421",
+  "sha256": "3eab490d95f5176777aa999c3731fc9d75486eac4e3e04112be004c677d6bb72",
+  "pageUrl": "https://github.com/N2K02/SpeedTester/releases/tag/experimental-pr-58-run-423",
   "notes": [
+    "Reset the SpeedTester needle to zero after each test",
+    "Keep the SpeedTester dial on the last completed upload",
     "Back off SpeedTester upload size after HTTP 413",
     "Improve measured throughput accuracy, adaptive streams and upload sizing"
   ]
