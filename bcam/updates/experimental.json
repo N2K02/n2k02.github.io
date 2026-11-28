@@ -1,14 +1,14 @@
 {
   "channel": "experimental",
-  "tag": "experimental-pr-47-run-243",
-  "versionName": "experimental-pr-47-run-243",
-  "versionCode": 100243,
-  "apkName": "BCam-6.5-experimental.1.apk",
-  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-47-run-243/BCam-6.5-experimental.1.apk",
+  "tag": "experimental-pr-48-run-246",
+  "versionName": "experimental-pr-48-run-246",
+  "versionCode": 100246,
+  "apkName": "BCam-6.6-experimental.1.apk",
+  "apkUrl": "https://github.com/N2K02/BCam/releases/download/experimental-pr-48-run-246/BCam-6.6-experimental.1.apk",
   "apkSize": 20328271,
-  "sha256": "e426e51a5353adc7daed0a7066b59bdee2d771ba0ae3225f54235262ecf5fd08",
-  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-47-run-243",
+  "sha256": "a1d0628ba300a57e08cfa942a30983cc5bf6f7ed545729cd9cde7a08904ff083",
+  "pageUrl": "https://github.com/N2K02/BCam/releases/tag/experimental-pr-48-run-246",
   "notes": [
-    "ci: expire temporary shared-library verification APKs after seven days"
+    "Fix BCam session auto-stop and save recordings at the limit"
   ]
 }
