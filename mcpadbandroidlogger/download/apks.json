@@ -18,9 +18,9 @@
       "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-adb-pr-56-run-710/McpAdbAndroidLogger-ADB-4.3-experimental.6.apk"
     },
     "shizuku": {
-      "tag": "experimental-shizuku-pr-60-run-721",
-      "apkName": "McpAdbAndroidLogger-SHIZUKU-4.4-experimental.1.apk",
-      "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-shizuku-pr-60-run-721/McpAdbAndroidLogger-SHIZUKU-4.4-experimental.1.apk"
+      "tag": "experimental-shizuku-pr-64-run-744",
+      "apkName": "McpAdbAndroidLogger-SHIZUKU-4.5-experimental.1.apk",
+      "apkUrl": "https://github.com/N2K02/McpAdbAndroidLogger/releases/download/experimental-shizuku-pr-64-run-744/McpAdbAndroidLogger-SHIZUKU-4.5-experimental.1.apk"
     }
   }
 }
